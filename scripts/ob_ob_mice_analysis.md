@@ -10,7 +10,7 @@ This was from combined weights over several measurements of Ob/Ob Mice on a C57B
 
 
 
-This data is taken from the file ``../data/raw/Ob_Ob Raw Weight Data.csv``.  This script was most recently run on ``Sat Mar 29 12:34:14 2014``.  This includes ``375`` fed body weight measurements from ``157`` different mice.
+This data is taken from the file ``../data/raw/Ob_Ob Raw Weight Data.csv``.  This script was most recently run on ``Sat Mar 29 12:51:10 2014``.  This includes ``347`` fed body weight measurements from ``153`` different mice.
 
 
 ```
@@ -47,12 +47,12 @@ Analysis by Age
 We segregated mice into groups of of adult mice (100-400 days) and calculated some basic statistics.
 
 <!-- html table generated in R 3.0.2 by xtable 1.7-1 package -->
-<!-- Sat Mar 29 12:34:19 2014 -->
+<!-- Sat Mar 29 12:51:15 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Summarized Data for Adult Mice </CAPTION>
 <TR> <TH> Background </TH> <TH> Genotype </TH> <TH> mean </TH> <TH> se </TH> <TH> sd </TH> <TH> rel.sd </TH> <TH> number </TH> <TH> age </TH>  </TR>
-  <TR> <TD> C57BL/6J </TD> <TD> +/+ </TD> <TD align="right"> 27.44 </TD> <TD align="right"> 0.59 </TD> <TD align="right"> 2.72 </TD> <TD align="right"> 9.93 </TD> <TD align="right">  21 </TD> <TD align="right"> 114.33 </TD> </TR>
-  <TR> <TD> C57BL/6J </TD> <TD> -/- </TD> <TD align="right"> 54.40 </TD> <TD align="right"> 0.97 </TD> <TD align="right"> 4.85 </TD> <TD align="right"> 8.91 </TD> <TD align="right">  25 </TD> <TD align="right"> 113.48 </TD> </TR>
+  <TR> <TD> C57BL/6J </TD> <TD> +/+ </TD> <TD align="right"> 27.73 </TD> <TD align="right"> 0.70 </TD> <TD align="right"> 2.90 </TD> <TD align="right"> 10.46 </TD> <TD align="right">  17 </TD> <TD align="right"> 116.41 </TD> </TR>
+  <TR> <TD> C57BL/6J </TD> <TD> -/- </TD> <TD align="right"> 55.66 </TD> <TD align="right"> 0.92 </TD> <TD align="right"> 4.20 </TD> <TD align="right"> 7.54 </TD> <TD align="right">  21 </TD> <TD align="right"> 115.00 </TD> </TR>
   <TR> <TD> C57BL/6J </TD> <TD> -/+ </TD> <TD align="right"> 25.80 </TD> <TD align="right"> 1.22 </TD> <TD align="right"> 4.06 </TD> <TD align="right"> 15.74 </TD> <TD align="right">  11 </TD> <TD align="right"> 106.27 </TD> </TR>
   <TR> <TD> C57BL/6J </TD> <TD> N.D. </TD> <TD align="right"> 22.37 </TD> <TD align="right"> 0.01 </TD> <TD align="right"> 0.01 </TD> <TD align="right"> 0.06 </TD> <TD align="right">   2 </TD> <TD align="right"> 122.00 </TD> </TR>
   <TR> <TD> BTBR </TD> <TD> +/+ </TD> <TD align="right"> 34.82 </TD> <TD align="right"> 0.91 </TD> <TD align="right"> 2.23 </TD> <TD align="right"> 6.40 </TD> <TD align="right">   6 </TD> <TD align="right"> 121.83 </TD> </TR>
@@ -69,7 +69,7 @@ We segregated mice into groups of of adult mice (100-400 days) and calculated so
 ```
 
 
-To summarise these data we generated a mixed linear model comparing the logarithm of the body weight to the genotype, background and age.  The logaritm fit the data much better than a linear effect (p=0).  Each of the other terms were also significant contributors to the model with removal of age (p=1.07 &times; 10<sup>-82</sup>``), genotype (p=2.87 &times; 10<sup>-28</sup>) or background strain (p=6.916 &times; 10<sup>-16</sup>) all having significantly worse models.  There was a significant interaction between genotype and age (p=9.38 &times; 10<sup>-11</sup>) and background and age (p=0.0131), so those terms are included as interactors.  Therefore the final model is:
+To summarise these data we generated a mixed linear model comparing the logarithm of the body weight to the genotype, background and age.  The logaritm fit the data much better than a linear effect (p=0).  Each of the other terms were also significant contributors to the model with removal of age (p=1.4534 &times; 10<sup>-74</sup>``), genotype (p=2.112 &times; 10<sup>-25</sup>) or background strain (p=9.5335 &times; 10<sup>-15</sup>) all having significantly worse models.  There was a significant interaction between genotype and age (p=9.071 &times; 10<sup>-10</sup>) and background and age (p=0.0184), so those terms are included as interactors.  Therefore the final model is:
 
 
 ```r
@@ -123,7 +123,7 @@ Fasting data is taken from ../data/raw/Ob_Ob Raw Weight Data Fasting.csv.
 To determine whether the fasting data has a normal distribution we did Shapiro-Wilk tests on each of the groups:
 
 <!-- html table generated in R 3.0.2 by xtable 1.7-1 package -->
-<!-- Sat Mar 29 12:34:28 2014 -->
+<!-- Sat Mar 29 12:51:24 2014 -->
 <TABLE border=1>
 <TR> <TH>  </TH> <TH> Day70 </TH> <TH> Day120 </TH>  </TR>
   <TR> <TD align="right"> BTBR +/+ </TD> <TD align="right">  </TD> <TD align="right"> 0.22 </TD> </TR>

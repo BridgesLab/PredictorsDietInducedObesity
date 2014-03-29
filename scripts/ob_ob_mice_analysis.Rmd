@@ -11,9 +11,9 @@ This was from combined weights over several measurements of Ob/Ob Mice on a C57B
 #these four lines are just to get the data from the database
 #raw_filename <- "../data/raw_data.csv"
 #download.file("http://bridgeslab.uthsc.edu/mousedb/experiment/data/all.csv",destfile=raw_filename, method='curl')
-#data <- read.csv(raw_filename, header=T)
-#data <- subset(data, Strain=="ob/ob"&Feeding=="fed"&Assay=="Body Weight")
-#fasting_data <- subset(data, Strain=="ob/ob"&Feeding=="fasted"&Assay=="Body Weight")
+#all_data <- read.csv(raw_filename, header=T)
+#data <- subset(all_data, Strain=="ob/ob"&Feeding=="fed"&Assay=="Body Weight"&Treatment=='[]')
+#fasting_data <- subset(all_data, Strain=="ob/ob"&Feeding=="fasted"&Assay=="Body Weight"&Treatment=='[]')
 export_file = "../data/raw/Ob_Ob Raw Weight Data.csv"
 export_file_fasting = "../data/raw/Ob_Ob Raw Weight Data Fasting.csv"
 #write.csv(data, file=export_file)
