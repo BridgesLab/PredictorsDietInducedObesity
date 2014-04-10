@@ -4,7 +4,7 @@ Food Intake for High Fat Diet Mice
 
 
 
-This script examines the combined food intake for the high fat diet cohorts.  It analyses the data present in the ../data/raw/hfd_food_intake.csv file.  This script was most recently run on Thu Apr 10 10:48:30 2014.  
+This script examines the combined food intake for the high fat diet cohorts.  It analyses the data present in the ../data/raw/hfd_food_intake.csv file.  This script was most recently run on Thu Apr 10 11:07:22 2014.  
 
 
 
@@ -31,7 +31,7 @@ To test for the effect of diet, we compared a model with a diet term to a model 
 To test between groups, we did a Dunnet's test comparing diets in the linear mixed effects model.  There were significant differences between both Control Diet and Normal Chow Diet when compared to the High Fat Diet, in all cases with High Fat Diet eating less calorically and in absolute terms.  The results of the mixed effects model are shown below.  The root mean square error of these model are **0.361g** or **NA\%** for absolute food intake or **1.574g** or **NA** for caloric intake.
 
 <!-- html table generated in R 3.0.2 by xtable 1.7-3 package -->
-<!-- Thu Apr 10 10:48:33 2014 -->
+<!-- Thu Apr 10 11:07:26 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Coefficients for Selected Mixed Effects Model for Food Intake </CAPTION>
 <TR> <TH>  </TH> <TH> Absolute </TH> <TH> Caloric </TH>  </TR>
@@ -42,14 +42,14 @@ To test between groups, we did a Dunnet's test comparing diets in the linear mix
    <A NAME=tab:food-nlme-coefficients></A>
 </TABLE>
 <!-- html table generated in R 3.0.2 by xtable 1.7-3 package -->
-<!-- Thu Apr 10 10:48:33 2014 -->
+<!-- Thu Apr 10 11:07:26 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Results of Mixed Effects Linear Models of Food Intake </CAPTION>
 <TR> <TH> Comparason </TH> <TH> Diet </TH> <TH> Coefficients </TH> <TH> P.Values </TH>  </TR>
-  <TR> <TD> Control Diet - High Fat Diet </TD> <TD> Absolute </TD> <TD align="right"> 0.489 </TD> <TD align="right"> 0.000028 </TD> </TR>
-  <TR> <TD> Normal Chow Diet - High Fat Diet </TD> <TD> Absolute </TD> <TD align="right"> 1.095 </TD> <TD align="right"> 0.000000 </TD> </TR>
-  <TR> <TD> Control Diet - High Fat Diet </TD> <TD> Caloric </TD> <TD align="right"> -0.805 </TD> <TD align="right"> 0.184971 </TD> </TR>
-  <TR> <TD> Normal Chow Diet - High Fat Diet </TD> <TD> Caloric </TD> <TD align="right"> 2.437 </TD> <TD align="right"> 0.000174 </TD> </TR>
+  <TR> <TD> Normal Chow Diet - High Fat Diet </TD> <TD> Absolute </TD> <TD align="right"> 0.489 </TD> <TD align="right"> 0.000028 </TD> </TR>
+  <TR> <TD> Control Diet - High Fat Diet </TD> <TD> Absolute </TD> <TD align="right"> 1.095 </TD> <TD align="right"> 0.000000 </TD> </TR>
+  <TR> <TD> Normal Chow Diet - High Fat Diet </TD> <TD> Caloric </TD> <TD align="right"> -0.805 </TD> <TD align="right"> 0.184971 </TD> </TR>
+  <TR> <TD> Control Diet - High Fat Diet </TD> <TD> Caloric </TD> <TD align="right"> 2.437 </TD> <TD align="right"> 0.000174 </TD> </TR>
    <A NAME=tab:food-intake-statistics></A>
 </TABLE>
 
@@ -85,7 +85,7 @@ See below for the food intake by calories and and by mass.
 
 
 <!-- html table generated in R 3.0.2 by xtable 1.7-3 package -->
-<!-- Thu Apr 10 10:48:34 2014 -->
+<!-- Thu Apr 10 11:07:27 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Average Food Intake Per Week by Diet </CAPTION>
 <TR> <TH>  </TH> <TH> value </TH> <TH> High Fat Diet </TH> <TH> Normal Chow Diet </TH> <TH> Control Diet </TH>  </TR>
