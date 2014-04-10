@@ -1,0 +1,114 @@
+Food Intake for High Fat Diet Mice
+========================================================
+
+```{r input-file, echo=FALSE}
+food_intake_file <- '../data/raw/hfd_food_intake.csv'
+```
+
+This script examines the combined food intake for the high fat diet cohorts.  It analyses the data present in the `r food_intake_file` file.  This script was most recently run on `r date()`.  
+
+```{r data-entry, echo=FALSE}
+data <- read.csv(food_intake_file, row.names="X")
+data$Caloric <- rep(NA, dim(data)[1])
+for (row in rownames(data)) {
+  if (data[row,"Diet"] == "High Fat Diet") {
+      data[row,'Caloric'] <- data[row,]$Food.Per.Week * 4.73 }
+  else if (data[row,"Diet"] == "Control Diet" ) {
+      data[row,'Caloric'] <- data[row,]$Food.Per.Week * 3.85 }
+  else 
+      data[row,'Caloric'] <- data[row,]$Food.Per.Week * 4.07
+}
+```
+
+Food Intake
+-------------
+
+Food was monitored biweekly at the cage level. The raw data is as food per week per mouse. 
+
+Food Intake Statistics
+-----------------------
+
+We used mixed effects linear models to examine food intake.  The first question we asked was whether food intake changed over time.
+
+```{r food-intake-statistics, echo=FALSE, message=FALSE}
+data$Diet <- relevel(data$Diet, ref="High Fat Diet")
+
+library(lme4)
+library(multcomp)
+caloric.nlme.fit.no.week <- lmer(Caloric~Diet + (1|Cage), data=data)
+caloric.nlme.fit.no.diet <- lmer(Caloric~Week + (1|Cage), data=data)
+caloric.nlme.fit <- lmer(Caloric~Week + Diet + (1|Cage), data=data)
+caloric.nlme.fit.interaction <- lmer(Caloric~Week * Diet + (1|Cage), data=data)
+caloric.nlme.glht <- glht(caloric.nlme.fit, linfct=mcp(Diet="Dunnett"))
+
+abs.nlme.fit <- lmer(Food.Per.Week~ Week + Diet + (1|Cage), data=data)
+abs.nlme.fit.no.diet <- lmer(Food.Per.Week~ Week + (1|Cage), data=data)
+abs.nlme.fit.no.week <- lmer(Food.Per.Week~Diet + (1|Cage), data=data)
+abs.nlme.fit.interaction <- lmer(Food.Per.Week~Week * Diet + (1|Cage), data=data)
+abs.nlme.glht <- glht(abs.nlme.fit, linfct=mcp(Diet="Dunnett"))
+
+glht.table <- data.frame(Comparason = rep(names(summary(abs.nlme.glht)$test$coefficients[1:2]),2),
+                         Diet = c(rep("Absolute",2),rep("Caloric",2)),
+                         Coefficients=c(summary(abs.nlme.glht)$test$coefficients[1:2],
+                                        summary(caloric.nlme.glht)$test$coefficients[1:2]),
+                         P.Values=c(summary(abs.nlme.glht)$test$pvalues[1:2],
+                                    summary(caloric.nlme.glht)$test$pvalues[1:2])
+                         )
+```
+
+After accounting for the Diet, there was a significant effect of the week on the food intake both in terms of calories (p=`r round(anova(caloric.nlme.fit, caloric.nlme.fit.no.week)$"Pr(>Chisq)"[2], 5)`) and in terms of grams (p=`r round(anova(abs.nlme.fit, abs.nlme.fit.no.week)$"Pr(>Chisq)"[2], 5)`).  The effect was that mice ate `r round(fixef(caloric.nlme.fit)[2],3)`kcal/week or `r round(fixef(abs.nlme.fit)[2],3)`g/week, or less per week. 
+
+There was no significant interaction between diet and the week (p=`r round(anova(caloric.nlme.fit, caloric.nlme.fit.interaction)$"Pr(>Chisq)"[2], 3)` calorically and p=`r round(anova(abs.nlme.fit, abs.nlme.fit.interaction)$"Pr(>Chisq)"[2], 3)` in terms of grams). This means that the mice on average eat less, no matter what the diet is.  We therefore corrected for that effect first, prior to comparing dietary manipulations.  The model coefficients for these are below
+
+To test for the effect of diet, we compared a model with a diet term to a model without a diet term, in both cases were statistically significant (p=`r round(anova(abs.nlme.fit, abs.nlme.fit.no.diet)$"Pr(>Chisq)"[2], 11)` for absolute food intake and p=`r round(anova(caloric.nlme.fit, caloric.nlme.fit.no.diet)$"Pr(>Chisq)"[2], 6)` for caloric intake).  
+
+To test between groups, we did a Dunnet's test comparing diets in the linear mixed effects model.  There were significant differences between both Control Diet and Normal Chow Diet when compared to the High Fat Diet, in all cases with High Fat Diet eating less calorically and in absolute terms.  The results of the mixed effects model are shown below.  The root mean square error of these model are **`r round(sigma(abs.nlme.fit),3)`g** or **`r round(sigma(abs.nlme.fit)/mean(fitted(summary(abs.nlme.fit)))*100,2)`\%** for absolute food intake or **`r round(sigma(caloric.nlme.fit),3)`g** or **`r round(sigma(caloric.nlme.fit)/mean(fitted(summary(caloric.nlme.fit)))*100,2)`** for caloric intake.
+
+```{r stats-tables, results='asis', echo=FALSE}
+library(xtable)
+print(xtable(data.frame(Absolute=fixef(abs.nlme.fit), Caloric=fixef(caloric.nlme.fit)), caption = "Coefficients for Selected Mixed Effects Model for Food Intake", label = "tab:food-nlme-coefficients", digits=4), type='html')
+print(xtable(glht.table, caption = "Results of Mixed Effects Linear Models of Food Intake", label = "tab:food-intake-statistics", digits=c(0,0,0,3,6)),include.rownames=F, type='html')
+```
+
+
+Food Intake Graphs
+---------------------
+
+See below for the food intake by calories and and by mass.
+
+
+```{r food-coloric-weekly,echo=FALSE, message=FALSE}
+library(plyr)
+levels(data$Diet) <- levels(data$Diet)[c(1,3,2)]
+require(ggplot2)
+caloric <- ggplot(data, aes(Week, Caloric))
+caloric.means <- ddply(data, Week~Diet, summarise, Caloric = mean(Caloric))#this is a workaround due to a bug in plyr 1.8
+caloric.plot <- caloric + geom_point(aes(color=Diet))  + stat_smooth(method="loess", se=FALSE, aes(group=Diet, col=Diet)) + ylab("Food Intake (kcal/mouse/day)") + ylim(0,max(data$Caloric))
+caloric.plot
+```
+
+
+```{r food-abs-weekly,echo=FALSE}
+c <- ggplot(data, aes(Week, Food.Per.Week))
+normalized.means <- ddply(data, Week~Diet, summarise, Food.Per.Week = mean(Food.Per.Week))#this is a workaround due to a bug in plyr 1.8
+abs.plot <- c + geom_point(aes(color=Diet)) + ylim(0,max(data$Food.Per.Week)) + stat_smooth(method="loess", se=FALSE, aes(group=Diet, col=Diet)) + ylab("Food Intake (g/mouse/day)") #this is a workaround due to a bug in plyr 1.8
+abs.plot
+```
+
+```{r weekly-correlations,echo=FALSE, message=FALSE, results='asis'}
+library(reshape)
+food.summary <- rbind(cast(caloric.means, ~Diet, mean), cast(normalized.means, ~Diet, mean))
+rownames(food.summary) <- c("Caloric Intake", "Absolute Intake")
+```
+```{r data-tables, results='asis', echo=FALSE}
+print(xtable(food.summary, caption = "Average Food Intake Per Week by Diet", label = "tab:food-intake-summary"), type='html')
+```
+
+
+Session Information
+---------------------
+
+```{r session-info, echo=FALSE}
+sessionInfo()
+```
+
