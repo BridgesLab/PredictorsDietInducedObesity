@@ -83,7 +83,7 @@ levels(data$Diet) <- levels(data$Diet)[c(1,3,2)]
 require(ggplot2)
 caloric <- ggplot(data, aes(Week, Caloric))
 caloric.means <- ddply(data, Week~Diet, summarise, Caloric = mean(Caloric))#this is a workaround due to a bug in plyr 1.8
-caloric.plot <- caloric + geom_point(aes(color=Diet))  + stat_smooth(method="loess", se=FALSE, aes(group=Diet, col=Diet)) + ylab("Food Intake (kcal/mouse/day)") + ylim(0,max(data$Caloric))
+caloric.plot <- caloric + geom_point(aes(color=Diet))  + stat_smooth(method="loess", se=FALSE, aes(group=Diet, col=Diet)) + ylab("Food Intake (kcal/mouse/day)") + ylim(0,max(data$Caloric)) + theme(legend.position="top")
 caloric.plot
 ```
 
@@ -91,7 +91,7 @@ caloric.plot
 ```{r food-abs-weekly,echo=FALSE, dev=c('png','pdf')}
 c <- ggplot(data, aes(Week, Food.Per.Week))
 normalized.means <- ddply(data, Week~Diet, summarise, Food.Per.Week = mean(Food.Per.Week))#this is a workaround due to a bug in plyr 1.8
-abs.plot <- c + geom_point(aes(color=Diet)) + ylim(0,max(data$Food.Per.Week)) + stat_smooth(method="loess", se=FALSE, aes(group=Diet, col=Diet)) + ylab("Food Intake (g/mouse/day)") #this is a workaround due to a bug in plyr 1.8
+abs.plot <- c + geom_point(aes(color=Diet)) + ylim(0,max(data$Food.Per.Week)) + stat_smooth(method="loess", se=FALSE, aes(group=Diet, col=Diet)) + ylab("Food Intake (g/mouse/day)")+ theme(legend.position="top") #this is a workaround due to a bug in plyr 1.8
 abs.plot
 ```
 

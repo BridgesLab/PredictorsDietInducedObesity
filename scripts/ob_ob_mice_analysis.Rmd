@@ -24,8 +24,11 @@ data <- read.csv(export_file, row.names='X')
 #recalculated weight in grams
 data$Weight <- data$Value/1000
 
+#renamed levels
+levels(data$Genotype) <- c('ob/ob', 'ob/+', '+/+', 'N.D.')
+
 #set default level for genotype to be wt
-data$Genotype <- relevel(data$Genotype, ref="+/+")
+data$Genotype <- relevel(data$Genotype, ref="ob/ob")
 
 #set default level for background to be c57bl/6j
 data$Background <- relevel(data$Background, ref="C57BL/6J")
@@ -36,7 +39,13 @@ This data is taken from the file ```r export_file```.  This script was most rece
 ```{r scatter-plot-genotype, dev=c('pdf','png'), warning=FALSE, echo=FALSE}
 library(ggplot2)
 scatter <- ggplot(data, aes(x=Age, y=Weight)) 
-scatter.plot <- scatter + geom_point(aes(color=Genotype))  + scale_x_continuous(limits=c(0, max(data$Age)), name="Age (days)")  + scale_y_continuous(limits=c(0,max(data$Weight)), name="Body Weight (g)") + facet_grid(Background~Gender) + stat_smooth(aes(color=Genotype))
+scatter.plot <- scatter + geom_point(aes(color=Genotype))  + scale_x_continuous(limits=c(0, max(data$Age)), name="Age (days)")  + scale_y_continuous(limits=c(0,max(data$Weight)), name="Body Weight (g)") + facet_grid(Background~Gender) + stat_smooth(aes(color=Genotype)) +theme(legend.position="top")
+print(scatter.plot)
+```
+
+```{r scatter-plot-genotype-homozygotes, dev=c('pdf','png'), warning=FALSE, echo=FALSE}
+scatter <- ggplot(subset(data, Gender=="M"&Genotype%in%c('+/+','ob/ob')), aes(x=Age, y=Weight)) 
+scatter.plot <- scatter + geom_point(aes(color=Genotype))  + scale_x_continuous(limits=c(0, 120), name="Age (days)")  + scale_y_continuous(limits=c(0,65), name="Body Weight (g)") + facet_grid(.~Background) + stat_smooth(aes(color=Genotype), se=F,method='loess') + theme(legend.position="top")
 print(scatter.plot)
 ```
 
@@ -125,19 +134,23 @@ To examine the variation in weight gain between wild-type and knockout mice we g
 
 ```{r ob-variation, echo=FALSE}
 c57.f.test <- var.test(
-  subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='C57BL/6J'&Feeding=='fed')$Weight,
+  subset(data, Age>110&Age<130&Genotype=='ob/ob'&Background=='C57BL/6J'&Feeding=='fed')$Weight,
   subset(data, Age>110&Age<130&Genotype=='+/+'&Background=='C57BL/6J'&Feeding=='fed')$Weight)
 
-btbr.f.test <- var.test(
-  subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='BTBR'&Feeding=='fed')$Weight,
-  subset(data, Age>110&Age<130&Genotype=='+/+'&Background=='BTBR'&Feeding=='fed')$Weight)
+#tried brown-forsythe test which is more robust
+library(lawstat)
+c57.bf.test <- with(subset(data, Age>110&Age<130&Background=='C57BL/6J'&Feeding=='fed'),
+                    levene.test(Weight,Genotype,location="median"))
+
+btbr.bf.test <- with(subset(data, Age>110&Age<130&Background=='BTBR'&Feeding=='fed'),
+                    levene.test(Weight,Genotype,location="median"))
 ```
 
- To test whether these differences are statistically significant we did a F-test comparing the standard deviations of these groups.  Neither difference was statistically significant (p=`r round(c57.f.test$p.value, 3)` for C57BL/6J and p=`r round(btbr.f.test$p.value, 3)` for BTBR).
+ To test whether these differences are statistically significant we did a Browne-Forsythe test comparing the standard deviations of these groups.  Neither difference was statistically significant (p=`r round(c57.bf.test$p.value, 3)` for C57BL/6J and p=`r round(btbr.bf.test$p.value, 3)` for BTBR).
 
 ```{r ob-density,dev=c('png','pdf'),echo=FALSE}
 par(mfrow=c(1,2))
-with(subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='C57BL/6J'&Feeding=='fed'), plot(density(Weight), 
+with(subset(data, Age>110&Age<130&Genotype=='ob/ob'&Background=='C57BL/6J'&Feeding=='fed'), plot(density(Weight), 
                   xlim=c(0, max(Weight)),
                   xlab="Weight (g)",
                   ylim = c(0,0.20),
@@ -145,7 +158,7 @@ with(subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='C57BL/6J'&Feeding
 lines(density(subset(data, Age>110&Age<130&Genotype=='+/+'&Background=='C57BL/6J'&Feeding=='fed')$Weight), lty=2)
 legend('topleft', c("Wild-Type","ob/ob"), bty="n", lty=c(2,1))
 
-with(subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='BTBR'&Feeding=='fed'), plot(density(Weight), 
+with(subset(data, Age>110&Age<130&Genotype=='ob/ob'&Background=='BTBR'&Feeding=='fed'), plot(density(Weight), 
                   xlim=c(0, max(Weight)),
                   xlab="Weight (g)",
                   ylim = c(0,0.20),
@@ -154,7 +167,7 @@ lines(density(subset(data, Age>110&Age<130&Genotype=='+/+'&Background=='BTBR'&Fe
 ```
 
 ```{r ob-density-btbr,dev=c('png','pdf'),echo=FALSE}
-with(subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='BTBR'&Feeding=='fed'), plot(density(Weight), 
+with(subset(data, Age>110&Age<130&Genotype=='ob/ob'&Background=='BTBR'&Feeding=='fed'), plot(density(Weight), 
                   xlim=c(0, max(Weight)),
                   xlab="Weight (g)",
                   ylim = c(0,0.20),
@@ -163,7 +176,7 @@ lines(density(subset(data, Age>110&Age<130&Genotype=='+/+'&Background=='BTBR'&Fe
 ```
 
 ```{r ob-density-c57bl6j,dev=c('png','pdf'),echo=FALSE}
-with(subset(data, Age>110&Age<130&Genotype=='-/-'&Background=='C57BL/6J'&Feeding=='fed'), plot(density(Weight), 
+with(subset(data, Age>110&Age<130&Genotype=='ob/ob'&Background=='C57BL/6J'&Feeding=='fed'), plot(density(Weight), 
                   xlim=c(0, max(Weight)),
                   xlab="Weight (g)",
                   ylim = c(0,0.20),
@@ -173,7 +186,7 @@ legend('topleft', c("Wild-Type","ob/ob"), bty="n", lty=c(2,1))
 ```
 
 ```{r ob-sd,dev=c('png','pdf'),echo=FALSE}
-useful.summary.adult <- droplevels(subset(summary.adult, Genotype %in% c('+/+','-/-')))
+useful.summary.adult <- droplevels(subset(summary.adult, Genotype %in% c('+/+','ob/ob')))
 barplot(useful.summary.adult$sd, las=1, 
         names.arg=useful.summary.adult$Genotype,
         ylab="Standard Deviation (g)",
@@ -203,28 +216,28 @@ fasted.combined.data <- combined.data[(combined.data$Age.x - combined.data$Age.y
 fasted.combined.data$Loss <- fasted.combined.data$Weight.y - fasted.combined.data$Weight.x
 fasted.combined.data$Loss.pct <- fasted.combined.data$Loss/fasted.combined.data$Weight.y*100
 
-fasted.combined.data <- droplevels(subset(fasted.combined.data, Genotype.x %in% c('+/+','-/-')))
+fasted.combined.data <- droplevels(subset(fasted.combined.data, Genotype.y %in% c('+/+','ob/ob')))
 
 shapiro.tests.fasting <- data.frame(
-  row.names=c("BTBR +/+", "BTBR -/-", "C57BL/6J +/+", "C57BL/6J -/-"),
+  row.names=c("BTBR +/+", "BTBR ob/ob", "C57BL/6J +/+", "C57BL/6J ob/ob"),
   Day70 = rep(NA, 4),
   Day120 = rep(NA, 4))
 
-shapiro.tests.fasting['C57BL/6J +/+','Day70'] <- with(subset(fasted.combined.data, Genotype.x=="+/+"&Background.x=="C57BL/6J"&Age.x>68&Age.x<73), shapiro.test(Loss)$p.value)
-shapiro.tests.fasting['C57BL/6J -/-','Day70'] <- with(subset(fasted.combined.data, Genotype.x=="-/-"&Background.x=="C57BL/6J"&Age.x>68&Age.x<73), shapiro.test(Loss)$p.value)
-shapiro.tests.fasting['C57BL/6J +/+','Day120'] <- with(subset(fasted.combined.data, Genotype.x=="+/+"&Background.x=="C57BL/6J"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
-shapiro.tests.fasting['C57BL/6J -/-','Day120'] <- with(subset(fasted.combined.data, Genotype.x=="-/-"&Background.x=="C57BL/6J"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
-shapiro.tests.fasting['BTBR +/+','Day120'] <- with(subset(fasted.combined.data, Genotype.x=="+/+"&Background.x=="BTBR"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
-shapiro.tests.fasting['BTBR -/-','Day120'] <- with(subset(fasted.combined.data, Genotype.x=="-/-"&Background.x=="BTBR"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
+shapiro.tests.fasting['C57BL/6J +/+','Day70'] <- with(subset(fasted.combined.data, Genotype.y=="+/+"&Background.x=="C57BL/6J"&Age.x>65&Age.x<75), shapiro.test(Loss)$p.value)
+shapiro.tests.fasting['C57BL/6J ob/ob','Day70'] <- with(subset(fasted.combined.data, Genotype.y=="ob/ob"&Background.x=="C57BL/6J"&Age.x>65&Age.x<75), shapiro.test(Loss)$p.value)
+shapiro.tests.fasting['C57BL/6J +/+','Day120'] <- with(subset(fasted.combined.data, Genotype.y=="+/+"&Background.x=="C57BL/6J"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
+shapiro.tests.fasting['C57BL/6J ob/ob','Day120'] <- with(subset(fasted.combined.data, Genotype.y=="ob/ob"&Background.x=="C57BL/6J"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
+shapiro.tests.fasting['BTBR +/+','Day120'] <- with(subset(fasted.combined.data, Genotype.y=="+/+"&Background.x=="BTBR"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
+shapiro.tests.fasting['BTBR ob/ob','Day120'] <- with(subset(fasted.combined.data, Genotype.y=="ob/ob"&Background.x=="BTBR"&Age.x>115&Age.x<125), shapiro.test(Loss)$p.value)
 ```
 
-To determine whether the fasting data has a normal distribution we did Shapiro-Wilk tests on each of the groups:
+To determine whether the fasting data has a normal distribution we did Shapiro-Wilk tests on each of the groups.  Based on this we did wilcoxon-rank sum tests on these groups.
 
 ```{r shapiro-tests, results='asis', echo=FALSE}
 print(xtable(shapiro.tests.fasting), type='html')
 ```
 
-First we tested whether there was an effect of genotype on the fasting response at approximately 10 weeks of age.  The t-test between wild-type and knockouts having different absolute fasting induced weight loss is `r round(t.test(Loss ~ Genotype.x, data = subset(fasted.combined.data, Age.x>68&Age.x<73&Genotype.x!='N.D.'&Genotype.x!='-/+'))$p.value,4)` and for percent weight loss is `r round(t.test(Loss.pct ~ Genotype.x, data = subset(fasted.combined.data, Age.x>68&Age.x<73&Genotype.x!='N.D.'&Genotype.x!='-/+'))$p.value,4)`.  These data are graphed below
+First we tested whether there was an effect of genotype on the fasting response at approximately 10 weeks of age.  The t-test between wild-type and knockouts having different absolute fasting induced weight loss is `r round(wilcox.test(Loss ~ Genotype.x, data = subset(fasted.combined.data, Age.x>68&Age.x<73&Genotype.x!='N.D.'&Genotype.x!='-/+'))$p.value,4)` and for percent weight loss is `r round(wilcox.test(Loss.pct ~ Genotype.x, data = subset(fasted.combined.data, Age.x>68&Age.x<73&Genotype.x!='N.D.'&Genotype.x!='-/+'))$p.value,4)`.  These data are graphed below
 
 ```{r weight-loss,dev=c('png','pdf'),echo=FALSE, message=FALSE}
 require(reshape2)
@@ -250,7 +263,18 @@ plot <- barplot(loss.mean, las=1, ylab="Fasting Weight Loss (%)", ylim=c(0,ymax)
 superpose.eb(plot, loss.mean, loss.se)
 ```
 
-At approximately 120 days of age for C57BL/6J, the t-test between wild-type and knockouts having different absolute fasting induced weight loss is `r round(t.test(Loss ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="C57BL/6J"))$p.value,4)` and for percent weight loss is `r round(t.test(Loss.pct ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="C57BL/6J"))$p.value,4)`.  For BTBR, the t-test between wild-type and knockouts having different absolute fasting induced weight loss is `r round(t.test(Loss ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="BTBR"))$p.value,4)` and for percent weight loss is `r round(t.test(Loss.pct ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="BTBR"))$p.value,4)`.  These data are graphed below.
+```{r weight-loss-70d,dev=c('png','pdf'),echo=FALSE}
+loss.mean <- as.matrix(dcast(subset(fasted.combined.data,  Age.x>68&Age.x<73&Genotype.y!='N.D.'), Genotype.y~Background.y, mean, value.var="Loss")[1:2,2])
+loss.se <- as.matrix(dcast(subset(fasted.combined.data,  Age.x>68&Age.x<73&Genotype.y!='N.D.'), Genotype.y~Background.x, se, value.var="Loss")[1:2,2])
+
+ymax <- max(loss.mean+loss.se, na.rm=T)
+plot <- barplot(loss.mean, las=1, ylab="Fasting Weight Loss (g)", 
+                beside=2, ylim=c(0,ymax), main="120 Day Old Mice")
+superpose.eb(plot, loss.mean, loss.se)
+legend("topright",levels(fasted.combined.data$Genotype.x), fill=grey.colors(2), bty="n")
+```
+
+At approximately 120 days of age for C57BL/6J, the Wilcoxon between wild-type and knockouts having different absolute fasting induced weight loss is `r round(wilcox.test(Loss ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="C57BL/6J"))$p.value,4)` and for percent weight loss is `r round(wilcox.test(Loss.pct ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="C57BL/6J"))$p.value,4)`.  For BTBR, the t-test between wild-type and knockouts having different absolute fasting induced weight loss is `r round(wilcox.test(Loss ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="BTBR"))$p.value,4)` and for percent weight loss is `r round(wilcox.test(Loss.pct ~ Genotype.x, data = subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'&Genotype.x!='-/+'&Background.x=="BTBR"))$p.value,4)`.  These data are graphed below.
 
 ```{r weight-loss-120d,dev=c('png','pdf'),echo=FALSE}
 loss.mean <- as.matrix(dcast(subset(fasted.combined.data, Age.x>115&Age.x<125&Genotype.x!='N.D.'), Genotype.x~Background.x, mean, value.var="Loss")[1:2,2:3])
