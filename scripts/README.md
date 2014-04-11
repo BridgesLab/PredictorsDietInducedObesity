@@ -33,8 +33,8 @@ Figure 4B | |
 Supplementary Figure 1A | NA | NA
 Supplementary Figure 1B | |
 Supplementary Figure 1C | |
-Supplementary Figure 1D | |
-Supplementary Figure 1E | |
+Supplementary Figure 1D | hfd_food_intake.Rmd | figures/food-abs-weekly.pdf
+Supplementary Figure 1E | hfd_food_intake.Rmd | figures/food-caloric-weekly.pdf
 Supplementary Figure 2A | |
 Supplementary Figure 2B | |
 Supplementary Figure 3A | |
