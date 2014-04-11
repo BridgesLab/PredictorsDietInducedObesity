@@ -1,7 +1,7 @@
 Data Analysis Code
 ===================
 
-These analyses were all run using R within its IDE RSTudio.  These can be obtained from the following locations:
+These analyses were all run using R within its IDE RStudio.  These can be obtained from the following locations:
 
 * **R**: http://cran.us.r-project.org/
 * **RStudio**: https://www.rstudio.com/ide/download/
