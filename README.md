@@ -5,6 +5,14 @@ This repository contains code and manuscripts for a project in the lab relating 
 
 This PredictorsDietInducedObesity data is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0. - See more at: http://opendatacommons.org/licenses/by/#sthash.PVeWmN1l.dpuf.  For more information see the LICENSE.txt file in this directory.
 
+<!-- Open Data Link -->
+<a href="http://opendefinition.org/">
+  <img alt="This material is Open Data" border="0"
+  src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" />
+</a>
+<!-- /Open Data Link -->
+
+
 
 Raw Data
 ----------
