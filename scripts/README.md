@@ -22,14 +22,14 @@ Figure 1D | |
 Figure 2A | |
 Figure 2B | |
 Figure 2C | |
-Figure 3A | | 
-Figure 3B | |
+Figure 3A | fasting_effects.Rmd | hfd-weight-loss-pct.pdf
+Figure 3B | fasting_effects.Rmd | fasting-loss-plot-pct.pdf
 Figure 3C | |
 Figure 3D | | 
 Figure 3E | |
 Figure 3F | |
-Figure 4A | |
-Figure 4B | |
+Figure 4A | fasting_effects.Rmd | gain-plot-pct.pdf
+Figure 4B | fasting_effects.Rmd | gain-plot.pdf
 Supplementary Figure 1A | NA | NA
 Supplementary Figure 1B | |
 Supplementary Figure 1C | |
