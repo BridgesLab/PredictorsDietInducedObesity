@@ -22,7 +22,7 @@ Figure 1D | |
 Figure 2A | |
 Figure 2B | |
 Figure 2C | |
-Figure 3A | fasting_effects.Rmd | hfd-weight-loss-pct.pdf
+Figure 3A | fasting_effects.Rmd | ncd-fasting-response.pdf
 Figure 3B | fasting_effects.Rmd | fasting-loss-plot-pct.pdf
 Figure 3C | |
 Figure 3D | | 

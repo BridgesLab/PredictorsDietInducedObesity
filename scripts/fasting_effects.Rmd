@@ -106,7 +106,7 @@ print(xtable(loss.lm, caption = "Linear Models for Fasting Induced Weight Loss f
 print(xtable(loss.pct.lm, caption = "Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet", label = "tab:lm-loss-pct"), type="html")
 ```
 
-```{r hfd-weight-loss, echo=FALSE, dev=c('png','pdf')}
+```{r ncd-fasting-response, echo=FALSE, dev=c('png','pdf')}
 with(weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], plot(Age, Loss, 
                        pch=19,
                        cex=0.5,
@@ -117,7 +117,7 @@ with(weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], plot(Age
 abline(loss.lm)
 ```
 
-```{r hfd-weight-loss-pct, echo=FALSE, dev=c('png','pdf')}
+```{r ncd-fasting-response-pct, echo=FALSE, dev=c('png','pdf')}
 with(weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], plot(Age, Loss.pct, 
                        pch=19,
                        cex=0.5,
