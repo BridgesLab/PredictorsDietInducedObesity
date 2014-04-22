@@ -7,7 +7,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Sun Apr 20 10:08:16 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Apr 22 08:48:18 2014
 
 Analysis
 ----------
@@ -23,7 +23,7 @@ We tested whether there was a trend towards weight loss or percentage weight los
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -32,7 +32,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -54,44 +54,44 @@ Longitudinal Analysis of Fasting Induced Weight Loss
 
 
 
-We next tested whether weight loss pre-diet has any effect on weight loss later on.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight loss post-diet (r=0.406, R2=0.165, p=1.0428 &times; 10<sup>-4</sup>) but not absolute weight loss (r=0.249, R2=0.062, p=0.021).  These data are graphed below.
+We next tested whether weight loss pre-diet has any effect on weight loss later on.  This used the data file ../data/processed/fasting_weights_file.csv.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight loss post-diet (r=0.119, R2=0.014, p=0.2877) but not absolute weight loss (r=0.096, R2=0.009, p=0.388).  These data are graphed below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Model for The Role of Early Fasting Induced Weight Loss Compared to Late Fasting Induced Weight Loss </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 1.4660 </TD> <TD align="right"> 0.2800 </TD> <TD align="right"> 5.24 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 0.1618 </TD> <TD align="right"> 0.0920 </TD> <TD align="right"> 1.76 </TD> <TD align="right"> 0.0825 </TD> </TR>
-  <TR> <TD align="right"> Early </TD> <TD align="right"> 0.2278 </TD> <TD align="right"> 0.0862 </TD> <TD align="right"> 2.64 </TD> <TD align="right"> 0.0098 </TD> </TR>
+  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 2.0245 </TD> <TD align="right"> 0.3021 </TD> <TD align="right"> 6.70 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 0.0124 </TD> <TD align="right"> 0.1615 </TD> <TD align="right"> 0.08 </TD> <TD align="right"> 0.9388 </TD> </TR>
+  <TR> <TD align="right"> Early </TD> <TD align="right"> 0.0873 </TD> <TD align="right"> 0.1011 </TD> <TD align="right"> 0.86 </TD> <TD align="right"> 0.3909 </TD> </TR>
    <A NAME=tab:lm-fasting-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Model for The Role of Early Fasting Induced Percent Weight Loss Compared to Late Fasting Induced Percent Weight Loss </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 2.8166 </TD> <TD align="right"> 0.8029 </TD> <TD align="right"> 3.51 </TD> <TD align="right"> 0.0007 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> -0.4819 </TD> <TD align="right"> 0.2071 </TD> <TD align="right"> -2.33 </TD> <TD align="right"> 0.0224 </TD> </TR>
-  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> 0.2435 </TD> <TD align="right"> 0.0676 </TD> <TD align="right"> 3.61 </TD> <TD align="right"> 0.0005 </TD> </TR>
+  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 5.1703 </TD> <TD align="right"> 0.7218 </TD> <TD align="right"> 7.16 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> -0.8955 </TD> <TD align="right"> 0.3699 </TD> <TD align="right"> -2.42 </TD> <TD align="right"> 0.0178 </TD> </TR>
+  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> 0.0750 </TD> <TD align="right"> 0.0648 </TD> <TD align="right"> 1.16 </TD> <TD align="right"> 0.2503 </TD> </TR>
    <A NAME=tab:lm-fasting-loss-pct></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Model for The Role of Early Fasting Induced Percent Weight Loss Compared to Late Fasting Induced Percent Weight Loss Including Interaction Term </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> -0.3529 </TD> <TD align="right"> 1.3257 </TD> <TD align="right"> -0.27 </TD> <TD align="right"> 0.7907 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 4.1498 </TD> <TD align="right"> 1.5911 </TD> <TD align="right"> 2.61 </TD> <TD align="right"> 0.0108 </TD> </TR>
-  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> 0.5151 </TD> <TD align="right"> 0.1129 </TD> <TD align="right"> 4.56 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet:Early.pct </TD> <TD align="right"> -0.4041 </TD> <TD align="right"> 0.1377 </TD> <TD align="right"> -2.93 </TD> <TD align="right"> 0.0043 </TD> </TR>
+  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 5.4758 </TD> <TD align="right"> 0.8138 </TD> <TD align="right"> 6.73 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> -2.1867 </TD> <TD align="right"> 1.6187 </TD> <TD align="right"> -1.35 </TD> <TD align="right"> 0.1806 </TD> </TR>
+  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> 0.0452 </TD> <TD align="right"> 0.0744 </TD> <TD align="right"> 0.61 </TD> <TD align="right"> 0.5453 </TD> </TR>
+  <TR> <TD align="right"> TreatmentHigh Fat Diet:Early.pct </TD> <TD align="right"> 0.1247 </TD> <TD align="right"> 0.1522 </TD> <TD align="right"> 0.82 </TD> <TD align="right"> 0.4150 </TD> </TR>
    <A NAME=tab:lm-fasting-loss-pct-int></A>
 </TABLE>
 
 
-To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to late weight loss in absolute  or relative terms  .   These models had an R2 of 0.096 for absolute weight loss and 0.216 for percentage weight loss.  
+To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to late weight loss in absolute  or relative terms  .   These models had an R2 of 0.009 for absolute weight loss and 0.082 for percentage weight loss.  
 
-The only model that had a significant term was for percent weight loss.  For percent weight loss, was a significant interaction between the treatment and the early fasting induced weight loss (p=0.0043) on the late fasting induced weight loss.  In addition to this interaction term, both the dietary treatment (p=0.0108) and the pre-diet fasting response (p=1.7551 &times; 10<sup>-5</sup>) were highly significant.
+The only model that had a significant term was for percent weight loss.  For percent weight loss, was a significant interaction between the treatment and the early fasting induced weight loss (p=0.415) on the late fasting induced weight loss.  In addition to this interaction term, both the dietary treatment (p=0.1806) and the pre-diet fasting response (p=0.5453) were highly significant.
 
 ![plot of chunk fasting-loss-plot](figure/fasting-loss-plot.png) 
 
@@ -110,40 +110,37 @@ The only model that had a significant term was for percent weight loss.  For per
 Due to the stability in percent weight loss even without dietary manipulation, we wanted to test for associations between fasting induced-weight loss and their eventual weight gain during dietary manipulation.
 
 
-```
-## Warning: using the 86/88 rows from a combined fit
-```
 
 
-We next tested whether weight loss pre-diet has any effect on weight loss later on.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight gained during the diet (r=-0.516, R2=0.266, p=0) but not absolute weight loss (r=-0.452, R2=0.205, p=10<sup>-5</sup>).  These data are graphed below.
+We next tested whether weight loss pre-diet has any effect on weight loss later on.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight gained during the diet (r=-0.393, R2=0.154, p=2.63 &times; 10<sup>-4</sup>) but not absolute weight loss (r=-0.343, R2=0.118, p=0.0016).  These data are graphed below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear model for the role of early fasting induced weight loss compared to weight gain during diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 21.5104 </TD> <TD align="right"> 1.9203 </TD> <TD align="right"> 11.20 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 6.6204 </TD> <TD align="right"> 0.6313 </TD> <TD align="right"> 10.49 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> Early </TD> <TD align="right"> -3.0834 </TD> <TD align="right"> 0.5910 </TD> <TD align="right"> -5.22 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 17.2733 </TD> <TD align="right"> 1.1140 </TD> <TD align="right"> 15.51 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 6.9752 </TD> <TD align="right"> 0.5955 </TD> <TD align="right"> 11.71 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> Early </TD> <TD align="right"> -1.9392 </TD> <TD align="right"> 0.3729 </TD> <TD align="right"> -5.20 </TD> <TD align="right"> 0.0000 </TD> </TR>
    <A NAME=tab:lm-gain></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Apr 20 10:08:17 2014 -->
+<!-- Tue Apr 22 08:48:19 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear model for rhe role of early fasting induced percent weight loss compared to percent weight gain during dietary manipulation </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 101.1039 </TD> <TD align="right"> 10.1594 </TD> <TD align="right"> 9.95 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 24.2973 </TD> <TD align="right"> 2.6209 </TD> <TD align="right"> 9.27 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> -4.8923 </TD> <TD align="right"> 0.8548 </TD> <TD align="right"> -5.72 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 74.6960 </TD> <TD align="right"> 4.7958 </TD> <TD align="right"> 15.58 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 28.5840 </TD> <TD align="right"> 2.4578 </TD> <TD align="right"> 11.63 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> -2.8047 </TD> <TD align="right"> 0.4303 </TD> <TD align="right"> -6.52 </TD> <TD align="right"> 0.0000 </TD> </TR>
    <A NAME=tab:lm-gain-pct></A>
 </TABLE>
 
 
-To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to weight gain in absolute or relative terms.   These models had an adjusted R2 of 0.658 for absolute weight gain and 0.639 for percentage weight gain. There was no interaction between the treatment and the early fasting induced weight loss in either absolute (p=0.4) but there was an interaction in percent terms (p=0.352).
+To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to weight gain in absolute or relative terms.   These models had an adjusted R2 of 0.678 for absolute weight gain and 0.688 for percentage weight gain. There was no interaction between the treatment and the early fasting induced weight loss in either absolute (p=0.298) but there was an interaction in percent terms (p=0.013).
 
-Because of this, we separated out the diets and looked at correlations between weight gain on high fat diet on percent weight loss (r=-0.582, R2=0.338, p=1.4 &times; 10<sup>-5</sup>) and for control diet  (r=-0.34, R2=0.116, p=0.0367).  In terms of percentage weight gain (relative to percent pre-diet weight loss) we observed for high fat diet (r-0.591, R2=0.349, p=9.8929 &times; 10<sup>-6</sup>) and for control diet  (r=-0.41, R2=0.168, p=0.0105).
+Because of this, we separated out the diets and looked at correlations between weight gain on high fat diet on percent weight loss (r=-0.479, R2=0.23, p=5.71 &times; 10<sup>-4</sup>) and for control diet  (r=-0.569, R2=0.324, p=4.42 &times; 10<sup>-4</sup>).  In terms of percentage weight gain (relative to percent pre-diet weight loss) we observed for high fat diet (r-0.602, R2=0.362, p=6.0681 &times; 10<sup>-6</sup>) and for control diet  (r=-0.683, R2=0.466, p=8.6575 &times; 10<sup>-6</sup>).
 
-Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **1.14 &times; 10<sup>-7</sup>**.
+Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **4.9 &times; 10<sup>-9</sup>**.
 
 ![plot of chunk gain-plot](figure/gain-plot.png) 
 

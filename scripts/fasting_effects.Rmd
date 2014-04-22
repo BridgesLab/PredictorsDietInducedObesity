@@ -139,30 +139,32 @@ Longitudinal Analysis of Fasting Induced Weight Loss
 #      subset(before.fasting.data.b5, Assay == "Body Weight"),
 #      subset(after.fasting.data.b5, Assay == "Body Weight"))
 #write.csv(cohort5, '../data/raw/body_weights_file_cohort_5.csv')
-cohort5 <- read.csv('../data/raw/body_weights_file_cohort_5.csv', row.names='X')
+#cohort5 <- read.csv('../data/raw/body_weights_file_cohort_5.csv', row.names='X')
 #cohort6 <- rbind(
 #      subset(before.fasting.data.a6, Assay == "Body Weight"),
 #      subset(after.fasting.data.a6, Assay == "Body Weight"),
 #      subset(before.fasting.data.b6, Assay == "Body Weight"),
 #      subset(after.fasting.data.b6, Assay == "Body Weight"))
 #write.csv(cohort5, '../data/raw/body_weights_file_cohort_6.csv')
-cohort6 <- read.csv('../data/raw/body_weights_file_cohort_6.csv', row.names='X')
+#cohort6 <- read.csv('../data/raw/body_weights_file_cohort_6.csv', row.names='X')
 
 #rename the treatments into useful names
-levels(cohort5$Treatment) <- c(NA, "Control Diet",
-                               "High Fat Diet")
-levels(cohort6$Treatment) <- c(NA, "Control Diet",
-                               "High Fat Diet")
-cohort5$Weight <- cohort5$Values/1000
-cohort6$Weight <- cohort6$Values/1000
+#levels(cohort5$Treatment) <- c(NA, "Control Diet",
+#                               "High Fat Diet")
+#levels(cohort6$Treatment) <- c(NA, "Control Diet",
+#                               "High Fat Diet")
+#cohort5$Weight <- cohort5$Values/1000
+#cohort6$Weight <- cohort6$Values/1000
 
-cohort5.data <- cast(subset(cohort5, Animal!="C57BL/6J-EarTag #36"), Treatment+Animal~Age, value="Weight", mean)
-colnames(cohort5.data) <- c("Treatment","Animal", "Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted")
-cohort6.data <- cast(subset(cohort6, Animal!="C57BL/6J-EarTag #36"), Treatment+Animal~Age, value="Weight", mean)
-colnames(cohort6.data) <- c("Treatment","Animal", "Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted")
+#cohort5.data <- cast(subset(cohort5, Animal!="C57BL/6J-EarTag #36"), Treatment+Animal~Age, value="Weight", mean)
+#colnames(cohort5.data) <- c("Treatment","Animal", "Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted")
+#cohort6.data <- cast(subset(cohort6, Animal!="C57BL/6J-EarTag #36"), Treatment+Animal~Age, value="Weight", mean)
+#colnames(cohort6.data) <- c("Treatment","Animal", "Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted")
 
 #combine the two cohorts
-cohort5.6.data <- rbind(cohort5.data,cohort6.data)
+#cohort5.6.data <- rbind(cohort5.data,cohort6.data)
+fasting_data_file <- "../data/processed/fasting_weights_file.csv"
+cohort5.6.data <- read.csv(fasting_data_file, row.names="X")
 #calculated fasting induced weight loss
 cohort5.6.data$Early <- (cohort5.6.data$Early.Fed-cohort5.6.data$Early.Fasted)
 cohort5.6.data$Late <- (cohort5.6.data$Late.Fed-cohort5.6.data$Late.Fasted)
@@ -182,7 +184,7 @@ fasting.lm.pct <- lm(Late.pct~Treatment+Early.pct, data=cohort5.6.data)
 fasting.lm.pct.int <- lm(Late.pct~Treatment*Early.pct, data=cohort5.6.data)
 ```
 
-We next tested whether weight loss pre-diet has any effect on weight loss later on.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct$estimate,3)`, R2=`r round(fasting.cor.pct$estimate^2,3)`, p=`r round(fasting.cor.pct$p.value,20)`) but not absolute weight loss (r=`r round(fasting.cor.abs$estimate,3)`, R2=`r round(fasting.cor.abs$estimate^2,3)`, p=`r round(fasting.cor.abs$p.value,3)`).  These data are graphed below.
+We next tested whether weight loss pre-diet has any effect on weight loss later on.  This used the data file `r fasting_data_file`.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct$estimate,3)`, R2=`r round(fasting.cor.pct$estimate^2,3)`, p=`r round(fasting.cor.pct$p.value,20)`) but not absolute weight loss (r=`r round(fasting.cor.abs$estimate,3)`, R2=`r round(fasting.cor.abs$estimate^2,3)`, p=`r round(fasting.cor.abs$p.value,3)`).  These data are graphed below.
 
 ```{r lm-tables-gain,echo=FALSE,results='asis'}
 print(xtable(fasting.lm.abs, caption = "Linear Model for The Role of Early Fasting Induced Weight Loss Compared to Late Fasting Induced Weight Loss", label = "tab:lm-fasting-loss"), type="html")
@@ -250,7 +252,7 @@ legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, p
 
 Due to the stability in percent weight loss even without dietary manipulation, we wanted to test for associations between fasting induced-weight loss and their eventual weight gain during dietary manipulation.
 
-```{r linear-modeling-gain, echo=FALSE}
+```{r linear-modeling-gain, echo=FALSE, warning=FALSE}
 #calculated correlation coefficients
 gain.cor.abs <- with(cohort5.6.data, cor.test(Gain,Early))
 gain.cor.pct <- with(cohort5.6.data, cor.test(Gain.pct,Early.pct))
@@ -282,7 +284,7 @@ To account for the potential confounding effect of dietary treatment, we generat
 
 Because of this, we separated out the diets and looked at correlations between weight gain on high fat diet on percent weight loss (r=`r round(gain.cor.abs.hfd$estimate,3)`, R2=`r round(gain.cor.abs.hfd$estimate^2,3)`, p=`r round(gain.cor.abs.hfd$p.value,6)`) and for control diet  (r=`r round(gain.cor.abs.cd$estimate,3)`, R2=`r round(gain.cor.abs.cd$estimate^2,3)`, p=`r round(gain.cor.abs.cd$p.value,6)`).  In terms of percentage weight gain (relative to percent pre-diet weight loss) we observed for high fat diet (r`r round(gain.cor.pct.hfd$estimate,3)`, R2=`r round(gain.cor.pct.hfd$estimate^2,3)`, p=`r round(gain.cor.pct.hfd$p.value,10)`) and for control diet  (r=`r round(gain.cor.pct.cd$estimate,3)`, R2=`r round(gain.cor.pct.cd$estimate^2,3)`, p=`r round(gain.cor.pct.cd$p.value,10)`).
 
-Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **`r round(model.improvement,9)`**.
+Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **`r round(model.improvement,10)`**.
 
 ```{r gain-plot,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
 with(cohort5.6.data, plot(Early,Gain, col=Treatment, pch=19,
