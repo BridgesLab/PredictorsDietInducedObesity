@@ -19,7 +19,7 @@ Figure 1A | |
 Figure 1B | |
 Figure 1C | | 
 Figure 1D | |
-Figure 2A | |
+Figure 2A | post-diet-luminex-barplot.Rmd | figures/post-diet-luminex-barplot.pdf
 Figure 2B | |
 Figure 2C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
 Figure 3A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
