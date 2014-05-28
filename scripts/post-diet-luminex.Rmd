@@ -1,0 +1,168 @@
+
+Analysis of Serum Hormones from High Fat Diet Cohort 5
+=======================================================
+
+Summary
+---------
+
+Serum samples were taken from mice which were fasted for 16h, and in which some of them were refed for 6h.  These mice were 22 weeks old, after 12 weeks on HFD or CD.  
+
+```{r data-entry, echo=FALSE}
+#set palette
+library(RColorBrewer)
+palette(brewer.pal(3, "Set2")[c(3,2)])
+
+data_file <- "../data/raw/Post-Diet-Multiplex.csv"
+#this uses the median data
+data <- read.csv(data_file, skip=46, nrows=(130-46))
+useful.data <- data[,4:11] #removed extra rows
+rownames(useful.data) <- data$Sample
+
+
+data.blanked <- sweep(as.matrix(useful.data), 2, as.numeric(useful.data['Blank',]), "-")
+data.standards <- data.blanked[grepl("Standard", rownames(data.blanked)),]
+data.samples <- data.blanked[!(grepl("Standard", rownames(data.blanked))),]
+#remove unknown samples
+data.samples <- data.samples[!(grepl("Unknown", rownames(data.samples))),]
+#remove blanks
+data.samples <- data.samples[!(grepl("Blank", rownames(data.samples))),]
+#remove values under 200 which were the samples in cohort 5
+data.cohort.6 <- as.data.frame(data.samples[1:32,])
+rownames(data.cohort.6) <- as.integer(as.character((rownames(data.cohort.6))))
+
+#merged with mapping file
+mapping_file <- "../data/raw/mapping.csv" #includes Treatment and Feeding Status
+mapping <- read.csv(mapping_file)
+merged_data <- merge(data.cohort.6,mapping, by.x=0, by.y='X')
+```
+
+The raw data is in a file named `r data_file` and are mapped against the file in `r mapping_file`.  The mouse level data is in Table below:
+
+
+```{r data-tables,echo=FALSE,results='asis', message=FALSE}
+require(xtable)
+print(xtable(merged_data[order(merged_data$Feeding, merged_data$Treatment),], caption = "Mouse Level Data", label = "tab:animal-data"), include.rownames=F, type='html')
+```
+
+```{r statistics, echo=FALSE, message=FALSE}
+hormones.tested <- colnames(merged_data)[2:9]
+
+anova.summary <- data.frame(row.names=hormones.tested,
+                            Feeding = rep(NA, length(hormones.tested)),
+                            Treatment = rep(NA, length(hormones.tested)),
+                            Interaction = rep(NA, length(hormones.tested)))
+
+
+anova.summary['Resistin',] <- c(summary(aov(Resistin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['GIP',] <- c(summary(aov(GIP~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['PAI1',] <- c(summary(aov(PAI1~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['GLP1',] <- c(summary(aov(GLP1~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['Glucagon',] <- c(summary(aov(Glucagon~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['Ghrelin',] <- c(summary(aov(Ghrelin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['Leptin',] <- c(summary(aov(Leptin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+anova.summary['Insulin',] <- c(summary(aov(Insulin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+
+#removed hormones with interaction terms
+anova.summary.no.int <- data.frame(row.names=hormones.tested,
+     Feeding = rep(NA, length(hormones.tested)),
+     Treatment = rep(NA, length(hormones.tested)))
+
+
+anova.summary.no.int['Resistin',] <- c(summary(aov(Resistin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+anova.summary.no.int['GIP',] <- c(summary(aov(GIP~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+anova.summary.no.int['GLP1',] <- c(summary(aov(GLP1~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+anova.summary.no.int['Glucagon',] <- c(summary(aov(Glucagon~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+anova.summary.no.int['Ghrelin',] <- c(summary(aov(Ghrelin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+anova.summary.no.int['Insulin',] <- c(summary(aov(Insulin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+
+library(plyr)
+library(reshape2)
+melted.data <- melt(merged_data, variable.name='Hormone', value.name='Level')
+
+se <- function(x) sd(x, na.rm=T)/sqrt(length(x))
+
+summary <- ddply(melted.data, .(Hormone, Feeding,Treatment), summarise,
+                          Average = mean(Level),
+                          SD = sd(Level),
+                          SE = se(Level),
+                          N = length(Level))
+
+t.test.summary <- data.frame(row.names=hormones.tested,
+                             HFD.Fasted.Refed = rep(NA, length(hormones.tested)),
+                             CD.Fasted.Refed = rep(NA, length(hormones.tested)),
+                             Fasted.CDvHFD = rep(NA, length(hormones.tested)),
+                             Refed.CDvHFD = rep(NA, length(hormones.tested)))  
+
+melted.merged.data <- melt(merged_data)
+melted.merged.data$value <- as.numeric(as.character(melted.merged.data$value))
+
+for (hormone in hormones.tested) {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"), var.equal=T)$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"), var.equal=T)$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"), var.equal=T)$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"), var.equal=T)$p.value
+}
+```
+
+Summary
+--------
+
+These values are grouped by feeding status and diet and dhown below
+
+```{r summary-table, echo=FALSE, results='asis'}
+print(xtable(summary, caption = "Summary Values", label = "tab:summary"), type="html")
+```
+
+Statistics
+-------------
+
+
+We did ANOVA analyses, testing first for an effect of Feeding Status, then for Treatment then for an interaction between those factors.  The results of these ANOVAs are in Table below:
+
+```{r anova-tables,echo=FALSE,results='asis'}
+print(xtable(anova.summary, caption = "ANOVA Analyses, uncorrected", label = "tab:anova-summary", digits=4), type="html")
+```
+
+There was no significant interaction term for all hormones except `r rownames(anova.summary[anova.summary$Interaction<0.05,])`, so for those hormones the interaction term was dropped and the simplified non-interacting ANOVAs are in the Table below
+
+There was a statistically significant interaction detected between feeding status and treatment for PAI1 and Leptin.
+
+```{r anova-tables-2, echo=FALSE, results='asis'}
+print(xtable(anova.summary.no.int, caption = "ANOVA Analyses, uncorrected for hormones without an interaction term", label = "tab:anova-summary-no-interaction", digits=4), type="html")
+```
+
+For PAI1 refed animals the p-value from a t.test was `r t.test(PAI1~Treatment, data=subset(merged_data, Feeding=="Refed", var.equal=T))$p.value` for the refed condition.  For Leptin the p-value from a t.test was `r t.test(Leptin~Treatment, data=subset(merged_data, Feeding=="Fasted", var.equal=T))$p.value` for the refed condition.  For Insulin the p-value from a t.test was `r t.test(Insulin~Treatment, data=subset(merged_data, Feeding=="Fasted", var.equal=T))$p.value`.  The results of the t-tests are shown in the Table below:
+
+```{r t-tests, results='asis', echo=FALSE}
+print(xtable(t.test.summary, caption = "T-Tests with Equal Variance and Not Corrected for Multiple Observations", label = "tab:t-test-summary", digits=4), type="html")
+```
+
+```{r post-diet-luminex-barplot,dev=c('png','pdf'),echo=FALSE}
+superpose.eb <- function (x, y, ebl, ebu = ebl, length = 0.08, ...)
+  arrows(x, y + ebu, x, y - ebl, angle = 90, code = 3,
+  length = length, ...)
+par(mfrow=c(2,4))
+for (hormone in hormones.tested) {
+#calculate means and errors for this hormone
+summary.means <- dcast(subset(summary,Hormone == hormone), Treatment~Feeding, value.var="Average")
+summary.se <- dcast(subset(summary,Hormone == hormone), Treatment~Feeding, value.var="SE")
+#determine maximum y-axis
+ymax <- max(subset(summary,Hormone == hormone)$Average)+max(subset(summary,Hormone == hormone)$SE)
+#generate barplot
+plot <- barplot(as.matrix(summary.means[2:3]),
+        ylab="Serum Hormone Level (Arbitrary Units)",
+        las=2, cex.names=1,
+        beside=T,
+        col=palette(),
+        main = hormone,
+        ylim = c(0,ymax))
+
+superpose.eb(plot, as.matrix(summary.means[2:3]), as.matrix(summary.se[2:3]))
+}
+```
+
+Session Information
+---------------------
+```{r sessionInfo, echo=F}
+sessionInfo()
+```
