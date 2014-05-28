@@ -148,11 +148,11 @@ hr {
 
 <p>Serum samples were taken from mice which were fasted for 16h, and in which some of them were refed for 6h.  These mice were 22 weeks old, after 12 weeks on HFD or CD.  </p>
 
-<p>The raw data is in a file named ../data/raw/Post-Diet-Multiplex.csv and are mapped against the file in ../data/raw/mapping.csv.  The mouse level data is in Table below:</p>
+<p>The raw data is in a file named ../data/raw/Post-Diet-Multiplex.csv and are mapped against the file in ../data/raw/mapping.csv.  The mouse level data is in Table below, along with Shapiro-Wilk and Levene&#39;s tests:</p>
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Wed May 28 16:23:37 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
@@ -198,7 +198,7 @@ hr {
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Summary Values </CAPTION>
@@ -244,19 +244,19 @@ hr {
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected </CAPTION>
-<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Interaction </TH>  </TR>
-  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.1113 </TD> </TR>
-  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2701 </TD> <TD align="right"> 0.6655 </TD> <TD align="right"> 0.7413 </TD> </TR>
-  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.9168 </TD> <TD align="right"> 0.0280 </TD> </TR>
-  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0392 </TD> <TD align="right"> 0.3981 </TD> <TD align="right"> 0.6880 </TD> </TR>
-  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0874 </TD> <TD align="right"> 0.7512 </TD> <TD align="right"> 0.9565 </TD> </TR>
-  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0195 </TD> <TD align="right"> 0.0897 </TD> </TR>
-  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.2712 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.0142 </TD> </TR>
-  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1304 </TD> <TD align="right"> 0.3905 </TD> <TD align="right"> 0.3258 </TD> </TR>
+<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Interaction </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.1113 </TD> <TD align="right"> 0.7625 </TD> <TD align="right"> 0.8304 </TD> <TD> Student&rsquo;s T-Test </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2701 </TD> <TD align="right"> 0.6655 </TD> <TD align="right"> 0.7413 </TD> <TD align="right"> 0.0003 </TD> <TD align="right"> 0.2645 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.9168 </TD> <TD align="right"> 0.0280 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.7309 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0392 </TD> <TD align="right"> 0.3981 </TD> <TD align="right"> 0.6880 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.3385 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0874 </TD> <TD align="right"> 0.7512 </TD> <TD align="right"> 0.9565 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.6706 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0195 </TD> <TD align="right"> 0.0897 </TD> <TD align="right"> 0.0407 </TD> <TD align="right"> 0.0142 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.2712 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.0142 </TD> <TD align="right"> 0.8701 </TD> <TD align="right"> 0.2589 </TD> <TD> Student&rsquo;s T-Test </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1304 </TD> <TD align="right"> 0.3905 </TD> <TD align="right"> 0.3258 </TD> <TD align="right"> 0.0119 </TD> <TD align="right"> 0.3177 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
    <A NAME=tab:anova-summary></A>
 </TABLE>
 
@@ -266,19 +266,17 @@ hr {
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected for hormones without an interaction term </CAPTION>
-<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH>  </TR>
-  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0036 </TD> <TD align="right"> 0.0003 </TD> </TR>
-  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2625 </TD> <TD align="right"> 0.6605 </TD> </TR>
-  <TR> <TD align="right"> PAI1 </TD> <TD align="right">  </TD> <TD align="right">  </TD> </TR>
-  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0363 </TD> <TD align="right"> 0.3911 </TD> </TR>
-  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0819 </TD> <TD align="right"> 0.7469 </TD> </TR>
-  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0234 </TD> </TR>
-  <TR> <TD align="right"> Leptin </TD> <TD align="right">  </TD> <TD align="right">  </TD> </TR>
-  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1300 </TD> <TD align="right"> 0.3903 </TD> </TR>
+<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0036 </TD> <TD align="right"> 0.0003 </TD> <TD align="right"> 0.5468 </TD> <TD align="right"> 0.8304 </TD> <TD> Student&rsquo;s T-Test </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2625 </TD> <TD align="right"> 0.6605 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.2645 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0363 </TD> <TD align="right"> 0.3911 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.3385 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0819 </TD> <TD align="right"> 0.7469 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.6706 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0234 </TD> <TD align="right"> 0.8915 </TD> <TD align="right"> 0.0142 </TD> <TD> Welch&rsquo;s T-Test </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1300 </TD> <TD align="right"> 0.3903 </TD> <TD align="right"> 0.0096 </TD> <TD align="right"> 0.3177 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
    <A NAME=tab:anova-summary-no-interaction></A>
 </TABLE>
 
@@ -286,7 +284,7 @@ hr {
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> T-Tests with Equal Variance and Not Corrected for Multiple Observations </CAPTION>
@@ -316,12 +314,12 @@ hr {
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] reshape2_1.4       plyr_1.8.1         xtable_1.7-3      
-## [4] RColorBrewer_1.0-5 knitr_1.5         
+## [1] reshape2_1.4       plyr_1.8.1         car_2.0-20        
+## [4] xtable_1.7-3       RColorBrewer_1.0-5 knitr_1.5         
 ## 
 ## loaded via a namespace (and not attached):
-## [1] evaluate_0.5.5 formatR_0.10   Rcpp_0.11.1    stringr_0.6.2 
-## [5] tools_3.1.0
+## [1] evaluate_0.5.5 formatR_0.10   MASS_7.3-33    nnet_7.3-8    
+## [5] Rcpp_0.11.1    stringr_0.6.2  tools_3.1.0
 </code></pre>
 
 </body>

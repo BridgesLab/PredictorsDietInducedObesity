@@ -10,11 +10,11 @@ Serum samples were taken from mice which were fasted for 16h, and in which some 
 
 
 
-The raw data is in a file named ../data/raw/Post-Diet-Multiplex.csv and are mapped against the file in ../data/raw/mapping.csv.  The mouse level data is in Table below:
+The raw data is in a file named ../data/raw/Post-Diet-Multiplex.csv and are mapped against the file in ../data/raw/mapping.csv.  The mouse level data is in Table below, along with Shapiro-Wilk and Levene's tests:
 
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:23:37 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
 <TR> <TH> Row.names </TH> <TH> Resistin </TH> <TH> GIP </TH> <TH> PAI1 </TH> <TH> GLP1 </TH> <TH> Glucagon </TH> <TH> Ghrelin </TH> <TH> Leptin </TH> <TH> Insulin </TH> <TH> Treatment </TH> <TH> Feeding </TH>  </TR>
@@ -63,7 +63,7 @@ Summary
 These values are grouped by feeding status and diet and dhown below
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Summary Values </CAPTION>
 <TR> <TH>  </TH> <TH> Hormone </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Average </TH> <TH> SD </TH> <TH> SE </TH> <TH> N </TH>  </TR>
@@ -110,18 +110,18 @@ Statistics
 We did ANOVA analyses, testing first for an effect of Feeding Status, then for Treatment then for an interaction between those factors.  The results of these ANOVAs are in Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected </CAPTION>
-<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Interaction </TH>  </TR>
-  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.1113 </TD> </TR>
-  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2701 </TD> <TD align="right"> 0.6655 </TD> <TD align="right"> 0.7413 </TD> </TR>
-  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.9168 </TD> <TD align="right"> 0.0280 </TD> </TR>
-  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0392 </TD> <TD align="right"> 0.3981 </TD> <TD align="right"> 0.6880 </TD> </TR>
-  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0874 </TD> <TD align="right"> 0.7512 </TD> <TD align="right"> 0.9565 </TD> </TR>
-  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0195 </TD> <TD align="right"> 0.0897 </TD> </TR>
-  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.2712 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.0142 </TD> </TR>
-  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1304 </TD> <TD align="right"> 0.3905 </TD> <TD align="right"> 0.3258 </TD> </TR>
+<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Interaction </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.1113 </TD> <TD align="right"> 0.7625 </TD> <TD align="right"> 0.8304 </TD> <TD> Student's T-Test </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2701 </TD> <TD align="right"> 0.6655 </TD> <TD align="right"> 0.7413 </TD> <TD align="right"> 0.0003 </TD> <TD align="right"> 0.2645 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> 0.9168 </TD> <TD align="right"> 0.0280 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.7309 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0392 </TD> <TD align="right"> 0.3981 </TD> <TD align="right"> 0.6880 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.3385 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0874 </TD> <TD align="right"> 0.7512 </TD> <TD align="right"> 0.9565 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.6706 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0195 </TD> <TD align="right"> 0.0897 </TD> <TD align="right"> 0.0407 </TD> <TD align="right"> 0.0142 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.2712 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.0142 </TD> <TD align="right"> 0.8701 </TD> <TD align="right"> 0.2589 </TD> <TD> Student's T-Test </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1304 </TD> <TD align="right"> 0.3905 </TD> <TD align="right"> 0.3258 </TD> <TD align="right"> 0.0119 </TD> <TD align="right"> 0.3177 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
    <A NAME=tab:anova-summary></A>
 </TABLE>
 
@@ -131,18 +131,16 @@ There was no significant interaction term for all hormones except PAI1, Leptin, 
 There was a statistically significant interaction detected between feeding status and treatment for PAI1 and Leptin.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected for hormones without an interaction term </CAPTION>
-<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH>  </TR>
-  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0036 </TD> <TD align="right"> 0.0003 </TD> </TR>
-  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2625 </TD> <TD align="right"> 0.6605 </TD> </TR>
-  <TR> <TD align="right"> PAI1 </TD> <TD align="right">  </TD> <TD align="right">  </TD> </TR>
-  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0363 </TD> <TD align="right"> 0.3911 </TD> </TR>
-  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0819 </TD> <TD align="right"> 0.7469 </TD> </TR>
-  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0234 </TD> </TR>
-  <TR> <TD align="right"> Leptin </TD> <TD align="right">  </TD> <TD align="right">  </TD> </TR>
-  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1300 </TD> <TD align="right"> 0.3903 </TD> </TR>
+<TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0036 </TD> <TD align="right"> 0.0003 </TD> <TD align="right"> 0.5468 </TD> <TD align="right"> 0.8304 </TD> <TD> Student's T-Test </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.2625 </TD> <TD align="right"> 0.6605 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.2645 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0363 </TD> <TD align="right"> 0.3911 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.3385 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0819 </TD> <TD align="right"> 0.7469 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.6706 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0234 </TD> <TD align="right"> 0.8915 </TD> <TD align="right"> 0.0142 </TD> <TD> Welch's T-Test </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.1300 </TD> <TD align="right"> 0.3903 </TD> <TD align="right"> 0.0096 </TD> <TD align="right"> 0.3177 </TD> <TD> Wilcoxon Rank Sum </TD> </TR>
    <A NAME=tab:anova-summary-no-interaction></A>
 </TABLE>
 
@@ -150,7 +148,7 @@ There was a statistically significant interaction detected between feeding statu
 For PAI1 refed animals the p-value from a t.test was 0.1594 for the refed condition.  For Leptin the p-value from a t.test was 3.0841 &times; 10<sup>-5</sup> for the refed condition.  For Insulin the p-value from a t.test was 0.0486.  The results of the t-tests are shown in the Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:23:38 2014 -->
+<!-- Wed May 28 16:51:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> T-Tests with Equal Variance and Not Corrected for Multiple Observations </CAPTION>
 <TR> <TH>  </TH> <TH> HFD.Fasted.Refed </TH> <TH> CD.Fasted.Refed </TH> <TH> Fasted.CDvHFD </TH> <TH> Refed.CDvHFD </TH>  </TR>
@@ -183,11 +181,11 @@ Session Information
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] reshape2_1.4       plyr_1.8.1         xtable_1.7-3      
-## [4] RColorBrewer_1.0-5 knitr_1.5         
+## [1] reshape2_1.4       plyr_1.8.1         car_2.0-20        
+## [4] xtable_1.7-3       RColorBrewer_1.0-5 knitr_1.5         
 ## 
 ## loaded via a namespace (and not attached):
-## [1] evaluate_0.5.5 formatR_0.10   Rcpp_0.11.1    stringr_0.6.2 
-## [5] tools_3.1.0
+## [1] evaluate_0.5.5 formatR_0.10   MASS_7.3-33    nnet_7.3-8    
+## [5] Rcpp_0.11.1    stringr_0.6.2  tools_3.1.0
 ```
 

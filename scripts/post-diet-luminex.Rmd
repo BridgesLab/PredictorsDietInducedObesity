@@ -36,7 +36,7 @@ mapping <- read.csv(mapping_file)
 merged_data <- merge(data.cohort.6,mapping, by.x=0, by.y='X')
 ```
 
-The raw data is in a file named `r data_file` and are mapped against the file in `r mapping_file`.  The mouse level data is in Table below:
+The raw data is in a file named `r data_file` and are mapped against the file in `r mapping_file`.  The mouse level data is in Table below, along with Shapiro-Wilk and Levene's tests:
 
 
 ```{r data-tables,echo=FALSE,results='asis', message=FALSE}
@@ -50,30 +50,90 @@ hormones.tested <- colnames(merged_data)[2:9]
 anova.summary <- data.frame(row.names=hormones.tested,
                             Feeding = rep(NA, length(hormones.tested)),
                             Treatment = rep(NA, length(hormones.tested)),
-                            Interaction = rep(NA, length(hormones.tested)))
+                            Interaction = rep(NA, length(hormones.tested)),
+                            Shapiro = rep(NA, length(hormones.tested)),
+                            Levene = rep(NA, length(hormones.tested)),
+                            Test = rep(NA, length(hormones.tested)))
 
+library(car)
+anova.summary['Resistin',] <- c(summary(aov(Resistin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                                shapiro.test(residuals(aov(Resistin~Feeding*Treatment, data=merged_data)))$p.value,
+                                leveneTest(Resistin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['GIP',] <- c(summary(aov(GIP~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                           shapiro.test(residuals(aov(GIP~Feeding*Treatment, data=merged_data)))$p.value,
+                           leveneTest(GIP~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['PAI1',] <- c(summary(aov(PAI1~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                            shapiro.test(residuals(aov(PAI1~Feeding*Treatment, data=merged_data)))$p.value,
+                            leveneTest(PAI1~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['GLP1',] <- c(summary(aov(GLP1~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                            shapiro.test(residuals(aov(GLP1~Feeding*Treatment, data=merged_data)))$p.value,
+                            leveneTest(GLP1~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['Glucagon',] <- c(summary(aov(Glucagon~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                                shapiro.test(residuals(aov(Glucagon~Feeding*Treatment, data=merged_data)))$p.value,
+                                leveneTest(Glucagon~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['Ghrelin',] <- c(summary(aov(Ghrelin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                               shapiro.test(residuals(aov(Ghrelin~Feeding*Treatment, data=merged_data)))$p.value,
+                               leveneTest(Ghrelin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['Leptin',] <- c(summary(aov(Leptin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                              shapiro.test(residuals(aov(Leptin~Feeding*Treatment, data=merged_data)))$p.value,
+                              leveneTest(Leptin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary['Insulin',] <- c(summary(aov(Insulin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3],
+                               shapiro.test(residuals(aov(Insulin~Feeding*Treatment, data=merged_data)))$p.value,
+                               leveneTest(Insulin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
 
-anova.summary['Resistin',] <- c(summary(aov(Resistin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['GIP',] <- c(summary(aov(GIP~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['PAI1',] <- c(summary(aov(PAI1~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['GLP1',] <- c(summary(aov(GLP1~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['Glucagon',] <- c(summary(aov(Glucagon~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['Ghrelin',] <- c(summary(aov(Ghrelin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['Leptin',] <- c(summary(aov(Leptin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
-anova.summary['Insulin',] <- c(summary(aov(Insulin~Feeding*Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:3])
+for (hormone in hormones.tested){
+  if (anova.summary[hormone,]$Shapiro <0.05){
+    anova.summary[hormone,'Test'] <- "Wilcoxon Rank Sum"
+  }
+  else 
+    if (anova.summary[hormone,]$Levene<0.05){
+      anova.summary[hormone,'Test'] <- "Welch's T-Test"
+    }
+  else
+    anova.summary[hormone,'Test'] <- "Student's T-Test"
+    }
 
 #removed hormones with interaction terms
-anova.summary.no.int <- data.frame(row.names=hormones.tested,
-     Feeding = rep(NA, length(hormones.tested)),
-     Treatment = rep(NA, length(hormones.tested)))
+hormones.no.int <- rownames(anova.summary[anova.summary$Interaction > 0.05,])
+
+anova.summary.no.int <- data.frame(row.names=hormones.no.int,
+     Feeding = rep(NA, length(hormones.no.int)),
+     Treatment = rep(NA, length(hormones.no.int)),
+     Shapiro = rep(NA, length(hormones.no.int)),
+     Levene = rep(NA, length(hormones.no.int)),
+     Test = rep(NA, length(hormones.no.int)))
 
 
-anova.summary.no.int['Resistin',] <- c(summary(aov(Resistin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
-anova.summary.no.int['GIP',] <- c(summary(aov(GIP~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
-anova.summary.no.int['GLP1',] <- c(summary(aov(GLP1~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
-anova.summary.no.int['Glucagon',] <- c(summary(aov(Glucagon~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
-anova.summary.no.int['Ghrelin',] <- c(summary(aov(Ghrelin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
-anova.summary.no.int['Insulin',] <- c(summary(aov(Insulin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2])
+anova.summary.no.int['Resistin',] <- c(summary(aov(Resistin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2],
+                               shapiro.test(residuals(aov(Resistin~Feeding+Treatment, data=merged_data)))$p.value,
+                               leveneTest(Resistin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary.no.int['GIP',] <- c(summary(aov(GIP~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2],
+                               shapiro.test(residuals(aov(GIP~Feeding+Treatment, data=merged_data)))$p.value,
+                               leveneTest(GIP~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary.no.int['GLP1',] <- c(summary(aov(GLP1~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2],
+                               shapiro.test(residuals(aov(GLP1~Feeding+Treatment, data=merged_data)))$p.value,
+                               leveneTest(GLP1~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary.no.int['Glucagon',] <- c(summary(aov(Glucagon~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2],
+                               shapiro.test(residuals(aov(Glucagon~Feeding+Treatment, data=merged_data)))$p.value,
+                               leveneTest(Glucagon~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary.no.int['Ghrelin',] <- c(summary(aov(Ghrelin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2],
+                               shapiro.test(residuals(aov(Ghrelin~Feeding+Treatment, data=merged_data)))$p.value,
+                               leveneTest(Ghrelin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+anova.summary.no.int['Insulin',] <- c(summary(aov(Insulin~Feeding+Treatment, data=merged_data))[[1]][["Pr(>F)"]][1:2],
+                               shapiro.test(residuals(aov(Insulin~Feeding+Treatment, data=merged_data)))$p.value,
+                               leveneTest(Insulin~Feeding*Treatment, data=merged_data)$`Pr(>F)`[1], NA)
+
+for (hormone in hormones.no.int){
+  if (anova.summary.no.int[hormone,]$Shapiro <0.05){
+    anova.summary.no.int[hormone,'Test'] <- "Wilcoxon Rank Sum"
+  }
+  else 
+    if (anova.summary.no.int[hormone,]$Levene<0.05){
+      anova.summary.no.int[hormone,'Test'] <- "Welch's T-Test"
+    }
+  else
+    anova.summary.no.int[hormone,'Test'] <- "Student's T-Test"
+    }
 
 library(plyr)
 library(reshape2)
@@ -119,7 +179,7 @@ Statistics
 
 We did ANOVA analyses, testing first for an effect of Feeding Status, then for Treatment then for an interaction between those factors.  The results of these ANOVAs are in Table below:
 
-```{r anova-tables,echo=FALSE,results='asis'}
+```{r anova-interaction,echo=FALSE,results='asis'}
 print(xtable(anova.summary, caption = "ANOVA Analyses, uncorrected", label = "tab:anova-summary", digits=4), type="html")
 ```
 
