@@ -34,12 +34,12 @@ mapping <- read.csv(mapping_file, row.names="X")
 merged_data <- merge(data.cohort.5,mapping, by=0)
 
 #import weight data
-start <- "http://bridgeslab.uthsc.edu/mousedb/experiment/100/csv"
-end <- "http://bridgeslab.uthsc.edu/mousedb/experiment/126/csv"
+#start <- "http://bridgeslab.uthsc.edu/mousedb/experiment/100/csv"
+#end <- "http://bridgeslab.uthsc.edu/mousedb/experiment/126/csv"
 pre.diet.datafile <- '../data/raw/Cohort_6_PreDiet.csv'
 post.diet.datafile <- '../data/raw/Cohort_6_PostDiet.csv'
-download.file(start, pre.diet.datafile)
-download.file(end, post.diet.datafile)
+#download.file(start, pre.diet.datafile)
+#download.file(end, post.diet.datafile)
 
 start.data <- read.csv(pre.diet.datafile)
 end.data <- read.csv(post.diet.datafile)
@@ -67,6 +67,15 @@ Statistics
 -----------
 
 ```{r statistics-pct-weight, echo=FALSE}
+normality.tests <- data.frame(row.names=colnames(merged_weight_data)[3:14],
+                              'Control Diet' = rep(NA, 12),
+                              'High Fat Diet' = rep(NA, 12))
+
+for (measure in rownames(normality.tests)) {
+  normality.tests[measure,] <- tapply(merged_weight_data[,measure], merged_weight_data$Treatment, FUN=function(x) shapiro.test(x)$p.value)
+}
+normality.tests$Normal <- apply(normality.tests, 1, min) > 0.05
+
 hormones.tested <- colnames(merged_weight_data)[7:14]
 merged_weight_data <- subset(merged_weight_data, Row.names!='192')
 aov.model.null <- lm(Gain.pct~Treatment, data=merged_weight_data)
@@ -152,6 +161,11 @@ summary.lm['Insulin', ] <- c(
   with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$p.value,
   with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$p.value)
 ```
+We first tested each of the measured factors for whether the values fit a normal distribution.  These data are shown below:
+
+```{r normality-tables,echo=FALSE,results='asis'}
+print(xtable(normality.tests, caption = "Shapiro-Wilk tests for each measured variable", label = "tab:normality-tests", digits=5), type='html')
+```
 
 We tested for correlations between each hormone and the percent body weight gained on a high fat diet.  The null model with just the treatment term predicting the weight gain is described below.  This null model had an adjusted R<sup>2</sup> of `r summary(aov.model.null)$adj.r.squared`.
 
@@ -159,7 +173,7 @@ We tested for correlations between each hormone and the percent body weight gain
 print(xtable(summary.lm[order(summary.lm$p.value),], caption = "Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients for treatment separations are also shown", label = "tab:hormone-summary", digits=3), type='html')
 ```
 
-We tested whether including the pre-diet hormone levels will improve the model in Table \ref{tab:hormone-summary}, allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
+We tested whether including the pre-diet hormone levels will improve the model in which the pre-diet hormones are not taken into account.  We did this allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
 
 ```{r anova-tables,echo=FALSE,results='asis'}
 print(xtable(aov.model.null, caption = "ANOVA Determining the Effects of Diet on Eventual Weight Gain", label = "tab:model-null", digits=3), type='html')

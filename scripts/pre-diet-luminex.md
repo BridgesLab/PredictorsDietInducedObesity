@@ -18,7 +18,7 @@ The raw data is in a file named ../data/raw/Pre-Diet-Multiplex.csv and are mappe
 ```
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:11:12 2014 -->
+<!-- Wed May 28 11:34:24 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
 <TR> <TH> Row.names </TH> <TH> Animal </TH> <TH> Before </TH> <TH> After </TH> <TH> Gain </TH> <TH> Gain.pct </TH> <TH> Resistin </TH> <TH> GIP </TH> <TH> PAI1 </TH> <TH> GLP1 </TH> <TH> Glucagon </TH> <TH> Ghrelin </TH> <TH> Leptin </TH> <TH> Insulin </TH> <TH> Treatment </TH>  </TR>
@@ -66,11 +66,33 @@ Statistics
 
 
 
+We first tested each of the measured factors for whether the values fit a normal distribution.  These data are shown below:
+
+<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
+<!-- Wed May 28 11:34:24 2014 -->
+<TABLE border=1>
+<CAPTION ALIGN="bottom"> Shapiro-Wilk tests for each measured variable </CAPTION>
+<TR> <TH>  </TH> <TH> Control.Diet </TH> <TH> High.Fat.Diet </TH> <TH> Normal </TH>  </TR>
+  <TR> <TD align="right"> Before </TD> <TD align="right"> 0.15852 </TD> <TD align="right"> 0.92085 </TD> <TD> TRUE </TD> </TR>
+  <TR> <TD align="right"> After </TD> <TD align="right"> 0.65022 </TD> <TD align="right"> 0.75740 </TD> <TD> TRUE </TD> </TR>
+  <TR> <TD align="right"> Gain </TD> <TD align="right"> 0.00806 </TD> <TD align="right"> 0.67837 </TD> <TD> FALSE </TD> </TR>
+  <TR> <TD align="right"> Gain.pct </TD> <TD align="right"> 0.00061 </TD> <TD align="right"> 0.73105 </TD> <TD> FALSE </TD> </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.25949 </TD> <TD align="right"> 0.01742 </TD> <TD> FALSE </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.12537 </TD> <TD align="right"> 0.99293 </TD> <TD> TRUE </TD> </TR>
+  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.25271 </TD> <TD align="right"> 0.02247 </TD> <TD> FALSE </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.17171 </TD> <TD align="right"> 0.10806 </TD> <TD> TRUE </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.41355 </TD> <TD align="right"> 0.39272 </TD> <TD> TRUE </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.31530 </TD> <TD align="right"> 0.03672 </TD> <TD> FALSE </TD> </TR>
+  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.63255 </TD> <TD align="right"> 0.01454 </TD> <TD> FALSE </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.24762 </TD> <TD align="right"> 0.00061 </TD> <TD> FALSE </TD> </TR>
+   <A NAME=tab:normality-tests></A>
+</TABLE>
+
 
 We tested for correlations between each hormone and the percent body weight gained on a high fat diet.  The null model with just the treatment term predicting the weight gain is described below.  This null model had an adjusted R<sup>2</sup> of 0.6425.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:11:12 2014 -->
+<!-- Wed May 28 11:34:24 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients for treatment separations are also shown </CAPTION>
 <TR> <TH>  </TH> <TH> p.value </TH> <TH> R.HFD </TH> <TH> R.CD </TH> <TH> R2.HFD </TH> <TH> R2.CD </TH> <TH> p.HFD </TH> <TH> p.CD </TH>  </TR>
@@ -86,10 +108,10 @@ We tested for correlations between each hormone and the percent body weight gain
 </TABLE>
 
 
-We tested whether including the pre-diet hormone levels will improve the model in Table \ref{tab:hormone-summary}, allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
+We tested whether including the pre-diet hormone levels will improve the model in which the pre-diet hormones are not taken into account.  We did this allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:11:12 2014 -->
+<!-- Wed May 28 11:34:24 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Determining the Effects of Diet on Eventual Weight Gain </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
