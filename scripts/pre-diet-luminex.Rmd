@@ -270,7 +270,7 @@ We tested whether including the pre-diet hormone levels will improve the model i
 print(xtable(aov.model.null, caption = "ANOVA Determining the Effects of Diet on Eventual Weight Gain", label = "tab:model-null", digits=3), type='html')
 ```
 
-```{r scatter-plot,dev=c('png','pdf'),echo=FALSE}
+```{r pre-diet-hormone-scatter-plot,dev=c('png','pdf'),echo=FALSE}
 par(mfrow=c(2,4))
 
 with(merged_weight_data, plot(Resistin, Gain.pct, 
@@ -360,7 +360,7 @@ We tested whether including the pre-diet hormone levels will improve the model i
 print(xtable(aov.model.null.abs, caption = "ANOVA Determining the Effects of Diet on Eventual Weight Gain", label = "tab:model-null", digits=3), type='html')
 ```
 
-```{r scatter-plot-abs,dev=c('png','pdf'),echo=FALSE}
+```{r pre-diet-hormone-scatter-plot-abs,dev=c('png','pdf'),echo=FALSE}
 par(mfrow=c(2,4))
 
 with(merged_weight_data, plot(Resistin, Gain, 

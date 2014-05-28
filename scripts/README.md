@@ -21,7 +21,7 @@ Figure 1C | |
 Figure 1D | |
 Figure 2A | |
 Figure 2B | |
-Figure 2C | |
+Figure 2C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
 Figure 3A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
 Figure 3B | fasting_effects.Rmd | figures/fasting-loss-plot-pct.pdf
 Figure 3C | |
