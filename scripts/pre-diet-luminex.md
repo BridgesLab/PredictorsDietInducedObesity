@@ -18,7 +18,7 @@ The raw data is in a file named ../data/raw/Pre-Diet-Multiplex.csv and are mappe
 ```
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:34:24 2014 -->
+<!-- Wed May 28 11:39:23 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
 <TR> <TH> Row.names </TH> <TH> Animal </TH> <TH> Before </TH> <TH> After </TH> <TH> Gain </TH> <TH> Gain.pct </TH> <TH> Resistin </TH> <TH> GIP </TH> <TH> PAI1 </TH> <TH> GLP1 </TH> <TH> Glucagon </TH> <TH> Ghrelin </TH> <TH> Leptin </TH> <TH> Insulin </TH> <TH> Treatment </TH>  </TR>
@@ -69,7 +69,7 @@ Statistics
 We first tested each of the measured factors for whether the values fit a normal distribution.  These data are shown below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:34:24 2014 -->
+<!-- Wed May 28 11:39:23 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Shapiro-Wilk tests for each measured variable </CAPTION>
 <TR> <TH>  </TH> <TH> Control.Diet </TH> <TH> High.Fat.Diet </TH> <TH> Normal </TH>  </TR>
@@ -92,18 +92,18 @@ We first tested each of the measured factors for whether the values fit a normal
 We tested for correlations between each hormone and the percent body weight gained on a high fat diet.  The null model with just the treatment term predicting the weight gain is described below.  This null model had an adjusted R<sup>2</sup> of 0.6425.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:34:24 2014 -->
+<!-- Wed May 28 11:39:23 2014 -->
 <TABLE border=1>
-<CAPTION ALIGN="bottom"> Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients for treatment separations are also shown </CAPTION>
+<CAPTION ALIGN="bottom"> Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients baed on Spearman's Rank Order Test for each treatment is also shown </CAPTION>
 <TR> <TH>  </TH> <TH> p.value </TH> <TH> R.HFD </TH> <TH> R.CD </TH> <TH> R2.HFD </TH> <TH> R2.CD </TH> <TH> p.HFD </TH> <TH> p.CD </TH>  </TR>
-  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.241 </TD> <TD align="right"> 0.247 </TD> <TD align="right"> 0.012 </TD> <TD align="right"> 0.061 </TD> <TD align="right"> 0.000 </TD> <TD align="right"> 0.281 </TD> <TD align="right"> 0.968 </TD> </TR>
-  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.592 </TD> <TD align="right"> 0.084 </TD> <TD align="right"> 0.167 </TD> <TD align="right"> 0.007 </TD> <TD align="right"> 0.028 </TD> <TD align="right"> 0.717 </TD> <TD align="right"> 0.584 </TD> </TR>
-  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.671 </TD> <TD align="right"> 0.105 </TD> <TD align="right"> 0.004 </TD> <TD align="right"> 0.011 </TD> <TD align="right"> 0.000 </TD> <TD align="right"> 0.650 </TD> <TD align="right"> 0.989 </TD> </TR>
-  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.731 </TD> <TD align="right"> 0.038 </TD> <TD align="right"> 0.190 </TD> <TD align="right"> 0.001 </TD> <TD align="right"> 0.036 </TD> <TD align="right"> 0.870 </TD> <TD align="right"> 0.535 </TD> </TR>
-  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.765 </TD> <TD align="right"> 0.048 </TD> <TD align="right"> 0.090 </TD> <TD align="right"> 0.002 </TD> <TD align="right"> 0.008 </TD> <TD align="right"> 0.835 </TD> <TD align="right"> 0.769 </TD> </TR>
-  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.775 </TD> <TD align="right"> 0.011 </TD> <TD align="right"> -0.272 </TD> <TD align="right"> 0.000 </TD> <TD align="right"> 0.074 </TD> <TD align="right"> 0.961 </TD> <TD align="right"> 0.369 </TD> </TR>
-  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.913 </TD> <TD align="right"> 0.020 </TD> <TD align="right"> -0.170 </TD> <TD align="right"> 0.000 </TD> <TD align="right"> 0.029 </TD> <TD align="right"> 0.933 </TD> <TD align="right"> 0.579 </TD> </TR>
-  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.930 </TD> <TD align="right"> 0.063 </TD> <TD align="right"> -0.161 </TD> <TD align="right"> 0.004 </TD> <TD align="right"> 0.026 </TD> <TD align="right"> 0.787 </TD> <TD align="right"> 0.600 </TD> </TR>
+  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.241 </TD> <TD align="right"> 0.297 </TD> <TD align="right"> -0.058 </TD> <TD align="right"> 0.088 </TD> <TD align="right"> 0.003 </TD> <TD align="right"> 0.191 </TD> <TD align="right"> 0.851 </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.592 </TD> <TD align="right"> 0.105 </TD> <TD align="right"> 0.132 </TD> <TD align="right"> 0.011 </TD> <TD align="right"> 0.017 </TD> <TD align="right"> 0.649 </TD> <TD align="right"> 0.669 </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.671 </TD> <TD align="right"> 0.144 </TD> <TD align="right"> 0.044 </TD> <TD align="right"> 0.021 </TD> <TD align="right"> 0.002 </TD> <TD align="right"> 0.534 </TD> <TD align="right"> 0.886 </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.731 </TD> <TD align="right"> 0.027 </TD> <TD align="right"> 0.044 </TD> <TD align="right"> 0.001 </TD> <TD align="right"> 0.002 </TD> <TD align="right"> 0.909 </TD> <TD align="right"> 0.892 </TD> </TR>
+  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.765 </TD> <TD align="right"> 0.064 </TD> <TD align="right"> 0.077 </TD> <TD align="right"> 0.004 </TD> <TD align="right"> 0.006 </TD> <TD align="right"> 0.784 </TD> <TD align="right"> 0.807 </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.775 </TD> <TD align="right"> -0.038 </TD> <TD align="right"> -0.300 </TD> <TD align="right"> 0.001 </TD> <TD align="right"> 0.090 </TD> <TD align="right"> 0.869 </TD> <TD align="right"> 0.320 </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.913 </TD> <TD align="right"> -0.047 </TD> <TD align="right"> -0.115 </TD> <TD align="right"> 0.002 </TD> <TD align="right"> 0.013 </TD> <TD align="right"> 0.838 </TD> <TD align="right"> 0.710 </TD> </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.930 </TD> <TD align="right"> 0.036 </TD> <TD align="right"> -0.121 </TD> <TD align="right"> 0.001 </TD> <TD align="right"> 0.015 </TD> <TD align="right"> 0.877 </TD> <TD align="right"> 0.696 </TD> </TR>
    <A NAME=tab:hormone-summary></A>
 </TABLE>
 
@@ -111,7 +111,7 @@ We tested for correlations between each hormone and the percent body weight gain
 We tested whether including the pre-diet hormone levels will improve the model in which the pre-diet hormones are not taken into account.  We did this allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:34:24 2014 -->
+<!-- Wed May 28 11:39:23 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Determining the Effects of Diet on Eventual Weight Gain </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>

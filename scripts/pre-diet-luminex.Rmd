@@ -66,7 +66,7 @@ print(xtable(merged_weight_data[order(merged_weight_data$Treatment, -merged_weig
 Statistics
 -----------
 
-```{r statistics-pct-weight, echo=FALSE}
+```{r statistics-pct-weight, echo=FALSE, warning=FALSE}
 normality.tests <- data.frame(row.names=colnames(merged_weight_data)[3:14],
                               'Control Diet' = rep(NA, 12),
                               'High Fat Diet' = rep(NA, 12))
@@ -91,75 +91,75 @@ summary.lm <- data.frame(row.names = hormones.tested,
 
 summary.lm['Resistin', ] <- c(
   add1(aov.model.null, ~ Treatment * Resistin, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['GIP', ] <- c(
   add1(aov.model.null, ~ Treatment * GIP, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['PAI1', ] <- c(
   add1(aov.model.null, ~ Treatment * PAI1, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['GLP1', ] <- c(
   add1(aov.model.null, ~ Treatment * GLP1, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['Glucagon', ] <- c(
   add1(aov.model.null, ~ Treatment * Glucagon, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['Ghrelin', ] <- c(
   add1(aov.model.null, ~ Treatment * Ghrelin, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['Leptin', ] <- c(
   add1(aov.model.null, ~ Treatment * Leptin, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct, method='spearman'))$p.value)
 
 summary.lm['Insulin', ] <- c(
   add1(aov.model.null, ~ Treatment * Insulin, test="F")[2,6],
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$estimate,
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$estimate^2,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$estimate^2,  
-  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$p.value,
-  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$p.value)
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct, method='spearman'))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct, method='spearman'))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct, method='spearman'))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct, method='spearman'))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct, method='spearman'))$p.value)
 ```
 We first tested each of the measured factors for whether the values fit a normal distribution.  These data are shown below:
 
@@ -170,7 +170,7 @@ print(xtable(normality.tests, caption = "Shapiro-Wilk tests for each measured va
 We tested for correlations between each hormone and the percent body weight gained on a high fat diet.  The null model with just the treatment term predicting the weight gain is described below.  This null model had an adjusted R<sup>2</sup> of `r summary(aov.model.null)$adj.r.squared`.
 
 ```{r correlation-tables,echo=FALSE,results='asis'}
-print(xtable(summary.lm[order(summary.lm$p.value),], caption = "Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients for treatment separations are also shown", label = "tab:hormone-summary", digits=3), type='html')
+print(xtable(summary.lm[order(summary.lm$p.value),], caption = "Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients baed on Spearman's Rank Order Test for each treatment is also shown", label = "tab:hormone-summary", digits=3), type='html')
 ```
 
 We tested whether including the pre-diet hormone levels will improve the model in which the pre-diet hormones are not taken into account.  We did this allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
