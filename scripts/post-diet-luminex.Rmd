@@ -44,7 +44,7 @@ require(xtable)
 print(xtable(merged_data[order(merged_data$Feeding, merged_data$Treatment),], caption = "Mouse Level Data", label = "tab:animal-data"), include.rownames=F, type='html')
 ```
 
-```{r statistics, echo=FALSE, message=FALSE}
+```{r statistics, echo=FALSE, message=FALSE, warning=FALSE}
 hormones.tested <- colnames(merged_data)[2:9]
 
 anova.summary <- data.frame(row.names=hormones.tested,
@@ -156,12 +156,64 @@ t.test.summary <- data.frame(row.names=hormones.tested,
 melted.merged.data <- melt(merged_data)
 melted.merged.data$value <- as.numeric(as.character(melted.merged.data$value))
 
+
 for (hormone in hormones.tested) {
     t.test.summary[hormone, 'HFD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"), var.equal=T)$p.value
     t.test.summary[hormone, 'CD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"), var.equal=T)$p.value
     t.test.summary[hormone, 'Fasted.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"), var.equal=T)$p.value
     t.test.summary[hormone, 'Refed.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"), var.equal=T)$p.value
 }
+
+for (hormone in hormones.tested) {
+  if (hormone %in% hormones.no.int){
+    if (anova.summary.no.int[hormone,'Test'] == "Wilcoxon Rank Sum") {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- wilcox.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"))$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- wilcox.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"))$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- wilcox.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"))$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- wilcox.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"))$p.value
+    }
+  else
+    if (anova.summary.no.int[hormone,'Test'] == "Welch's T-Test") {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"))$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"))$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"))$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"))$p.value
+    }
+  else
+    if (anova.summary.no.int[hormone,'Test'] == "Student's T-Test") {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"), var.equal=T)$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"), var.equal=T)$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"), var.equal=T)$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"), var.equal=T)$p.value
+    }
+else
+  if (anova.summary[hormone,'Test'] == "Wilcoxon Rank Sum") {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- wilcox.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"))$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- wilcox.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"))$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- wilcox.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"))$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- wilcox.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"))$p.value
+    }
+  else
+    if (anova.summary[hormone,'Test'] == "Welch's T-Test") {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"))$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"))$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"))$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"))$p.value
+    }
+  else
+    if (anova.summary[hormone,'Test'] == "Student's T-Test") {
+    t.test.summary[hormone, 'HFD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="High Fat Diet"), var.equal=T)$p.value
+    t.test.summary[hormone, 'CD.Fasted.Refed'] <- t.test(value~Feeding, data=subset(melted.merged.data, variable==hormone&Treatment=="Control Diet"), var.equal=T)$p.value
+    t.test.summary[hormone, 'Fasted.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Fasted"), var.equal=T)$p.value
+    t.test.summary[hormone, 'Refed.CDvHFD'] <- t.test(value~Treatment, data=subset(melted.merged.data, variable==hormone&Feeding=="Refed"), var.equal=T)$p.value
+    }
+  }
+}
+
+#calculate adjusted p-values
+t.test.summary.adjusted <- as.data.frame(matrix(p.adjust(as.matrix(t.test.summary), method="BH"), nrow=8, ncol=4))
+rownames(t.test.summary.adjusted) <- rownames(t.test.summary)
+colnames(t.test.summary.adjusted) <- colnames(t.test.summary)
 ```
 
 Summary
@@ -183,18 +235,18 @@ We did ANOVA analyses, testing first for an effect of Feeding Status, then for T
 print(xtable(anova.summary, caption = "ANOVA Analyses, uncorrected", label = "tab:anova-summary", digits=4), type="html")
 ```
 
-There was no significant interaction term for all hormones except `r rownames(anova.summary[anova.summary$Interaction<0.05,])`, so for those hormones the interaction term was dropped and the simplified non-interacting ANOVAs are in the Table below
-
-There was a statistically significant interaction detected between feeding status and treatment for PAI1 and Leptin.
+There was no significant interaction term for all hormones except `r rownames(anova.summary[anova.summary$Interaction<0.05,])`, so for those hormones the interaction term was dropped and the simplified non-interacting ANOVAs are in the Table below:
 
 ```{r anova-tables-2, echo=FALSE, results='asis'}
 print(xtable(anova.summary.no.int, caption = "ANOVA Analyses, uncorrected for hormones without an interaction term", label = "tab:anova-summary-no-interaction", digits=4), type="html")
 ```
 
-For PAI1 refed animals the p-value from a t.test was `r t.test(PAI1~Treatment, data=subset(merged_data, Feeding=="Refed", var.equal=T))$p.value` for the refed condition.  For Leptin the p-value from a t.test was `r t.test(Leptin~Treatment, data=subset(merged_data, Feeding=="Fasted", var.equal=T))$p.value` for the refed condition.  For Insulin the p-value from a t.test was `r t.test(Insulin~Treatment, data=subset(merged_data, Feeding=="Fasted", var.equal=T))$p.value`.  The results of the t-tests are shown in the Table below:
+Based on these ANOVA results, and the tests for normality and equal variance either a Wilcoxon-Rank Sum Test, Welch's T-Test or Student's T-Test was performed.  If there was no significant interaction, then the above table indicates the test.  If there was an interaction (for `r rownames(anova.summary[anova.summary$Interaction<0.05,])`), two tables above indicates the test.  The results of the appropriate tests are shown in the Table below:
 
 ```{r t-tests, results='asis', echo=FALSE}
-print(xtable(t.test.summary, caption = "T-Tests with Equal Variance and Not Corrected for Multiple Observations", label = "tab:t-test-summary", digits=4), type="html")
+print(xtable(t.test.summary, caption = "Appropriate Tests Based on the Above, Not Corrected for Multiple Observations", label = "tab:t-test-summary", digits=4), type="html")
+
+print(xtable(t.test.summary.adjusted, caption = "Appropriate Tests Based on the Above, Corrected for Multiple Observations by the Method of Benjamini and Hochberg", label = "tab:t-test-summary-adjusted", digits=4), type="html")
 ```
 
 ```{r post-diet-luminex-barplot,dev=c('png','pdf'),echo=FALSE}

@@ -14,7 +14,7 @@ The raw data is in a file named ../data/raw/Post-Diet-Multiplex.csv and are mapp
 
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:51:12 2014 -->
+<!-- Wed May 28 17:19:23 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
 <TR> <TH> Row.names </TH> <TH> Resistin </TH> <TH> GIP </TH> <TH> PAI1 </TH> <TH> GLP1 </TH> <TH> Glucagon </TH> <TH> Ghrelin </TH> <TH> Leptin </TH> <TH> Insulin </TH> <TH> Treatment </TH> <TH> Feeding </TH>  </TR>
@@ -63,7 +63,7 @@ Summary
 These values are grouped by feeding status and diet and dhown below
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:51:12 2014 -->
+<!-- Wed May 28 17:19:24 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Summary Values </CAPTION>
 <TR> <TH>  </TH> <TH> Hormone </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Average </TH> <TH> SD </TH> <TH> SE </TH> <TH> N </TH>  </TR>
@@ -110,7 +110,7 @@ Statistics
 We did ANOVA analyses, testing first for an effect of Feeding Status, then for Treatment then for an interaction between those factors.  The results of these ANOVAs are in Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:51:12 2014 -->
+<!-- Wed May 28 17:19:24 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected </CAPTION>
 <TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Interaction </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
@@ -126,12 +126,10 @@ We did ANOVA analyses, testing first for an effect of Feeding Status, then for T
 </TABLE>
 
 
-There was no significant interaction term for all hormones except PAI1, Leptin, so for those hormones the interaction term was dropped and the simplified non-interacting ANOVAs are in the Table below
-
-There was a statistically significant interaction detected between feeding status and treatment for PAI1 and Leptin.
+There was no significant interaction term for all hormones except PAI1, Leptin, so for those hormones the interaction term was dropped and the simplified non-interacting ANOVAs are in the Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:51:12 2014 -->
+<!-- Wed May 28 17:19:24 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected for hormones without an interaction term </CAPTION>
 <TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
@@ -145,22 +143,37 @@ There was a statistically significant interaction detected between feeding statu
 </TABLE>
 
 
-For PAI1 refed animals the p-value from a t.test was 0.1594 for the refed condition.  For Leptin the p-value from a t.test was 3.0841 &times; 10<sup>-5</sup> for the refed condition.  For Insulin the p-value from a t.test was 0.0486.  The results of the t-tests are shown in the Table below:
+Based on these ANOVA results, and the tests for normality and equal variance either a Wilcoxon-Rank Sum Test, Welch's T-Test or Student's T-Test was performed.  If there was no significant interaction, then the above table indicates the test.  If there was an interaction (for PAI1, Leptin), two tables above indicates the test.  The results of the appropriate tests are shown in the Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 16:51:12 2014 -->
+<!-- Wed May 28 17:19:24 2014 -->
 <TABLE border=1>
-<CAPTION ALIGN="bottom"> T-Tests with Equal Variance and Not Corrected for Multiple Observations </CAPTION>
+<CAPTION ALIGN="bottom"> Appropriate Tests Based on the Above, Not Corrected for Multiple Observations </CAPTION>
 <TR> <TH>  </TH> <TH> HFD.Fasted.Refed </TH> <TH> CD.Fasted.Refed </TH> <TH> Fasted.CDvHFD </TH> <TH> Refed.CDvHFD </TH>  </TR>
   <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0020 </TD> <TD align="right"> 0.3508 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> 0.2753 </TD> </TR>
-  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.3183 </TD> <TD align="right"> 0.6306 </TD> <TD align="right"> 0.8078 </TD> <TD align="right"> 0.7275 </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.7510 </TD> <TD align="right"> 0.9466 </TD> <TD align="right"> 0.2233 </TD> <TD align="right"> 1.0000 </TD> </TR>
   <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.0008 </TD> <TD align="right"> 0.7165 </TD> <TD align="right"> 0.2029 </TD> <TD align="right"> 0.0842 </TD> </TR>
-  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0069 </TD> <TD align="right"> 0.2602 </TD> <TD align="right"> 0.4343 </TD> <TD align="right"> 0.7508 </TD> </TR>
-  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.2328 </TD> <TD align="right"> 0.2276 </TD> <TD align="right"> 0.8188 </TD> <TD align="right"> 0.5006 </TD> </TR>
-  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0013 </TD> <TD align="right"> 0.0020 </TD> <TD align="right"> 0.0247 </TD> <TD align="right"> 0.5785 </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0097 </TD> <TD align="right"> 0.2398 </TD> <TD align="right"> 0.6210 </TD> <TD align="right"> 0.9351 </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0268 </TD> <TD align="right"> 0.0829 </TD> <TD align="right"> 0.5430 </TD> <TD align="right"> 0.5303 </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0005 </TD> <TD align="right"> 0.0006 </TD> <TD align="right"> 0.0359 </TD> <TD align="right"> 0.6035 </TD> </TR>
   <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.4057 </TD> <TD align="right"> 0.0058 </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.6575 </TD> </TR>
-  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.6212 </TD> <TD align="right"> 0.1074 </TD> <TD align="right"> 0.0548 </TD> <TD align="right"> 0.8592 </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 0.9639 </TD> <TD align="right"> 0.1420 </TD> <TD align="right"> 0.0574 </TD> <TD align="right"> 1.0000 </TD> </TR>
    <A NAME=tab:t-test-summary></A>
+</TABLE>
+<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
+<!-- Wed May 28 17:19:24 2014 -->
+<TABLE border=1>
+<CAPTION ALIGN="bottom"> Appropriate Tests Based on the Above, Corrected for Multiple Observations by the Method of Benjamini and Hochberg </CAPTION>
+<TR> <TH>  </TH> <TH> HFD.Fasted.Refed </TH> <TH> CD.Fasted.Refed </TH> <TH> Fasted.CDvHFD </TH> <TH> Refed.CDvHFD </TH>  </TR>
+  <TR> <TD align="right"> Resistin </TD> <TD align="right"> 0.0108 </TD> <TD align="right"> 0.5908 </TD> <TD align="right"> 0.0033 </TD> <TD align="right"> 0.4894 </TD> </TR>
+  <TR> <TD align="right"> GIP </TD> <TD align="right"> 0.8901 </TD> <TD align="right"> 1.0000 </TD> <TD align="right"> 0.4465 </TD> <TD align="right"> 1.0000 </TD> </TR>
+  <TR> <TD align="right"> PAI1 </TD> <TD align="right"> 0.0053 </TD> <TD align="right"> 0.8819 </TD> <TD align="right"> 0.4329 </TD> <TD align="right"> 0.2072 </TD> </TR>
+  <TR> <TD align="right"> GLP1 </TD> <TD align="right"> 0.0388 </TD> <TD align="right"> 0.4513 </TD> <TD align="right"> 0.8280 </TD> <TD align="right"> 1.0000 </TD> </TR>
+  <TR> <TD align="right"> Glucagon </TD> <TD align="right"> 0.0952 </TD> <TD align="right"> 0.2072 </TD> <TD align="right"> 0.7899 </TD> <TD align="right"> 0.7899 </TD> </TR>
+  <TR> <TD align="right"> Ghrelin </TD> <TD align="right"> 0.0046 </TD> <TD align="right"> 0.0046 </TD> <TD align="right"> 0.1148 </TD> <TD align="right"> 0.8280 </TD> </TR>
+  <TR> <TD align="right"> Leptin </TD> <TD align="right"> 0.6491 </TD> <TD align="right"> 0.0266 </TD> <TD align="right"> 0.0010 </TD> <TD align="right"> 0.8416 </TD> </TR>
+  <TR> <TD align="right"> Insulin </TD> <TD align="right"> 1.0000 </TD> <TD align="right"> 0.3246 </TD> <TD align="right"> 0.1671 </TD> <TD align="right"> 1.0000 </TD> </TR>
+   <A NAME=tab:t-test-summary-adjusted></A>
 </TABLE>
 
 
