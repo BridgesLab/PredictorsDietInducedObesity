@@ -35,10 +35,17 @@ merged_data <- merge(data.cohort.5,mapping, by=0)
 
 #import weight data
 start <- "http://bridgeslab.uthsc.edu/mousedb/experiment/100/csv"
-week8 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/126/csv"
-start.data <- read.csv(start)
-week8.data <- read.csv(week8)
-combined.data <- merge(start.data, week8.data, by="Animal")[,c('Animal','Values.x','Values.y')]
+end <- "http://bridgeslab.uthsc.edu/mousedb/experiment/126/csv"
+pre.diet.datafile <- '../data/raw/Cohort_6_PreDiet.csv'
+post.diet.datafile <- '../data/raw/Cohort_6_PostDiet.csv'
+download.file(start, pre.diet.datafile)
+download.file(end, post.diet.datafile)
+
+start.data <- read.csv(pre.diet.datafile)
+end.data <- read.csv(post.diet.datafile)
+
+
+combined.data <- merge(start.data, end.data, by="Animal")[,c('Animal','Values.x','Values.y')]
 rownames(combined.data) <- as.numeric(lapply(strsplit(as.character(combined.data$Animal),"#"), "[[", 2))
 colnames(combined.data) <- c('Animal', 'Before', 'After')
 
@@ -49,7 +56,7 @@ merged_weight_data <- merge(combined.data, merged_data, by.x=0,by.y="Row.names")
 ```
 
 
-The raw data is in a file named `r data_file` and are mapped against the file in `r mapping_file`.  The mouse level data is shown below.  This analysis looked at `r table(merged_weight_data$Treatment)[1]` Control Diet mice and `r table(merged_weight_data$Treatment)[2]` High Fat Diet mice.
+The raw data is in a file named `r data_file` and are mapped against the file in `r mapping_file`.  The mouse level data is shown below.  This analysis looked at `r table(merged_weight_data$Treatment)[1]` Control Diet mice and `r table(merged_weight_data$Treatment)[2]` High Fat Diet mice.  The pre-diet weights are shown in `r pre.diet.datafile` and the post-diet weights are shown in `r post.diet.datafile`.
 
 ```{r data-tables,echo=FALSE,results='asis'}
 require(xtable)

@@ -10,7 +10,7 @@ Serum samples were taken from mice which were fasted for 16h.  These mice were 1
 
 
 
-The raw data is in a file named ../data/raw/Pre-Diet-Multiplex.csv and are mapped against the file in ../data/raw/mapping.csv.  The mouse level data is shown below.  This analysis looked at 14 Control Diet mice and 21 High Fat Diet mice.
+The raw data is in a file named ../data/raw/Pre-Diet-Multiplex.csv and are mapped against the file in ../data/raw/mapping.csv.  The mouse level data is shown below.  This analysis looked at 14 Control Diet mice and 21 High Fat Diet mice.  The pre-diet weights are shown in ../data/raw/Cohort_6_PreDiet.csv and the post-diet weights are shown in ../data/raw/Cohort_6_PostDiet.csv.
 
 
 ```
@@ -18,7 +18,7 @@ The raw data is in a file named ../data/raw/Pre-Diet-Multiplex.csv and are mappe
 ```
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:05:06 2014 -->
+<!-- Wed May 28 11:11:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
 <TR> <TH> Row.names </TH> <TH> Animal </TH> <TH> Before </TH> <TH> After </TH> <TH> Gain </TH> <TH> Gain.pct </TH> <TH> Resistin </TH> <TH> GIP </TH> <TH> PAI1 </TH> <TH> GLP1 </TH> <TH> Glucagon </TH> <TH> Ghrelin </TH> <TH> Leptin </TH> <TH> Insulin </TH> <TH> Treatment </TH>  </TR>
@@ -70,7 +70,7 @@ Statistics
 We tested for correlations between each hormone and the percent body weight gained on a high fat diet.  The null model with just the treatment term predicting the weight gain is described below.  This null model had an adjusted R<sup>2</sup> of 0.6425.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:05:06 2014 -->
+<!-- Wed May 28 11:11:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients for treatment separations are also shown </CAPTION>
 <TR> <TH>  </TH> <TH> p.value </TH> <TH> R.HFD </TH> <TH> R.CD </TH> <TH> R2.HFD </TH> <TH> R2.CD </TH> <TH> p.HFD </TH> <TH> p.CD </TH>  </TR>
@@ -89,7 +89,7 @@ We tested for correlations between each hormone and the percent body weight gain
 We tested whether including the pre-diet hormone levels will improve the model in Table \ref{tab:hormone-summary}, allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 11:05:06 2014 -->
+<!-- Wed May 28 11:11:12 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Determining the Effects of Diet on Eventual Weight Gain </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
