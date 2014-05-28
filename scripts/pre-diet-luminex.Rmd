@@ -1,0 +1,246 @@
+Analysis of The Predictive Value of Pre-Diet Serum Hormones from High Fat Diet Cohort 6
+========================================================================================
+
+Summary
+--------
+
+Serum samples were taken from mice which were fasted for 16h.  These mice were 10 weeks old, prior to being placed on diets.  
+
+```{r data-entry, echo=FALSE}
+#set palette
+library(RColorBrewer)
+palette(brewer.pal(3, "Set2")[c(3,2)])
+data_file <- "../data/raw/Pre-Diet-Multiplex.csv"
+#this uses the median data
+data <- read.csv(data_file, skip=46, nrows=(130-46))
+useful.data <- data[,4:11] #removed extra rows
+rownames(useful.data) <- data$Sample
+
+
+data.blanked <- sweep(as.matrix(useful.data), 2, as.numeric(useful.data['Blank',]), "-")
+data.standards <- data.blanked[grepl("Standard", rownames(data.blanked)),]
+data.samples <- data.blanked[!(grepl("Standard", rownames(data.blanked))),]
+#remove unknown samples
+data.samples <- data.samples[!(grepl("Unknown", rownames(data.samples))),]
+#remove blanks
+data.samples <- data.samples[!(grepl("Blank", rownames(data.samples))),]
+#remove values under 200 which were the samples in cohort 5
+data.cohort.5 <- as.data.frame(data.samples[32:73,])
+rownames(data.cohort.5) <- as.integer(as.character((rownames(data.cohort.5))))
+
+#merged with mapping file
+mapping_file <- "../data/raw/mapping.csv" #includes Treatment and Feeding Status
+mapping <- read.csv(mapping_file, row.names="X")
+merged_data <- merge(data.cohort.5,mapping, by=0)
+
+#import weight data
+start <- "http://bridgeslab.uthsc.edu/mousedb/experiment/100/csv"
+week8 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/126/csv"
+start.data <- read.csv(start)
+week8.data <- read.csv(week8)
+combined.data <- merge(start.data, week8.data, by="Animal")[,c('Animal','Values.x','Values.y')]
+rownames(combined.data) <- as.numeric(lapply(strsplit(as.character(combined.data$Animal),"#"), "[[", 2))
+colnames(combined.data) <- c('Animal', 'Before', 'After')
+
+combined.data$Gain <- combined.data$After - combined.data$Before
+combined.data$Gain.pct <- combined.data$Gain/combined.data$Before*100
+
+merged_weight_data <- merge(combined.data, merged_data, by.x=0,by.y="Row.names")
+```
+
+
+The raw data is in a file named `r data_file` and are mapped against the file in `r mapping_file`.  The mouse level data is shown below.  This analysis looked at `r table(merged_weight_data$Treatment)[1]` Control Diet mice and `r table(merged_weight_data$Treatment)[2]` High Fat Diet mice.
+
+```{r data-tables,echo=FALSE,results='asis'}
+require(xtable)
+print(xtable(merged_weight_data[order(merged_weight_data$Treatment, -merged_weight_data$Gain.pct),], caption = "Mouse Level Data", label = "tab:animal-data"), include.rownames=F, type="html")
+```
+
+Statistics
+-----------
+
+```{r statistics-pct-weight, echo=FALSE}
+hormones.tested <- colnames(merged_weight_data)[7:14]
+merged_weight_data <- subset(merged_weight_data, Row.names!='192')
+aov.model.null <- lm(Gain.pct~Treatment, data=merged_weight_data)
+
+summary.lm <- data.frame(row.names = hormones.tested,
+    p.value = rep(NA, length(hormones.tested)),
+    R.HFD = rep(NA, length(hormones.tested)),
+    R.CD= rep(NA, length(hormones.tested)),
+    R2.HFD = rep(NA, length(hormones.tested)),
+    R2.CD= rep(NA, length(hormones.tested)),
+    p.HFD = rep(NA, length(hormones.tested)),
+    p.CD= rep(NA, length(hormones.tested)))
+
+summary.lm['Resistin', ] <- c(
+  add1(aov.model.null, ~ Treatment * Resistin, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Resistin,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Resistin,Gain.pct))$p.value)
+
+summary.lm['GIP', ] <- c(
+  add1(aov.model.null, ~ Treatment * GIP, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GIP,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GIP,Gain.pct))$p.value)
+
+summary.lm['PAI1', ] <- c(
+  add1(aov.model.null, ~ Treatment * PAI1, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(PAI1,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(PAI1,Gain.pct))$p.value)
+
+summary.lm['GLP1', ] <- c(
+  add1(aov.model.null, ~ Treatment * GLP1, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(GLP1,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(GLP1,Gain.pct))$p.value)
+
+summary.lm['Glucagon', ] <- c(
+  add1(aov.model.null, ~ Treatment * Glucagon, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Glucagon,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Glucagon,Gain.pct))$p.value)
+
+summary.lm['Ghrelin', ] <- c(
+  add1(aov.model.null, ~ Treatment * Ghrelin, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Ghrelin,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Ghrelin,Gain.pct))$p.value)
+
+summary.lm['Leptin', ] <- c(
+  add1(aov.model.null, ~ Treatment * Leptin, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Leptin,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Leptin,Gain.pct))$p.value)
+
+summary.lm['Insulin', ] <- c(
+  add1(aov.model.null, ~ Treatment * Insulin, test="F")[2,6],
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$estimate,
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$estimate^2,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$estimate^2,  
+  with(subset(merged_weight_data, Treatment=="High Fat Diet"), cor.test(Insulin,Gain.pct))$p.value,
+  with(subset(merged_weight_data, Treatment=="Control Diet"), cor.test(Insulin,Gain.pct))$p.value)
+```
+
+We tested for correlations between each hormone and the percent body weight gained on a high fat diet.  The null model with just the treatment term predicting the weight gain is described below.  This null model had an adjusted R<sup>2</sup> of `r summary(aov.model.null)$adj.r.squared`.
+
+```{r correlation-tables,echo=FALSE,results='asis'}
+print(xtable(summary.lm[order(summary.lm$p.value),], caption = "Model and Correlation Summary.  Linear Model Results for Effects Pre-Diet Hormones on Percent Weight Gain (Corrected for Diet) is shown in p.value, correlation coefficients for treatment separations are also shown", label = "tab:hormone-summary", digits=3), type='html')
+```
+
+We tested whether including the pre-diet hormone levels will improve the model in Table \ref{tab:hormone-summary}, allowing for an interaction between the diet and the hormone levels.  The p-value is the results of a F-test against whether the model is improved by including that hormone data.  No hormones significantly improved the prediction of this model.
+
+```{r anova-tables,echo=FALSE,results='asis'}
+print(xtable(aov.model.null, caption = "ANOVA Determining the Effects of Diet on Eventual Weight Gain", label = "tab:model-null", digits=3), type='html')
+```
+
+```{r scatter-plot,dev=c('png','pdf'),echo=FALSE}
+par(mfrow=c(2,4))
+
+with(merged_weight_data, plot(Resistin, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(Resistin)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="Resistin"))
+abline(lm(Gain.pct~Resistin, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~Resistin, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(GIP, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(GIP)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="GIP"))
+abline(lm(Gain.pct~GIP, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~GIP, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(PAI1, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(PAI1)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="PAI1"))
+abline(lm(Gain.pct~PAI1, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~PAI1, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(GLP1, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(GLP1)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="GLP1"))
+abline(lm(Gain.pct~GLP1, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~GLP1, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(Glucagon, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(Glucagon)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="Glucagon"))
+abline(lm(Gain.pct~Glucagon, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~Glucagon, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(Ghrelin, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(Ghrelin)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="Ghrelin"))
+abline(lm(Gain.pct~Ghrelin, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~Ghrelin, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(Leptin, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(Leptin)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="Leptin"))
+abline(lm(Gain.pct~Leptin, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~Leptin, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+
+with(merged_weight_data, plot(Insulin, Gain.pct, 
+         col=Treatment, pch=19, las=2,frame.plot=F,
+         ylim=c(0,max(Gain.pct)), xlim=c(0,max(Insulin)),
+         ylab="Percent Weight Gain",
+         xlab="Hormone Levels",
+         main="Insulin"))
+abline(lm(Gain.pct~Insulin, subset(merged_weight_data, Treatment=="High Fat Diet")), col=palette()[2])
+abline(lm(Gain.pct~Insulin, subset(merged_weight_data, Treatment=="Control Diet")), col=palette()[1])
+```
+
+```{r bibliography, include=F, echo=F}
+require(bibtex)
+write.bib(c(names(sessionInfo()$otherPkgs),'base','stats','utils'), file='analysis-references.bib')
+```
+
+Session Information
+--------------------
+```{r sessionInfo, echo=F}
+sessionInfo()
+```
