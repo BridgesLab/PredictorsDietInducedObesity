@@ -91,6 +91,11 @@ Analysis
 ```{r linear-modeling-loss, echo=FALSE}
 loss.lm <- lm(Loss~Age, data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,])
 loss.pct.lm <- lm(Loss.pct~Age, data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,])
+#removes outliers
+loss.pct.lm.rm.outliers <- lm(Loss.pct~Age, data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,])
+library(MASS)
+loss.rlm <- rlm(Loss~Age, data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,])
+loss.pct.rlm <- rlm(Loss.pct~Age, data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,])
 ```
 
 ### Weight Loss on Normal Chow Diet
@@ -127,6 +132,15 @@ with(weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], plot(Age
                        xlim=c(0,max(Age))))
 abline(loss.pct.lm)
 ```
+
+### Effect of outliers on interpretation of longitudinal fasting weight loss
+
+There were two outliers noted by one of the reviewers that may affect our interpretation.  These outliers were `r as.character(weight.data[weight.data$Loss.pct < 2,]$Animal)` which lost less than 2% of their body weight, and `r as.character(weight.data[weight.data$Loss.pct > 15,]$Animal)`. which lost more than 15% of their body weight at some stage.  If we remove these outliers the adjusted R<sup>2</sup> goes from `r summary(loss.pct.lm)$r.squared` to `r summary(loss.pct.lm.rm.outliers)$r.squared`.
+
+We also calculated correlation coeffecients for both the entire dataset.  Because the residuals for the percent loss linear model were normally distributed (Shapiro-Wilk test p=`r shapiro.test(residuals(loss.pct.lm))$p.value` for percent weight loss and `r shapiro.test(residuals(loss.lm))$p.value` for absolute weight loss).  Therefore correlations coefficients will be from Spearman's Rank Order test
+
+For percent weight loss upon fasting the Spearman's rank ordered test showed no significant correlation.
+(r=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], cor.test(Loss.pct,Age))$estimate` r<sup>2</sup>= `r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], cor.test(Loss.pct,Age,method="spearman"))$estimate^2` and p=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], cor.test(Loss.pct,Age,method="spearman"))$p.value`) and with outliers removed (r=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,], cor.test(Loss.pct,Age,method="spearman"))$estimate` r<sup>2</sup>= `r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,], cor.test(Loss.pct,Age,method="spearman"))$estimate^2` and p=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,], cor.test(Loss.pct,Age,method="spearman"))$p.value`).  For total weight loss there was also no correlation (r=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], cor.test(Loss,Age))$estimate` r<sup>2</sup>= `r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], cor.test(Loss,Age,method="spearman"))$estimate^2` and p=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE,], cor.test(Loss,Age,method="spearman"))$p.value`) and with outliers removed (r=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,], cor.test(Loss,Age,method="spearman"))$estimate` r<sup>2</sup>= `r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,], cor.test(Loss,Age,method="spearman"))$estimate^2` and p=`r with(data=weight.data[weight.data$HFD==FALSE&weight.data$Rapamycin==FALSE&weight.data$Loss.pct>2&weight.data$Loss.pct<15,], cor.test(Loss,Age,method="spearman"))$p.value`).
 
 Longitudinal Analysis of Fasting Induced Weight Loss
 -----------------------------------------------------
@@ -246,7 +260,7 @@ with(cohort5.6.data, plot(Late.Fed,Late.pct, col=Treatment, pch=19,
 with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Late.pct~Late.Fed), col=palette()[1]))
 with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Late.pct~Late.Fed), col=palette()[2]))
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
-```
+``` 
 
 ### Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
 
@@ -310,7 +324,10 @@ with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain.pct~Earl
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
 ```
 
+
 Session Information
+--------------------
+
 ```{r wessionInfo, echo=F}
 sessionInfo()
 ```
