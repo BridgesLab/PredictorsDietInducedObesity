@@ -14,7 +14,7 @@ The raw data is in a file named ../data/raw/Post-Diet-Multiplex.csv and are mapp
 
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 17:19:23 2014 -->
+<!-- Wed May 28 17:29:57 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Mouse Level Data </CAPTION>
 <TR> <TH> Row.names </TH> <TH> Resistin </TH> <TH> GIP </TH> <TH> PAI1 </TH> <TH> GLP1 </TH> <TH> Glucagon </TH> <TH> Ghrelin </TH> <TH> Leptin </TH> <TH> Insulin </TH> <TH> Treatment </TH> <TH> Feeding </TH>  </TR>
@@ -63,7 +63,7 @@ Summary
 These values are grouped by feeding status and diet and dhown below
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 17:19:24 2014 -->
+<!-- Wed May 28 17:29:58 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Summary Values </CAPTION>
 <TR> <TH>  </TH> <TH> Hormone </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Average </TH> <TH> SD </TH> <TH> SE </TH> <TH> N </TH>  </TR>
@@ -110,7 +110,7 @@ Statistics
 We did ANOVA analyses, testing first for an effect of Feeding Status, then for Treatment then for an interaction between those factors.  The results of these ANOVAs are in Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 17:19:24 2014 -->
+<!-- Wed May 28 17:29:58 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected </CAPTION>
 <TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Interaction </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
@@ -129,7 +129,7 @@ We did ANOVA analyses, testing first for an effect of Feeding Status, then for T
 There was no significant interaction term for all hormones except PAI1, Leptin, so for those hormones the interaction term was dropped and the simplified non-interacting ANOVAs are in the Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 17:19:24 2014 -->
+<!-- Wed May 28 17:29:58 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA Analyses, uncorrected for hormones without an interaction term </CAPTION>
 <TR> <TH>  </TH> <TH> Feeding </TH> <TH> Treatment </TH> <TH> Shapiro </TH> <TH> Levene </TH> <TH> Test </TH>  </TR>
@@ -146,7 +146,7 @@ There was no significant interaction term for all hormones except PAI1, Leptin, 
 Based on these ANOVA results, and the tests for normality and equal variance either a Wilcoxon-Rank Sum Test, Welch's T-Test or Student's T-Test was performed.  If there was no significant interaction, then the above table indicates the test.  If there was an interaction (for PAI1, Leptin), two tables above indicates the test.  The results of the appropriate tests are shown in the Table below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 17:19:24 2014 -->
+<!-- Wed May 28 17:29:58 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Appropriate Tests Based on the Above, Not Corrected for Multiple Observations </CAPTION>
 <TR> <TH>  </TH> <TH> HFD.Fasted.Refed </TH> <TH> CD.Fasted.Refed </TH> <TH> Fasted.CDvHFD </TH> <TH> Refed.CDvHFD </TH>  </TR>
@@ -161,7 +161,7 @@ Based on these ANOVA results, and the tests for normality and equal variance eit
    <A NAME=tab:t-test-summary></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Wed May 28 17:19:24 2014 -->
+<!-- Wed May 28 17:29:58 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Appropriate Tests Based on the Above, Corrected for Multiple Observations by the Method of Benjamini and Hochberg </CAPTION>
 <TR> <TH>  </TH> <TH> HFD.Fasted.Refed </TH> <TH> CD.Fasted.Refed </TH> <TH> Fasted.CDvHFD </TH> <TH> Refed.CDvHFD </TH>  </TR>
