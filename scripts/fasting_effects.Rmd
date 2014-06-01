@@ -279,39 +279,51 @@ Due to the stability in percent weight loss even without dietary manipulation, w
 
 ```{r linear-modeling-gain, echo=FALSE, warning=FALSE}
 #calculated correlation coefficients
-gain.cor.abs <- with(cohort5.6.data, cor.test(Gain,Early))
-gain.cor.pct <- with(cohort5.6.data, cor.test(Gain.pct,Early.pct))
+gain.cor.abs <- with(cohort5.6.data, cor.test(Gain,Early, method="spearman"))
+gain.cor.pct <- with(cohort5.6.data, cor.test(Gain.pct,Early.pct, method="spearman"))
 
 gain.lm.abs <- lm(Gain~Treatment+Early, data=cohort5.6.data)
 gain.lm.abs.int <- lm(Gain~Treatment*Early, data=cohort5.6.data)
 gain.lm.pct <- lm(Gain.pct~Treatment+Early.pct, data=cohort5.6.data)
 gain.lm.pct.int <- lm(Gain.pct~Treatment*Early.pct, data=cohort5.6.data)
 
-gain.cor.abs.hfd <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early, Gain))
-gain.cor.abs.cd <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early, Gain))
+gain.cor.abs.hfd <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early, Gain, method="spearman"))
+gain.cor.abs.cd <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early, Gain, method="spearman"))
 
-gain.cor.pct.hfd <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early.pct, Gain.pct))
-gain.cor.pct.cd <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early.pct, Gain.pct))
+gain.cor.pct.hfd <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early.pct, Gain.pct, method="spearman"))
+gain.cor.pct.cd <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early.pct, Gain.pct, method="spearman"))
 
 aov.model.null <- lm(Gain.pct~Treatment, data=cohort5.6.data)
 
 model.improvement <- add1(aov.model.null, ~ Treatment * Early.pct, test="F")$`Pr(>F)`[2]
 ```
 
-We next tested whether weight loss pre-diet has any effect on weight loss later on.  For Control Diet pre-diet fasting values, the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early.pct)$p.value` for relative weight loss. For High Fat Diet pre-diet values, the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Early)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Early.pct)$p.value` for relative weight loss.  
+We next tested whether weight loss pre-diet has any effect on weight loss later on.  When combined, since there should be no difference in the groups pre-diet the data were normall distributed (p=`r shapiro.test(cohort5.6.data$Early)$p.value` for absolute weight loss and p=`r shapiro.test(cohort5.6.data$Early.pct)$p.value` for percent weight loss).  Log-transforming these data yielded normal distributions (p=`r shapiro.test(log(cohort5.6.data$Early))$p.value` for absolute weight loss and p=`r shapiro.test(log(cohort5.6.data$Early.pct))$p.value` for percent weight loss).
 
-At the end of the diet, the percent weight gain and absolute weight gain was also not normally distributed (p=`r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain.pct)$p.value` and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain)$p.value`) for High Fat Diet.  For Control Diet, the data was normally distributed for percent weight gain (p=`r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain.pct)$p.value`) but not absolute weight gain (p=`r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain)$p.value`).
+For log transformed Control Diet pre-diet fasting values, the Shapiro-Wilk test had a p-value of `r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early))$p.value` for absolute weight loss and `r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early.pct))$p.value` for relative weight loss. For log transformed High Fat Diet pre-diet values, the Shapiro-Wilk test had a p-value of `r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Early))$p.value` for absolute weight loss and `r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Early.pct))$p.value` for relative weight loss.
 
-In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight gained during the diet (r=`r round(gain.cor.pct$estimate,3)`, R2=`r round(gain.cor.pct$estimate^2,3)`, p=`r round(gain.cor.pct$p.value,6)`) but not absolute weight loss (r=`r round(gain.cor.abs$estimate,3)`, R2=`r round(gain.cor.abs$estimate^2,3)`, p=`r round(gain.cor.abs$p.value,5)`).  These data are graphed below.
+At the end of the diet, the percent weight gain and absolute weight gain was also not normally distributed (p=`r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain.pct)$p.value` and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain)$p.value`) for High Fat Diet.  For Control Diet, the data was normally distributed for percent weight gain (p=`r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain.pct)$p.value`) but not absolute weight gain (p=`r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain)$p.value`).  The log transformed Shapiro-tests were (p=`r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain.pct))$p.value` and `r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain))$p.value`) for High Fat Diet and (p=`r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain.pct))$p.value` and `r shapiro.test(log(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain))$p.value`) for Control Diet.  This was due to a bimodal distribution for the gain in high fat diet and cannot be accounted for by a transformation, as shown below:
 
-```{r lm-tables-diet,echo=FALSE,results='asis'}
-print(xtable(gain.lm.abs, caption = "Linear model for the role of early fasting induced weight loss compared to weight gain during diet", label = "tab:lm-gain"), type="html")
-print(xtable(gain.lm.pct, caption = "Linear model for rhe role of early fasting induced percent weight loss compared to percent weight gain during dietary manipulation", label = "tab:lm-gain-pct"), type="html")
+```{r gain-density-plot,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
+par(mfrow=c(1,2))
+plot(density(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain.pct, na.rm=T), col=palette()[2],
+     main="", xlab="Percent Weight Gain on Diet", las=2)
+lines(density(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain.pct, na.rm=T), col=palette()[1])
+legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
+
+plot(density(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Gain, na.rm=T), col=palette()[2],
+     main="", xlab="Absolute Weight Gain on Diet (g)", las=2)
+lines(density(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Gain, na.rm=T), col=palette()[1])
+legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
 ```
+
+The question, we asked is whether is weight loss consistent within animals, based on a Spearman's Rank Order Test. There was a strong correlation between percentage weight loss pre-diet and weight gained during the diet (r=`r round(gain.cor.pct$estimate,3)`, R2=`r round(gain.cor.pct$estimate^2,3)`, p=`r round(gain.cor.pct$p.value,6)`) and also absolute weight loss relative to absolute weight gain (r=`r round(gain.cor.abs$estimate,3)`, R2=`r round(gain.cor.abs$estimate^2,3)`, p=`r round(gain.cor.abs$p.value,5)`).  These data are graphed below.
 
 To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to weight gain in absolute or relative terms.   These models had an adjusted R2 of `r round(summary(gain.lm.abs)$r.squared,3)` for absolute weight gain and `r round(summary(gain.lm.pct)$r.squared,3)` for percentage weight gain. There was no interaction between the treatment and the early fasting induced weight loss in either absolute (p=`r round(anova(gain.lm.abs, gain.lm.abs.int)$"Pr(>F)"[2],3)`) but there was an interaction in percent terms (p=`r round(anova(gain.lm.pct, gain.lm.pct.int)$"Pr(>F)"[2],3)`).
 
-Because of this, we separated out the diets and looked at correlations between weight gain on high fat diet on percent weight loss (r=`r round(gain.cor.abs.hfd$estimate,3)`, R2=`r round(gain.cor.abs.hfd$estimate^2,3)`, p=`r round(gain.cor.abs.hfd$p.value,6)`) and for control diet  (r=`r round(gain.cor.abs.cd$estimate,3)`, R2=`r round(gain.cor.abs.cd$estimate^2,3)`, p=`r round(gain.cor.abs.cd$p.value,6)`).  In terms of percentage weight gain (relative to percent pre-diet weight loss) we observed for high fat diet (r`r round(gain.cor.pct.hfd$estimate,3)`, R2=`r round(gain.cor.pct.hfd$estimate^2,3)`, p=`r round(gain.cor.pct.hfd$p.value,10)`) and for control diet  (r=`r round(gain.cor.pct.cd$estimate,3)`, R2=`r round(gain.cor.pct.cd$estimate^2,3)`, p=`r round(gain.cor.pct.cd$p.value,10)`).
+Because of this, we separated out the diets and looked at correlations between absolute weight gain on high fat diet and pre-diet absolute weight loss (Rho=`r round(gain.cor.abs.hfd$estimate,3)`, Rho<sup>2</sup>=`r round(gain.cor.abs.hfd$estimate^2,3)`, p=`r round(gain.cor.abs.hfd$p.value,6)`) and for control diet  (r=`r round(gain.cor.abs.cd$estimate,3)`, R2=`r round(gain.cor.abs.cd$estimate^2,3)`, p=`r round(gain.cor.abs.cd$p.value,6)`).
+
+In terms of percentage weight gain (relative to percent pre-diet fasting response) we observed for high fat diet (r`r round(gain.cor.pct.hfd$estimate,3)`, R2=`r round(gain.cor.pct.hfd$estimate^2,3)`, p=`r round(gain.cor.pct.hfd$p.value,10)`) and for control diet  (r=`r round(gain.cor.pct.cd$estimate,3)`, R2=`r round(gain.cor.pct.cd$estimate^2,3)`, p=`r round(gain.cor.pct.cd$p.value,10)`).
 
 Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **`r round(model.improvement,10)`**.
 
@@ -338,7 +350,6 @@ with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Gain.pct~Early
 with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain.pct~Early.pct), col=palette()[2]))
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
 ```
-
 
 Session Information
 --------------------

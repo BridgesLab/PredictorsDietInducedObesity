@@ -7,7 +7,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Sun Jun  1 08:35:36 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Sun Jun  1 09:17:18 2014
 
 Analysis
 ----------
@@ -23,7 +23,7 @@ We tested whether there was a trend towards weight loss or percentage weight los
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  1 08:35:36 2014 -->
+<!-- Sun Jun  1 09:17:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -32,7 +32,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  1 08:35:36 2014 -->
+<!-- Sun Jun  1 09:17:18 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -104,37 +104,22 @@ Due to the stability in percent weight loss even without dietary manipulation, w
 
 
 
-We next tested whether weight loss pre-diet has any effect on weight loss later on.  For Control Diet pre-diet fasting values, the Shapiro-Wilk test had a p-value of 0.0303 for absolute weight loss and 0.0383 for relative weight loss. For High Fat Diet pre-diet values, the Shapiro-Wilk test had a p-value of 0.156 for absolute weight loss and 0.3309 for relative weight loss.  
+We next tested whether weight loss pre-diet has any effect on weight loss later on.  When combined, since there should be no difference in the groups pre-diet the data were normall distributed (p=0.0366 for absolute weight loss and p=0.0744 for percent weight loss).  Log-transforming these data yielded normal distributions (p=0.5658 for absolute weight loss and p=0.8993 for percent weight loss).
 
-At the end of the diet, the percent weight gain and absolute weight gain was also not normally distributed (p=0.0143 and 0.0038) for High Fat Diet.  For Control Diet, the data was normally distributed for percent weight gain (p=0.7665) but not absolute weight gain (p=0.5949).
+For log transformed Control Diet pre-diet fasting values, the Shapiro-Wilk test had a p-value of 0.1563 for absolute weight loss and 0.2955 for relative weight loss. For log transformed High Fat Diet pre-diet values, the Shapiro-Wilk test had a p-value of 0.7994 for absolute weight loss and 0.6812 for relative weight loss.
 
-In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight gained during the diet (r=-0.441, R2=0.194, p=3.4 &times; 10<sup>-5</sup>) but not absolute weight loss (r=-0.377, R2=0.142, p=4.9 &times; 10<sup>-4</sup>).  These data are graphed below.
+At the end of the diet, the percent weight gain and absolute weight gain was also not normally distributed (p=0.0143 and 0.0038) for High Fat Diet.  For Control Diet, the data was normally distributed for percent weight gain (p=0.7665) but not absolute weight gain (p=0.5949).  The log transformed Shapiro-tests were (p=8.6558 &times; 10<sup>-7</sup> and 6.6461 &times; 10<sup>-7</sup>) for High Fat Diet and (p=0.1147 and 0.3422) for Control Diet.  This was due to a bimodal distribution for the gain in high fat diet and cannot be accounted for by a transformation, as shown below:
 
-<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  1 08:35:36 2014 -->
-<TABLE border=1>
-<CAPTION ALIGN="bottom"> Linear model for the role of early fasting induced weight loss compared to weight gain during diet </CAPTION>
-<TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 18.3436 </TD> <TD align="right"> 1.5851 </TD> <TD align="right"> 11.57 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 6.7416 </TD> <TD align="right"> 0.6141 </TD> <TD align="right"> 10.98 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> Early </TD> <TD align="right"> -2.2488 </TD> <TD align="right"> 0.5306 </TD> <TD align="right"> -4.24 </TD> <TD align="right"> 0.0001 </TD> </TR>
-   <A NAME=tab:lm-gain></A>
-</TABLE>
-<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  1 08:35:36 2014 -->
-<TABLE border=1>
-<CAPTION ALIGN="bottom"> Linear model for rhe role of early fasting induced percent weight loss compared to percent weight gain during dietary manipulation </CAPTION>
-<TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
-  <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 87.9340 </TD> <TD align="right"> 7.8276 </TD> <TD align="right"> 11.23 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> TreatmentHigh Fat Diet </TD> <TD align="right"> 27.0912 </TD> <TD align="right"> 2.4854 </TD> <TD align="right"> 10.90 </TD> <TD align="right"> 0.0000 </TD> </TR>
-  <TR> <TD align="right"> Early.pct </TD> <TD align="right"> -3.9356 </TD> <TD align="right"> 0.7037 </TD> <TD align="right"> -5.59 </TD> <TD align="right"> 0.0000 </TD> </TR>
-   <A NAME=tab:lm-gain-pct></A>
-</TABLE>
+![plot of chunk gain-density-plot](figure/gain-density-plot.png) 
 
+
+The question, we asked is whether is weight loss consistent within animals, based on a Spearman's Rank Order Test. There was a strong correlation between percentage weight loss pre-diet and weight gained during the diet (r=-0.423, R2=0.179, p=7.7 &times; 10<sup>-5</sup>) and also absolute weight loss relative to absolute weight gain (r=-0.332, R2=0.11, p=0.0023).  These data are graphed below.
 
 To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to weight gain in absolute or relative terms.   These models had an adjusted R2 of 0.66 for absolute weight gain and 0.678 for percentage weight gain. There was no interaction between the treatment and the early fasting induced weight loss in either absolute (p=0.542) but there was an interaction in percent terms (p=0.163).
 
-Because of this, we separated out the diets and looked at correlations between weight gain on high fat diet on percent weight loss (r=-0.479, R2=0.23, p=5.71 &times; 10<sup>-4</sup>) and for control diet  (r=-0.338, R2=0.114, p=0.0509).  In terms of percentage weight gain (relative to percent pre-diet weight loss) we observed for high fat diet (r-0.602, R2=0.362, p=6.0681 &times; 10<sup>-6</sup>) and for control diet  (r=-0.397, R2=0.158, p=0.02).
+Because of this, we separated out the diets and looked at correlations between absolute weight gain on high fat diet and pre-diet absolute weight loss (Rho=-0.332, Rho<sup>2</sup>=0.11, p=0.0211) and for control diet  (r=-0.319, R2=0.102, p=0.066).
+
+In terms of percentage weight gain (relative to percent pre-diet fasting response) we observed for high fat diet (r-0.61, R2=0.373, p=6.6002 &times; 10<sup>-6</sup>) and for control diet  (r=-0.334, R2=0.112, p=0.0538).
 
 Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **2.599 &times; 10<sup>-7</sup>**.
 
@@ -142,7 +127,6 @@ Alternatively we generated a model where percent weight gain is dependent only o
 
 
 ![plot of chunk gain-plot-pct](figure/gain-plot-pct.png) 
-
 
 
 Session Information
