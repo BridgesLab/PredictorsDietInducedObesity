@@ -219,7 +219,7 @@ For High Fat Diet pre-diet values, the Shapiro-Wilk test had a p-value of `r sha
 For Control Diet pre-diet values, the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early.pct)$p.value` for relative weight loss. For post-diet the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Late)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Late.pct)$p.value` for relative weight loss.  Based on this we did a Spearman Rank-Order test and found that there was a modest correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct.cd$estimate,3)`, R2=`r round(fasting.cor.pct.cd$estimate^2,3)`, p=`r round(fasting.cor.pct.cd$p.value,20)`) and absolute weight loss (r=`r round(fasting.cor.abs.cd$estimate,3)`, R2=`r round(fasting.cor.abs.cd$estimate^2,3)`, p=`r round(fasting.cor.abs.cd$p.value,3)`).
 
 ```{r fasting-loss-plot,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
-with(cohort5.6.data, plot(Early,Late, col=Treatment, pch=19,
+with(cohort5.6.data, plot(Early,Late, col=Treatment, pch=19,las=1,
                         main="Fasting Induced Weight Loss",
                         xlab="Pre-Diet Weight Loss (g)",
                         ylab="Post-Diet Weight Loss (g)",
@@ -232,7 +232,7 @@ legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, p
 ```
 
 ```{r fasting-loss-plot-pct,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
-with(cohort5.6.data, plot(Early.pct,Late.pct, col=Treatment, pch=19,
+with(cohort5.6.data, plot(Early.pct,Late.pct, col=Treatment, pch=19,las=1,
                         main="Fasting Induced Percent Weight Loss",
                         xlab="Pre-Diet Weight Loss (% of Fed)",
                         ylab="Post-Diet Weight Loss (% of Fed)",
