@@ -7,7 +7,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Sun Jun  1 09:17:18 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Sun Jun  1 10:21:33 2014
 
 Analysis
 ----------
@@ -23,7 +23,7 @@ We tested whether there was a trend towards weight loss or percentage weight los
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  1 09:17:18 2014 -->
+<!-- Sun Jun  1 10:21:33 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -32,7 +32,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  1 09:17:18 2014 -->
+<!-- Sun Jun  1 10:21:33 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -121,12 +121,34 @@ Because of this, we separated out the diets and looked at correlations between a
 
 In terms of percentage weight gain (relative to percent pre-diet fasting response) we observed for high fat diet (r-0.61, R2=0.373, p=6.6002 &times; 10<sup>-6</sup>) and for control diet  (r=-0.334, R2=0.112, p=0.0538).
 
+  These correlation coefficients are summarized below:
+
+<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
+<!-- Sun Jun  1 10:21:34 2014 -->
+<TABLE border=1>
+<CAPTION ALIGN="bottom"> Spearman's Rho and p-values for each comparason between weight gain and fasting responses </CAPTION>
+<TR> <TH>  </TH> <TH> Pre Diet Relative Fasting Response </TH> <TH> Pre Diet Absolute Fasting Response </TH>  </TR>
+  <TR> <TD align="right"> HFD - Absolute Weight Gain (Rho) </TD> <TD align="right"> -0.3979 </TD> <TD align="right"> -0.3321 </TD> </TR>
+  <TR> <TD align="right"> HFD - Absolute Weight Gain (p.value) </TD> <TD align="right"> 0.0054 </TD> <TD align="right"> 0.0211 </TD> </TR>
+  <TR> <TD align="right"> HFD - Relative Weight Gain (Rho) </TD> <TD align="right"> -0.6104 </TD> <TD align="right"> -0.6180 </TD> </TR>
+  <TR> <TD align="right"> HFD - Relative Weight Gain (p.value) </TD> <TD align="right"> 0.0000 </TD> <TD align="right"> 0.0000 </TD> </TR>
+  <TR> <TD align="right"> CD - Absolute Weight Gain (Rho) </TD> <TD align="right"> -0.3235 </TD> <TD align="right"> -0.3189 </TD> </TR>
+  <TR> <TD align="right"> CD - Absolute Weight Gain (p.value) </TD> <TD align="right"> 0.0625 </TD> <TD align="right"> 0.0660 </TD> </TR>
+  <TR> <TD align="right"> CD - Relative Weight Gain (Rho) </TD> <TD align="right"> -0.3345 </TD> <TD align="right"> -0.4184 </TD> </TR>
+  <TR> <TD align="right"> CD - Relative Weight Gain (p.value) </TD> <TD align="right"> 0.0538 </TD> <TD align="right"> 0.0138 </TD> </TR>
+   <A NAME=tab:gain-correlations></A>
+</TABLE>
+
+
 Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **2.599 &times; 10<sup>-7</sup>**.
 
 ![plot of chunk gain-plot](figure/gain-plot.png) 
 
 
 ![plot of chunk gain-plot-pct](figure/gain-plot-pct.png) 
+
+
+![plot of chunk gain-plot-all](figure/gain-plot-all.png) 
 
 
 Session Information

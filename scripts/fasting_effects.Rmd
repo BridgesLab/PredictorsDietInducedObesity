@@ -325,10 +325,37 @@ Because of this, we separated out the diets and looked at correlations between a
 
 In terms of percentage weight gain (relative to percent pre-diet fasting response) we observed for high fat diet (r`r round(gain.cor.pct.hfd$estimate,3)`, R2=`r round(gain.cor.pct.hfd$estimate^2,3)`, p=`r round(gain.cor.pct.hfd$p.value,10)`) and for control diet  (r=`r round(gain.cor.pct.cd$estimate,3)`, R2=`r round(gain.cor.pct.cd$estimate^2,3)`, p=`r round(gain.cor.pct.cd$p.value,10)`).
 
+  These correlation coefficients are summarized below:
+
+```{r gain-correlation-tables,echo=FALSE,results='asis', message=FALSE, warning=FALSE}
+gain.correlation.table <- data.frame()
+#fill in table
+gain.correlation.table["HFD - Absolute Weight Gain (Rho)","Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early.pct, Gain, method="spearman"))$estimate
+gain.correlation.table["HFD - Absolute Weight Gain (Rho)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early, Gain, method="spearman"))$estimate
+gain.correlation.table["HFD - Absolute Weight Gain (p.value)", "Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early.pct, Gain, method="spearman"))$p.value
+gain.correlation.table["HFD - Absolute Weight Gain (p.value)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early, Gain, method="spearman"))$p.value
+gain.correlation.table["HFD - Relative Weight Gain (Rho)","Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early.pct, Gain.pct, method="spearman"))$estimate
+gain.correlation.table["HFD - Relative Weight Gain (Rho)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early, Gain.pct, method="spearman"))$estimate
+gain.correlation.table["HFD - Relative Weight Gain (p.value)", "Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early.pct, Gain.pct, method="spearman"))$p.value
+gain.correlation.table["HFD - Relative Weight Gain (p.value)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"), cor.test(Early, Gain.pct, method="spearman"))$p.value
+#for CD
+gain.correlation.table["CD - Absolute Weight Gain (Rho)","Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early.pct, Gain, method="spearman"))$estimate
+gain.correlation.table["CD - Absolute Weight Gain (Rho)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early, Gain, method="spearman"))$estimate
+gain.correlation.table["CD - Absolute Weight Gain (p.value)", "Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early.pct, Gain, method="spearman"))$p.value
+gain.correlation.table["CD - Absolute Weight Gain (p.value)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early, Gain, method="spearman"))$p.value
+gain.correlation.table["CD - Relative Weight Gain (Rho)","Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early.pct, Gain.pct, method="spearman"))$estimate
+gain.correlation.table["CD - Relative Weight Gain (Rho)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early, Gain.pct, method="spearman"))$estimate
+gain.correlation.table["CD - Relative Weight Gain (p.value)", "Pre Diet Relative Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early.pct, Gain.pct, method="spearman"))$p.value
+gain.correlation.table["CD - Relative Weight Gain (p.value)", "Pre Diet Absolute Fasting Response"] <- with(subset(cohort5.6.data, Treatment=="Control Diet"), cor.test(Early, Gain.pct, method="spearman"))$p.value
+#write to results fule
+write.csv(gain.correlation.table, "../data/processed/Correlations Between Fasting Response and Weight Gain.csv")
+print(xtable(gain.correlation.table, caption = "Spearman's Rho and p-values for each comparason between weight gain and fasting responses", label = "tab:gain-correlations", digits=4), type="html")
+```
+
 Alternatively we generated a model where percent weight gain is dependent only on the treatment.  We then performed a F-test to see if inclusion of the pre-diet improved the model.  In this case it does, with a p-value of **`r round(model.improvement,10)`**.
 
 ```{r gain-plot,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
-with(cohort5.6.data, plot(Early,Gain, col=Treatment, pch=19,
+with(cohort5.6.data, plot(Early,Gain, col=Treatment, pch=19,las=1,
                         xlab="Pre-Diet Weight Loss (g)",
                         ylab="Weight Gained During Diet (g)",
                         xlim=c(0,max(Early, na.rm=T)),
@@ -340,7 +367,7 @@ legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, p
 ```
 
 ```{r gain-plot-pct,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
-with(cohort5.6.data, plot(Early.pct,Gain.pct, col=Treatment, pch=19,
+with(cohort5.6.data, plot(Early.pct,Gain.pct, col=Treatment, pch=19,las=1,
                         xlab="Pre-Diet Weight Loss (% of Fed)",
                         ylab="Weight Gain During Diet (% of Initial)",
                         xlim=c(0,max(Early.pct, na.rm=T)),
@@ -349,6 +376,46 @@ with(cohort5.6.data, plot(Early.pct,Gain.pct, col=Treatment, pch=19,
 with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Gain.pct~Early.pct), col=palette()[1]))
 with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain.pct~Early.pct), col=palette()[2]))
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
+```
+
+```{r gain-plot-all,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
+par(mfrow=c(2,2))
+with(cohort5.6.data, plot(Early.pct,Gain.pct, col=Treatment, pch=19,las=1,
+                        xlab="Pre-Diet Weight Loss (% of Fed)",
+                        ylab="Weight Gain During Diet (% of Initial)",
+                        xlim=c(0,max(Early.pct, na.rm=T)),
+                        ylim=c(0,max(Gain.pct, na.rm=T))
+                      ))
+with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Gain.pct~Early.pct), col=palette()[1]))
+with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain.pct~Early.pct), col=palette()[2]))
+legend("bottomleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
+
+with(cohort5.6.data, plot(Early.pct,Gain, col=Treatment, pch=19,las=1,
+                        xlab="Pre-Diet Weight Loss (% of Fed)",
+                        ylab="Weight Gain During Diet (g)",
+                        xlim=c(0,max(Early.pct, na.rm=T)),
+                        ylim=c(0,max(Gain, na.rm=T))
+                      ))
+with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Gain~Early.pct), col=palette()[1]))
+with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain~Early.pct), col=palette()[2]))
+
+with(cohort5.6.data, plot(Early,Gain.pct, col=Treatment, pch=19,las=1,
+                        xlab="Pre-Diet Weight Loss (g)",
+                        ylab="Weight Gain During Diet (% of Initial)",
+                        xlim=c(0,max(Early, na.rm=T)),
+                        ylim=c(0,max(Gain.pct, na.rm=T))
+                      ))
+with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Gain.pct~Early), col=palette()[1]))
+with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain.pct~Early), col=palette()[2]))
+
+with(cohort5.6.data, plot(Early,Gain, col=Treatment, pch=19,las=1,
+                        xlab="Pre-Diet Weight Loss (g)",
+                        ylab="Weight Gain During Diet (g)",
+                        xlim=c(0,max(Early, na.rm=T)),
+                        ylim=c(0,max(Gain, na.rm=T))
+                      ))
+with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Gain~Early), col=palette()[1]))
+with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Gain~Early), col=palette()[2]))
 ```
 
 Session Information
