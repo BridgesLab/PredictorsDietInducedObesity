@@ -190,25 +190,33 @@ cohort5.6.data$Gain <- cohort5.6.data$Late.Fed - cohort5.6.data$Early.Fed
 cohort5.6.data$Gain.pct <- cohort5.6.data$Gain/cohort5.6.data$Early.Fed*100
 
 #calculated correlation coefficients
-fasting.cor.abs <- with(cohort5.6.data, cor.test(Late,Early))
-fasting.cor.pct <- with(cohort5.6.data, cor.test(Late.pct,Early.pct))
+fasting.cor.abs <- with(cohort5.6.data, cor.test(Late,Early, method='spearman'))
+fasting.cor.pct <- with(cohort5.6.data, cor.test(Late.pct,Early.pct,  method='spearman'))
+
+#calculated correlation coefficients separated by diet
+fasting.cor.abs.hfd <- with(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",], cor.test(Late,Early, method='spearman'))
+fasting.cor.abs.cd <- with(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",], cor.test(Late,Early, method='spearman'))
+fasting.cor.pct.hfd <- with(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",], cor.test(Late.pct,Early.pct, method='spearman'))
+fasting.cor.pct.cd <- with(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",], cor.test(Late.pct,Early.pct, method='spearman'))
+
 
 fasting.lm.abs <- lm(Late~Treatment+Early, data=cohort5.6.data)
 fasting.lm.pct <- lm(Late.pct~Treatment+Early.pct, data=cohort5.6.data)
 fasting.lm.pct.int <- lm(Late.pct~Treatment*Early.pct, data=cohort5.6.data)
 ```
 
-We next tested whether weight loss pre-diet has any effect on weight loss later on.  This used the data file `r fasting_data_file`.  In other words, is weight loss consistent within animals. There was a strong correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct$estimate,3)`, R2=`r round(fasting.cor.pct$estimate^2,3)`, p=`r round(fasting.cor.pct$p.value,20)`) but not absolute weight loss (r=`r round(fasting.cor.abs$estimate,3)`, R2=`r round(fasting.cor.abs$estimate^2,3)`, p=`r round(fasting.cor.abs$p.value,3)`).  These data are graphed below.
+Both pre- and post-diet fasting responses were not normally distributed.  For pre-diet the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data$Early)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data$Early.pct)$p.value` for relative weight loss.  For post-diet fasting responses, the results were `r shapiro.test(cohort5.6.data$Late)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data$Late.pct)$p.value` for percent weight loss.  Therefore to test correlations between these factors we used Spearman's Rank Order Test.
 
-```{r lm-tables-gain,echo=FALSE,results='asis'}
-print(xtable(fasting.lm.abs, caption = "Linear Model for The Role of Early Fasting Induced Weight Loss Compared to Late Fasting Induced Weight Loss", label = "tab:lm-fasting-loss"), type="html")
-print(xtable(fasting.lm.pct, caption = "Linear Model for The Role of Early Fasting Induced Percent Weight Loss Compared to Late Fasting Induced Percent Weight Loss", label = "tab:lm-fasting-loss-pct"), type="html")
-print(xtable(fasting.lm.pct.int, caption = "Linear Model for The Role of Early Fasting Induced Percent Weight Loss Compared to Late Fasting Induced Percent Weight Loss Including Interaction Term", label = "tab:lm-fasting-loss-pct-int"),type="html")
-```
+We next tested whether weight loss pre-diet has any effect on weight loss later on.  This used the data file `r fasting_data_file`.  In other words, is weight loss consistent within animals. There was a correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct$estimate,3)`, R2=`r round(fasting.cor.pct$estimate^2,3)`, p=`r round(fasting.cor.pct$p.value,20)`) and absolute weight loss (r=`r round(fasting.cor.abs$estimate,3)`, R2=`r round(fasting.cor.abs$estimate^2,3)`, p=`r round(fasting.cor.abs$p.value,3)`) when the diets are combined.  To account for the potential confounding effect of dietary treatment, we tested each diet separately.  
 
-To account for the potential confounding effect of dietary treatment, we generated linear models comparing early weight loss to late weight loss in absolute  or relative terms  .   These models had an R2 of `r round(summary(fasting.lm.abs)$r.squared,3)` for absolute weight loss and `r round(summary(fasting.lm.pct)$r.squared,3)` for percentage weight loss.  
 
-The only model that had a significant term was for percent weight loss.  For percent weight loss, was a significant interaction between the treatment and the early fasting induced weight loss (p=`r round(anova(fasting.lm.pct, fasting.lm.pct.int)$"Pr(>F)"[2],4)`) on the late fasting induced weight loss.  In addition to this interaction term, both the dietary treatment (p=`r round(summary(fasting.lm.pct.int)$coef[2,4],8)`) and the pre-diet fasting response (p=`r round(summary(fasting.lm.pct.int)$coef[3,4],48)`) were highly significant.
+#### High Fat Diet Within-Mouse Correlations
+
+For High Fat Diet pre-diet values, the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Early)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Early.pct)$p.value` for relative weight loss. For post-diet the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Late)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="High Fat Diet",]$Late.pct)$p.value` for relative weight loss.  Based on this we did a Spearman Rank-Order test and found that there was a modest correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct.hfd$estimate,3)`, R2=`r round(fasting.cor.pct.hfd$estimate^2,3)`, p=`r round(fasting.cor.pct.hfd$p.value,20)`) and absolute weight loss (r=`r round(fasting.cor.abs.hfd$estimate,3)`, R2=`r round(fasting.cor.abs.hfd$estimate^2,3)`, p=`r round(fasting.cor.abs.hfd$p.value,3)`).
+
+#### Control Diet Within-Mouse Correlations
+
+For Control Diet pre-diet values, the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Early.pct)$p.value` for relative weight loss. For post-diet the Shapiro-Wilk test had a p-value of `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Late)$p.value` for absolute weight loss and `r shapiro.test(cohort5.6.data[cohort5.6.data$Treatment=="Control Diet",]$Late.pct)$p.value` for relative weight loss.  Based on this we did a Spearman Rank-Order test and found that there was a modest correlation between percentage weight loss pre-diet and weight loss post-diet (r=`r round(fasting.cor.pct.cd$estimate,3)`, R2=`r round(fasting.cor.pct.cd$estimate^2,3)`, p=`r round(fasting.cor.pct.cd$p.value,20)`) and absolute weight loss (r=`r round(fasting.cor.abs.cd$estimate,3)`, R2=`r round(fasting.cor.abs.cd$estimate^2,3)`, p=`r round(fasting.cor.abs.cd$p.value,3)`).
 
 ```{r fasting-loss-plot,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
 with(cohort5.6.data, plot(Early,Late, col=Treatment, pch=19,
@@ -235,6 +243,9 @@ with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Late.pct~Early
 with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Late.pct~Early.pct), col=palette()[2]))
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
 ```
+
+Effects Relative to Body Weight
+--------------------------------
 
 ```{r fasting-loss-fed,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
 with(cohort5.6.data, plot(Late.Fed,Late, col=Treatment, pch=19,
