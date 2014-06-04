@@ -1,0 +1,421 @@
+Body Weights and Food Intake of High Fat Diets -- Combined Data
+=================================================================
+
+Data
+-----
+Combines Cohorts 3-5.  This script was most recently run on `r date()`
+
+Body Weight Data
+------------------
+```{r data-entry, echo=FALSE, message=FALSE}
+weekly_data_file <- '../data/raw/Weekly Weight Data.csv'
+
+#set palette
+require(RColorBrewer)
+treatment.colors <- brewer.pal(3,"Set2")[c(2,3,1)]
+palette(treatment.colors)
+update.data <- function(x) {
+#loaded data from cohort 3
+start.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/33/csv"
+week2.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/37/csv"
+week4.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/38/csv"
+week6.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/43/csv"
+week8.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/50/csv"
+week10.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/54/csv"
+week12.3 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/61/csv"
+
+
+#from cohort 3 (Sept-Dec 2012)
+start.data.3 <- read.csv(start.3)
+week2.data.3 <- read.csv(week2.3)
+week4.data.all.3 <- read.csv(week4.3)
+week4.data.3 <- subset(week4.data.all.3, Age==97)
+week6.data.all.3 <- read.csv(week6.3)
+week6.data.3 <- subset(week6.data.all.3, Age==111)
+week8.data.all.3 <- read.csv(week8.3)
+week8.data.3 <- subset(week8.data.all.3, Age==125)
+week10.data.all.3 <- read.csv(week10.3)
+week10.data.3 <- subset(week10.data.all.3, Age==139)
+week12.data.3 <- read.csv(week12.3)
+
+cohort.3 <- rbind(start.data.3,
+                  week2.data.3,
+                  week4.data.3,
+                  week6.data.3,
+                  week8.data.3,
+                  week10.data.3,
+                  week12.data.3)
+cohort.3$Cohort <- rep("Cohort 3", dim(cohort.3)[1])
+
+#loaded data from cohort 4
+start.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/38/csv"
+week2.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/43/csv"
+week4.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/38/csv"
+week6.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/54/csv"
+week8.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/60/csv"
+week10.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/68/csv"
+week12.4 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/69/csv"
+
+start.data.all.4 <- read.csv(start.4)
+start.data.4 <- subset(start.data.all.4, Age==69)
+week2.data.all.4 <- read.csv(week2.4)
+week2.data.4 <- subset(week2.data.all.4, Age==83)
+week4.data.all.4 <- read.csv(week4.4)
+week4.data.4 <- subset(week4.data.all.4, Age==97)
+week6.data.all.4 <- read.csv(week6.4)
+week6.data.4 <- subset(week6.data.all.4, Age==111)
+week8.data.4 <- read.csv(week8.4)
+week10.data.4 <- read.csv(week10.4)
+week12.data.4 <- read.csv(week12.4)
+
+cohort.4 <- rbind(start.data.4,
+                  week2.data.4,
+                  week4.data.4,
+                  week6.data.4,
+                  week8.data.4,
+                  week10.data.4,
+                  week12.data.4)
+cohort.4$Cohort <- rep("Cohort 4", dim(cohort.4)[1])
+
+#for cohort 5
+start.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/84/csv"
+week2.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/87/csv"
+week4.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/88/csv"
+week6.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/89/csv"
+week8.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/90/csv"
+week10.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/94/csv"
+week12.5 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/95/csv"
+
+start.data.5 <- read.csv(start.5)
+week2.data.5 <- read.csv(week2.5)
+week4.data.5 <- read.csv(week4.5)
+week6.data.5 <- read.csv(week6.5)
+week8.data.5 <- read.csv(week8.5)
+week10.data.5 <- read.csv(week10.5)
+week12.data.5 <- read.csv(week12.5)
+
+cohort.5 <- rbind(start.data.5,week2.data.5,week4.data.5, week6.data.5, week8.data.5, week10.data.5, week12.data.5)
+cohort.5$Cohort <- rep("Cohort 5", dim(cohort.5)[1])
+
+#loaded data from cohort 6
+start.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/100/csv"
+week2.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/110/csv"
+week4.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/111/csv"
+week6.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/114/csv"
+week8.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/117/csv"
+week10.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/120/csv"
+week12.6 <- "http://bridgeslab.uthsc.edu/mousedb/experiment/126/csv"
+
+start.data.6 <- read.csv(start.6)
+week2.data.6 <- read.csv(week2.6)
+week4.data.6 <- read.csv(week4.6)
+week6.data.6 <- read.csv(week6.6)
+week8.data.6 <- read.csv(week8.6)
+week10.data.6 <- read.csv(week10.6)
+week12.data.6 <- read.csv(week12.6)
+
+cohort.6 <- rbind(start.data.6, week2.data.6, week4.data.6,week6.data.6,week8.data.6, week10.data.6, week12.data.6)
+cohort.6$Cohort <- rep("Cohort 6", dim(cohort.6)[1])
+
+all.data <- rbind(cohort.3,cohort.4,cohort.5, cohort.6)
+all.data <- all.data[all.data$Strain == 'C57BL/6J',]
+write.csv(all.data, weekly_data_file)
+}
+#uncomment this to update
+#update.data()
+
+all.data <- read.csv(weekly_data_file, row.names="X")
+all.data$Cage <- as.factor(all.data$Cage)
+
+#normalize to grams
+all.data$Weight <- all.data$Values/1000
+
+#rename treatment groups
+levels(all.data$Treatment) <- c("Control Diet", "High Fat Diet", "Normal Chow Diet")
+all.data$Treatment <- relevel(all.data$Treatment, ref='High Fat Diet')
+
+#make cohort into a factor
+all.data$Cohort <- as.factor(all.data$Cohort)
+ 
+#calcualte weeks on diet, presuming all mice start at 10w or 70d
+all.data$Week <- as.integer((all.data$Age - 68)/7)
+output_bodyweight_file <- "../data/processed/Weekly Body Weight Data.csv"
+write.csv(all.data, output_bodyweight_file)
+```
+
+This analysis includes `r dim(all.data)[1]` measurements from `r length(unique(all.data$Animal))` mice.  The raw data is written to a file named `output_bodyweight_file`.
+
+Body Weight Statistics
+-----------------------
+
+```{r statistics, echo=FALSE, message=FALSE}
+start.fit.cage <- aov(Weight ~ Cage, subset(all.data, Week ==0))
+cage.start.t.tests <- with(subset(all.data, Week ==0), 
+     pairwise.t.test(Weight,Cage,p.adjust.method="BH"))
+ncd.t.tests <- c(
+  with(subset(all.data, Week ==0&Treatment!="Control Diet"), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==2&Treatment!='Control Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==4&Treatment!='Control Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==6&Treatment!='Control Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==8&Treatment!='Control Diet'), t.test(Weight~Treatment))$p.value,  
+  with(subset(all.data, Week ==10&Treatment!='Control Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==12&Treatment!='Control Diet'), t.test(Weight~Treatment))$p.value  
+  )
+names(ncd.t.tests) <- c("Starting", "Week 2", "Week 4", "Week 6", "Week 8", "Week 10", "Week 12")
+ncd.t.tests <- data.frame(Uncorrected = ncd.t.tests, 
+                      Corrected = p.adjust(ncd.t.tests, n=7, method="BH"))
+
+cd.t.tests <- c(
+  with(subset(all.data, Week ==0&Treatment!="Normal Chow Diet"), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==2&Treatment!='Normal Chow Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==4&Treatment!='Normal Chow Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==6&Treatment!='Normal Chow Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==8&Treatment!='Normal Chow Diet'), t.test(Weight~Treatment))$p.value,  
+  with(subset(all.data, Week ==10&Treatment!='Normal Chow Diet'), t.test(Weight~Treatment))$p.value,
+  with(subset(all.data, Week ==12&Treatment!='Normal Chow Diet'), t.test(Weight~Treatment))$p.value  
+  )
+names(cd.t.tests) <- c("Starting", "Week 2", "Week 4")#, "Week 6", "Week 8", "Week 10", "Week 12")
+cd.t.tests <- data.frame(Uncorrected = cd.t.tests, 
+                      Corrected = p.adjust(cd.t.tests, n=7, method="BH"))
+
+
+require(lme4)
+#this is for the post-hoc hypothesis testing
+require(multcomp)
+
+nlme.fit.all <- lmer(Weight~Treatment + Week +Cohort + (1|Animal), data=all.data)
+nlme.fit.no.cohorts <- lmer(Weight~Treatment + Week + (1|Animal), data=all.data)
+nlme.fit.no.treatment <- lmer(Weight~ Week + Cohort + (1|Animal), data=all.data)
+
+nlme.fit.all.interacting <- lmer(Weight~Treatment * Week +Cohort + (1|Animal), data=all.data)
+
+treatment.ph.tests <- cbind(summary(glht(nlme.fit.all.interacting, linfct=mcp(Treatment="Tukey")))$test$coefficients,summary(glht(nlme.fit.all.interacting, linfct=mcp(Treatment="Tukey")))$test$pvalues[1:3])
+colnames(treatment.ph.tests) <- c("Effect Size (g)", "p-value")
+
+cohort.ph.tests <- cbind(summary(glht(nlme.fit.all.interacting, linfct=mcp(Cohort="Tukey")))$test$coefficients,summary(glht(nlme.fit.all.interacting, linfct=mcp(Cohort="Tukey")))$test$pvalues[1:3])
+colnames(cohort.ph.tests) <- c("Effect Size (g)", "p-value")
+```
+
+With all cohorts combined, we tested whether there was a difference between High Fat Diet and Normal Chow Diet (see Table below) or High Fat Diet and Control Diet (see Table below) on a weekly basis.
+
+```{r t-test-tables,echo=FALSE,results='asis', message=FALSE}
+require(xtable)
+print(xtable(ncd.t.tests, caption = "Weekly Unadjusted and BH Adjusted T-tests Comparing High Fat Diet to Normal Chow Diet for Body Weight", label = "tab:ncd-t-tests", digits=10), include.rownames=T, type='html')
+print(xtable(cd.t.tests, caption = "Weekly Unadjusted and BH Adjusted T-tests Comparing High Fat Diet to Control Diet for Body Weight", label = "tab:cd-t-tests", digits=10), include.rownames=T, type='html')
+```
+### Cage Effects
+
+The average cage effect was `r mean(abs(start.fit.cage$effects[2:8]))` grams.  In the figure below is the initial cage effects.  The p-value for significance of Cage differences generally is **`r summary(start.fit.cage)[[1]][["Pr(>F)"]][1]`** (see ANOVA in below).
+
+```{r cage-effects-anova,echo=FALSE,results='asis', message=FALSE}
+print(xtable(summary(start.fit.cage), caption = "ANOVA for Cage Effects on Body Weights", label = "tab:cage-effects"), include.rownames=T, type='html')
+```
+
+I used a mixed effects linear model to test the effects of the week, the diet and the cohort groups.  The residuals from this model are shown in the Figure below, indicating a good fit with this kind of linear model.
+
+To test whether there is an interaction between the diet and the weeks of Treatment we compared models with or without the interaction term.  The p-value for this **`r anova(nlme.fit.all, nlme.fit.all.interacting)$"Pr(>Chisq)"[2]`** indicating that there is a very strong interaction between these terms and that we need to account for the time on diet.
+
+To test whether inclusion of diet is significant, I compared two linear mixed effect models with both the Week and the Cohort, but only one having the Treatment groupings.  The p-value for this comparason was `r anova(nlme.fit.all,nlme.fit.no.treatment)$"Pr(>Chisq)"[2]`, indicating we should include the Treatment group term. The post-hoc tests for differences between Treatment groups are shown in the Table below.
+
+```{r data-tables,echo=FALSE,results='asis', message=FALSE}
+print(xtable(treatment.ph.tests, caption = "Post-Hoc Tests for Treatment Effects on Body Weight", label = "tab:ph-treatment", digits=c(0,3,3)), type='html')
+```
+
+To test whether including the cohort in this model is significant, I compared two linear mixed effect models both with Treatment and Week included but only one with Cohort included.  The p-value for this comparason was `r anova(nlme.fit.all,nlme.fit.no.cohorts)$"Pr(>Chisq)"[2]` so we should include the Cohort term.  The post-hoc tests for differences between Cohorts is shown in the Table below.  
+
+```{r cohort-tables,echo=FALSE,results='asis', message=FALSE}
+print(xtable(cohort.ph.tests, caption = "Post-Hoc Tests for Cohort Effects on Body Weight", label = "tab:ph-cohort",digits=c(0,3,12)), type='html')
+```
+
+The coefficients for the final model are shown in the Table below.  The root mean square error of this model is `r sigma(nlme.fit.all)`g. 
+
+```{r final-model,echo=FALSE,results='asis', message=FALSE}
+print(xtable(as.data.frame(fixef(nlme.fit.all.interacting)), caption = "Coefficients for Selected Mixed Effects Model for Body Weight", label = "tab:nlme-coefficients"),include.colnames=F, type='html')
+library(lawstat)
+```
+
+
+Variations in End Weights
+-------------------------------
+We looked at the variation between the groups for the end weights.  These are plotted as a density plot in the Figure below and the standard deviations are plotted in the Figures below.  To test whether these standard deviations are different between High Fat Diet and the two control diets we did a Brown-Forsythe test.  The results of this test are p=`r with(subset(all.data, Week >= 11 & Week <= 12&Treatment != "Normal Chow Diet"), levene.test(Weight,Treatment))$p.value` for Control Diet and p=`r with(subset(all.data, Week >= 11 & Week <= 12&Treatment != "Control Diet"), levene.test(Weight,Treatment))$p.value` for Normal Chow Diet.
+
+```{r end-weight-distribution,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+plot(density(subset(all.data, Week >= 11 & Week <= 12&Treatment == "Normal Chow Diet")$Weight), xlim=c(20,55), col=treatment.colors[3], main="Distribution of Body Weights at 22 Weeks", las=1)
+lines(density(subset(all.data, Week >= 11 & Week <= 12&Treatment == "High Fat Diet")$Weight),col= treatment.colors[1])
+lines(density(subset(all.data, Week >= 11 & Week <= 12&Treatment == "Control Diet")$Weight), col=treatment.colors[2])
+legend("topleft", levels(all.data$Treatment), lty=1,col=treatment.colors, bty="n")
+```
+
+```{r end-weight-errors,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+library(plyr)
+general.summary <- ddply(subset(all.data, Week >= 11 & Week <= 12), ~Treatment,summarise,
+  mean = mean(Weight),
+  sd = sd(Weight),
+  n = length(Weight),
+  se = sd(Weight)/sqrt(length(Weight)),
+  pct.error = sd(Weight)/mean(Weight)*100)
+barplot(general.summary$sd,las=1,
+        names.arg=general.summary$Treatment,
+        ylab="Standard Deviation (g)",
+        main="Error in Post-Diet Body Weights",
+        col=palette())
+```
+
+```{r end-weight-rel-errors,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+barplot(general.summary$pct.error, las=1,
+        names.arg=general.summary$Treatment,
+        ylab="Relative Standard Deviation (%)",
+        main="Error in Post-Diet Body Weights",
+        col=palette())
+```
+
+```{r summary-tables,echo=FALSE,results='asis'}
+print(xtable(general.summary, caption="Summary Statistics for End Point Body Weights", label='general-summary'), type='html')
+```
+
+```{r start-cage-effects,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+cage.effects <- sort(start.fit.cage$effects[2:length(start.fit.cage$effects)])
+par(mai=c(1,2,1,1))
+barplot(cage.effects, horiz=T, las=1, names.arg="") 
+```
+
+```{r nlme-residuals,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+plot(all.data$Weight, residuals(nlme.fit.all.interacting), pch=19, cex=0.2,
+     xlab="Fitted Values", ylab="Residuals", col=all.data$Treatment)
+legend("bottomright", levels(all.data$Treatment), lty=1,col=treatment.colors, bty="n")
+abline(a=0,b=0,lty=2)
+```
+
+Body Weight Graphs
+--------------------
+
+See Figure below for the weights separated between cohorts, Ffor the weights separated between diets and Figure for all combined data.
+
+```{r weights, include=TRUE, echo=FALSE, dev=c("pdf","png")}
+require(ggplot2)
+require(plyr)
+c <- ggplot(all.data, aes(Week, Weight))  + scale_colour_manual(values=treatment.colors)
+p <- c + geom_point(aes(color=Treatment), alpha = I(1 /2))
+means <- ddply(all.data, Week~Treatment+Cohort, summarise, Weight = mean(Weight))#this is a workaround due to a bug in plyr 1.8
+plot <- p + labs(list(x = "Weeks on Diet", y = "Body Weight(g)")) + facet_grid(.~Cohort) + theme(legend.position = "top") + geom_line(data=means, aes(group=Treatment, col=Treatment)) #this is a workaround due to a bug in plyr 1.8
+plot
+means.all <- ddply(all.data, Week~Treatment, summarise, Weight = mean(Weight))#this is a workaround due to a bug in plyr 1.8
+plot.all <- p + labs(list(x = "Weeks on Diet", y = "Body Weight(g)")) + theme(legend.position = "top") + geom_line(data=means.all, aes(group=Treatment, col=Treatment)) #this is a workaround due to a bug in plyr 1.8
+
+p.diet <- c + geom_point(aes(color=Cohort), alpha = I(1 /2)) + scale_colour_manual(values=brewer.pal(4,"Set1"))
+plot.all.diet <-  p.diet + labs(list(x = "Weeks on Diet", y = "Body Weight(g)")) + facet_grid(.~Treatment) + theme(legend.position = "top") + geom_line(data=means, aes(group=Cohort, col=Cohort)) #this is a workaround due to a bug in plyr 1.8
+plot.all
+plot
+plot.all.diet
+```
+
+Correlation Between Initial Weight and Weight Gain
+--------------------------------------------------
+
+```{r initial-weight, echo=FALSE, message=FALSE}
+require(reshape)
+weekly.data <- cast(all.data, Treatment+Animal~Week, mean, value="Weight")
+weekly.data$Gain <- weekly.data[9]- weekly.data[3]
+weekly.data$Gain.pct <- weekly.data$Gain/weekly.data[3]*100
+
+names(weekly.data)[3] <- "Start"
+```
+
+```{r weekly-correlations,echo=FALSE,results='asis'}
+nd.cor.weekly <- with(subset(weekly.data, Treatment == "Normal Chow Diet"), cor.test(Gain[[1]],Start))
+cd.cor.weekly <- with(subset(weekly.data, Treatment == "Control Diet"), cor.test(Gain[[1]],Start))
+hfd.cor.weekly <- with(subset(weekly.data, Treatment == "High Fat Diet"), cor.test(Gain[[1]],Start))
+
+cor.weekly <- c(hfd.cor.weekly$estimate, cd.cor.weekly$estimate, nd.cor.weekly$estimate)
+p.val.weekly <- c(hfd.cor.weekly$p.value, cd.cor.weekly$p.value, nd.cor.weekly$p.value)
+cor.weekly.summary <- cbind(cor.weekly, cor.weekly^2, p.val.weekly)
+rownames(cor.weekly.summary) <- c("Normal Chow Diet", "Control Diet", "High Fat Diet")
+colnames(cor.weekly.summary) <- c("Correlation Coefficient", "R-Squared", "P-Value")
+
+
+nd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "Normal Chow Diet"), cor.test(Gain.pct[[1]],Start))
+cd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "Control Diet"), cor.test(Gain.pct[[1]],Start))
+hfd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "High Fat Diet"), cor.test(Gain.pct[[1]],Start))
+
+cor.weekly.pct <- c(hfd.cor.weekly.pct$estimate, cd.cor.weekly.pct$estimate, nd.cor.weekly.pct$estimate)
+p.val.weekly.pct <- c(hfd.cor.weekly.pct$p.value, cd.cor.weekly.pct$p.value, nd.cor.weekly.pct$p.value)
+cor.weekly.summary.pct <- cbind(cor.weekly.pct, cor.weekly.pct^2, p.val.weekly.pct)
+rownames(cor.weekly.summary.pct) <- c("Normal Chow Diet", "Control Diet", "High Fat Diet")
+colnames(cor.weekly.summary.pct) <- c("Correlation Coefficient", "R-Squared", "P-Value")
+
+print(xtable(cor.weekly.summary, caption = "Correlation of Absolute Weight Gain to Initial Weight", label = "tab:weekly-correlations", digits=4), type='html')
+
+print(xtable(cor.weekly.summary.pct, caption = "Correlation of Percent Weight Gain to Initial Weight", label = "tab:weekly-correlations-pct", digits=4),type='html')
+```
+
+There was no significant correlation between Initial Weight and the amount of weight gained or the percentage of weight gained by the end of the treatment period (see Table below and and Figures below).
+
+```{r weekly-gain,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+with(weekly.data, plot(Start, Gain[[1]], 
+                       pch=19, 
+                       col=Treatment,
+                       ylab = "Weight Gain (g)",
+                       xlab = "Starting Weight (g)"))
+abline(lm(Gain[[1]]~Start, data=subset(weekly.data, Treatment == "High Fat Diet")), col=treatment.colors[1])
+abline(lm(Gain[[1]]~Start, data=subset(weekly.data, Treatment == "Normal Chow Diet")), col=treatment.colors[3])
+abline(lm(Gain[[1]]~Start, data=subset(weekly.data, Treatment == "Control Diet")), col=treatment.colors[2])
+legend("topleft", levels(weekly.data$Treatment), pch=19, lty=1, col=treatment.colors, bty="n")
+```
+
+```{r weekly-gain-pct,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+with(weekly.data, plot(Start, Gain.pct[[1]], 
+                       pch=19, 
+                       col=Treatment,
+                       ylab = "Percent Weight Gain",
+                       xlab = "Starting Weight (g)"))
+abline(lm(Gain.pct[[1]]~Start, data=subset(weekly.data, Treatment == "High Fat Diet")), col=palette()[1])
+abline(lm(Gain.pct[[1]]~Start, data=subset(weekly.data, Treatment == "Normal Chow Diet")), col=palette()[3])
+abline(lm(Gain.pct[[1]]~Start, data=subset(weekly.data, Treatment == "Control Diet")), col=palette()[2])
+legend("topleft", levels(weekly.data$Treatment), pch=19, lty=1, col=palette(), bty="n")
+```
+
+
+Effects of Outliers on the Rest of the Cage
+-------------------------------------------
+
+```{r outlier-effects, echo=FALSE}
+number.of.outlier.mice <- 5
+week12.data <- subset(all.data, Week==12)
+heaviest.mice <- week12.data[order(-week12.data$Weight),][1:5,]
+heaviest.mice.cages <- droplevels(heaviest.mice$Cage)
+
+heaviest.mice.all.mice <- subset(week12.data, Cage %in% heaviest.mice.cages)
+heaviest.mice.littermates <- heaviest.mice.all.mice[!(heaviest.mice.all.mice$Animal %in% heaviest.mice$Animal),]
+```
+One hypothesis is that one dominant mouse may affect the weights of other mice in its cage.  To test this we looked at the mice which are the `r number.of.outlier.mice` heaviest from our data.  These mice weighed on average `r mean(heaviest.mice$Weight)`g.  They existed in `r length(levels(heaviest.mice.cages))` cages.  Those cages contained `r dim(heaviest.mice.all.mice)[1]` mice in total, or `r dim(heaviest.mice.littermates)[1]` other mice.  Those other mice (excluding the heavy ones) weighed on average `r mean(heaviest.mice.littermates$Weight)`g compared to an average 12 week weight of `r mean(subset(week12.data, Treatment == 'High Fat Diet'&Feeding=='fed')$Weight)`g for all fed High Fat Diet Mice.  This is not significantly different (p=`r t.test(subset(week12.data, Treatment == 'High Fat Diet'&Feeding=='fed')$Weight, heaviest.mice.littermates$Weight)$p.value`).
+
+
+```{r outlier-effects-bargraph,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+plot <- barplot(cbind(
+  mean(heaviest.mice.littermates$Weight), 
+  mean(subset(week12.data, Treatment == 'High Fat Diet'&Feeding=='fed')$Weight)), 
+      las=1, names.arg=c("Mice in Cage\n with a Heavy Mouse", "All High Fat Diet Mice"), 
+                ylab="Fed Body Weight (g)", ylim=c(0,45))
+
+superpose.eb <- 
+ function (x, y, ebl, ebu = ebl, length = 0.08, ...) 
+ arrows(x, y + ebu, x, y - ebl, angle = 90, code = 3, 
+ length = length, ...)
+
+se <- function(x) sd(x, na.rm=T)/sqrt(length(x))
+
+superpose.eb(plot, 
+             cbind(
+  mean(heaviest.mice.littermates$Weight), 
+  mean(subset(week12.data, Treatment == 'High Fat Diet'&Feeding=='fed')$Weight)),
+             cbind(
+  se(heaviest.mice.littermates$Weight), 
+  se(subset(week12.data, Treatment == 'High Fat Diet'&Feeding=='fed')$Weight)))
+```
+
+
+Session Information
+---------------------
+```{r sessionInfo, echo=F}
+sessionInfo()
+```
