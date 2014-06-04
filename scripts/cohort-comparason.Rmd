@@ -246,6 +246,7 @@ lines(density(subset(all.data, Week >= 11 & Week <= 12&Treatment == "Control Die
 legend("topleft", levels(all.data$Treatment), lty=1,col=treatment.colors, bty="n")
 ```
 
+
 ```{r end-weight-errors,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
 library(plyr)
 general.summary <- ddply(subset(all.data, Week >= 11 & Week <= 12), ~Treatment,summarise,
@@ -254,6 +255,7 @@ general.summary <- ddply(subset(all.data, Week >= 11 & Week <= 12), ~Treatment,s
   n = length(Weight),
   se = sd(Weight)/sqrt(length(Weight)),
   pct.error = sd(Weight)/mean(Weight)*100)
+
 barplot(general.summary$sd,las=1,
         names.arg=general.summary$Treatment,
         ylab="Standard Deviation (g)",
@@ -261,13 +263,38 @@ barplot(general.summary$sd,las=1,
         col=palette())
 ```
 
+
 ```{r end-weight-rel-errors,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
 barplot(general.summary$pct.error, las=1,
         names.arg=general.summary$Treatment,
         ylab="Relative Standard Deviation (%)",
-        main="Error in Post-Diet Body Weights",
+        main="Variance in Post-Diet Body Weights",
         col=palette())
 ```
+
+We also examined whether there was increase variance for each cohort of mice.  This suggests that the increased variance was only present at the University of Michigan animal facility, but not in the more recent cohorts.
+
+```{r cohort-end-weight-variation, echo=FALSE, dev=c('png','pdf')}
+cohort.summary <- ddply(subset(all.data, Week >= 11 & Week <= 12), .(Cohort, Treatment),summarise,
+  mean = mean(Weight),
+  sd = sd(Weight),
+  n = length(Weight),
+  se = sd(Weight)/sqrt(length(Weight)),
+  pct.error = sd(Weight)/mean(Weight)*100)
+
+library(reshape2)
+cohort.sd <- dcast(cohort.summary, Treatment~Cohort, value.var='pct.error')
+rownames(cohort.sd) <- cohort.sd$Treatment
+cohort.sd <- as.matrix(cohort.sd[,2:5])
+
+barplot(cohort.sd, las=1, beside=T,
+        ylab="Relative Standard Deviation (%)",
+        main="Variance in Post-Diet Body Weights",
+        col = treatment.colors[rep(c(1,2,3),4)]
+        )
+legend("topright", levels(all.data$Treatment), fill=treatment.colors, bty="n")
+```
+
 
 ```{r summary-tables,echo=FALSE,results='asis'}
 print(xtable(general.summary, caption="Summary Statistics for End Point Body Weights", label='general-summary'), type='html')
