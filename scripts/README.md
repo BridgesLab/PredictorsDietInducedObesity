@@ -15,8 +15,8 @@ Data which will be presented in the Peloqiun and Bridges manuscript:
 
 Figure | Script | Raw File
 --- | --- | --- 
-Figure 1A | 
-Figure 1B | |
+Figure 1A | cohort_comparason.Rmd | weekly-gain.pdf
+Figure 1B | cohort_comparason.Rmd | weekly-gain-pct.pdf
 Figure 1C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
 Figure 2A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
 Figure 2B | fasting_effects.Rmd | figures/fasting-loss-plot-pct.pdf
