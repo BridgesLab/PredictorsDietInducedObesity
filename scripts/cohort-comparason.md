@@ -3,7 +3,7 @@ Body Weights and Food Intake of High Fat Diets -- Combined Data
 
 Data
 -----
-Combines Cohorts 3-5.  This script was most recently run on Mon Jun 16 11:01:58 2014
+Combines Cohorts 3-5.  This script was most recently run on Mon Jun 16 11:15:43 2014
 
 Body Weight Data
 ------------------
@@ -19,7 +19,7 @@ Body Weight Statistics
 With all cohorts combined, we tested whether there was a difference between High Fat Diet and Normal Chow Diet (see Table below) or High Fat Diet and Control Diet (see Table below) on a weekly basis.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:01 2014 -->
+<!-- Mon Jun 16 11:15:46 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Weekly Unadjusted and BH Adjusted T-tests Comparing High Fat Diet to Normal Chow Diet for Body Weight </CAPTION>
 <TR> <TH>  </TH> <TH> Uncorrected </TH> <TH> Corrected </TH>  </TR>
@@ -33,7 +33,7 @@ With all cohorts combined, we tested whether there was a difference between High
    <A NAME=tab:ncd-t-tests></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:01 2014 -->
+<!-- Mon Jun 16 11:15:46 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Weekly Unadjusted and BH Adjusted T-tests Comparing High Fat Diet to Control Diet for Body Weight </CAPTION>
 <TR> <TH>  </TH> <TH> Uncorrected </TH> <TH> Corrected </TH>  </TR>
@@ -51,7 +51,7 @@ With all cohorts combined, we tested whether there was a difference between High
 The average cage effect was 3.5374 grams.  In the figure below is the initial cage effects.  The p-value for significance of Cage differences generally is **1.5627 &times; 10<sup>-10</sup>** (see ANOVA in below).
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:01 2014 -->
+<!-- Mon Jun 16 11:15:46 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> ANOVA for Cage Effects on Body Weights </CAPTION>
 <TR> <TH>  </TH> <TH> Df </TH> <TH> Sum Sq </TH> <TH> Mean Sq </TH> <TH> F value </TH> <TH> Pr(&gt;F) </TH>  </TR>
@@ -67,7 +67,7 @@ To test whether there is an interaction between the diet and the weeks of Treatm
 To test whether inclusion of diet is significant, I compared two linear mixed effect models with both the Week and the Cohort, but only one having the Treatment groupings.  The p-value for this comparason was 4.7888 &times; 10<sup>-16</sup>, indicating we should include the Treatment group term. The post-hoc tests for differences between Treatment groups are shown in the Table below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:01 2014 -->
+<!-- Mon Jun 16 11:15:46 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Post-Hoc Tests for Treatment Effects on Body Weight </CAPTION>
 <TR> <TH>  </TH> <TH> Effect Size (g) </TH> <TH> p-value </TH>  </TR>
@@ -80,14 +80,14 @@ To test whether inclusion of diet is significant, I compared two linear mixed ef
 To test whether including the cohort in this model is significant, I compared two linear mixed effect models both with Treatment and Week included but only one with Cohort included.  The p-value for this comparason was 3.2146 &times; 10<sup>-23</sup> so we should include the Cohort term.  The post-hoc tests for differences between Cohorts is shown in the Table below.  
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:01 2014 -->
+<!-- Mon Jun 16 11:15:46 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Post-Hoc Tests for Cohort Effects on Body Weight </CAPTION>
 <TR> <TH>  </TH> <TH> Effect Size (g) </TH> <TH> p-value </TH>  </TR>
-  <TR> <TD align="right"> Cohort 4 - Cohort 3 </TD> <TD align="right"> 0.515 </TD> <TD align="right"> 0.278727715931 </TD> </TR>
+  <TR> <TD align="right"> Cohort 4 - Cohort 3 </TD> <TD align="right"> 0.515 </TD> <TD align="right"> 0.278570597519 </TD> </TR>
   <TR> <TD align="right"> Cohort 5 - Cohort 3 </TD> <TD align="right"> 5.647 </TD> <TD align="right"> 0.000000000000 </TD> </TR>
   <TR> <TD align="right"> Cohort 6 - Cohort 3 </TD> <TD align="right"> 4.277 </TD> <TD align="right"> 0.000000000000 </TD> </TR>
-  <TR> <TD align="right"> Cohort 5 - Cohort 4 </TD> <TD align="right"> 5.131 </TD> <TD align="right"> 0.278727715931 </TD> </TR>
+  <TR> <TD align="right"> Cohort 5 - Cohort 4 </TD> <TD align="right"> 5.131 </TD> <TD align="right"> 0.278570597519 </TD> </TR>
   <TR> <TD align="right"> Cohort 6 - Cohort 4 </TD> <TD align="right"> 3.761 </TD> <TD align="right"> 0.000000000000 </TD> </TR>
   <TR> <TD align="right"> Cohort 6 - Cohort 5 </TD> <TD align="right"> -1.370 </TD> <TD align="right"> 0.000000000000 </TD> </TR>
    <A NAME=tab:ph-cohort></A>
@@ -96,7 +96,7 @@ To test whether including the cohort in this model is significant, I compared tw
 The coefficients for the final model are shown in the Table below.  The root mean square error of this model is 2.3753g. 
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:01 2014 -->
+<!-- Mon Jun 16 11:15:46 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Coefficients for Selected Mixed Effects Model for Body Weight </CAPTION>
   <TR> <TD align="right"> (Intercept) </TD> <TD align="right"> 22.32 </TD> </TR>
@@ -130,7 +130,7 @@ We also examined whether there was increase variance for each cohort of mice.  T
 
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:02 2014 -->
+<!-- Mon Jun 16 11:15:47 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Summary Statistics for End Point Body Weights </CAPTION>
 <TR> <TH>  </TH> <TH> Treatment </TH> <TH> mean </TH> <TH> sd </TH> <TH> n </TH> <TH> se </TH> <TH> pct.error </TH>  </TR>
@@ -171,7 +171,7 @@ Since the initial weights (p=0.0432), absolute weight gain(p=2.6477 &times; 10<s
 There was no significant correlation between Initial Weight and the amount of weight gained or the percentage of weight gained by the end of the treatment period (see Table below and and Figures below).
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:04 2014 -->
+<!-- Mon Jun 16 11:15:49 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Correlation of Absolute Weight Gain to Initial Weight </CAPTION>
 <TR> <TH>  </TH> <TH> Correlation Coefficient </TH> <TH> R-Squared </TH> <TH> P-Value </TH>  </TR>
@@ -181,7 +181,7 @@ There was no significant correlation between Initial Weight and the amount of we
    <A NAME=tab:weekly-correlations></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 11:02:04 2014 -->
+<!-- Mon Jun 16 11:15:49 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Correlation of Percent Weight Gain to Initial Weight </CAPTION>
 <TR> <TH>  </TH> <TH> Correlation Coefficient </TH> <TH> R-Squared </TH> <TH> P-Value </TH>  </TR>
@@ -199,9 +199,30 @@ These correlations are written to the output files ../data/processed/Correlation
 
 
 ### Cohort level analysis of the effects of weight gain
-To test whether there were correlations for one of the cohorts, we separated out the cohorts and redid this analysis on a per-cohort level.  
+To test whether there were correlations for one of the cohorts, we separated out the cohorts and redid this analysis on a per-cohort level just for high fat diet fed animals.  
 
-
+<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
+<!-- Mon Jun 16 11:15:50 2014 -->
+<TABLE border=1>
+<CAPTION ALIGN="bottom"> Correlation of Absolute Weight Gain to Initial Weight by Cohort for High Fat Diet Only </CAPTION>
+<TR> <TH>  </TH> <TH> pval </TH> <TH> rho </TH> <TH> rho^2 </TH>  </TR>
+  <TR> <TD align="right"> Cohort 3 </TD> <TD align="right"> 0.5521 </TD> <TD align="right"> 0.1414 </TD> <TD align="right"> 0.0200 </TD> </TR>
+  <TR> <TD align="right"> Cohort 4 </TD> <TD align="right"> 0.0324 </TD> <TD align="right"> 0.6294 </TD> <TD align="right"> 0.3961 </TD> </TR>
+  <TR> <TD align="right"> Cohort 5 </TD> <TD align="right"> 0.1549 </TD> <TD align="right"> -0.2996 </TD> <TD align="right"> 0.0898 </TD> </TR>
+  <TR> <TD align="right"> Cohort 6 </TD> <TD align="right"> 0.9368 </TD> <TD align="right"> 0.0174 </TD> <TD align="right"> 0.0003 </TD> </TR>
+   <A NAME=tab:weekly-correlations-cohort></A>
+</TABLE>
+<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
+<!-- Mon Jun 16 11:15:50 2014 -->
+<TABLE border=1>
+<CAPTION ALIGN="bottom"> Correlation of Percent Weight Gain to Initial Weight by Cohort for High Fat Diet Only </CAPTION>
+<TR> <TH>  </TH> <TH> pval </TH> <TH> rho </TH> <TH> rho^2 </TH>  </TR>
+  <TR> <TD align="right"> Cohort 3 </TD> <TD align="right"> 0.6044 </TD> <TD align="right"> -0.1234 </TD> <TD align="right"> 0.0152 </TD> </TR>
+  <TR> <TD align="right"> Cohort 4 </TD> <TD align="right"> 0.2560 </TD> <TD align="right"> 0.3566 </TD> <TD align="right"> 0.1272 </TD> </TR>
+  <TR> <TD align="right"> Cohort 5 </TD> <TD align="right"> 0.0002 </TD> <TD align="right"> -0.6866 </TD> <TD align="right"> 0.4714 </TD> </TR>
+  <TR> <TD align="right"> Cohort 6 </TD> <TD align="right"> 0.2575 </TD> <TD align="right"> -0.2400 </TD> <TD align="right"> 0.0576 </TD> </TR>
+   <A NAME=tab:weekly-correlations-pct-cohort></A>
+</TABLE>
 #### Absolute Weight Gain By Cohort
 
 ![plot of chunk weekly-gain-cohort](figure/weekly-gain-cohort.pdf) 

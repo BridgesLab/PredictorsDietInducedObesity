@@ -411,15 +411,33 @@ legend("topleft", levels(weekly.data$Treatment), pch=19, lty=1, col=palette(), b
 
 
 ### Cohort level analysis of the effects of weight gain
-To test whether there were correlations for one of the cohorts, we separated out the cohorts and redid this analysis on a per-cohort level.  
+To test whether there were correlations for one of the cohorts, we separated out the cohorts and redid this analysis on a per-cohort level just for high fat diet fed animals.  
 
-```{r weight-gain-correlation-stats, echo=FALSE}
+```{r weight-gain-correlation-stats, echo=FALSE, warning=FALSE, results='asis'}
 weekly.data.cohort <- cast(all.data, Treatment+Animal+Cohort~Week, mean, value="Weight")
 weekly.data.cohort$Gain <- weekly.data.cohort[,10]- weekly.data.cohort[,4]
 weekly.data.cohort$Gain.pct <- weekly.data.cohort$Gain/weekly.data.cohort[,4]*100
 
 names(weekly.data.cohort)[4] <- "Start"
 
+cohort.correlations.abs <- data.frame(row.names=levels(weekly.data$Cohort))
+for (cohort in levels(weekly.data.cohort$Cohort)) {
+  cohort.correlations.abs[cohort,'pval'] <- with(subset(weekly.data.cohort, Cohort == cohort&Treatment=='High Fat Diet'), cor.test(Gain, Start, method='spearman'))$p.value
+    cohort.correlations.abs[cohort,'rho'] <- with(subset(weekly.data.cohort, Cohort == cohort&Treatment=='High Fat Diet'), cor.test(Gain, Start,method='spearman'))$estimate
+    cohort.correlations.abs[cohort,'rho^2'] <- with(subset(weekly.data.cohort, Cohort == cohort&Treatment=='High Fat Diet'), cor.test(Gain, Start,method='spearman'))$estimate^2
+}
+
+cohort.correlations.pct <- data.frame(row.names=levels(weekly.data$Cohort))
+for (cohort in levels(weekly.data.cohort$Cohort)) {
+  cohort.correlations.pct[cohort,'pval'] <- with(subset(weekly.data.cohort, Cohort == cohort&Treatment=='High Fat Diet'), cor.test(Gain.pct, Start, method='spearman'))$p.value
+    cohort.correlations.pct[cohort,'rho'] <- with(subset(weekly.data.cohort, Cohort == cohort&Treatment=='High Fat Diet'), cor.test(Gain.pct, Start,method='spearman'))$estimate
+    cohort.correlations.pct[cohort,'rho^2'] <- with(subset(weekly.data.cohort, Cohort == cohort&Treatment=='High Fat Diet'), cor.test(Gain.pct, Start,method='spearman'))$estimate^2
+}
+
+print(xtable(cohort.correlations.abs, caption = "Correlation of Absolute Weight Gain to Initial Weight by Cohort for High Fat Diet Only", label = "tab:weekly-correlations-cohort", digits=4), type='html')
+
+
+print(xtable(cohort.correlations.pct, caption = "Correlation of Percent Weight Gain to Initial Weight by Cohort for High Fat Diet Only", label = "tab:weekly-correlations-pct-cohort", digits=4),type='html')
 ```
 #### Absolute Weight Gain By Cohort
 
