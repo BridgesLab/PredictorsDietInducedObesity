@@ -342,16 +342,19 @@ Correlation Between Initial Weight and Weight Gain
 ```{r initial-weight, echo=FALSE, message=FALSE}
 require(reshape)
 weekly.data <- cast(all.data, Treatment+Animal~Week, mean, value="Weight")
-weekly.data$Gain <- weekly.data[9]- weekly.data[3]
-weekly.data$Gain.pct <- weekly.data$Gain/weekly.data[3]*100
+weekly.data$Gain <- weekly.data[,9]- weekly.data[,3]
+weekly.data$Gain.pct <- weekly.data$Gain/weekly.data[,3]*100
 
 names(weekly.data)[3] <- "Start"
 ```
 
-```{r weekly-correlations,echo=FALSE,results='asis'}
-nd.cor.weekly <- with(subset(weekly.data, Treatment == "Normal Chow Diet"), cor.test(Gain[[1]],Start))
-cd.cor.weekly <- with(subset(weekly.data, Treatment == "Control Diet"), cor.test(Gain[[1]],Start))
-hfd.cor.weekly <- with(subset(weekly.data, Treatment == "High Fat Diet"), cor.test(Gain[[1]],Start))
+Since the initial weights (p=`r shapiro.test(weekly.data$Start)$p.value`), absolute weight gain(p=`r shapiro.test(weekly.data$Gain)$p.value`) and percentage weight gain (p=`r shapiro.test(weekly.data$Gain.pct)$p.value`) did not fit a normal distribution we used a Spearman's rank sum test to check for correlations between initial weight and weight gain or percent weight gain.
+There was no significant correlation between Initial Weight and the amount of weight gained or the percentage of weight gained by the end of the treatment period (see Table below and and Figures below).
+
+```{r weekly-correlations,echo=FALSE,results='asis', warning=FALSE}
+nd.cor.weekly <- with(subset(weekly.data, Treatment == "Normal Chow Diet"), cor.test(Gain,Start, method='spearman'))
+cd.cor.weekly <- with(subset(weekly.data, Treatment == "Control Diet"), cor.test(Gain,Start, method='spearman'))
+hfd.cor.weekly <- with(subset(weekly.data, Treatment == "High Fat Diet"), cor.test(Gain,Start, method='spearman'))
 
 cor.weekly <- c(hfd.cor.weekly$estimate, cd.cor.weekly$estimate, nd.cor.weekly$estimate)
 p.val.weekly <- c(hfd.cor.weekly$p.value, cd.cor.weekly$p.value, nd.cor.weekly$p.value)
@@ -360,9 +363,9 @@ rownames(cor.weekly.summary) <- c("Normal Chow Diet", "Control Diet", "High Fat 
 colnames(cor.weekly.summary) <- c("Correlation Coefficient", "R-Squared", "P-Value")
 
 
-nd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "Normal Chow Diet"), cor.test(Gain.pct[[1]],Start))
-cd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "Control Diet"), cor.test(Gain.pct[[1]],Start))
-hfd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "High Fat Diet"), cor.test(Gain.pct[[1]],Start))
+nd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "Normal Chow Diet"), cor.test(Gain.pct,Start, method='spearman'))
+cd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "Control Diet"), cor.test(Gain.pct,Start, method='spearman'))
+hfd.cor.weekly.pct <- with(subset(weekly.data, Treatment == "High Fat Diet"), cor.test(Gain.pct,Start, method='spearman'))
 
 cor.weekly.pct <- c(hfd.cor.weekly.pct$estimate, cd.cor.weekly.pct$estimate, nd.cor.weekly.pct$estimate)
 p.val.weekly.pct <- c(hfd.cor.weekly.pct$p.value, cd.cor.weekly.pct$p.value, nd.cor.weekly.pct$p.value)
@@ -373,34 +376,82 @@ colnames(cor.weekly.summary.pct) <- c("Correlation Coefficient", "R-Squared", "P
 print(xtable(cor.weekly.summary, caption = "Correlation of Absolute Weight Gain to Initial Weight", label = "tab:weekly-correlations", digits=4), type='html')
 
 print(xtable(cor.weekly.summary.pct, caption = "Correlation of Percent Weight Gain to Initial Weight", label = "tab:weekly-correlations-pct", digits=4),type='html')
+absolute_correlation <- '../data/processed/Correlation Between Initial Weight and Absolute Weight Gain.csv'
+percent_correlation <- '../data/processed/Correlation Between Initial Weight and Percent Weight Gain.csv'
+
+write.csv(cor.weekly.summary, absolute_correlation)
+write.csv(cor.weekly.summary.pct, percent_correlation)
 ```
 
-There was no significant correlation between Initial Weight and the amount of weight gained or the percentage of weight gained by the end of the treatment period (see Table below and and Figures below).
+These correlations are written to the output files `r absolute_correlation` and `r percent_correlation`.
 
 ```{r weekly-gain,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
-with(weekly.data, plot(Start, Gain[[1]], 
+with(weekly.data, plot(Start, Gain, 
                        pch=19, 
                        col=Treatment,
                        ylab = "Weight Gain (g)",
                        xlab = "Starting Weight (g)"))
-abline(lm(Gain[[1]]~Start, data=subset(weekly.data, Treatment == "High Fat Diet")), col=treatment.colors[1])
-abline(lm(Gain[[1]]~Start, data=subset(weekly.data, Treatment == "Normal Chow Diet")), col=treatment.colors[3])
-abline(lm(Gain[[1]]~Start, data=subset(weekly.data, Treatment == "Control Diet")), col=treatment.colors[2])
+abline(lm(Gain~Start, data=subset(weekly.data, Treatment == "High Fat Diet")), col=treatment.colors[1])
+abline(lm(Gain~Start, data=subset(weekly.data, Treatment == "Normal Chow Diet")), col=treatment.colors[3])
+abline(lm(Gain~Start, data=subset(weekly.data, Treatment == "Control Diet")), col=treatment.colors[2])
 legend("topleft", levels(weekly.data$Treatment), pch=19, lty=1, col=treatment.colors, bty="n")
 ```
 
 ```{r weekly-gain-pct,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
-with(weekly.data, plot(Start, Gain.pct[[1]], 
+with(weekly.data, plot(Start, Gain.pct, 
                        pch=19, 
                        col=Treatment,
                        ylab = "Percent Weight Gain",
                        xlab = "Starting Weight (g)"))
-abline(lm(Gain.pct[[1]]~Start, data=subset(weekly.data, Treatment == "High Fat Diet")), col=palette()[1])
-abline(lm(Gain.pct[[1]]~Start, data=subset(weekly.data, Treatment == "Normal Chow Diet")), col=palette()[3])
-abline(lm(Gain.pct[[1]]~Start, data=subset(weekly.data, Treatment == "Control Diet")), col=palette()[2])
+abline(lm(Gain.pct~Start, data=subset(weekly.data, Treatment == "High Fat Diet")), col=palette()[1])
+abline(lm(Gain.pct~Start, data=subset(weekly.data, Treatment == "Normal Chow Diet")), col=palette()[3])
+abline(lm(Gain.pct~Start, data=subset(weekly.data, Treatment == "Control Diet")), col=palette()[2])
 legend("topleft", levels(weekly.data$Treatment), pch=19, lty=1, col=palette(), bty="n")
 ```
 
+
+### Cohort level analysis of the effects of weight gain
+To test whether there were correlations for one of the cohorts, we separated out the cohorts and redid this analysis on a per-cohort level.  
+
+```{r weight-gain-correlation-stats, echo=FALSE}
+weekly.data.cohort <- cast(all.data, Treatment+Animal+Cohort~Week, mean, value="Weight")
+weekly.data.cohort$Gain <- weekly.data.cohort[,10]- weekly.data.cohort[,4]
+weekly.data.cohort$Gain.pct <- weekly.data.cohort$Gain/weekly.data.cohort[,4]*100
+
+names(weekly.data.cohort)[4] <- "Start"
+
+```
+#### Absolute Weight Gain By Cohort
+
+```{r weekly-gain-cohort,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+par(mfrow=c(2,2))
+for (cohort in levels(weekly.data.cohort$Cohort)) {
+  cohort.data <- subset(weekly.data.cohort, Cohort == cohort)
+  with(cohort.data, plot(Start, Gain, 
+                       pch=19, 
+                       col=Treatment,
+                       main=cohort,
+                       ylab = "Weight Gain (g)",
+                       xlab = "Starting Weight (g)"))
+abline(lm(Gain~Start, data=subset(cohort.data, Treatment == "High Fat Diet")), col=treatment.colors[1])
+}
+```
+
+#### Percent Weight Gain By Cohort
+
+```{r weekly-gain-pct-cohort,fig=TRUE,echo=FALSE, dev=c("pdf","png")}
+par(mfrow=c(2,2))
+for (cohort in levels(weekly.data.cohort$Cohort)) {
+  cohort.data <- subset(weekly.data.cohort, Cohort == cohort)
+  with(cohort.data, plot(Start, Gain.pct, 
+                       pch=19, 
+                       col=Treatment,
+                       main=cohort,
+                       ylab = "Weight Gain (% of Initial)",
+                       xlab = "Starting Weight (g)"))
+abline(lm(Gain.pct~Start, data=subset(cohort.data, Treatment == "High Fat Diet")), col=treatment.colors[1])
+}
+```
 
 Effects of Outliers on the Rest of the Cage
 -------------------------------------------

@@ -15,7 +15,7 @@ Data which will be presented in the Peloqiun and Bridges manuscript:
 
 Figure | Script | Raw File
 --- | --- | --- 
-Figure 1A | post-diet-luminex-barplot.Rmd | figures/post-diet-luminex-barplot.pdf
+Figure 1A | 
 Figure 1B | |
 Figure 1C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
 Figure 2A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
@@ -30,7 +30,7 @@ Supplementary Figure 1B | |
 Supplementary Figure 1C | |
 Supplementary Figure 1D | hfd_food_intake.Rmd | figures/food-abs-weekly.pdf
 Supplementary Figure 1E | hfd_food_intake.Rmd | figures/food-caloric-weekly.pdf
-Supplementary Figure 2A | |
+Supplementary Figure 2A | post-diet-luminex-barplot.Rmd | figures/post-diet-luminex-barplot.pdf
 Supplementary Figure 2B | |
 Supplementary Figure 3A | |
 Supplementary Figure 3B | |
