@@ -15,21 +15,16 @@ Data which will be presented in the Peloqiun and Bridges manuscript:
 
 Figure | Script | Raw File
 --- | --- | --- 
-Figure 1A | | 
+Figure 1A | post-diet-luminex-barplot.Rmd | figures/post-diet-luminex-barplot.pdf
 Figure 1B | |
-Figure 1C | | 
-Figure 1D | |
-Figure 2A | post-diet-luminex-barplot.Rmd | figures/post-diet-luminex-barplot.pdf
-Figure 2B | |
-Figure 2C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
-Figure 3A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
-Figure 3B | fasting_effects.Rmd | figures/fasting-loss-plot-pct.pdf
-Figure 3C | |
-Figure 3D | | 
-Figure 3E | |
-Figure 3F | |
-Figure 4A | fasting_effects.Rmd | figures/gain-plot-pct.pdf
-Figure 4B | fasting_effects.Rmd | figures/gain-plot.pdf
+Figure 1C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
+Figure 2A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
+Figure 2B | fasting_effects.Rmd | figures/fasting-loss-plot-pct.pdf
+Figure 2C | |
+Figure 2D | | 
+Figure 2E | |
+Figure 2F | |
+Figure 4 | fasting_effects.Rmd | figures/gain-plot-pct.pdf
 Supplementary Figure 1A | NA | NA
 Supplementary Figure 1B | |
 Supplementary Figure 1C | |
