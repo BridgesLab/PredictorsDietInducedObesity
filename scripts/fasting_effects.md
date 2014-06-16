@@ -6,7 +6,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Mon Jun 16 12:29:21 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Mon Jun 16 12:58:09 2014
 
 Analysis
 ----------
@@ -21,7 +21,7 @@ We tested whether there was a trend towards weight loss or percentage weight los
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 12:29:22 2014 -->
+<!-- Mon Jun 16 12:58:09 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -30,7 +30,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 12:29:22 2014 -->
+<!-- Mon Jun 16 12:58:09 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -133,7 +133,7 @@ In terms of percentage weight gain (relative to percent pre-diet fasting respons
   These correlation coefficients are summarized below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 12:29:23 2014 -->
+<!-- Mon Jun 16 12:58:10 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman's Rho and p-values for each comparason between weight gain and fasting responses </CAPTION>
 <TR> <TH>  </TH> <TH> Pre Diet Relative Fasting Response </TH> <TH> Pre Diet Absolute Fasting Response </TH>  </TR>
@@ -155,6 +155,25 @@ Alternatively we generated a model where percent weight gain is dependent only o
 ![plot of chunk gain-plot-pct](figure/gain-plot-pct.png) 
 
 ![plot of chunk gain-plot-all](figure/gain-plot-all.png) 
+
+### Checking for Cohort Effects on Relationship Between Pre-Diet Fasting Response and Weight Gain
+
+We tested whether each cohort was independently significant.  We did Spearman Rank Order tests on each cohort independently.
+
+<!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
+<!-- Mon Jun 16 12:58:10 2014 -->
+<TABLE border=1>
+<CAPTION ALIGN="bottom"> Correlations between pre-diet fasting response and weight gain per cohort </CAPTION>
+<TR> <TH>  </TH> <TH> pval-cd </TH> <TH> Rho-cd </TH> <TH> Rho^2-cd </TH> <TH> pval-hfd </TH> <TH> Rho-hfd </TH> <TH> Rho^2-hfd </TH>  </TR>
+  <TR> <TD align="right"> Cohort 5 Absolute </TD> <TD align="right"> 0.1542 </TD> <TD align="right"> -0.3401 </TD> <TD align="right"> 0.1157 </TD> <TD align="right"> 0.0029 </TD> <TD align="right"> -0.5818 </TD> <TD align="right"> 0.3384 </TD> </TR>
+  <TR> <TD align="right"> Cohort 5 Relative </TD> <TD align="right"> 0.0810 </TD> <TD align="right"> -0.4103 </TD> <TD align="right"> 0.1684 </TD> <TD align="right"> 0.0024 </TD> <TD align="right"> -0.5907 </TD> <TD align="right"> 0.3489 </TD> </TR>
+  <TR> <TD align="right"> Cohort 6 Absolute </TD> <TD align="right"> 0.0357 </TD> <TD align="right"> -0.5450 </TD> <TD align="right"> 0.2970 </TD> <TD align="right"> 0.0266 </TD> <TD align="right"> -0.4520 </TD> <TD align="right"> 0.2043 </TD> </TR>
+  <TR> <TD align="right"> Cohort 6 Relative </TD> <TD align="right"> 0.1823 </TD> <TD align="right"> -0.3640 </TD> <TD align="right"> 0.1325 </TD> <TD align="right"> 0.0030 </TD> <TD align="right"> -0.5798 </TD> <TD align="right"> 0.3362 </TD> </TR>
+   </TABLE>
+
+![plot of chunk gain-plot-pct-cohorts](figure/gain-plot-pct-cohorts.png) 
+
+![plot of chunk gain-plot-cohorts](figure/gain-plot-cohorts.png) 
 
 Session Information
 --------------------
