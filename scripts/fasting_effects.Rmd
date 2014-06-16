@@ -353,7 +353,104 @@ with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Late.pct~Late
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
 ``` 
 
-### Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
+
+Effects of Diet on the Fasting Response
+-----------------------------------------
+
+```{r fasting-weights-data, echo=FALSE}
+fasting_weights_file <- '../data/raw/Raw Weights Data - Fasting.csv'
+fasting.weights <- read.csv(fasting_weights_file)
+weight.data <- cast(fasting.weights, Animal~Feeding, mean, value="Weight")
+weight.data <- merge(weight.data, weights[!duplicated(weights$Animal),c("Animal", "Cage", "Treatment")])
+weight.data$Loss <- weight.data$fed - weight.data$fasted
+weight.data$Gain <- weight.data$refed - weight.data$fasted
+weight.data$Loss.pct <- weight.data$Loss/weight.data$fed*100
+weight.data$Gain.pct <- weight.data$Gain/weight.data$fasted*100
+weight.data$Treatment <- factor(weight.data$Treatment,levels(weight.data$Treatment)[c(3,2,1)])
+```
+
+We checked at the end point of the experiments what the effects of fasting were.  This tests whether the diet and/or weight affects the fasting response.  These data come from the file `r fasting_weights_file`.
+
+```{r fasting-weights-stats, echo=FALSE, message=FALSE}
+library(plyr)
+summary.means <- ddply(weight.data, ~Treatment, summarize,
+                       Fasted.Weight = mean(fasted, na.rm=T),
+                       Fed.Weight = mean(fed, na.rm=T),
+                       Refed.Weight = mean(refed, na.rm=T),                       
+                       Loss = mean(Loss, na.rm=T), 
+                       Loss.pct = mean(Loss.pct, na.rm=T),
+                       Gain = mean(Gain, na.rm=T), 
+                       Gain.pct = mean(Gain.pct, na.rm=T))
+
+se <- function(x) sd(x, na.rm=T)/sqrt(length(x))
+summary.se <- ddply(weight.data, ~Treatment, summarize,
+                       Fasted.Weight = se(fasted),
+                       Fed.Weight = se(fed),
+                       Refed.Weight = se(refed),                    
+                       Loss = se(Loss), 
+                       Loss.pct = se(Loss.pct),
+                       Gain = se(Gain), 
+                       Gain.pct = se(Gain.pct))
+
+fasted.anova <- aov(fasted~Treatment, data=weight.data)
+fed.anova <- aov(fed~Treatment, data=weight.data)
+refed.anova <- aov(refed~Treatment, data=weight.data)
+loss.anova <- aov(Loss~Treatment, data=weight.data)
+loss.pct.anova <- aov(Loss.pct~Treatment, data=weight.data)
+loss.pct.kw <- kruskal.test(Loss.pct~Treatment, data=weight.data)
+gain.anova <- aov(Gain~Treatment, data=weight.data)
+gain.pct.anova <-  aov(Gain.pct~Treatment, data=weight.data)
+```
+
+### Absolute Weight Loss
+
+We checked based on the ANOVA analysis whether the residuals were equally distributed.  For absolute weight loss, the p-value from the Shapiro-Wilk test was `r shapiro.test(residuals(loss.anova))$p.value` so therefore an ANOVA was appropriate.  The results of this ANOVA showed Treatment having an effect with a p-value of `r summary(loss.anova)[[1]]$"Pr(>F)"[1]`.  We therefore did a post-hoc Tukey's test on this:
+
+```{r dunnet-loss-abs}
+TukeyHSD(loss.anova)$Treatment
+```
+
+```{r fasting-diet-abs, dev=c('png','pdf'), echo=FALSE}
+fasting_palette <- brewer.pal(3, "Set2")
+superpose.eb <- function (x, y, ebl, ebu = ebl, length = 0.08, ...)
+arrows(x, y + ebu, x, y - ebl, angle = 90, code = 3,
+length = length, ...)
+
+max <- max(summary.means$Loss + summary.se$Loss)
+plot <- barplot(summary.means$Loss,
+                ylab = "Fasting Induced Change in Body Weight (g)",
+                beside=T,las=1,col=fasting_palette,
+                names.arg = summary.means$Treatment,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means$Loss, 
+             summary.se$Loss)
+```
+
+### Relative Weight Loss
+
+We checked based on the ANOVA analysis whether the residuals were equally distributed.  For percentage weight loss, the p-value from the Shapiro-Wilk test was `r shapiro.test(residuals(loss.pct.anova))$p.value` so therefore an ANOVA was **not** appropriate.  The results of the Kruskal-Wallis are shown below, with the Treatment having an effect with a p-value of `r loss.pct.kw$p.value`.  We therefore did post-hoc Wilcoxon Rank Sum Tests:
+
+```{r wilcoxon-loss-pct}
+pairwise.wilcox.test(weight.data$Loss.pct, weight.data$Treatment)
+```
+
+```{r fasting-diet-pct, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means$Loss.pct + summary.se$Loss.pct)
+plot <- barplot(summary.means$Loss.pct,
+                ylab = "Fasting Induced Change in Body Weight (% Change)",
+                beside=T,las=1,col=fasting_palette,
+                names.arg = summary.means$Treatment,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means$Loss.pct, 
+             summary.se$Loss.pct)
+```
+
+Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
+--------------------------------------------------------------------
 
 Due to the stability in percent weight loss even without dietary manipulation, we wanted to test for associations between fasting induced-weight loss and their eventual weight gain during dietary manipulation.
 
