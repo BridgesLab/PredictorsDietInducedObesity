@@ -172,8 +172,10 @@ Longitudinal Analysis of Fasting Induced Weight Loss
 
 #cohort5.data <- cast(subset(cohort5, Animal!="C57BL/6J-EarTag #36"), Treatment+Animal~Age, value="Weight", mean)
 #colnames(cohort5.data) <- c("Treatment","Animal", "Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted")
+#cohort5.data$Cohort <- rep("Cohort 5", dim(cohort5.data)[1])
 #cohort6.data <- cast(subset(cohort6, Animal!="C57BL/6J-EarTag #36"), Treatment+Animal~Age, value="Weight", mean)
 #colnames(cohort6.data) <- c("Treatment","Animal", "Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted")
+#cohort6.data$Cohort <- rep("Cohort 6", dim(cohort6.data)[1])
 
 #combine the two cohorts
 #cohort5.6.data <- rbind(cohort5.data,cohort6.data)
@@ -242,6 +244,84 @@ with(cohort5.6.data, plot(Early.pct,Late.pct, col=Treatment, pch=19,las=1,
 with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Late.pct~Early.pct), col=palette()[1]))
 with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Late.pct~Early.pct), col=palette()[2]))
 legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
+```
+
+### Effects of cohort on the lack of correlation between pre-diet and post-diet fasting resposnes.
+
+Since this analysis used both cohorts, and as described above did not observe a trend when combined, we separated these analyses by cohort.
+
+The correlations betwen pre-diet fasting percent response and post-diet percent fasting response by cohort are:
+
+```{r within-mouse-fasting-responses, echo=FALSE, message=FALSE, results='asis'}
+within.mouse.cohort <- data.frame(row.names=c("Cohort 5 Absolute", "Cohort 5 Relative", "Cohort 6 Absolute", "Cohort 6 Relative"))
+
+within.mouse.cohort['Cohort 5 Relative','pval-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 5"), cor.test(Early.pct,Late.pct)$p.value)
+within.mouse.cohort['Cohort 5 Relative','Rho-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 5"), cor.test(Early.pct,Late.pct)$estimate)
+within.mouse.cohort['Cohort 5 Relative','Rho^2-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 5"), cor.test(Early.pct,Late.pct)$estimate^2)
+
+within.mouse.cohort['Cohort 5 Relative','pval-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 5"), cor.test(Early.pct,Late.pct)$p.value)
+within.mouse.cohort['Cohort 5 Relative','Rho-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 5"), cor.test(Early.pct,Late.pct)$estimate)
+within.mouse.cohort['Cohort 5 Relative','Rho^2-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 5"), cor.test(Early.pct,Late.pct)$estimate^2)
+
+within.mouse.cohort['Cohort 6 Relative','pval-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 6"), cor.test(Early.pct,Late.pct)$p.value)
+within.mouse.cohort['Cohort 6 Relative','Rho-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 6"), cor.test(Early.pct,Late.pct)$estimate)
+within.mouse.cohort['Cohort 6 Relative','Rho^2-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 6"), cor.test(Early.pct,Late.pct)$estimate^2)
+
+within.mouse.cohort['Cohort 6 Relative','pval-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 6"), cor.test(Early.pct,Late.pct)$p.value)
+within.mouse.cohort['Cohort 6 Relative','Rho-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 6"), cor.test(Early.pct,Late.pct)$estimate)
+within.mouse.cohort['Cohort 6 Relative','Rho^2-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 6"), cor.test(Early.pct,Late.pct)$estimate^2)
+
+within.mouse.cohort['Cohort 5 Absolute','pval-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 5"), cor.test(Early,Late)$p.value)
+within.mouse.cohort['Cohort 5 Absolute','Rho-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 5"), cor.test(Early,Late)$estimate)
+within.mouse.cohort['Cohort 5 Absolute','Rho^2-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 5"), cor.test(Early,Late)$estimate^2)
+
+within.mouse.cohort['Cohort 5 Absolute','pval-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 5"), cor.test(Early,Late)$p.value)
+within.mouse.cohort['Cohort 5 Absolute','Rho-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 5"), cor.test(Early,Late)$estimate)
+within.mouse.cohort['Cohort 5 Absolute','Rho^2-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 5"), cor.test(Early,Late)$estimate^2)
+
+within.mouse.cohort['Cohort 6 Absolute','pval-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 6"), cor.test(Early,Late)$p.value)
+within.mouse.cohort['Cohort 6 Absolute','Rho-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 6"), cor.test(Early,Late)$estimate)
+within.mouse.cohort['Cohort 6 Absolute','Rho^2-cd'] <- with(subset(cohort5.6.data, Treatment=="Control Diet"&Cohort=="Cohort 6"), cor.test(Early,Late)$estimate^2)
+
+within.mouse.cohort['Cohort 6 Absolute','pval-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 6"), cor.test(Early,Late)$p.value)
+within.mouse.cohort['Cohort 6 Absolute','Rho-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 6"), cor.test(Early,Late)$estimate)
+within.mouse.cohort['Cohort 6 Absolute','Rho^2-hfd'] <- with(subset(cohort5.6.data, Treatment=="High Fat Diet"&Cohort=="Cohort 6"), cor.test(Early,Late)$estimate^2)
+```
+
+```{r cohort-within-mouse-table, echo=FALSE,results='html'}
+within.mouse.cohort
+```
+
+```{r fasting-loss-plot-cohort,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
+par(mfrow=c(1,2))
+for (cohort in levels(cohort5.6.data$Cohort)) {
+with(subset(cohort5.6.data, Cohort==cohort), plot(Early,Late, col=Treatment, pch=19,las=1,
+                        main=cohort,
+                        xlab="Pre-Diet Weight Loss (g)",
+                        ylab="Post-Diet Weight Loss (g)",
+                        xlim=c(0,5),
+                        ylim=c(0,5)
+                      ))
+with(subset(cohort5.6.data, Cohort==cohort&Treatment=="Control Diet"), abline(lm(Late~Early), col=palette()[1]))
+with(subset(cohort5.6.data, Cohort==cohort&Treatment=="High Fat Diet"), abline(lm(Late~Early), col=palette()[2]))
+legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
+}
+```
+
+```{r fasting-loss-plot-pct-cohort,fig=TRUE,echo=FALSE, dev=c('png','pdf')}
+par(mfrow=c(1,2))
+for (cohort in levels(cohort5.6.data$Cohort)) {
+with(cohort5.6.data, plot(Early.pct,Late.pct, col=Treatment, pch=19,las=1,
+                        main=cohort,
+                        xlab="Pre-Diet Weight Loss (% of Fed)",
+                        ylab="Post-Diet Weight Loss (% of Fed)",
+                        xlim=c(0,max(Early.pct, na.rm=T)),
+                        ylim=c(0,max(Late.pct, na.rm=T))
+                      ))
+with(subset(cohort5.6.data, Treatment=="Control Diet"), abline(lm(Late.pct~Early.pct), col=palette()[1]))
+with(subset(cohort5.6.data, Treatment=="High Fat Diet"), abline(lm(Late.pct~Early.pct), col=palette()[2]))
+legend("topleft", levels(cohort5.6.data$Treatment), col=palette()[1:2], lty=1, pch=19, bty="n")
+}
 ```
 
 Effects Relative to Body Weight
