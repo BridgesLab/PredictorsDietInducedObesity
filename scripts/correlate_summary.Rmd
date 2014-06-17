@@ -1,0 +1,172 @@
+Summary of Correlates That Predict Weight Gain
+========================================================
+
+This script uses several output files that did individual correrlation analyses.  The goal of this script is to combine these into a single table and adjust the p-values accordingly.  This script was most recently run on `r date()`.
+
+```{r input_files, echo=FALSE}
+initial_weight_file_abs <- '../data/processed/Correlation Between Initial Weight and Absolute Weight Gain.csv'
+initial_weight_file_pct <- '../data/processed/Correlation Between Initial Weight and Percent Weight Gain.csv'
+fasting_response_file <- '../data/processed/Correlations Between Fasting Response and Weight Gain.csv'
+pre_diet_hormones_file_abs <- '../data/processed/Pre-Diet Hormone Correlations - Absolute Weight Gain.csv'
+pre_diet_hormones_file_pct <- '../data/processed/Pre-Diet Hormone Correlations - Percent Weight Gain.csv'
+
+initial_weight_abs <- read.csv(initial_weight_file_abs)
+initial_weight_pct <- read.csv(initial_weight_file_pct)
+pre_diet_hormones_abs <- read.csv(pre_diet_hormones_file_abs)
+pre_diet_hormones_pct <- read.csv(pre_diet_hormones_file_pct)
+fasting_responses <- read.csv(fasting_response_file)
+```
+
+The input files are:
+* `r initial_weight_file_abs`
+* `r initial_weight_file_pct`
+* `r fasting_response_file`
+* `r pre_diet_hormones_file_abs`
+* `r pre_diet_hormones_file_pct`
+
+Predictors of Absolute Weight Gain
+------------------------------------
+
+```{r absolute_weight_gain, echo=FALSE, message=FALSE}
+#great thinking, Dave making these all look totally different.  This is all data munging.
+#get absolute values out of fasting responses
+fasting_responses_abs <- fasting_responses[grep("Absolute", fasting_responses$X),]
+fasting_responses_abs$Diet <- substr(fasting_responses_abs$X, 1, 3)
+
+for (row in rownames(fasting_responses_abs)){
+if (fasting_responses_abs[row,]$Diet == "HFD"){
+  fasting_responses_abs[row,'Diet.Full'] <- "High Fat Diet"
+  }
+else
+  fasting_responses_abs[row,'Diet.Full'] <- "Control Diet"
+}
+
+#make a column for the things thast measured
+for (row in rownames(fasting_responses_abs)){
+if (grepl("Rho", fasting_responses_abs[row,]$X)){
+  fasting_responses_abs[row,'variable'] <- "estimate"
+  }
+else
+  fasting_responses_abs[row,'variable'] <- "p.value"
+}
+
+#make a column for all these data
+fasting_responses_abs$Measurement <- rep("Relative Fasting Response", dim(fasting_responses_abs)[1])
+
+#reshape it into a single column
+library(reshape2)
+fasting_responses_abs_casted <- dcast(fasting_responses_abs, Measurement~Diet.Full+variable, value.var="Pre.Diet.Relative.Fasting.Response")
+
+
+#for initial weight
+colnames(initial_weight_abs) <- c('Diet','estimate', 'r.squared','p.value')
+initial_weight_abs$variable <- rep("Initial Body Weight", dim(initial_weight_abs)[1])
+initial_weight_abs_melted <- melt(initial_weight_abs, variable.name="Measurement")
+initial_weight_abs_casted <- dcast(subset(initial_weight_abs_melted, Diet!="Normal Chow Diet"&Measurement!='r.squared'),
+                                   variable~Diet+Measurement)
+colnames(initial_weight_abs_casted)[1] <- "Measurement"
+
+#for pre-diet hormones
+colnames(pre_diet_hormones_abs) <- c('Measurement','full.p.value','High Fat Diet_estimate','Control Diet_estimate','R2.HFD','R2.CD','High Fat Diet_p.value','Control Diet_p.value')
+
+abs_summary <- rbind(initial_weight_abs_casted,
+                     fasting_responses_abs_casted,
+                     pre_diet_hormones_abs[,c('Measurement','High Fat Diet_estimate','Control Diet_estimate','High Fat Diet_p.value','Control Diet_p.value')])
+
+abs_summary_ordered <- abs_summary[order(-abs(abs_summary$`High Fat Diet_estimate`)),]
+abs_summary_ordered$`High Fat Diet_q.value` <- p.adjust(abs_summary_ordered$`High Fat Diet_p.value`, method="BH")
+abs_summary_ordered$`Control Diet_q.value` <- p.adjust(abs_summary_ordered$`Control Diet_p.value`, method="BH")
+abs_output_file <- '../data/processed/Absolute Weight Gain - Correlation Summary.csv'
+write.csv(abs_summary_ordered, abs_output_file)
+```
+
+The summary is written to an output file `r abs_output_file`
+
+```{r absolute_table, echo=FALSE, results='asis'}
+library(xtable)
+print(xtable(abs_summary_ordered, digits=c(0,0,3,3,3,4,3,3)), include.rownames=F,type='html')
+```
+
+```{r summary-abs-barplot, echo=FALSE, dev=c('pdf','png')}
+par(mar=c(12,4.1,4.1,2.1))
+barplot(rbind(abs(abs_summary_ordered$`High Fat Diet_estimate`), abs(abs_summary_ordered$`Control Diet_estimate`)),
+        beside=T, las=2, names.arg=abs_summary_ordered$Measurement, ylab="Absolute Spearman's Rho", main="Absolute Weight Gain")
+legend("top", c("High Fat Diet","Control Diet"), fill=grey.colors(2), bty="n")
+```
+
+Predictors of Percentage Weight Gain
+------------------------------------
+
+```{r percent_weight_gain, echo=FALSE, message=FALSE}
+#great thinking, Dave making these all look totally different.  This is all data munging.
+#get absolute values out of fasting responses
+fasting_responses_pct <- fasting_responses[grep("Relative", fasting_responses$X),]
+fasting_responses_pct$Diet <- substr(fasting_responses_pct$X, 1, 3)
+
+for (row in rownames(fasting_responses_pct)){
+if (fasting_responses_pct[row,]$Diet == "HFD"){
+  fasting_responses_pct[row,'Diet.Full'] <- "High Fat Diet"
+  }
+else
+  fasting_responses_pct[row,'Diet.Full'] <- "Control Diet"
+}
+
+#make a column for the things thast measured
+for (row in rownames(fasting_responses_pct)){
+if (grepl("Rho", fasting_responses_pct[row,]$X)){
+  fasting_responses_pct[row,'variable'] <- "estimate"
+  }
+else
+  fasting_responses_pct[row,'variable'] <- "p.value"
+}
+
+#make a column for all these data
+fasting_responses_pct$Measurement <- rep("Relative Fasting Response", dim(fasting_responses_pct)[1])
+
+#reshape it into a single column
+library(reshape2)
+fasting_responses_pct_casted <- dcast(fasting_responses_pct, Measurement~Diet.Full+variable, value.var="Pre.Diet.Relative.Fasting.Response")
+
+
+#for initial weight
+colnames(initial_weight_pct) <- c('Diet','estimate', 'r.squared','p.value')
+initial_weight_pct$variable <- rep("Initial Body Weight", dim(initial_weight_pct)[1])
+initial_weight_pct_melted <- melt(initial_weight_pct, variable.name="Measurement")
+initial_weight_pct_casted <- dcast(subset(initial_weight_pct_melted, Diet!="Normal Chow Diet"&Measurement!='r.squared'),
+                                   variable~Diet+Measurement)
+colnames(initial_weight_pct_casted)[1] <- "Measurement"
+
+#for pre-diet hormones
+colnames(pre_diet_hormones_pct) <- c('Measurement','full.p.value','High Fat Diet_estimate','Control Diet_estimate','R2.HFD','R2.CD','High Fat Diet_p.value','Control Diet_p.value')
+
+pct_summary <- rbind(initial_weight_pct_casted,
+                     fasting_responses_pct_casted,
+                     pre_diet_hormones_pct[,c('Measurement','High Fat Diet_estimate','Control Diet_estimate','High Fat Diet_p.value','Control Diet_p.value')])
+
+pct_summary_ordered <- pct_summary[order(-abs(pct_summary$`High Fat Diet_estimate`)),]
+pct_summary_ordered$`High Fat Diet_q.value` <- p.adjust(pct_summary_ordered$`High Fat Diet_p.value`, method="BH")
+pct_summary_ordered$`Control Diet_q.value` <- p.adjust(pct_summary_ordered$`Control Diet_p.value`, method="BH")
+pct_output_file <- '../data/processed/Percentage Weight Gain - Correlation Summary.csv'
+write.csv(pct_summary_ordered, pct_output_file)
+```
+
+The summary is written to an output file `r pct_output_file`
+
+```{r relative_table, echo=FALSE, results='asis'}
+print(xtable(pct_summary_ordered, digits=c(0,0,3,3,3,7,7,3)), include.rownames=F,type='html')
+```
+
+```{r summary-pct-barplot, echo=FALSE, dev=c('pdf','png')}
+par(mar=c(12,4.1,4.1,2.1))
+barplot(rbind(abs(pct_summary_ordered$`High Fat Diet_estimate`), abs(pct_summary_ordered$`Control Diet_estimate`)),
+        beside=T, las=2, names.arg=pct_summary_ordered$Measurement, ylab="Absolute Spearman's Rho", main="Percent Weight Gain")
+legend("top", c("High Fat Diet", "Control Diet"), fill=grey.colors(2), bty="n")
+```
+
+Session Information
+--------------------
+
+```{r sessionInfo, echo=F}
+sessionInfo()
+```
+
