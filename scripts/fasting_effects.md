@@ -6,7 +6,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 10:32:26 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 11:56:35 2014
 
 Analysis
 ----------
@@ -14,14 +14,14 @@ Analysis
 
 
 ### Weight Loss on Normal Chow Diet
+Weight loss was not normally distributed in either absolute (p=0.0167) or percent weight loss (p=0.0014).
 
-
-We tested whether there was a trend towards weight loss or percentage weight loss with age in the Normal Chow Diet Fed Animals.  First we tested whether there is a correlation between Age and Weight loss (r=**-0.093**, R2=**0.0087** p=**0.44**) or percentage weight loss (r=**0.043**, R2=**0.0018** p=**0.724**).  
+We tested whether there was a trend towards weight loss or percentage weight loss with age in the Normal Chow Diet Fed Animals.  First we tested whether there is a correlation between Age and Weight loss (Rho=**-0.085**, Rho2=**0.0071** p=**0.483**) or percentage weight loss (Rho=**0.133**, Rho2=**0.0177** p=**0.269**).  
 
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 10:32:26 2014 -->
+<!-- Tue Jun 17 11:56:35 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -30,7 +30,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 10:32:26 2014 -->
+<!-- Tue Jun 17 11:56:35 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -256,7 +256,7 @@ Effects of Diet on Correlation Between Weight Loss/Gain and Body Weights
 --------------------------------------------------------------------------
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 10:32:29 2014 -->
+<!-- Tue Jun 17 11:56:38 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman's Correlation statistics for effects of body weight on absolute weight gain and loss </CAPTION>
 <TR> <TH>  </TH> <TH> Gain.R </TH> <TH> Gain.R2 </TH> <TH> Gain.p </TH> <TH> Loss.R </TH> <TH> Loss.R2 </TH> <TH> Loss.p </TH>  </TR>
@@ -266,7 +266,7 @@ Effects of Diet on Correlation Between Weight Loss/Gain and Body Weights
    <A NAME=tab:correlation-table></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 10:32:29 2014 -->
+<!-- Tue Jun 17 11:56:38 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman's Correlation statistics for effects of body weight on relative weight gain and loss </CAPTION>
 <TR> <TH>  </TH> <TH> Gain.R </TH> <TH> Gain.R2 </TH> <TH> Gain.p </TH> <TH> Loss.R </TH> <TH> Loss.R2 </TH> <TH> Loss.p </TH>  </TR>
@@ -302,7 +302,7 @@ In terms of percentage weight gain (relative to percent pre-diet fasting respons
   These correlation coefficients are summarized below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 10:32:29 2014 -->
+<!-- Tue Jun 17 11:56:39 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman's Rho and p-values for each comparason between weight gain and fasting responses </CAPTION>
 <TR> <TH>  </TH> <TH> Pre Diet Relative Fasting Response </TH> <TH> Pre Diet Absolute Fasting Response </TH>  </TR>
@@ -330,7 +330,7 @@ Alternatively we generated a model where percent weight gain is dependent only o
 We tested whether each cohort was independently significant.  We did Spearman Rank Order tests on each cohort independently.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 10:32:30 2014 -->
+<!-- Tue Jun 17 11:56:39 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Correlations between pre-diet fasting response and weight gain per cohort </CAPTION>
 <TR> <TH>  </TH> <TH> pval-cd </TH> <TH> Rho-cd </TH> <TH> Rho^2-cd </TH> <TH> pval-hfd </TH> <TH> Rho-hfd </TH> <TH> Rho^2-hfd </TH>  </TR>

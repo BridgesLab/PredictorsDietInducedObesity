@@ -183,19 +183,21 @@ hljs.initHighlightingOnLoad();
 
 <h2>Data</h2>
 
-<p>This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 10:32:26 2014</p>
+<p>This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 11:56:35 2014</p>
 
 <h2>Analysis</h2>
 
 <h3>Weight Loss on Normal Chow Diet</h3>
 
-<p>We tested whether there was a trend towards weight loss or percentage weight loss with age in the Normal Chow Diet Fed Animals.  First we tested whether there is a correlation between Age and Weight loss (r=<strong>-0.093</strong>, R2=<strong>0.0087</strong> p=<strong>0.44</strong>) or percentage weight loss (r=<strong>0.043</strong>, R2=<strong>0.0018</strong> p=<strong>0.724</strong>).  </p>
+<p>Weight loss was not normally distributed in either absolute (p=0.0167) or percent weight loss (p=0.0014).</p>
+
+<p>We tested whether there was a trend towards weight loss or percentage weight loss with age in the Normal Chow Diet Fed Animals.  First we tested whether there is a correlation between Age and Weight loss (Rho=<strong>-0.085</strong>, Rho2=<strong>0.0071</strong> p=<strong>0.483</strong>) or percentage weight loss (Rho=<strong>0.133</strong>, Rho2=<strong>0.0177</strong> p=<strong>0.269</strong>).  </p>
 
 <p>We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are <strong>-0.0057</strong> for weight loss and <strong>-0.0126</strong> for percentage weight loss.  These data are presented graphically below.</p>
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Tue Jun 17 10:32:26 2014 -->
+<!-- Tue Jun 17 11:56:35 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
@@ -207,7 +209,7 @@ hljs.initHighlightingOnLoad();
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Tue Jun 17 10:32:26 2014 -->
+<!-- Tue Jun 17 11:56:35 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
@@ -405,7 +407,7 @@ hljs.initHighlightingOnLoad();
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Tue Jun 17 10:32:29 2014 -->
+<!-- Tue Jun 17 11:56:38 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman&rsquo;s Correlation statistics for effects of body weight on absolute weight gain and loss </CAPTION>
@@ -418,7 +420,7 @@ hljs.initHighlightingOnLoad();
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Tue Jun 17 10:32:29 2014 -->
+<!-- Tue Jun 17 11:56:38 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman&rsquo;s Correlation statistics for effects of body weight on relative weight gain and loss </CAPTION>
@@ -453,7 +455,7 @@ hljs.initHighlightingOnLoad();
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Tue Jun 17 10:32:29 2014 -->
+<!-- Tue Jun 17 11:56:39 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman&rsquo;s Rho and p-values for each comparason between weight gain and fasting responses </CAPTION>
@@ -483,7 +485,7 @@ hljs.initHighlightingOnLoad();
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
 
-<!-- Tue Jun 17 10:32:30 2014 -->
+<!-- Tue Jun 17 11:56:39 2014 -->
 
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Correlations between pre-diet fasting response and weight gain per cohort </CAPTION>
