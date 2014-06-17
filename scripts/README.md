@@ -20,7 +20,7 @@ Figure 1B | cohort_comparason.Rmd | weekly-gain-pct.pdf
 Figure 1C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
 Figure 2A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
 Figure 2B | fasting_effects.Rmd | figures/fasting-loss-plot-pct.pdf
-Figure 2C | |
+Figure 2C | fasting_effects.Rmd | figures/fasting-diet-pct.pdf
 Figure 2D | | 
 Figure 2E | |
 Figure 2F | |

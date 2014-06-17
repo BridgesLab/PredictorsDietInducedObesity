@@ -361,7 +361,7 @@ Effects of Diet on the Fasting Response
 fasting_weights_file <- '../data/raw/Raw Weights Data - Fasting.csv'
 fasting.weights <- read.csv(fasting_weights_file)
 weight.data <- cast(fasting.weights, Animal~Feeding, mean, value="Weight")
-weight.data <- merge(weight.data, weights[!duplicated(weights$Animal),c("Animal", "Cage", "Treatment")])
+weight.data <- merge(weight.data, fasting.weights[!duplicated(fasting.weights$Animal),c("Animal", "Cage", "Treatment","Cohort")])
 weight.data$Loss <- weight.data$fed - weight.data$fasted
 weight.data$Gain <- weight.data$refed - weight.data$fasted
 weight.data$Loss.pct <- weight.data$Loss/weight.data$fed*100
@@ -433,7 +433,7 @@ superpose.eb(plot,
 We checked based on the ANOVA analysis whether the residuals were equally distributed.  For percentage weight loss, the p-value from the Shapiro-Wilk test was `r shapiro.test(residuals(loss.pct.anova))$p.value` so therefore an ANOVA was **not** appropriate.  The results of the Kruskal-Wallis are shown below, with the Treatment having an effect with a p-value of `r loss.pct.kw$p.value`.  We therefore did post-hoc Wilcoxon Rank Sum Tests:
 
 ```{r wilcoxon-loss-pct}
-pairwise.wilcox.test(weight.data$Loss.pct, weight.data$Treatment)
+pairwise.wilcox.test(weight.data$Loss.pct, weight.data$Treatment, p.adjust.method="BH")
 ```
 
 ```{r fasting-diet-pct, dev=c('png','pdf'), echo=FALSE}
@@ -447,6 +447,62 @@ plot <- barplot(summary.means$Loss.pct,
 superpose.eb(plot, 
              summary.means$Loss.pct, 
              summary.se$Loss.pct)
+```
+
+#### Relative Weight Loss Accross Cohorts
+
+To test whether the enhanced relative weight loss was not consistent accross cohorts we separated these analyses by cohort.
+
+```{r relative-weight-loss-cohort, echo=FALSE}
+summary.means.cohort <- ddply(weight.data, .(Treatment,Cohort), summarize,
+                       Fasted.Weight = mean(fasted, na.rm=T),
+                       Fed.Weight = mean(fed, na.rm=T),
+                       Refed.Weight = mean(refed, na.rm=T),                       
+                       Loss = mean(Loss, na.rm=T), 
+                       Loss.pct = mean(Loss.pct, na.rm=T),
+                       Gain = mean(Gain, na.rm=T), 
+                       Gain.pct = mean(Gain.pct, na.rm=T))
+
+summary.se.cohort <- ddply(weight.data, .(Treatment,Cohort), summarize,
+                       Fasted.Weight = se(fasted),
+                       Fed.Weight = se(fed),
+                       Refed.Weight = se(refed),                    
+                       Loss = se(Loss), 
+                       Loss.pct = se(Loss.pct),
+                       Gain = se(Gain), 
+                       Gain.pct = se(Gain.pct))
+```
+
+```{r fasting-diet-abs-cohort, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means.cohort$Loss + summary.se.cohort$Loss)
+colors_cohort <- c(rep(fasting_palette[1], 2), rep(fasting_palette[2], 4), rep(fasting_palette[3],2))
+plot <- barplot(summary.means.cohort$Loss,
+                ylab = "Fasting Induced Change in Body Weight (g)",
+                beside=T,las=2,col=colors_cohort,
+                names.arg = summary.means.cohort$Cohort,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means.cohort$Loss, 
+             summary.se.cohort$Loss)
+
+legend("top", levels(summary.means.cohort$Treatment), fill=fasting_palette, bty="n")
+```
+
+```{r fasting-diet-pct-cohort, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means.cohort$Loss.pct + summary.se.cohort$Loss.pct)
+colors_cohort <- c(rep(fasting_palette[1], 2), rep(fasting_palette[2], 4), rep(fasting_palette[3],2))
+plot <- barplot(summary.means.cohort$Loss.pct,
+                ylab = "Fasting Induced Change in Body Weight (% Change)",
+                beside=T,las=2,col=colors_cohort,
+                names.arg = summary.means.cohort$Cohort,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means.cohort$Loss.pct, 
+             summary.se.cohort$Loss.pct)
+
+legend("top", levels(summary.means.cohort$Treatment), fill=fasting_palette, bty="n")
 ```
 
 Comparason of Fasting Induced Weight Loss to Eventual Weight Gain

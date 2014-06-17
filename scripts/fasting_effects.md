@@ -6,7 +6,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Mon Jun 16 15:08:31 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 09:10:19 2014
 
 Analysis
 ----------
@@ -21,7 +21,7 @@ We tested whether there was a trend towards weight loss or percentage weight los
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 15:08:31 2014 -->
+<!-- Tue Jun 17 09:10:19 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -30,7 +30,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 15:08:31 2014 -->
+<!-- Tue Jun 17 09:10:19 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -120,7 +120,7 @@ We checked at the end point of the experiments what the effects of fasting were.
 
 ### Absolute Weight Loss
 
-We checked based on the ANOVA analysis whether the residuals were equally distributed.  For absolute weight loss, the p-value from the Shapiro-Wilk test was 0.3244 so therefore an ANOVA was appropriate.  The results of this ANOVA showed Treatment having an effect with a p-value of 2.3479 &times; 10<sup>-5</sup>.  We therefore did a post-hoc Tukey's test on this:
+We checked based on the ANOVA analysis whether the residuals were equally distributed.  For absolute weight loss, the p-value from the Shapiro-Wilk test was 0.1304 so therefore an ANOVA was appropriate.  The results of this ANOVA showed Treatment having an effect with a p-value of 0.0011.  We therefore did a post-hoc Tukey's test on this:
 
 
 ```r
@@ -128,21 +128,21 @@ TukeyHSD(loss.anova)$Treatment
 ```
 
 ```
-##                                   diff      lwr     upr     p adj
-## High Fat Diet-Normal Chow Diet -0.7158 -1.06786 -0.3637 1.254e-05
-## Control Diet-Normal Chow Diet  -0.5519 -0.93536 -0.1685 2.492e-03
-## Control Diet-High Fat Diet      0.1639 -0.09919  0.4269 3.049e-01
+##                                   diff      lwr     upr    p adj
+## High Fat Diet-Normal Chow Diet -0.4725 -0.78005 -0.1650 0.001146
+## Control Diet-Normal Chow Diet  -0.2130 -0.57118  0.1451 0.337990
+## Control Diet-High Fat Diet      0.2595 -0.03223  0.5511 0.091854
 ```
 
 ![plot of chunk fasting-diet-abs](figure/fasting-diet-abs.png) 
 
 ### Relative Weight Loss
 
-We checked based on the ANOVA analysis whether the residuals were equally distributed.  For percentage weight loss, the p-value from the Shapiro-Wilk test was 0.0117 so therefore an ANOVA was **not** appropriate.  The results of the Kruskal-Wallis are shown below, with the Treatment having an effect with a p-value of 7.3665 &times; 10<sup>-11</sup>.  We therefore did post-hoc Wilcoxon Rank Sum Tests:
+We checked based on the ANOVA analysis whether the residuals were equally distributed.  For percentage weight loss, the p-value from the Shapiro-Wilk test was 0.0283 so therefore an ANOVA was **not** appropriate.  The results of the Kruskal-Wallis are shown below, with the Treatment having an effect with a p-value of 4.5283 &times; 10<sup>-11</sup>.  We therefore did post-hoc Wilcoxon Rank Sum Tests:
 
 
 ```r
-pairwise.wilcox.test(weight.data$Loss.pct, weight.data$Treatment)
+pairwise.wilcox.test(weight.data$Loss.pct, weight.data$Treatment, p.adjust.method="BH")
 ```
 
 ```
@@ -152,13 +152,23 @@ pairwise.wilcox.test(weight.data$Loss.pct, weight.data$Treatment)
 ## data:  weight.data$Loss.pct and weight.data$Treatment 
 ## 
 ##               Normal Chow Diet High Fat Diet
-## High Fat Diet 2.8e-09          -            
-## Control Diet  2.3e-08          0.00078      
+## High Fat Diet 7e-10            -            
+## Control Diet  0.00031          0.00018      
 ## 
-## P value adjustment method: holm
+## P value adjustment method: BH
 ```
 
 ![plot of chunk fasting-diet-pct](figure/fasting-diet-pct.png) 
+
+#### Relative Weight Loss Accross Cohorts
+
+To test whether the enhanced relative weight loss was not consistent accross cohorts we separated these analyses by cohort.
+
+
+
+![plot of chunk fasting-diet-abs-cohort](figure/fasting-diet-abs-cohort.png) 
+
+![plot of chunk fasting-diet-pct-cohort](figure/fasting-diet-pct-cohort.png) 
 
 Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
 --------------------------------------------------------------------
@@ -186,7 +196,7 @@ In terms of percentage weight gain (relative to percent pre-diet fasting respons
   These correlation coefficients are summarized below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 15:08:32 2014 -->
+<!-- Tue Jun 17 09:10:21 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman's Rho and p-values for each comparason between weight gain and fasting responses </CAPTION>
 <TR> <TH>  </TH> <TH> Pre Diet Relative Fasting Response </TH> <TH> Pre Diet Absolute Fasting Response </TH>  </TR>
@@ -214,7 +224,7 @@ Alternatively we generated a model where percent weight gain is dependent only o
 We tested whether each cohort was independently significant.  We did Spearman Rank Order tests on each cohort independently.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Mon Jun 16 15:08:32 2014 -->
+<!-- Tue Jun 17 09:10:21 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Correlations between pre-diet fasting response and weight gain per cohort </CAPTION>
 <TR> <TH>  </TH> <TH> pval-cd </TH> <TH> Rho-cd </TH> <TH> Rho^2-cd </TH> <TH> pval-hfd </TH> <TH> Rho-hfd </TH> <TH> Rho^2-hfd </TH>  </TR>
