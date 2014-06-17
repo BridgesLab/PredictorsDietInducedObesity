@@ -6,7 +6,7 @@ Data
 
 
 
-This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 09:21:57 2014
+This analysis uses the fed and fasted data from C57BL6/J mice at three time points.  There was a total of 71 mice analysed from these cohorts.  The first is the pre-diet fasting data (experiments 83/84 and 100/101, from cohorts 5 and 6), the second is the post-12 weeks high fat diet (experiments 61/62 and 69/70 from cohorts 3,4 and 5) and the third is at the end of the rapamycin treatment experiment (experiments 56 and 57).  The input file for this is ../data/raw/body_weights_file.csv and this script was most recently run on Tue Jun 17 09:35:01 2014
 
 Analysis
 ----------
@@ -21,7 +21,7 @@ We tested whether there was a trend towards weight loss or percentage weight los
 We next generated simple linar models to test the size of this effect.  The results of these linear models are shown in the tables below.  The adjusted r-squared for these models are **-0.0057** for weight loss and **-0.0126** for percentage weight loss.  These data are presented graphically below.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 09:21:57 2014 -->
+<!-- Tue Jun 17 09:35:01 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -30,7 +30,7 @@ We next generated simple linar models to test the size of this effect.  The resu
    <A NAME=tab:lm-loss></A>
 </TABLE>
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 09:21:57 2014 -->
+<!-- Tue Jun 17 09:35:01 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Linear Models for Fasting Induced Percentage Weight Loss for Mice on a Normal Chow Diet </CAPTION>
 <TR> <TH>  </TH> <TH> Estimate </TH> <TH> Std. Error </TH> <TH> t value </TH> <TH> Pr(&gt;|t|) </TH>  </TR>
@@ -166,6 +166,8 @@ To test whether the enhanced relative weight loss was not consistent accross coh
 
 
 
+#### Examination of fasting responses by cohort
+
 ![plot of chunk fasting-diet-abs-cohort](figure/fasting-diet-abs-cohort.png) 
 
 ![plot of chunk fasting-diet-pct-cohort](figure/fasting-diet-pct-cohort.png) 
@@ -212,6 +214,12 @@ We checked based on the ANOVA analysis whether the residuals were equally distri
 
 ![plot of chunk refeeding-diet-pct](figure/refeeding-diet-pct.png) 
 
+#### Examination of Refeeding Responses by Cohort
+
+![plot of chunk refeeding-diet-abs-cohort](figure/refeeding-diet-abs-cohort.png) 
+
+![plot of chunk refeeding-diet-pct-cohort](figure/refeeding-diet-pct-cohort.png) 
+
 Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
 --------------------------------------------------------------------
 
@@ -238,7 +246,7 @@ In terms of percentage weight gain (relative to percent pre-diet fasting respons
   These correlation coefficients are summarized below:
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 09:21:59 2014 -->
+<!-- Tue Jun 17 09:35:03 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Spearman's Rho and p-values for each comparason between weight gain and fasting responses </CAPTION>
 <TR> <TH>  </TH> <TH> Pre Diet Relative Fasting Response </TH> <TH> Pre Diet Absolute Fasting Response </TH>  </TR>
@@ -266,7 +274,7 @@ Alternatively we generated a model where percent weight gain is dependent only o
 We tested whether each cohort was independently significant.  We did Spearman Rank Order tests on each cohort independently.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Tue Jun 17 09:21:59 2014 -->
+<!-- Tue Jun 17 09:35:03 2014 -->
 <TABLE border=1>
 <CAPTION ALIGN="bottom"> Correlations between pre-diet fasting response and weight gain per cohort </CAPTION>
 <TR> <TH>  </TH> <TH> pval-cd </TH> <TH> Rho-cd </TH> <TH> Rho^2-cd </TH> <TH> pval-hfd </TH> <TH> Rho-hfd </TH> <TH> Rho^2-hfd </TH>  </TR>

@@ -475,6 +475,8 @@ summary.se.cohort <- ddply(weight.data, .(Treatment,Cohort), summarize,
                        Gain.pct = se(Gain.pct))
 ```
 
+#### Examination of fasting responses by cohort
+
 ```{r fasting-diet-abs-cohort, dev=c('png','pdf'), echo=FALSE}
 max <- max(summary.means.cohort$Loss + summary.se.cohort$Loss)
 colors_cohort <- c(rep(fasting_palette[1], 2), rep(fasting_palette[2], 4), rep(fasting_palette[3],2))
@@ -549,6 +551,40 @@ plot <- barplot(summary.means$Gain.pct,
 superpose.eb(plot, 
              summary.means$Gain.pct, 
              summary.se$Gain.pct)
+```
+
+#### Examination of Refeeding Responses by Cohort
+
+```{r refeeding-diet-abs-cohort, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means.cohort$Gain + summary.se.cohort$Gain, na.rm=T)
+colors_cohort <- c(rep(fasting_palette[1], 2), rep(fasting_palette[2], 4), rep(fasting_palette[3],2))
+plot <- barplot(summary.means.cohort$Gain,
+                ylab = "Re-Feeding Induced Change in Body Weight (g)",
+                beside=T,las=2,col=colors_cohort,
+                names.arg = summary.means.cohort$Cohort,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means.cohort$Gain, 
+             summary.se.cohort$Gain)
+
+legend("top", levels(summary.means.cohort$Treatment), fill=fasting_palette, bty="n")
+```
+
+```{r refeeding-diet-pct-cohort, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means.cohort$Gain.pct + summary.se.cohort$Gain.pct, na.rm=T)
+colors_cohort <- c(rep(fasting_palette[1], 2), rep(fasting_palette[2], 4), rep(fasting_palette[3],2))
+plot <- barplot(summary.means.cohort$Gain.pct,
+                ylab = "Re-Feeding Induced Change in Body Weight (% Change)",
+                beside=T,las=2,col=colors_cohort,
+                names.arg = summary.means.cohort$Cohort,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means.cohort$Gain.pct, 
+             summary.se.cohort$Gain.pct)
+
+legend("top", levels(summary.means.cohort$Treatment), fill=fasting_palette, bty="n")
 ```
 
 Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
