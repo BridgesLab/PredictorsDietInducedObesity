@@ -21,9 +21,9 @@ Figure 1C | pre-diet-luminex.Rmd | figures/pre-diet-hormone-scatter-plot.pdf
 Figure 2A | fasting_effects.Rmd | figures/ncd-fasting-response.pdf
 Figure 2B | fasting_effects.Rmd | figures/fasting-loss-plot-pct.pdf
 Figure 2C | fasting_effects.Rmd | figures/fasting-diet-pct.pdf
-Figure 2D | | 
+Figure 2D | fasting_effects.Rmd | figures/fasting-abs-weight.pdf
 Figure 2E | fasting_effects.Rmd | figures/refeeding-diet-pct.pdf
-Figure 2F | |
+Figure 2F | fasting_effects.Rmd | figures/refeeding-abs-weight.pdf
 Figure 4 | fasting_effects.Rmd | figures/gain-plot-pct.pdf
 Supplementary Figure 1A | NA | NA
 Supplementary Figure 1B | |

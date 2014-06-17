@@ -587,6 +587,96 @@ superpose.eb(plot,
 legend("top", levels(summary.means.cohort$Treatment), fill=fasting_palette, bty="n")
 ```
 
+Effects of Body Weight on Fasting Responses
+--------------------------------------------
+
+We next asked what the influence of body weight was on fasting induced weight loss and refeeding induced weight gain.
+
+### Absolute Fasting Induced Weight Loss
+
+We tested whether there was a correlation between the body weight and absolue weight loss irrespective of diet.  The weight loss globally did not fit a normal distribution (Shapiro-Wilk test p=`r shapiro.test(weight.data$Loss)$p.value`).  For absolute weight loss, the Spearman's correlation coefficient was `r with(weight.data, cor.test(Loss,fed,method="spearman"))$estimate` the Rho2 was `r with(weight.data, cor.test(Loss,fed,method="spearman"))$estimate^2` with a p-value of `r with(weight.data, cor.test(Loss,fed))$p.value`. **So there was no global correlation between absolute weight loss and body weight**.
+
+```{r fasting-abs-weight, echo=FALSE, dev=c('pdf','png')}
+require(ggplot2, quietly=T)
+loss.scatter <- ggplot(weight.data, aes(fed,Loss))
+loss.scatter + geom_point(aes(col=Treatment)) + geom_smooth(aes(col=Treatment), method="lm", se=F) + xlab("Fed Weight (g)") + ylab("Fasting Induced Weight Loss (g)")
+```
+
+### Relative Fasting Induced Weight Loss
+
+We tested whether there was a correlation between the body weight and absolue weight loss irrespective of diet.  The weight loss globally did not fit a normal distribution (Shapiro-Wilk test p=`r shapiro.test(weight.data$Loss.pct)$p.value`).  For absolute weight loss, the Spearman's correlation coefficient was `r with(weight.data, cor.test(Loss.pct,fed,method="spearman"))$estimate` the Rho2 was `r with(weight.data, cor.test(Loss.pct,fed,method="spearman"))$estimate^2` with a p-value of `r with(weight.data, cor.test(Loss.pct,fed))$p.value`. **So there was a global trend that leaner mice tended to have a higher percent fasting responses.**
+
+```{r fasting-pct-weight, echo=FALSE, dev=c('pdf','png')}
+require(ggplot2, quietly=T)
+loss.scatter <- ggplot(weight.data, aes(fed,Loss.pct))
+loss.scatter + geom_point(aes(col=Treatment)) + geom_smooth(aes(col=Treatment), method="lm", se=F) + xlab("Fed Weight (g)") + ylab("Fasting Induced Weight Loss (%)")
+```
+
+Effects of Body Weight on Refeeding Induced Weight Gain
+--------------------------------------------------------
+
+### Absolute Re-Feeding Induced Weight Gain
+
+We tested whether there was a correlation between the body weight and absolue refeeding induced weight gain irrespective of diet.  The weight gain globally did not fit a normal distribution (Shapiro-Wilk test p=`r shapiro.test(weight.data$Gain)$p.value`).  For absolute weight gain, the Spearman's correlation coefficient was `r with(weight.data, cor.test(Gain,fed,method="spearman"))$estimate` the Rho2 was `r with(weight.data, cor.test(Gain,fed,method="spearman"))$estimate^2` with a p-value of `r with(weight.data, cor.test(Gain,fed))$p.value`. **So there was a global trend that leaner mice tended to have a higher absolute refeeding response.**
+
+```{r refeeding-abs-weight, echo=FALSE, dev=c('pdf','png'), warning=FALSE}
+require(ggplot2, quietly=T)
+loss.scatter <- ggplot(weight.data, aes(fed,Gain))
+loss.scatter + geom_point(aes(col=Treatment)) + geom_smooth(aes(col=Treatment), method="lm", se=F) + xlab("Fed Weight (g)") + ylab("Fasting Induced Weight Gain (g)")
+```
+
+### Relative  Re-Feeding Induced Weight Gain
+
+We tested whether there was a correlation between the body weight and relative weight gain irrespective of diet.  The weight loss globally did not fit a normal distribution (Shapiro-Wilk test p=`r shapiro.test(weight.data$Gain.pct)$p.value`).  For relative weight gain, the Spearman's correlation coefficient was `r with(weight.data, cor.test(Gain.pct,fed,method="spearman"))$estimate` the Rho2 was `r with(weight.data, cor.test(Gain.pct,fed,method="spearman"))$estimate^2` with a p-value of `r with(weight.data, cor.test(Gain.pct,fed))$p.value`. **So there was a global trend that leaner mice tended to have a higher percent weight gain.**
+
+```{r refeeding-pct-weight, echo=FALSE, dev=c('pdf','png'), warning=FALSE}
+require(ggplot2, quietly=T)
+loss.scatter <- ggplot(weight.data, aes(fed,Gain.pct))
+loss.scatter + geom_point(aes(col=Treatment)) + geom_smooth(aes(col=Treatment), method="lm", se=F) + xlab("Fed Weight (g)") + ylab("Re-Feeding Induced Weight Gain (%)")
+```
+
+Effects of Diet on Correlation Between Weight Loss/Gain and Body Weights
+--------------------------------------------------------------------------
+
+```{r weight-diet-fasting-correlations, echo=FALSE, results='asis', warning=FALSE}
+weight.correlation.table <- data.frame(row.names=levels(weight.data$Treatment),
+                                            Gain.R = rep(NA, 3),
+                                            Gain.R2 = rep(NA,3),
+                                            Gain.p = rep(NA,3),
+                                            Loss.R = rep(NA,3),
+                                            Loss.R2 = rep(NA,3),
+                                            Loss.p = rep(NA,3))
+
+for (diet in levels(weight.data$Treatment)){
+  weight.correlation.table[diet,'Gain.R'] <- with(subset(weight.data, Treatment==diet), (cor.test(Gain, fasted, method='spearman')$estimate))
+  weight.correlation.table[diet,'Gain.R2'] <- with(subset(weight.data, Treatment==diet), (cor.test(Gain, fasted, method='spearman')$estimate^2))
+  weight.correlation.table[diet,'Gain.p'] <- with(subset(weight.data, Treatment==diet), (cor.test(Gain, fasted, method='spearman')$p.value))
+  weight.correlation.table[diet,'Loss.R'] <- with(subset(weight.data, Treatment==diet), (cor.test(Loss, fed, method='spearman')$estimate))
+  weight.correlation.table[diet,'Loss.R2'] <- with(subset(weight.data, Treatment==diet), (cor.test(Loss, fed, method='spearman')$estimate^2))
+  weight.correlation.table[diet,'Loss.p'] <- with(subset(weight.data, Treatment==diet), (cor.test(Loss, fed, method='spearman')$p.value))
+}
+
+
+weight.correlation.table.pct <- data.frame(row.names=levels(weight.data$Treatment),
+                                            Gain.R = rep(NA, 3),
+                                            Gain.R2 = rep(NA,3),
+                                            Gain.p = rep(NA,3),
+                                            Loss.R = rep(NA,3),
+                                            Loss.R2 = rep(NA,3),
+                                            Loss.p = rep(NA,3))
+
+for (diet in levels(weight.data$Treatment)){
+  weight.correlation.table.pct[diet,'Gain.R'] <- with(subset(weight.data, Treatment==diet), (cor.test(Gain.pct, fasted, method='spearman')$estimate))
+  weight.correlation.table.pct[diet,'Gain.R2'] <- with(subset(weight.data, Treatment==diet), (cor.test(Gain.pct, fasted, method='spearman')$estimate^2))
+  weight.correlation.table.pct[diet,'Gain.p'] <- with(subset(weight.data, Treatment==diet), (cor.test(Gain.pct, fasted, method='spearman')$p.value))
+  weight.correlation.table.pct[diet,'Loss.R'] <- with(subset(weight.data, Treatment==diet), (cor.test(Loss.pct, fed, method='spearman')$estimate))
+  weight.correlation.table.pct[diet,'Loss.R2'] <- with(subset(weight.data, Treatment==diet), (cor.test(Loss.pct, fed, method='spearman')$estimate^2))
+  weight.correlation.table.pct[diet,'Loss.p'] <- with(subset(weight.data, Treatment==diet), (cor.test(Loss.pct, fed, method='spearman')$p.value))
+}
+print(xtable(weight.correlation.table, caption="Spearman's Correlation statistics for effects of body weight on absolute weight gain and loss", lab="tab:correlation-table",digits=c(0,3,3,8,3,3,10)), type="html")
+print(xtable(weight.correlation.table.pct, caption="Spearman's Correlation statistics for effects of body weight on relative weight gain and loss", lab="tab:correlation-table-pct",digits=c(0,3,3,8,3,3,10)), type="html")
+```
+
 Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
 --------------------------------------------------------------------
 
