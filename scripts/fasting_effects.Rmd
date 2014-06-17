@@ -399,7 +399,9 @@ loss.anova <- aov(Loss~Treatment, data=weight.data)
 loss.pct.anova <- aov(Loss.pct~Treatment, data=weight.data)
 loss.pct.kw <- kruskal.test(Loss.pct~Treatment, data=weight.data)
 gain.anova <- aov(Gain~Treatment, data=weight.data)
+gain.kw <- kruskal.test(Gain~Treatment, data=weight.data)
 gain.pct.anova <-  aov(Gain.pct~Treatment, data=weight.data)
+gain.pct.kw <- kruskal.test(Gain.pct~Treatment, data=weight.data)
 ```
 
 ### Absolute Weight Loss
@@ -503,6 +505,50 @@ superpose.eb(plot,
              summary.se.cohort$Loss.pct)
 
 legend("top", levels(summary.means.cohort$Treatment), fill=fasting_palette, bty="n")
+```
+
+### Weight Gain During Refeeding Phase
+
+#### Absolute Weight Gain 
+
+We checked based on the ANOVA analysis whether the residuals were equally distributed.  For absolute weight loss, the p-value from the Shapiro-Wilk test was `r shapiro.test(residuals(gain.anova))$p.value` so therefore an ANOVA was **not** appropriate.  The p-value for the Kruskal-Wallis test was `r gain.kw$p.value`.  Pairwise Wilcoxon tests are shown below:
+
+```{r wilcox-gain-abs, warning=FALSE, echo=FALSE}
+pairwise.wilcox.test(weight.data$Gain,weight.data$Treatment, method="BH")
+```
+
+```{r refeeding-diet-abs, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means$Gain + summary.se$Gain)
+plot <- barplot(summary.means$Gain,
+                ylab = "Re-Feeding Induced Change in Body Weight (g)",
+                beside=T,las=1,col=fasting_palette,
+                names.arg = summary.means$Treatment,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means$Gain, 
+             summary.se$Gain)
+```
+
+#### Relative Weight Gain 
+
+We checked based on the ANOVA analysis whether the residuals were equally distributed.  For absolute weight loss, the p-value from the Shapiro-Wilk test was `r shapiro.test(residuals(gain.pct.anova))$p.value` so therefore an ANOVA was **not** appropriate.  The p-value for the Kruskal-Wallis test was `r gain.pct.kw$p.value`.  Pairwise Wilcoxon tests are shown below:
+
+```{r wilcox-gain-pct, warning=FALSE, echo=FALSE}
+pairwise.wilcox.test(weight.data$Gain.pct,weight.data$Treatment, method="BH")
+```
+
+```{r refeeding-diet-pct, dev=c('png','pdf'), echo=FALSE}
+max <- max(summary.means$Gain.pct + summary.se$Gain.pct)
+plot <- barplot(summary.means$Gain.pct,
+                ylab = "Re-Feeding Induced Change in Body Weight (% Change)",
+                beside=T,las=1,col=fasting_palette,
+                names.arg = summary.means$Treatment,
+                ylim = c(0,max))
+
+superpose.eb(plot, 
+             summary.means$Gain.pct, 
+             summary.se$Gain.pct)
 ```
 
 Comparason of Fasting Induced Weight Loss to Eventual Weight Gain
