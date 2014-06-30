@@ -12,6 +12,8 @@ This PredictorsDietInducedObesity data is made available under the Open Data Com
 </a>
 <!-- /Open Data Link -->
 
+[![DOI](https://zenodo.org/badge/3925/BridgesLab/PredictorsDietInducedObesity.png)](http://dx.doi.org/10.5281/zenodo.10706)
+
 
 
 Raw Data
