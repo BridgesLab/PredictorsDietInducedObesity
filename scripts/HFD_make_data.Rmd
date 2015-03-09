@@ -1,0 +1,197 @@
+---
+title: "HFD_data_pulling"
+author: "Quynh Tran"
+date: "February 3, 2015"
+output: html_document
+---
+
+This script is used to pull data from the http://bridgeslab.uthsc.edu/mousedb/ and make a .csv data set for analysis.
+
+
+```{r pulling data from the database, echo=FALSE}
+url.cohort8.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=8'
+
+library(rjson)
+library(RCurl)
+json.cohort8.group1 <- fromJSON(getURL(url.cohort8.group1))
+
+library(plyr)
+cohort8.data <- rbind(ldply(lapply(json.cohort8.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+
+date_after_fasting <- "2014-10-21"
+date_before_fasting <- "2014-10-20"
+date_12weeks_MRI <- "2015-01-16"
+
+date_of_interest <- c("2014-10-21", "2014-10-20", "2015-01-16")
+
+sub_cohort8.data <- cohort8.data[cohort8.data$experiment.date %in% date_of_interest,]
+#Rename the fasting stage based on the date
+sub_cohort8.data$Fasting_stat <- ifelse(sub_cohort8.data$experiment.date=="2014-10-20", "Pre_fasting",ifelse(sub_cohort8.data$experiment.date=="2014-10-21","After_fasting","After_HFD"))
+
+#import body composition data
+library(reshape2)
+cohort8_weight <-dcast(sub_cohort8.data, animal.MouseID+Fasting_stat~assay.assay, value.var='values')
+
+cohort8_weight$Lean <- as.numeric(cohort8_weight$'Lean Mass')/1000
+cohort8_weight$Fat <- as.numeric(cohort8_weight$'Total Fat Mass')/1000
+cohort8_weight$Weight <- as.numeric(cohort8_weight$'Body Weight')/1000
+#calculate percent body fat
+cohort8_weight$Percent.Fat <- cohort8_weight$Fat/cohort8_weight$Weight*100
+#make animal id a factor
+cohort8_weight$Subject <- as.factor(cohort8_weight$animal.MouseID)
+cohort8_weight$Fasting_stat <- as.factor(cohort8_weight$Fasting_stat)
+#set Pre_fasting as the reference level
+cohort8_weight$Fasting_stat <- relevel(as.factor(cohort8_weight$Fasting_stat), ref='Pre_fasting')
+
+#import CLAMS data
+filename <- '../data/raw/Oxymax export of 2014-10-17 10 week C57BL6J.csv'
+clams_data <- read.csv(filename)
+#remove commented data
+clams_data <- clams_data[clams_data$Event.Log=="",]
+#data$Subject <- as.factor(data$Subject)
+#mark which ones are actually in this experiment
+start_fasting_interval <- 128
+stop_fasting_interval <- 158
+interval_time <- 34
+#calculated elapsed time in hours
+clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
+clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
+subjects <- c(seq(1745,1763,1),seq(1765,1769,1))
+cohort8_clams <- clams_data[clams_data$Subject %in% subjects,]
+cohort8_clams$Subject <- as.factor(cohort8_clams$Subject)
+#determine dark/light cycles
+#calculate when the first dark cycle starts
+first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
+dark.cycles <- data.frame(
+  Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
+  Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
+  Day3 = c(Start=first.dark.cycle+48,End=first.dark.cycle+60),
+  Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
+  Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
+  Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
+  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),
+  Day8 = c(Start=first.dark.cycle+168,End=first.dark.cycle+180),
+  Day9 = c(Start=first.dark.cycle+192,End=first.dark.cycle+204),
+  Day10 = c(Start=first.dark.cycle+216,End=first.dark.cycle+228)  
+)
+write.csv(cohort8_clams, file="../data/processed/Cohort8_Oxymax.csv")
+
+#remove the clams data right after fasting period (from 10/22/2014 and beyond)
+sub_data <- sub_data[sub_data$Date.Time %in% c()]
+```
+
+The data are saved in `r filename`.  This script was most recently updated on `r date()` and is saved in `r getwd()`
+
+# Body Weight Analysis
+```{r body-weight}
+se <- function(x) sd(x)/sqrt(length(x))
+library(dplyr)
+body_weight_summary <-
+  cohort8_weight %>%
+  group_by(Fasting_stat) %>%
+  summarize(
+    Weight = mean(Weight),
+    Fat = mean(Fat),
+    Lean = mean(Lean),
+    Percent.Fat = mean(Percent.Fat))
+
+body_weight_err <-
+  cohort8_weight %>%
+  group_by(Fasting_stat) %>%
+  summarize(
+    Weight = se(Weight),
+    Fat = se(Fat),
+    Lean = se(Lean),
+    Percent.Fat = se(Percent.Fat))
+
+body_weight_shapiro <-
+  cohort8_weight %>%
+  group_by(Fasting_stat) %>%
+  summarize(
+    Weight = shapiro.test(Weight)$p.value,
+    Fat = shapiro.test(Fat)$p.value,
+    Lean = shapiro.test(Lean)$p.value,
+    Percent.Fat = shapiro.test(Percent.Fat)$p.value)
+
+body_weight_delta <-
+  cohort8_weight %>%
+  group_by(animal.MouseID) %>%
+  mutate(
+    Delta_weight=c(0,diff(Weight)))
+
+delta_weight<-body_weight_delta[body_weight_delta$Fasting_stat=="Pre_fasting",c(1,8,9,11)]
+
+library(car)
+body.weight.bartlett <- data.frame()
+body.weight.bartlett['Weight','pval'] <- bartlett.test(Weight~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.bartlett['Fat','pval'] <- bartlett.test(Fat~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.bartlett['Lean','pval'] <- bartlett.test(Lean~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.bartlett['Percent.Fat','pval'] <- bartlett.test(Percent.Fat~Fasting_stat, data=cohort8_weight)$p.value
+
+superpose.eb <- function (x, y, ebl, ebu = ebl, length = 0.08, ...)
+  arrows(x, y + ebu, x, y - ebl, angle = 90, code = 3,
+  length = length, ...)
+
+par(mfrow=c(2,2))
+ymax <- max(body_weight_summary$Weight + body_weight_err$Weight)
+plot <- barplot(as.numeric(body_weight_summary$Weight),
+                beside=T, las=1, main="Body Weight", ylim=c(0,ymax), col=c('blue','green','red'))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Weight),
+             as.numeric(body_weight_err$Weight))
+
+ymax <- max(body_weight_summary$Fat + body_weight_err$Fat)
+plot <- barplot(as.numeric(body_weight_summary$Fat),
+                beside=T, las=1, main="Total Fat Mass", ylim=c(0,ymax), col=c('blue','green','red'))
+
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Fat),
+             as.numeric(body_weight_err$Fat))
+
+ymax <- max(body_weight_summary$Lean + body_weight_err$Lean)
+plot <- barplot(as.numeric(body_weight_summary$Lean),
+                beside=T, las=1, main="Lean Mass", ylim=c(0,ymax), col=c('blue','green','red'), names.arg=c("Prefasting","AfterFasting","AfterHFD"))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Lean),
+             as.numeric(body_weight_err$Lean))
+
+ymax <- max(body_weight_summary$Percent.Fat + body_weight_err$Percent.Fat)
+plot <- barplot(as.numeric(body_weight_summary$Percent.Fat),
+                beside=T, las=1, main="Percent Fat Mass", ylim=c(0,ymax), col=c('blue','green','red'),names.arg=c("Prefasting","AfterFasting","AfterHFD"))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Percent.Fat),
+             as.numeric(body_weight_err$Percent.Fat))
+```
+## Body Weight Data Statistics
+
+Body weight, total fat mass, lean mass and percet fat mass were all normally distributed (Shapiro-Wilk test; p >`r min(as.matrix(body_weight_shapiro)[2:5])`).  The assumptions of equal variance were not met for each variable (Levene's test p  >`r  min( body.weight.bartlett$pval)`).  Based on this we performed anova with Welch correction on these measurements, as shown below:
+
+```{r body-weight-statistics, results='asis'}
+body.weight.oneway <- data.frame()
+body.weight.oneway['Weight','pval'] <- oneway.test(Weight~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.oneway['Fat','pval'] <- oneway.test(Fat~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.oneway['Lean','pval'] <- oneway.test(Lean~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.oneway['Percent.Fat','pval'] <- oneway.test(Percent.Fat~Fasting_stat, data=cohort8_weight)$p.value
+body.weight.oneway$padj <- p.adjust(body.weight.oneway$pval, method="BH")
+library(xtable)
+print(xtable(body.weight.oneway, caption="Oneway ANOVA with Welch correction for effects of Fasting and HFD on Body Composition.  P-values are adjusted by the method of Benjamini and Hochberg", digits=8))
+```
+```{r body-weight-TUKEYHSD, echo=FALSE}
+body.weight.tukey <- data.frame()
+body.weight.tukey <- TukeyHSD(aov(Weight~Fasting_stat, data=cohort8_weight))$Fasting_stat
+print(xtable(body.weight.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Body Weight", digits=8))
+body.fat.tukey <- TukeyHSD(aov(Fat~Fasting_stat, data=cohort8_weight))$Fasting_stat
+print(xtable(body.fat.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Body Fat", digits=8))
+body.lean.tukey<- TukeyHSD(aov(Lean~Fasting_stat, data=cohort8_weight))$Fasting_stat
+print(xtable(body.lean.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Lean Mass", digits=8))
+percent.fat.tukey<- TukeyHSD(aov(Percent.Fat~Fasting_stat, data=cohort8_weight))$Fasting_stat
+print(xtable(percent.fat.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Percent Fat", digits=8))
+
+```
+
+# VO2 Data
+
+```{r vo2-raw-data}
+#merge in echomri data
+annotated_clams_data <- merge(cohort8_weight, cohort8_clams, by='Subject')
+annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
