@@ -1,0 +1,74 @@
+---
+title: "HFD_make_evaluation_data"
+author: "Quynh Tran"
+date: "March 27, 2015"
+output: html_document
+---
+```{r pulling data from the database, echo=FALSE}
+url.cohort9 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
+
+library(rjson)
+library(RCurl)
+json.cohort9 <- fromJSON(getURL(url.cohort9))
+
+library(plyr)
+cohort9.data <- rbind(ldply(lapply(json.cohort9[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+
+date_after_fasting <- "2014-12-02"
+date_before_fasting <- "2014-12-01"
+date_12weeks_MRI <- "2015-02-24"
+
+date_of_interest <- c("2014-12-01", "2014-12-02", "2015-02-24")
+
+sub_cohort9.data <- cohort9.data[cohort9.data$experiment.date %in% date_of_interest,]
+#Rename the fasting stage based on the date
+sub_cohort9.data$Fasting_stat <- ifelse(sub_cohort9.data$experiment.date=="2014-12-01", "Pre_fasting",ifelse(sub_cohort9.data$experiment.date=="2014-12-02","After_fasting","After_HFD"))
+
+#import body composition data
+library(reshape2)
+cohort9_weight <-dcast(sub_cohort9.data, animal.MouseID+Fasting_stat~assay.assay, value.var='values')
+
+cohort9_weight$Lean <- as.numeric(cohort9_weight$'Lean Mass')/1000
+cohort9_weight$Fat <- as.numeric(cohort9_weight$'Total Fat Mass')/1000
+cohort9_weight$Weight <- as.numeric(cohort9_weight$'Body Weight')/1000
+#calculate percent body fat
+cohort9_weight$Percent.Fat <- cohort9_weight$Fat/cohort9_weight$Weight*100
+#make animal id a factor
+cohort9_weight$Subject <- as.factor(cohort9_weight$animal.MouseID)
+cohort9_weight$Fasting_stat <- as.factor(cohort9_weight$Fasting_stat)
+#set Pre_fasting as the reference level
+cohort9_weight$Fasting_stat <- relevel(as.factor(cohort9_weight$Fasting_stat), ref='Pre_fasting')
+
+#import CLAMS data
+filename <- '../data/raw/Oxymax export of 2014-10-17 10 week C57BL6J.csv'
+clams_data <- read.csv(filename)
+#remove commented data
+clams_data <- clams_data[clams_data$Event.Log=="",]
+#data$Subject <- as.factor(data$Subject)
+#mark which ones are actually in this experiment
+start_fasting_interval <- 128
+stop_fasting_interval <- 158
+interval_time <- 34
+#calculated elapsed time in hours
+clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
+clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
+subjects <- c(seq(1745,1763,1),seq(1765,1769,1))
+cohort9_clams <- clams_data[clams_data$Subject %in% subjects,]
+cohort9_clams$Subject <- as.factor(cohort9_clams$Subject)
+#determine dark/light cycles
+#calculate when the first dark cycle starts
+first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
+dark.cycles <- data.frame(
+  Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
+  Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
+  Day3 = c(Start=first.dark.cycle+48,End=first.dark.cycle+60),
+  Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
+  Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
+  Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
+  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),
+  Day8 = c(Start=first.dark.cycle+168,End=first.dark.cycle+180),
+  Day9 = c(Start=first.dark.cycle+192,End=first.dark.cycle+204),
+  Day10 = c(Start=first.dark.cycle+216,End=first.dark.cycle+228)  
+)
+write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
+```
