@@ -76,8 +76,6 @@ dark.cycles <- data.frame(
 )
 write.csv(cohort8_clams, file="../data/processed/Cohort8_Oxymax.csv")
 
-#remove the clams data right after fasting period (from 10/22/2014 and beyond)
-#sub_data <- sub_data[sub_data$Date.Time %in% c()]
 ```
 
 The data are saved in `r filename`.  This script was most recently updated on `r date()` and is saved in `r getwd()`
@@ -193,9 +191,11 @@ print(xtable(percent.fat.tukey, caption="Tukey HSD for pairwise comparisons amon
 # VO2 Data
 
 ```{r vo2-raw-data}
-#merge in echomri data
+#merge the weight and clasm data
 annotated_clams_data <- merge(cohort8_weight, cohort8_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
+
+write.csv(cohort8_clams, file="../data/processed/training_data.csv")
 
 ```
 
@@ -204,8 +204,12 @@ library(randomForest)
 library(miscTools)
 library(ggplot2)
 library(reshape2)
+library(caret)
 
 cohort8_weight_wide <- dcast(cohort8_weight, Subject~Fasting_stat,value.var="Weight")
+#calculate the weight loss percentage
+cohort8_weight_wide$diff <- as.numeric((cohort8_weight_wide$Pre_fasting - cohort8_weight_wide$After_fasting)/cohort8_weight_wide$Pre_fasting*100)
+
 start_fasting_interval <- 128
 stop_fasting_interval <- 158
 
@@ -217,26 +221,27 @@ merge_data$VO2 <- ifelse(merge_data$Interval<158,merge_data$Volume.O2*merge_data
 merge_data$Fast <- ifelse(merge_data$Interval<128,"Bf_fasting",ifelse(merge_data$Interval>=158, "After_fasting", "During_fasting"))
 merge_data$diff <- as.numeric((merge_data$Pre_fasting-merge_data$After_fasting)/merge_data$Pre_fasting*100)
 
+
 ggplot(cohort8_weight, aes(x=Fasting_stat, y=Weight, colour=Subject)) + geom_point()
 
-#pearsonR<-cor(as.numeric(cohort8_weight_wide$After_HFD), as.numeric(cohort8_weight_wide$diff))
-#pearsonR<- format(pearsonR,digits=3)
+pearsonR<-cor(as.numeric(cohort8_weight_wide$After_HFD), as.numeric(cohort8_weight_wide$diff))
+pearsonR<- format(pearsonR,digits=3)
 
 ggplot(cohort8_weight_wide, aes(x=After_HFD, y=diff)) +
     geom_point(shape=1) +    # Use hollow circles
     geom_smooth(method=lm, se=FALSE)+  # Add linear regression line
-                
   xlab("Weight after HFD (g)")+
   ylab("Percentage weight loss (%)")+
-  geom_text(aes(x = 35, y = 10, label = "Pearson R = 0.0697", parse = TRUE))
-```
-######Random Forest#######
-cols <- c('Subject', 'Pre_fasting','After_fasting', 'VO2', 'RER', 'Light.Dark', 'SumXYAmb', 'Fast', 'After_HFD')
+  geom_text(aes(x = 35, y = 10, label = paste("Pearson R = ", pearsonR), parse = TRUE))
 
+######Random Forest#######
+cols <- c('Subject','diff','Pre_fasting','After_fasting', 'VO2', 'RER', 'Light.Dark', 'SumXYAmb', 'After_HFD')
+
+merge_data$Fast <- as.factor(merge_data$Fast)
 model_dat1<-merge_data[,cols]
 
 #model_data <-as.data.frame()
-model_data<-
+m_data<-
   model_dat1 %>%
   group_by(Subject, Light.Dark, Fast) %>%
   summarise(
@@ -246,22 +251,40 @@ model_data<-
     SumXYAmb = mean(SumXYAmb),
     After_HFD=mean(After_HFD), 
     VO2 = mean(VO2))
-model_data<-as.data.frame(model_data)
+m_data<-as.data.frame(m_data)
+model_data <- m_data[m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
 
+model_data_dark <- model_data[model_data$Light.Dark=="Dark",]
+model_data_light <- model_data[model_data$Light.Dark=="Light",]
+
+#make the data into wide format
+cohort8_weight_wide <- dcast(cohort8_weight, Subject~Fasting_stat,value.var="Weight")
+model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", v.names=c("RER", "VO2", "SumXYAmb"))
+
+predictors <- c('Subject','Pre_fasting','After_fasting', 'RER.After_fasting', 'RER.Bf_fasting',  'VO2.After_fasting','VO2.Bf_fasting',
+                'SumXYAmb.After_fasting', 'SumXYAmb.Bf_fasting', "After_HFD")
 
 #partition the data
-idx <- createDataPartition(y=model_data$After_HFD, p=0.75, list=FALSE )
-training <- model_data[idx,]
-testing <- model_data[-idx,]
-rf <- randomForest(After_HFD ~., data=training, ntree=200)
+idx <- createDataPartition(y=model_data_dark_wide$After_HFD, p=0.75, list=FALSE )
+training <- model_data_dark_wide[idx,]
+testing <- model_data_dark_wide[-idx,]
+set.seed(300)
+#making the tuning grid
+grid_rf <- expand.grid(.mtry=c(2,4,8))
 
-r2 <- rSquared(testing$After_HFD, testing$After_HFD - predict(rf, testing[,cols]))
+m_rf <- train(After_HFD~., data=training[,predictors], method="rf", metric="Rsquared", tuneGrid=grid_rf)
 
-mse <- mean((testing$After_HFD - predict(rf, testing[,cols]))^2)
+rf <- randomForest(After_HFD~., data=training[,predictors], ntree=500, mtry=4)
+
+r2 <- rSquared(testing$After_HFD, testing$After_HFD - predict(rf, testing[,predictors]))
+
+mse <- mean((testing$After_HFD - predict(rf, testing[,predictors]))^2)
 
 p <- ggplot(aes(x=actual, y=pred),
-  data=data.frame(actual=testing$After_HFD, pred=predict(rf, testing[,cols])))
+  data=data.frame(actual=testing$After_HFD, pred=predict(rf, testing[,predictors])))
 p + geom_point() +
   geom_abline(color="red") +
   ggtitle(paste("RandomForest Regression in R r^2=", r2, sep=""))
 ```
+
+We used random forest to predict the mice weights after HFD. The predictors are Subject, Prefasting weight, After_fasting weight, VO2, RER, Light.Dark, Sum of X and Y ambulatories, and the Fasting status. 
