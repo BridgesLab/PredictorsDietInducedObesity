@@ -83,6 +83,7 @@ The data are saved in `r filename`.  This script was most recently updated on `r
 # Body Weight Analysis
 ```{r body-weight, echo=FALSE}
 se <- function(x) sd(x)/sqrt(length(x))
+library(ggplot2)
 library(dplyr)
 body_weight_summary <-
   cohort8_weight %>%
@@ -159,6 +160,10 @@ plot <- barplot(as.numeric(body_weight_summary$Percent.Fat),
 superpose.eb(plot,
              as.numeric(body_weight_summary$Percent.Fat),
              as.numeric(body_weight_err$Percent.Fat))
+
+ggplot(cohort8_weight, aes(x=Fasting_stat, y=Weight, group=Subject, colour=Subject)) + geom_point()+geom_line()+
+  xlab("Fasting status")+
+  ylab("Weight (g)")
 ```
 ## Body Weight Data Statistics
 
@@ -190,52 +195,102 @@ print(xtable(percent.fat.tukey, caption="Tukey HSD for pairwise comparisons amon
 
 # VO2 Data
 
-```{r vo2-raw-data}
+```{r vo2-raw-data, echo=FALSE}
 #merge the weight and clasm data
 annotated_clams_data <- merge(cohort8_weight, cohort8_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
 
-write.csv(cohort8_clams, file="../data/processed/training_data.csv")
+write.csv(cohort8_clams, file="../data/processed/clams_training_data.csv")
 
 ```
 
-````{r Using_random_forest, echo=FALSE}
+
+````{r correlation_matrix, echo=FALSE}
+
 library(randomForest)
 library(miscTools)
 library(ggplot2)
 library(reshape2)
 library(caret)
 
-cohort8_weight_wide <- dcast(cohort8_weight, Subject~Fasting_stat,value.var="Weight")
+sub_cohort8_weight <- cohort8_weight[, c(2, 6:10)]
+cohort8_weight_wide <- reshape(sub_cohort8_weight, idvar="Subject", timevar="Fasting_stat", 
+                               v.names=c("Lean","Fat","Weight","Percent.Fat"), direction="wide")
 #calculate the weight loss percentage
-cohort8_weight_wide$diff <- as.numeric((cohort8_weight_wide$Pre_fasting - cohort8_weight_wide$After_fasting)/cohort8_weight_wide$Pre_fasting*100)
+cohort8_weight_wide$Percent.WL <- as.numeric((cohort8_weight_wide$Weight.Pre_fasting - cohort8_weight_wide$Weight.After_fasting)/cohort8_weight_wide$Weight.Pre_fasting*100)
+cohort8_weight_wide$Percent.WG <- as.numeric((cohort8_weight_wide$Weight.After_HFD - cohort8_weight_wide$Weight.After_fasting)/cohort8_weight_wide$Weight.After_fasting*100)
+cohort8_weight_wide$Percent.LL <- as.numeric((cohort8_weight_wide$Lean.Pre_fasting - cohort8_weight_wide$Lean.After_fasting)/cohort8_weight_wide$Lean.Pre_fasting*100)
+cohort8_weight_wide$Percent.LG <- as.numeric((cohort8_weight_wide$Lean.After_HFD - cohort8_weight_wide$Lean.After_fasting)/cohort8_weight_wide$Lean.After_fasting*100)
+cohort8_weight_wide$Percent.FL <- as.numeric((cohort8_weight_wide$Percent.Fat.Pre_fasting - cohort8_weight_wide$Percent.Fat.After_fasting))
+cohort8_weight_wide$Percent.FG <- as.numeric((cohort8_weight_wide$Percent.Fat.After_HFD - cohort8_weight_wide$Percent.Fat.After_fasting))
 
+#save the body composition data
+write.csv(cohort8_weight, file="../data/processed/body_compostition_training_data.csv")
+
+
+panel.cor <- function(x, y, digits=2, cex.cor)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(0, 1, 0, 1))
+  r <- abs(cor(x, y))
+  txt <- format(c(r, 0.123456789), digits=digits)[1]
+  test <- cor.test(x,y)
+  Signif <- ifelse(round(test$p.value,3)<0.001,"p<0.001",paste("p=",round(test$p.value,3)))  
+  text(0.5, 0.25, paste("r=",txt))
+  text(.5, .75, Signif)
+}
+
+panel.smooth<-function (x, y, col = "blue", bg = NA, pch = 18, 
+                        cex = 0.8, col.smooth = "red", span = 2/3, iter = 3, ...) 
+{
+  points(x, y, pch = pch, col = col, bg = bg, cex = cex)
+  ok <- is.finite(x) & is.finite(y)
+  if (any(ok)) 
+    lines(stats::lowess(x[ok], y[ok], f = span, iter = iter), 
+          col = col.smooth, ...)
+}
+
+panel.hist <- function(x, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(usr[1:2], 0, 1.5) )
+  h <- hist(x, plot = FALSE)
+  breaks <- h$breaks; nB <- length(breaks)
+  y <- h$counts; y <- y/max(y)
+  rect(breaks[-nB], 0, breaks[-1], y, col="cyan", ...)
+}
+
+pairs(cohort8_weight_wide[,c(14:19)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist)
+
+```
+
+
+````{r Using_random_forest, echo=FALSE}
 start_fasting_interval <- 128
 stop_fasting_interval <- 158
 
-merge_data <- merge(cohort8_weight_wide, cohort8_clams, by='Subject')
+merge_data <- merge(cohort8_weight_wide, annotated_clams_data[,c(1, 11:39)], by='Subject')
 merge_data$SumXYAmb <- merge_data$X.Ambulatory+merge_data$Y.Ambulatory
 
 ##Calculate the VO2. Before and during fasting, i.e. interval <158, use the Pre_fasting weight to calculate the VO2. After fasting, VO2 will be calculated using the After_fasting weight##
-merge_data$VO2 <- ifelse(merge_data$Interval<158,merge_data$Volume.O2*merge_data$Pre_fasting/1000, merge_data$Volume.O2*merge_data$After_fasting/1000)
-merge_data$Fast <- ifelse(merge_data$Interval<128,"Bf_fasting",ifelse(merge_data$Interval>=158, "After_fasting", "During_fasting"))
-merge_data$diff <- as.numeric((merge_data$Pre_fasting-merge_data$After_fasting)/merge_data$Pre_fasting*100)
+merge_data$VO2.LBM <- ifelse(merge_data$Interval<stop_fasting_interval,merge_data$VO2/merge_data$Lean.Pre_fasting, merge_data$VO2/merge_data$Lean.After_fasting)
 
+merge_data$Fast <- ifelse(merge_data$Interval<start_fasting_interval,"Bf_fasting",ifelse(merge_data$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
 
-ggplot(cohort8_weight, aes(x=Fasting_stat, y=Weight, colour=Subject)) + geom_point()
+variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", 
+               "Percent.FG")
 
-pearsonR<-cor(as.numeric(cohort8_weight_wide$After_HFD), as.numeric(cohort8_weight_wide$diff))
-pearsonR<- format(pearsonR,digits=3)
+pairs(merge_data[merge_data$Light.Dark=="Light", c(15, 33, 49, 50)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+          main="LIGHT")
 
-ggplot(cohort8_weight_wide, aes(x=After_HFD, y=diff)) +
-    geom_point(shape=1) +    # Use hollow circles
-    geom_smooth(method=lm, se=FALSE)+  # Add linear regression line
-  xlab("Weight after HFD (g)")+
-  ylab("Percentage weight loss (%)")+
-  geom_text(aes(x = 35, y = 10, label = paste("Pearson R = ", pearsonR), parse = TRUE))
-
+pairs(merge_data[merge_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+        main="DARK")
 ######Random Forest#######
-cols <- c('Subject','diff','Pre_fasting','After_fasting', 'VO2', 'RER', 'Light.Dark', 'SumXYAmb', 'After_HFD')
+cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL','Percent.LG', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', 
+          "Percent.FL", "Percent.FG")
 
 merge_data$Fast <- as.factor(merge_data$Fast)
 model_dat1<-merge_data[,cols]
@@ -245,43 +300,94 @@ m_data<-
   model_dat1 %>%
   group_by(Subject, Light.Dark, Fast) %>%
   summarise(
-    Pre_fasting = mean(Pre_fasting),
-    After_fasting = mean(After_fasting),
+    Avg.Percent.LL = mean(Percent.LL),
+    Avg.Percent.LG = mean(Percent.LG),
+    Avg.Percent.FL = mean(Percent.FL),
+    Avg.Percent.FG = mean(Percent.FG),
     RER = mean(RER),
     SumXYAmb = mean(SumXYAmb),
-    After_HFD=mean(After_HFD), 
-    VO2 = mean(VO2))
+    VO2.LBM = mean(VO2.LBM),
+    Percent.WG=mean(Percent.WG))
 m_data<-as.data.frame(m_data)
 model_data <- m_data[m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
+
+#model_data_wide <- reshape(model_data, timevar="Fast", idvar="Subject", direction="wide", 
+ #                               v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
 
 model_data_dark <- model_data[model_data$Light.Dark=="Dark",]
 model_data_light <- model_data[model_data$Light.Dark=="Light",]
 
 #make the data into wide format
-cohort8_weight_wide <- dcast(cohort8_weight, Subject~Fasting_stat,value.var="Weight")
-model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", v.names=c("RER", "VO2", "SumXYAmb"))
+model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", 
+                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+#calculate the difference in VO2 and RER bf and after fasting
+#model_data_dark_wide$VO2.diff <-model_data_dark_wide$VO2.Bf_fasting - model_data_dark_wide$VO2.After_fasting
+#model_data_dark_wide$RER.diff <- model_data_dark_wide$RER.Bf_fasting - model_data_dark_wide$RER.After_fasting
+#model_data_dark_wide$Amb.diff <- model_data_dark_wide$SumXYAmb.Bf_fasting - model_data_dark_wide$SumXYAmb.After_fasting  
 
-predictors <- c('Subject','Pre_fasting','After_fasting', 'RER.After_fasting', 'RER.Bf_fasting',  'VO2.After_fasting','VO2.Bf_fasting',
-                'SumXYAmb.After_fasting', 'SumXYAmb.Bf_fasting', "After_HFD")
+model_data_light_wide <- reshape(model_data_light, timevar="Fast", idvar="Subject", direction="wide", 
+                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+merge_LD <- merge(model_data_light_wide, model_data_dark_wide[,c(1,8:13)],by="Subject")
+#calculate the difference in VO2 and RER bf and after fasting
+#model_data_light_wide$VO2.diff <-model_data_light_wide$VO2.Bf_fasting - model_data_light_wide$VO2.After_fasting
+#model_data_light_wide$RER.diff <- model_data_light_wide$RER.Bf_fasting - model_data_light_wide$RER.After_fasting
+#model_data_light_wide$Amb.diff <- model_data_light_wide$SumXYAmb.Bf_fasting - model_data_light_wide$SumXYAmb.After_fasting
+#list of predictors
+#x = Light, y=Dark
+predictors <- c('Subject', 'Avg.Percent.LG', 
+                'Avg.Percent.FL', 'Avg.Percent.FG',
+                 'VO2.LBM.Bf_fasting.x',
+                'VO2.LBM.After_fasting.y', 
+                'RER.After_fasting.x',  
+                 'RER.Bf_fasting.y',
+                'SumXYAmb.After_fasting.x', 
+                'SumXYAmb.Bf_fasting.y',
+                'Percent.WG')
+predictors1 <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG', 
+                'Avg.Percent.FL', 'Avg.Percent.FG',
+                'VO2.LBM.After_fasting.x', 'VO2.LBM.Bf_fasting.x',
+                'VO2.LBM.After_fasting.y', 'VO2.LBM.Bf_fasting.y',
+                'RER.After_fasting.x',  'RER.Bf_fasting.x',
+                 'RER.Bf_fasting.y','RER.Bf_fasting.y',
+                'SumXYAmb.After_fasting.x', 'SumXYAmb.Bf_fasting.x',
+                'SumXYAmb.Bf_fasting.y','SumXYAmb.Bf_fasting.y')
 
+predictors_dark <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG', 
+                'VO2.Bf_fasting', 
+                'RER.After_fasting',  
+                'SumXYAmb.Bf_fasting',
+                'Percent.WG')
+predictors_light <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG', 
+                'VO2.diff', 
+                'RER.diff',  
+                'SumXYAmb.Bf_fasting',
+                'Percent.WG')
 #partition the data
-idx <- createDataPartition(y=model_data_dark_wide$After_HFD, p=0.75, list=FALSE )
-training <- model_data_dark_wide[idx,]
-testing <- model_data_dark_wide[-idx,]
+idx <- createDataPartition(y=merge_LD$Percent.WG, p=0.75, list=FALSE )
+training <- merge_LD[idx,]
+testing <- merge_LD[-idx,]
 set.seed(300)
+#cross validation
+
+tst <- rfcv(merge_LD[, predictors1], merge_LD$Percent.WG, scale="log", step=0.5, cv.fold=3, recursive=T)
+pairs(tst$n.var, tst$error.cv)
+
 #making the tuning grid
-grid_rf <- expand.grid(.mtry=c(2,4,8))
+grid_rf <- expand.grid(.mtry=c(2,4, 8))
 
-m_rf <- train(After_HFD~., data=training[,predictors], method="rf", metric="Rsquared", tuneGrid=grid_rf)
+m_rf <- train(Percent.WG~., data=training[,predictors], method="rf", metric="Rsquared", tuneGrid=grid_rf)
 
-rf <- randomForest(After_HFD~., data=training[,predictors], ntree=500, mtry=4)
 
-r2 <- rSquared(testing$After_HFD, testing$After_HFD - predict(rf, testing[,predictors]))
+rf <- randomForest(Percent.WG~., data=training[,predictors], ntree=500, mtry=8)
 
-mse <- mean((testing$After_HFD - predict(rf, testing[,predictors]))^2)
+#look at the importance of the predictors, higer value means more importance
+round(importance(rf),2)
+r2 <- rSquared(testing$Percent.WG, testing$Percent.WG - predict(rf, testing[,predictors]))
+
+mse <- mean((testing$Percent.WG - predict(rf, testing[,predictors]))^2)
 
 p <- ggplot(aes(x=actual, y=pred),
-  data=data.frame(actual=testing$After_HFD, pred=predict(rf, testing[,predictors])))
+  data=data.frame(actual=testing$Percent.WG, pred=predict(rf, testing[,predictors])))
 p + geom_point() +
   geom_abline(color="red") +
   ggtitle(paste("RandomForest Regression in R r^2=", r2, sep=""))
