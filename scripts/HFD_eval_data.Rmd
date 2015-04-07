@@ -40,19 +40,19 @@ cohort9_weight$Fasting_stat <- as.factor(cohort9_weight$Fasting_stat)
 cohort9_weight$Fasting_stat <- relevel(as.factor(cohort9_weight$Fasting_stat), ref='Pre_fasting')
 
 #import CLAMS data
-filename <- '../data/raw/Oxymax export of 2014-10-17 10 week C57BL6J.csv'
+filename <- '../data/raw/Oxymax-2014-11-26.csv'
 clams_data <- read.csv(filename)
 #remove commented data
 clams_data <- clams_data[clams_data$Event.Log=="",]
 #data$Subject <- as.factor(data$Subject)
 #mark which ones are actually in this experiment
-start_fasting_interval <- 128
-stop_fasting_interval <- 158
-interval_time <- 34
+start_fasting_interval <- 229
+stop_fasting_interval <- 261
+interval_time <- 32
 #calculated elapsed time in hours
 clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
 clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
-subjects <- c(seq(1745,1763,1),seq(1765,1769,1))
+subjects <- c(seq(2098,2119,1),2128)
 cohort9_clams <- clams_data[clams_data$Subject %in% subjects,]
 cohort9_clams$Subject <- as.factor(cohort9_clams$Subject)
 #determine dark/light cycles
@@ -65,10 +65,7 @@ dark.cycles <- data.frame(
   Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
   Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
   Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
-  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),
-  Day8 = c(Start=first.dark.cycle+168,End=first.dark.cycle+180),
-  Day9 = c(Start=first.dark.cycle+192,End=first.dark.cycle+204),
-  Day10 = c(Start=first.dark.cycle+216,End=first.dark.cycle+228)  
+  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),  
 )
 write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
 ```
