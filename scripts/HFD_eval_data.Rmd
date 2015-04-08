@@ -13,16 +13,21 @@ json.cohort9 <- fromJSON(getURL(url.cohort9))
 
 library(plyr)
 cohort9.data <- rbind(ldply(lapply(json.cohort9[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+#cohort9.data$animal.MouseID <- as.factor(cohort9.data$animal.MouseID)
 
-date_after_fasting <- "2014-12-02"
-date_before_fasting <- "2014-12-01"
-date_12weeks_MRI <- "2015-02-24"
+date_after_fasting <- '2014-12-02'
+date_before_fasting <- '2014-12-01'
+date_10weeks_MRI <- '2015-02-24'
 
-date_of_interest <- c("2014-12-01", "2014-12-02", "2015-02-24")
+date_of_interest <- c('2014-12-01', '2014-12-02', '2015-02-24')
+#exclude_mice <- c("2103", "2108","2113","2118","2128")
 
 sub_cohort9.data <- cohort9.data[cohort9.data$experiment.date %in% date_of_interest,]
+
+sub_cohort9.data <- cohort9.data[cohort9.data$animal.MouseID!=2119, ]
+sub_cohort9.data$animal.MouseID <- as.factor(sub_cohort9.data$animal.MouseID)
 #Rename the fasting stage based on the date
-sub_cohort9.data$Fasting_stat <- ifelse(sub_cohort9.data$experiment.date=="2014-12-01", "Pre_fasting",ifelse(sub_cohort9.data$experiment.date=="2014-12-02","After_fasting","After_HFD"))
+sub_cohort9.data$Fasting_stat <- ifelse(sub_cohort9.data$experiment.date==date_before_fasting, "Pre_fasting",ifelse(sub_cohort9.data$experiment.date==date_after_fasting,"After_fasting","After_HFD"))
 
 #import body composition data
 library(reshape2)
@@ -39,37 +44,7 @@ cohort9_weight$Fasting_stat <- as.factor(cohort9_weight$Fasting_stat)
 #set Pre_fasting as the reference level
 cohort9_weight$Fasting_stat <- relevel(as.factor(cohort9_weight$Fasting_stat), ref='Pre_fasting')
 
-#import CLAMS data
-filename <- '../data/raw/Oxymax-2014-11-26.csv'
-clams_data <- read.csv(filename)
-#remove commented data
-clams_data <- clams_data[clams_data$Event.Log=="",]
-#data$Subject <- as.factor(data$Subject)
-#mark which ones are actually in this experiment
-start_fasting_interval <- 229
-stop_fasting_interval <- 261
-interval_time <- 32
-#calculated elapsed time in hours
-clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
-clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
-subjects <- c(seq(2098,2119,1),2128)
-cohort9_clams <- clams_data[clams_data$Subject %in% subjects,]
-cohort9_clams$Subject <- as.factor(cohort9_clams$Subject)
-#determine dark/light cycles
-#calculate when the first dark cycle starts
-first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
-dark.cycles <- data.frame(
-  Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
-  Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
-  Day3 = c(Start=first.dark.cycle+48,End=first.dark.cycle+60),
-  Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
-  Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
-  Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
-  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156)
-)
-write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
 ```
-
 # Body Weight Analysis
 ```{r body-weight, echo=FALSE}
 se <- function(x) sd(x)/sqrt(length(x))
@@ -155,4 +130,157 @@ ggplot(cohort9_weight, aes(x=Fasting_stat, y=Weight, group=Subject, colour=Subje
   xlab("Fasting status")+
   ylab("Weight (g)")
 ```
+
+#CLAMS data
+```{r import-and-process-clams-data, echo=FALSE}
+
+#import CLAMS data
+filename <- '../data/raw/Oxymax-2014-11-26.csv'
+clams_data <- read.csv(filename)
+#remove commented data
+clams_data <- clams_data[clams_data$Event.Log=="",]
+#data$Subject <- as.factor(data$Subject)
+#mark which ones are actually in this experiment
+start_fasting_interval <- 229
+stop_fasting_interval <- 261
+interval_time <- 32
+#calculated elapsed time in hours
+clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
+clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
+subjects <- c(seq(2098,2118,1),2128)
+cohort9_clams <- clams_data[clams_data$Subject %in% subjects,]
+cohort9_clams$Subject <- as.factor(cohort9_clams$Subject)
+#determine dark/light cycles
+#calculate when the first dark cycle starts
+first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
+dark.cycles <- data.frame(
+  Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
+  Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
+  Day3 = c(Start=first.dark.cycle+48,End=first.dark.cycle+60),
+  Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
+  Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
+  Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
+  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156)
+)
+write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
 ```
+
+# VO2 Data
+
+```{r vo2-raw-data, echo=FALSE}
+#merge the weight and clasm data
+annotated_clams_data <- merge(cohort9_weight, cohort9_clams, by='Subject')
+annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
+
+write.csv(cohort9_clams, file="../data/processed/clams_testing_data.csv")
+```
+
+````{r correlation_matrix, echo=FALSE}
+sub_cohort9_weight <- cohort9_weight[, c(2, 7:11)]
+cohort9_weight_wide <- reshape(sub_cohort9_weight, idvar="Subject", timevar="Fasting_stat", 
+                               v.names=c("Lean","Fat","Weight","Percent.Fat"), direction="wide")
+#calculate the weight loss percentage
+cohort9_weight_wide$Percent.WL <- as.numeric((cohort9_weight_wide$Weight.Pre_fasting - cohort9_weight_wide$Weight.After_fasting)/cohort9_weight_wide$Weight.Pre_fasting*100)
+cohort9_weight_wide$Percent.WG <- as.numeric((cohort9_weight_wide$Weight.After_HFD - cohort9_weight_wide$Weight.After_fasting)/cohort9_weight_wide$Weight.After_fasting*100)
+cohort9_weight_wide$Percent.LL <- as.numeric((cohort9_weight_wide$Lean.Pre_fasting - cohort9_weight_wide$Lean.After_fasting)/cohort9_weight_wide$Lean.Pre_fasting*100)
+cohort9_weight_wide$Percent.LG <- as.numeric((cohort9_weight_wide$Lean.After_HFD - cohort9_weight_wide$Lean.After_fasting)/cohort9_weight_wide$Lean.After_fasting*100)
+cohort9_weight_wide$Percent.FL <- as.numeric((cohort9_weight_wide$Percent.Fat.Pre_fasting - cohort9_weight_wide$Percent.Fat.After_fasting))
+cohort9_weight_wide$Percent.FG <- as.numeric((cohort9_weight_wide$Percent.Fat.After_HFD - cohort9_weight_wide$Percent.Fat.After_fasting))
+
+#save the body composition data
+write.csv(cohort9_weight, file="../data/processed/body_compostition_testing_data.csv")
+
+panel.cor <- function(x, y, digits=2, cex.cor)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(0, 1, 0, 1))
+  r <- abs(cor(x, y))
+  txt <- format(c(r, 0.123456789), digits=digits)[1]
+  test <- cor.test(x,y)
+  Signif <- ifelse(round(test$p.value,3)<0.001,"p<0.001",paste("p=",round(test$p.value,3)))  
+  text(0.5, 0.25, paste("r=",txt))
+  text(.5, .75, Signif)
+}
+
+panel.smooth<-function (x, y, col = "blue", bg = NA, pch = 18, 
+                        cex = 0.8, col.smooth = "red", span = 2/3, iter = 3, ...) 
+{
+  points(x, y, pch = pch, col = col, bg = bg, cex = cex)
+  ok <- is.finite(x) & is.finite(y)
+  if (any(ok)) 
+    lines(stats::lowess(x[ok], y[ok], f = span, iter = iter), 
+          col = col.smooth, ...)
+}
+
+panel.hist <- function(x, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(usr[1:2], 0, 1.5) )
+  h <- hist(x, plot = FALSE)
+  breaks <- h$breaks; nB <- length(breaks)
+  y <- h$counts; y <- y/max(y)
+  rect(breaks[-nB], 0, breaks[-1], y, col="cyan", ...)
+}
+
+pairs(cohort9_weight_wide[,c(14:19)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist)
+```
+
+````{r test_data_set, echo=FALSE}
+start_fasting_interval <- 229
+stop_fasting_interval <- 261
+
+test_data <- merge(cohort9_weight_wide, annotated_clams_data[,c(1, 12:40)], by='Subject')
+test_data$SumXYAmb <- test_data$X.Ambulatory+test_data$Y.Ambulatory
+
+##Calculate the VO2. Before and during fasting, i.e. interval <158, use the Pre_fasting weight to calculate the VO2. After fasting, VO2 will be calculated using the After_fasting weight##
+test_data$VO2.LBM <- ifelse(test_data$Interval<stop_fasting_interval,test_data$VO2/test_data$Lean.Pre_fasting, test_data$VO2/test_data$Lean.After_fasting)
+
+test_data$Fast <- ifelse(test_data$Interval<start_fasting_interval,"Bf_fasting",ifelse(test_data$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
+
+variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", 
+               "Percent.FG")
+
+pairs(test_data[test_data$Light.Dark=="Light", c(15, 33, 49, 50)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+          main="LIGHT")
+
+pairs(test_data[test_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+        main="DARK")
+
+####prepare data for random forest
+cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', 
+          "Percent.FL")
+
+test_data$Fast <- as.factor(test_data$Fast)
+model_dat1<-test_data[,cols]
+
+#model_data <-as.data.frame()
+m_data<-
+  model_dat1 %>%
+  group_by(Subject, Light.Dark, Fast) %>%
+  summarise(
+    Avg.Percent.LL = mean(Percent.LL),
+    Avg.Percent.FL = mean(Percent.FL),
+    RER = mean(RER),
+    SumXYAmb = mean(SumXYAmb),
+    VO2.LBM = mean(VO2.LBM),
+    Percent.WG=mean(Percent.WG))
+m_data<-as.data.frame(m_data)
+model_data <- m_data[m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
+
+model_data_dark <- model_data[model_data$Light.Dark=="Dark",]
+model_data_light <- model_data[model_data$Light.Dark=="Light",]
+
+#make the data into wide format
+model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", 
+                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+
+model_data_light_wide <- reshape(model_data_light, timevar="Fast", idvar="Subject", direction="wide", 
+                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+testing_set <- merge(model_data_light_wide, model_data_dark_wide[,c(1,8:13)],by="Subject")
+
+
+```
+
