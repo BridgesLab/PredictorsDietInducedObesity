@@ -65,7 +65,94 @@ dark.cycles <- data.frame(
   Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
   Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
   Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
-  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),  
+  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156)
 )
 write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
+```
+
+# Body Weight Analysis
+```{r body-weight, echo=FALSE}
+se <- function(x) sd(x)/sqrt(length(x))
+library(ggplot2)
+library(dplyr)
+body_weight_summary <-
+  cohort9_weight %>%
+  group_by(Fasting_stat) %>%
+  summarise(
+    Weight = mean(Weight),
+    Fat = mean(Fat),
+    Lean = mean(Lean),
+    Percent.Fat = mean(Percent.Fat))
+
+body_weight_err <-
+  cohort9_weight %>%
+  group_by(Fasting_stat) %>%
+  summarise(
+    Weight = se(Weight),
+    Fat = se(Fat),
+    Lean = se(Lean),
+    Percent.Fat = se(Percent.Fat))
+
+body_weight_shapiro <-
+  cohort9_weight %>%
+  group_by(Fasting_stat) %>%
+  summarise(
+    Weight = shapiro.test(Weight)$p.value,
+    Fat = shapiro.test(Fat)$p.value,
+    Lean = shapiro.test(Lean)$p.value,
+    Percent.Fat = shapiro.test(Percent.Fat)$p.value)
+
+body_weight_delta <-
+  cohort9_weight %>%
+  group_by(animal.MouseID) %>%
+  mutate(
+    Delta_weight=c(0,diff(Weight)))
+
+delta_weight<-body_weight_delta[body_weight_delta$Fasting_stat=="Pre_fasting",c(1,8,9,11)]
+
+library(car)
+body.weight.bartlett <- data.frame()
+body.weight.bartlett['Weight','pval'] <- bartlett.test(Weight~Fasting_stat, data=cohort9_weight)$p.value
+body.weight.bartlett['Fat','pval'] <- bartlett.test(Fat~Fasting_stat, data=cohort9_weight)$p.value
+body.weight.bartlett['Lean','pval'] <- bartlett.test(Lean~Fasting_stat, data=cohort9_weight)$p.value
+body.weight.bartlett['Percent.Fat','pval'] <- bartlett.test(Percent.Fat~Fasting_stat, data=cohort9_weight)$p.value
+
+superpose.eb <- function (x, y, ebl, ebu = ebl, length = 0.08, ...)
+  arrows(x, y + ebu, x, y - ebl, angle = 90, code = 3,
+  length = length, ...)
+
+par(mfrow=c(2,2))
+ymax <- max(body_weight_summary$Weight + body_weight_err$Weight)
+plot <- barplot(as.numeric(body_weight_summary$Weight),
+                beside=T, las=1, main="Body Weight", ylim=c(0,ymax), col=c('blue','green','red'))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Weight),
+             as.numeric(body_weight_err$Weight))
+
+ymax <- max(body_weight_summary$Fat + body_weight_err$Fat)
+plot <- barplot(as.numeric(body_weight_summary$Fat),
+                beside=T, las=1, main="Total Fat Mass", ylim=c(0,ymax), col=c('blue','green','red'))
+
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Fat),
+             as.numeric(body_weight_err$Fat))
+
+ymax <- max(body_weight_summary$Lean + body_weight_err$Lean)
+plot <- barplot(as.numeric(body_weight_summary$Lean),
+                beside=T, las=1, main="Lean Mass", ylim=c(0,ymax), col=c('blue','green','red'), names.arg=c("Prefasting","AfterFasting","AfterHFD"))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Lean),
+             as.numeric(body_weight_err$Lean))
+
+ymax <- max(body_weight_summary$Percent.Fat + body_weight_err$Percent.Fat)
+plot <- barplot(as.numeric(body_weight_summary$Percent.Fat),
+                beside=T, las=1, main="Percent Fat Mass", ylim=c(0,ymax), col=c('blue','green','red'),names.arg=c("Prefasting","AfterFasting","AfterHFD"))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Percent.Fat),
+             as.numeric(body_weight_err$Percent.Fat))
+
+ggplot(cohort9_weight, aes(x=Fasting_stat, y=Weight, group=Subject, colour=Subject)) + geom_point()+geom_line()+
+  xlab("Fasting status")+
+  ylab("Weight (g)")
+```
 ```
