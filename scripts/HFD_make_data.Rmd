@@ -18,11 +18,11 @@ json.cohort8.group1 <- fromJSON(getURL(url.cohort8.group1))
 library(plyr)
 cohort8.data <- rbind(ldply(lapply(json.cohort8.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
 
-date_after_fasting <- "2014-10-21"
-date_before_fasting <- "2014-10-20"
-date_12weeks_MRI <- "2015-01-16"
+date_after_fasting <- '2014-10-21'
+date_before_fasting <- '2014-10-20'
+date_12weeks_MRI <- '2015-01-16'
 
-date_of_interest <- c("2014-10-21", "2014-10-20", "2015-01-16")
+date_of_interest <- c('2014-10-21', '2014-10-20', '2015-01-16')
 
 sub_cohort8.data <- cohort8.data[cohort8.data$experiment.date %in% date_of_interest,]
 #Rename the fasting stage based on the date
@@ -208,6 +208,7 @@ write.csv(cohort8_clams, file="../data/processed/clams_training_data.csv")
 ````{r correlation_matrix, echo=FALSE}
 
 library(randomForest)
+library(ROCR)
 library(miscTools)
 library(ggplot2)
 library(reshape2)
@@ -288,9 +289,11 @@ pairs(merge_data[merge_data$Light.Dark=="Light", c(15, 33, 49, 50)],
 pairs(merge_data[merge_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
         main="DARK")
+
 ######Random Forest#######
-cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL','Percent.LG', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', 
-          "Percent.FL", "Percent.FG")
+
+cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', 
+          "Percent.FL")
 
 merge_data$Fast <- as.factor(merge_data$Fast)
 model_dat1<-merge_data[,cols]
@@ -301,9 +304,7 @@ m_data<-
   group_by(Subject, Light.Dark, Fast) %>%
   summarise(
     Avg.Percent.LL = mean(Percent.LL),
-    Avg.Percent.LG = mean(Percent.LG),
     Avg.Percent.FL = mean(Percent.FL),
-    Avg.Percent.FG = mean(Percent.FG),
     RER = mean(RER),
     SumXYAmb = mean(SumXYAmb),
     VO2.LBM = mean(VO2.LBM),
@@ -334,23 +335,21 @@ merge_LD <- merge(model_data_light_wide, model_data_dark_wide[,c(1,8:13)],by="Su
 #model_data_light_wide$Amb.diff <- model_data_light_wide$SumXYAmb.Bf_fasting - model_data_light_wide$SumXYAmb.After_fasting
 #list of predictors
 #x = Light, y=Dark
-predictors <- c('Subject', 'Avg.Percent.LG', 
-                'Avg.Percent.FL', 'Avg.Percent.FG',
-                 'VO2.LBM.Bf_fasting.x',
-                'VO2.LBM.After_fasting.y', 
-                'RER.After_fasting.x',  
-                 'RER.Bf_fasting.y',
-                'SumXYAmb.After_fasting.x', 
-                'SumXYAmb.Bf_fasting.y',
-                'Percent.WG')
-predictors1 <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG', 
-                'Avg.Percent.FL', 'Avg.Percent.FG',
+predictors <- c('Subject', 'Avg.Percent.LL', 'Avg.Percent.FL', 
                 'VO2.LBM.After_fasting.x', 'VO2.LBM.Bf_fasting.x',
                 'VO2.LBM.After_fasting.y', 'VO2.LBM.Bf_fasting.y',
                 'RER.After_fasting.x',  'RER.Bf_fasting.x',
-                 'RER.Bf_fasting.y','RER.Bf_fasting.y',
+                 'RER.After_fasting.y','RER.Bf_fasting.y',
                 'SumXYAmb.After_fasting.x', 'SumXYAmb.Bf_fasting.x',
-                'SumXYAmb.Bf_fasting.y','SumXYAmb.Bf_fasting.y')
+                'SumXYAmb.After_fasting.y','SumXYAmb.Bf_fasting.y',
+                'Percent.WG')
+predictors1 <- c('Subject', 'Avg.Percent.LL','Avg.Percent.FL', 
+                'VO2.LBM.After_fasting.x', 'VO2.LBM.Bf_fasting.x',
+                'VO2.LBM.After_fasting.y', 'VO2.LBM.Bf_fasting.y',
+                'RER.After_fasting.x',  'RER.Bf_fasting.x',
+                 'RER.After_fasting.y','RER.Bf_fasting.y',
+                'SumXYAmb.After_fasting.x', 'SumXYAmb.Bf_fasting.x',
+                'SumXYAmb.After_fasting.y','SumXYAmb.Bf_fasting.y')
 
 predictors_dark <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG', 
                 'VO2.Bf_fasting', 
@@ -372,16 +371,96 @@ set.seed(300)
 tst <- rfcv(merge_LD[, predictors1], merge_LD$Percent.WG, scale="log", step=0.5, cv.fold=3, recursive=T)
 pairs(tst$n.var, tst$error.cv)
 
+#Find the optimal number of variables to try splitting at each node
+bestmtry <- tuneRF(merge_LD[, predictors1], merge_LD$Percent.WG,  ntreeTry=100, 
+     stepFactor=1.5,improve=0.01, trace=TRUE, plot=TRUE, dobest=FALSE)
+
 #making the tuning grid
-grid_rf <- expand.grid(.mtry=c(2,4, 8))
+#grid_rf <- expand.grid(.mtry=c(2,4, 8))
+#m_rf <- train(Percent.WG~., data=training[,predictors], method="rf", metric="Rsquared", tuneGrid=grid_rf)
 
-m_rf <- train(Percent.WG~., data=training[,predictors], method="rf", metric="Rsquared", tuneGrid=grid_rf)
+#The optimal number of variables for splitting is 7
+rf <- randomForest(Percent.WG~., data=training[,predictors], ntree=1000, mtry=7, test=testing$Precent.WG, importance=TRUE,
+                   keep.forest=TRUE, proximity=TRUE)
+varImpPlot(rf)
+varUsed(rf)
+wg.prox<- rf$proximity
+wg.mds <- cmdscale(1-wg.prox)
+plot(wg.mds, col = c("blue","orange"), pch = c(1,16), xlab="", ylab="")
 
+plot(rf)
+import <- as.data.frame(importance(rf))
+colnames(import) <- c("PercentIncMSE", "IncNodePurity")
+plot(importance(rf), lty=2, pch=16)
+textxy(%IncMSE, IncNodePurity, labs=names, cx = 0.5, dcol = "black", m = c(0, 0))
+ggplot(import, aes(x=PercentIncMSE,y=IncNodePurity)) + 
+    geom_point() + 
+    geom_text(aes(label=rownames(import))
+```
 
-rf <- randomForest(Percent.WG~., data=training[,predictors], ntree=500, mtry=8)
+```{r k-fold cross validation, echo=FALSE}
+k = 10 #Folds
+ 
+# sample from 1 to k, nrow times (the number of observations in the data)
+merge_LD$id <- sample(1:k, nrow(merge_LD), replace = TRUE)
+list <- 1:k
+ 
+# prediction and testset data frames that we add to with each iteration over
+# the folds
+ 
+prediction <- data.frame()
+testsetCopy <- data.frame()
+ 
+#Creating a progress bar to know the status of CV
+progress.bar <- create_progress_bar("text")
+progress.bar$init(k)
 
+for (i in 1:k){
+  # remove rows with id i from dataframe to create training set
+  # select rows with id i to create test set
+  trainingset <- subset(merge_LD, id %in% list[-i])
+  testset <- subset(merge_LD, id %in% c(i))
+  
+  # run a random forest model
+  mymodel <- randomForest(trainingset$Percent.WG ~ ., data = trainingset, ntree = 500, mtry=7)
+                                                     
+  # remove response column 1, Percent.WG
+  temp <- as.data.frame(predict(mymodel, testset[,-7]))
+  # append this iteration's predictions to the end of the prediction data frame
+  prediction <- rbind(prediction, temp)
+  
+  # append this iteration's test set to the test set copy data frame
+  # keep only the Percent.WG Column
+  testsetCopy <- rbind(testsetCopy, as.data.frame(testset[,7]))
+  
+  progress.bar$step()
+}
+ 
+# add predictions and actual Percent.WG values
+result <- cbind(prediction, testsetCopy[,1])
+names(result) <- c("Predicted", "Actual")
+result$Difference <- abs(result$Actual - result$Predicted)
+plot(result)
+# As an example use Mean Absolute Error as Evalution 
+summary(result$Difference)
+ 
+ 
+```
+
+```{r Test data set, echo=FALSE}
+par(mfrow=c(1,1))
 #look at the importance of the predictors, higer value means more importance
 round(importance(rf),2)
+predictors1 <- c('Subject', 'Avg.Percent.LL', 'Avg.Percent.FL',
+      
+                 'VO2.LBM.Bf_fasting.x',
+              'VO2.LBM.Bf_fasting.y',
+                 'RER.Bf_fasting.x',
+                'SumXYAmb.After_fasting.y','SumXYAmb.Bf_fasting.y', 'Percent.WG')
+
+rf <- randomForest(Percent.WG~., data=training[,predictors1], ntree=1000, mtry=7, test=testing$Precent.WG, importance=TRUE,
+                   keep.forest=TRUE, proximity=TRUE)
+
 r2 <- rSquared(testing$Percent.WG, testing$Percent.WG - predict(rf, testing[,predictors]))
 
 mse <- mean((testing$Percent.WG - predict(rf, testing[,predictors]))^2)
