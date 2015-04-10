@@ -5,26 +5,32 @@ date: "March 27, 2015"
 output: html_document
 ---
 ```{r pulling data from the database, echo=FALSE}
-url.cohort9 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
+url.cohort9.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
+url.cohort9.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=15'
 
 library(rjson)
 library(RCurl)
-json.cohort9 <- fromJSON(getURL(url.cohort9))
+json.cohort9.group1 <- fromJSON(getURL(url.cohort9.group1))
+json.cohort9.group2 <- fromJSON(getURL(url.cohort9.group2))
 
 library(plyr)
-cohort9.data <- rbind(ldply(lapply(json.cohort9[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+cohort9.data.1 <- rbind(ldply(lapply(json.cohort9.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+cohort9.data.2 <- rbind(ldply(lapply(json.cohort9.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
 #cohort9.data$animal.MouseID <- as.factor(cohort9.data$animal.MouseID)
+
+useful.columns <- intersect(colnames(cohort9.data.1), colnames(cohort9.data.2))
+cohort9.data <- rbind(cohort9.data.1[,useful.columns],
+              cohort9.data.2[,useful.columns])
 
 date_after_fasting <- '2014-12-02'
 date_before_fasting <- '2014-12-01'
 date_10weeks_MRI <- '2015-02-24'
 
 date_of_interest <- c('2014-12-01', '2014-12-02', '2015-02-24')
-#exclude_mice <- c("2103", "2108","2113","2118","2128")
 
 sub_cohort9.data <- cohort9.data[cohort9.data$experiment.date %in% date_of_interest,]
 
-sub_cohort9.data <- cohort9.data[cohort9.data$animal.MouseID!=2119, ]
+#sub_cohort9.data <- cohort9.data[cohort9.data$animal.MouseID!=2119, ]
 sub_cohort9.data$animal.MouseID <- as.factor(sub_cohort9.data$animal.MouseID)
 #Rename the fasting stage based on the date
 sub_cohort9.data$Fasting_stat <- ifelse(sub_cohort9.data$experiment.date==date_before_fasting, "Pre_fasting",ifelse(sub_cohort9.data$experiment.date==date_after_fasting,"After_fasting","After_HFD"))
@@ -136,23 +142,21 @@ ggplot(cohort9_weight, aes(x=Fasting_stat, y=Weight, group=Subject, colour=Subje
 
 #import CLAMS data
 filename <- '../data/raw/Oxymax-2014-11-26.csv'
-clams_data <- read.csv(filename)
+cohort9_clams <- read.csv(filename)
 #remove commented data
-clams_data <- clams_data[clams_data$Event.Log=="",]
+cohort9_clams <- cohort9_clams[cohort9_clams$Event.Log=="",]
 #data$Subject <- as.factor(data$Subject)
 #mark which ones are actually in this experiment
 start_fasting_interval <- 229
 stop_fasting_interval <- 261
 interval_time <- 32
 #calculated elapsed time in hours
-clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
-clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
-subjects <- c(seq(2098,2118,1),2128)
-cohort9_clams <- clams_data[clams_data$Subject %in% subjects,]
+cohort9_clams$Intervals.Elapsed <- cohort9_clams$Interval - min(cohort9_clams$Interval)
+cohort9_clams$Time <- cohort9_clams$Intervals.Elapsed * interval_time/60
 cohort9_clams$Subject <- as.factor(cohort9_clams$Subject)
 #determine dark/light cycles
 #calculate when the first dark cycle starts
-first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
+first.dark.cycle <- min(cohort9_clams[cohort9_clams$Light.Dark=='Dark',]$Time)
 dark.cycles <- data.frame(
   Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
   Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
@@ -254,11 +258,11 @@ cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumX
           "Percent.FL")
 
 test_data$Fast <- as.factor(test_data$Fast)
-model_dat1<-test_data[,cols]
+cohort9_model_dat1<-test_data[,cols]
 
 #model_data <-as.data.frame()
-m_data<-
-  model_dat1 %>%
+cohort9_m_data<-
+  cohort9_model_dat1 %>%
   group_by(Subject, Light.Dark, Fast) %>%
   summarise(
     Avg.Percent.LL = mean(Percent.LL),
@@ -267,17 +271,20 @@ m_data<-
     SumXYAmb = mean(SumXYAmb),
     VO2.LBM = mean(VO2.LBM),
     Percent.WG=mean(Percent.WG))
-m_data<-as.data.frame(m_data)
-model_data <- m_data[m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
+cohort9_m_data<-as.data.frame(cohort9_m_data)
 
-model_data_dark <- model_data[model_data$Light.Dark=="Dark",]
-model_data_light <- model_data[model_data$Light.Dark=="Light",]
+cohort9_model_data <- cohort9_m_data[cohort9_m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
+cohort9_model_data$Fast <- factor(c("Bf_fasting", "After_fasting"))
+write.csv(cohort9_model_data, file="../data/processed/cohort9_testing_data_for_modelling.csv")
+
+cohort9_model_data_dark <- cohort9_model_data[cohort9_model_data$Light.Dark=="Dark",]
+cohort9_model_data_light <- cohort9_model_data[cohort9_model_data$Light.Dark=="Light",]
 
 #make the data into wide format
-model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", 
+cohort9_model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", 
                                 v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
 
-model_data_light_wide <- reshape(model_data_light, timevar="Fast", idvar="Subject", direction="wide", 
+cohort9_model_data_light_wide <- reshape(model_data_light, timevar="Fast", idvar="Subject", direction="wide", 
                                 v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
 testing_set <- merge(model_data_light_wide, model_data_dark_wide[,c(1,8:13)],by="Subject")
 
