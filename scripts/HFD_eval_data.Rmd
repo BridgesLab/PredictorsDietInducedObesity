@@ -5,27 +5,30 @@ date: "March 27, 2015"
 output: html_document
 ---
 ```{r pulling data from the database, echo=FALSE}
-url.cohort9.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
-url.cohort9.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=15'
-
-library(rjson)
-library(RCurl)
-json.cohort9.group1 <- fromJSON(getURL(url.cohort9.group1))
-json.cohort9.group2 <- fromJSON(getURL(url.cohort9.group2))
-
-library(plyr)
-cohort9.data.1 <- rbind(ldply(lapply(json.cohort9.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
-cohort9.data.2 <- rbind(ldply(lapply(json.cohort9.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
-#cohort9.data$animal.MouseID <- as.factor(cohort9.data$animal.MouseID)
-
-useful.columns <- intersect(colnames(cohort9.data.1), colnames(cohort9.data.2))
-cohort9.data <- rbind(cohort9.data.1[,useful.columns],
-              cohort9.data.2[,useful.columns])
+# url.cohort9.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
+# url.cohort9.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=15'
+# 
+# library(rjson)
+# library(RCurl)
+# json.cohort9.group1 <- fromJSON(getURL(url.cohort9.group1))
+# json.cohort9.group2 <- fromJSON(getURL(url.cohort9.group2))
+# 
+# library(plyr)
+# cohort9.data.1 <- rbind(ldply(lapply(json.cohort9.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+# cohort9.data.2 <- rbind(ldply(lapply(json.cohort9.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+# #cohort9.data$animal.MouseID <- as.factor(cohort9.data$animal.MouseID)
+# 
+# useful.columns <- intersect(colnames(cohort9.data.1), colnames(cohort9.data.2))
+# cohort9.data <- rbind(cohort9.data.1[,useful.columns],
+#               cohort9.data.2[,useful.columns])
+raw_output_file <- "../data/raw/Cohort 9 Raw Data.csv"
+#write.csv(cohort9.data, raw_output_file)
+cohort9.data <- read.csv(raw_output_file, row.names="X")
 
 date_after_fasting <- '2014-12-02'
 date_before_fasting <- '2014-12-01'
 date_10weeks_MRI <- '2015-02-24'
-
+#only look at fed, fasted and 10w data
 date_of_interest <- c('2014-12-01', '2014-12-02', '2015-02-24')
 
 sub_cohort9.data <- cohort9.data[cohort9.data$experiment.date %in% date_of_interest,]
