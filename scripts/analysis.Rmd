@@ -1,0 +1,34 @@
+---
+title: "Analysis"
+author: "Quynh Tran"
+date: "April 10, 2015"
+output: html_document
+---
+
+
+```{r read_data, echo=FALSE}
+
+cohort8_clams <- read.csv(file="../data/processed/clams_training_data.csv", header=TRUE)
+cohort9_clams <- read.csv(file="../data/processed/clams_testing_data.csv", header=TRUE)
+
+cohort8_weight <- read.csv( file="../data/processed/body_compostition_training_data.csv", header=T)
+cohort9_weight <- read.csv( file="../data/processed/body_compostition_testing_data.csv", header=T)
+
+sub_cohort8_weight <- as.data.frame(cohort8_weight[, c(3, 7:11)])
+cohort8_weight_wide <- reshape(sub_cohort8_weight, idvar="Subject", timevar="Fasting_stat", v.names=c("Lean", "Fat", "Weight","Percent.Fat"), direction="wide")
+
+model_data <- read.csv(file='../data/processed/cohort8_training_data_for_modelling.csv', header=T)
+cohort9_model_data <- read.csv(file='../data/processed/cohort9_testing_data_for_modelling.csv', header=T)
+
+
+
+
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
