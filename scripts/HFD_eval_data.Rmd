@@ -176,7 +176,7 @@ write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
 annotated_clams_data <- merge(cohort9_weight, cohort9_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
 
-write.csv(cohort9_clams, file="../data/processed/clams_testing_data.csv")
+write.csv(annotated_clams_data, file="../data/processed/clams_testing_data.csv")
 ```
 
 ````{r correlation_matrix, echo=FALSE}

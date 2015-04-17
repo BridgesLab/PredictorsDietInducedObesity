@@ -215,7 +215,8 @@ print(xtable(percent.fat.tukey, caption="Tukey HSD for pairwise comparisons amon
 annotated_clams_data <- merge(cohort8_weight, cohort8_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
 
-write.csv(cohort8_clams, file="../data/processed/clams_training_data.csv")
+write.csv(annotated_clams_data, file="../data/processed/clams_weight_training_data.csv")
+
 
 ```
 
@@ -287,13 +288,19 @@ pairs(cohort8_weight_wide[,c(14:19)],
 start_fasting_interval <- 128
 stop_fasting_interval <- 158
 
-merge_data <- merge(cohort8_weight_wide, annotated_clams_data[,c(1, 11:39)], by='Subject')
-merge_data$SumXYAmb <- merge_data$X.Ambulatory+merge_data$Y.Ambulatory
+merge_data1 <- merge(cohort8_weight_wide, annotated_clams_data[,c(1, 11:39)], by='Subject')
+merge_data1$SumXYAmb <- merge_data1$X.Ambulatory+merge_data$Y.Ambulatory
 
 ##Calculate the VO2. Before and during fasting, i.e. interval <158, use the Pre_fasting weight to calculate the VO2. After fasting, VO2 will be calculated using the After_fasting weight##
-merge_data$VO2.LBM <- ifelse(merge_data$Interval<stop_fasting_interval,merge_data$VO2/merge_data$Lean.Pre_fasting, merge_data$VO2/merge_data$Lean.After_fasting)
+merge_data1$VO2.LBM <- ifelse(merge_data1$Interval<stop_fasting_interval,merge_data1$VO2/merge_data1$Lean.Pre_fasting, merge_data1$VO2/merge_data1$Lean.After_fasting)
 
-merge_data$Fast <- ifelse(merge_data$Interval<start_fasting_interval,"Bf_fasting",ifelse(merge_data$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
+merge_data1$Fast <- ifelse(merge_data1$Interval<start_fasting_interval,"Bf_fasting",ifelse(merge_data1$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
+
+###Remove outliers:
+merge_data <- merge_data1[! merge_data1$RER %in% c('-5369.972', '-672.8121', '-335.7452', '-139.4203'), ]
+merge_data <- merge_data1[! merge_data1$RER < -40,]
+                               
+write.csv(merge_data, file="../data/processed/Combined_BC_clams_training_data.csv")
 
 variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", 
                "Percent.FG")
@@ -315,7 +322,7 @@ cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumX
           "Percent.FL")
 
 merge_data$Fast <- as.factor(merge_data$Fast)
-model_dat1<-merge_data[,cols]
+model_dat1<-merge_data[,c(1:19, 22, 33, 49:51)]
 
 #model_data <-as.data.frame()
 m_data<-
@@ -327,6 +334,7 @@ m_data<-
     RER = mean(RER),
     SumXYAmb = mean(SumXYAmb),
     VO2.LBM = mean(VO2.LBM),
+    Percent.WL = mean(Percent.WL),
     Percent.WG=mean(Percent.WG))
 m_data<-as.data.frame(m_data)
 #remove the During fasting phase
@@ -336,6 +344,15 @@ model_data$Fast <- factor(c("Bf_fasting", "After_fasting"))
 write.csv(model_data, file='../data/processed/cohort8_training_data_for_modelling.csv')
 #model_data_wide <- reshape(model_data, timevar="Fast", idvar="Subject", direction="wide", 
  #                               v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+
+model_data <- read.csv(file='../data/processed/cohort8_training_data_for_modelling.csv', header=T)
+cohort9_model_data <- read.csv(file='../data/processed/cohort9_testing_data_for_modelling.csv', header=T)
+
+cohort8_weight <- read.csv( file="../data/processed/body_compostition_training_data.csv", header=T)
+sub_cohort8_weight <- as.data.frame(cohort8_weight[, c(3, 7:11)])
+cohort8_weight_wide <- reshape(sub_cohort8_weight, idvar="Subject", timevar="Fasting_stat", v.names=c("Lean", "Fat", "Weight","Percent.Fat"), direction="wide")
+#combine data from cohort8 and 9
+combine.data <- rbind(model_data, cohort9_model_data)
 
 model_data_dark <- model_data[model_data$Light.Dark=="Dark",]
 model_data_light <- model_data[model_data$Light.Dark=="Light",]
@@ -388,9 +405,10 @@ predictors_light <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG',
 
 #LINEAR MIXED EFFECT MODEL
 library(lme4)
-weight.lme <- lmer(Percent.WG~ VO2.LBM + RER + 
-                     Avg.Percent.FL + Avg.Percent.LL + Light.Dark + Fast
-                   + (1|Subject), data=model_data)
+model_data2 <- model_data[rownames(model_data)!=7,]
+weight.lme <- lmer(Percent.WG~ Percent.LL + Percent.FL + Percent.WL + RER + log(SumXYAmb+1) + VO2.LBM
+                   + (1|Subject), data=model_dat1)
+
 plot(predict(weight.lme), residuals(weight.lme))
 # standardized residuals versus fitted values by gender
 plot(weight.lme, resid(.) ~ fitted(.) | Light.Dark, abline = 0)
@@ -403,9 +421,11 @@ plot(weight.lme, Percent.WG ~ predict(.) | Subject, abline = c(0,1))
 
 plot(density(resid(weight.lme)))
 
+qqnorm(weight.lme, ~ranef(., level=1))
+
 library(REEMtree)
 #Fit a RE-EM tree to data. This estimates a regression tree combined with a linear random effects model.
-weight.rf1 <- REEMtree(Percent.WG~ VO2.LBM + RER + 
+weight.rf <- REEMtree(Percent.WG~ VO2.LBM + RER + SumXYAmb+
                      Avg.Percent.FL + Avg.Percent.LL + Light.Dark + Fast
                     , data=model_data, random=~1|Subject)
 #print a description of a fitted REEM tree object
@@ -419,15 +439,21 @@ ranef(weight.rf)
 plot(density(residuals(weight.rf)))
 tree(weight.rf)
 
-#combine data from cohort8 and 9
-combine.data <- rbind(model_data, cohort9_model_data)
+cohort9_model_data$Subject <- as.factor(cohort9_model_data$Subject)
+
+combine.data <- rbind(model_data[ ,c(1:8, 10)], cohort9_model_data[, 2:10])
+
 #estimate using the cohort8 only so make the 144 observation TRUE for cohort 8
 # with predictions for all observations
 sub <- c(rep(TRUE, 96), rep(FALSE, 62))
-weight.rf2 <- REEMtree(Percent.WG~ VO2.LBM + RER + 
+weight.rf2 <- REEMtree(Percent.WG~ VO2.LBM + RER + SumXYAmb+
                      Avg.Percent.FL + Avg.Percent.LL + Light.Dark + Fast
                     , data=combine.data, random=~1|Subject, subset=sub)
 predict1 <- predict(weight.rf2, combine.data ,  EstimateRandomEffects=FALSE)
+#calculate r2 and mse
+r2_1 <- rSquared(combine.data$Percent.WG, combine.data$Percent.WG - predict1)
+mse_1 <- mean((combine.data$Percent.WG - (predict1))^2)
+
 predict2 <- predict(weight.rf2, combine.data , id=combine.data$Subject, EstimateRandomEffects=TRUE)
 
 
