@@ -274,7 +274,7 @@ pairs(test_data[test_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
         main="DARK")
 
 ####prepare data for random forest
-cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', "Percent.FL",'Interval')
+cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', , 'Percent.WL', "Percent.FL",'Interval')
 
 test_data$Fast <- as.factor(test_data$Fast)
 cohort9_model_dat1<-test_data[,cols]
@@ -284,6 +284,8 @@ cohort9_m_data<-
   subset(cohort9_model_dat1, Interval<start_fasting_interval) %>%
   group_by(Subject, Light.Dark) %>%
   summarise(
+    Avg.Percent.LL = mean(Percent.LL),
+    Avg.Percent.FL = mean(Percent.FL),
     RER = mean(RER),
     SumXYAmb = mean(SumXYAmb),
     VO2.LBM = mean(VO2.LBM),

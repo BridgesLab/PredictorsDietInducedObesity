@@ -9,24 +9,24 @@ This script is used to pull data from the http://bridgeslab.uthsc.edu/mousedb/ a
 
 
 ```{r pulling data from the database, echo=FALSE}
-url.cohort8.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=8'
-url.cohort8.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=8'
+#url.cohort8.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=8'
+#url.cohort8.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=8'
 
-library(rjson)
-library(RCurl)
-json.cohort8.group1 <- fromJSON(getURL(url.cohort8.group1))
-json.cohort8.group2 <- fromJSON(getURL(url.cohort8.group2))
+#library(rjson)
+#library(RCurl)
+#json.cohort8.group1 <- fromJSON(getURL(url.cohort8.group1))
+#json.cohort8.group2 <- fromJSON(getURL(url.cohort8.group2))
 
-library(plyr)
-cohort8.data.1 <- rbind(ldply(lapply(json.cohort8.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
-cohort8.data.2 <- rbind(ldply(lapply(json.cohort8.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+#library(plyr)
+#cohort8.data.1 <- rbind(ldply(lapply(json.cohort8.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+#cohort8.data.2 <- rbind(ldply(lapply(json.cohort8.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
 
-useful.columns <- intersect(colnames(cohort8.data.1), colnames(cohort8.data.2))
-cohort8.data <- rbind(cohort8.data.1[,useful.columns],
-              cohort8.data.2[,useful.columns])
+#useful.columns <- intersect(colnames(cohort8.data.1), colnames(cohort8.data.2))
+#cohort8.data <- rbind(cohort8.data.1[,useful.columns],
+#              cohort8.data.2[,useful.columns])
 
 raw_output_file <- "../data/raw/Cohort_8_Raw_Data.csv"
-#write.csv(cohort9.data, raw_output_file)
+#write.csv(cohort8.data, raw_output_file)
 cohort8.data <- read.csv(raw_output_file, row.names="X")
 
 date_after_fasting <- '2014-10-21'
@@ -54,40 +54,6 @@ cohort8_weight$Subject <- as.factor(cohort8_weight$animal.MouseID)
 cohort8_weight$Fasting_stat <- as.factor(cohort8_weight$Fasting_stat)
 #set Pre_fasting as the reference level
 cohort8_weight$Fasting_stat <- relevel(as.factor(cohort8_weight$Fasting_stat), ref='Pre_fasting')
-
-#import CLAMS data
-filename <- '../data/raw/Oxymax export of 2014-10-17 10 week C57BL6J.csv'
-clams_data <- read.csv(filename)
-#remove commented data
-clams_data <- clams_data[clams_data$Event.Log=="",]
-#data$Subject <- as.factor(data$Subject)
-#mark which ones are actually in this experiment
-start_fasting_interval <- 128
-stop_fasting_interval <- 158
-interval_time <- 34
-#calculated elapsed time in hours
-clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
-clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
-subjects <- c(seq(1745,1763,1),seq(1765,1769,1))
-cohort8_clams <- clams_data[clams_data$Subject %in% subjects,]
-cohort8_clams$Subject <- as.factor(cohort8_clams$Subject)
-#determine dark/light cycles
-#calculate when the first dark cycle starts
-first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
-dark.cycles <- data.frame(
-  Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
-  Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
-  Day3 = c(Start=first.dark.cycle+48,End=first.dark.cycle+60),
-  Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
-  Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
-  Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
-  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),
-  Day8 = c(Start=first.dark.cycle+168,End=first.dark.cycle+180),
-  Day9 = c(Start=first.dark.cycle+192,End=first.dark.cycle+204),
-  Day10 = c(Start=first.dark.cycle+216,End=first.dark.cycle+228)  
-)
-write.csv(cohort8_clams, file="../data/processed/Cohort8_Oxymax.csv")
-
 ```
 
 The data are saved in `r filename`.  This script was most recently updated on `r date()` and is saved in `r getwd()`
@@ -211,12 +177,56 @@ print(xtable(percent.fat.tukey, caption="Tukey HSD for pairwise comparisons amon
 
 ```
 
+#CLAMS data
+```{r clams_data, echo=FALSE}
+#import CLAMS data
+filename <- '../data/raw/Oxymax export of 2014-10-17 10 week C57BL6J.csv'
+clams_data <- read.csv(filename)
+#remove commented data
+clams_data <- clams_data[clams_data$Event.Log=="",]
+#data$Subject <- as.factor(data$Subject)
+#mark which ones are actually in this experiment
+start_fasting_interval <- 128
+stop_fasting_interval <- 158
+interval_time <- 34
+#calculated elapsed time in hours
+clams_data$Intervals.Elapsed <- clams_data$Interval - min(clams_data$Interval)
+clams_data$Time <- clams_data$Intervals.Elapsed * interval_time/60
+subjects <- c(seq(1745,1763,1),seq(1765,1769,1))
+cohort8_clams <- clams_data[clams_data$Subject %in% subjects,]
+cohort8_clams$Subject <- as.factor(cohort8_clams$Subject)
+#determine dark/light cycles
+#calculate when the first dark cycle starts
+first.dark.cycle <- min(clams_data[clams_data$Light.Dark=='Dark',]$Time)
+dark.cycles <- data.frame(
+  Day1 = c(Start=first.dark.cycle,End=first.dark.cycle+12),
+  Day2 = c(Start=first.dark.cycle+24,End=first.dark.cycle+36),
+  Day3 = c(Start=first.dark.cycle+48,End=first.dark.cycle+60),
+  Day4 = c(Start=first.dark.cycle+72,End=first.dark.cycle+84),
+  Day5 = c(Start=first.dark.cycle+96,End=first.dark.cycle+108),
+  Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
+  Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156),
+  Day8 = c(Start=first.dark.cycle+168,End=first.dark.cycle+180),
+  Day9 = c(Start=first.dark.cycle+192,End=first.dark.cycle+204),
+  Day10 = c(Start=first.dark.cycle+216,End=first.dark.cycle+228)  
+)
+write.csv(cohort8_clams, file="../data/processed/Cohort8_Oxymax.csv")
+
+```
 # VO2 Data
 
 ```{r vo2-raw-data, echo=FALSE}
 #merge the weight and clasm data
 annotated_clams_data <- merge(cohort8_weight, cohort8_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
+
+#filtered out bad numbers
+
+#first filtered out any reading with a comment
+annotated_clams_data <- subset(annotated_clams_data, Event.Log=='')
+#which mice have a negative delta CO2
+annotated_clams_data <- subset(annotated_clams_data, Volume.CO2>100)
+annotated_clams_data <- subset(annotated_clams_data, Volume.O2>100)
 
 write.csv(annotated_clams_data, file="../data/processed/clams_weight_training_data.csv")
 
@@ -300,8 +310,8 @@ merge_data1$VO2.LBM <- ifelse(merge_data1$Interval<stop_fasting_interval,merge_d
 merge_data1$Fast <- ifelse(merge_data1$Interval<start_fasting_interval,"Bf_fasting",ifelse(merge_data1$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
 
 ###Remove outliers:
-merge_data <- merge_data1[! merge_data1$RER %in% c('-5369.972', '-672.8121', '-335.7452', '-139.4203'), ]
-merge_data <- merge_data1[! merge_data1$RER < -40,]
+#merge_data <- merge_data1[! merge_data1$RER %in% c('-5369.972', '-672.8121', '-335.7452', '-139.4203'), ]
+merge_data <- merge_data1[! merge_data1$RER > 4 ,]
                                
 write.csv(merge_data, file="../data/processed/Combined_BC_clams_training_data.csv")
 
@@ -319,7 +329,9 @@ pairs(merge_data[merge_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
 pairs(merge_data[,c(15, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
         main="Both Light and Dark")
-######Random Forest#######
+
+
+######Random Forest Data#######
 
 cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', 
           "Percent.FL")
@@ -342,7 +354,7 @@ m_data<-
 m_data<-as.data.frame(m_data)
 #remove the During fasting phase
 model_data <- m_data[m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
-model_data$Fast <- factor(c("Bf_fasting", "After_fasting"))
+#model_data$Fast <- factor(c("Bf_fasting", "After_fasting"))
 
 write.csv(model_data, file='../data/processed/cohort8_training_data_for_modelling.csv')
 #model_data_wide <- reshape(model_data, timevar="Fast", idvar="Subject", direction="wide", 
