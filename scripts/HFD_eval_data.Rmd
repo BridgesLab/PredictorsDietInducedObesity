@@ -5,27 +5,30 @@ date: "March 27, 2015"
 output: html_document
 ---
 ```{r pulling data from the database, echo=FALSE}
-url.cohort9.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
-url.cohort9.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=15'
-
-library(rjson)
-library(RCurl)
-json.cohort9.group1 <- fromJSON(getURL(url.cohort9.group1))
-json.cohort9.group2 <- fromJSON(getURL(url.cohort9.group2))
-
-library(plyr)
-cohort9.data.1 <- rbind(ldply(lapply(json.cohort9.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
-cohort9.data.2 <- rbind(ldply(lapply(json.cohort9.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
-#cohort9.data$animal.MouseID <- as.factor(cohort9.data$animal.MouseID)
-
-useful.columns <- intersect(colnames(cohort9.data.1), colnames(cohort9.data.2))
-cohort9.data <- rbind(cohort9.data.1[,useful.columns],
-              cohort9.data.2[,useful.columns])
+# url.cohort9.group1 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=0&animal__cohort=15'
+# url.cohort9.group2 <- 'http://bridgeslab.uthsc.edu/mousedb/api/v1/data/?format=json&username=davebridges&api_key=fce3fde2a9a2e5dc9e04c20aad90120a621c50b3&limit=1000&offset=1000&animal__cohort=15'
+# 
+# library(rjson)
+# library(RCurl)
+# json.cohort9.group1 <- fromJSON(getURL(url.cohort9.group1))
+# json.cohort9.group2 <- fromJSON(getURL(url.cohort9.group2))
+# 
+# library(plyr)
+# cohort9.data.1 <- rbind(ldply(lapply(json.cohort9.group1[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+# cohort9.data.2 <- rbind(ldply(lapply(json.cohort9.group2[[2]],function(x) do.call(c,unlist(x,r=F))),as.data.frame))
+# #cohort9.data$animal.MouseID <- as.factor(cohort9.data$animal.MouseID)
+# 
+# useful.columns <- intersect(colnames(cohort9.data.1), colnames(cohort9.data.2))
+# cohort9.data <- rbind(cohort9.data.1[,useful.columns],
+#               cohort9.data.2[,useful.columns])
+ raw_output_file <- "../data/raw/Cohort 9 Raw Data.csv"
+# write.csv(cohort9.data, raw_output_file)
+ cohort9.data <- read.csv(raw_output_file, row.names="X")
 
 date_after_fasting <- '2014-12-02'
 date_before_fasting <- '2014-12-01'
 date_10weeks_MRI <- '2015-02-24'
-
+#only look at fed, fasted and 10w data
 date_of_interest <- c('2014-12-01', '2014-12-02', '2015-02-24')
 
 sub_cohort9.data <- cohort9.data[cohort9.data$experiment.date %in% date_of_interest,]
@@ -172,24 +175,41 @@ write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
 # VO2 Data
 
 ```{r vo2-raw-data, echo=FALSE}
-#merge the weight and clasm data
+#merge the weight and clams data
 annotated_clams_data <- merge(cohort9_weight, cohort9_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
 
+<<<<<<< HEAD
 write.csv(annotated_clams_data, file="../data/processed/clams_testing_data.csv")
+=======
+#filtered out bad numbers
+
+#first filtered out any reading with a comment
+annotated_clams_data <- subset(annotated_clams_data, Event.Log=='')
+#which mice have a negative delta CO2
+annotated_clams_data <- subset(annotated_clams_data, Volume.CO2>100)
+annotated_clams_data <- subset(annotated_clams_data, Volume.O2>100)
+
+write.csv(cohort9_clams, file="../data/processed/clams_testing_data.csv")
+>>>>>>> cohort-data-entry
 ```
 
 ````{r correlation_matrix, echo=FALSE}
-sub_cohort9_weight <- cohort9_weight[, c(2, 7:11)]
+sub_cohort9_weight <- cohort9_weight[, c('Subject','Lean','Fat','Weight','Percent.Fat','Fasting_stat')]
 cohort9_weight_wide <- reshape(sub_cohort9_weight, idvar="Subject", timevar="Fasting_stat", 
                                v.names=c("Lean","Fat","Weight","Percent.Fat"), direction="wide")
 #calculate the weight loss percentage
 cohort9_weight_wide$Percent.WL <- as.numeric((cohort9_weight_wide$Weight.Pre_fasting - cohort9_weight_wide$Weight.After_fasting)/cohort9_weight_wide$Weight.Pre_fasting*100)
-cohort9_weight_wide$Percent.WG <- as.numeric((cohort9_weight_wide$Weight.After_HFD - cohort9_weight_wide$Weight.After_fasting)/cohort9_weight_wide$Weight.After_fasting*100)
+#calculated weight gain relative to fed weight
+cohort9_weight_wide$Percent.WG <- as.numeric((cohort9_weight_wide$Weight.After_HFD - cohort9_weight_wide$Weight.Pre_fasting)/cohort9_weight_wide$Weight.Pre_fasting*100)
+#calculated lean loss during fast
 cohort9_weight_wide$Percent.LL <- as.numeric((cohort9_weight_wide$Lean.Pre_fasting - cohort9_weight_wide$Lean.After_fasting)/cohort9_weight_wide$Lean.Pre_fasting*100)
-cohort9_weight_wide$Percent.LG <- as.numeric((cohort9_weight_wide$Lean.After_HFD - cohort9_weight_wide$Lean.After_fasting)/cohort9_weight_wide$Lean.After_fasting*100)
-cohort9_weight_wide$Percent.FL <- as.numeric((cohort9_weight_wide$Percent.Fat.Pre_fasting - cohort9_weight_wide$Percent.Fat.After_fasting))
-cohort9_weight_wide$Percent.FG <- as.numeric((cohort9_weight_wide$Percent.Fat.After_HFD - cohort9_weight_wide$Percent.Fat.After_fasting))
+#calculated lean weight gain during diet relative to fed weight
+cohort9_weight_wide$Percent.LG <- as.numeric((cohort9_weight_wide$Lean.After_HFD - cohort9_weight_wide$Lean.Pre_fasting)/cohort9_weight_wide$Lean.Pre_fasting*100)
+#calculated fat loss during fast
+cohort9_weight_wide$Percent.FL <- as.numeric((cohort9_weight_wide$Fat.Pre_fasting - cohort9_weight_wide$Fat.After_fasting)/cohort9_weight_wide$Fat.Pre_fasting*100)
+#calculated fat gain during the diet relative to fed weight
+cohort9_weight_wide$Percent.FG <- as.numeric((cohort9_weight_wide$Fat.After_HFD - cohort9_weight_wide$Fat.Pre_fasting)/cohort9_weight_wide$Fat.Pre_fasting*100)
 
 #save the body composition data
 write.csv(cohort9_weight, file="../data/processed/body_compostition_testing_data.csv")
@@ -226,7 +246,7 @@ panel.hist <- function(x, ...)
   rect(breaks[-nB], 0, breaks[-1], y, col="cyan", ...)
 }
 
-pairs(cohort9_weight_wide[,c(14:19)],
+pairs(cohort9_weight_wide[,c('Percent.WG','Percent.Fat.Pre_fasting','Percent.WL','Percent.FL','Percent.LL','Percent.LG','Percent.FG')],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist)
 ```
 
@@ -254,40 +274,33 @@ pairs(test_data[test_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
         main="DARK")
 
 ####prepare data for random forest
-cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', 
-          "Percent.FL")
+cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', "Percent.FL",'Interval')
 
 test_data$Fast <- as.factor(test_data$Fast)
 cohort9_model_dat1<-test_data[,cols]
 
-#model_data <-as.data.frame()
+#summarized data in the pre-fasted subset by light/dark and animal.  Ignored the fasting data
 cohort9_m_data<-
-  cohort9_model_dat1 %>%
-  group_by(Subject, Light.Dark, Fast) %>%
+  subset(cohort9_model_dat1, Interval<start_fasting_interval) %>%
+  group_by(Subject, Light.Dark) %>%
   summarise(
-    Avg.Percent.LL = mean(Percent.LL),
-    Avg.Percent.FL = mean(Percent.FL),
     RER = mean(RER),
     SumXYAmb = mean(SumXYAmb),
     VO2.LBM = mean(VO2.LBM),
     Percent.WG=mean(Percent.WG))
-cohort9_m_data<-as.data.frame(cohort9_m_data)
+cohort9_model_data<-as.data.frame(cohort9_m_data)
 
-cohort9_model_data <- cohort9_m_data[cohort9_m_data$Fast %in% c("Bf_fasting", "After_fasting"),]
-cohort9_model_data$Fast <- factor(c("Bf_fasting", "After_fasting"))
 write.csv(cohort9_model_data, file="../data/processed/cohort9_testing_data_for_modelling.csv")
 
 cohort9_model_data_dark <- cohort9_model_data[cohort9_model_data$Light.Dark=="Dark",]
 cohort9_model_data_light <- cohort9_model_data[cohort9_model_data$Light.Dark=="Light",]
 
-#make the data into wide format
-cohort9_model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", 
-                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+pairs(cohort9_model_data_dark[,c('Percent.WG','RER','SumXYAmb','VO2.LBM')],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+          main="LIGHT")
 
-cohort9_model_data_light_wide <- reshape(model_data_light, timevar="Fast", idvar="Subject", direction="wide", 
-                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
-testing_set <- merge(model_data_light_wide, model_data_dark_wide[,c(1,8:13)],by="Subject")
-
-
+pairs(cohort9_model_data_light[,c('Percent.WG','RER','SumXYAmb','VO2.LBM')],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+        main="DARK")
 ```
 
