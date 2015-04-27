@@ -25,6 +25,9 @@ useful.columns <- intersect(colnames(cohort8.data.1), colnames(cohort8.data.2))
 cohort8.data <- rbind(cohort8.data.1[,useful.columns],
               cohort8.data.2[,useful.columns])
 
+raw_output_file <- "../data/raw/Cohort_8_Raw_Data.csv"
+#write.csv(cohort9.data, raw_output_file)
+cohort8.data <- read.csv(raw_output_file, row.names="X")
 
 date_after_fasting <- '2014-10-21'
 date_before_fasting <- '2014-10-20'
