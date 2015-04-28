@@ -179,9 +179,6 @@ write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
 annotated_clams_data <- merge(cohort9_weight, cohort9_clams, by='Subject')
 annotated_clams_data$VO2 <- annotated_clams_data$Volume.O2*annotated_clams_data$Weight/1000
 
-<<<<<<< HEAD
-write.csv(annotated_clams_data, file="../data/processed/clams_testing_data.csv")
-=======
 #filtered out bad numbers
 
 #first filtered out any reading with a comment
@@ -191,7 +188,7 @@ annotated_clams_data <- subset(annotated_clams_data, Volume.CO2>100)
 annotated_clams_data <- subset(annotated_clams_data, Volume.O2>100)
 
 write.csv(cohort9_clams, file="../data/processed/clams_testing_data.csv")
->>>>>>> cohort-data-entry
+
 ```
 
 ````{r correlation_matrix, echo=FALSE}
@@ -272,6 +269,35 @@ pairs(test_data[test_data$Light.Dark=="Light", c(15, 33, 49, 50)],
 pairs(test_data[test_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
         main="DARK")
+
+cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
+cohort9_clams_LBM <- test_data[, cols]
+cohort9_clams_LBM$Fast <- ifelse(cohort9_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
+                                 ifelse(cohort9_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
+cohort9_clams_LBM$Fast <- as.factor(cohort9_clams_LBM$Fast)
+
+cohort9_mod <- merge(cohort9_weight, cohort9_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)
+
+cohort9_mod$Fasting_stat <- relevel(as.factor(cohort9_mod$Fasting_stat), ref='Pre_fasting')
+
+cohort9_m_data<-
+  cohort9_mod %>%
+  group_by(Subject, Light.Dark, Fasting_stat) %>%
+  summarise(
+    RER = mean(RER),
+    SumXYAmb = mean(SumXYAmb),
+    VO2.LBM = mean(VO2.LBM),
+    Lean=mean(Lean),
+    Fat=mean(Fat),
+    Percent.Fat=mean(Percent.Fat),
+    Weight=mean(Weight))
+cohort9_m_data<-as.data.frame(cohort9_m_data)
+
+cohort9_m_data <- cohort9_m_data[!cohort9_m_data$Fasting_stat=="During_fasting",]
+cohort9_m_data[is.na(cohort9_m_data$Light.Dark), 2] <- "Light"
+
+write.csv(cohort9_m_data, file='../data/processed/cohort9_longitudinal_data_for_modelling.csv')
+
 
 ####prepare data for random forest
 cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', , 'Percent.WL', "Percent.FL",'Interval')

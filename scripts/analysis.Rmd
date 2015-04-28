@@ -7,6 +7,12 @@ output: html_document
 
 
 ```{r read_data, echo=FALSE}
+library(randomForest)
+library(miscTools)
+library(reshape2)
+library(caret)
+library(ggplot2)
+library(dplyr)
 
 cohort8_clams <- read.csv(file="../data/processed/clams_training_data.csv", header=TRUE)
 cohort9_clams <- read.csv(file="../data/processed/clams_testing_data.csv", header=TRUE)
@@ -14,89 +20,65 @@ cohort9_clams <- read.csv(file="../data/processed/clams_testing_data.csv", heade
 cohort8_weight <- read.csv( file="../data/processed/body_compostition_training_data.csv", header=T)
 cohort9_weight <- read.csv( file="../data/processed/body_compostition_testing_data.csv", header=T)
 
-sub_cohort8_weight <- as.data.frame(cohort8_weight[, c(3, 7:11)])
-cohort8_weight_wide <- reshape(sub_cohort8_weight, idvar="Subject", timevar="Fasting_stat", v.names=c("Lean", "Fat", "Weight","Percent.Fat"), direction="wide")
+cohort8_clams_weight <- read.csv(file="../data/processed/Combined_BC_clams_training_data.csv", header=T)
 
-model_data <- read.csv(file='../data/processed/cohort8_training_data_for_modelling.csv', header=T)
-cohort9_model_data <- read.csv(file='../data/processed/cohort9_testing_data_for_modelling.csv', header=T)
+cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
+cohort8_clams_LBM <- cohort8_clams_weight[, cols]
+cohort8_clams_LBM$Fast <- ifelse(cohort8_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
+                                 ifelse(cohort8_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
+cohort8_clams_LBM$Fast <- as.factor(cohort8_clams_LBM$Fast)
+
+cohort8_mod <- merge(cohort8_weight, cohort8_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)
+
+cohort8_mod <- relevel(as.factor(cohort8_mod$Fasting_stat), ref='Pre_fasting')
+
+cohort8_m_data<-
+  cohort8_mod %>%
+  group_by(Subject, Light.Dark, Fasting_stat) %>%
+  summarise(
+    RER = mean(RER),
+    SumXYAmb = mean(SumXYAmb),
+    VO2.LBM = mean(VO2.LBM),
+    Lean=mean(Lean),
+    Fat=mean(Fat),
+    Percent.Fat=mean(Percent.Fat),
+    Weight=mean(Weight))
+cohort8_m_data<-as.data.frame(cohort8_m_data)
+
+cohort8_m_data <- cohort8_m_data[!cohort8_m_data$Fasting_stat=="During_fasting",]
+cohort8_m_data[is.na(cohort8_m_data$Light.Dark), 2] <- "Light"
+
+model_data <- read.csv(file='../data/processed/cohort8_longitudinal_data_for_modelling.csv', header=T)
+cohort9_model_data <- read.csv(file='../data/processed/cohort9_longitudinal_data_for_modelling.csv', header=T)
 
 cohort8_weight <- read.csv( file="../data/processed/body_compostition_training_data.csv", header=T)
-sub_cohort8_weight <- as.data.frame(cohort8_weight[, c(3, 7:11)])
-cohort8_weight_wide <- reshape(sub_cohort8_weight, idvar="Subject", timevar="Fasting_stat", v.names=c("Lean", "Fat", "Weight","Percent.Fat"), direction="wide")
+#sub_cohort8_weight <- as.data.frame(cohort8_weight[, c(3, 7:11)])
+#cohort8_weight_wide <- reshape(sub_cohort8_weight, idvar="Subject", timevar="Fasting_stat", v.names=c("Lean", "Fat", "Weight","Percent.Fat"), direction="wide")
 #combine data from cohort8 and 9
 combine.data <- rbind(model_data, cohort9_model_data)
-
-model_data_dark <- model_data[model_data$Light.Dark=="Dark",]
-model_data_light <- model_data[model_data$Light.Dark=="Light",]
-
-#make the data into wide format
-model_data_dark_wide <- reshape(model_data_dark, timevar="Fast", idvar="Subject", direction="wide", 
-                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
-#calculate the difference in VO2 and RER bf and after fasting
-model_data_dark_wide$VO2.diff <-model_data_dark_wide$VO2.LBM.Bf_fasting - model_data_dark_wide$VO2.LBM.After_fasting
-model_data_dark_wide$RER.diff <- model_data_dark_wide$RER.Bf_fasting - model_data_dark_wide$RER.After_fasting
-model_data_dark_wide$Amb.diff <- model_data_dark_wide$SumXYAmb.Bf_fasting - model_data_dark_wide$SumXYAmb.After_fasting  
-
-model_data_light_wide <- reshape(model_data_light, timevar="Fast", idvar="Subject", direction="wide", 
-                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
-
-#calculate the difference in VO2 and RER bf and after fasting
-model_data_light_wide$VO2.diff <-model_data_light_wide$VO2.LBM.Bf_fasting - model_data_light_wide$VO2.LBM.After_fasting
-model_data_light_wide$RER.diff <- model_data_light_wide$RER.Bf_fasting - model_data_light_wide$RER.After_fasting
-model_data_light_wide$Amb.diff <- model_data_light_wide$SumXYAmb.Bf_fasting - model_data_light_wide$SumXYAmb.After_fasting
-
-merge_LD <- merge(model_data_light_wide, model_data_dark_wide[,c(1,6:14)],by="Subject")
-#list of predictors
-#x = Light, y=Dark
-predictors <- c( 'Avg.Percent.LL', 'Avg.Percent.FL', 
-                'VO2.LBM.After_fasting.x', 'VO2.LBM.Bf_fasting.x',
-                'VO2.LBM.After_fasting.y', 'VO2.LBM.Bf_fasting.y',
-                'RER.After_fasting.x',  'RER.Bf_fasting.x',
-                 'RER.After_fasting.y','RER.Bf_fasting.y',
-                'SumXYAmb.After_fasting.x', 'SumXYAmb.Bf_fasting.x',
-                'SumXYAmb.After_fasting.y','SumXYAmb.Bf_fasting.y',
-                'Percent.WG')
-predictors1 <- c( 'Avg.Percent.LL','Avg.Percent.FL', 
-                'VO2.LBM.After_fasting.x', 'VO2.LBM.Bf_fasting.x',
-                'VO2.LBM.After_fasting.y', 'VO2.LBM.Bf_fasting.y',
-                'RER.After_fasting.x',  'RER.Bf_fasting.x',
-                 'RER.After_fasting.y','RER.Bf_fasting.y',
-                'SumXYAmb.After_fasting.x', 'SumXYAmb.Bf_fasting.x',
-                'SumXYAmb.After_fasting.y','SumXYAmb.Bf_fasting.y')
-
-predictors_light <- c('Subject', 'Avg.Percent.LL','Avg.Percent.FL', 'Percent.WL',
-                'VO2.LBM.Light', 'VO2.LBM.Dark',
-                'RER.Light',  'RER.Dark',
-                'SumXYAmb.Light','SumXYAmb.Dark',
-                'Percent.WG')
-predictors_light <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG', 
-                'VO2.diff', 
-                'RER.diff',  
-                'SumXYAmb.Bf_fasting',
-                'Percent.WG')
 
 #LINEAR MIXED EFFECT MODEL
 library(lme4)
 
-sub_model_data <- model_data[!model_data$Fast=="After_fasting",]
-model_data2 <- model_data[rownames(model_data)!=7,]
-weight.lme <- lmer(Percent.WG~ Avg.Percent.LL + Avg.Percent.FL + Percent.WL + Light.Dark+
-                     RER + SumXYAmb + VO2.LBM+
-                   + (1|Subject), data=sub_model_data)
+cohort8_model_light <- subset(cohort8_m_data, Light.Dark=="Light")
 
-rescale_data <- sub_model_data
+weight.lme <- lmer(Weight~ Lean+ Percent.Fat+ Fasting_stat +
+                     RER + SumXYAmb + VO2.LBM + (1|Subject), 
+                   data=cohort8_model_light)
+
+rescale_data <- cohort8_model_light
 rescale_data[,c(4:9)] <- scale(rescale_data[, c(4:9)])
 weight.lme_scale <- update(weight.lme, data=rescale_data)
 
 plot(predict(weight.lme), residuals(weight.lme))
 # standardized residuals versus fitted values by gender
-plot(weight.lme, resid(.) ~ fitted(.) | Light.Dark, abline = 0)
+plot(weight.lme, resid(.) ~ fitted(.), abline = 0)
 
 #box-plots of residuals by Subject
 plot(weight.lme, Subject~resid(.))
 
 #observed versus fitted values by Subject
-plot(weight.lme, Percent.WG ~ predict(.) | Subject, abline = c(0,1))
+plot(weight.lme, Weight ~ predict(.), abline = c(0,1))
 
 plot(density(resid(weight.lme)))
 
@@ -104,13 +86,11 @@ qqnorm(weight.lme, ~ranef(., level=1))
 
 library(REEMtree)
 sub_model_data <- model_data[!model_data$Fast=="After_fasting",]
-model_data_wide <- reshape(sub_model_data, timevar="Light.Dark", idvar="Subject", direction="wide", 
-                                v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+model_data_wide <- reshape(cohort8_model_light, timevar="Light.Dark", idvar="Subject", direction="wide", v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
 #Fit a RE-EM tree to data. This estimates a regression tree combined with a linear random effects model.
-weight.rf <- REEMtree(Percent.WG~ Avg.Percent.FL + Avg.Percent.LL +Percent.WL+
-                      VO2.LBM + RER + SumXYAmb+ Light.Dark #VO2.LBM.Dark + RER.Dark + SumXYAmb.Dark+ #VO2.LBM.Light + RER.Light +SumXYAmb.Light+
-                     
-                    , data=sub_model_data, random=~1|Subject)
+weight.rf <- REEMtree(Weight~ Lean + Percent.Fat +Fasting_stat+
+                      VO2.LBM + RER + SumXYAmb 
+                    , data=rescale_data, random=~1|Subject)
 #print a description of a fitted REEM tree object
 print(weight.rf)
 fitted(weight.rf)
@@ -123,23 +103,44 @@ plot(density(residuals(weight.rf)))
 tree(weight.rf)
 
 cohort9_model_data$Subject <- as.factor(cohort9_model_data$Subject)
-sub_cohort9_model_data <- cohort9_model_data[!cohort9_model_data$Avg.Percent.LL <= 0,]
+#sub_cohort9_model_data <- cohort9_model_data[!cohort9_model_data$Avg.Percent.LL <= 0,]
 
 combine.data <- rbind(sub_model_data[ ,c(1:8, 10)], sub_cohort9_model_data[, 2:7])
 
 #estimate using the cohort8 only so make the 144 observation TRUE for cohort 8
 # with predictions for all observations
-sub <- c(rep(TRUE, 96), rep(FALSE, 62))
-weight.rf2 <- REEMtree(Percent.WG~ VO2.LBM + RER + SumXYAmb+
-                     Avg.Percent.FL + Avg.Percent.LL + Light.Dark + Fast
-                    , data=combine.data, random=~1|Subject, subset=sub)
-predict1 <- predict(weight.rf2, combine.data ,  EstimateRandomEffects=FALSE)
+sub_combine.data<-subset(combine.data, Light.Dark=="Light")
+sub <- c(rep(TRUE, 100), rep(FALSE, 62))
+weight.rf2 <- REEMtree(Weight~ VO2.LBM + RER + SumXYAmb+
+                     Fasting_stat
+                    , data=sub_combine.data, random=~1|Subject, subset=sub)
+
+#weight.rf2 <- REEMtree(Percent.WG~ VO2.LBM + RER + SumXYAmb+
+ #                    Avg.Percent.FL + Avg.Percent.LL + Light.Dark + Fast
+  #                  , data=combine.data, random=~1|Subject, subset=sub)
+
+predict1 <- predict(weight.rf2, sub_combine.data ,  EstimateRandomEffects=F)
 #calculate r2 and mse
-r2_1 <- rSquared(combine.data$Percent.WG, combine.data$Percent.WG - predict1)
-mse_1 <- mean((combine.data$Percent.WG - (predict1))^2)
+r2_1 <- rSquared(sub_combine.data$Weight, sub_combine.data$Weight - predict1)
+mse_1 <- mean((sub_combine.data$Weight - (predict1))^2)
 
-predict2 <- predict(weight.rf2, combine.data , id=combine.data$Subject, EstimateRandomEffects=TRUE)
+predict2 <- predict(weight.rf2, sub_combine.data , id=sub_combine.data$Subject, EstimateRandomEffects=TRUE)
 
+r2_2 <- rSquared(sub_combine.data$Weight, sub_combine.data$Weight - predict2)
+mse_2 <- mean((sub_combine.data$Weight - (predict2))^2)
+
+#print a description of a fitted REEM tree object
+print(weight.rf2)
+fitted(weight.rf2)
+#plot the 
+plot.REEMtree(weight.rf2, text=T)
+#extrct the estimated random effects from the fitted REEM tree
+ranef(weight.rf2)
+
+plot(density(residuals(weight.rf2)))
+tree(weight.rf2)
+
+plot(weight.rf2, resid(.) ~ fitted(.), abline = 0)
 
 ```
 

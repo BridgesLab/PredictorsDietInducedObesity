@@ -307,7 +307,7 @@ merge_data1$SumXYAmb <- merge_data1$X.Ambulatory+merge_data$Y.Ambulatory
 ##Calculate the VO2. Before and during fasting, i.e. interval <158, use the Pre_fasting weight to calculate the VO2. After fasting, VO2 will be calculated using the After_fasting weight##
 merge_data1$VO2.LBM <- ifelse(merge_data1$Interval<stop_fasting_interval,merge_data1$VO2/merge_data1$Lean.Pre_fasting, merge_data1$VO2/merge_data1$Lean.After_fasting)
 
-merge_data1$Fast <- ifelse(merge_data1$Interval<start_fasting_interval,"Bf_fasting",ifelse(merge_data1$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
+merge_data1$Fast <- ifelse(merge_data1$Interval<start_fasting_interval,"Pre_fasting",ifelse(merge_data1$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
 
 ###Remove outliers:
 #merge_data <- merge_data1[! merge_data1$RER %in% c('-5369.972', '-672.8121', '-335.7452', '-139.4203'), ]
@@ -330,6 +330,33 @@ pairs(merge_data[,c(15, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
         main="Both Light and Dark")
 
+cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
+cohort8_clams_LBM <- merge_data[, cols]
+cohort8_clams_LBM$Fast <- ifelse(cohort8_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
+                                 ifelse(cohort8_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
+cohort8_clams_LBM$Fast <- as.factor(cohort8_clams_LBM$Fast)
+
+cohort8_mod <- merge(cohort8_weight, cohort8_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)
+
+cohort8_mod$Fasting_stat <- relevel(as.factor(cohort8_mod$Fasting_stat), ref='Pre_fasting')
+
+cohort8_m_data<-
+  cohort8_mod %>%
+  group_by(Subject, Light.Dark, Fasting_stat) %>%
+  summarise(
+    RER = mean(RER),
+    SumXYAmb = mean(SumXYAmb),
+    VO2.LBM = mean(VO2.LBM),
+    Lean=mean(Lean),
+    Fat=mean(Fat),
+    Percent.Fat=mean(Percent.Fat),
+    Weight=mean(Weight))
+cohort8_m_data<-as.data.frame(cohort8_m_data)
+
+cohort8_m_data <- cohort8_m_data[!cohort8_m_data$Fasting_stat=="During_fasting",]
+cohort8_m_data[is.na(cohort8_m_data$Light.Dark), 2] <- "Light"
+
+write.csv(cohort8_m_data, file='../data/processed/cohort8_longitudinal_data_for_modelling.csv')
 
 ######Random Forest Data#######
 
