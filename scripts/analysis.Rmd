@@ -22,31 +22,31 @@ cohort9_weight <- read.csv( file="../data/processed/body_compostition_testing_da
 
 cohort8_clams_weight <- read.csv(file="../data/processed/Combined_BC_clams_training_data.csv", header=T)
 
-cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
-cohort8_clams_LBM <- cohort8_clams_weight[, cols]
-cohort8_clams_LBM$Fast <- ifelse(cohort8_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
-                                 ifelse(cohort8_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
-cohort8_clams_LBM$Fast <- as.factor(cohort8_clams_LBM$Fast)
+#cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
+#cohort8_clams_LBM <- cohort8_clams_weight[, cols]
+#cohort8_clams_LBM$Fast <- ifelse(cohort8_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
+ #                                ifelse(cohort8_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
+#cohort8_clams_LBM$Fast <- as.factor(cohort8_clams_LBM$Fast)
 
-cohort8_mod <- merge(cohort8_weight, cohort8_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)
+#cohort8_mod <- merge(cohort8_weight, cohort8_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)
 
-cohort8_mod <- relevel(as.factor(cohort8_mod$Fasting_stat), ref='Pre_fasting')
+#cohort8_mod <- relevel(as.factor(cohort8_mod$Fasting_stat), ref='Pre_fasting')
 
-cohort8_m_data<-
-  cohort8_mod %>%
-  group_by(Subject, Light.Dark, Fasting_stat) %>%
-  summarise(
-    RER = mean(RER),
-    SumXYAmb = mean(SumXYAmb),
-    VO2.LBM = mean(VO2.LBM),
-    Lean=mean(Lean),
-    Fat=mean(Fat),
-    Percent.Fat=mean(Percent.Fat),
-    Weight=mean(Weight))
-cohort8_m_data<-as.data.frame(cohort8_m_data)
+#cohort8_m_data<-
+ # cohort8_mod %>%
+#  group_by(Subject, Light.Dark, Fasting_stat) %>%
+#  summarise(
+ #   RER = mean(RER),
+  #  SumXYAmb = mean(SumXYAmb),
+  #  VO2.LBM = mean(VO2.LBM),
+  #  Lean=mean(Lean),
+  #  Fat=mean(Fat),
+  #Percent.Fat=mean(Percent.Fat),
+  #  Weight=mean(Weight))
+c#ohort8_m_data<-as.data.frame(cohort8_m_data)
 
-cohort8_m_data <- cohort8_m_data[!cohort8_m_data$Fasting_stat=="During_fasting",]
-cohort8_m_data[is.na(cohort8_m_data$Light.Dark), 2] <- "Light"
+#cohort8_m_data <- cohort8_m_data[!cohort8_m_data$Fasting_stat=="During_fasting",]
+#cohort8_m_data[is.na(cohort8_m_data$Light.Dark), 2] <- "Light"
 
 model_data <- read.csv(file='../data/processed/cohort8_longitudinal_data_for_modelling.csv', header=T)
 cohort9_model_data <- read.csv(file='../data/processed/cohort9_longitudinal_data_for_modelling.csv', header=T)
@@ -57,17 +57,22 @@ cohort8_weight <- read.csv( file="../data/processed/body_compostition_training_d
 #combine data from cohort8 and 9
 combine.data <- rbind(model_data, cohort9_model_data)
 
+cohort9_model_light <- subset(cohort9_model_data, Light.Dark="Light")
+combine.data.wide <- reshape(subset(combine.data, Light.Dark=="Light"), timevar="Fasting_stat", idvar="Subject", direction="wide", v.names=c( "RER", "VO2.LBM", "SumXYAmb", "Lean", "Fat", "Percent.Fat", "Weight"))
+```
+
 #LINEAR MIXED EFFECT MODEL
+```{r linear_mixed_effect_model, echo=FALSE}
 library(lme4)
 
-cohort8_model_light <- subset(cohort8_m_data, Light.Dark=="Light")
+cohort8_model_light <- subset(model_data, Light.Dark=="Light")
 
 weight.lme <- lmer(Weight~ Lean+ Percent.Fat+ Fasting_stat +
                      RER + SumXYAmb + VO2.LBM + (1|Subject), 
                    data=cohort8_model_light)
 
 rescale_data <- cohort8_model_light
-rescale_data[,c(4:9)] <- scale(rescale_data[, c(4:9)])
+rescale_data[,c(5:7)] <- scale(rescale_data[, c(5:7)])
 weight.lme_scale <- update(weight.lme, data=rescale_data)
 
 plot(predict(weight.lme), residuals(weight.lme))
@@ -83,11 +88,20 @@ plot(weight.lme, Weight ~ predict(.), abline = c(0,1))
 plot(density(resid(weight.lme)))
 
 qqnorm(weight.lme, ~ranef(., level=1))
+```
 
+#REEM tree
+```{r REEM_tree, echo=FALSE}
 library(REEMtree)
 sub_model_data <- model_data[!model_data$Fast=="After_fasting",]
-model_data_wide <- reshape(cohort8_model_light, timevar="Light.Dark", idvar="Subject", direction="wide", v.names=c( "RER", "VO2.LBM", "SumXYAmb"))
+model_data_wide <- reshape(cohort8_model_light, timevar="Fasting_stat", idvar="Subject", direction="wide", v.names=c( "RER", "VO2.LBM", "SumXYAmb", "Lean", "Fat", "Percent.Fat", "Weight"))
 #Fit a RE-EM tree to data. This estimates a regression tree combined with a linear random effects model.
+weight.rf <- REEMtree(Weight.After_HFD~ Lean.Pre_fasting +Fat.Pre_fasting + 
+                         Lean.After_fasting + Fat.After_fasting+
+                         RER.Pre_fasting + VO2.LBM.Pre_fasting + SumXYAmb.Pre_fasting+
+                         RER.After_fasting + VO2.LBM.After_fasting + SumXYAmb.After_fasting
+                    , data=model_data_wide, random=~1|Subject)
+
 weight.rf <- REEMtree(Weight~ Lean + Percent.Fat +Fasting_stat+
                       VO2.LBM + RER + SumXYAmb 
                     , data=rescale_data, random=~1|Subject)
@@ -144,24 +158,32 @@ plot(weight.rf2, resid(.) ~ fitted(.), abline = 0)
 
 ```
 
+#RANDOM FOREST
+````{r random forest, dev(pdf,png), echo=FALSE}
+predictors_light <- c("Lean.Pre_fasting", 'Fat.Pre_fasting', 'Lean.After_fasting', 'Fat.After_fasting',
+                         'RER.Pre_fasting', 'VO2.LBM.Pre_fasting', 'SumXYAmb.Pre_fasting',
+                         'RER.After_fasting', 'VO2.LBM.After_fasting','SumXYAmb.After_fasting', 'Weight.After_HFD')
+#impute missing data or NA data
+cohort8.imputed <- rfImpute(Weight.After_HFD~., model_data_wide[,predictors_light])
+combine.data.imputed <- rfImpute(Weight.After_HFD~., combine.data.wide[, predictors_light])
 
-````{r random forest, echo=FALSE}
-tst <- rfcv(model_data_wide[, predictors_light], model_data_wide$Percent.WG, scale="log", step=0.5, cv.fold=2, recursive=T)
-pairs(tst$n.var, tst$error.cv)
-
+tst <- rfcv(cohort8.imputed, cohort8.imputed$Weight.After_HFD, scale="log", step=0.5, cv.fold=2, recursive=T)
+with(tst, plot(n.var, error.cv, log="x", type="o", lwd=2))
+hist(treesize(rf))
 
 #Find the optimal number of variables to try splitting at each node
-bestmtry <- tuneRF(model_data_wide[, predictors_light], model_data_wide$Percent.WG,  ntreeTry=100, 
+bestmtry <- tuneRF(cohort8.imputed, cohort8.imputed$Weight.After_HFD,  ntreeTry=300, 
      stepFactor=1.5,improve=0.01, trace=TRUE, plot=TRUE, dobest=FALSE)
-
+bestmtry <- tuneRF(combine.data.imputed, combine.data.imputed$Weight.After_HFD,  ntreeTry=600, 
+     stepFactor=2,improve=0.05, trace=TRUE, plot=TRUE, dobest=FALSE)
 #making the tuning grid
-#grid_rf <- expand.grid(.mtry=c(2,4, 8))
-#m_rf <- train(Percent.WG~., data=training[,predictors], method="rf", metric="Rsquared", tuneGrid=grid_rf)
+grid_rf <- expand.grid(.mtry=c(2,3,4,8,9))
+m_rf <- train(Weight.After_HFD~., data=combine.data.imputed, method="rf", metric="Rsquared", tuneGrid=grid_rf)
 
 #The optimal number of variables for splitting is 4
-rf <- randomForest(Percent.WG~., data=model_data_wide[,predictors_light], ntree=1000, mtry=3, importance=TRUE,keep.forest=TRUE, proximity=TRUE)
+rf <- randomForest(Weight.After_HFD~., data=combine.data.imputed, ntree=600, mtry=3, importance=TRUE,keep.forest=TRUE, proximity=TRUE)
 
-
+varImp(rf)
 varImpPlot(rf)
 varUsed(rf)
 wg.prox<- rf$proximity
@@ -181,10 +203,10 @@ ggplot(import, aes(x=PercentIncMSE,y=IncNodePurity)) +
 ```
 
 ```{r k-fold cross validation, echo=FALSE}
-k = 10 #Folds
+k = 30 #Folds
  
 # sample from 1 to k, nrow times (the number of observations in the data)
-merge_LD$id <- sample(1:k, nrow(merge_LD), replace = TRUE)
+combine.data.imputed$id <- sample(1:k, nrow(combine.data.imputed), replace = TRUE)
 list <- 1:k
  
 # prediction and testset data frames that we add to with each iteration over
@@ -193,6 +215,7 @@ list <- 1:k
 prediction <- data.frame()
 testsetCopy <- data.frame()
  
+library(plyr)
 #Creating a progress bar to know the status of CV
 progress.bar <- create_progress_bar("text")
 progress.bar$init(k)
@@ -200,68 +223,75 @@ progress.bar$init(k)
 for (i in 1:k){
   # remove rows with id i from dataframe to create training set
   # select rows with id i to create test set
-  trainingset <- subset(merge_LD, id %in% list[-i])
-  testset <- subset(merge_LD, id %in% c(i))
+  trainingset <- subset(combine.data.imputed, id %in% list[-i])
+  testset <- subset(combine.data.imputed, id %in% c(i))
   
   # run a random forest model
-  mymodel <- randomForest(trainingset$Percent.WG ~ ., data = trainingset, ntree = 600, mtry=4)
+  mymodel <- randomForest(trainingset$Weight.After_HFD ~ VO2.LBM.Pre_fasting+ Lean.Pre_fasting+RER.Pre_fasting+
+                            Lean.After_fasting +RER.After_fasting + Fat.After_fasting
+                          , data = trainingset, ntree = 600, mtry=3, importance=TRUE,keep.forest=TRUE, proximity=TRUE)
                                                      
-  # remove response column 1, Percent.WG
-  temp <- as.data.frame(predict(mymodel, testset[,-7]))
+  # remove response column 1, Weight.After_HFD
+  temp <- as.data.frame(predict(mymodel, testset[,-1]))
   # append this iteration's predictions to the end of the prediction data frame
   prediction <- rbind(prediction, temp)
   
   #calculate r2 and mse
-  r2 <- rSquared(testset$Percent.WG, testset$Percent.WG - predict(mymodel, testset[,predictors]))
+  #r2 <- rSquared(testset$Weight.After_HFD, testset$Weight.After_HFD - predict(mymodel, testset[,-1]))
   
-  mse <- mean((testset$Percent.WG - predict(mymodel, testset[,predictors]))^2)
+  #mse <- mean((testset$Weight.After_HFD - predict(mymodel, testset[,-1]))^2)
   
   # append this iteration's test set to the test set copy data frame
-  # keep only the Percent.WG Column
-  testsetCopy <- rbind(testsetCopy, as.data.frame(testset[,7]), mse)
+  # keep only the Weight.After_HFD Column
+  testsetCopy <- rbind(testsetCopy, as.data.frame(testset[,1]))
   
   progress.bar$step()
 }
  
-# add predictions and actual Percent.WG values
+# add predictions and actual Weight.After_HFD values
 result <- cbind(prediction, testsetCopy[,1])
 names(result) <- c("Predicted", "Actual")
 result$Difference <- abs(result$Actual - result$Predicted)
-result$r2 <- rSquared(result$Actual, results$Actual - result$Predicted)
+r2 <- rSquared(result$Actual, result$Difference)
+mse <- mean((result$Actual - result$Predicted)^2)
 #result$
 plot(result)
+dev.copy(plot(result), 'figure/Predicted_Actual_Difference.pdf')
+dev.off
 # As an example use Mean Absolute Error as Evalution 
 summary(result$Difference)
- 
+
+varImpPlot(mymodel)
+varUsed(mymodel)
+wg.prox<- mymodel$proximity
+wg.mds <- cmdscale(1-wg.prox)
+plot(wg.mds, col = c("blue","orange"), pch = c(1,16), xlab="", ylab="")
+
+par(mfrow=c(1,1))
+library(calibrate)
+plot(mymodel)
  
 ```
 
 ```{r Test data set, echo=FALSE}
 #partition the data
-idx <- createDataPartition(y=merge_LD$Percent.WG, p=0.75, list=FALSE )
-training <- merge_LD[idx,]
-testing <- merge_LD[-idx,]
+idx <- createDataPartition(y=combine.data.imputed$Weight.After_HFD, p=0.6, list=FALSE )
+training <- combine.data.imputed[idx,]
+testing <- combine.data.imputed[-idx,]
 set.seed(300)
 par(mfrow=c(1,1))
 #look at the importance of the predictors, higer value means more importance
 round(importance(rf),2)
-predictors1 <- c('Subject', 'Avg.Percent.LL', 'Avg.Percent.FL',
-      
-                 'VO2.LBM.Bf_fasting.x','VO2.LBM.After_fasting.x',
-              'VO2.LBM.Bf_fasting.y', 'VO2.LBM.After_fasting.y',
-                 'RER.Bf_fasting.x', 'REF.AFter_fasting.x',
-                'SumXYAmb.After_fasting.y','SumXYAmb.Bf_fasting.y', 
-              'Percent.WG')
 
-rf <- randomForest(Percent.WG~., data=training[,predictors1], ntree=600, mtry=4, test=testing$Precent.WG, importance=TRUE,
+rf <- randomForest(Weight.After_HFD~., data=training[,predictors_light], ntree=600, mtry=9, test=testing$Weight.After_HFD, importance=TRUE,
                    keep.forest=TRUE, proximity=TRUE)
 
-r2 <- rSquared(testing$Percent.WG, testing$Percent.WG - predict(rf, testing[,predictors1]))
+r2 <- rSquared(testing$Weight.After_HFD, testing$Weight.After_HFD - predict(rf, testing[,predictors_light]))
 
-mse <- mean((testing$Percent.WG - predict(rf, testing[,predictors1]))^2)
+mse <- mean((testing$Weight.After_HFD - predict(rf, testing[,predictors_light]))^2)
 
 p <- ggplot(aes(x=actual, y=pred),
-  data=data.frame(actual=testing$Percent.WG, pred=predict(rf, testing[,predictors1])))
+  data=data.frame(actual=testing$Weight.After_HFD, pred=predict(rf, testing[,predictors_light])))
 p + geom_point() +
   geom_abline(color="red") +
   ggtitle(paste("RandomForest Regression in R r^2=", r2, sep=""))
