@@ -302,7 +302,7 @@ start_fasting_interval <- 128
 stop_fasting_interval <- 158
 
 merge_data1 <- merge(cohort8_weight_wide, annotated_clams_data[,c(1, 11:39)], by='Subject')
-merge_data1$SumXYAmb <- merge_data1$X.Ambulatory+merge_data$Y.Ambulatory
+merge_data1$SumXYAmb <- merge_data1$X.Ambulatory+merge_data1$Y.Ambulatory
 
 ##Calculate the VO2. Before and during fasting, i.e. interval <158, use the Pre_fasting weight to calculate the VO2. After fasting, VO2 will be calculated using the After_fasting weight##
 merge_data1$VO2.LBM <- ifelse(merge_data1$Interval<stop_fasting_interval,merge_data1$VO2/merge_data1$Lean.Pre_fasting, merge_data1$VO2/merge_data1$Lean.After_fasting)
@@ -319,10 +319,10 @@ variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.
                "Percent.FG")
 
 pairs(merge_data[merge_data$Light.Dark=="Light", c(15, 33, 49, 50)],
-          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+          lower.panel=panel.smooth, upper.panel=panel.cor, diag.panel=panel.hist,
           main="LIGHT")
 
-pairs(merge_data[merge_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
+pairs(merge_data[merge_data$Light.Dark=="Dark", c(15, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
         main="DARK")
 
@@ -332,8 +332,8 @@ pairs(merge_data[,c(15, 33, 49, 50)],
 
 cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
 cohort8_clams_LBM <- merge_data[, cols]
-cohort8_clams_LBM$Fast <- ifelse(cohort8_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
-                                 ifelse(cohort8_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
+#cohort8_clams_LBM$Fast <- ifelse(cohort8_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
+ #                                ifelse(cohort8_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
 cohort8_clams_LBM$Fast <- as.factor(cohort8_clams_LBM$Fast)
 
 cohort8_mod <- merge(cohort8_weight, cohort8_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)
@@ -444,7 +444,7 @@ predictors_light <- c('Subject', 'Avg.Percent.LL','Avg.Percent.LG',
                 'RER.diff',  
                 'SumXYAmb.Bf_fasting',
                 'Percent.WG')
-
+```
 #LINEAR MIXED EFFECT MODEL
 library(lme4)
 model_data2 <- model_data[rownames(model_data)!=7,]
