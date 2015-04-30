@@ -257,7 +257,7 @@ test_data$SumXYAmb <- test_data$X.Ambulatory+test_data$Y.Ambulatory
 ##Calculate the VO2. Before and during fasting, i.e. interval <158, use the Pre_fasting weight to calculate the VO2. After fasting, VO2 will be calculated using the After_fasting weight##
 test_data$VO2.LBM <- ifelse(test_data$Interval<stop_fasting_interval,test_data$VO2/test_data$Lean.Pre_fasting, test_data$VO2/test_data$Lean.After_fasting)
 
-test_data$Fast <- ifelse(test_data$Interval<start_fasting_interval,"Bf_fasting",ifelse(test_data$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
+test_data$Fast <- ifelse(test_data$Interval<start_fasting_interval,"Pre_fasting",ifelse(test_data$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
 
 variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", 
                "Percent.FG")
@@ -272,8 +272,8 @@ pairs(test_data[test_data$Light.Dark=="Dark",c(15, 33, 49, 50)],
 
 cols <- c("Subject", "RER", "SumXYAmb", "VO2.LBM", "Fast", "Light.Dark")
 cohort9_clams_LBM <- test_data[, cols]
-cohort9_clams_LBM$Fast <- ifelse(cohort9_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
-                                 ifelse(cohort9_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
+#cohort9_clams_LBM$Fast <- ifelse(cohort9_clams_LBM$Fast=="Bf_fasting",  "Pre_fasting", 
+ #                                ifelse(cohort9_clams_LBM$Fast=="After_fasting", "After_fasting", "During_fasting"))
 cohort9_clams_LBM$Fast <- as.factor(cohort9_clams_LBM$Fast)
 
 cohort9_mod <- merge(cohort9_weight, cohort9_clams_LBM, by.x=c("Subject", "Fasting_stat"), by.y=c("Subject", "Fast"), all=T)

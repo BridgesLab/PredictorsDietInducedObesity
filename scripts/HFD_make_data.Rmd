@@ -42,6 +42,7 @@ sub_cohort8.data$animal.MouseID <- as.factor(sub_cohort8.data$animal.MouseID)
 
 #import body composition data
 library(reshape2)
+library(dplyr)
 cohort8_weight <-dcast(sub_cohort8.data, animal.MouseID+Fasting_stat~assay.assay, value.var='values')
 
 cohort8_weight$Lean <- as.numeric(cohort8_weight$'Lean Mass')/1000
@@ -139,6 +140,7 @@ superpose.eb(plot,
              as.numeric(body_weight_summary$Percent.Fat),
              as.numeric(body_weight_err$Percent.Fat))
 
+par(mfrow=c(1,1))
 ggplot(cohort8_weight, aes(x=Fasting_stat, y=Weight, group=Subject, colour=Subject)) + geom_point()+geom_line()+
   xlab("Fasting status")+
   ylab("Weight (g)")
@@ -315,8 +317,7 @@ merge_data <- merge_data1[! merge_data1$RER > 4 ,]
                                
 write.csv(merge_data, file="../data/processed/Combined_BC_clams_training_data.csv")
 
-variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", 
-               "Percent.FG")
+variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", "Percent.FG")
 
 pairs(merge_data[merge_data$Light.Dark=="Light", c(15, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor, diag.panel=panel.hist,
@@ -327,6 +328,10 @@ pairs(merge_data[merge_data$Light.Dark=="Dark", c(15, 33, 49, 50)],
         main="DARK")
 
 pairs(merge_data[,c(15, 33, 49, 50)],
+          lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
+        main="Both Light and Dark")
+
+pairs(merge_data[,c(14, 16, 33, 49, 50)],
           lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist,
         main="Both Light and Dark")
 
