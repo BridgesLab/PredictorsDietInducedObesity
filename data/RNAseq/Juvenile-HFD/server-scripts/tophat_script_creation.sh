@@ -31,5 +31,9 @@ do
   echo "samtools sort $OUTPUT_FOLDER/$SAMPLE/remapped.bam $OUTPUT_FOLDER/$SAMPLE/remapped_sort" >> $SCRIPT_FOLDER/$SAMPLE.sh
   echo "samtools view -H $OUTPUT_FOLDER/$SAMPLE/accepted_hits.bam | samtools reheader - $OUTPUT_FOLDER/$SAMPLE/remapped_sort.bam > $OUTPUT_FOLDER/$SAMPLE/remapped_sort_rh.bam" >> $SCRIPT_FOLDER/$SAMPLE.sh
   echo "samtools merge -f $OUTPUT_FOLDER/$SAMPLE/merged.bam $OUTPUT_FOLDER/$SAMPLE/accepted_hits.bam $OUTPUT_FOLDER/$SAMPLE/remapped_sort_rh.bam" >> $SCRIPT_FOLDER/$SAMPLE.sh
+  #remove temporary files
+  echo "rm $OUTPUT_FOLDER/$SAMPLE/remapped_sort.bam" >> $SCRIPT_FOLDER/$SAMPLE.sh
+  echo "rm $OUTPUT_FOLDER/$SAMPLE/remapped_sort_rh.bam">> $SCRIPT_FOLDER/$SAMPLE.sh
+  echo "rm $OUTPUT_FOLDER/$SAMPLE/remapped.sam" >> $SCRIPT_FOLDER/$SAMPLE.sh
   echo "exit" >> $SCRIPT_FOLDER/$SAMPLE.sh
 done

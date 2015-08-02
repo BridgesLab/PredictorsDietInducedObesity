@@ -47,4 +47,7 @@ samtools view -bS tophat_output/IonXpress_RNA_037/remapped.sam > tophat_output/I
 samtools sort tophat_output/IonXpress_RNA_037/remapped.bam tophat_output/IonXpress_RNA_037/remapped_sort
 samtools view -H tophat_output/IonXpress_RNA_037/accepted_hits.bam | samtools reheader - tophat_output/IonXpress_RNA_037/remapped_sort.bam > tophat_output/IonXpress_RNA_037/remapped_sort_rh.bam
 samtools merge -f tophat_output/IonXpress_RNA_037/merged.bam tophat_output/IonXpress_RNA_037/accepted_hits.bam tophat_output/IonXpress_RNA_037/remapped_sort_rh.bam
+rm tophat_output/IonXpress_RNA_037/remapped_sort.bam
+rm tophat_output/IonXpress_RNA_037/remapped_sort_rh.bam
+rm tophat_output/IonXpress_RNA_037/remapped.sam
 exit

@@ -12,7 +12,7 @@
 #Request 11 processors on 1 node
 #PBS -l procs=11
 #PBS -l pmem=40gb
-#PBS -l nodes=compute-0-1
+#PBS -l nodes=compute-0-2
 #PBS -r n
 
 #get an email notice when job is done
@@ -47,4 +47,7 @@ samtools view -bS tophat_output/IonXpress_RNA_47/remapped.sam > tophat_output/Io
 samtools sort tophat_output/IonXpress_RNA_47/remapped.bam tophat_output/IonXpress_RNA_47/remapped_sort
 samtools view -H tophat_output/IonXpress_RNA_47/accepted_hits.bam | samtools reheader - tophat_output/IonXpress_RNA_47/remapped_sort.bam > tophat_output/IonXpress_RNA_47/remapped_sort_rh.bam
 samtools merge -f tophat_output/IonXpress_RNA_47/merged.bam tophat_output/IonXpress_RNA_47/accepted_hits.bam tophat_output/IonXpress_RNA_47/remapped_sort_rh.bam
+rm tophat_output/IonXpress_RNA_47/remapped_sort.bam
+rm tophat_output/IonXpress_RNA_47/remapped_sort_rh.bam
+rm tophat_output/IonXpress_RNA_47/remapped.sam
 exit
