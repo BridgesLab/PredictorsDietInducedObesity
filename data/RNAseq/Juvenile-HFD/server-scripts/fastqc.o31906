@@ -1,0 +1,713 @@
+------------------------------------------------------
+Job is running on node compute-0-4
+------------------------------------------------------
+PBS: qsub is running on hera.uthsc.edu
+PBS: originating queue is default
+PBS: executing queue is default
+PBS: working directory is /home/dbridge/data/juvenile
+PBS: execution mode is PBS_BATCH
+PBS: job identifier is 31906.hera.uthsc.edu
+PBS: job name is fastqc
+PBS: node file is /opt/torque/aux//31906.hera.uthsc.edu
+PBS: current home directory is /home/dbridge
+PBS: PATH = /home/dbridge/bin:/home/dbridge/bin/usr/local/bin:/opt/python/bin:/home/dbridge/.local/bin:/mnt/sdc1/lifescope/LSBF/lifescope/bin:/opt/openmpi/bin:/usr/kerberos/bin:/usr/java/latest/bin:/usr/local/bin:/bin:/usr/bin:/opt/bio/ncbi/bin:/opt/bio/mpiblast/bin/:/opt/bio/hmmer/bin:/opt/bio/EMBOSS/bin:/opt/bio/clustalw/bin:/opt/bio/tcoffee/bin:/opt/bio/phylip/exe:/opt/bio/mrbayes:/opt/bio/fasta:/opt/bio/glimmer/bin://opt/bio/glimmer/scripts:/opt/bio/gromacs/bin:/opt/bio/gmap/bin:/opt/bio/tigr/bin:/opt/bio/autodocksuite/bin:/opt/bio/wgs/bin:/opt/eclipse:/opt/ganglia/bin:/opt/ganglia/sbin:/opt/maven/bin:/opt/maui/bin:/opt/torque/bin:/opt/torque/sbin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/condor/bin:/opt/condor/sbin
+------------------------------------------------------
+ 
+ 
+Job started on compute-0-4.local at Wed Jul 15 07:15:49 CDT 2015
+Started analysis of IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Analysis complete for IonXpress_RNA_026.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Started analysis of IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Analysis complete for IonXpress_RNA_027.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Started analysis of IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Analysis complete for IonXpress_RNA_028.R_2015_06_26_16_45_45_user_SER-142-DBridges_39RNAseq_project_pool_1_6-26-15.fastq
+Started analysis of IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Analysis complete for IonXpress_RNA_029.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Started analysis of IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Analysis complete for IonXpress_RNA_030.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Started analysis of IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Analysis complete for IonXpress_RNA_031.R_2015_07_02_11_44_17_user_SER-145-DBridges_39RNAseq_project_pool_2_6-26-15.fastq
+Started analysis of IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Analysis complete for IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Started analysis of IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Analysis complete for IonXpress_RNA_033.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Started analysis of IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 5% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 10% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 15% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 20% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 25% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 30% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 35% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 40% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 45% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 50% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 55% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 60% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 65% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 70% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 75% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 80% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 85% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 90% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Approx 95% complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Analysis complete for IonXpress_RNA_034.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq
+Started analysis of IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 5% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 10% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 15% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 20% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 25% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 30% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 35% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 40% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 45% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 50% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 55% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 60% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 65% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 70% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 75% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 80% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 85% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 90% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 95% complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Analysis complete for IonXpress_RNA_035.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Started analysis of IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 5% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 10% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 15% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 20% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 25% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 30% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 35% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 40% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 45% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 50% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 55% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 60% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 65% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 70% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 75% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 80% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 85% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 90% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 95% complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Analysis complete for IonXpress_RNA_036.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Started analysis of IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 5% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 10% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 15% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 20% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 25% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 30% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 35% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 40% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 45% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 50% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 55% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 60% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 65% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 70% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 75% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 80% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 85% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 90% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Approx 95% complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Analysis complete for IonXpress_RNA_037.R_2015_07_07_17_21_32_user_SER-148-DBridges_39RNAseq_project_pool_4_7-2-15.fastq
+Started analysis of IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 5% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 10% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 15% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 20% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 25% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 30% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 35% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 40% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 45% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 50% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 55% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 60% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 65% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 70% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 75% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 80% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 85% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 90% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 95% complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Analysis complete for IonXpress_RNA_038.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Started analysis of IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 5% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 10% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 15% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 20% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 25% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 30% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 35% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 40% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 45% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 50% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 55% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 60% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 65% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 70% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 75% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 80% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 85% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 90% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 95% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 100% complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Analysis complete for IonXpress_RNA_039.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Started analysis of IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 5% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 10% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 15% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 20% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 25% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 30% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 35% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 40% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 45% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 50% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 55% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 60% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 65% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 70% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 75% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 80% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 85% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 90% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Approx 95% complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Analysis complete for IonXpress_RNA_040.R_2015_07_08_12_05_38_user_SER-149-DBridges_39RNAseq_project_pool_5_7-2-15.fastq
+Started analysis of IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 5% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 10% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 15% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 20% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 25% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 30% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 35% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 40% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 45% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 50% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 55% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 60% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 65% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 70% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 75% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 80% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 85% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 90% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 95% complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Analysis complete for IonXpress_RNA_041.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Started analysis of IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 5% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 10% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 15% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 20% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 25% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 30% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 35% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 40% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 45% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 50% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 55% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 60% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 65% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 70% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 75% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 80% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 85% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 90% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 95% complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Analysis complete for IonXpress_RNA_042.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Started analysis of IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 5% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 10% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 15% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 20% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 25% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 30% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 35% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 40% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 45% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 50% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 55% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 60% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 65% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 70% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 75% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 80% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 85% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 90% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Approx 95% complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Analysis complete for IonXpress_RNA_043.R_2015_07_08_15_56_03_user_SER-150-DBridges_39RNAseq_sample_project_pool_6_7-8-15.fastq
+Started analysis of IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 5% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 10% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 15% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 20% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 25% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 30% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 35% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 40% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 45% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 50% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 55% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 60% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 65% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 70% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 75% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 80% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 85% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 90% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 95% complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Analysis complete for IonXpress_RNA_044.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Started analysis of IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 5% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 10% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 15% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 20% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 25% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 30% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 35% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 40% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 45% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 50% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 55% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 60% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 65% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 70% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 75% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 80% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 85% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 90% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 95% complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Analysis complete for IonXpress_RNA_045.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Started analysis of IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 5% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 10% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 15% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 20% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 25% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 30% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 35% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 40% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 45% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 50% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 55% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 60% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 65% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 70% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 75% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 80% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 85% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 90% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Approx 95% complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Analysis complete for IonXpress_RNA_046.R_2015_07_09_15_35_39_user_SER-152-DBridges_39RNAseq_sample_project_pool_7_7-8-15.fastq
+Started analysis of IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_47.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Started analysis of IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_48.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Started analysis of IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_49.R_2015_07_09_12_04_20_sn247770130_BET-72-DBridges_39RNAseq_project_pool_8_7-9-2015.fastq
+Started analysis of IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_50.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Started analysis of IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_51.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Started analysis of IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_52.R_2015_07_09_16_13_57_sn247770130_BET-73-DBridges_39RNAseq_project_pool_9_7-9-2015.fastq
+Started analysis of IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_53.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Started analysis of IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_54.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Started analysis of IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_55.R_2015_07_10_12_29_38_sn247770130_BET-74-DBridges_39RNAseq_project_pool_10_7-9-2015.fastq
+Started analysis of IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_56.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Started analysis of IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_57.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Started analysis of IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 5% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 10% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 15% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 20% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 25% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 30% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 35% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 40% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 45% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 50% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 55% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 60% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 65% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 70% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 75% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 80% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 85% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 90% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Approx 95% complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Analysis complete for IonXpress_RNA_58.R_2015_07_10_15_36_01_sn247770130_BET-75-DBridges_39RNAseq_project_pool_11_7-9-2015.fastq
+Job ended at Wed Jul 15 11:59:39 CDT 2015
+ 
