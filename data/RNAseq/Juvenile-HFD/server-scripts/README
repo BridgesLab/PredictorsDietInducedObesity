@@ -1,0 +1,5 @@
+Downloaded both files from GENCODE release M5 (GRCm38.p3)
+* Comprehensive gene annotation -- ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_mouse/release_M5/gencode.vM5.annotation.gtf.gz
+* Genome sequence, primary assembly (GRCm38) -- ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_mouse/release_M5/GRCm38.primary_assembly.genome.fa.gz
+
+Extracted both files with gzip -d <FILENAME>
