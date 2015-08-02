@@ -1,0 +1,84 @@
+------------------------------------------------------
+Job is running on node compute-0-6
+------------------------------------------------------
+PBS: qsub is running on hera.uthsc.edu
+PBS: originating queue is default
+PBS: executing queue is default
+PBS: working directory is /home/dbridge/data/juvenile
+PBS: execution mode is PBS_BATCH
+PBS: job identifier is 32042.hera.uthsc.edu
+PBS: job name is IonXpress_RNA_042
+PBS: node file is /opt/torque/aux//32042.hera.uthsc.edu
+PBS: current home directory is /home/dbridge
+PBS: PATH = /home/dbridge/bin:/home/dbridge/.local/bin:/home/dbridge/bin/usr/local/bin:/opt/python/bin:/home/dbridge/.local/bin:/home/dbridge/opt/python/bin:/mnt/sdc1/lifescope/LSBF/lifescope/bin:/opt/openmpi/bin:/usr/kerberos/bin:/usr/java/latest/bin:/usr/local/bin:/bin:/usr/bin:/opt/bio/ncbi/bin:/opt/bio/mpiblast/bin/:/opt/bio/hmmer/bin:/opt/bio/EMBOSS/bin:/opt/bio/clustalw/bin:/opt/bio/tcoffee/bin:/opt/bio/phylip/exe:/opt/bio/mrbayes:/opt/bio/fasta:/opt/bio/glimmer/bin://opt/bio/glimmer/scripts:/opt/bio/gromacs/bin:/opt/bio/gmap/bin:/opt/bio/tigr/bin:/opt/bio/autodocksuite/bin:/opt/bio/wgs/bin:/opt/eclipse:/opt/ganglia/bin:/opt/ganglia/sbin:/opt/maven/bin:/opt/maui/bin:/opt/torque/bin:/opt/torque/sbin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/condor/bin:/opt/condor/sbin
+------------------------------------------------------
+ 
+ 
+Job started on compute-0-6.local at Tue Jul 28 00:32:59 CDT 2015
+
+[2015-07-28 00:33:00] Beginning TopHat run (v2.1.0)
+-----------------------------------------------
+[2015-07-28 00:33:00] Checking for Bowtie
+		  Bowtie version:	 2.2.5.0
+[2015-07-28 00:33:00] Checking for Bowtie index files (transcriptome)..
+[2015-07-28 00:33:00] Checking for Bowtie index files (genome)..
+[2015-07-28 00:33:00] Checking for reference FASTA file
+	Warning: Could not find FASTA file reference-sequences/GRCm38.fa
+[2015-07-28 00:33:00] Reconstituting reference FASTA file from Bowtie index
+  Executing: /home/dbridge/bin/bowtie2-inspect reference-sequences/GRCm38 > tophat_output/IonXpress_RNA_042/tmp/GRCm38.fa
+[2015-07-28 00:39:56] Generating SAM header for reference-sequences/GRCm38
+[2015-07-28 00:40:04] Reading known junctions from GTF file
+[2015-07-28 00:43:11] Preparing reads
+	 left reads: min. length=25, max. length=381, 31845477 kept reads (106 discarded)
+[2015-07-28 01:10:31] Using pre-built transcriptome data..
+[2015-07-28 01:10:40] Mapping left_kept_reads to transcriptome GRCm38 with Bowtie2 
+[2015-07-28 02:01:19] Resuming TopHat pipeline with unmapped reads
+[2015-07-28 02:01:20] Mapping left_kept_reads.m2g_um to genome GRCm38 with Bowtie2 
+[2015-07-28 03:34:07] Mapping left_kept_reads.m2g_um_seg1 to genome GRCm38 with Bowtie2 (1/15)
+[2015-07-28 03:46:03] Mapping left_kept_reads.m2g_um_seg2 to genome GRCm38 with Bowtie2 (2/15)
+[2015-07-28 03:56:19] Mapping left_kept_reads.m2g_um_seg3 to genome GRCm38 with Bowtie2 (3/15)
+[2015-07-28 04:08:21] Mapping left_kept_reads.m2g_um_seg4 to genome GRCm38 with Bowtie2 (4/15)
+[2015-07-28 04:18:47] Mapping left_kept_reads.m2g_um_seg5 to genome GRCm38 with Bowtie2 (5/15)
+[2015-07-28 04:32:31] Mapping left_kept_reads.m2g_um_seg6 to genome GRCm38 with Bowtie2 (6/15)
+[2015-07-28 04:46:38] Mapping left_kept_reads.m2g_um_seg7 to genome GRCm38 with Bowtie2 (7/15)
+[2015-07-28 04:55:57] Mapping left_kept_reads.m2g_um_seg8 to genome GRCm38 with Bowtie2 (8/15)
+[2015-07-28 05:01:18] Mapping left_kept_reads.m2g_um_seg9 to genome GRCm38 with Bowtie2 (9/15)
+[2015-07-28 05:03:19] Mapping left_kept_reads.m2g_um_seg10 to genome GRCm38 with Bowtie2 (10/15)
+[2015-07-28 05:04:08] Mapping left_kept_reads.m2g_um_seg11 to genome GRCm38 with Bowtie2 (11/15)
+[2015-07-28 05:04:13] Mapping left_kept_reads.m2g_um_seg12 to genome GRCm38 with Bowtie2 (12/15)
+[2015-07-28 05:04:16] Mapping left_kept_reads.m2g_um_seg13 to genome GRCm38 with Bowtie2 (13/15)
+[2015-07-28 05:04:20] Mapping left_kept_reads.m2g_um_seg14 to genome GRCm38 with Bowtie2 (14/15)
+[2015-07-28 05:04:26] Mapping left_kept_reads.m2g_um_seg15 to genome GRCm38 with Bowtie2 (15/15)
+[2015-07-28 05:04:28] Searching for junctions via segment mapping
+[2015-07-28 06:38:18] Retrieving sequences for splices
+[2015-07-28 06:40:52] Indexing splices
+Building a SMALL index
+[2015-07-28 06:42:29] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/15)
+[2015-07-28 06:51:41] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/15)
+[2015-07-28 07:00:31] Mapping left_kept_reads.m2g_um_seg3 to genome segment_juncs with Bowtie2 (3/15)
+[2015-07-28 07:08:32] Mapping left_kept_reads.m2g_um_seg4 to genome segment_juncs with Bowtie2 (4/15)
+[2015-07-28 07:16:21] Mapping left_kept_reads.m2g_um_seg5 to genome segment_juncs with Bowtie2 (5/15)
+[2015-07-28 07:31:09] Mapping left_kept_reads.m2g_um_seg6 to genome segment_juncs with Bowtie2 (6/15)
+[2015-07-28 07:41:05] Mapping left_kept_reads.m2g_um_seg7 to genome segment_juncs with Bowtie2 (7/15)
+[2015-07-28 07:45:46] Mapping left_kept_reads.m2g_um_seg8 to genome segment_juncs with Bowtie2 (8/15)
+[2015-07-28 07:48:03] Mapping left_kept_reads.m2g_um_seg9 to genome segment_juncs with Bowtie2 (9/15)
+[2015-07-28 07:49:02] Mapping left_kept_reads.m2g_um_seg10 to genome segment_juncs with Bowtie2 (10/15)
+[2015-07-28 07:49:24] Mapping left_kept_reads.m2g_um_seg11 to genome segment_juncs with Bowtie2 (11/15)
+[2015-07-28 07:49:36] Mapping left_kept_reads.m2g_um_seg12 to genome segment_juncs with Bowtie2 (12/15)
+[2015-07-28 07:49:48] Mapping left_kept_reads.m2g_um_seg13 to genome segment_juncs with Bowtie2 (13/15)
+[2015-07-28 07:50:02] Mapping left_kept_reads.m2g_um_seg14 to genome segment_juncs with Bowtie2 (14/15)
+[2015-07-28 07:50:15] Mapping left_kept_reads.m2g_um_seg15 to genome segment_juncs with Bowtie2 (15/15)
+[2015-07-28 07:50:21] Joining segment hits
+[2015-07-28 08:44:08] Reporting output tracks
+-----------------------------------------------
+[2015-07-28 09:27:38] A summary of the alignment counts can be found in tophat_output/IonXpress_RNA_042/align_summary.txt
+[2015-07-28 09:27:38] Run complete: 08:54:38 elapsed
+bam2fastx: /usr/lib64/libz.so.1: no version information available (required by bam2fastx)
+17481370 reads; of these:
+  17481370 (100.00%) were unpaired; of these:
+    347120 (1.99%) aligned 0 times
+    2771241 (15.85%) aligned exactly 1 time
+    14363009 (82.16%) aligned >1 times
+98.01% overall alignment rate
+[samopen] SAM header is present: 66 sequences.
+[bam_sort_core] merging from 13 files...
