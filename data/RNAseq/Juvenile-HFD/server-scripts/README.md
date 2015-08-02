@@ -19,12 +19,12 @@
 * Used Tophat v2.1.0 and Bowtie version 2.2.5.0
 * Prepared transcriptome index using the file `reference-files.pbs` which generated the transcriptome reference from gencode.vM5.annotation.gtf and placed it in a folder located at reference-sequences/transcriptome_data/GRCm38
 * Generated alignment scripts using `tophat_script_creation.sh`.  Some alignment notes:
-** Aligned first via tophat, allowing for 5 mismatches and setting strandedness to second strand
-** Took unmapped reads and re-alined with bowtie under local very sensitive settings to get the remaining ~40% of reads mapped
-** Merged the tophat and bowtie results files into merged.bam
+  * Aligned first via tophat, allowing for 5 mismatches and setting strandedness to second strand
+  * Took unmapped reads and re-alined with bowtie under local very sensitive settings to get the remaining ~40% of reads mapped
+  * Merged the tophat and bowtie results files into merged.bam
 
 # Generating Counts Tables
 * Used HTseq v0.6.0
 * Mapped merged bowtie/tophat run to the gencode transcriptome (gencode.vM5.annotation.gtf)
 * Used stranded=yes, mode is intersection-nonempty and used default cutoff score (10)
-* This was done using the script `htseq-counts.pbs` putting the results in the htseq-output folder
+* This was done using the script `htseq-counts.pbs` putting the results in the **htseq-output** folder
