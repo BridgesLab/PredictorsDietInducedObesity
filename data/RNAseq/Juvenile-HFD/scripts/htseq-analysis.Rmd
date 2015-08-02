@@ -1,0 +1,58 @@
+---
+title: "HTSeq Counts Analysis"
+author: "Dave Bridges"
+date: "August 2, 2015"
+output:
+  html_document:
+    keep_md: true
+---
+
+
+```{r global_options, include=FALSE}
+library(knitr)
+opts_chunk$set(fig.path='figures/',
+               echo=FALSE, warning=FALSE, message=FALSE,dev=c('png','pdf'))
+options(digits=3, scipen=8)
+```
+
+This script analyses the HTSeq resutls for the Juvenile HFD studies.  This script was most recently run on `r date()`
+
+```{r data-entry}
+input_folder <- '../server-scripts/htseq-output'
+for (file in list.files(input_folder, full.names=T)) {
+  # if the merged dataset doesn't exist, create it
+  if (!exists("counts.table")){
+    counts.table <- read.table(file, header=F, sep="\t", row.names='V1', col.names=c('V1',lapply(strsplit(file[1], "/"), '[[',4)))
+  }
+  if (exists("counts.table")){
+  tmp <- read.table(file, sep='\t', 
+                    row.names='V1', 
+                    col.names=c('V1',lapply(strsplit(file[1], "/"), '[[',4)))
+  counts.table <- cbind(counts.table, tmp)
+  rm(tmp)
+  }
+}
+counts.table <- counts.table[2:dim(counts.table)[2]]
+```
+
+This script merges all the files in the directory `r input_folder` and analyses the counts.
+
+```{r htseq-counts-summary}
+counts.table['Total',] <- colSums(counts.table)
+#this is the sum of the unaligned rows at the bottom of the table
+counts.table['Not-Aligned',] <- colSums(counts.table[grep("__", rownames(counts.table)),])
+counts.table['Aligned',] <- counts.table['Total',] - counts.table['Not-Aligned',]
+library(RColorBrewer)
+colorset <- brewer.pal(6, "Set2")
+barplot(as.matrix(counts.table[c('Aligned','__no_feature','__too_low_aQual','__not_aligned','__ambiguous','__alignment_not_unique'),]), 
+        las=2, col=colorset,cex.names=0.5,cex.axis=0.5,
+        names.arg=lapply(strsplit(colnames(counts.table), ".counts"), '[[', 1))
+legend("topleft", c("Mapped","Not in Gene","Low Quality","Not Aligned","Ambiguous","Not Unique"), bty="n", fil=colorset, cex = 0.5)
+```
+
+
+# Session Information
+
+```{r session-info}
+sessionInfo()
+```

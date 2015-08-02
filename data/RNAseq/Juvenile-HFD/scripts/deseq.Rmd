@@ -2,7 +2,9 @@
 title: "DESeq Analysis"
 author: "Dave Bridges"
 date: "August 2, 2015"
-output: html_document
+output:
+  html_document:
+    keep_md: true
 ---
 
 
