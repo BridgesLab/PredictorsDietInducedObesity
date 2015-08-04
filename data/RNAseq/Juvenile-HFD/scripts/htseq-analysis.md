@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script analyses the HTSeq resutls for the Juvenile HFD studies.  This script was most recently run on Sun Aug  2 11:14:20 2015
+This script analyses the HTSeq resutls for the Juvenile HFD studies.  This script was most recently run on Tue Aug  4 09:29:32 2015
 
 
 
@@ -15,7 +15,7 @@ This script merges all the files in the directory ../server-scripts/htseq-output
 
 # Summary
 
-On average 28% of reads were aligned to a known feature, with 40% of reads not mapped to known features.  A remaining 24% of reads were too low quality to be mapped.  The range of mapped reads was 6199586 to 14596745 with an average of 9517519.
+On average 29% of reads were aligned to a known feature, with 40% of reads not mapped to known features.  A remaining 24% of reads were too low quality to be mapped.  The range of mapped reads was 6199586 to 14993394 with an average of 9760435.
 
 
 # Session Information
