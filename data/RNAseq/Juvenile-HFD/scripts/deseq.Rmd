@@ -96,7 +96,7 @@ kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],5)
 plotMA(res.wat.feeding, main="Adipose, Effects of Feeding", ylim=c(-4,4))
 ```
 
-We identified `r table(res.wat.feeding$padj < 0.05)['TRUE']` differentially expressed genes, out of a total of `r dim(res.wat.feeding)[1]` genes tested.  Of these significantly differentially expressed genes, `r table(res.wat.feeding$padj < 0.05, res.wat.feeding$log2FoldChange>0)['TRUE','TRUE']` were upregulated and `r table(res.wat.feeding$padj < 0.05, res.wat.feeding$log2FoldChange<0)['TRUE','TRUE']` were downregulated.
+We identified `r table(res.wat.feeding$padj < 0.05)['TRUE']` differentially expressed genes in adipose tissue, out of a total of `r dim(res.wat.feeding)[1]` genes tested.  Of these significantly differentially expressed genes, `r table(res.wat.feeding$padj < 0.05, res.wat.feeding$log2FoldChange>0)['TRUE','TRUE']` were upregulated and `r table(res.wat.feeding$padj < 0.05, res.wat.feeding$log2FoldChange<0)['TRUE','TRUE']` were downregulated.
 
 ## Effects of Diet 
 
@@ -126,6 +126,66 @@ plotMA(res.wat, main="Adipose, Effects of Diet", ylim=c(-10,10), las=1)
 ```
 
 We identified `r table(res.wat$padj < 0.05)['TRUE']` differentially expressed genes, out of a total of `r dim(res.wat)[1]` genes tested.  Of these significantly differentially expressed genes, `r table(res.wat$padj < 0.05, res.wat$log2FoldChange>0)['TRUE','TRUE']` were upregulated and `r table(res.wat$padj < 0.05, res.wat$log2FoldChange<0)['TRUE','TRUE']` were downregulated.
+
+# Muscle Tissue
+
+The muscle tissue samples are all quadriceps samples
+
+## Effects of Feeding State
+
+This model used only the quadriceps tissue data, and tested for changes related to the feeding state.
+
+```{r quad-feeding}
+dds.quad.feeding <- DESeqDataSetFromHTSeqCount(sampleTable = subset(sample_table, Tissue=="Quadriceps"),
+                                       directory = input_folder, 
+                                       design= ~ Feeding)
+
+dds.quad.feeding <- DESeq(dds.quad.feeding, parallel=T, betaPrior = F)
+res.quad.feeding <- results(dds.quad.feeding, parallel=T)
+res.quad.feeding$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.quad.feeding), "\\."), "[[", 1))
+
+annotated.res.quad.feeding <- merge(as.data.frame(res.quad.feeding), 
+                          annotation, 
+                          by='ensembl_gene_id',
+                          all.x=T)
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj),],5), caption="Top Hits for Effects of Feeding")
+```
+
+```{r deseq-MA-plot-quad-feeding, fig.cap="MA Plot for Effects of Feeding Status on Muscle Tissue"}
+plotMA(res.quad.feeding, main="Muscle, Effects of Feeding", ylim=c(-4,4))
+```
+
+We identified `r table(res.quad.feeding$padj < 0.05)['TRUE']` differentially expressed genes in muscle tissue, out of a total of `r dim(res.quad.feeding)[1]` genes tested.  Of these significantly differentially expressed genes, `r table(res.quad.feeding$padj < 0.05, res.quad.feeding$log2FoldChange>0)['TRUE','TRUE']` were upregulated and `r table(res.quad.feeding$padj < 0.05, res.quad.feeding$log2FoldChange<0)['TRUE','TRUE']` were downregulated.
+
+## Effects of Diet 
+
+```{r quad-diet}
+dds.quad <- DESeqDataSetFromHTSeqCount(
+  sampleTable = subset(sample_table, Tissue=="Quadriceps"),
+  directory = input_folder, 
+  design = ~ Feeding + Diet + Feeding:Diet)
+
+dds.quad <- DESeq(dds.quad,   test  = "LRT",
+  full = ~  Feeding + Diet + Feeding:Diet,
+  reduced = ~ Feeding,
+  parallel= T)
+res.quad <- results(dds.quad, parallel=T)
+
+res.quad$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.quad), "\\."), "[[", 1))
+
+annotated.res.quad <- merge(as.data.frame(res.quad), 
+                          annotation, 
+                          by='ensembl_gene_id',
+                          all.x=T)
+kable(head( annotated.res.quad[order(annotated.res.quad$padj),],10), caption="Top Hits for Effects of Diet")
+```
+
+```{r deseq-MA-plot-quad-diet, fig.cap="MA Plot for Effects of Diet Status on Adipose Tissue"}
+plotMA(res.quad, main="Muscle, Effects of Diet", ylim=c(-10,10), las=1)
+```
+
+We identified `r table(res.quad$padj < 0.05)['TRUE']` differentially expressed genes in quadriceps, out of a total of `r dim(res.quad)[1]` genes tested.  Of these significantly differentially expressed genes, `r table(res.quad$padj < 0.05, res.quad$log2FoldChange>0)['TRUE','TRUE']` were upregulated and `r table(res.quad$padj < 0.05, res.quad$log2FoldChange<0)['TRUE','TRUE']` were downregulated.
+
 
 # Session Information
 
