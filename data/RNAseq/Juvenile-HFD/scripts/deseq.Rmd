@@ -90,6 +90,8 @@ annotated.res.wat.feeding <- merge(as.data.frame(res.wat.feeding),
                           by='ensembl_gene_id',
                           all.x=T)
 kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],5), caption="Top Hits for Effects of Feeding")
+wat_feeding_results_file <- 'DESeq Results for Effects of Feeding on WAT.csv'
+write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
 ```
 
 ```{r deseq-MA-plot-wat-feeding, fig.cap="MA Plot for Effects of Feeding Status on Adipose Tissue"}
@@ -119,6 +121,8 @@ annotated.res.wat <- merge(as.data.frame(res.wat),
                           by='ensembl_gene_id',
                           all.x=T)
 kable(head( annotated.res.wat[order(annotated.res.wat$padj),],10), caption="Top Hits for Effects of Diet")
+wat_diet_results_file <- 'DESeq Results for Effects of Diet on WAT.csv'
+write.csv(annotated.res.wat, wat_diet_results_file)
 ```
 
 ```{r deseq-MA-plot-wat-diet, fig.cap="MA Plot for Effects of Diet Status on Adipose Tissue"}
@@ -149,6 +153,8 @@ annotated.res.quad.feeding <- merge(as.data.frame(res.quad.feeding),
                           by='ensembl_gene_id',
                           all.x=T)
 kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj),],5), caption="Top Hits for Effects of Feeding")
+quad_feeding_results_file <- 'DESeq Results for Effects of Feeding on Quadriceps.csv'
+write.csv(annotated.res.quad.feeding, quad_feeding_results_file)
 ```
 
 ```{r deseq-MA-plot-quad-feeding, fig.cap="MA Plot for Effects of Feeding Status on Muscle Tissue"}
@@ -178,6 +184,8 @@ annotated.res.quad <- merge(as.data.frame(res.quad),
                           by='ensembl_gene_id',
                           all.x=T)
 kable(head( annotated.res.quad[order(annotated.res.quad$padj),],10), caption="Top Hits for Effects of Diet")
+quad_diet_results_file <- 'DESeq Results for Effects of Diet on Quadriceps.csv'
+write.csv(annotated.res.quad, quad_diet_results_file)
 ```
 
 ```{r deseq-MA-plot-quad-diet, fig.cap="MA Plot for Effects of Diet Status on Adipose Tissue"}
