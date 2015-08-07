@@ -57,6 +57,19 @@ legend("top", c("Mapped","Not in Gene","Low Quality","Not Aligned","Ambiguous","
 
 On average `r mean(as.numeric(counts.table['Percent Aligned',]))`% of reads were aligned to a known feature, with `r mean(as.numeric(counts.table['Percent Not In Gene',]))`% of reads not mapped to known features.  A remaining `r mean(as.numeric(counts.table['Percent Low Quality',]))`% of reads were too low quality to be mapped.  The range of mapped reads was `r min(counts.table['Aligned',])` to `r max(counts.table['Aligned',])` with an average of `r mean(as.numeric(counts.table['Aligned',]))`.
 
+# Annotation
+
+```{r annotation}
+annotation_file <- 'ENSEMBL Annotation.csv'
+library(biomaRt)
+if (!(annotation_file %in% dir())){
+  annotation <- getBM(attributes=c('gene_biotype','external_gene_name', 'ensembl_gene_id'),
+                    filters='ensembl_gene_id',
+                    values=as.character(lapply(strsplit(rownames(counts.table), "\\."), "[[", 1)),
+                    mart=useDataset('mmusculus_gene_ensembl',useMart('ensembl')))
+  write.csv(annotation, annotation_file)
+  }
+```
 
 # Session Information
 
