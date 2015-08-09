@@ -1,0 +1,33 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CEL	CEL	carboxyl ester lipase (bile salt-stimulated lipase)	144	4.462048530578613	0.06143773	No	
+row_1	PLA2G4C	PLA2G4C	phospholipase A2, group IVC (cytosolic, calcium-independent)	220	3.7813992500305176	0.117357925	No	
+row_2	SMPD3	SMPD3	sphingomyelin phosphodiesterase 3, neutral membrane (neutral sphingomyelinase II)	565	2.4058802127838135	0.12865719	No	
+row_3	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	1428	0.6660539507865906	0.06895115	No	
+row_4	NEU3	NEU3	sialidase 3 (membrane sialidase)	1465	0.6475669145584106	0.07662994	No	
+row_5	PNPLA3	PNPLA3	patatin-like phospholipase domain containing 3	2001	0.41165241599082947	0.03954494	No	
+row_6	PLA2G4B	PLA2G4B	phospholipase A2, group IVB (cytosolic)	2741	0.25479939579963684	-0.01683177	No	
+row_7	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	4055	0.12022829055786133	-0.12245488	No	
+row_8	ALDH5A1	ALDH5A1	aldehyde dehydrogenase 5 family, member A1 (succinate-semialdehyde dehydrogenase)	4092	0.11791864782571793	-0.12346952	No	
+row_9	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	4109	0.1167362853884697	-0.12286461	No	
+row_10	GLA	GLA	galactosidase, alpha	4140	0.1141648069024086	-0.12344917	No	
+row_11	CPT1B	CPT1B	carnitine palmitoyltransferase 1B (muscle)	4814	0.06637895107269287	-0.17751002	No	
+row_12	ACADM	ACADM	acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain	6403	-0.030185507610440254	-0.3071465	No	
+row_13	ACADS	ACADS	acyl-Coenzyme A dehydrogenase, C-2 to C-3 short chain	6497	-0.03499768674373627	-0.31419313	No	
+row_14	ECH1	ECH1	enoyl Coenzyme A hydratase 1, peroxisomal	6590	-0.040307287126779556	-0.32107067	No	
+row_15	HADHB	HADHB	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), beta subunit	7294	-0.08268187940120697	-0.37732238	No	
+row_16	PRDX6	PRDX6	peroxiredoxin 6	7712	-0.1137426495552063	-0.40962738	No	
+row_17	HACL1	HACL1	2-hydroxyacyl-CoA lyase 1	7923	-0.12789158523082733	-0.4247371	No	
+row_18	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	8045	-0.13781382143497467	-0.43239066	No	
+row_19	ACADVL	ACADVL	acyl-Coenzyme A dehydrogenase, very long chain	8250	-0.15500620007514954	-0.44656366	No	
+row_20	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	8303	-0.15951991081237793	-0.44820663	No	
+row_21	PPARD	PPARD	peroxisome proliferative activated receptor, delta	8851	-0.20930215716362	-0.48959628	No	
+row_22	SMPD4	SMPD4	sphingomyelin phosphodiesterase 4, neutral membrane (neutral sphingomyelinase-3)	9487	-0.28849104046821594	-0.5368975	No	
+row_23	BDH2	BDH2	3-hydroxybutyrate dehydrogenase, type 2	9758	-0.3403104841709137	-0.5534375	No	
+row_24	CPT1A	CPT1A	carnitine palmitoyltransferase 1A (liver)	10071	-0.412331223487854	-0.57223713	No	
+row_25	CYP46A1	CYP46A1	cytochrome P450, family 46, subfamily A, polypeptide 1	11347	-1.8011456727981567	-0.6471564	Yes	
+row_26	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	12027	-4.532679080963135	-0.6284011	Yes	
+row_27	HSD17B6	HSD17B6	hydroxysteroid (17-beta) dehydrogenase 6	12080	-5.2551493644714355	-0.5464066	Yes	
+row_28	AKR1D1	AKR1D1	aldo-keto reductase family 1, member D1 (delta 4-3-ketosteroid-5-beta-reductase)	12095	-5.559615612030029	-0.4563008	Yes	
+row_29	APOA5	APOA5	apolipoprotein A-V	12183	-7.336323261260986	-0.343015	Yes	
+row_30	ANGPTL3	ANGPTL3	angiopoietin-like 3	12222	-9.37259292602539	-0.19229135	Yes	
+row_31	APOA4	APOA4	apolipoprotein A-IV	12229	-11.770315170288086	4.097447E-4	Yes	

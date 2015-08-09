@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	622	3.761697769165039	0.03289498	Yes	
+row_1	IL2RA	IL2RA	interleukin 2 receptor, alpha	821	3.264974594116211	0.08795164	Yes	
+row_2	IRS1	IRS1	insulin receptor substrate 1	900	3.054851531982422	0.14778085	Yes	
+row_3	IKZF3	IKZF3	IKAROS family zinc finger 3 (Aiolos)	904	3.0372426509857178	0.21304518	Yes	
+row_4	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.2636604	Yes	
+row_5	IL2RB	IL2RB	interleukin 2 receptor, beta	1099	2.699185848236084	0.3168277	Yes	
+row_6	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.36408904	Yes	
+row_7	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	1220	2.4794421195983887	0.4153088	Yes	
+row_8	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1373	2.2552542686462402	0.4521577	Yes	
+row_9	E2F1	E2F1	E2F transcription factor 1	2017	1.4653208255767822	0.43390405	Yes	
+row_10	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	2135	1.3669613599777222	0.45431086	Yes	
+row_11	SOCS1	SOCS1	suppressor of cytokine signaling 1	2296	1.2260102033615112	0.46834427	Yes	
+row_12	CFLAR	CFLAR	CASP8 and FADD-like apoptosis regulator	2355	1.1834384202957153	0.4893678	Yes	
+row_13	SOCS3	SOCS3	suppressor of cytokine signaling 3	2371	1.1727453470230103	0.5134946	Yes	
+row_14	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.5372594	Yes	
+row_15	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.5509872	Yes	
+row_16	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.54917943	Yes	
+row_17	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	2768	0.8617117404937744	0.5677619	Yes	
+row_18	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.58348125	Yes	
+row_19	FAS	FAS	Fas (TNF receptor superfamily, member 6)	3022	0.7178462743759155	0.5819044	Yes	
+row_20	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.5694709	Yes	
+row_21	PPIA	PPIA	peptidylprolyl isomerase A (cyclophilin A)	3355	0.5517881512641907	0.580207	Yes	
+row_22	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.5880117	Yes	
+row_23	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5660993	No	
+row_24	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3822	0.363411009311676	0.57161015	No	
+row_25	BCL2L1	BCL2L1	BCL2-like 1	3973	0.3092285990715027	0.56664884	No	
+row_26	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.5340512	No	
+row_27	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.5367194	No	
+row_28	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	4498	0.143723726272583	0.5360972	No	
+row_29	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.5323434	No	
+row_30	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.49826407	No	
+row_31	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.45198676	No	
+row_32	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.38624987	No	
+row_33	NMI	NMI	N-myc (and STAT) interactor	6639	-0.35623544454574585	0.3914509	No	
+row_34	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	9933	-1.4432371854782104	0.16726285	No	
+row_35	SYK	SYK	spleen tyrosine kinase	10038	-1.5050439834594727	0.19165526	No	
+row_36	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	10070	-1.520922064781189	0.22204986	No	

@@ -1,0 +1,25 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AACS	AACS	acetoacetyl-CoA synthetase	1175	0.9056552052497864	-0.06329198	No	
+row_1	CTSS	CTSS	cathepsin S	1665	0.5342949032783508	-0.08390904	No	
+row_2	ENPEP	ENPEP	glutamyl aminopeptidase (aminopeptidase A)	1765	0.4876629412174225	-0.07428339	No	
+row_3	PAPSS2	PAPSS2	3'-phosphoadenosine 5'-phosphosulfate synthase 2	2888	0.23347721993923187	-0.15767772	No	
+row_4	RPL7L1	RPL7L1	ribosomal protein L7-like 1	3948	0.12804237008094788	-0.23974675	No	
+row_5	ELOVL5	ELOVL5	ELOVL family member 5, elongation of long chain fatty acids (FEN1/Elo2, SUR4/Elo3-like, yeast)	4154	0.11323593556880951	-0.25241724	No	
+row_6	GPD1	GPD1	glycerol-3-phosphate dehydrogenase 1 (soluble)	4443	0.0913136899471283	-0.27268204	No	
+row_7	CD36	CD36	CD36 molecule (thrombospondin receptor)	4721	0.07230139523744583	-0.2927374	No	
+row_8	CTNNB1	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	4835	0.06508185714483261	-0.29962474	No	
+row_9	SEC61A1	SEC61A1	Sec61 alpha 1 subunit (S. cerevisiae)	6516	-0.036924611777067184	-0.4358629	No	
+row_10	CHPT1	CHPT1	choline phosphotransferase 1	6586	-0.04011806100606918	-0.4400547	No	
+row_11	TMSB4X	TMSB4X	thymosin, beta 4, X-linked	7498	-0.09896582365036011	-0.51106083	No	
+row_12	PSME4	PSME4	proteasome (prosome, macropain) activator subunit 4	7612	-0.10643518716096878	-0.51644444	No	
+row_13	AK3	AK3	adenylate kinase 3	7868	-0.12419718503952026	-0.53281105	No	
+row_14	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	8639	-0.1881517916917801	-0.5890271	No	
+row_15	RTN4	RTN4	reticulon 4	9309	-0.26243117451667786	-0.63427085	No	
+row_16	DERL2	DERL2	Der1-like domain family, member 2	9620	-0.31215766072273254	-0.64830667	No	
+row_17	CYB5R3	CYB5R3	cytochrome b5 reductase 3	9763	-0.3412025570869446	-0.64752823	No	
+row_18	VNN1	VNN1	vanin 1	9902	-0.37139153480529785	-0.64532447	No	
+row_19	TXNIP	TXNIP	thioredoxin interacting protein	10058	-0.41036009788513184	-0.6430958	No	
+row_20	OIT3	OIT3	oncoprotein induced transcript 3	11756	-2.801180601119995	-0.6802083	Yes	
+row_21	CLEC4F	CLEC4F	C-type lectin domain family 4, member F	12037	-4.612804889678955	-0.53540105	Yes	
+row_22	SLC2A2	SLC2A2	solute carrier family 2 (facilitated glucose transporter), member 2	12153	-6.6685614585876465	-0.30232695	Yes	
+row_23	AQP9	AQP9	aquaporin 9	12208	-8.494207382202148	0.0021293673	Yes	

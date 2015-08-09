@@ -1,0 +1,85 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CYP2R1	CYP2R1	cytochrome P450, family 2, subfamily R, polypeptide 1	24	6.75222635269165	0.054493044	No	
+row_1	MGST2	MGST2	microsomal glutathione S-transferase 2	277	3.404431104660034	0.062224925	No	
+row_2	NAT2	NAT2	N-acetyltransferase 2 (arylamine N-acetyltransferase)	298	3.2549619674682617	0.08779989	No	
+row_3	CYP27B1	CYP27B1	cytochrome P450, family 27, subfamily B, polypeptide 1	329	3.043649673461914	0.110784695	No	
+row_4	GSTO2	GSTO2	glutathione S-transferase omega 2	696	2.009991407394409	0.09747307	No	
+row_5	CYP17A1	CYP17A1	cytochrome P450, family 17, subfamily A, polypeptide 1	1011	1.136564016342163	0.08113655	No	
+row_6	SULT1E1	SULT1E1	sulfotransferase family 1E, estrogen-preferring, member 1	1028	1.108525276184082	0.08909027	No	
+row_7	TBXAS1	TBXAS1	thromboxane A synthase 1 (platelet, cytochrome P450, family 5, subfamily A)	1090	1.0114551782608032	0.092528805	No	
+row_8	PTGS2	PTGS2	prostaglandin-endoperoxide synthase 2 (prostaglandin G/H synthase and cyclooxygenase)	1305	0.752539336681366	0.081210494	No	
+row_9	CYP2S1	CYP2S1	cytochrome P450, family 2, subfamily S, polypeptide 1	1400	0.687121570110321	0.07922084	No	
+row_10	FMO1	FMO1	flavin containing monooxygenase 1	1629	0.5509130954742432	0.06506418	No	
+row_11	PAOX	PAOX	polyamine oxidase (exo-N4-amino)	1757	0.4903278052806854	0.058712926	No	
+row_12	CYP11A1	CYP11A1	cytochrome P450, family 11, subfamily A, polypeptide 1	1779	0.483638197183609	0.061029293	No	
+row_13	TPMT	TPMT	thiopurine S-methyltransferase	1870	0.45110946893692017	0.05739508	No	
+row_14	CYP2U1	CYP2U1	cytochrome P450, family 2, subfamily U, polypeptide 1	2329	0.32523247599601746	0.022422593	No	
+row_15	BPNT1	BPNT1	3'(2'), 5'-bisphosphate nucleotidase 1	2470	0.29827946424484253	0.013395389	No	
+row_16	CNDP2	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)	2736	0.2551283836364746	-0.0062799025	No	
+row_17	SLC35D1	SLC35D1	solute carrier family 35 (UDP-glucuronic acid/UDP-N-acetylgalactosamine dual transporter), member D1	2751	0.25281617045402527	-0.005317795	No	
+row_18	PAPSS2	PAPSS2	3'-phosphoadenosine 5'-phosphosulfate synthase 2	2888	0.23347721993923187	-0.0145577425	No	
+row_19	GCLC	GCLC	glutamate-cysteine ligase, catalytic subunit	2903	0.23169274628162384	-0.013772288	No	
+row_20	MAOA	MAOA	monoamine oxidase A	3022	0.2177628129720688	-0.021662295	No	
+row_21	NNMT	NNMT	nicotinamide N-methyltransferase	3188	0.19909518957138062	-0.03357641	No	
+row_22	GSTM4	GSTM4	glutathione S-transferase M4	3227	0.19383925199508667	-0.035082668	No	
+row_23	MAT2A	MAT2A	methionine adenosyltransferase II, alpha	3751	0.1459827423095703	-0.07690355	No	
+row_24	CYP1B1	CYP1B1	cytochrome P450, family 1, subfamily B, polypeptide 1	3875	0.13450917601585388	-0.08590129	No	
+row_25	MAOB	MAOB	monoamine oxidase B	4078	0.11891928315162659	-0.101530924	No	
+row_26	GSTM5	GSTM5	glutathione S-transferase M5	4160	0.11270105093717575	-0.107254535	No	
+row_27	PTGS1	PTGS1	prostaglandin-endoperoxide synthase 1 (prostaglandin G/H synthase and cyclooxygenase)	4483	0.08883015066385269	-0.13301153	No	
+row_28	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	4578	0.0816550999879837	-0.14006466	No	
+row_29	GSTM1	GSTM1	glutathione S-transferase M1	4668	0.07530062645673752	-0.14675942	No	
+row_30	GSTO1	GSTO1	glutathione S-transferase omega 1	5108	0.045169103890657425	-0.18251039	No	
+row_31	CYP4B1	CYP4B1	cytochrome P450, family 4, subfamily B, polypeptide 1	5201	0.03934868052601814	-0.18975271	No	
+row_32	CYP1A1	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	5268	0.03574519604444504	-0.19488543	No	
+row_33	POMC	POMC	proopiomelanocortin (adrenocorticotropin/ beta-lipotropin/ alpha-melanocyte stimulating hormone/ beta-melanocyte stimulating hormone/ beta-endorphin)	5317	0.03254145756363869	-0.19856358	No	
+row_34	MAT2B	MAT2B	methionine adenosyltransferase II, beta	5552	0.019574491307139397	-0.21765755	No	
+row_35	CYP2E1	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	5709	0.009959316812455654	-0.23041272	No	
+row_36	GSS	GSS	glutathione synthetase	5803	0.005264397244900465	-0.23802239	No	
+row_37	PAPSS1	PAPSS1	3'-phosphoadenosine 5'-phosphosulfate synthase 1	5882	-0.0010048752883449197	-0.24443321	No	
+row_38	CYP26A1	CYP26A1	cytochrome P450, family 26, subfamily A, polypeptide 1	6318	-0.025087639689445496	-0.28002292	No	
+row_39	SULT1A1	SULT1A1	sulfotransferase family, cytosolic, 1A, phenol-preferring, member 1	6434	-0.031569041311740875	-0.28922316	No	
+row_40	COMT	COMT	catechol-O-methyltransferase	6927	-0.06082313135266304	-0.32920498	No	
+row_41	OPLAH	OPLAH	5-oxoprolinase (ATP-hydrolysing)	6992	-0.06542341411113739	-0.33392492	No	
+row_42	PTGIS	PTGIS	prostaglandin I2 (prostacyclin) synthase	7098	-0.07162895053625107	-0.34196717	No	
+row_43	ALDH1A1	ALDH1A1	aldehyde dehydrogenase 1 family, member A1	7151	-0.07485155761241913	-0.34562066	No	
+row_44	FMO2	FMO2	flavin containing monooxygenase 2 (non-functional)	7719	-0.11411146819591522	-0.3913292	No	
+row_45	GSTA4	GSTA4	glutathione S-transferase A4	8055	-0.1385556161403656	-0.4177402	No	
+row_46	MTR	MTR	5-methyltetrahydrofolate-homocysteine methyltransferase	8117	-0.14468006789684296	-0.42155042	No	
+row_47	UGP2	UGP2	UDP-glucose pyrophosphorylase 2	8134	-0.1459198147058487	-0.42164686	No	
+row_48	ACSS1	ACSS1	acyl-CoA synthetase short-chain family member 1	8251	-0.15506190061569214	-0.42989665	No	
+row_49	GCLM	GCLM	glutamate-cysteine ligase, modifier subunit	8281	-0.15747688710689545	-0.43096632	No	
+row_50	CYP27A1	CYP27A1	cytochrome P450, family 27, subfamily A, polypeptide 1	8470	-0.17297503352165222	-0.4449917	No	
+row_51	AHCY	AHCY	S-adenosylhomocysteine hydrolase	8519	-0.1773473620414734	-0.44745886	No	
+row_52	MGST3	MGST3	microsomal glutathione S-transferase 3	8947	-0.2184147983789444	-0.48077345	No	
+row_53	ADH7	ADH7	alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide	9101	-0.2362775206565857	-0.49138904	No	
+row_54	MGST1	MGST1	microsomal glutathione S-transferase 1	9249	-0.2546008229255676	-0.5013576	No	
+row_55	ACSS2	ACSS2	acyl-CoA synthetase short-chain family member 2	9494	-0.28908610343933105	-0.5190207	No	
+row_56	GSTP1	GSTP1	glutathione S-transferase pi	9973	-0.38656944036483765	-0.55512613	No	
+row_57	ADH4	ADH4	alcohol dehydrogenase 4 (class II), pi polypeptide	10208	-0.45383578538894653	-0.5705884	No	
+row_58	SMOX	SMOX	spermine oxidase	10284	-0.48999691009521484	-0.57266295	No	
+row_59	GLYAT	GLYAT	glycine-N-acyltransferase	10342	-0.5109823942184448	-0.57308066	No	
+row_60	UGDH	UGDH	UDP-glucose dehydrogenase	10349	-0.5164120197296143	-0.5692557	No	
+row_61	CYP39A1	CYP39A1	cytochrome P450, family 39, subfamily A, polypeptide 1	10672	-0.7023733258247375	-0.5898817	No	
+row_62	GSTA1	GSTA1	glutathione S-transferase A1	10756	-0.7768106460571289	-0.59021604	No	
+row_63	CYP7A1	CYP7A1	cytochrome P450, family 7, subfamily A, polypeptide 1	11003	-1.0941885709762573	-0.60131073	Yes	
+row_64	NAT1	NAT1	N-acetyltransferase 1 (arylamine N-acetyltransferase)	11033	-1.1430234909057617	-0.5941383	Yes	
+row_65	CYP19A1	CYP19A1	cytochrome P450, family 19, subfamily A, polypeptide 1	11102	-1.2528512477874756	-0.5892571	Yes	
+row_66	CYP46A1	CYP46A1	cytochrome P450, family 46, subfamily A, polypeptide 1	11347	-1.8011456727981567	-0.594275	Yes	
+row_67	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	11398	-1.892829418182373	-0.5825603	Yes	
+row_68	CYP7B1	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	11403	-1.9073396921157837	-0.56693864	Yes	
+row_69	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	11539	-2.1825923919677734	-0.55979604	Yes	
+row_70	CYP11B2	CYP11B2	cytochrome P450, family 11, subfamily B, polypeptide 2	11641	-2.468573808670044	-0.54746366	Yes	
+row_71	CYP26C1	CYP26C1	cytochrome P450, family 26, subfamily C, polypeptide 1	11706	-2.7369353771209717	-0.529842	Yes	
+row_72	FMO3	FMO3	flavin containing monooxygenase 3	11725	-2.7526674270629883	-0.5083031	Yes	
+row_73	CYP11B1	CYP11B1	cytochrome P450, family 11, subfamily B, polypeptide 1	11805	-3.0591280460357666	-0.48922142	Yes	
+row_74	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	11806	-3.0664620399475098	-0.4635769	Yes	
+row_75	GSTA2	GSTA2	glutathione S-transferase A2	11847	-3.280989170074463	-0.43943024	Yes	
+row_76	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	11859	-3.3101139068603516	-0.41265336	Yes	
+row_77	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	11937	-3.852306604385376	-0.38677382	Yes	
+row_78	CYP26B1	CYP26B1	cytochrome P450, family 26, subfamily B, polypeptide 1	11938	-3.853198766708374	-0.3545499	Yes	
+row_79	GSTA3	GSTA3	glutathione S-transferase A3	12025	-4.519733905792236	-0.32382944	Yes	
+row_80	GGT1	GGT1	gamma-glutamyltransferase 1	12089	-5.483580112457275	-0.28315556	Yes	
+row_81	CYP8B1	CYP8B1	cytochrome P450, family 8, subfamily B, polypeptide 1	12151	-6.66062068939209	-0.23247364	Yes	
+row_82	ACSM1	ACSM1	acyl-CoA synthetase medium-chain family member 1	12197	-7.818588733673096	-0.17079096	Yes	
+row_83	MAT1A	MAT1A	methionine adenosyltransferase I, alpha	12231	-20.776729583740234	2.469205E-4	Yes	

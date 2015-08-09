@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	1345	0.7249175906181335	-0.06349406	No	
+row_1	GRIN2D	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D	1998	0.4126238524913788	-0.09033234	No	
+row_2	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	2289	0.33466866612434387	-0.09253916	No	
+row_3	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	2722	0.25834447145462036	-0.111290544	No	
+row_4	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	2737	0.25511956214904785	-0.0960125	No	
+row_5	RPS6KA3	RPS6KA3	ribosomal protein S6 kinase, 90kDa, polypeptide 3	3236	0.19314244389533997	-0.124367476	No	
+row_6	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	-0.12659979	No	
+row_7	GRIN2A	GRIN2A	glutamate receptor, ionotropic, N-methyl D-aspartate 2A	3818	0.13860242068767548	-0.1515859	No	
+row_8	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	-0.17865722	No	
+row_9	RRAS	RRAS	related RAS viral (r-ras) oncogene homolog	4501	0.0875890702009201	-0.1948054	No	
+row_10	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	4981	0.05562165752053261	-0.2304578	No	
+row_11	RPS6KA2	RPS6KA2	ribosomal protein S6 kinase, 90kDa, polypeptide 2	5181	0.04052673652768135	-0.24414812	No	
+row_12	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	6901	-0.05907402187585831	-0.38114268	No	
+row_13	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	7699	-0.11298403143882751	-0.43914843	No	
+row_14	AKAP9	AKAP9	A kinase (PRKA) anchor protein (yotiao) 9	7925	-0.12794096767902374	-0.44934055	No	
+row_15	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	8218	-0.1521199643611908	-0.46346375	No	
+row_16	RASGRF2	RASGRF2	Ras protein-specific guanine nucleotide-releasing factor 2	8317	-0.16085654497146606	-0.46113458	No	
+row_17	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8491	-0.1754104644060135	-0.46401146	No	
+row_18	CREB1	CREB1	cAMP responsive element binding protein 1	8736	-0.19850218296051025	-0.47121704	No	
+row_19	ACTN2	ACTN2	actinin, alpha 2	9852	-0.3587188720703125	-0.5394486	Yes	
+row_20	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.5192924	Yes	
+row_21	GRIN2B	GRIN2B	glutamate receptor, ionotropic, N-methyl D-aspartate 2B	11235	-1.5445258617401123	-0.52928245	Yes	
+row_22	RASGRF1	RASGRF1	Ras protein-specific guanine nucleotide-releasing factor 1	11302	-1.6698477268218994	-0.42718264	Yes	
+row_23	GRIN2C	GRIN2C	glutamate receptor, ionotropic, N-methyl D-aspartate 2C	11514	-2.1283068656921387	-0.30744344	Yes	
+row_24	GRIN1	GRIN1	glutamate receptor, ionotropic, N-methyl D-aspartate 1	11599	-2.3355770111083984	-0.16395791	Yes	
+row_25	RPS6KA6	RPS6KA6	ribosomal protein S6 kinase, 90kDa, polypeptide 6	11865	-3.353292226791382	0.03022353	Yes	

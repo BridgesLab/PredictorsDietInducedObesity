@@ -1,0 +1,111 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	THBS1	THBS1	thrombospondin 1	109	6.297066688537598	0.025500577	Yes	
+row_1	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.05341449	Yes	
+row_2	THBS2	THBS2	thrombospondin 2	251	5.187238693237305	0.074248336	Yes	
+row_3	COL4A1	COL4A1	collagen, type IV, alpha 1	297	4.935946464538574	0.0973901	Yes	
+row_4	COL5A2	COL5A2	collagen, type V, alpha 2	328	4.778566837310791	0.120851725	Yes	
+row_5	COL4A2	COL4A2	collagen, type IV, alpha 2	349	4.675873279571533	0.1445386	Yes	
+row_6	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	446	4.294555187225342	0.16024071	Yes	
+row_7	COL3A1	COL3A1	collagen, type III, alpha 1 (Ehlers-Danlos syndrome type IV, autosomal dominant)	471	4.20311975479126	0.18106318	Yes	
+row_8	ADCY4	ADCY4	adenylate cyclase 4	485	4.150942802429199	0.20246162	Yes	
+row_9	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	493	4.133812427520752	0.2242354	Yes	
+row_10	ADCY5	ADCY5	adenylate cyclase 5	524	4.0463151931762695	0.24374339	Yes	
+row_11	COL6A3	COL6A3	collagen, type VI, alpha 3	609	3.8020308017730713	0.2577219	Yes	
+row_12	COL5A1	COL5A1	collagen, type V, alpha 1	612	3.798173189163208	0.27807334	Yes	
+row_13	COL6A2	COL6A2	collagen, type VI, alpha 2	708	3.529841899871826	0.28972453	Yes	
+row_14	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.2937898	Yes	
+row_15	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.30255198	Yes	
+row_16	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.31770372	Yes	
+row_17	COL6A1	COL6A1	collagen, type VI, alpha 1	989	2.8883652687072754	0.33228517	Yes	
+row_18	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.34485984	Yes	
+row_19	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.3593937	Yes	
+row_20	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.3709912	Yes	
+row_21	PDGFB	PDGFB	platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)	1126	2.641366720199585	0.38127604	Yes	
+row_22	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	1146	2.598780393600464	0.3938261	Yes	
+row_23	ADCY3	ADCY3	adenylate cyclase 3	1162	2.560685396194458	0.40648237	Yes	
+row_24	COL1A2	COL1A2	collagen, type I, alpha 2	1170	2.547736883163452	0.4196925	Yes	
+row_25	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.40332007	No	
+row_26	PRKCE	PRKCE	protein kinase C, epsilon	1592	1.9417451620101929	0.408346	No	
+row_27	RAPGEF1	RAPGEF1	Rap guanine nucleotide exchange factor (GEF) 1	1789	1.7223161458969116	0.40236259	No	
+row_28	COL1A1	COL1A1	collagen, type I, alpha 1	1889	1.6164757013320923	0.4033711	No	
+row_29	PDGFC	PDGFC	platelet derived growth factor C	2089	1.4169096946716309	0.39550483	No	
+row_30	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	2382	1.1586858034133911	0.37899286	No	
+row_31	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.3849223	No	
+row_32	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.38451996	No	
+row_33	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.38753837	No	
+row_34	ADCY6	ADCY6	adenylate cyclase 6	2772	0.8604217171669006	0.37128735	No	
+row_35	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.37366104	No	
+row_36	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.37271026	No	
+row_37	THBS3	THBS3	thrombospondin 3	2967	0.749724268913269	0.36927283	No	
+row_38	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	3247	0.5995216369628906	0.35075542	No	
+row_39	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	3288	0.5827511548995972	0.35078296	No	
+row_40	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.34990546	No	
+row_41	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.34780112	No	
+row_42	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.34545285	No	
+row_43	PLAT	PLAT	plasminogen activator, tissue	3583	0.4591388702392578	0.33919892	No	
+row_44	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.32562205	No	
+row_45	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.3271609	No	
+row_46	COL4A5	COL4A5	collagen, type IV, alpha 5 (Alport syndrome)	3804	0.36777472496032715	0.32821095	No	
+row_47	PDGFD	PDGFD	platelet derived growth factor D	3839	0.3588537871837616	0.32749742	No	
+row_48	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.32854453	No	
+row_49	PLCG1	PLCG1	phospholipase C, gamma 1	3890	0.33916980028152466	0.3274128	No	
+row_50	ADRBK1	ADRBK1	adrenergic, beta, receptor kinase 1	3946	0.318541944026947	0.3248442	No	
+row_51	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.31414014	No	
+row_52	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.31144866	No	
+row_53	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	4341	0.1897527426481247	0.29812622	No	
+row_54	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.29436517	No	
+row_55	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.2924231	No	
+row_56	NCK1	NCK1	NCK adaptor protein 1	4444	0.1578144133090973	0.29296327	No	
+row_57	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.29349414	No	
+row_58	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.29330328	No	
+row_59	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	4498	0.143723726272583	0.2914282	No	
+row_60	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.27578586	No	
+row_61	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	4912	0.03931080549955368	0.2600137	No	
+row_62	ADCY9	ADCY9	adenylate cyclase 9	4967	0.02304287999868393	0.2559276	No	
+row_63	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.25166714	No	
+row_64	TSC2	TSC2	tuberous sclerosis 2	5294	-0.05614300072193146	0.23091765	No	
+row_65	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.227993	No	
+row_66	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.22214682	No	
+row_67	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.20419268	No	
+row_68	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.19864923	No	
+row_69	AKT1S1	AKT1S1	AKT1 substrate 1 (proline-rich)	5795	-0.1695411056280136	0.19558802	No	
+row_70	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	0.1694589	No	
+row_71	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.15786454	No	
+row_72	RICTOR	RICTOR	-	6436	-0.3057534098625183	0.1503146	No	
+row_73	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.15065832	No	
+row_74	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.1514864	No	
+row_75	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.14782381	No	
+row_76	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.14440708	No	
+row_77	GSK3A	GSK3A	glycogen synthase kinase 3 alpha	6658	-0.3594367802143097	0.14237116	No	
+row_78	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.1305791	No	
+row_79	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.11708428	No	
+row_80	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	7321	-0.5153549313545227	0.09826838	No	
+row_81	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7351	-0.5213844180107117	0.09882227	No	
+row_82	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.07805896	No	
+row_83	COL9A2	COL9A2	collagen, type IX, alpha 2	7759	-0.6269387006759644	0.07380265	No	
+row_84	FURIN	FURIN	furin (paired basic amino acid cleaving enzyme)	7875	-0.6537939310073853	0.0683658	No	
+row_85	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	8030	-0.6928877234458923	0.060099095	No	
+row_86	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	8094	-0.7090162634849548	0.059014987	No	
+row_87	COL4A4	COL4A4	collagen, type IV, alpha 4	8314	-0.7810813188552856	0.04615624	No	
+row_88	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.04740317	No	
+row_89	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	0.048708655	No	
+row_90	NCK2	NCK2	NCK adaptor protein 2	8423	-0.8127745389938354	0.050913814	No	
+row_91	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.04371505	No	
+row_92	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	0.036977045	No	
+row_93	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.03305465	No	
+row_94	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	8907	-0.9845682382583618	0.03361427	No	
+row_95	ADCY7	ADCY7	adenylate cyclase 7	9067	-1.0541902780532837	0.026908474	No	
+row_96	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	9252	-1.1235681772232056	0.018627949	No	
+row_97	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.019320657	No	
+row_98	ADCY8	ADCY8	adenylate cyclase 8 (brain)	9894	-1.4257359504699707	-0.017347872	No	
+row_99	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	-0.027394142	No	
+row_100	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	-0.06541005	No	
+row_101	GRB7	GRB7	growth factor receptor-bound protein 7	10894	-2.2230608463287354	-0.06338764	No	
+row_102	ADCY2	ADCY2	adenylate cyclase 2 (brain)	11099	-2.508901357650757	-0.06574782	No	
+row_103	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	11465	-3.0653598308563232	-0.07765713	No	
+row_104	PLG	PLG	plasminogen	11483	-3.084174394607544	-0.062330358	No	
+row_105	COL9A3	COL9A3	collagen, type IX, alpha 3	11613	-3.313363790512085	-0.05449907	No	
+row_106	THBS4	THBS4	thrombospondin 4	11949	-4.382364273071289	-0.056958336	No	
+row_107	COL9A1	COL9A1	collagen, type IX, alpha 1	12365	-6.932485580444336	-0.051886607	No	
+row_108	CAMK4	CAMK4	calcium/calmodulin-dependent protein kinase IV	12373	-7.002352714538574	-0.01462478	No	
+row_109	COL2A1	COL2A1	collagen, type II, alpha 1 (primary osteoarthritis, spondyloepiphyseal dysplasia, congenital)	12735	-10.795755386352539	0.015516338	No	

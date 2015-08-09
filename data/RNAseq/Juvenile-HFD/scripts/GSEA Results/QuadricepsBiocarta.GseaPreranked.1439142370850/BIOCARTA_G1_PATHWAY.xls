@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SKP2	SKP2	S-phase kinase-associated protein 2 (p45)	1060	1.0525671243667603	6.113695E-4	No	
+row_1	HDAC1	HDAC1	histone deacetylase 1	1616	0.5582811236381531	0.0015272934	No	
+row_2	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	1900	0.440790593624115	0.014962394	No	
+row_3	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	2199	0.3557278513908386	0.020103067	No	
+row_4	TFDP1	TFDP1	transcription factor Dp-1	2290	0.3346315026283264	0.040527966	No	
+row_5	E2F1	E2F1	E2F transcription factor 1	2905	0.23143570125102997	0.0094616385	No	
+row_6	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.015513686	No	
+row_7	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	3183	0.19960279762744904	0.021200294	No	
+row_8	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	0.013277899	No	
+row_9	SMAD3	SMAD3	SMAD, mothers against DPP homolog 3 (Drosophila)	3489	0.16906000673770905	0.024618117	No	
+row_10	CDK4	CDK4	cyclin-dependent kinase 4	4414	0.09293115139007568	-0.043344337	No	
+row_11	CDK2	CDK2	cyclin-dependent kinase 2	4488	0.08867879211902618	-0.04195734	No	
+row_12	CDKN2B	CDKN2B	cyclin-dependent kinase inhibitor 2B (p15, inhibits CDK4)	4650	0.07656287401914597	-0.04878456	No	
+row_13	SMAD4	SMAD4	SMAD, mothers against DPP homolog 4 (Drosophila)	4712	0.07315393537282944	-0.04770427	No	
+row_14	CDC25A	CDC25A	cell division cycle 25A	4845	0.06462951749563217	-0.053147446	No	
+row_15	DHFR	DHFR	dihydrofolate reductase	6034	-0.009686088189482689	-0.14964813	No	
+row_16	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	6098	-0.012871046550571918	-0.15373911	No	
+row_17	ATR	ATR	ataxia telangiectasia and Rad3 related	7008	-0.06647157669067383	-0.22267085	No	
+row_18	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	7258	-0.08057409524917603	-0.23637268	No	
+row_19	GSK3B	GSK3B	glycogen synthase kinase 3 beta	8709	-0.19601410627365112	-0.33885542	No	
+row_20	TGFB3	TGFB3	transforming growth factor, beta 3	9135	-0.24065211415290833	-0.35367578	No	
+row_21	CCND1	CCND1	cyclin D1	9504	-0.2900942862033844	-0.35972053	No	
+row_22	CDK6	CDK6	cyclin-dependent kinase 6	10259	-0.4792875051498413	-0.38166574	Yes	
+row_23	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	10830	-0.8505929708480835	-0.35769722	Yes	
+row_24	CCNE1	CCNE1	cyclin E1	11300	-1.661577820777893	-0.25809085	Yes	
+row_25	CCNA1	CCNA1	cyclin A1	11958	-4.027035713195801	0.02260624	Yes	

@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SSTR4	SSTR4	somatostatin receptor 4	37	7.741296768188477	0.047360104	No	
+row_1	MC2R	MC2R	melanocortin 2 receptor (adrenocorticotropic hormone)	70	6.919093608856201	0.08977312	No	
+row_2	DRD1	DRD1	dopamine receptor D1	156	5.8892927169799805	0.1213924	No	
+row_3	TSPO	TSPO	translocator protein (18kDa)	411	4.438224792480469	0.13048528	No	
+row_4	CHRM2	CHRM2	cholinergic receptor, muscarinic 2	1284	2.3831610679626465	0.07829943	No	
+row_5	GABRA3	GABRA3	gamma-aminobutyric acid (GABA) A receptor, alpha 3	1616	1.9180004596710205	0.06506584	No	
+row_6	DRD3	DRD3	dopamine receptor D3	1627	1.9073566198349	0.076666206	No	
+row_7	CHRNB1	CHRNB1	cholinergic receptor, nicotinic, beta 1 (muscle)	1723	1.8116852045059204	0.081051536	No	
+row_8	TACR3	TACR3	tachykinin receptor 3	1769	1.746942162513733	0.08889575	No	
+row_9	CHRNA4	CHRNA4	cholinergic receptor, nicotinic, alpha 4	1805	1.7058497667312622	0.09724913	No	
+row_10	DRD5	DRD5	dopamine receptor D5	2171	1.3338392972946167	0.07758741	No	
+row_11	CCKBR	CCKBR	cholecystokinin B receptor	2368	1.1738945245742798	0.069998816	No	
+row_12	TACR1	TACR1	tachykinin receptor 1	3663	0.4224205017089844	-0.027648145	No	
+row_13	NMUR2	NMUR2	neuromedin U receptor 2	4042	0.28978192806243896	-0.055092912	No	
+row_14	GALR1	GALR1	galanin receptor 1	4121	0.2631493806838989	-0.05943663	No	
+row_15	KISS1R	KISS1R	KISS1 receptor	4984	0.01519716251641512	-0.12621157	No	
+row_16	GABRA2	GABRA2	gamma-aminobutyric acid (GABA) A receptor, alpha 2	5372	-0.07366365939378738	-0.15575686	No	
+row_17	GALR2	GALR2	galanin receptor 2	5499	-0.10421475023031235	-0.16485567	No	
+row_18	TACR2	TACR2	tachykinin receptor 2	5829	-0.17715847492218018	-0.18922982	No	
+row_19	CCKAR	CCKAR	cholecystokinin A receptor	6080	-0.2278927117586136	-0.20714597	No	
+row_20	SSTR1	SSTR1	somatostatin receptor 1	7111	-0.4620191156864166	-0.284055	No	
+row_21	CHRM3	CHRM3	cholinergic receptor, muscarinic 3	7266	-0.4992152750492096	-0.29276302	No	
+row_22	ANXA9	ANXA9	annexin A9	7348	-0.5209858417510986	-0.29566646	No	
+row_23	CHRNB2	CHRNB2	cholinergic receptor, nicotinic, beta 2 (neuronal)	9052	-1.0482172966003418	-0.42098287	No	
+row_24	GABRA4	GABRA4	gamma-aminobutyric acid (GABA) A receptor, alpha 4	10059	-1.5173667669296265	-0.4891822	No	
+row_25	SSTR3	SSTR3	somatostatin receptor 3	10205	-1.6060097217559814	-0.4900104	No	
+row_26	CHRM1	CHRM1	cholinergic receptor, muscarinic 1	10389	-1.7343332767486572	-0.492954	No	
+row_27	GABRG2	GABRG2	gamma-aminobutyric acid (GABA) A receptor, gamma 2	10490	-1.8134095668792725	-0.48894536	No	
+row_28	CHRNA1	CHRNA1	cholinergic receptor, nicotinic, alpha 1 (muscle)	10635	-1.9443305730819702	-0.48750073	No	
+row_29	MCHR1	MCHR1	melanin-concentrating hormone receptor 1	11047	-2.4338696002960205	-0.5035934	Yes	
+row_30	CHRNB4	CHRNB4	cholinergic receptor, nicotinic, beta 4	11249	-2.7132153511047363	-0.5015818	Yes	
+row_31	CHRNA2	CHRNA2	cholinergic receptor, nicotinic, alpha 2 (neuronal)	11310	-2.813664197921753	-0.48797968	Yes	
+row_32	DRD4	DRD4	dopamine receptor D4	11392	-2.9571545124053955	-0.4750757	Yes	
+row_33	CHRNA3	CHRNA3	cholinergic receptor, nicotinic, alpha 3	11570	-3.262620449066162	-0.46763727	Yes	
+row_34	CHRM5	CHRM5	cholinergic receptor, muscarinic 5	11584	-3.273010730743408	-0.4474084	Yes	
+row_35	HCRTR2	HCRTR2	hypocretin (orexin) receptor 2	11706	-3.547405481338501	-0.43377766	Yes	
+row_36	SSTR2	SSTR2	somatostatin receptor 2	11807	-3.8451414108276367	-0.41658583	Yes	
+row_37	NPY6R	NPY6R	neuropeptide Y receptor Y6 (pseudogene)	12135	-5.261934757232666	-0.4078115	Yes	
+row_38	NMUR1	NMUR1	neuromedin U receptor 1	12168	-5.468934535980225	-0.37480807	Yes	
+row_39	DRD2	DRD2	dopamine receptor D2	12223	-5.837121486663818	-0.34112233	Yes	
+row_40	CHRNA5	CHRNA5	cholinergic receptor, nicotinic, alpha 5	12394	-7.23612117767334	-0.3073582	Yes	
+row_41	CHRNE	CHRNE	cholinergic receptor, nicotinic, epsilon	12463	-7.822843551635742	-0.26187393	Yes	
+row_42	NMBR	NMBR	neuromedin B receptor	12602	-9.281841278076172	-0.21235332	Yes	
+row_43	CHRNA7	CHRNA7	cholinergic receptor, nicotinic, alpha 7	12805	-11.72675895690918	-0.15193358	Yes	
+row_44	CHRM4	CHRM4	cholinergic receptor, muscarinic 4	12901	-24.9456844329834	0.0025601066	Yes	

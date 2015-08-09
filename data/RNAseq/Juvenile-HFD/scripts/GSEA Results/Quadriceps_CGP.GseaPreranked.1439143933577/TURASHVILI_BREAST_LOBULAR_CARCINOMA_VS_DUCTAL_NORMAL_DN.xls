@@ -1,0 +1,71 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KRT15	KRT15	keratin 15	0	10.175261497497559	0.10034396	Yes	
+row_1	TRIM29	TRIM29	tripartite motif-containing 29	10	7.243049621582031	0.1710319	Yes	
+row_2	KRT17	KRT17	keratin 17	51	5.89647102355957	0.22589219	Yes	
+row_3	KRT14	KRT14	keratin 14 (epidermolysis bullosa simplex, Dowling-Meara, Koebner)	60	5.536096096038818	0.2798291	Yes	
+row_4	SPATA17	SPATA17	spermatogenesis associated 17	84	5.166333198547363	0.32888654	Yes	
+row_5	ITGA2	ITGA2	integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)	125	4.577530384063721	0.37074003	Yes	
+row_6	CLIC6	CLIC6	chloride intracellular channel 6	149	4.410469055175781	0.41234344	Yes	
+row_7	EHF	EHF	ets homologous factor	191	3.92545747756958	0.44768426	Yes	
+row_8	ELF5	ELF5	E74-like factor 5 (ets domain transcription factor)	222	3.7649102210998535	0.48234606	Yes	
+row_9	ID4	ID4	inhibitor of DNA binding 4, dominant negative helix-loop-helix protein	348	2.9032034873962402	0.5007008	Yes	
+row_10	CPB1	CPB1	carboxypeptidase B1 (tissue)	438	2.806199073791504	0.5210582	Yes	
+row_11	CYB5R2	CYB5R2	cytochrome b5 reductase 2	490	2.5330541133880615	0.54184574	Yes	
+row_12	KRT5	KRT5	keratin 5 (epidermolysis bullosa simplex, Dowling-Meara/Kobner/Weber-Cockayne types)	747	1.7948449850082397	0.53850174	Yes	
+row_13	RARRES1	RARRES1	retinoic acid receptor responder (tazarotene induced) 1	910	1.324549674987793	0.538247	Yes	
+row_14	STC2	STC2	stanniocalcin 2	953	1.262013554573059	0.54723984	Yes	
+row_15	NTRK2	NTRK2	neurotrophic tyrosine kinase, receptor, type 2	1030	1.1074903011322021	0.55191404	Yes	
+row_16	SFRP1	SFRP1	secreted frizzled-related protein 1	1720	0.5055788159370422	0.5002619	No	
+row_17	FAM126A	FAM126A	family with sequence similarity 126, member A	1949	0.4271641969680786	0.4857321	No	
+row_18	LAMB3	LAMB3	laminin, beta 3	2021	0.4061685800552368	0.48390117	No	
+row_19	ERICH1	ERICH1	glutamate-rich 1	2375	0.31682583689689636	0.45800787	No	
+row_20	EFS	EFS	embryonal Fyn-associated substrate	2379	0.3154178559780121	0.4608718	No	
+row_21	KCTD14	KCTD14	potassium channel tetramerisation domain containing 14	2631	0.2738511860370636	0.44293943	No	
+row_22	CDC37L1	CDC37L1	CDC37 cell division cycle 37 homolog (S. cerevisiae)-like 1	2667	0.26878681778907776	0.44271296	No	
+row_23	PERP	PERP	PERP, TP53 apoptosis effector	2817	0.24396774172782898	0.43287063	No	
+row_24	ITM2A	ITM2A	integral membrane protein 2A	2991	0.22153671085834503	0.42083418	No	
+row_25	MAOA	MAOA	monoamine oxidase A	3022	0.2177628129720688	0.4205156	No	
+row_26	GALNT3	GALNT3	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3 (GalNAc-T3)	3347	0.18299859762191772	0.39568645	No	
+row_27	SORL1	SORL1	sortilin-related receptor, L(DLR class) A repeats-containing	3538	0.16467641294002533	0.38169184	No	
+row_28	CCL28	CCL28	chemokine (C-C motif) ligand 28	3781	0.14292335510253906	0.36320814	No	
+row_29	LYPD6	LYPD6	LY6/PLAUR domain containing 6	4409	0.0935947448015213	0.31258982	No	
+row_30	RIOK3	RIOK3	RIO kinase 3 (yeast)	4431	0.09201446175575256	0.31177098	No	
+row_31	TES	TES	testis derived transcript (3 LIM domains)	4433	0.09178324788808823	0.3125939	No	
+row_32	PAPOLA	PAPOLA	poly(A) polymerase alpha	4491	0.08830349147319794	0.30877915	No	
+row_33	ATP11B	ATP11B	ATPase, Class VI, type 11B	4876	0.0628749430179596	0.27783322	No	
+row_34	IRX1	IRX1	iroquois homeobox protein 1	4954	0.056800272315740585	0.27206373	No	
+row_35	APLP2	APLP2	amyloid beta (A4) precursor-like protein 2	5236	0.03722403198480606	0.24933176	No	
+row_36	CGNL1	CGNL1	cingulin-like 1	5908	-0.0026446660049259663	0.19419959	No	
+row_37	MYLK	MYLK	myosin, light chain kinase	6175	-0.017095312476158142	0.17250217	No	
+row_38	DST	DST	dystonin	6427	-0.031007496640086174	0.152175	No	
+row_39	ACTG2	ACTG2	actin, gamma 2, smooth muscle, enteric	6457	-0.032624538987874985	0.15011282	No	
+row_40	CHPT1	CHPT1	choline phosphotransferase 1	6586	-0.04011806100606918	0.13998647	No	
+row_41	ACTA2	ACTA2	actin, alpha 2, smooth muscle, aorta	6915	-0.0600743405520916	0.113616295	No	
+row_42	NR3C2	NR3C2	nuclear receptor subfamily 3, group C, member 2	7087	-0.07096274942159653	0.10025938	No	
+row_43	CX3CR1	CX3CR1	chemokine (C-X3-C motif) receptor 1	7265	-0.08095970749855042	0.08650783	No	
+row_44	MRPS25	MRPS25	mitochondrial ribosomal protein S25	8042	-0.13741068542003632	0.024073353	No	
+row_45	FMO5	FMO5	flavin containing monooxygenase 5	8197	-0.1506655514240265	0.012899881	No	
+row_46	BBX	BBX	bobby sox homolog (Drosophila)	8412	-0.16771918535232544	-0.0030375966	No	
+row_47	HOOK1	HOOK1	hook homolog 1 (Drosophila)	8563	-0.18088343739509583	-0.01358426	No	
+row_48	IL17RB	IL17RB	interleukin 17 receptor B	8960	-0.21976181864738464	-0.04396947	No	
+row_49	SNTB2	SNTB2	syntrophin, beta 2 (dystrophin-associated protein A1, 59kDa, basic component 2)	9068	-0.23193752765655518	-0.05047793	No	
+row_50	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	9085	-0.2339877188205719	-0.049485695	No	
+row_51	MYBPC1	MYBPC1	myosin binding protein C, slow type	9788	-0.345873087644577	-0.10378138	No	
+row_52	CNN1	CNN1	calponin 1, basic, smooth muscle	9850	-0.3586343824863434	-0.10525907	No	
+row_53	CP	CP	ceruloplasmin (ferroxidase)	9856	-0.35999518632888794	-0.102119975	No	
+row_54	SOCS2	SOCS2	suppressor of cytokine signaling 2	9964	-0.3849661946296692	-0.10711933	No	
+row_55	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	10203	-0.4532257914543152	-0.12221414	No	
+row_56	MGP	MGP	matrix Gla protein	10282	-0.4894707202911377	-0.12379903	No	
+row_57	HIPK2	HIPK2	homeodomain interacting protein kinase 2	10439	-0.5578957796096802	-0.13112098	No	
+row_58	PI15	PI15	peptidase inhibitor 15	10766	-0.7873180508613586	-0.150155	No	
+row_59	CITED1	CITED1	Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 1	10828	-0.8497306704521179	-0.14678971	No	
+row_60	PTGER4	PTGER4	prostaglandin E receptor 4 (subtype EP4)	10838	-0.8610938191413879	-0.1390378	No	
+row_61	PDK4	PDK4	pyruvate dehydrogenase kinase, isozyme 4	10916	-0.9690741896629333	-0.13581085	No	
+row_62	CDH1	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	11209	-1.494543433189392	-0.14507562	No	
+row_63	CYP4X1	CYP4X1	cytochrome P450, family 4, subfamily X, polypeptide 1	11345	-1.7906244993209839	-0.13851468	No	
+row_64	KLF8	KLF8	Kruppel-like factor 8	11367	-1.8712011575698853	-0.12178797	No	
+row_65	OXTR	OXTR	oxytocin receptor	11548	-2.23872709274292	-0.11450718	No	
+row_66	AK5	AK5	adenylate kinase 5	11601	-2.34403920173645	-0.09566586	No	
+row_67	AZGP1	AZGP1	alpha-2-glycoprotein 1, zinc	11991	-4.2598466873168945	-0.085634105	No	
+row_68	PDZK1	PDZK1	PDZ domain containing 1	12046	-4.733491897583008	-0.04339345	No	
+row_69	SERPINA6	SERPINA6	serpin peptidase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 6	12120	-5.959039211273193	0.009371153	No	

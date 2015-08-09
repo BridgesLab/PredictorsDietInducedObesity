@@ -1,0 +1,185 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CHST5	CHST5	carbohydrate (N-acetylglucosamine 6-O) sulfotransferase 5	205	3.88678240776062	0.042891428	Yes	
+row_1	OPRM1	OPRM1	opioid receptor, mu 1	412	2.859224557876587	0.06986332	Yes	
+row_2	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	484	2.5702457427978516	0.1035839	Yes	
+row_3	F2RL1	F2RL1	coagulation factor II (thrombin) receptor-like 1	559	2.439296245574951	0.13503738	Yes	
+row_4	PCSK2	PCSK2	proprotein convertase subtilisin/kexin type 2	655	2.11525821685791	0.15975423	Yes	
+row_5	CHST10	CHST10	carbohydrate sulfotransferase 10	718	1.9008488655090332	0.183905	Yes	
+row_6	FUT7	FUT7	fucosyltransferase 7 (alpha (1,3) fucosyltransferase)	814	1.605635166168213	0.20076762	Yes	
+row_7	FUT4	FUT4	fucosyltransferase 4 (alpha (1,3) fucosyltransferase, myeloid-specific)	892	1.3569514751434326	0.21529123	Yes	
+row_8	FGD2	FGD2	FYVE, RhoGEF and PH domain containing 2	1073	1.0379573106765747	0.21635154	Yes	
+row_9	RPGR	RPGR	retinitis pigmentosa GTPase regulator	1104	0.9952958822250366	0.22920147	Yes	
+row_10	PCSK5	PCSK5	proprotein convertase subtilisin/kexin type 5	1306	0.7523040771484375	0.22411674	Yes	
+row_11	AP3B2	AP3B2	adaptor-related protein complex 3, beta 2 subunit	1367	0.7085469365119934	0.23005791	Yes	
+row_12	RAB36	RAB36	RAB36, member RAS oncogene family	1395	0.6918613910675049	0.23848028	Yes	
+row_13	ARFIP1	ARFIP1	ADP-ribosylation factor interacting protein 1 (arfaptin 1)	1584	0.5790327191352844	0.23180388	Yes	
+row_14	ICA1	ICA1	islet cell autoantigen 1, 69kDa	1637	0.5435360670089722	0.23586577	Yes	
+row_15	ATP1A3	ATP1A3	ATPase, Na+/K+ transporting, alpha 3 polypeptide	1760	0.4895268380641937	0.23328665	Yes	
+row_16	SCYL3	SCYL3	SCY1-like 3 (S. cerevisiae)	1812	0.47172513604164124	0.23632479	Yes	
+row_17	FUT2	FUT2	fucosyltransferase 2 (secretor status included)	1851	0.45718568563461304	0.24021758	Yes	
+row_18	OCRL	OCRL	oculocerebrorenal syndrome of Lowe	1958	0.42441338300704956	0.23796263	Yes	
+row_19	CHST2	CHST2	carbohydrate (N-acetylglucosamine-6-O) sulfotransferase 2	1965	0.42204657196998596	0.24396926	Yes	
+row_20	TMEM43	TMEM43	transmembrane protein 43	2063	0.3938716948032379	0.24199042	Yes	
+row_21	ENTPD4	ENTPD4	ectonucleoside triphosphate diphosphohydrolase 4	2102	0.38386300206184387	0.2447532	Yes	
+row_22	TRIM23	TRIM23	tripartite motif-containing 23	2142	0.37080782651901245	0.24723178	Yes	
+row_23	RGS19	RGS19	regulator of G-protein signalling 19	2272	0.3384401202201843	0.24174325	Yes	
+row_24	DYNC2H1	DYNC2H1	dynein, cytoplasmic 2, heavy chain 1	2312	0.33048444986343384	0.24360038	Yes	
+row_25	SPG21	SPG21	spastic paraplegia 21, maspardin (autosomal recessive, Mast syndrome)	2314	0.3294346332550049	0.2485946	Yes	
+row_26	OPTN	OPTN	optineurin	2336	0.32450565695762634	0.25185323	Yes	
+row_27	STIP1	STIP1	stress-induced-phosphoprotein 1 (Hsp70/Hsp90-organizing protein)	2337	0.32419148087501526	0.25684962	Yes	
+row_28	FGD4	FGD4	FYVE, RhoGEF and PH domain containing 4	2393	0.31262096762657166	0.25710374	Yes	
+row_29	SLC35A1	SLC35A1	solute carrier family 35 (CMP-sialic acid transporter), member A1	2469	0.298377126455307	0.25547874	Yes	
+row_30	AP1S1	AP1S1	adaptor-related protein complex 1, sigma 1 subunit	2531	0.2890577018260956	0.25487182	Yes	
+row_31	IL15	IL15	interleukin 15	2544	0.28767189383506775	0.2583096	Yes	
+row_32	SLC35A3	SLC35A3	solute carrier family 35 (UDP-N-acetylglucosamine (UDP-GlcNAc) transporter), member A3	2553	0.2862562835216522	0.26205748	Yes	
+row_33	ARL1	ARL1	ADP-ribosylation factor-like 1	2607	0.27685046195983887	0.2619263	Yes	
+row_34	GOLGA1	GOLGA1	golgi autoantigen, golgin subfamily a, 1	2645	0.2717322111129761	0.2630439	Yes	
+row_35	AP4B1	AP4B1	adaptor-related protein complex 4, beta 1 subunit	2647	0.27117475867271423	0.26714024	Yes	
+row_36	BACE1	BACE1	beta-site APP-cleaving enzyme 1	2691	0.2632944881916046	0.26762992	Yes	
+row_37	NCSTN	NCSTN	nicastrin	2761	0.2512145936489105	0.26577592	Yes	
+row_38	B3GALT6	B3GALT6	UDP-Gal:betaGal beta 1,3-galactosyltransferase polypeptide 6	2774	0.2490282654762268	0.26861814	Yes	
+row_39	ATP2C1	ATP2C1	ATPase, Ca++ transporting, type 2C, member 1	2797	0.2466670423746109	0.27059415	Yes	
+row_40	CAV1	CAV1	caveolin 1, caveolae protein, 22kDa	2883	0.23444144427776337	0.26715398	No	
+row_41	FGD1	FGD1	FYVE, RhoGEF and PH domain containing 1 (faciogenital dysplasia)	2984	0.2220897078514099	0.2622787	No	
+row_42	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	2999	0.2203005850315094	0.2645122	No	
+row_43	CORO7	CORO7	coronin 7	3112	0.20665785670280457	0.25840336	No	
+row_44	MALL	MALL	mal, T-cell differentiation protein-like	3175	0.1999945044517517	0.25634086	No	
+row_45	GOPC	GOPC	golgi associated PDZ and coiled-coil motif containing	3285	0.1887277066707611	0.2502046	No	
+row_46	HOOK3	HOOK3	hook homolog 3 (Drosophila)	3328	0.18469640612602234	0.24956591	No	
+row_47	PSENEN	PSENEN	presenilin enhancer 2 homolog (C. elegans)	3433	0.17335109412670135	0.2436076	No	
+row_48	CLASP2	CLASP2	cytoplasmic linker associated protein 2	3503	0.16791678965091705	0.24046983	No	
+row_49	COPB1	COPB1	coatomer protein complex, subunit beta 1	3540	0.16441647708415985	0.24001649	No	
+row_50	CLINT1	CLINT1	clathrin interactor 1	3570	0.16156651079654694	0.24010009	No	
+row_51	COX18	COX18	COX18 cytochrome c oxidase assembly homolog (S. cerevisiae)	3598	0.15869750082492828	0.24030542	No	
+row_52	MPHOSPH9	MPHOSPH9	M-phase phosphoprotein 9	3630	0.15546351671218872	0.24012901	No	
+row_53	COPZ1	COPZ1	coatomer protein complex, subunit zeta 1	3634	0.15526637434959412	0.242273	No	
+row_54	EXT2	EXT2	exostoses (multiple) 2	3772	0.14412598311901093	0.2331259	No	
+row_55	SACM1L	SACM1L	SAC1 suppressor of actin mutations 1-like (yeast)	3913	0.13112062215805054	0.22352941	No	
+row_56	SNX17	SNX17	sorting nexin 17	4097	0.11778255552053452	0.2101592	No	
+row_57	GLA	GLA	galactosidase, alpha	4140	0.1141648069024086	0.2084335	No	
+row_58	HERC1	HERC1	hect (homologous to the E6-AP (UBE3A) carboxyl terminus) domain and RCC1 (CHC1)-like domain (RLD) 1	4190	0.11054614931344986	0.20607117	No	
+row_59	RAB14	RAB14	RAB14, member RAS oncogene family	4223	0.10838121920824051	0.20508614	No	
+row_60	CLN3	CLN3	ceroid-lipofuscinosis, neuronal 3, juvenile (Batten, Spielmeyer-Vogt disease)	4290	0.10369850695133209	0.2012076	No	
+row_61	VAPB	VAPB	VAMP (vesicle-associated membrane protein)-associated protein B and C	4315	0.10168454796075821	0.20078321	No	
+row_62	GLCE	GLCE	UDP-glucuronic acid epimerase	4412	0.09320390969514847	0.1942535	No	
+row_63	COPE	COPE	coatomer protein complex, subunit epsilon	4541	0.08508748561143875	0.18494333	No	
+row_64	SLC30A5	SLC30A5	solute carrier family 30 (zinc transporter), member 5	4548	0.08403318375349045	0.18574056	No	
+row_65	PRNP	PRNP	prion protein (p27-30) (Creutzfeldt-Jakob disease, Gerstmann-Strausler-Scheinker syndrome, fatal familial insomnia)	4634	0.07776711136102676	0.17988573	No	
+row_66	DNM1L	DNM1L	dynamin 1-like	4673	0.07489150017499924	0.17788668	No	
+row_67	LAPTM4A	LAPTM4A	lysosomal-associated protein transmembrane 4 alpha	4730	0.07162044197320938	0.17434357	No	
+row_68	AP3D1	AP3D1	adaptor-related protein complex 3, delta 1 subunit	4785	0.0680931881070137	0.17091206	No	
+row_69	RER1	RER1	RER1 retention in endoplasmic reticulum 1 homolog (S. cerevisiae)	4799	0.06716981530189514	0.17086852	No	
+row_70	GOLGA5	GOLGA5	golgi autoantigen, golgin subfamily a, 5	4879	0.06242135167121887	0.16527507	No	
+row_71	SLC35B2	SLC35B2	solute carrier family 35, member B2	4898	0.06072333827614784	0.16471729	No	
+row_72	FURIN	FURIN	furin (paired basic amino acid cleaving enzyme)	4989	0.05486270785331726	0.15809456	No	
+row_73	TRAPPC4	TRAPPC4	trafficking protein particle complex 4	5001	0.05429774895310402	0.15801859	No	
+row_74	COG3	COG3	component of oligomeric golgi complex 3	5016	0.0532691553235054	0.15767784	No	
+row_75	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	5049	0.05044495686888695	0.15579991	No	
+row_76	YKT6	YKT6	YKT6 v-SNARE homolog (S. cerevisiae)	5115	0.044721346348524094	0.1510954	No	
+row_77	AP4M1	AP4M1	adaptor-related protein complex 4, mu 1 subunit	5165	0.041580937802791595	0.1476702	No	
+row_78	AFTPH	AFTPH	aftiphilin	5186	0.040229782462120056	0.1466306	No	
+row_79	GGA2	GGA2	golgi associated, gamma adaptin ear containing, ARF binding protein 2	5190	0.039900802075862885	0.1469966	No	
+row_80	ARCN1	ARCN1	archain 1	5251	0.03659283369779587	0.14258172	No	
+row_81	RAB6A	RAB6A	RAB6A, member RAS oncogene family	5260	0.03600132837891579	0.14247271	No	
+row_82	ZFYVE1	ZFYVE1	zinc finger, FYVE domain containing 1	5261	0.035964902490377426	0.14302701	No	
+row_83	RAB1B	RAB1B	RAB1B, member RAS oncogene family	5272	0.03543199598789215	0.14274327	No	
+row_84	RHOT2	RHOT2	ras homolog gene family, member T2	5316	0.03262738883495331	0.13967796	No	
+row_85	GOSR1	GOSR1	golgi SNAP receptor complex member 1	5327	0.032108355313539505	0.139343	No	
+row_86	AP3S2	AP3S2	adaptor-related protein complex 3, sigma 2 subunit	5428	0.026570310816168785	0.13145442	No	
+row_87	CLN5	CLN5	ceroid-lipofuscinosis, neuronal 5	5496	0.023296911269426346	0.12625377	No	
+row_88	SLC35B4	SLC35B4	solute carrier family 35, member B4	5506	0.022741451859474182	0.12585743	No	
+row_89	PSEN2	PSEN2	presenilin 2 (Alzheimer disease 4)	5529	0.020848819985985756	0.12435317	No	
+row_90	BET1L	BET1L	blocked early in transport 1 homolog (S. cerevisiae)-like	5634	0.014436478726565838	0.115945674	No	
+row_91	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	5687	0.011147426441311836	0.11180248	No	
+row_92	PICK1	PICK1	protein interacting with PRKCA 1	5716	0.009662858210504055	0.10962795	No	
+row_93	RAB30	RAB30	RAB30, member RAS oncogene family	5876	-4.077634075656533E-4	0.09644031	No	
+row_94	GOLGA4	GOLGA4	golgi autoantigen, golgin subfamily a, 4	5912	-0.002765331882983446	0.0935786	No	
+row_95	FUT10	FUT10	fucosyltransferase 10 (alpha (1,3) fucosyltransferase)	6045	-0.010173439979553223	0.08278194	No	
+row_96	RHOT1	RHOT1	ras homolog gene family, member T1	6159	-0.016106106340885162	0.073653355	No	
+row_97	CLASP1	CLASP1	cytoplasmic linker associated protein 1	6229	-0.019594965502619743	0.06822968	No	
+row_98	LMAN1	LMAN1	lectin, mannose-binding, 1	6268	-0.02226910926401615	0.06541962	No	
+row_99	F2R	F2R	coagulation factor II (thrombin) receptor	6339	-0.02642723172903061	0.06001827	No	
+row_100	CLCN3	CLCN3	chloride channel 3	6394	-0.029596073552966118	0.055993445	No	
+row_101	COG8	COG8	component of oligomeric golgi complex 8	6418	-0.03070254996418953	0.054558072	No	
+row_102	GOLGA3	GOLGA3	golgi autoantigen, golgin subfamily a, 3	6452	-0.03233908861875534	0.052318115	No	
+row_103	GBF1	GBF1	golgi-specific brefeldin A resistance factor 1	6484	-0.03411678597331047	0.050271515	No	
+row_104	LMAN2L	LMAN2L	lectin, mannose-binding 2-like	6508	-0.035456106066703796	0.048909403	No	
+row_105	ANK3	ANK3	ankyrin 3, node of Ranvier (ankyrin G)	6641	-0.04289558157324791	0.038617056	No	
+row_106	HIP1	HIP1	huntingtin interacting protein 1	6699	-0.046438444405794144	0.034602858	No	
+row_107	PCSK7	PCSK7	proprotein convertase subtilisin/kexin type 7	6789	-0.05215255171060562	0.028021347	No	
+row_108	COG4	COG4	component of oligomeric golgi complex 4	6803	-0.05292685329914093	0.027758298	No	
+row_109	SYNE1	SYNE1	spectrin repeat containing, nuclear envelope 1	6807	-0.053142134100198746	0.028328374	No	
+row_110	COPA	COPA	coatomer protein complex, subunit alpha	6832	-0.05443313717842102	0.027175752	No	
+row_111	GLG1	GLG1	golgi apparatus protein 1	6913	-0.06005994975566864	0.021462934	No	
+row_112	RAB11A	RAB11A	RAB11A, member RAS oncogene family	6925	-0.06064295396208763	0.021484766	No	
+row_113	AP1G1	AP1G1	adaptor-related protein complex 1, gamma 1 subunit	6938	-0.06151377409696579	0.021437038	No	
+row_114	SEC14L1	SEC14L1	SEC14-like 1 (S. cerevisiae)	6966	-0.06388773769140244	0.020181188	No	
+row_115	MYO6	MYO6	myosin VI	6988	-0.06522410362958908	0.019443817	No	
+row_116	KCNA5	KCNA5	potassium voltage-gated channel, shaker-related subfamily, member 5	7078	-0.07041937857866287	0.01314383	No	
+row_117	SLC9A7	SLC9A7	solute carrier family 9 (sodium/hydrogen exchanger), member 7	7128	-0.07326926290988922	0.010206992	No	
+row_118	ITM2C	ITM2C	integral membrane protein 2C	7257	-0.08056314289569855	8.2709227E-4	No	
+row_119	FGD5	FGD5	FYVE, RhoGEF and PH domain containing 5	7270	-0.08134252578020096	0.001084962	No	
+row_120	COPB2	COPB2	coatomer protein complex, subunit beta 2 (beta prime)	7388	-0.0901307538151741	-0.0072346954	No	
+row_121	MAP4K2	MAP4K2	mitogen-activated protein kinase kinase kinase kinase 2	7408	-0.09149222820997238	-0.0074012643	No	
+row_122	TAPBP	TAPBP	TAP binding protein (tapasin)	7415	-0.09195536375045776	-0.0064819474	No	
+row_123	ACO1	ACO1	aconitase 1, soluble	7418	-0.09216208010911942	-0.0052275215	No	
+row_124	COG7	COG7	component of oligomeric golgi complex 7	7477	-0.09772612899541855	-0.008534261	No	
+row_125	TMED10	TMED10	transmembrane emp24-like trafficking protein 10 (yeast)	7538	-0.10136333107948303	-0.011950905	No	
+row_126	KIF1C	KIF1C	kinesin family member 1C	7573	-0.1041724756360054	-0.013166759	No	
+row_127	PSEN1	PSEN1	presenilin 1 (Alzheimer disease 3)	7635	-0.10835117101669312	-0.016558688	No	
+row_128	PAK4	PAK4	p21(CDKN1A)-activated kinase 4	7649	-0.10930483788251877	-0.01595285	No	
+row_129	COG1	COG1	component of oligomeric golgi complex 1	7700	-0.11308324337005615	-0.018359061	No	
+row_130	FIS1	FIS1	fission 1 (mitochondrial outer membrane) homolog (S. cerevisiae)	7759	-0.11683876067399979	-0.02137124	No	
+row_131	APH1A	APH1A	anterior pharynx defective 1 homolog A (C. elegans)	7819	-0.12052319198846817	-0.024409616	No	
+row_132	VAMP4	VAMP4	vesicle-associated membrane protein 4	7829	-0.12152864038944244	-0.023283461	No	
+row_133	IGF2R	IGF2R	insulin-like growth factor 2 receptor	7944	-0.1295527070760727	-0.030746613	No	
+row_134	CALU	CALU	calumenin	7956	-0.1304408758878708	-0.029649066	No	
+row_135	KDELR2	KDELR2	KDEL (Lys-Asp-Glu-Leu) endoplasmic reticulum protein retention receptor 2	7962	-0.13114359974861145	-0.028042804	No	
+row_136	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	8045	-0.13781382143497467	-0.032723255	No	
+row_137	GOLGB1	GOLGB1	golgi autoantigen, golgin subfamily b, macrogolgin (with transmembrane signal), 1	8084	-0.14141808450222015	-0.03369701	No	
+row_138	TSC2	TSC2	tuberous sclerosis 2	8182	-0.14942778646945953	-0.039443176	No	
+row_139	PARK2	PARK2	Parkinson disease (autosomal recessive, juvenile) 2, parkin	8224	-0.15294215083122253	-0.04048826	No	
+row_140	GNAS	GNAS	GNAS complex locus	8267	-0.15663428604602814	-0.041559428	No	
+row_141	GGA3	GGA3	golgi associated, gamma adaptin ear containing, ARF binding protein 3	8295	-0.15870964527130127	-0.0413539	No	
+row_142	COG5	COG5	component of oligomeric golgi complex 5	8296	-0.15887582302093506	-0.03890533	No	
+row_143	COG6	COG6	component of oligomeric golgi complex 6	8355	-0.1632368415594101	-0.04120243	No	
+row_144	ARFGEF2	ARFGEF2	ADP-ribosylation factor guanine nucleotide-exchange factor 2 (brefeldin A-inhibited)	8370	-0.1640830934047699	-0.039835338	No	
+row_145	GGA1	GGA1	golgi associated, gamma adaptin ear containing, ARF binding protein 1	8373	-0.16425536572933197	-0.037469823	No	
+row_146	GOLGA2	GOLGA2	golgi autoantigen, golgin subfamily a, 2	8375	-0.16453231871128082	-0.03501706	No	
+row_147	LARGE	LARGE	like-glycosyltransferase	8495	-0.1757076531648636	-0.04218378	No	
+row_148	COG2	COG2	component of oligomeric golgi complex 2	8592	-0.18332159519195557	-0.047324598	No	
+row_149	PKN3	PKN3	protein kinase N3	8665	-0.1906028538942337	-0.050361667	No	
+row_150	GKAP1	GKAP1	G kinase anchoring protein 1	8746	-0.19948101043701172	-0.053925753	No	
+row_151	DOPEY1	DOPEY1	dopey family member 1	9039	-0.22769488394260406	-0.07464691	No	
+row_152	CEP57	CEP57	centrosomal protein 57kDa	9043	-0.22829335927963257	-0.071377434	No	
+row_153	DOPEY2	DOPEY2	dopey family member 2	9108	-0.2371937334537506	-0.0730326	No	
+row_154	LDLRAP1	LDLRAP1	low density lipoprotein receptor adaptor protein 1	9158	-0.24352790415287018	-0.073345445	No	
+row_155	COPG2	COPG2	coatomer protein complex, subunit gamma 2	9174	-0.2451438456773758	-0.07081203	No	
+row_156	PLD1	PLD1	phospholipase D1, phosphatidylcholine-specific	9333	-0.2656703293323517	-0.07982851	No	
+row_157	ACHE	ACHE	acetylcholinesterase (Yt blood group)	9385	-0.2715763747692108	-0.07987504	No	
+row_158	CXCL14	CXCL14	chemokine (C-X-C motif) ligand 14	9407	-0.2739444971084595	-0.07739564	No	
+row_159	SMPD4	SMPD4	sphingomyelin phosphodiesterase 4, neutral membrane (neutral sphingomyelinase-3)	9487	-0.28849104046821594	-0.07950494	No	
+row_160	STX16	STX16	syntaxin 16	9497	-0.289140522480011	-0.075795576	No	
+row_161	HS3ST1	HS3ST1	heparan sulfate (glucosamine) 3-O-sulfotransferase 1	9572	-0.30181601643562317	-0.077284604	No	
+row_162	ATXN2	ATXN2	ataxin 2	9599	-0.3080214858055115	-0.074694924	No	
+row_163	BET1	BET1	BET1 homolog (S. cerevisiae)	9638	-0.3153379261493683	-0.07298825	No	
+row_164	AP3B1	AP3B1	adaptor-related protein complex 3, beta 1 subunit	9654	-0.3192555010318756	-0.06931265	No	
+row_165	ADAM10	ADAM10	ADAM metallopeptidase domain 10	9732	-0.3352166712284088	-0.07053585	No	
+row_166	B4GALT1	B4GALT1	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1	9779	-0.34450963139533997	-0.069043435	No	
+row_167	FGD6	FGD6	FYVE, RhoGEF and PH domain containing 6	9858	-0.3600335419178009	-0.06996715	No	
+row_168	AP1G2	AP1G2	adaptor-related protein complex 1, gamma 2 subunit	9955	-0.38214319944381714	-0.07204376	No	
+row_169	UNC13B	UNC13B	unc-13 homolog B (C. elegans)	9956	-0.38217756152153015	-0.066153705	No	
+row_170	EXT1	EXT1	exostoses (multiple) 1	9993	-0.3914729952812195	-0.06310769	No	
+row_171	ATP7A	ATP7A	ATPase, Cu++ transporting, alpha polypeptide (Menkes syndrome)	10017	-0.3990785479545593	-0.05886571	No	
+row_172	B4GALT7	B4GALT7	xylosylprotein beta 1,4-galactosyltransferase, polypeptide 7 (galactosyltransferase I)	10021	-0.4000568687915802	-0.05294904	No	
+row_173	GALNT4	GALNT4	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 4 (GalNAc-T4)	10129	-0.43067148327827454	-0.055190533	No	
+row_174	FUT9	FUT9	fucosyltransferase 9 (alpha (1,3) fucosyltransferase)	10404	-0.5403838157653809	-0.06959893	No	
+row_175	NBEA	NBEA	neurobeachin	10462	-0.5672364234924316	-0.06558667	No	
+row_176	PKMYT1	PKMYT1	protein kinase, membrane associated tyrosine/threonine 1	10465	-0.5693519115447998	-0.05697787	No	
+row_177	CSPG5	CSPG5	chondroitin sulfate proteoglycan 5 (neuroglycan C)	10591	-0.6445798277854919	-0.057416294	No	
+row_178	STEAP2	STEAP2	six transmembrane epithelial antigen of the prostate 2	10821	-0.8425440788269043	-0.063433714	No	
+row_179	B3GALT5	B3GALT5	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 5	10837	-0.8608042001724243	-0.05141185	No	
+row_180	KIF20A	KIF20A	kinesin family member 20A	10843	-0.8664703369140625	-0.03847285	No	
+row_181	ATP7B	ATP7B	ATPase, Cu++ transporting, beta polypeptide	10911	-0.9617839455604553	-0.029209696	No	
+row_182	PTGDS	PTGDS	prostaglandin D2 synthase 21kDa (brain)	12004	-4.381896018981934	-0.05229151	No	
+row_183	FUT1	FUT1	fucosyltransferase 1 (galactoside 2-alpha-L-fucosyltransferase, H blood group)	12039	-4.6259379386901855	0.016181359	No	

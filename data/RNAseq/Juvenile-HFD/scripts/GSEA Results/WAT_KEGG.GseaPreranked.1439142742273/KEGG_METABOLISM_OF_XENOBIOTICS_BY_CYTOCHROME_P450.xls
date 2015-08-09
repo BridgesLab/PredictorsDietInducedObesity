@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MGST2	MGST2	microsomal glutathione S-transferase 2	141	5.968686103820801	0.046445433	No	
+row_1	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	273	5.0581583976745605	0.08491308	No	
+row_2	MGST3	MGST3	microsomal glutathione S-transferase 3	543	3.9836626052856445	0.102350235	No	
+row_3	ALDH1A3	ALDH1A3	aldehyde dehydrogenase 1 family, member A3	588	3.8620026111602783	0.1360651	No	
+row_4	CYP2E1	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	870	3.144440174102783	0.144504	No	
+row_5	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	1018	2.8244357109069824	0.1602574	No	
+row_6	DHDH	DHDH	dihydrodiol dehydrogenase (dimeric)	1271	2.3995680809020996	0.16378434	No	
+row_7	CYP1B1	CYP1B1	cytochrome P450, family 1, subfamily B, polypeptide 1	1875	1.6306904554367065	0.13270205	No	
+row_8	CYP2S1	CYP2S1	cytochrome P450, family 2, subfamily S, polypeptide 1	2078	1.426110863685608	0.13074797	No	
+row_9	GSTT1	GSTT1	glutathione S-transferase theta 1	2080	1.4255419969558716	0.14437467	No	
+row_10	GSTO1	GSTO1	glutathione S-transferase omega 1	2138	1.3585493564605713	0.1530149	No	
+row_11	ALDH3B1	ALDH3B1	aldehyde dehydrogenase 3 family, member B1	2550	1.0145301818847656	0.13089758	No	
+row_12	MGST1	MGST1	microsomal glutathione S-transferase 1	2597	0.9824476838111877	0.1367752	No	
+row_13	GSTT2	GSTT2	glutathione S-transferase theta 2	3065	0.695334792137146	0.107246906	No	
+row_14	ALDH3B2	ALDH3B2	aldehyde dehydrogenase 3 family, member B2	3727	0.3910517692565918	0.05975002	No	
+row_15	CYP1A1	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	4010	0.30044814944267273	0.04077109	No	
+row_16	GSTA3	GSTA3	glutathione S-transferase A3	4800	0.06551428139209747	-0.019780861	No	
+row_17	GSTA4	GSTA4	glutathione S-transferase A4	5713	-0.15129950642585754	-0.08904597	No	
+row_18	GSTK1	GSTK1	glutathione S-transferase kappa 1	6830	-0.399359792470932	-0.17174524	No	
+row_19	GSTM4	GSTM4	glutathione S-transferase M4	7419	-0.5368430614471436	-0.21217991	No	
+row_20	ADH5	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide	9367	-1.1747249364852905	-0.35186392	No	
+row_21	EPHX1	EPHX1	epoxide hydrolase 1, microsomal (xenobiotic)	9700	-1.336511254310608	-0.36475998	No	
+row_22	GSTM2	GSTM2	glutathione S-transferase M2 (muscle)	9799	-1.3756300210952759	-0.35913485	No	
+row_23	GSTM1	GSTM1	glutathione S-transferase M1	9942	-1.4467030763626099	-0.35623834	No	
+row_24	UGT1A10	UGT1A10	UDP glucuronosyltransferase 1 family, polypeptide A10	10591	-1.9050970077514648	-0.38817212	No	
+row_25	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	11114	-2.5307986736297607	-0.40432033	Yes	
+row_26	GSTP1	GSTP1	glutathione S-transferase pi	11151	-2.589327335357666	-0.3822198	Yes	
+row_27	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	11153	-2.592369794845581	-0.35737598	Yes	
+row_28	GSTM5	GSTM5	glutathione S-transferase M5	11418	-3.0091280937194824	-0.34891966	Yes	
+row_29	ADH4	ADH4	alcohol dehydrogenase 4 (class II), pi polypeptide	11504	-3.122720718383789	-0.32549104	Yes	
+row_30	ALDH3A1	ALDH3A1	aldehyde dehydrogenase 3 family, memberA1	11531	-3.1945343017578125	-0.296797	Yes	
+row_31	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	11913	-4.251522064208984	-0.28546968	Yes	
+row_32	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	11922	-4.286433219909668	-0.24488308	Yes	
+row_33	ADH7	ADH7	alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide	11992	-4.539839744567871	-0.2065905	Yes	
+row_34	GSTA2	GSTA2	glutathione S-transferase A2	12077	-4.985567569732666	-0.16517615	Yes	
+row_35	GSTM3	GSTM3	glutathione S-transferase M3 (brain)	12159	-5.440351486206055	-0.11915719	Yes	
+row_36	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	12170	-5.49229097366333	-0.067133315	Yes	
+row_37	GSTO2	GSTO2	glutathione S-transferase omega 2	12294	-6.42699670791626	-0.014886202	Yes	
+row_38	GSTA1	GSTA1	glutathione S-transferase A1	12328	-6.702828884124756	0.046991494	Yes	

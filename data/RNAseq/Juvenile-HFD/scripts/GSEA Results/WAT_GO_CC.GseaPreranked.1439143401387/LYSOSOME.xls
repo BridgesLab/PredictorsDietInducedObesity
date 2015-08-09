@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ADRB2	ADRB2	adrenergic, beta-2-, receptor, surface	292	4.960859298706055	0.041609567	No	
+row_1	RAMP2	RAMP2	receptor (calcitonin) activity modifying protein 2	385	4.523842811584473	0.093077086	No	
+row_2	CORO1A	CORO1A	coronin, actin binding protein, 1A	974	2.9247145652770996	0.08533946	No	
+row_3	CTSC	CTSC	cathepsin C	2270	1.2503656148910522	0.0010491138	No	
+row_4	ARSB	ARSB	arylsulfatase B	2646	0.9453334212303162	-0.01580316	No	
+row_5	TSPAN8	TSPAN8	tetraspanin 8	2774	0.8594940304756165	-0.014523285	No	
+row_6	CTSF	CTSF	cathepsin F	3399	0.5362456440925598	-0.0559971	No	
+row_7	GALC	GALC	galactosylceramidase	3497	0.49362364411354065	-0.057129156	No	
+row_8	ANKRD27	ANKRD27	ankyrin repeat domain 27 (VPS9 domain)	3664	0.42217621207237244	-0.06454105	No	
+row_9	TRIM23	TRIM23	tripartite motif-containing 23	3735	0.38878390192985535	-0.064936176	No	
+row_10	TPP1	TPP1	tripeptidyl peptidase I	4186	0.23972773551940918	-0.09674941	No	
+row_11	KCNE1	KCNE1	potassium voltage-gated channel, Isk-related family, member 1	4365	0.18243135511875153	-0.108198375	No	
+row_12	TIAL1	TIAL1	TIA1 cytotoxic granule-associated RNA binding protein-like 1	4486	0.14750850200653076	-0.11559911	No	
+row_13	CLN5	CLN5	ceroid-lipofuscinosis, neuronal 5	4491	0.14533142745494843	-0.114026725	No	
+row_14	CD63	CD63	CD63 molecule	4535	0.13463668525218964	-0.1156192	No	
+row_15	HYAL2	HYAL2	hyaluronoglucosaminidase 2	4873	0.0475458949804306	-0.14115362	No	
+row_16	BCL10	BCL10	B-cell CLL/lymphoma 10	4896	0.042808689177036285	-0.14230618	No	
+row_17	RAB14	RAB14	RAB14, member RAS oncogene family	5006	0.012144123204052448	-0.15060699	No	
+row_18	LIPA	LIPA	lipase A, lysosomal acid, cholesterol esterase (Wolman disease)	5015	0.008210312575101852	-0.15112141	No	
+row_19	USP5	USP5	ubiquitin specific peptidase 5 (isopeptidase T)	5068	-0.004624842666089535	-0.15509656	No	
+row_20	USP4	USP4	ubiquitin specific peptidase 4 (proto-oncogene)	5286	-0.05429340898990631	-0.17123187	No	
+row_21	LAMP2	LAMP2	lysosomal-associated membrane protein 2	6055	-0.2235948145389557	-0.22793013	No	
+row_22	KCNE2	KCNE2	potassium voltage-gated channel, Isk-related family, member 2	6157	-0.24548543989658356	-0.23258722	No	
+row_23	HPS1	HPS1	Hermansky-Pudlak syndrome 1	6287	-0.27128419280052185	-0.23908281	No	
+row_24	SFTPD	SFTPD	surfactant, pulmonary-associated protein D	6532	-0.3305225670337677	-0.2537347	No	
+row_25	GLA	GLA	galactosidase, alpha	6642	-0.3565680682659149	-0.2575735	No	
+row_26	CTNS	CTNS	cystinosis, nephropathic	6974	-0.43239083886146545	-0.27765664	No	
+row_27	AP3M1	AP3M1	adaptor-related protein complex 3, mu 1 subunit	7411	-0.5345445871353149	-0.30456415	No	
+row_28	TOM1	TOM1	target of myb1 (chicken)	7483	-0.5535644292831421	-0.30290213	No	
+row_29	VAMP4	VAMP4	vesicle-associated membrane protein 4	7726	-0.6179990768432617	-0.31367457	No	
+row_30	HPS4	HPS4	Hermansky-Pudlak syndrome 4	7777	-0.6303117275238037	-0.30938873	No	
+row_31	NAGLU	NAGLU	N-acetylglucosaminidase, alpha- (Sanfilippo disease IIIB)	7918	-0.6651085615158081	-0.3116359	No	
+row_32	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	8168	-0.7332921624183655	-0.32145786	No	
+row_33	SLC17A5	SLC17A5	solute carrier family 17 (anion/sugar transporter), member 5	8292	-0.7726885080337524	-0.32099217	No	
+row_34	IFI30	IFI30	interferon, gamma-inducible protein 30	8810	-0.95038902759552	-0.34879783	No	
+row_35	TOM1L1	TOM1L1	target of myb1-like 1 (chicken)	9049	-1.0467000007629395	-0.353706	No	
+row_36	MYO7A	MYO7A	myosin VIIA	9480	-1.2234535217285156	-0.3712231	No	
+row_37	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	9528	-1.2495671510696411	-0.358682	No	
+row_38	NPC2	NPC2	Niemann-Pick disease, type C2	9938	-1.4455591440200806	-0.37169218	No	
+row_39	ABCA2	ABCA2	ATP-binding cassette, sub-family A (ABC1), member 2	10133	-1.5620498657226562	-0.3665097	No	
+row_40	LRP2	LRP2	low density lipoprotein-related protein 2	10572	-1.8874236345291138	-0.37604582	No	
+row_41	RAMP3	RAMP3	receptor (calcitonin) activity modifying protein 3	11172	-2.6198368072509766	-0.38858673	Yes	
+row_42	LAMP3	LAMP3	lysosomal-associated membrane protein 3	11738	-3.624856948852539	-0.38546923	Yes	
+row_43	CASC5	CASC5	cancer susceptibility candidate 5	11917	-4.26932954788208	-0.34397233	Yes	
+row_44	MPO	MPO	myeloperoxidase	12220	-5.829951286315918	-0.29187965	Yes	
+row_45	ACR	ACR	acrosin	12240	-5.981510162353516	-0.21586338	Yes	
+row_46	CYLC1	CYLC1	cylicin, basic protein of sperm head cytoskeleton 1	12558	-8.732471466064453	-0.12733243	Yes	
+row_47	SPACA3	SPACA3	sperm acrosome associated 3	12827	-12.074983596801758	0.00830314	Yes	

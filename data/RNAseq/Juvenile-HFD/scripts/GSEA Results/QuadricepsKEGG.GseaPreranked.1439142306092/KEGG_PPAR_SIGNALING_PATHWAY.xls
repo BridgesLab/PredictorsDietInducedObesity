@@ -1,0 +1,60 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UCP1	UCP1	uncoupling protein 1 (mitochondrial, proton carrier)	582	2.314833879470825	-0.017920077	No	
+row_1	PPARG	PPARG	peroxisome proliferative activated receptor, gamma	964	1.2419861555099487	-0.03318012	No	
+row_2	ADIPOQ	ADIPOQ	adiponectin, C1Q and collagen domain containing	1140	0.9575111865997314	-0.035193518	No	
+row_3	RXRG	RXRG	retinoid X receptor, gamma	1781	0.48329177498817444	-0.081517816	No	
+row_4	FADS2	FADS2	fatty acid desaturase 2	1816	0.4701783359050751	-0.07824133	No	
+row_5	FABP4	FABP4	fatty acid binding protein 4, adipocyte	2041	0.4016692638397217	-0.091453604	No	
+row_6	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2190	0.35719001293182373	-0.09899821	No	
+row_7	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	2737	0.25511956214904785	-0.14054754	No	
+row_8	ACSL5	ACSL5	acyl-CoA synthetase long-chain family member 5	3230	0.19363117218017578	-0.1784556	No	
+row_9	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	3240	0.19282600283622742	-0.17670584	No	
+row_10	DBI	DBI	diazepam binding inhibitor (GABA receptor modulator, acyl-Coenzyme A binding protein)	3548	0.1634557694196701	-0.19980957	No	
+row_11	PLTP	PLTP	phospholipid transfer protein	3939	0.1290193498134613	-0.23017445	No	
+row_12	FABP5	FABP5	fatty acid binding protein 5 (psoriasis-associated)	4080	0.11885090917348862	-0.24013841	No	
+row_13	CD36	CD36	CD36 molecule (thrombospondin receptor)	4721	0.07230139523744583	-0.2917676	No	
+row_14	CPT1B	CPT1B	carnitine palmitoyltransferase 1B (muscle)	4814	0.06637895107269287	-0.29846665	No	
+row_15	ILK	ILK	integrin-linked kinase	5479	0.02417481131851673	-0.35268813	No	
+row_16	ME1	ME1	malic enzyme 1, NADP(+)-dependent, cytosolic	5723	0.009456389583647251	-0.37252337	No	
+row_17	ACOX1	ACOX1	acyl-Coenzyme A oxidase 1, palmitoyl	5729	0.009011480025947094	-0.3728177	No	
+row_18	ACSL1	ACSL1	acyl-CoA synthetase long-chain family member 1	6086	-0.012479602359235287	-0.40189445	No	
+row_19	ACADL	ACADL	acyl-Coenzyme A dehydrogenase, long chain	6369	-0.028156988322734833	-0.42469132	No	
+row_20	ACADM	ACADM	acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain	6403	-0.030185507610440254	-0.42701194	No	
+row_21	CPT2	CPT2	carnitine palmitoyltransferase II	6548	-0.03848521038889885	-0.43834174	No	
+row_22	ACSL6	ACSL6	acyl-CoA synthetase long-chain family member 6	6595	-0.04049181938171387	-0.441597	No	
+row_23	SLC27A1	SLC27A1	solute carrier family 27 (fatty acid transporter), member 1	7378	-0.08936316519975662	-0.50466824	No	
+row_24	SLC27A4	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4	7440	-0.09396988153457642	-0.5084652	No	
+row_25	CPT1C	CPT1C	carnitine palmitoyltransferase 1C	7656	-0.1097399964928627	-0.5247064	No	
+row_26	AQP7	AQP7	aquaporin 7	7970	-0.1315878927707672	-0.5487142	No	
+row_27	ACSL3	ACSL3	acyl-CoA synthetase long-chain family member 3	7979	-0.13238772749900818	-0.54766244	No	
+row_28	ACSL4	ACSL4	acyl-CoA synthetase long-chain family member 4	8025	-0.13603174686431885	-0.5496024	No	
+row_29	RXRA	RXRA	retinoid X receptor, alpha	8044	-0.13766664266586304	-0.54930377	No	
+row_30	SCP2	SCP2	sterol carrier protein 2	8049	-0.13820874691009521	-0.54784834	No	
+row_31	NR1H3	NR1H3	nuclear receptor subfamily 1, group H, member 3	8087	-0.14164838194847107	-0.5490588	No	
+row_32	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	8303	-0.15951991081237793	-0.56465745	No	
+row_33	CYP27A1	CYP27A1	cytochrome P450, family 27, subfamily A, polypeptide 1	8470	-0.17297503352165222	-0.57605815	No	
+row_34	PPARD	PPARD	peroxisome proliferative activated receptor, delta	8851	-0.20930215716362	-0.6045655	No	
+row_35	ACOX3	ACOX3	acyl-Coenzyme A oxidase 3, pristanoyl	8927	-0.21703843772411346	-0.60792375	No	
+row_36	RXRB	RXRB	retinoid X receptor, beta	9074	-0.23248866200447083	-0.6169137	No	
+row_37	UBC	UBC	ubiquitin C	9381	-0.27102309465408325	-0.6385468	No	
+row_38	FABP3	FABP3	fatty acid binding protein 3, muscle and heart (mammary-derived growth inhibitor)	9625	-0.31288155913352966	-0.65446556	No	
+row_39	SORBS1	SORBS1	sorbin and SH3 domain containing 1	9781	-0.3451598584651947	-0.66274035	No	
+row_40	LPL	LPL	lipoprotein lipase	10000	-0.39354047179222107	-0.67556477	No	
+row_41	CPT1A	CPT1A	carnitine palmitoyltransferase 1A (liver)	10071	-0.412331223487854	-0.6759916	No	
+row_42	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	10231	-0.46372297406196594	-0.6830645	No	
+row_43	ANGPTL4	ANGPTL4	angiopoietin-like 4	10947	-1.003725528717041	-0.728831	Yes	
+row_44	CYP7A1	CYP7A1	cytochrome P450, family 7, subfamily A, polypeptide 1	11003	-1.0941885709762573	-0.71922475	Yes	
+row_45	ACOX2	ACOX2	acyl-Coenzyme A oxidase 2, branched chain	11088	-1.2319729328155518	-0.71022177	Yes	
+row_46	OLR1	OLR1	oxidised low density lipoprotein (lectin-like) receptor 1	11479	-2.0689055919647217	-0.71554744	Yes	
+row_47	HMGCS2	HMGCS2	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 2 (mitochondrial)	11597	-2.324941635131836	-0.6951472	Yes	
+row_48	SLC27A5	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5	11828	-3.10404896736145	-0.6739711	Yes	
+row_49	FABP2	FABP2	fatty acid binding protein 2, intestinal	11853	-3.280989170074463	-0.6335926	Yes	
+row_50	SLC27A2	SLC27A2	solute carrier family 27 (fatty acid transporter), member 2	11873	-3.386063814163208	-0.59144723	Yes	
+row_51	SLC27A6	SLC27A6	solute carrier family 27 (fatty acid transporter), member 6	11882	-3.486227512359619	-0.54710555	Yes	
+row_52	FABP7	FABP7	fatty acid binding protein 7, brain	12006	-4.386767387390137	-0.5005849	Yes	
+row_53	APOC3	APOC3	apolipoprotein C-III	12087	-5.444080829620361	-0.43688533	Yes	
+row_54	APOA2	APOA2	apolipoprotein A-II	12103	-5.6879401206970215	-0.3646998	Yes	
+row_55	FABP1	FABP1	fatty acid binding protein 1, liver	12145	-6.430042743682861	-0.2850709	Yes	
+row_56	CYP8B1	CYP8B1	cytochrome P450, family 8, subfamily B, polypeptide 1	12151	-6.66062068939209	-0.19950913	Yes	
+row_57	APOA5	APOA5	apolipoprotein A-V	12183	-7.336323261260986	-0.10736103	Yes	
+row_58	APOA1	APOA1	apolipoprotein A-I	12211	-8.635818481445312	0.001888885	Yes	

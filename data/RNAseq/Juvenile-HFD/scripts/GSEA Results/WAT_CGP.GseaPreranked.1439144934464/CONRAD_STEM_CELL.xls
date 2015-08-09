@@ -1,0 +1,36 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GDF3	GDF3	growth differentiation factor 3	410	4.439812660217285	0.0048003974	No	
+row_1	DPPA2	DPPA2	developmental pluripotency associated 2	483	4.161772727966309	0.033511337	No	
+row_2	NANOG	NANOG	Nanog homeobox	841	3.2259578704833984	0.032418296	No	
+row_3	RET	RET	ret proto-oncogene (multiple endocrine neoplasia and medullary thyroid carcinoma 1, Hirschsprung disease)	2079	1.4258195161819458	-0.05172465	No	
+row_4	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	2135	1.3669613599777222	-0.044724677	No	
+row_5	TEP1	TEP1	telomerase-associated protein 1	2218	1.2924412488937378	-0.040431757	No	
+row_6	KLF4	KLF4	Kruppel-like factor 4 (gut)	2419	1.1304246187210083	-0.046621114	No	
+row_7	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	-0.17911452	No	
+row_8	DKK3	DKK3	dickkopf homolog 3 (Xenopus laevis)	4499	0.14368045330047607	-0.20444225	No	
+row_9	SALL2	SALL2	sal-like 2 (Drosophila)	4670	0.10136881470680237	-0.21678528	No	
+row_10	PHTF2	PHTF2	putative homeodomain transcription factor 2	4746	0.08156493306159973	-0.22192715	No	
+row_11	PRRX1	PRRX1	paired related homeobox 1	5280	-0.05333827808499336	-0.2628055	No	
+row_12	TINF2	TINF2	TERF1 (TRF1)-interacting nuclear factor 2	7008	-0.4405396282672882	-0.39305148	No	
+row_13	GJA1	GJA1	gap junction protein, alpha 1, 43kDa (connexin 43)	7794	-0.6336514353752136	-0.448683	No	
+row_14	HSPA4	HSPA4	heat shock 70kDa protein 4	8064	-0.6999642252922058	-0.46376812	No	
+row_15	TERF1	TERF1	telomeric repeat binding factor (NIMA-interacting) 1	8127	-0.7215045094490051	-0.46262923	No	
+row_16	CD9	CD9	CD9 molecule	8228	-0.7505820989608765	-0.4641965	No	
+row_17	POU6F1	POU6F1	POU domain, class 6, transcription factor 1	8296	-0.7740265130996704	-0.46301243	No	
+row_18	REXO1	REXO1	REX1, RNA exonuclease 1 homolog (S. cerevisiae)	8516	-0.8437640070915222	-0.4730367	No	
+row_19	ELOVL6	ELOVL6	ELOVL family member 6, elongation of long chain fatty acids (FEN1/Elo2, SUR4/Elo3-like, yeast)	8946	-1.0006144046783447	-0.49804762	No	
+row_20	MYCBP	MYCBP	c-myc binding protein	9197	-1.1019971370697021	-0.50834715	No	
+row_21	TTLL4	TTLL4	tubulin tyrosine ligase-like family, member 4	9922	-1.4383975267410278	-0.55261904	No	
+row_22	MYBL2	MYBL2	v-myb myeloblastosis viral oncogene homolog (avian)-like 2	9960	-1.4587163925170898	-0.5434677	No	
+row_23	DNMT3B	DNMT3B	DNA (cytosine-5-)-methyltransferase 3 beta	9972	-1.466679334640503	-0.5322352	No	
+row_24	PROM1	PROM1	prominin 1	10567	-1.883807897567749	-0.5627594	No	
+row_25	PHC1	PHC1	polyhomeotic homolog 1 (Drosophila)	10927	-2.2634406089782715	-0.5719385	No	
+row_26	UTF1	UTF1	undifferentiated embryonic cell transcription factor 1	11806	-3.842038154602051	-0.6083427	Yes	
+row_27	CXCL5	CXCL5	chemokine (C-X-C motif) ligand 5	12086	-5.010012149810791	-0.58868897	Yes	
+row_28	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	12229	-5.882922649383545	-0.5512224	Yes	
+row_29	GABRB3	GABRB3	gamma-aminobutyric acid (GABA) A receptor, beta 3	12259	-6.167158603668213	-0.502654	Yes	
+row_30	PIWIL2	PIWIL2	piwi-like 2 (Drosophila)	12319	-6.615667819976807	-0.45271564	Yes	
+row_31	DPPA4	DPPA4	developmental pluripotency associated 4	12615	-9.432779312133789	-0.39785928	Yes	
+row_32	LIN28B	LIN28B	lin-28 homolog B (C. elegans)	12857	-12.955607414245605	-0.3097893	Yes	
+row_33	POU5F1	POU5F1	POU domain, class 5, transcription factor 1	12868	-13.475689888000488	-0.199527	Yes	
+row_34	ZFP42	ZFP42	zinc finger protein 42 homolog (mouse)	12900	-24.82643699645996	0.002635744	Yes	

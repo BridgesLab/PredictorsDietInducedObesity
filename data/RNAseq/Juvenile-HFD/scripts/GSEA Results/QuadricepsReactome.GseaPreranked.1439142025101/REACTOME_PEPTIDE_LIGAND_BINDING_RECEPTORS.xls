@@ -1,0 +1,108 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL7	CCL7	chemokine (C-C motif) ligand 7	6	7.801300048828125	0.042205192	Yes	
+row_1	OPRD1	OPRD1	opioid receptor, delta 1	13	7.087812900543213	0.080505155	Yes	
+row_2	SSTR4	SSTR4	somatostatin receptor 4	34	6.3143310546875	0.11341716	Yes	
+row_3	CCR10	CCR10	chemokine (C-C motif) receptor 10	49	5.933025360107422	0.14473684	Yes	
+row_4	MC2R	MC2R	melanocortin 2 receptor (adrenocorticotropic hormone)	62	5.52810001373291	0.17400509	Yes	
+row_5	CCR9	CCR9	chemokine (C-C motif) receptor 9	175	4.063228130340576	0.18701008	Yes	
+row_6	CCL2	CCL2	chemokine (C-C motif) ligand 2	181	4.006468772888184	0.20852697	Yes	
+row_7	CCL4	CCL4	chemokine (C-C motif) ligand 4	194	3.9144575595855713	0.22896305	Yes	
+row_8	TACR3	TACR3	tachykinin receptor 3	212	3.8530776500701904	0.24865091	Yes	
+row_9	PPBP	PPBP	pro-platelet basic protein (chemokine (C-X-C motif) ligand 7)	287	3.3107364177703857	0.26067042	Yes	
+row_10	RXFP3	RXFP3	relaxin/insulin-like family peptide receptor 3	320	3.090928792953491	0.2749499	Yes	
+row_11	BDKRB2	BDKRB2	bradykinin receptor B2	342	2.9667744636535645	0.2894568	Yes	
+row_12	MC4R	MC4R	melanocortin 4 receptor	383	2.878185749053955	0.30191222	Yes	
+row_13	OPRM1	OPRM1	opioid receptor, mu 1	412	2.859224557876587	0.31525332	Yes	
+row_14	TRH	TRH	thyrotropin-releasing hormone	509	2.491335391998291	0.3209739	Yes	
+row_15	F2RL1	F2RL1	coagulation factor II (thrombin) receptor-like 1	559	2.439296245574951	0.33028498	Yes	
+row_16	GRPR	GRPR	gastrin-releasing peptide receptor	595	2.2607693672180176	0.3397733	Yes	
+row_17	TACR2	TACR2	tachykinin receptor 2	620	2.1466641426086426	0.34954402	Yes	
+row_18	NPY5R	NPY5R	neuropeptide Y receptor Y5	626	2.1466641426086426	0.3608814	Yes	
+row_19	CCK	CCK	cholecystokinin	641	2.1223819255828857	0.37134376	Yes	
+row_20	UTS2	UTS2	urotensin 2	651	2.1223819255828857	0.3822184	Yes	
+row_21	GALR1	GALR1	galanin receptor 1	654	2.1223819255828857	0.3936702	Yes	
+row_22	AGTR2	AGTR2	angiotensin II receptor, type 2	666	2.05810809135437	0.40402812	Yes	
+row_23	CCL22	CCL22	chemokine (C-C motif) ligand 22	766	1.7218800783157349	0.4052898	Yes	
+row_24	SSTR2	SSTR2	somatostatin receptor 2	775	1.6944148540496826	0.41390443	Yes	
+row_25	CXCR3	CXCR3	chemokine (C-X-C motif) receptor 3	793	1.6613858938217163	0.4215962	Yes	
+row_26	NTSR2	NTSR2	neurotensin receptor 2	843	1.49844229221344	0.4257576	Yes	
+row_27	NPB	NPB	neuropeptide B	902	1.3369518518447876	0.428293	Yes	
+row_28	EDN2	EDN2	endothelin 2	939	1.272849440574646	0.4322915	Yes	
+row_29	NTS	NTS	neurotensin	962	1.2450039386749268	0.43729198	Yes	
+row_30	CXCL13	CXCL13	chemokine (C-X-C motif) ligand 13 (B-cell chemoattractant)	995	1.162196397781372	0.44101468	Yes	
+row_31	NPY1R	NPY1R	neuropeptide Y receptor Y1	1063	1.0502578020095825	0.4412388	Yes	
+row_32	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	1128	0.9744981527328491	0.4412956	Yes	
+row_33	EDN3	EDN3	endothelin 3	1139	0.9576938152313232	0.44571292	Yes	
+row_34	CCR4	CCR4	chemokine (C-C motif) receptor 4	1207	0.8701292872428894	0.44495112	Yes	
+row_35	NMBR	NMBR	neuromedin B receptor	1296	0.7620785236358643	0.44186637	Yes	
+row_36	HCRT	HCRT	hypocretin (orexin) neuropeptide precursor	1330	0.7328402996063232	0.44315654	Yes	
+row_37	XCL1	XCL1	chemokine (C motif) ligand 1	1354	0.7171366214752197	0.4451853	Yes	
+row_38	C3AR1	C3AR1	complement component 3a receptor 1	1402	0.6858029365539551	0.44506368	Yes	
+row_39	HEBP1	HEBP1	heme binding protein 1	1415	0.6761552691459656	0.44777513	Yes	
+row_40	NPFFR1	NPFFR1	neuropeptide FF receptor 1	1475	0.6422321200370789	0.44642556	Yes	
+row_41	CCR1	CCR1	chemokine (C-C motif) receptor 1	1519	0.6131852269172668	0.44623628	Yes	
+row_42	EDN1	EDN1	endothelin 1	1539	0.598931074142456	0.44794786	Yes	
+row_43	CCR2	CCR2	chemokine (C-C motif) receptor 2	1622	0.5533095002174377	0.44421515	No	
+row_44	EDNRB	EDNRB	endothelin receptor type B	1648	0.5397990942001343	0.44510835	No	
+row_45	AVPR1A	AVPR1A	arginine vasopressin receptor 1A	2155	0.36618947982788086	0.40539104	No	
+row_46	NPFF	NPFF	neuropeptide FF-amide peptide precursor	2180	0.3599945902824402	0.40538254	No	
+row_47	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	2298	0.3332894444465637	0.3975597	No	
+row_48	NMB	NMB	neuromedin B	2387	0.3134114146232605	0.3920192	No	
+row_49	PENK	PENK	proenkephalin	2398	0.31128978729248047	0.39289847	No	
+row_50	F2RL2	F2RL2	coagulation factor II (thrombin) receptor-like 2	2444	0.3034645915031433	0.39084905	No	
+row_51	C5AR1	C5AR1	complement component 5a receptor 1	2599	0.27867671847343445	0.3796765	No	
+row_52	CCR7	CCR7	chemokine (C-C motif) receptor 7	2601	0.27834552526474	0.38111752	No	
+row_53	SAA1	SAA1	serum amyloid A1	2747	0.2541560232639313	0.37055284	No	
+row_54	MC5R	MC5R	melanocortin 5 receptor	3173	0.200384259223938	0.33660674	No	
+row_55	CCL11	CCL11	chemokine (C-C motif) ligand 11	3289	0.18844005465507507	0.32815596	No	
+row_56	ANXA1	ANXA1	annexin A1	3408	0.17606592178344727	0.31939012	No	
+row_57	CCL28	CCL28	chemokine (C-C motif) ligand 28	3781	0.14292335510253906	0.28949958	No	
+row_58	OPRK1	OPRK1	opioid receptor, kappa 1	3835	0.13756318390369415	0.28588244	No	
+row_59	KISS1R	KISS1R	KISS1 receptor	4842	0.06478022783994675	0.20328848	No	
+row_60	CXCL16	CXCL16	chemokine (C-X-C motif) ligand 16	4956	0.056751079857349396	0.19428182	No	
+row_61	POMC	POMC	proopiomelanocortin (adrenocorticotropin/ beta-lipotropin/ alpha-melanocyte stimulating hormone/ beta-melanocyte stimulating hormone/ beta-endorphin)	5317	0.03254145756363869	0.16477655	No	
+row_62	CCL25	CCL25	chemokine (C-C motif) ligand 25	5742	0.008257321082055569	0.12986133	No	
+row_63	F2R	F2R	coagulation factor II (thrombin) receptor	6339	-0.02642723172903061	0.08086349	No	
+row_64	CXCR4	CXCR4	chemokine (C-X-C motif) receptor 4	6406	-0.03032987006008625	0.07558755	No	
+row_65	CCL19	CCL19	chemokine (C-C motif) ligand 19	7064	-0.0694969967007637	0.021795766	No	
+row_66	CX3CR1	CX3CR1	chemokine (C-X3-C motif) receptor 1	7265	-0.08095970749855042	0.005748128	No	
+row_67	MCHR1	MCHR1	melanin-concentrating hormone receptor 1	7514	-0.09998384118080139	-0.014153167	No	
+row_68	CXCL12	CXCL12	chemokine (C-X-C motif) ligand 12 (stromal cell-derived factor 1)	8081	-0.14083625376224518	-0.060051177	No	
+row_69	AGT	AGT	angiotensinogen (serpin peptidase inhibitor, clade A, member 8)	8621	-0.1862734854221344	-0.10347424	No	
+row_70	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	8954	-0.2190018743276596	-0.1296502	No	
+row_71	CXCL11	CXCL11	chemokine (C-X-C motif) ligand 11	9020	-0.22558583319187164	-0.13377498	No	
+row_72	F2RL3	F2RL3	coagulation factor II (thrombin) receptor-like 3	9171	-0.2447834312915802	-0.14480326	No	
+row_73	PROKR1	PROKR1	prokineticin receptor 1	9522	-0.29337701201438904	-0.1720563	No	
+row_74	HCRTR1	HCRTR1	hypocretin (orexin) receptor 1	9834	-0.3556516170501709	-0.19575281	No	
+row_75	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	10203	-0.4532257914543152	-0.22361512	No	
+row_76	INSL3	INSL3	insulin-like 3 (Leydig cell)	10440	-0.5580416321754456	-0.24001981	No	
+row_77	UTS2R	UTS2R	urotensin 2 receptor	10504	-0.5917385220527649	-0.24197558	No	
+row_78	XCR1	XCR1	chemokine (C motif) receptor 1	10579	-0.6363211274147034	-0.24459429	No	
+row_79	CXCL10	CXCL10	chemokine (C-X-C motif) ligand 10	10597	-0.6505874991416931	-0.24243505	No	
+row_80	EDNRA	EDNRA	endothelin receptor type A	10606	-0.6568384766578674	-0.23949952	No	
+row_81	PROKR2	PROKR2	prokineticin receptor 2	10773	-0.7941645979881287	-0.24884005	No	
+row_82	CCR5	CCR5	chemokine (C-C motif) receptor 5	10847	-0.869622528553009	-0.25009936	No	
+row_83	CCL5	CCL5	chemokine (C-C motif) ligand 5	11062	-1.185520887374878	-0.2612556	No	
+row_84	GAL	GAL	galanin	11094	-1.2432101964950562	-0.25700703	No	
+row_85	RXFP1	RXFP1	relaxin/insulin-like family peptide receptor 1	11315	-1.7261253595352173	-0.26569906	No	
+row_86	AVPR1B	AVPR1B	arginine vasopressin receptor 1B	11380	-1.892829418182373	-0.26061583	No	
+row_87	RLN3	RLN3	relaxin 3	11392	-1.892829418182373	-0.25116253	No	
+row_88	CXCR6	CXCR6	chemokine (C-X-C motif) receptor 6	11393	-1.892829418182373	-0.24080224	No	
+row_89	GALR2	GALR2	galanin receptor 2	11421	-1.9622266292572021	-0.23228838	No	
+row_90	NPBWR1	NPBWR1	neuropeptides B/W receptor 1	11429	-1.9890639781951904	-0.22197855	No	
+row_91	FPR1	FPR1	formyl peptide receptor 1	11448	-2.039196252822876	-0.2123013	No	
+row_92	TAC1	TAC1	tachykinin, precursor 1 (substance K, substance P, neurokinin 1, neurokinin 2, neuromedin L, neurokinin alpha, neuropeptide K, neuropeptide gamma)	11459	-2.039196252822876	-0.20196442	No	
+row_93	CXCL5	CXCL5	chemokine (C-X-C motif) ligand 5	11487	-2.0689055919647217	-0.19286667	No	
+row_94	CCR6	CCR6	chemokine (C-C motif) receptor 6	11491	-2.0689055919647217	-0.18179001	No	
+row_95	GHRL	GHRL	ghrelin/obestatin preprohormone	11523	-2.158080816268921	-0.17253396	No	
+row_96	OXTR	OXTR	oxytocin receptor	11548	-2.23872709274292	-0.16225933	No	
+row_97	TACR1	TACR1	tachykinin receptor 1	11604	-2.3586857318878174	-0.15388416	No	
+row_98	BDKRB1	BDKRB1	bradykinin receptor B1	11624	-2.4360387325286865	-0.14211729	No	
+row_99	CCL17	CCL17	chemokine (C-C motif) ligand 17	11656	-2.468573808670044	-0.13116178	No	
+row_100	CXCL1	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	11809	-3.0813682079315186	-0.12682909	No	
+row_101	SSTR3	SSTR3	somatostatin receptor 3	11876	-3.4276371002197266	-0.11351009	No	
+row_102	OPRL1	OPRL1	opiate receptor-like 1	11911	-3.662874221801758	-0.09626501	No	
+row_103	PROK1	PROK1	prokineticin 1	11980	-4.138865947723389	-0.07921805	No	
+row_104	RXFP2	RXFP2	relaxin/insulin-like family peptide receptor 2	11998	-4.3225016593933105	-0.056960836	No	
+row_105	KNG1	KNG1	kininogen 1	12108	-5.726766109466553	-0.03460322	No	
+row_106	OXT	OXT	oxytocin, prepro- (neurophysin I)	12202	-8.205084800720215	0.002638578	No	

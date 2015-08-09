@@ -1,0 +1,37 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ITGA7	ITGA7	integrin, alpha 7	363	4.614588737487793	0.03884493	Yes	
+row_1	ECM2	ECM2	extracellular matrix protein 2, female organ and adipocyte specific	383	4.525968551635742	0.10307216	Yes	
+row_2	SORBS1	SORBS1	sorbin and SH3 domain containing 1	431	4.35695743560791	0.16267526	Yes	
+row_3	CDH13	CDH13	cadherin 13, H-cadherin (heart)	436	4.342645168304443	0.22540419	Yes	
+row_4	FBLN5	FBLN5	fibulin 5	519	4.056089878082275	0.27792642	Yes	
+row_5	SGCE	SGCE	sarcoglycan, epsilon	562	3.9233357906341553	0.3316226	Yes	
+row_6	ACTN3	ACTN3	actinin, alpha 3	958	2.9615087509155273	0.34399015	Yes	
+row_7	ACVRL1	ACVRL1	activin A receptor type II-like 1	1127	2.640594244003296	0.36929747	Yes	
+row_8	ADAM15	ADAM15	ADAM metallopeptidase domain 15 (metargidin)	1246	2.4395415782928467	0.39556253	Yes	
+row_9	THY1	THY1	Thy-1 cell surface antigen	1454	2.116316556930542	0.41023582	Yes	
+row_10	PKD2	PKD2	polycystic kidney disease 2 (autosomal dominant)	1806	1.7044423818588257	0.40776655	Yes	
+row_11	VWF	VWF	von Willebrand factor	1837	1.6683598756790161	0.42965916	Yes	
+row_12	ITGB1BP1	ITGB1BP1	integrin beta 1 binding protein 1	1848	1.6604702472686768	0.45298776	Yes	
+row_13	ITGA11	ITGA11	integrin, alpha 11	1903	1.60003662109375	0.47202796	Yes	
+row_14	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.44399267	No	
+row_15	THBS3	THBS3	thrombospondin 3	2967	0.749724268913269	0.41626823	No	
+row_16	PKD1	PKD1	polycystic kidney disease 1 (autosomal dominant)	2969	0.7489592432975769	0.4270628	No	
+row_17	TAOK2	TAOK2	TAO kinase 2	4232	0.2234213799238205	0.33246902	No	
+row_18	ACTN1	ACTN1	actinin, alpha 1	4266	0.21372056007385254	0.3330131	No	
+row_19	ITGA10	ITGA10	integrin, alpha 10	4843	0.053964681923389435	0.28914183	No	
+row_20	NF2	NF2	neurofibromin 2 (bilateral acoustic neuroma)	5644	-0.13676854968070984	0.2291069	No	
+row_21	PPFIA1	PPFIA1	protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 1	6177	-0.2493961751461029	0.1914837	No	
+row_22	NF1	NF1	neurofibromin 1 (neurofibromatosis, von Recklinghausen disease, Watson disease)	6223	-0.25979843735694885	0.19176637	No	
+row_23	ACTN2	ACTN2	actinin, alpha 2	7366	-0.5260145664215088	0.11086814	No	
+row_24	COL13A1	COL13A1	collagen, type XIII, alpha 1	7979	-0.6790759563446045	0.07328026	No	
+row_25	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	8030	-0.6928877234458923	0.07946214	No	
+row_26	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	8221	-0.7497951984405518	0.07561655	No	
+row_27	TSC1	TSC1	tuberous sclerosis 1	8298	-0.7743914127349854	0.0809659	No	
+row_28	CDK6	CDK6	cyclin-dependent kinase 6	9305	-1.1451270580291748	0.019598344	No	
+row_29	PARVG	PARVG	parvin, gamma	9691	-1.331655502319336	0.009081749	No	
+row_30	COL17A1	COL17A1	collagen, type XVII, alpha 1	10013	-1.4927293062210083	0.00586497	No	
+row_31	TESK2	TESK2	testis-specific kinase 2	10412	-1.7490342855453491	3.9933046E-4	No	
+row_32	ANGPTL3	ANGPTL3	angiopoietin-like 3	11057	-2.4522504806518555	-0.013929474	No	
+row_33	ITGA2	ITGA2	integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)	11485	-3.085624933242798	-0.0022410303	No	
+row_34	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	0.029995702	No	
+row_35	PPFIA2	PPFIA2	protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 2	11892	-4.17144775390625	0.08078139	No	

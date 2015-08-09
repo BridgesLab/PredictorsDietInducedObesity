@@ -1,0 +1,50 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	STAT4	STAT4	signal transducer and activator of transcription 4	30	6.424749374389648	0.12831213	Yes	
+row_1	PRF1	PRF1	perforin 1 (pore forming protein)	58	5.685256004333496	0.24181825	Yes	
+row_2	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.3283102	Yes	
+row_3	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.364328	Yes	
+row_4	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	558	2.445347547531128	0.401629	Yes	
+row_5	TNFRSF18	TNFRSF18	tumor necrosis factor receptor superfamily, member 18	562	2.4173357486724854	0.450587	Yes	
+row_6	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.4725125	Yes	
+row_7	PTPN7	PTPN7	protein tyrosine phosphatase, non-receptor type 7	767	1.7169079780578613	0.5055723	Yes	
+row_8	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	913	1.3225001096725464	0.5205925	Yes	
+row_9	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.5201589	Yes	
+row_10	IL2RA	IL2RA	interleukin 2 receptor, alpha	1197	0.8816441893577576	0.5344118	Yes	
+row_11	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	1345	0.7249175906181335	0.53710425	Yes	
+row_12	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	1640	0.5427266359329224	0.52402526	No	
+row_13	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.5214194	No	
+row_14	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	0.4967196	No	
+row_15	B2M	B2M	beta-2-microglobulin	2539	0.28809723258018494	0.47345194	No	
+row_16	CD247	CD247	CD247 molecule	2910	0.22990232706069946	0.4477688	No	
+row_17	IFNAR1	IFNAR1	interferon (alpha, beta and omega) receptor 1	3222	0.19455567002296448	0.42620787	No	
+row_18	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	0.42009607	No	
+row_19	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	0.41884738	No	
+row_20	PRKCE	PRKCE	protein kinase C, epsilon	3537	0.16474615037441254	0.4112866	No	
+row_21	NFATC3	NFATC3	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3	4101	0.11770854145288467	0.36748195	No	
+row_22	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.3588377	No	
+row_23	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	4555	0.08333557844161987	0.33427432	No	
+row_24	MAPK9	MAPK9	mitogen-activated protein kinase 9	4754	0.07017195224761963	0.31945452	No	
+row_25	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5100	0.04559203237295151	0.29207134	No	
+row_26	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	5604	0.016282564029097557	0.2511259	No	
+row_27	PRKCQ	PRKCQ	protein kinase C, theta	5973	-0.006272224709391594	0.22105499	No	
+row_28	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	6139	-0.015314154326915741	0.20782657	No	
+row_29	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.19583079	No	
+row_30	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	6449	-0.03214356303215027	0.18368348	No	
+row_31	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	0.16960928	No	
+row_32	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	6651	-0.04347074404358864	0.16901702	No	
+row_33	ELK1	ELK1	ELK1, member of ETS oncogene family	6984	-0.06501252204179764	0.14309594	No	
+row_34	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.074126884	No	
+row_35	TNFRSF9	TNFRSF9	tumor necrosis factor receptor superfamily, member 9	9057	-0.23056712746620178	-0.019653644	No	
+row_36	NFATC1	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	9259	-0.25558581948280334	-0.030945605	No	
+row_37	JUN	JUN	jun oncogene	9379	-0.2708636522293091	-0.035197556	No	
+row_38	NFATC2	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2	9464	-0.28489816188812256	-0.03629169	No	
+row_39	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.064286314	No	
+row_40	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	10047	-0.4085608124732971	-0.06811526	No	
+row_41	TNFRSF4	TNFRSF4	tumor necrosis factor receptor superfamily, member 4	10057	-0.40983569622039795	-0.06051172	No	
+row_42	FOSL1	FOSL1	FOS-like antigen 1	10120	-0.4285058379173279	-0.056877412	No	
+row_43	JUNB	JUNB	jun B proto-oncogene	10285	-0.4901237189769745	-0.060359146	No	
+row_44	EOMES	EOMES	eomesodermin homolog (Xenopus laevis)	11191	-1.455987811088562	-0.10498847	No	
+row_45	EGR1	EGR1	early growth response 1	11297	-1.6578538417816162	-0.07985977	No	
+row_46	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	11426	-1.9830992221832275	-0.0499982	No	
+row_47	IFNA16	IFNA16	interferon, alpha 16	11718	-2.7526674270629883	-0.01784829	No	
+row_48	CD8A	CD8A	CD8a molecule	11788	-2.9531304836273193	0.036599614	No	

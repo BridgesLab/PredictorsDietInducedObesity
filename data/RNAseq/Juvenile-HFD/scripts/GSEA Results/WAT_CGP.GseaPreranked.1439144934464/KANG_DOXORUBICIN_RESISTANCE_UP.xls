@@ -1,0 +1,48 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FOSB	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	1264	2.4115493297576904	-0.07626233	No	
+row_1	POLA2	POLA2	polymerase (DNA directed), alpha 2 (70kD subunit)	2356	1.1826674938201904	-0.15021704	No	
+row_2	ABCC1	ABCC1	ATP-binding cassette, sub-family C (CFTR/MRP), member 1	3146	0.6525892615318298	-0.20553386	No	
+row_3	CENPA	CENPA	centromere protein A	3513	0.4837700128555298	-0.22955649	No	
+row_4	PLK4	PLK4	polo-like kinase 4 (Drosophila)	3622	0.43989643454551697	-0.23395734	No	
+row_5	ZWINT	ZWINT	ZW10 interactor	4921	0.03788639232516289	-0.33432847	No	
+row_6	DTYMK	DTYMK	deoxythymidylate kinase (thymidylate kinase)	5668	-0.14347101747989655	-0.39091405	No	
+row_7	GINS1	GINS1	GINS complex subunit 1 (Psf1 homolog)	5721	-0.15302659571170807	-0.3935646	No	
+row_8	TYMS	TYMS	thymidylate synthetase	5832	-0.17753641307353973	-0.4004938	No	
+row_9	NCAPG2	NCAPG2	non-SMC condensin II complex, subunit G2	6339	-0.28503546118736267	-0.43717688	No	
+row_10	CDC6	CDC6	CDC6 cell division cycle 6 homolog (S. cerevisiae)	6905	-0.4138560891151428	-0.47727263	No	
+row_11	LMNB1	LMNB1	lamin B1	7052	-0.4480796754360199	-0.48454794	No	
+row_12	HMGB2	HMGB2	high-mobility group box 2	7890	-0.6579011082649231	-0.5435411	No	
+row_13	RFC4	RFC4	replication factor C (activator 1) 4, 37kDa	7943	-0.6700111031532288	-0.54151535	No	
+row_14	MCM4	MCM4	MCM4 minichromosome maintenance deficient 4 (S. cerevisiae)	8143	-0.7256672382354736	-0.55039215	No	
+row_15	POLQ	POLQ	polymerase (DNA directed), theta	8345	-0.7909132838249207	-0.5588339	No	
+row_16	MKI67	MKI67	antigen identified by monoclonal antibody Ki-67	8376	-0.7998924255371094	-0.55392635	No	
+row_17	MAD2L1	MAD2L1	MAD2 mitotic arrest deficient-like 1 (yeast)	8775	-0.9391726851463318	-0.5763126	No	
+row_18	WHSC1	WHSC1	Wolf-Hirschhorn syndrome candidate 1	8896	-0.9813855290412903	-0.5767466	No	
+row_19	RRM1	RRM1	ribonucleotide reductase M1 polypeptide	9793	-1.3736141920089722	-0.6338437	No	
+row_20	ATAD2	ATAD2	ATPase family, AAA domain containing 2	10039	-1.506362795829773	-0.63922805	Yes	
+row_21	CENPM	CENPM	centromere protein M	10057	-1.5171995162963867	-0.6268234	Yes	
+row_22	BUB1B	BUB1B	BUB1 budding uninhibited by benzimidazoles 1 homolog beta (yeast)	10079	-1.524889349937439	-0.6146596	Yes	
+row_23	OIP5	OIP5	Opa interacting protein 5	10256	-1.6391531229019165	-0.613489	Yes	
+row_24	NUSAP1	NUSAP1	nucleolar and spindle associated protein 1	10480	-1.8027888536453247	-0.61448497	Yes	
+row_25	BIRC5	BIRC5	baculoviral IAP repeat-containing 5 (survivin)	10568	-1.8844342231750488	-0.60419	Yes	
+row_26	RRM2	RRM2	ribonucleotide reductase M2 polypeptide	10785	-2.1087710857391357	-0.6018751	Yes	
+row_27	TK1	TK1	thymidine kinase 1, soluble	11015	-2.387308359146118	-0.59804946	Yes	
+row_28	NQO1	NQO1	NAD(P)H dehydrogenase, quinone 1	11028	-2.404524326324463	-0.5772307	Yes	
+row_29	ASF1B	ASF1B	ASF1 anti-silencing function 1 homolog B (S. cerevisiae)	11312	-2.8153064250946045	-0.57372355	Yes	
+row_30	TPX2	TPX2	TPX2, microtubule-associated, homolog (Xenopus laevis)	11385	-2.941720724105835	-0.5527011	Yes	
+row_31	ASPM	ASPM	asp (abnormal spindle) homolog, microcephaly associated (Drosophila)	11477	-3.0777127742767334	-0.5319229	Yes	
+row_32	BARD1	BARD1	BRCA1 associated RING domain 1	11657	-3.41666316986084	-0.5149067	Yes	
+row_33	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	11760	-3.699307918548584	-0.48935938	Yes	
+row_34	RAD51AP1	RAD51AP1	RAD51 associated protein 1	11803	-3.8313121795654297	-0.4579625	Yes	
+row_35	PRC1	PRC1	protein regulator of cytokinesis 1	11859	-4.0240302085876465	-0.42583114	Yes	
+row_36	CDCA8	CDCA8	cell division cycle associated 8	11871	-4.079629898071289	-0.38978282	Yes	
+row_37	NCAPG	NCAPG	non-SMC condensin I complex, subunit G	11884	-4.1380486488342285	-0.35328364	Yes	
+row_38	HMMR	HMMR	hyaluronan-mediated motility receptor (RHAMM)	11924	-4.298189640045166	-0.3174309	Yes	
+row_39	FANCI	FANCI	Fanconi anemia, complementation group I	12013	-4.64994478225708	-0.28219843	Yes	
+row_40	PBK	PBK	PDZ binding kinase	12029	-4.72656774520874	-0.24060865	Yes	
+row_41	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.2002733	Yes	
+row_42	FOXM1	FOXM1	forkhead box M1	12106	-5.09560489654541	-0.15433677	Yes	
+row_43	CDC20	CDC20	CDC20 cell division cycle 20 homolog (S. cerevisiae)	12119	-5.185330390930176	-0.10836454	Yes	
+row_44	AURKA	AURKA	aurora kinase A	12195	-5.706864356994629	-0.0625631	Yes	
+row_45	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	-0.011840107	Yes	
+row_46	CDKN3	CDKN3	cyclin-dependent kinase inhibitor 3 (CDK2-associated dual specificity phosphatase)	12372	-6.979034423828125	0.043606404	Yes	

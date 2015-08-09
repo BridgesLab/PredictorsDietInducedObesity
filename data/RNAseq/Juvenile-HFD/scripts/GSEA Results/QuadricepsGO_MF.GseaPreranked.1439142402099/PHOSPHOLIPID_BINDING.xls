@@ -1,0 +1,37 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RASAL1	RASAL1	RAS protein activator like 1 (GAP1 like)	47	6.05001974105835	0.1126709	No	
+row_1	MCTP2	MCTP2	multiple C2 domains, transmembrane 2	126	4.571696758270264	0.19432804	No	
+row_2	PTAFR	PTAFR	platelet-activating factor receptor	949	1.2655385732650757	0.1513198	No	
+row_3	ANXA9	ANXA9	annexin A9	1414	0.6767585873603821	0.1263183	No	
+row_4	CPNE3	CPNE3	copine III	1695	0.5203669667243958	0.1133879	No	
+row_5	PAFAH2	PAFAH2	platelet-activating factor acetylhydrolase 2, 40kDa	1802	0.47654488682746887	0.11387694	No	
+row_6	SCIN	SCIN	scinderin	1947	0.4272496700286865	0.11030154	No	
+row_7	MCTP1	MCTP1	multiple C2 domains, transmembrane 1	2366	0.3177446126937866	0.08215622	No	
+row_8	APOE	APOE	apolipoprotein E	2383	0.3144299387931824	0.08690057	No	
+row_9	PIGK	PIGK	phosphatidylinositol glycan anchor biosynthesis, class K	2489	0.29564040899276733	0.083987355	No	
+row_10	PICALM	PICALM	phosphatidylinositol binding clathrin assembly protein	2578	0.28233638405799866	0.082211465	No	
+row_11	WDFY1	WDFY1	WD repeat and FYVE domain containing 1	3031	0.21640919148921967	0.0493273	No	
+row_12	PLEKHA1	PLEKHA1	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 1	3045	0.2142522931098938	0.052388147	No	
+row_13	ZFYVE16	ZFYVE16	zinc finger, FYVE domain containing 16	3991	0.12545491755008698	-0.022660948	No	
+row_14	PCLO	PCLO	piccolo (presynaptic cytomatrix protein)	4139	0.11433233320713043	-0.03250907	No	
+row_15	ZFYVE1	ZFYVE1	zinc finger, FYVE domain containing 1	5261	0.035964902490377426	-0.12370916	No	
+row_16	SDPR	SDPR	serum deprivation response (phosphatidylserine binding protein)	5340	0.03149113431572914	-0.1294966	No	
+row_17	PLEKHA2	PLEKHA2	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 2	5854	0.0017437707865610719	-0.17151564	No	
+row_18	RAB35	RAB35	RAB35, member RAS oncogene family	5868	0.0010528232669457793	-0.17256103	No	
+row_19	PREX1	PREX1	-	5975	-0.0064160763286054134	-0.18112668	No	
+row_20	CPNE1	CPNE1	copine I	6026	-0.00908634439110756	-0.18505038	No	
+row_21	PEBP1	PEBP1	phosphatidylethanolamine binding protein 1	7034	-0.06786991655826569	-0.26629096	No	
+row_22	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	-0.26603556	No	
+row_23	THY1	THY1	Thy-1 cell surface antigen	7160	-0.07527352124452591	-0.2736849	No	
+row_24	GPAA1	GPAA1	glycosylphosphatidylinositol anchor attachment protein 1 homolog (yeast)	7316	-0.08404608070850372	-0.28477213	No	
+row_25	PLEKHA3	PLEKHA3	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 3	7547	-0.10214077681303024	-0.3016589	No	
+row_26	PLA2G7	PLA2G7	phospholipase A2, group VII (platelet-activating factor acetylhydrolase, plasma)	7621	-0.10710294544696808	-0.3055802	No	
+row_27	PRKCI	PRKCI	protein kinase C, iota	10075	-0.41361671686172485	-0.49869597	No	
+row_28	GRK5	GRK5	G protein-coupled receptor kinase 5	10138	-0.4348926842212677	-0.49540228	No	
+row_29	EEA1	EEA1	early endosome antigen 1, 162kD	10338	-0.5087559819221497	-0.5019164	No	
+row_30	SYTL4	SYTL4	synaptotagmin-like 4 (granuphilin-a)	10714	-0.7383407950401306	-0.5184362	No	
+row_31	DOC2B	DOC2B	double C2-like domains, beta	11022	-1.129162311553955	-0.52185446	Yes	
+row_32	SYT1	SYT1	synaptotagmin I	12019	-4.49416446685791	-0.5169427	Yes	
+row_33	APOA5	APOA5	apolipoprotein A-V	12183	-7.336323261260986	-0.38900647	Yes	
+row_34	APOA1	APOA1	apolipoprotein A-I	12211	-8.635818481445312	-0.22489347	Yes	
+row_35	APOA4	APOA4	apolipoprotein A-IV	12229	-11.770315170288086	4.0982664E-4	Yes	

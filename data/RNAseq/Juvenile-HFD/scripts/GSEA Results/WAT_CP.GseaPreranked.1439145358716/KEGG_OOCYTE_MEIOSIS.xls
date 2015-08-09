@@ -1,0 +1,102 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	426	4.3841471672058105	-0.011090922	No	
+row_1	ADCY4	ADCY4	adenylate cyclase 4	485	4.150942802429199	0.005316321	No	
+row_2	ADCY5	ADCY5	adenylate cyclase 5	524	4.0463151931762695	0.022754457	No	
+row_3	PPP2R5A	PPP2R5A	protein phosphatase 2, regulatory subunit B (B56), alpha isoform	751	3.428173065185547	0.022427712	No	
+row_4	YWHAG	YWHAG	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide	854	3.189272880554199	0.030558415	No	
+row_5	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	1146	2.598780393600464	0.020985711	No	
+row_6	ADCY3	ADCY3	adenylate cyclase 3	1162	2.560685396194458	0.032726333	No	
+row_7	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	1432	2.1561176776885986	0.022636196	No	
+row_8	MOS	MOS	v-mos Moloney murine sarcoma viral oncogene homolog	1493	2.0613420009613037	0.028353127	No	
+row_9	PPP2R1B	PPP2R1B	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform	1540	2.007734537124634	0.034890655	No	
+row_10	RPS6KA3	RPS6KA3	ribosomal protein S6 kinase, 90kDa, polypeptide 3	1767	1.7471964359283447	0.026089463	No	
+row_11	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	2035	1.4578473567962646	0.012634913	No	
+row_12	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	-0.008886692	No	
+row_13	PPP2R5D	PPP2R5D	protein phosphatase 2, regulatory subunit B (B56), delta isoform	2702	0.9043288826942444	-0.028793886	No	
+row_14	ADCY6	ADCY6	adenylate cyclase 6	2772	0.8604217171669006	-0.029832518	No	
+row_15	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	-0.033327654	No	
+row_16	SMC1A	SMC1A	structural maintenance of chromosomes 1A	3066	0.6952813863754272	-0.045016494	No	
+row_17	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	3167	0.6400119066238403	-0.04958175	No	
+row_18	PRKX	PRKX	protein kinase, X-linked	3311	0.5705565810203552	-0.057847634	No	
+row_19	PPP1CB	PPP1CB	protein phosphatase 1, catalytic subunit, beta isoform	3454	0.5102632641792297	-0.06633957	No	
+row_20	YWHAQ	YWHAQ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, theta polypeptide	3632	0.4363037645816803	-0.077931486	No	
+row_21	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	-0.07717189	No	
+row_22	SLK	SLK	STE20-like kinase (yeast)	3697	0.4046032130718231	-0.07863844	No	
+row_23	CDC16	CDC16	CDC16 cell division cycle 16 homolog (S. cerevisiae)	3725	0.39346978068351746	-0.0787586	No	
+row_24	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	-0.0819496	No	
+row_25	ITPR1	ITPR1	inositol 1,4,5-triphosphate receptor, type 1	3832	0.36015498638153076	-0.08325064	No	
+row_26	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	3845	0.3569004237651825	-0.08238638	No	
+row_27	ANAPC1	ANAPC1	anaphase promoting complex subunit 1	3997	0.30479001998901367	-0.09261545	No	
+row_28	ANAPC5	ANAPC5	anaphase promoting complex subunit 5	4000	0.3035910129547119	-0.09124076	No	
+row_29	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	4114	0.266051709651947	-0.098704234	No	
+row_30	FBXW11	FBXW11	F-box and WD-40 domain protein 11	4124	0.26187756657600403	-0.09808527	No	
+row_31	ANAPC4	ANAPC4	anaphase promoting complex subunit 4	4487	0.14733533561229706	-0.12554882	No	
+row_32	CDC23	CDC23	CDC23 (cell division cycle 23, yeast, homolog)	4501	0.14257481694221497	-0.12584299	No	
+row_33	PPP1CA	PPP1CA	protein phosphatase 1, catalytic subunit, alpha isoform	4574	0.1224517971277237	-0.13083576	No	
+row_34	CDK2	CDK2	cyclin-dependent kinase 2	4593	0.11837294697761536	-0.13164152	No	
+row_35	PKMYT1	PKMYT1	protein kinase, membrane associated tyrosine/threonine 1	4715	0.08985959738492966	-0.14061658	No	
+row_36	CDC26	CDC26	cell division cycle 26	4881	0.04558661952614784	-0.15324324	No	
+row_37	ANAPC2	ANAPC2	anaphase promoting complex subunit 2	4894	0.04316529631614685	-0.15396065	No	
+row_38	ADCY9	ADCY9	adenylate cyclase 9	4967	0.02304287999868393	-0.15945457	No	
+row_39	PTTG1	PTTG1	pituitary tumor-transforming 1	5021	0.0066863661631941795	-0.16355053	No	
+row_40	FBXO5	FBXO5	F-box protein 5	5059	-0.0033546106424182653	-0.16641657	No	
+row_41	CDC27	CDC27	cell division cycle 27	5309	-0.05974048376083374	-0.185517	No	
+row_42	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	-0.18729378	No	
+row_43	YWHAE	YWHAE	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon polypeptide	5444	-0.09245900064706802	-0.19508697	No	
+row_44	RBX1	RBX1	ring-box 1	5564	-0.11809919029474258	-0.20376384	No	
+row_45	MAPK12	MAPK12	mitogen-activated protein kinase 12	5567	-0.11854458600282669	-0.20332205	No	
+row_46	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	5759	-0.16095679998397827	-0.21739295	No	
+row_47	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	5865	-0.1837351769208908	-0.22464806	No	
+row_48	CCNE2	CCNE2	cyclin E2	5886	-0.18861129879951477	-0.22525556	No	
+row_49	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	-0.2443622	No	
+row_50	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	6258	-0.26650428771972656	-0.25151172	No	
+row_51	ANAPC7	ANAPC7	anaphase promoting complex subunit 7	6307	-0.2754993736743927	-0.2538629	No	
+row_52	ANAPC11	ANAPC11	APC11 anaphase promoting complex subunit 11 homolog (yeast)	6308	-0.27605971693992615	-0.25247118	No	
+row_53	SMC3	SMC3	structural maintenance of chromosomes 3	6349	-0.28881406784057617	-0.25413188	No	
+row_54	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	-0.26067674	No	
+row_55	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	-0.26538953	No	
+row_56	AR	AR	androgen receptor (dihydrotestosterone receptor; testicular feminization; spinal and bulbar muscular atrophy; Kennedy disease)	6540	-0.33303919434547424	-0.2638664	No	
+row_57	CCNE1	CCNE1	cyclin E1	6821	-0.39628103375434875	-0.28368562	No	
+row_58	CUL1	CUL1	cullin 1	6877	-0.40867453813552856	-0.28591084	No	
+row_59	PPP2R5B	PPP2R5B	protein phosphatase 2, regulatory subunit B (B56), beta isoform	6913	-0.41561901569366455	-0.28654268	No	
+row_60	CPEB1	CPEB1	cytoplasmic polyadenylation element binding protein 1	6978	-0.4332040548324585	-0.28934547	No	
+row_61	ANAPC13	ANAPC13	anaphase promoting complex subunit 13	6983	-0.43463820219039917	-0.287466	No	
+row_62	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	-0.28981137	No	
+row_63	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	7321	-0.5153549313545227	-0.30879658	No	
+row_64	PPP2CB	PPP2CB	protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform	7413	-0.5356752872467041	-0.3131866	No	
+row_65	PPP2R5E	PPP2R5E	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	7834	-0.6419617533683777	-0.34267578	No	
+row_66	YWHAZ	YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide	8374	-0.7995363473892212	-0.38064283	No	
+row_67	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	-0.37806496	No	
+row_68	BTRC	BTRC	beta-transducin repeat containing	8479	-0.8316730856895447	-0.3804173	No	
+row_69	ANAPC10	ANAPC10	anaphase promoting complex subunit 10	8523	-0.8453293442726135	-0.37950614	No	
+row_70	MAD2L1	MAD2L1	MAD2 mitotic arrest deficient-like 1 (yeast)	8775	-0.9391726851463318	-0.39432883	No	
+row_71	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	-0.394394	No	
+row_72	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	8907	-0.9845682382583618	-0.39465094	No	
+row_73	ADCY7	ADCY7	adenylate cyclase 7	9067	-1.0541902780532837	-0.40172532	No	
+row_74	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	9420	-1.1979033946990967	-0.4231134	No	
+row_75	RPS6KA2	RPS6KA2	ribosomal protein S6 kinase, 90kDa, polypeptide 2	9485	-1.2267284393310547	-0.42191574	No	
+row_76	PPP1CC	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isoform	9819	-1.385446310043335	-0.44087788	No	
+row_77	ADCY8	ADCY8	adenylate cyclase 8 (brain)	9894	-1.4257359504699707	-0.43945614	No	
+row_78	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	9896	-1.4262335300445557	-0.43234387	No	
+row_79	PPP2R5C	PPP2R5C	protein phosphatase 2, regulatory subunit B (B56), gamma isoform	10311	-1.6829924583435059	-0.45611733	No	
+row_80	CALML3	CALML3	calmodulin-like 3	10518	-1.84446120262146	-0.46286982	No	
+row_81	MAD2L2	MAD2L2	MAD2 mitotic arrest deficient-like 2 (yeast)	10596	-1.9086369276046753	-0.45924732	No	
+row_82	ADCY2	ADCY2	adenylate cyclase 2 (brain)	11099	-2.508901357650757	-0.48571384	No	
+row_83	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	11116	-2.5401909351348877	-0.47415447	No	
+row_84	SGOL1	SGOL1	shugoshin-like 1 (S. pombe)	11360	-2.903615713119507	-0.47845033	No	
+row_85	PGR	PGR	progesterone receptor	11611	-3.306676149368286	-0.4812596	No	
+row_86	RPS6KA6	RPS6KA6	ribosomal protein S6 kinase, 90kDa, polypeptide 6	11970	-4.469363689422607	-0.48662248	Yes	
+row_87	ESPL1	ESPL1	extra spindle poles like 1 (S. cerevisiae)	12017	-4.666219234466553	-0.46668252	Yes	
+row_88	CDC25C	CDC25C	cell division cycle 25C	12028	-4.714576721191406	-0.44369373	Yes	
+row_89	CCNB1	CCNB1	cyclin B1	12067	-4.93411922454834	-0.42177984	Yes	
+row_90	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.39886945	Yes	
+row_91	CDC20	CDC20	CDC20 cell division cycle 20 homolog (S. cerevisiae)	12119	-5.185330390930176	-0.373897	Yes	
+row_92	AURKA	AURKA	aurora kinase A	12195	-5.706864356994629	-0.35097036	Yes	
+row_93	CCNB2	CCNB2	cyclin B2	12207	-5.767383098602295	-0.32275188	Yes	
+row_94	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	-0.29618192	Yes	
+row_95	STAG3	STAG3	stromal antigen 3	12293	-6.426414489746094	-0.26534227	Yes	
+row_96	FBXO43	FBXO43	F-box protein 43	12347	-6.7999467849731445	-0.23519078	Yes	
+row_97	SPDYA	SPDYA	speedy homolog A (Drosophila)	12541	-8.560564994812012	-0.20707189	Yes	
+row_98	PLCZ1	PLCZ1	phospholipase C, zeta 1	12577	-8.95821475982666	-0.16463724	Yes	
+row_99	PPP3R2	PPP3R2	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, beta isoform (calcineurin B, type II)	12704	-10.447811126708984	-0.121783495	Yes	
+row_100	SMC1B	SMC1B	structural maintenance of chromosomes 1B	12921	-27.696073532104492	0.0010126942	Yes	

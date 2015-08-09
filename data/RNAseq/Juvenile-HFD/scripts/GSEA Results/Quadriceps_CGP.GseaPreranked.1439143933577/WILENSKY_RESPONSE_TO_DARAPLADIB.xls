@@ -1,0 +1,26 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CD4	CD4	CD4 molecule	268	3.448735475540161	0.15102704	Yes	
+row_1	PLAUR	PLAUR	plasminogen activator, urokinase receptor	746	1.795101284980774	0.20199656	Yes	
+row_2	CXCR3	CXCR3	chemokine (C-X-C motif) receptor 3	793	1.6613858938217163	0.28155833	Yes	
+row_3	CYBB	CYBB	cytochrome b-245, beta polypeptide (chronic granulomatous disease)	842	1.4993963241577148	0.3528315	Yes	
+row_4	LAIR1	LAIR1	leukocyte-associated immunoglobulin-like receptor 1	881	1.3879191875457764	0.41933236	Yes	
+row_5	PTAFR	PTAFR	platelet-activating factor receptor	949	1.2655385732650757	0.47731996	Yes	
+row_6	DENND2D	DENND2D	DENN/MADD domain containing 2D	984	1.1882991790771484	0.5341362	Yes	
+row_7	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	1043	1.0808360576629639	0.5835969	Yes	
+row_8	NPL	NPL	N-acetylneuraminate pyruvate lyase (dihydrodipicolinate synthase)	1225	0.8429742455482483	0.6110535	Yes	
+row_9	CD48	CD48	CD48 molecule	1295	0.7640677094459534	0.64372534	Yes	
+row_10	CCR1	CCR1	chemokine (C-C motif) receptor 1	1519	0.6131852269172668	0.6562168	Yes	
+row_11	CCR2	CCR2	chemokine (C-C motif) receptor 2	1622	0.5533095002174377	0.675615	Yes	
+row_12	CTSS	CTSS	cathepsin S	1665	0.5342949032783508	0.69897354	Yes	
+row_13	NCF1	NCF1	neutrophil cytosolic factor 1, (chronic granulomatous disease, autosomal 1)	2951	0.22565248608589172	0.60504985	No	
+row_14	CD68	CD68	CD68 molecule	3147	0.20315967500209808	0.5992691	No	
+row_15	GM2A	GM2A	GM2 ganglioside activator	5800	0.005373242311179638	0.38233957	No	
+row_16	UCP2	UCP2	uncoupling protein 2 (mitochondrial, proton carrier)	5972	-0.006221633404493332	0.3686467	No	
+row_17	EVI2A	EVI2A	ecotropic viral integration site 2A	7121	-0.07298978418111801	0.2782863	No	
+row_18	ARRB2	ARRB2	arrestin, beta 2	7337	-0.08541342616081238	0.26496184	No	
+row_19	SLC27A4	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4	7440	-0.09396988153457642	0.26132122	No	
+row_20	PLA2G7	PLA2G7	phospholipase A2, group VII (platelet-activating factor acetylhydrolase, plasma)	7621	-0.10710294544696808	0.2519511	No	
+row_21	LTBR	LTBR	lymphotoxin beta receptor (TNFR superfamily, member 3)	8863	-0.20997345447540283	0.16084461	No	
+row_22	BIN2	BIN2	bridging integrator 2	10281	-0.4892476201057434	0.0693311	No	
+row_23	HMOX1	HMOX1	heme oxygenase (decycling) 1	10552	-0.6179543733596802	0.07821246	No	
+row_24	CCL5	CCL5	chemokine (C-C motif) ligand 5	11062	-1.185520887374878	0.09598681	No	

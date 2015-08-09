@@ -1,0 +1,69 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	VEGFB	VEGFB	vascular endothelial growth factor B	587	3.862657308578491	0.003969994	Yes	
+row_1	FIGF	FIGF	c-fos induced growth factor (vascular endothelial growth factor D)	820	3.2682435512542725	0.02789859	Yes	
+row_2	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.06403774	Yes	
+row_3	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.088661686	Yes	
+row_4	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.1240819	Yes	
+row_5	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	1057	2.767228603363037	0.15782134	Yes	
+row_6	PDGFB	PDGFB	platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)	1126	2.641366720199585	0.18644759	Yes	
+row_7	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.21384254	Yes	
+row_8	TGFB3	TGFB3	transforming growth factor, beta 3	1407	2.196622371673584	0.22525667	Yes	
+row_9	EPAS1	EPAS1	endothelial PAS domain protein 1	1414	2.1792898178100586	0.25276908	Yes	
+row_10	VEGFC	VEGFC	vascular endothelial growth factor C	1417	2.174621343612671	0.28053242	Yes	
+row_11	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	1436	2.142984628677368	0.30664614	Yes	
+row_12	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	1534	2.0107243061065674	0.32492206	Yes	
+row_13	RAPGEF1	RAPGEF1	Rap guanine nucleotide exchange factor (GEF) 1	1789	1.7223161458969116	0.32729355	Yes	
+row_14	RAP1A	RAP1A	RAP1A, member of RAS oncogene family	2044	1.453795313835144	0.3262176	Yes	
+row_15	ARNT	ARNT	aryl hydrocarbon receptor nuclear translocator	2060	1.4319100379943848	0.34343535	Yes	
+row_16	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.36173543	Yes	
+row_17	EGLN1	EGLN1	egl nine homolog 1 (C. elegans)	2117	1.3859580755233765	0.37533224	Yes	
+row_18	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	2221	1.2897648811340332	0.38388583	Yes	
+row_19	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	2358	1.180870532989502	0.38847673	Yes	
+row_20	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.40114135	Yes	
+row_21	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	2687	0.914352297782898	0.38964248	No	
+row_22	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.39169586	No	
+row_23	FLCN	FLCN	folliculin	2938	0.7676135301589966	0.39098117	No	
+row_24	PAK2	PAK2	p21 (CDKN1A)-activated kinase 2	3096	0.68260657787323	0.38754302	No	
+row_25	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	3138	0.6569126844406128	0.39279035	No	
+row_26	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.3844304	No	
+row_27	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.3822833	No	
+row_28	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	3689	0.40941691398620605	0.36919808	No	
+row_29	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.36612007	No	
+row_30	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.34107184	No	
+row_31	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	4341	0.1897527426481247	0.32920784	No	
+row_32	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.326726	No	
+row_33	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.32598475	No	
+row_34	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.3272892	No	
+row_35	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	4498	0.143723726272583	0.32540393	No	
+row_36	CUL2	CUL2	cullin 2	4550	0.12849876284599304	0.32309002	No	
+row_37	HIF1A	HIF1A	hypoxia-inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)	4648	0.10557965189218521	0.31690684	No	
+row_38	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.31366107	No	
+row_39	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	4795	0.06617257744073868	0.30767143	No	
+row_40	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.2900961	No	
+row_41	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	5270	-0.051160458475351334	0.27163425	No	
+row_42	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.26733756	No	
+row_43	VHL	VHL	von Hippel-Lindau tumor suppressor	5396	-0.08055959641933441	0.26386416	No	
+row_44	RBX1	RBX1	ring-box 1	5564	-0.11809919029474258	0.25240144	No	
+row_45	TCEB1	TCEB1	transcription elongation factor B (SIII), polypeptide 1 (15kDa, elongin C)	5654	-0.13844655454158783	0.24726197	No	
+row_46	SLC2A1	SLC2A1	solute carrier family 2 (facilitated glucose transporter), member 1	6583	-0.342685729265213	0.17953904	No	
+row_47	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.18231238	No	
+row_48	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	6817	-0.39525026082992554	0.17106597	No	
+row_49	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.17465968	No	
+row_50	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	0.15596321	No	
+row_51	TGFB2	TGFB2	transforming growth factor, beta 2	7236	-0.4911147356033325	0.15628408	No	
+row_52	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	7738	-0.6211190819740295	0.12532148	No	
+row_53	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	8045	-0.6963041424751282	0.11047918	No	
+row_54	GAB1	GAB1	GRB2-associated binding protein 1	8172	-0.7347733974456787	0.11012005	No	
+row_55	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	8494	-0.8370139598846436	0.09591848	No	
+row_56	TCEB2	TCEB2	transcription elongation factor B (SIII), polypeptide 2 (18kDa, elongin B)	8520	-0.8446628451347351	0.10481969	No	
+row_57	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.106140874	No	
+row_58	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.068725094	No	
+row_59	PAK3	PAK3	p21 (CDKN1A)-activated kinase 3	9469	-1.218682050704956	0.07317968	No	
+row_60	TGFA	TGFA	transforming growth factor, alpha	9523	-1.2451547384262085	0.08504648	No	
+row_61	PAK4	PAK4	p21(CDKN1A)-activated kinase 4	9656	-1.315033197402954	0.09167068	No	
+row_62	EGLN2	EGLN2	egl nine homolog 2 (C. elegans)	10230	-1.6218187808990479	0.06795981	No	
+row_63	PGF	PGF	placental growth factor, vascular endothelial growth factor-related protein	10346	-1.710184097290039	0.08097835	No	
+row_64	EGLN3	EGLN3	egl nine homolog 3 (C. elegans)	10438	-1.7717024087905884	0.09665193	No	
+row_65	ARNT2	ARNT2	aryl-hydrocarbon receptor nuclear translocator 2	10542	-1.8576849699020386	0.11249676	No	
+row_66	PAK6	PAK6	p21(CDKN1A)-activated kinase 6	10874	-2.205127239227295	0.11508248	No	
+row_67	PAK7	PAK7	p21(CDKN1A)-activated kinase 7	11683	-3.5003693103790283	0.09722553	No	

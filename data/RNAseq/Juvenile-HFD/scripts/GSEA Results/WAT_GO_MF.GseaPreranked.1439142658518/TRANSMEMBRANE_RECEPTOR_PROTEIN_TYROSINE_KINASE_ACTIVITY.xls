@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MST1R	MST1R	macrophage stimulating 1 receptor (c-met-related tyrosine kinase)	272	5.063354969024658	0.041047703	Yes	
+row_1	TIE1	TIE1	tyrosine kinase with immunoglobulin-like and EGF-like domains 1	441	4.328608989715576	0.081144385	Yes	
+row_2	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	493	4.133812427520752	0.12792559	Yes	
+row_3	KDR	KDR	kinase insert domain receptor (a type III receptor tyrosine kinase)	556	3.9482882022857666	0.17157647	Yes	
+row_4	TEK	TEK	TEK tyrosine kinase, endothelial (venous malformations, multiple cutaneous and mucosal)	563	3.9218029975891113	0.21924607	Yes	
+row_5	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	653	3.6605374813079834	0.25727087	Yes	
+row_6	DDR2	DDR2	discoidin domain receptor family, member 2	689	3.566929340362549	0.2983354	Yes	
+row_7	NRP1	NRP1	neuropilin 1	731	3.4623281955718994	0.3376507	Yes	
+row_8	FLT1	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	748	3.4342808723449707	0.37856093	Yes	
+row_9	NRP2	NRP2	neuropilin 2	1025	2.818830966949463	0.39174977	Yes	
+row_10	CSF1R	CSF1R	colony stimulating factor 1 receptor, formerly McDonough feline sarcoma viral (v-fms) oncogene homolog	1499	2.045534133911133	0.3801666	Yes	
+row_11	ROR1	ROR1	receptor tyrosine kinase-like orphan receptor 1	1563	1.9802374839782715	0.39958468	Yes	
+row_12	EPHA5	EPHA5	EPH receptor A5	1812	1.6959846019744873	0.40116394	Yes	
+row_13	AXL	AXL	AXL receptor tyrosine kinase	2161	1.3401082754135132	0.3906185	Yes	
+row_14	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	2221	1.2897648811340332	0.40187222	Yes	
+row_15	IGF2R	IGF2R	insulin-like growth factor 2 receptor	2225	1.284576654434204	0.41740602	Yes	
+row_16	FLT4	FLT4	fms-related tyrosine kinase 4	2241	1.2747397422790527	0.43188825	Yes	
+row_17	FLT3	FLT3	fms-related tyrosine kinase 3	2406	1.1390331983566284	0.43314734	Yes	
+row_18	EPHB2	EPHB2	EPH receptor B2	2426	1.1231472492218018	0.4454587	Yes	
+row_19	INSR	INSR	insulin receptor	2614	0.9725548624992371	0.44289044	No	
+row_20	CRIM1	CRIM1	cysteine rich transmembrane BMP regulator 1 (chordin-like)	2932	0.7695657014846802	0.42774695	No	
+row_21	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	3099	0.681157648563385	0.42323107	No	
+row_22	MERTK	MERTK	c-mer proto-oncogene tyrosine kinase	3493	0.49473533034324646	0.39881927	No	
+row_23	RYK	RYK	RYK receptor-like tyrosine kinase	4461	0.1526612490415573	0.32568523	No	
+row_24	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.2525207	No	
+row_25	LTK	LTK	leukocyte tyrosine kinase	6310	-0.27634137868881226	0.18687737	No	
+row_26	DDR1	DDR1	discoidin domain receptor family, member 1	6429	-0.3037755787372589	0.18145286	No	
+row_27	EFNB3	EFNB3	ephrin-B3	6840	-0.4014122486114502	0.154577	No	
+row_28	NTRK1	NTRK1	neurotrophic tyrosine kinase, receptor, type 1	7430	-0.5385637283325195	0.11549992	No	
+row_29	PTK7	PTK7	PTK7 protein tyrosine kinase 7	7514	-0.5637251734733582	0.115980804	No	
+row_30	ROR2	ROR2	receptor tyrosine kinase-like orphan receptor 2	7760	-0.6269656419754028	0.104671955	No	
+row_31	EPHB6	EPHB6	EPH receptor B6	8584	-0.8637878894805908	0.051435784	No	
+row_32	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	0.043525938	No	
+row_33	EFNA4	EFNA4	ephrin-A4	9424	-1.201499104499817	0.012973359	No	
+row_34	PDGFRL	PDGFRL	platelet-derived growth factor receptor-like	9765	-1.3637200593948364	0.0033382939	No	
+row_35	EFNA3	EFNA3	ephrin-A3	9866	-1.4080036878585815	0.012862949	No	
+row_36	TRIM27	TRIM27	tripartite motif-containing 27	10214	-1.6123112440109253	0.0057360437	No	
+row_37	FGFR4	FGFR4	fibroblast growth factor receptor 4	10504	-1.8241814374923706	0.0057084826	No	
+row_38	ERBB3	ERBB3	v-erb-b2 erythroblastic leukemia viral oncogene homolog 3 (avian)	10705	-2.019865036010742	0.014986187	No	
+row_39	MUSK	MUSK	muscle, skeletal, receptor tyrosine kinase	10821	-2.148487091064453	0.032435797	No	
+row_40	TYRO3	TYRO3	TYRO3 protein tyrosine kinase	10871	-2.2017159461975098	0.055658173	No	
+row_41	ERBB4	ERBB4	v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian)	11256	-2.726158857345581	0.059332296	No	
+row_42	ALK	ALK	anaplastic lymphoma kinase (Ki-1)	12204	-5.764225959777832	0.056624223	No	

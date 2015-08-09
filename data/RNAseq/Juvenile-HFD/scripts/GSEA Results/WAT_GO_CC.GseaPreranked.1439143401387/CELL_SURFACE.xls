@@ -1,0 +1,65 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AOC3	AOC3	amine oxidase, copper containing 3 (vascular adhesion protein 1)	121	6.145174503326416	0.042405978	Yes	
+row_1	PLAUR	PLAUR	plasminogen activator, urokinase receptor	378	4.562633037567139	0.060981628	Yes	
+row_2	SLC2A4	SLC2A4	solute carrier family 2 (facilitated glucose transporter), member 4	391	4.505521774291992	0.098033145	Yes	
+row_3	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	622	3.761697769165039	0.11187655	Yes	
+row_4	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	805	3.2951436042785645	0.12551597	Yes	
+row_5	LAYN	LAYN	layilin	912	3.0235772132873535	0.14277071	Yes	
+row_6	CSPG4	CSPG4	chondroitin sulfate proteoglycan 4 (melanoma-associated)	979	2.9132516384124756	0.16220309	Yes	
+row_7	CCR5	CCR5	chemokine (C-C motif) receptor 5	988	2.888976573944092	0.18593709	Yes	
+row_8	SULF1	SULF1	sulfatase 1	1004	2.86187744140625	0.20889877	Yes	
+row_9	GPM6A	GPM6A	glycoprotein M6A	1026	2.815541982650757	0.23100364	Yes	
+row_10	EPHB4	EPHB4	EPH receptor B4	1060	2.7614433765411377	0.2517201	Yes	
+row_11	CD6	CD6	CD6 molecule	1072	2.7270638942718506	0.273856	Yes	
+row_12	IL2RB	IL2RB	interleukin 2 receptor, beta	1099	2.699185848236084	0.2945915	Yes	
+row_13	ACVRL1	ACVRL1	activin A receptor type II-like 1	1127	2.640594244003296	0.3147553	Yes	
+row_14	SRPX	SRPX	sushi-repeat-containing protein, X-linked	1177	2.538139581680298	0.3323461	Yes	
+row_15	THY1	THY1	Thy-1 cell surface antigen	1454	2.116316556930542	0.32874417	Yes	
+row_16	SULF2	SULF2	sulfatase 2	1529	2.014594554901123	0.33997887	Yes	
+row_17	IRAK2	IRAK2	interleukin-1 receptor-associated kinase 2	1564	1.979629635810852	0.3540266	Yes	
+row_18	TLR2	TLR2	toll-like receptor 2	1738	1.7883684635162354	0.35566238	Yes	
+row_19	HSPB1	HSPB1	heat shock 27kDa protein 1	1900	1.601487159729004	0.35665497	Yes	
+row_20	PTPRR	PTPRR	protein tyrosine phosphatase, receptor type, R	1982	1.5015517473220825	0.3630206	Yes	
+row_21	FLOT2	FLOT2	flotillin 2	2100	1.402189016342163	0.36575156	Yes	
+row_22	DCBLD2	DCBLD2	discoidin, CUB and LCCL domain containing 2	2290	1.2311432361602783	0.36144656	No	
+row_23	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	2398	1.1468926668167114	0.36280218	No	
+row_24	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	2770	0.860894501209259	0.3412355	No	
+row_25	PDLIM2	PDLIM2	PDZ and LIM domain 2 (mystique)	3019	0.7185963988304138	0.3280255	No	
+row_26	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	3042	0.7102105617523193	0.33230367	No	
+row_27	BCAM	BCAM	basal cell adhesion molecule (Lutheran blood group)	3507	0.4861414432525635	0.30035204	No	
+row_28	KLHL20	KLHL20	kelch-like 20 (Drosophila)	4089	0.2756284177303314	0.2575355	No	
+row_29	GDI2	GDI2	GDP dissociation inhibitor 2	4109	0.2680642008781433	0.25831923	No	
+row_30	M6PR	M6PR	mannose-6-phosphate receptor (cation dependent)	4624	0.11147303134202957	0.21932426	No	
+row_31	ROBO1	ROBO1	roundabout, axon guidance receptor, homolog 1 (Drosophila)	4789	0.06874790042638779	0.20716202	No	
+row_32	NOTCH2	NOTCH2	Notch homolog 2 (Drosophila)	4820	0.05976497009396553	0.20533505	No	
+row_33	ATP6AP2	ATP6AP2	ATPase, H+ transporting, lysosomal accessory protein 2	5290	-0.0553843192756176	0.16936345	No	
+row_34	B4GALT1	B4GALT1	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1	5422	-0.08796633780002594	0.15992713	No	
+row_35	CD28	CD28	CD28 molecule	6346	-0.28763648867607117	0.090640455	No	
+row_36	ACVR1B	ACVR1B	activin A receptor, type IB	6404	-0.30048513412475586	0.08874514	No	
+row_37	HSPA8	HSPA8	heat shock 70kDa protein 8	6579	-0.34188947081565857	0.078108676	No	
+row_38	SLC3A2	SLC3A2	solute carrier family 3 (activators of dibasic and neutral amino acid transport), member 2	7231	-0.49025022983551025	0.03166292	No	
+row_39	ANXA9	ANXA9	annexin A9	7348	-0.5209858417510986	0.027042584	No	
+row_40	MMP25	MMP25	matrix metallopeptidase 25	7517	-0.563942551612854	0.018744309	No	
+row_41	ADAM10	ADAM10	ADAM metallopeptidase domain 10	7642	-0.599100649356842	0.014160971	No	
+row_42	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	8692	-0.905367910861969	-0.059707366	No	
+row_43	ACVR2B	ACVR2B	activin A receptor, type IIB	8772	-0.9370741248130798	-0.057945184	No	
+row_44	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	8859	-0.9686349034309387	-0.056460787	No	
+row_45	NRD1	NRD1	nardilysin (N-arginine dibasic convertase)	9024	-1.036927342414856	-0.06046078	No	
+row_46	ATPIF1	ATPIF1	ATPase inhibitory factor 1	9095	-1.0656980276107788	-0.056914985	No	
+row_47	MPP2	MPP2	membrane protein, palmitoylated 2 (MAGUK p55 subfamily member 2)	9105	-1.0687965154647827	-0.048603732	No	
+row_48	SCUBE1	SCUBE1	signal peptide, CUB domain, EGF-like 1	9127	-1.076735496520996	-0.041157875	No	
+row_49	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	9285	-1.1377607583999634	-0.04376394	No	
+row_50	PRLR	PRLR	prolactin receptor	9781	-1.3703155517578125	-0.07067003	No	
+row_51	PGRMC1	PGRMC1	progesterone receptor membrane component 1	10082	-1.5260206460952759	-0.08111311	No	
+row_52	MPP3	MPP3	membrane protein, palmitoylated 3 (MAGUK p55 subfamily member 3)	10204	-1.6054518222808838	-0.07697931	No	
+row_53	STAB2	STAB2	stabilin 2	10706	-2.021794319152832	-0.098859265	No	
+row_54	SHH	SHH	sonic hedgehog homolog (Drosophila)	10709	-2.0225772857666016	-0.0819633	No	
+row_55	PKHD1	PKHD1	polycystic kidney and hepatic disease 1 (autosomal recessive)	10924	-2.2629072666168213	-0.079512365	No	
+row_56	DSCAML1	DSCAML1	Down syndrome cell adhesion molecule like 1	11066	-2.460071086883545	-0.06972757	No	
+row_57	TDGF1	TDGF1	teratocarcinoma-derived growth factor 1	11415	-3.0048978328704834	-0.07143227	No	
+row_58	RTP2	RTP2	receptor transporter protein 2	11429	-3.032726287841797	-0.046874866	No	
+row_59	CEP290	CEP290	centrosomal protein 290kDa	11488	-3.089071273803711	-0.025338674	No	
+row_60	KCND2	KCND2	potassium voltage-gated channel, Shal-related subfamily, member 2	11720	-3.584634780883789	-0.013065699	No	
+row_61	ROBO2	ROBO2	roundabout, axon guidance receptor, homolog 2 (Drosophila)	11788	-3.782252073287964	0.013615114	No	
+row_62	RTP1	RTP1	receptor transporter protein 1	11857	-4.016166687011719	0.04219025	No	
+row_63	HSPA2	HSPA2	heat shock 70kDa protein 2	12060	-4.911721706390381	0.067904375	No	

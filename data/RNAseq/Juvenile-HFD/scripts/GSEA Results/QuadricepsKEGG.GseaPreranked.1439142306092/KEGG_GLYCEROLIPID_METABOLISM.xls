@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CEL	CEL	carboxyl ester lipase (bile salt-stimulated lipase)	144	4.462048530578613	0.13317409	Yes	
+row_1	LIPG	LIPG	lipase, endothelial	162	4.2703537940979	0.27053124	Yes	
+row_2	MBOAT2	MBOAT2	membrane bound O-acyltransferase domain containing 2	716	1.908512830734253	0.28720665	Yes	
+row_3	DGKH	DGKH	diacylglycerol kinase, eta	903	1.3357961177825928	0.31536046	Yes	
+row_4	MBOAT1	MBOAT1	membrane bound O-acyltransferase domain containing 1	1079	1.026746392250061	0.33437455	Yes	
+row_5	DGAT1	DGAT1	diacylglycerol O-acyltransferase homolog 1 (mouse)	1560	0.5879756808280945	0.31412813	No	
+row_6	PPAP2C	PPAP2C	phosphatidic acid phosphatase type 2C	1591	0.5754228830337524	0.33036515	No	
+row_7	PNPLA3	PNPLA3	patatin-like phospholipase domain containing 3	2001	0.41165241599082947	0.31021032	No	
+row_8	AKR1A1	AKR1A1	aldo-keto reductase family 1, member A1 (aldehyde reductase)	3936	0.12967361509799957	0.15587305	No	
+row_9	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	4098	0.11776391416788101	0.14650051	No	
+row_10	GLA	GLA	galactosidase, alpha	4140	0.1141648069024086	0.14684871	No	
+row_11	DGKA	DGKA	diacylglycerol kinase, alpha 80kDa	4265	0.10535573959350586	0.14010628	No	
+row_12	AGPAT6	AGPAT6	1-acylglycerol-3-phosphate O-acyltransferase 6 (lysophosphatidic acid acyltransferase, zeta)	4479	0.08892352133989334	0.12553367	No	
+row_13	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	4578	0.0816550999879837	0.12015268	No	
+row_14	PPAP2B	PPAP2B	phosphatidic acid phosphatase type 2B	4952	0.056882016360759735	0.09142209	No	
+row_15	PPAP2A	PPAP2A	phosphatidic acid phosphatase type 2A	4955	0.05678703635931015	0.09310323	No	
+row_16	AGPAT2	AGPAT2	1-acylglycerol-3-phosphate O-acyltransferase 2 (lysophosphatidic acid acyltransferase, beta)	5078	0.048149459064006805	0.08466604	No	
+row_17	DGKE	DGKE	diacylglycerol kinase, epsilon 64kDa	6015	-0.008330803364515305	0.008202838	No	
+row_18	AGPAT1	AGPAT1	1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha)	6169	-0.016789672896265984	-0.0037946783	No	
+row_19	GLYCTK	GLYCTK	-	6952	-0.06252270936965942	-0.06587208	No	
+row_20	MGLL	MGLL	monoglyceride lipase	7208	-0.07789984345436096	-0.084246054	No	
+row_21	DGKD	DGKD	diacylglycerol kinase, delta 130kDa	7375	-0.0889018103480339	-0.09496628	No	
+row_22	DGAT2	DGAT2	diacylglycerol O-acyltransferase homolog 2 (mouse)	7886	-0.12524878978729248	-0.13270687	No	
+row_23	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	8142	-0.14659489691257477	-0.14884883	No	
+row_24	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	8479	-0.17409980297088623	-0.17073753	No	
+row_25	AGPAT3	AGPAT3	1-acylglycerol-3-phosphate O-acyltransferase 3	8483	-0.17458321154117584	-0.16531098	No	
+row_26	DGKZ	DGKZ	diacylglycerol kinase, zeta 104kDa	8971	-0.22093486785888672	-0.19805703	No	
+row_27	DGKB	DGKB	diacylglycerol kinase, beta 90kDa	9031	-0.22718079388141632	-0.1955124	No	
+row_28	GPAM	GPAM	glycerol-3-phosphate acyltransferase, mitochondrial	9406	-0.27366122603416443	-0.21728146	No	
+row_29	DGKQ	DGKQ	diacylglycerol kinase, theta 110kDa	9545	-0.2971951365470886	-0.21893844	No	
+row_30	AGPAT4	AGPAT4	1-acylglycerol-3-phosphate O-acyltransferase 4 (lysophosphatidic acid acyltransferase, delta)	9782	-0.3453449606895447	-0.22706504	No	
+row_31	LPL	LPL	lipoprotein lipase	10000	-0.39354047179222107	-0.23206806	No	
+row_32	DGKG	DGKG	diacylglycerol kinase, gamma 90kDa	10855	-0.8787580728530884	-0.27352723	No	
+row_33	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	10897	-0.9389330148696899	-0.24638097	No	
+row_34	PNLIPRP1	PNLIPRP1	pancreatic lipase-related protein 1	11282	-1.6354732513427734	-0.22472233	No	
+row_35	LIPC	LIPC	lipase, hepatic	11399	-1.894073247909546	-0.17269053	No	
+row_36	DGKI	DGKI	diacylglycerol kinase, iota	12186	-7.419207572937012	0.0039349515	No	

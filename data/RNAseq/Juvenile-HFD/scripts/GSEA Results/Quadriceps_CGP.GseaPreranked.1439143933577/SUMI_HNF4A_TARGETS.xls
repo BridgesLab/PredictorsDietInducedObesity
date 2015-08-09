@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL22RA1	IL22RA1	interleukin 22 receptor, alpha 1	517	2.491335391998291	0.020658987	No	
+row_1	SOAT2	SOAT2	sterol O-acyltransferase 2	1121	0.9820125102996826	-0.0038827502	No	
+row_2	TNFSF10	TNFSF10	tumor necrosis factor (ligand) superfamily, member 10	2429	0.30634501576423645	-0.1031459	No	
+row_3	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	2810	0.24459943175315857	-0.12807362	No	
+row_4	SLCO2B1	SLCO2B1	solute carrier organic anion transporter family, member 2B1	3946	0.12819255888462067	-0.21775873	No	
+row_5	SFXN3	SFXN3	sideroflexin 3	5264	0.03580917418003082	-0.32468048	No	
+row_6	ATP6V0E2	ATP6V0E2	ATPase, H+ transporting V0 subunit e2	5391	0.02838527411222458	-0.33427885	No	
+row_7	UNC93A	UNC93A	unc-93 homolog A (C. elegans)	5450	0.025609010830521584	-0.33838004	No	
+row_8	NMT2	NMT2	N-myristoyltransferase 2	6290	-0.023433610796928406	-0.40647924	No	
+row_9	ABHD2	ABHD2	abhydrolase domain containing 2	7167	-0.07568931579589844	-0.4762866	No	
+row_10	DIO1	DIO1	deiodinase, iodothyronine, type I	10353	-0.5180290341377258	-0.7239558	No	
+row_11	PLA2G12B	PLA2G12B	phospholipase A2, group XIIB	10813	-0.835825502872467	-0.7404038	Yes	
+row_12	CYP19A1	CYP19A1	cytochrome P450, family 19, subfamily A, polypeptide 1	11102	-1.2528512477874756	-0.7323079	Yes	
+row_13	BDH1	BDH1	3-hydroxybutyrate dehydrogenase, type 1	11176	-1.4176692962646484	-0.7024423	Yes	
+row_14	LGALS2	LGALS2	lectin, galactoside-binding, soluble, 2 (galectin 2)	11352	-1.8197983503341675	-0.67076087	Yes	
+row_15	SLC6A4	SLC6A4	solute carrier family 6 (neurotransmitter transporter, serotonin), member 4	11437	-2.0222721099853516	-0.6265099	Yes	
+row_16	SLC13A5	SLC13A5	solute carrier family 13 (sodium-dependent citrate transporter), member 5	11834	-3.153339385986328	-0.57920706	Yes	
+row_17	AKR1D1	AKR1D1	aldo-keto reductase family 1, member D1 (delta 4-3-ketosteroid-5-beta-reductase)	12095	-5.559615612030029	-0.4599325	Yes	
+row_18	BHMT	BHMT	betaine-homocysteine methyltransferase	12101	-5.63968563079834	-0.3177559	Yes	
+row_19	FABP1	FABP1	fatty acid binding protein 1, liver	12145	-6.430042743682861	-0.1587082	Yes	
+row_20	ABCG8	ABCG8	ATP-binding cassette, sub-family G (WHITE), member 8 (sterolin 2)	12148	-6.5623369216918945	0.0070410566	Yes	

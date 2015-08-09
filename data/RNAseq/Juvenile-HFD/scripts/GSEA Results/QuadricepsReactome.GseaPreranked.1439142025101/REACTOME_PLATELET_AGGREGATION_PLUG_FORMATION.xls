@@ -1,0 +1,34 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RASGRP1	RASGRP1	RAS guanyl releasing protein 1 (calcium and DAG-regulated)	86	5.128042221069336	0.083117165	No	
+row_1	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	319	3.0986106395721436	0.11858605	No	
+row_2	APBB1IP	APBB1IP	amyloid beta (A4) precursor protein-binding, family B, member 1 interacting protein	875	1.4000375270843506	0.09771825	No	
+row_3	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	1609	0.5620686411857605	0.047528856	No	
+row_4	SYK	SYK	spleen tyrosine kinase	1848	0.4591689705848694	0.036097318	No	
+row_5	ADRA2A	ADRA2A	adrenergic, alpha-2A-, receptor	2306	0.33118441700935364	0.0044675847	No	
+row_6	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	2737	0.25511956214904785	-0.02628683	No	
+row_7	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	2821	0.24302102625370026	-0.028816009	No	
+row_8	PTPN1	PTPN1	protein tyrosine phosphatase, non-receptor type 1	4421	0.09261291474103928	-0.1582317	No	
+row_9	TLN1	TLN1	talin 1	5337	0.03164966404438019	-0.23266292	No	
+row_10	THPO	THPO	thrombopoietin (myeloproliferative leukemia virus oncogene ligand, megakaryocyte growth and development factor)	6050	-0.010423584841191769	-0.29083073	No	
+row_11	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	6904	-0.05932068079710007	-0.35969427	No	
+row_12	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7023	-0.06725116819143295	-0.36818236	No	
+row_13	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	-0.36894324	No	
+row_14	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	-0.3786581	No	
+row_15	PTK2	PTK2	PTK2 protein tyrosine kinase 2	7367	-0.0879579484462738	-0.3920271	No	
+row_16	RAP1A	RAP1A	RAP1A, member of RAS oncogene family	7737	-0.11526667326688766	-0.42024136	No	
+row_17	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	-0.4213644	No	
+row_18	VWF	VWF	von Willebrand factor	8133	-0.14589455723762512	-0.44789276	No	
+row_19	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	8702	-0.19496704638004303	-0.49101445	No	
+row_20	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8827	-0.2071710228919983	-0.49753407	No	
+row_21	RASGRP2	RASGRP2	RAS guanyl releasing protein 2 (calcium and DAG-regulated)	8864	-0.21009773015975952	-0.4967903	No	
+row_22	FN1	FN1	fibronectin 1	8869	-0.211385115981102	-0.49340138	No	
+row_23	RAPGEF4	RAPGEF4	Rap guanine nucleotide exchange factor (GEF) 4	9375	-0.27009448409080505	-0.530039	No	
+row_24	RAPGEF3	RAPGEF3	Rap guanine nucleotide exchange factor (GEF) 3	9923	-0.37617456912994385	-0.5682536	No	
+row_25	CSK	CSK	c-src tyrosine kinase	10406	-0.5413755178451538	-0.5982364	No	
+row_26	ITGA2B	ITGA2B	integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41)	10438	-0.5574685335159302	-0.5909751	No	
+row_27	ADRA2B	ADRA2B	adrenergic, alpha-2B-, receptor	11145	-1.338302731513977	-0.6253034	Yes	
+row_28	GP5	GP5	glycoprotein V (platelet)	11530	-2.1825923919677734	-0.61839765	Yes	
+row_29	GP1BB	GP1BB	glycoprotein Ib (platelet), beta polypeptide	11621	-2.4175922870635986	-0.5832655	Yes	
+row_30	FGG	FGG	fibrinogen gamma chain	12155	-6.689607620239258	-0.509325	Yes	
+row_31	FGB	FGB	fibrinogen beta chain	12174	-7.116446018218994	-0.38567334	Yes	
+row_32	FGA	FGA	fibrinogen alpha chain	12234	-22.209741592407227	1.7374987E-7	Yes	

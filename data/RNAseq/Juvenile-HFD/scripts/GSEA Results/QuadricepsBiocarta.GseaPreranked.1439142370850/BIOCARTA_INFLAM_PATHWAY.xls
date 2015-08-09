@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL4	IL4	interleukin 4	141	4.467897891998291	0.156646	Yes	
+row_1	IL6	IL6	interleukin 6 (interferon, beta 2)	166	4.199713706970215	0.31277344	Yes	
+row_2	CD4	CD4	CD4 molecule	268	3.448735475540161	0.4343287	Yes	
+row_3	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	368	2.8872642517089844	0.53491193	Yes	
+row_4	IL10	IL10	interleukin 10	388	2.878185749053955	0.6417017	Yes	
+row_5	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.74873704	Yes	
+row_6	LTA	LTA	lymphotoxin alpha (TNF superfamily, member 1)	1122	0.9819457530975342	0.72709405	Yes	
+row_7	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.7599679	Yes	
+row_8	IL7	IL7	interleukin 7	1348	0.7213791012763977	0.7710799	Yes	
+row_9	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.7529159	No	
+row_10	IL15	IL15	interleukin 15	2544	0.28767189383506775	0.7022732	No	
+row_11	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.697593	No	
+row_12	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.67887753	No	
+row_13	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	0.65219575	No	
+row_14	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	5403	0.027737436816096306	0.4938718	No	
+row_15	CSF1	CSF1	colony stimulating factor 1 (macrophage)	7291	-0.08255258202552795	0.34252247	No	
+row_16	TGFB3	TGFB3	transforming growth factor, beta 3	9135	-0.24065211415290833	0.20072609	No	
+row_17	IL11	IL11	interleukin 11	11173	-1.4040920734405518	0.08684615	No	

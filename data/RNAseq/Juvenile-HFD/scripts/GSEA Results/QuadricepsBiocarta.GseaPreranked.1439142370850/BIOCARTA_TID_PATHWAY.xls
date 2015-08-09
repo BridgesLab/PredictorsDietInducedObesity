@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.42004165	Yes	
+row_1	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.38229018	Yes	
+row_2	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	1900	0.440790593624115	0.4429377	Yes	
+row_3	IFNGR1	IFNGR1	interferon gamma receptor 1	1901	0.4406195878982544	0.5123166	Yes	
+row_4	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	2519	0.29115766286849976	0.5076582	Yes	
+row_5	USH1C	USH1C	Usher syndrome 1C (autosomal recessive, severe)	2633	0.27359268069267273	0.54148805	Yes	
+row_6	LIN7A	LIN7A	lin-7 homolog A (C. elegans)	2879	0.23513759672641754	0.5584582	Yes	
+row_7	HSPA1A	HSPA1A	heat shock 70kDa protein 1A	3741	0.14697085320949554	0.5111243	No	
+row_8	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	0.42277092	No	
+row_9	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	5133	0.04361877962946892	0.4134321	No	
+row_10	DNAJA3	DNAJA3	DnaJ (Hsp40) homolog, subfamily A, member 3	5710	0.0099543621763587	0.36785206	No	
+row_11	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.36368707	No	
+row_12	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.32053494	No	
+row_13	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	6643	-0.04320381581783295	0.30384585	No	
+row_14	TAX1BP3	TAX1BP3	Tax1 (human T-cell leukemia virus type I) binding protein 3	6950	-0.062450144439935684	0.28863204	No	
+row_15	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	0.25966305	No	
+row_16	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	9925	-0.376265287399292	0.12008754	No	
+row_17	WT1	WT1	Wilms tumor 1	10140	-0.4371306598186493	0.1714005	No	

@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TKT	TKT	transketolase (Wernicke-Korsakoff syndrome)	1149	0.937002420425415	-0.035132762	No	
+row_1	FBP2	FBP2	fructose-1,6-bisphosphatase 2	1478	0.6411965489387512	-0.021654448	No	
+row_2	PFKP	PFKP	phosphofructokinase, platelet	1846	0.45932015776634216	-0.022809636	No	
+row_3	RPIA	RPIA	ribose 5-phosphate isomerase A (ribose 5-phosphate epimerase)	1983	0.41714972257614136	-0.0077047194	No	
+row_4	PRPS2	PRPS2	phosphoribosyl pyrophosphate synthetase 2	3061	0.21302877366542816	-0.08248222	No	
+row_5	H6PD	H6PD	hexose-6-phosphate dehydrogenase (glucose 1-dehydrogenase)	4312	0.10183465480804443	-0.17841816	No	
+row_6	PGLS	PGLS	6-phosphogluconolactonase	4332	0.10105340927839279	-0.17361726	No	
+row_7	PGD	PGD	phosphogluconate dehydrogenase	5132	0.0436348058283329	-0.23628926	No	
+row_8	PGM2	PGM2	phosphoglucomutase 2	5239	0.03706592693924904	-0.2426363	No	
+row_9	DERA	DERA	2-deoxyribose-5-phosphate aldolase homolog (C. elegans)	6166	-0.01663593389093876	-0.31740448	No	
+row_10	PFKM	PFKM	phosphofructokinase, muscle	6769	-0.050765249878168106	-0.36349896	No	
+row_11	TALDO1	TALDO1	transaldolase 1	6782	-0.0519050657749176	-0.3612165	No	
+row_12	PRPS1	PRPS1	phosphoribosyl pyrophosphate synthetase 1	6824	-0.054000504314899445	-0.36117652	No	
+row_13	PFKL	PFKL	phosphofructokinase, liver	7138	-0.07397221028804779	-0.38214982	No	
+row_14	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	7345	-0.08607786148786545	-0.3936012	No	
+row_15	RPE	RPE	ribulose-5-phosphate-3-epimerase	8986	-0.22220614552497864	-0.5138961	No	
+row_16	ALDOC	ALDOC	aldolase C, fructose-bisphosphate	10252	-0.4751370847225189	-0.58757854	Yes	
+row_17	RBKS	RBKS	ribokinase	10588	-0.642588198184967	-0.5745858	Yes	
+row_18	PGM1	PGM1	phosphoglucomutase 1	10628	-0.6734108328819275	-0.53541976	Yes	
+row_19	FBP1	FBP1	fructose-1,6-bisphosphatase 1	12065	-5.040767669677734	-0.33591387	Yes	
+row_20	ALDOB	ALDOB	aldolase B, fructose-bisphosphate	12094	-5.558915615081787	0.011462314	Yes	

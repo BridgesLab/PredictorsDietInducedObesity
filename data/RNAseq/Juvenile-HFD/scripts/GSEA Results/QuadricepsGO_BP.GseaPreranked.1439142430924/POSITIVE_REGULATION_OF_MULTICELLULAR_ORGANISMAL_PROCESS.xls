@@ -1,0 +1,55 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KRT1	KRT1	keratin 1 (epidermolytic hyperkeratosis)	42	6.239395618438721	0.095898055	Yes	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.16098925	Yes	
+row_2	IL4	IL4	interleukin 4	141	4.467897891998291	0.23122579	Yes	
+row_3	CALCA	CALCA	calcitonin/calcitonin-related polypeptide, alpha	158	4.31622314453125	0.29863682	Yes	
+row_4	TRAT1	TRAT1	T cell receptor associated transmembrane adaptor 1	209	3.877997875213623	0.35627905	Yes	
+row_5	MC4R	MC4R	melanocortin 4 receptor	383	2.878185749053955	0.38790417	Yes	
+row_6	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.43200776	Yes	
+row_7	SPACA3	SPACA3	sperm acrosome associated 3	528	2.491335391998291	0.46166015	Yes	
+row_8	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	567	2.384432315826416	0.4965064	Yes	
+row_9	EBI3	EBI3	Epstein-Barr virus induced gene 3	998	1.1611801385879517	0.47969425	Yes	
+row_10	CRTAM	CRTAM	cytotoxic and regulatory T cell molecule	1064	1.0484024286270142	0.49105114	Yes	
+row_11	SPHK1	SPHK1	sphingosine kinase 1	1124	0.9788258671760559	0.5017928	Yes	
+row_12	TNFSF13	TNFSF13	tumor necrosis factor (ligand) superfamily, member 13	1138	0.962350070476532	0.51604843	Yes	
+row_13	MALT1	MALT1	mucosa associated lymphoid tissue lymphoma translocation gene 1	1220	0.8515532612800598	0.5229575	Yes	
+row_14	FST	FST	follistatin	1260	0.7960211038589478	0.53243035	Yes	
+row_15	IL7	IL7	interleukin 7	1348	0.7213791012763977	0.53677416	Yes	
+row_16	LAT2	LAT2	linker for activation of T cells family, member 2	1421	0.673097550868988	0.5415806	Yes	
+row_17	NFAM1	NFAM1	NFAT activating protein with ITAM motif 1	1508	0.6223675608634949	0.54443	Yes	
+row_18	CD28	CD28	CD28 molecule	1787	0.48268067836761475	0.529293	No	
+row_19	KL	KL	klotho	1845	0.45950329303741455	0.53192997	No	
+row_20	TLR8	TLR8	toll-like receptor 8	1847	0.45926913619041443	0.53916055	No	
+row_21	ZAP70	ZAP70	zeta-chain (TCR) associated protein kinase 70kDa	1923	0.43454352021217346	0.5399224	No	
+row_22	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	1962	0.42282822728157043	0.54353523	No	
+row_23	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.48542103	No	
+row_24	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.46198115	No	
+row_25	TRAF6	TRAF6	TNF receptor-associated factor 6	3074	0.21015088260173798	0.46335697	No	
+row_26	ATP6AP2	ATP6AP2	ATPase, H+ transporting, lysosomal accessory protein 2	3277	0.1894150674343109	0.4497897	No	
+row_27	CARD11	CARD11	caspase recruitment domain family, member 11	3411	0.1756473332643509	0.44166777	No	
+row_28	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	0.44087383	No	
+row_29	SOCS5	SOCS5	suppressor of cytokine signaling 5	3461	0.17154352366924286	0.44319475	No	
+row_30	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	4302	0.10265637189149857	0.37586942	No	
+row_31	FYN	FYN	FYN oncogene related to SRC, FGR, YES	4568	0.08248276263475418	0.35542756	No	
+row_32	TRAF2	TRAF2	TNF receptor-associated factor 2	4687	0.07413031905889511	0.34692067	No	
+row_33	NCK2	NCK2	NCK adaptor protein 2	4872	0.06321029365062714	0.33282164	No	
+row_34	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	5386	0.028700249269604683	0.29116383	No	
+row_35	EREG	EREG	epiregulin	5533	0.020633287727832794	0.2795065	No	
+row_36	ATP2A1	ATP2A1	ATPase, Ca++ transporting, cardiac muscle, fast twitch 1	6245	-0.020819954574108124	0.2214684	No	
+row_37	CD276	CD276	CD276 molecule	6619	-0.04153776913881302	0.19150832	No	
+row_38	CD47	CD47	CD47 molecule	6976	-0.06433936953544617	0.16330692	No	
+row_39	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7023	-0.06725116819143295	0.16060135	No	
+row_40	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	0.1508792	No	
+row_41	THY1	THY1	Thy-1 cell surface antigen	7160	-0.07527352124452591	0.15191355	No	
+row_42	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	7206	-0.0778333991765976	0.14945857	No	
+row_43	SART1	SART1	squamous cell carcinoma antigen recognised by T cells	7604	-0.10565824806690216	0.11854915	No	
+row_44	NCK1	NCK1	NCK adaptor protein 1	7810	-0.1200655922293663	0.1036314	No	
+row_45	MIA3	MIA3	melanoma inhibitory activity family, member 3	7821	-0.12059564143419266	0.10473061	No	
+row_46	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	-0.046892133	No	
+row_47	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	-0.11421293	No	
+row_48	BMP4	BMP4	bone morphogenetic protein 4	10781	-0.8027467131614685	-0.10840937	No	
+row_49	SLA2	SLA2	Src-like-adaptor 2	11052	-1.175809621810913	-0.111853346	No	
+row_50	MBL2	MBL2	mannose-binding lectin (protein C) 2, soluble (opsonic defect)	11166	-1.3864120244979858	-0.099055104	No	
+row_51	PROK2	PROK2	prokineticin 2	11839	-3.19010591506958	-0.1034289	No	
+row_52	IL21	IL21	interleukin 21	11947	-3.944441556930542	-0.049408164	No	
+row_53	CFHR1	CFHR1	complement factor H-related 1	12029	-4.577663421630859	0.016829446	No	

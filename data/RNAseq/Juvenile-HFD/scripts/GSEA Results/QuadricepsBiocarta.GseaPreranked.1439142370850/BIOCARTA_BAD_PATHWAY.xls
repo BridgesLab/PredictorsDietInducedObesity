@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	840	1.510262131690979	0.17749654	Yes	
+row_1	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	1275	0.7785515785217285	0.26891762	Yes	
+row_2	KIT	KIT	v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog	1559	0.5885158777236938	0.3417141	Yes	
+row_3	ADCY1	ADCY1	adenylate cyclase 1 (brain)	1986	0.41661176085472107	0.37476808	Yes	
+row_4	CSF2RB	CSF2RB	colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)	2091	0.38650238513946533	0.42927954	Yes	
+row_5	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	2723	0.2581988573074341	0.41971403	No	
+row_6	IL3RA	IL3RA	interleukin 3 receptor, alpha (low affinity)	3955	0.1276799887418747	0.3397326	No	
+row_7	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.35936582	No	
+row_8	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	4055	0.12022829055786133	0.3720113	No	
+row_9	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	4114	0.1160978153347969	0.38619417	No	
+row_10	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.3939776	No	
+row_11	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.40194523	No	
+row_12	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	4981	0.05562165752053261	0.3584443	No	
+row_13	BAX	BAX	BCL2-associated X protein	5114	0.044763945043087006	0.35493502	No	
+row_14	BCL2L1	BCL2L1	BCL2-like 1	6848	-0.05580556020140648	0.22212574	No	
+row_15	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	7623	-0.10723578184843063	0.1762326	No	
+row_16	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7662	-0.11022922396659851	0.1910962	No	
+row_17	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.19537207	No	
+row_18	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8380	-0.16503958404064178	0.17945866	No	
+row_19	BAD	BAD	BCL2-antagonist of cell death	8533	-0.17860820889472961	0.19613788	No	
+row_20	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	8702	-0.19496704638004303	0.21417457	No	
+row_21	BCL2	BCL2	B-cell CLL/lymphoma 2	9030	-0.22705602645874023	0.22442408	No	
+row_22	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	0.25900748	No	

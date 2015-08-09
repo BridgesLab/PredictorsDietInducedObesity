@@ -1,0 +1,45 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	THBS1	THBS1	thrombospondin 1	773	1.6969774961471558	0.0016366793	No	
+row_1	TNMD	TNMD	tenomodulin	1176	0.905398428440094	0.0033648994	No	
+row_2	GPR20	GPR20	G protein-coupled receptor 20	1310	0.7497993111610413	0.02119456	No	
+row_3	DIXDC1	DIXDC1	DIX domain containing 1	2157	0.3650224506855011	-0.03420981	No	
+row_4	CAP1	CAP1	CAP, adenylate cyclase-associated protein 1 (yeast)	2517	0.2915634512901306	-0.052482314	No	
+row_5	KCNMB1	KCNMB1	potassium large conductance calcium-activated channel, subfamily M, beta member 1	2758	0.25172969698905945	-0.062520325	No	
+row_6	ACTR3	ACTR3	ARP3 actin-related protein 3 homolog (yeast)	2940	0.22664523124694824	-0.06868017	No	
+row_7	PFN1	PFN1	profilin 1	3026	0.21733306348323822	-0.067322284	No	
+row_8	MUS81	MUS81	MUS81 endonuclease homolog (S. cerevisiae)	3239	0.19288970530033112	-0.07731882	No	
+row_9	MYL6	MYL6	myosin, light chain 6, alkali, smooth muscle and non-muscle	3365	0.18105974793434143	-0.08063237	No	
+row_10	CFL1	CFL1	cofilin 1 (non-muscle)	4008	0.12421753257513046	-0.12853299	No	
+row_11	FLNA	FLNA	filamin A, alpha (actin binding protein 280)	4201	0.10973881930112839	-0.1400761	No	
+row_12	TAZ	TAZ	tafazzin (cardiomyopathy, dilated 3A (X-linked); endocardial fibroelastosis 2; Barth syndrome)	4849	0.06444551050662994	-0.19067788	No	
+row_13	ACTN1	ACTN1	actinin, alpha 1	5344	0.03108346089720726	-0.23000817	No	
+row_14	SETD2	SETD2	SET domain containing 2	5544	0.019985580816864967	-0.24556565	No	
+row_15	SUSD1	SUSD1	sushi domain containing 1	5618	0.015428409911692142	-0.25096232	No	
+row_16	ITGB1BP2	ITGB1BP2	integrin beta 1 binding protein (melusin) 2	5998	-0.007518713362514973	-0.28176263	No	
+row_17	CD248	CD248	CD248 molecule, endosialin	6327	-0.02555888518691063	-0.30768806	No	
+row_18	VCL	VCL	vinculin	6435	-0.031572237610816956	-0.3152549	No	
+row_19	ACTG2	ACTG2	actin, gamma 2, smooth muscle, enteric	6457	-0.032624538987874985	-0.315727	No	
+row_20	PLCB3	PLCB3	phospholipase C, beta 3 (phosphatidylinositol-specific)	7109	-0.07235585153102875	-0.3663537	No	
+row_21	WDR1	WDR1	WD repeat domain 1	7369	-0.0883321538567543	-0.38421315	No	
+row_22	FOSB	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	7451	-0.09549576789140701	-0.3871971	No	
+row_23	CNN2	CNN2	calponin 2	7452	-0.09549953788518906	-0.38353667	No	
+row_24	SCOC	SCOC	short coiled-coil protein	7471	-0.09695994108915329	-0.38129675	No	
+row_25	CALD1	CALD1	caldesmon 1	7675	-0.11112792044878006	-0.39368892	No	
+row_26	ANXA6	ANXA6	annexin A6	7783	-0.1182577908039093	-0.39793313	No	
+row_27	SLC25A4	SLC25A4	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 4	8185	-0.14973342418670654	-0.42508706	No	
+row_28	TPM1	TPM1	tropomyosin 1 (alpha)	8211	-0.15185822546482086	-0.42131713	No	
+row_29	MYH11	MYH11	myosin, heavy chain 11, smooth muscle	8809	-0.20581845939159393	-0.46239877	No	
+row_30	ASB2	ASB2	ankyrin repeat and SOCS box-containing 2	9553	-0.2987944185733795	-0.5118928	No	
+row_31	MRVI1	MRVI1	murine retrovirus integration site 1 homolog	9901	-0.3713094890117645	-0.5261243	Yes	
+row_32	HOXB4	HOXB4	homeobox B4	10081	-0.41635942459106445	-0.52484846	Yes	
+row_33	FOSL1	FOSL1	FOS-like antigen 1	10120	-0.4285058379173279	-0.5115412	Yes	
+row_34	JUNB	JUNB	jun B proto-oncogene	10285	-0.4901237189769745	-0.5062076	Yes	
+row_35	TGFB1I1	TGFB1I1	transforming growth factor beta 1 induced transcript 1	10390	-0.5350971817970276	-0.4942285	Yes	
+row_36	IER2	IER2	immediate early response 2	10637	-0.679442822933197	-0.4883647	Yes	
+row_37	EGR2	EGR2	early growth response 2 (Krox-20 homolog, Drosophila)	10892	-0.9337369799613953	-0.4734102	Yes	
+row_38	EGR1	EGR1	early growth response 1	11297	-1.6578538417816162	-0.44300485	Yes	
+row_39	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	11426	-1.9830992221832275	-0.37749344	Yes	
+row_40	NPAS4	NPAS4	neuronal PAS domain protein 4	11626	-2.445235252380371	-0.30009258	Yes	
+row_41	IL17B	IL17B	interleukin 17B	11678	-2.566021203994751	-0.20592198	Yes	
+row_42	TNNC1	TNNC1	troponin C type 1 (slow)	11796	-3.0358433723449707	-0.0991572	Yes	
+row_43	EGR3	EGR3	early growth response 3	11890	-3.5221898555755615	0.028217614	Yes	

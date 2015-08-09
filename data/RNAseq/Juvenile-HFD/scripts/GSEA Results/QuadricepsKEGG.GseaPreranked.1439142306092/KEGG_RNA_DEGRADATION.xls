@@ -1,0 +1,51 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PAPOLB	PAPOLB	poly(A) polymerase beta (testis specific)	1195	0.8861975073814392	0.0029940505	Yes	
+row_1	ENO2	ENO2	enolase 2 (gamma, neuronal)	1228	0.8368031978607178	0.0958002	Yes	
+row_2	MPHOSPH6	MPHOSPH6	M-phase phosphoprotein 6	1780	0.4836027920246124	0.10573263	Yes	
+row_3	LSM1	LSM1	LSM1 homolog, U6 small nuclear RNA associated (S. cerevisiae)	1829	0.463982492685318	0.15470774	Yes	
+row_4	XRN2	XRN2	5'-3' exoribonuclease 2	1840	0.4619772136211395	0.20657276	Yes	
+row_5	PNPT1	PNPT1	polyribonucleotide nucleotidyltransferase 1	2242	0.3454221189022064	0.21305674	Yes	
+row_6	DCP2	DCP2	DCP2 decapping enzyme homolog (S. cerevisiae)	2313	0.3294719457626343	0.24488625	Yes	
+row_7	EXOSC1	EXOSC1	exosome component 1	2796	0.24671021103858948	0.23346522	Yes	
+row_8	EXOSC5	EXOSC5	exosome component 5	2819	0.24334566295146942	0.2594118	Yes	
+row_9	DDX6	DDX6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	2900	0.23218049108982086	0.27932516	Yes	
+row_10	RQCD1	RQCD1	RCD1 required for cell differentiation1 homolog (S. pombe)	2983	0.22214090824127197	0.29792938	Yes	
+row_11	LSM3	LSM3	LSM3 homolog, U6 small nuclear RNA associated (S. cerevisiae)	3486	0.1691383570432663	0.27602038	Yes	
+row_12	C1D	C1D	-	3536	0.1648869812488556	0.2908034	Yes	
+row_13	PAPOLG	PAPOLG	poly(A) polymerase gamma	3561	0.1626962572336197	0.3073883	Yes	
+row_14	LSM5	LSM5	LSM5 homolog, U6 small nuclear RNA associated (S. cerevisiae)	3638	0.15510515868663788	0.3188399	Yes	
+row_15	ENO1	ENO1	enolase 1, (alpha)	3740	0.14701548218727112	0.32731727	Yes	
+row_16	LSM2	LSM2	LSM2 homolog, U6 small nuclear RNA associated (S. cerevisiae)	3760	0.14481258392333984	0.34227297	Yes	
+row_17	EXOSC2	EXOSC2	exosome component 2	3868	0.13502125442028046	0.34889004	Yes	
+row_18	EDC4	EDC4	enhancer of mRNA decapping 4	3984	0.12579821050167084	0.35379872	Yes	
+row_19	CNOT7	CNOT7	CCR4-NOT transcription complex, subunit 7	4023	0.12280093133449554	0.36468482	Yes	
+row_20	ENO3	ENO3	enolase 3 (beta, muscle)	4238	0.10728301852941513	0.35935724	Yes	
+row_21	HSPD1	HSPD1	heat shock 60kDa protein 1 (chaperonin)	4308	0.10213539004325867	0.36534247	Yes	
+row_22	LSM4	LSM4	LSM4 homolog, U6 small nuclear RNA associated (S. cerevisiae)	4487	0.08869890868663788	0.36084992	Yes	
+row_23	PAPOLA	PAPOLA	poly(A) polymerase alpha	4491	0.08830349147319794	0.37067416	Yes	
+row_24	EXOSC3	EXOSC3	exosome component 3	4542	0.08491700142621994	0.37625504	Yes	
+row_25	CNOT1	CNOT1	CCR4-NOT transcription complex, subunit 1	4706	0.0732734277844429	0.37123433	No	
+row_26	PARN	PARN	poly(A)-specific ribonuclease (deadenylation nuclease)	4897	0.06072860211133957	0.3625671	No	
+row_27	DCP1B	DCP1B	DCP1 decapping enzyme homolog B (S. cerevisiae)	4929	0.05876724049448967	0.36672506	No	
+row_28	CNOT2	CNOT2	CCR4-NOT transcription complex, subunit 2	4994	0.05472293123602867	0.3677135	No	
+row_29	LSM6	LSM6	LSM6 homolog, U6 small nuclear RNA associated (S. cerevisiae)	5624	0.015025116503238678	0.31780618	No	
+row_30	EXOSC10	EXOSC10	exosome component 10	5751	0.007771144155412912	0.30835184	No	
+row_31	SKIV2L	SKIV2L	superkiller viralicidic activity 2-like (S. cerevisiae)	5898	-0.0016613345360383391	0.29655936	No	
+row_32	CNOT8	CNOT8	CCR4-NOT transcription complex, subunit 8	6040	-0.009865007363259792	0.28611282	No	
+row_33	EXOSC4	EXOSC4	exosome component 4	6298	-0.024019189178943634	0.26776055	No	
+row_34	XRN1	XRN1	5'-3' exoribonuclease 1	6303	-0.024387070909142494	0.27021348	No	
+row_35	CNOT3	CNOT3	CCR4-NOT transcription complex, subunit 3	6321	-0.02529674954712391	0.27170324	No	
+row_36	DCP1A	DCP1A	DCP1 decapping enzyme homolog A (S. cerevisiae)	6585	-0.04010716825723648	0.25469333	No	
+row_37	DCPS	DCPS	decapping enzyme, scavenger	6605	-0.041038211435079575	0.2578142	No	
+row_38	SKIV2L2	SKIV2L2	superkiller viralicidic activity 2-like 2 (S. cerevisiae)	7102	-0.0718432366847992	0.22530168	No	
+row_39	ZCCHC7	ZCCHC7	zinc finger, CCHC domain containing 7	7448	-0.09514865279197693	0.20783931	No	
+row_40	LSM7	LSM7	LSM7 homolog, U6 small nuclear RNA associated (S. cerevisiae)	7617	-0.10671623051166534	0.2062222	No	
+row_41	CNOT10	CNOT10	CCR4-NOT transcription complex, subunit 10	7716	-0.11398110538721085	0.21117838	No	
+row_42	EXOSC9	EXOSC9	exosome component 9	8002	-0.13420186936855316	0.20309389	No	
+row_43	EXOSC8	EXOSC8	exosome component 8	8105	-0.1433781236410141	0.21107434	No	
+row_44	CNOT6	CNOT6	CCR4-NOT transcription complex, subunit 6	8172	-0.14879100024700165	0.22262655	No	
+row_45	WDR61	WDR61	WD repeat domain 61	8421	-0.16870437562465668	0.22151338	No	
+row_46	EDC3	EDC3	enhancer of mRNA decapping 3 homolog (S. cerevisiae)	8474	-0.17370657622814178	0.237056	No	
+row_47	CNOT6L	CNOT6L	CCR4-NOT transcription complex, subunit 6-like	8748	-0.1998029351234436	0.23743773	No	
+row_48	EXOSC7	EXOSC7	exosome component 7	8799	-0.20482972264289856	0.2566939	No	
+row_49	CNOT4	CNOT4	CCR4-NOT transcription complex, subunit 4	8966	-0.22033777832984924	0.2681988	No	

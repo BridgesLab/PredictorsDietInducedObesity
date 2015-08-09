@@ -1,0 +1,21 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SLC9A3	SLC9A3	solute carrier family 9 (sodium/hydrogen exchanger), member 3	292	3.2871124744415283	0.369156	Yes	
+row_1	FXYD2	FXYD2	FXYD domain containing ion transport regulator 2	1565	0.5862108469009399	0.3351187	Yes	
+row_2	ATP1A3	ATP1A3	ATPase, Na+/K+ transporting, alpha 3 polypeptide	1760	0.4895268380641937	0.37777245	Yes	
+row_3	SLC4A4	SLC4A4	solute carrier family 4, sodium bicarbonate cotransporter, member 4	1818	0.46931758522987366	0.42922536	Yes	
+row_4	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2190	0.35719001293182373	0.44156438	Yes	
+row_5	ATP1B3	ATP1B3	ATPase, Na+/K+ transporting, beta 3 polypeptide	2271	0.3384743928909302	0.4754886	Yes	
+row_6	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	3240	0.19282600283622742	0.4192992	No	
+row_7	SLC25A10	SLC25A10	solute carrier family 25 (mitochondrial carrier; dicarboxylate transporter), member 10	3557	0.16289173066616058	0.41290736	No	
+row_8	ATP1B1	ATP1B1	ATPase, Na+/K+ transporting, beta 1 polypeptide	3839	0.13715508580207825	0.40630338	No	
+row_9	GLS	GLS	glutaminase	4641	0.0773971751332283	0.34998316	No	
+row_10	ATP1B2	ATP1B2	ATPase, Na+/K+ transporting, beta 2 polypeptide	5835	0.0031275057699531317	0.25269032	No	
+row_11	GLUD1	GLUD1	glutamate dehydrogenase 1	6594	-0.04042927175760269	0.19546986	No	
+row_12	ATP1A1	ATP1A1	ATPase, Na+/K+ transporting, alpha 1 polypeptide	6814	-0.053657252341508865	0.18395722	No	
+row_13	ATP1A2	ATP1A2	ATPase, Na+/K+ transporting, alpha 2 (+) polypeptide	7746	-0.11581266671419144	0.12158791	No	
+row_14	MDH1	MDH1	malate dehydrogenase 1, NAD (soluble)	8264	-0.15590211749076843	0.097905114	No	
+row_15	ATP1B4	ATP1B4	ATPase, (Na+)/K+ transporting, beta 4 polypeptide	9141	-0.24166488647460938	0.05508742	No	
+row_16	GLS2	GLS2	glutaminase 2 (liver, mitochondrial)	9478	-0.2872302532196045	0.061926216	No	
+row_17	AQP1	AQP1	aquaporin 1 (Colton blood group)	9642	-0.31733113527297974	0.08652728	No	
+row_18	SLC38A3	SLC38A3	solute carrier family 38, member 3	10288	-0.4908912181854248	0.09242235	No	
+row_19	ATP1A4	ATP1A4	ATPase, Na+/K+ transporting, alpha 4 polypeptide	10441	-0.558705747127533	0.14678665	No	

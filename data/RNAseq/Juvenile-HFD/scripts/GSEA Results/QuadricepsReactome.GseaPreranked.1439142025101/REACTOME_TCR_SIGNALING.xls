@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ITK	ITK	IL2-inducible T-cell kinase	114	4.776690483093262	0.13953657	Yes	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.27963102	Yes	
+row_2	TRAT1	TRAT1	T cell receptor associated transmembrane adaptor 1	209	3.877997875213623	0.39402652	Yes	
+row_3	CD4	CD4	CD4 molecule	268	3.448735475540161	0.4967646	Yes	
+row_4	LAT	LAT	linker for activation of T cells	310	3.1356024742126465	0.5911368	Yes	
+row_5	FYB	FYB	FYN binding protein (FYB-120/130)	874	1.4005708694458008	0.5886141	Yes	
+row_6	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	913	1.3225001096725464	0.62671894	Yes	
+row_7	MALT1	MALT1	mucosa associated lymphoid tissue lymphoma translocation gene 1	1220	0.8515532612800598	0.628163	Yes	
+row_8	GRAP2	GRAP2	GRB2-related adaptor protein 2	1531	0.6036487221717834	0.6215519	Yes	
+row_9	RIPK2	RIPK2	receptor-interacting serine-threonine kinase 2	1588	0.578131377696991	0.6349788	Yes	
+row_10	ZAP70	ZAP70	zeta-chain (TCR) associated protein kinase 70kDa	1923	0.43454352021217346	0.62112826	No	
+row_11	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	1962	0.42282822728157043	0.6311908	No	
+row_12	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	2737	0.25511956214904785	0.5756585	No	
+row_13	EVL	EVL	Enah/Vasp-like	2794	0.24689218401908875	0.5787608	No	
+row_14	CD247	CD247	CD247 molecule	2910	0.22990232706069946	0.57649434	No	
+row_15	TRAF6	TRAF6	TNF receptor-associated factor 6	3074	0.21015088260173798	0.5696752	No	
+row_16	PAK2	PAK2	p21 (CDKN1A)-activated kinase 2	3316	0.18584266304969788	0.5557008	No	
+row_17	CARD11	CARD11	caspase recruitment domain family, member 11	3411	0.1756473332643509	0.5534656	No	
+row_18	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.5117361	No	
+row_19	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	4302	0.10265637189149857	0.48770484	No	
+row_20	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.4879692	No	
+row_21	PAG1	PAG1	phosphoprotein associated with glycosphingolipid microdomains 1	4559	0.08307007700204849	0.4725138	No	
+row_22	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	4953	0.05683550983667374	0.44205108	No	
+row_23	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	5162	0.04181811213493347	0.42629418	No	
+row_24	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	5386	0.028700249269604683	0.40889806	No	
+row_25	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	5471	0.02460470423102379	0.40277523	No	
+row_26	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	5725	0.009372304193675518	0.38231602	No	
+row_27	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.37857535	No	
+row_28	PRKCQ	PRKCQ	protein kinase C, theta	5973	-0.006272224709391594	0.36253068	No	
+row_29	LCP2	LCP2	lymphocyte cytosolic protein 2 (SH2 domain containing leukocyte protein of 76kDa)	6312	-0.024844162166118622	0.33558196	No	
+row_30	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	6659	-0.04453466087579727	0.30859083	No	
+row_31	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	0.27016866	No	
+row_32	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	0.24560758	No	
+row_33	VASP	VASP	vasodilator-stimulated phosphoprotein	7568	-0.10392773896455765	0.24294144	No	
+row_34	NCK1	NCK1	NCK adaptor protein 1	7810	-0.1200655922293663	0.22691678	No	
+row_35	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	0.12354796	No	
+row_36	BCL10	BCL10	B-cell CLL/lymphoma 10	9593	-0.30674323439598083	0.098004	No	
+row_37	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	9925	-0.376265287399292	0.08258304	No	
+row_38	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	10047	-0.4085608124732971	0.08539312	No	
+row_39	ENAH	ENAH	enabled homolog (Drosophila)	10085	-0.4177447259426117	0.09537923	No	
+row_40	CSK	CSK	c-src tyrosine kinase	10406	-0.5413755178451538	0.08600691	No	
+row_41	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	0.08487848	No	
+row_42	WAS	WAS	Wiskott-Aldrich syndrome (eczema-thrombocytopenia)	11139	-1.3240444660186768	0.08981296	No	

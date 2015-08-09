@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MCM10	MCM10	MCM10 minichromosome maintenance deficient 10 (S. cerevisiae)	750	1.761150598526001	-0.039052084	No	
+row_1	ALAS2	ALAS2	aminolevulinate, delta-, synthase 2 (sideroblastic/hypochromic anemia)	1377	0.7000881433486938	-0.08148518	No	
+row_2	G0S2	G0S2	G0/G1switch 2	1948	0.4272473156452179	-0.122808464	No	
+row_3	NETO2	NETO2	neuropilin (NRP) and tolloid (TLL)-like 2	2162	0.36455896496772766	-0.13563205	No	
+row_4	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2190	0.35719001293182373	-0.1332839	No	
+row_5	KHK	KHK	ketohexokinase (fructokinase)	2476	0.2973954677581787	-0.1528751	No	
+row_6	MMD	MMD	monocyte to macrophage differentiation-associated	2661	0.26973071694374084	-0.16453023	No	
+row_7	TRPV2	TRPV2	transient receptor potential cation channel, subfamily V, member 2	2695	0.26290977001190186	-0.16387923	No	
+row_8	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	2723	0.2581988573074341	-0.16279598	No	
+row_9	HSD11B1	HSD11B1	hydroxysteroid (11-beta) dehydrogenase 1	4011	0.12393653392791748	-0.26684266	No	
+row_10	ELOVL5	ELOVL5	ELOVL family member 5, elongation of long chain fatty acids (FEN1/Elo2, SUR4/Elo3-like, yeast)	4154	0.11323593556880951	-0.27705035	No	
+row_11	ABCG2	ABCG2	ATP-binding cassette, sub-family G (WHITE), member 2	4370	0.09775685518980026	-0.2934473	No	
+row_12	PSEN2	PSEN2	presenilin 2 (Alzheimer disease 4)	5529	0.020848819985985756	-0.38822356	No	
+row_13	PTP4A3	PTP4A3	protein tyrosine phosphatase type IVA, member 3	5581	0.01787080056965351	-0.39218104	No	
+row_14	MAPKAPK2	MAPKAPK2	mitogen-activated protein kinase-activated protein kinase 2	5619	0.015371384099125862	-0.39502138	No	
+row_15	EPHX2	EPHX2	epoxide hydrolase 2, cytoplasmic	5654	0.013133658096194267	-0.3976441	No	
+row_16	ACOX1	ACOX1	acyl-Coenzyme A oxidase 1, palmitoyl	5729	0.009011480025947094	-0.4036025	No	
+row_17	TNNC2	TNNC2	troponin C type 2 (fast)	6205	-0.018519533798098564	-0.4423514	No	
+row_18	CPT2	CPT2	carnitine palmitoyltransferase II	6548	-0.03848521038889885	-0.46992925	No	
+row_19	OAT	OAT	ornithine aminotransferase (gyrate atrophy)	6827	-0.05424024537205696	-0.49205297	No	
+row_20	ALDH1A1	ALDH1A1	aldehyde dehydrogenase 1 family, member A1	7151	-0.07485155761241913	-0.5176067	No	
+row_21	NR1H3	NR1H3	nuclear receptor subfamily 1, group H, member 3	8087	-0.14164838194847107	-0.5925367	No	
+row_22	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	8138	-0.1462743580341339	-0.5947713	No	
+row_23	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	8432	-0.17007195949554443	-0.61664605	No	
+row_24	PXMP2	PXMP2	peroxisomal membrane protein 2, 22kDa	8525	-0.17812831699848175	-0.6219208	No	
+row_25	IL1RAP	IL1RAP	interleukin 1 receptor accessory protein	9091	-0.23482172191143036	-0.66529256	No	
+row_26	KLF15	KLF15	Kruppel-like factor 15	9107	-0.23693352937698364	-0.66349614	No	
+row_27	ABAT	ABAT	4-aminobutyrate aminotransferase	9205	-0.24914629757404327	-0.6682738	No	
+row_28	AQP8	AQP8	aquaporin 8	9380	-0.2710116505622864	-0.6790918	No	
+row_29	BAAT	BAAT	bile acid Coenzyme A: amino acid N-acyltransferase (glycine N-choloyltransferase)	9548	-0.2975568175315857	-0.68899614	No	
+row_30	AASS	AASS	aminoadipate-semialdehyde synthase	9846	-0.3583315908908844	-0.7087936	No	
+row_31	KYNU	KYNU	kynureninase (L-kynurenine hydrolase)	9893	-0.36869561672210693	-0.70785785	No	
+row_32	IGFALS	IGFALS	insulin-like growth factor binding protein, acid labile subunit	10609	-0.6586623787879944	-0.75812495	No	
+row_33	SLC25A22	SLC25A22	solute carrier family 25 (mitochondrial carrier: glutamate), member 22	10623	-0.6702072620391846	-0.75062793	No	
+row_34	ORM1	ORM1	orosomucoid 1	11087	-1.229241132736206	-0.7729213	Yes	
+row_35	RGS16	RGS16	regulator of G-protein signalling 16	11112	-1.2785276174545288	-0.75855404	Yes	
+row_36	ETNK2	ETNK2	ethanolamine kinase 2	11202	-1.480297327041626	-0.7469434	Yes	
+row_37	LIPC	LIPC	lipase, hepatic	11399	-1.894073247909546	-0.7388275	Yes	
+row_38	CYP7B1	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	11403	-1.9073396921157837	-0.71470165	Yes	
+row_39	SLC27A5	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5	11828	-3.10404896736145	-0.70983773	Yes	
+row_40	FABP2	FABP2	fatty acid binding protein 2, intestinal	11853	-3.280989170074463	-0.66988295	Yes	
+row_41	G6PC	G6PC	glucose-6-phosphatase, catalytic subunit	11926	-3.782181978225708	-0.62746346	Yes	
+row_42	HAL	HAL	histidine ammonia-lyase	11945	-3.9133026599884033	-0.57893646	Yes	
+row_43	HPD	HPD	4-hydroxyphenylpyruvate dioxygenase	12021	-4.497598648071289	-0.52762157	Yes	
+row_44	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	12027	-4.532679080963135	-0.47011316	Yes	
+row_45	BHMT	BHMT	betaine-homocysteine methyltransferase	12101	-5.63968563079834	-0.40404046	Yes	
+row_46	OTC	OTC	ornithine carbamoyltransferase	12112	-5.839074611663818	-0.33024928	Yes	
+row_47	TDO2	TDO2	tryptophan 2,3-dioxygenase	12124	-6.045047760009766	-0.25390822	Yes	
+row_48	FABP1	FABP1	fatty acid binding protein 1, liver	12145	-6.430042743682861	-0.17338635	Yes	
+row_49	DCT	DCT	dopachrome tautomerase (dopachrome delta-isomerase, tyrosine-related protein 2)	12170	-7.025452136993408	-0.08558462	Yes	
+row_50	RGN	RGN	regucalcin (senescence marker protein-30)	12173	-7.10244607925415	0.005006593	Yes	

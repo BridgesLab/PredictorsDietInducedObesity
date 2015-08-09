@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UMPS	UMPS	uridine monophosphate synthetase (orotate phosphoribosyl transferase and orotidine-5'-decarboxylase)	1511	0.6201965808868408	-0.07662968	No	
+row_1	PCGF1	PCGF1	polycomb group ring finger 1	3085	0.20965303480625153	-0.18962935	No	
+row_2	POLH	POLH	polymerase (DNA directed), eta	3122	0.20553793013095856	-0.17691769	No	
+row_3	CLTC	CLTC	clathrin, heavy chain (Hc)	3178	0.19996342062950134	-0.16618872	No	
+row_4	GANAB	GANAB	glucosidase, alpha; neutral AB	3216	0.19501933455467224	-0.15436064	No	
+row_5	TPT1	TPT1	tumor protein, translationally-controlled 1	3551	0.1634264588356018	-0.1692924	No	
+row_6	MARCH6	MARCH6	membrane-associated ring finger (C3HC4) 6	3678	0.15089260041713715	-0.16812457	No	
+row_7	BIN3	BIN3	bridging integrator 3	3885	0.13383176922798157	-0.17481643	No	
+row_8	CFL1	CFL1	cofilin 1 (non-muscle)	4008	0.12421753257513046	-0.17535344	No	
+row_9	LMAN2	LMAN2	lectin, mannose-binding 2	4043	0.12123700976371765	-0.16890211	No	
+row_10	CHCHD5	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5	4076	0.11917093396186829	-0.16244425	No	
+row_11	SPTLC2	SPTLC2	serine palmitoyltransferase, long chain base subunit 2	4434	0.09178227931261063	-0.18472168	No	
+row_12	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	4438	0.09168624877929688	-0.17798053	No	
+row_13	EML2	EML2	echinoderm microtubule associated protein like 2	4506	0.08720814436674118	-0.17682825	No	
+row_14	UBE2F	UBE2F	ubiquitin-conjugating enzyme E2F (putative)	4976	0.05597095564007759	-0.21101809	No	
+row_15	GTF2A1	GTF2A1	general transcription factor IIA, 1, 19/37kDa	5084	0.04733454808592796	-0.21618423	No	
+row_16	PANK2	PANK2	pantothenate kinase 2 (Hallervorden-Spatz syndrome)	5300	0.033339813351631165	-0.23127224	No	
+row_17	RAD17	RAD17	RAD17 homolog (S. pombe)	5664	0.012712142430245876	-0.26006734	No	
+row_18	RNF14	RNF14	ring finger protein 14	5761	0.006989693734794855	-0.2674061	No	
+row_19	TXNDC12	TXNDC12	thioredoxin domain containing 12 (endoplasmic reticulum)	5807	0.005079550202935934	-0.27070874	No	
+row_20	VPS39	VPS39	vacuolar protein sorting 39 (yeast)	6007	-0.007837858982384205	-0.28642827	No	
+row_21	TMED2	TMED2	transmembrane emp24 domain trafficking protein 2	6186	-0.017625972628593445	-0.29968	No	
+row_22	CHMP2A	CHMP2A	chromatin modifying protein 2A	6326	-0.025551941245794296	-0.30912992	No	
+row_23	DUSP6	DUSP6	dual specificity phosphatase 6	6401	-0.03015417978167534	-0.31289953	No	
+row_24	ADAMTSL5	ADAMTSL5	ADAMTS-like 5	6939	-0.06152380630373955	-0.3522418	No	
+row_25	CTR9	CTR9	Ctr9, Paf1/RNA polymerase II complex component, homolog (S. cerevisiae)	7196	-0.07737353444099426	-0.3673359	No	
+row_26	CCDC6	CCDC6	coiled-coil domain containing 6	7286	-0.08219575881958008	-0.36836946	No	
+row_27	XPO5	XPO5	exportin 5	8537	-0.1788567155599594	-0.4572319	Yes	
+row_28	CDC37	CDC37	CDC37 cell division cycle 37 homolog (S. cerevisiae)	8587	-0.18262475728988647	-0.44733232	Yes	
+row_29	RHOBTB2	RHOBTB2	Rho-related BTB domain containing 2	8619	-0.18589648604393005	-0.4357075	Yes	
+row_30	TMEM30A	TMEM30A	transmembrane protein 30A	8634	-0.1876530647277832	-0.4225549	Yes	
+row_31	IGF2BP2	IGF2BP2	insulin-like growth factor 2 mRNA binding protein 2	8908	-0.214946448802948	-0.42855886	Yes	
+row_32	SLC36A1	SLC36A1	solute carrier family 36 (proton/amino acid symporter), member 1	9125	-0.23965656757354736	-0.42800605	Yes	
+row_33	WWP2	WWP2	WW domain containing E3 ubiquitin protein ligase 2	9468	-0.2854543626308441	-0.43429437	Yes	
+row_34	RGL2	RGL2	ral guanine nucleotide dissociation stimulator-like 2	9730	-0.3349841833114624	-0.43016666	Yes	
+row_35	RAB4B	RAB4B	RAB4B, member RAS oncogene family	10050	-0.40913090109825134	-0.42514408	Yes	
+row_36	EGR1	EGR1	early growth response 1	11297	-1.6578538417816162	-0.40096846	Yes	
+row_37	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	11374	-1.8844225406646729	-0.26359358	Yes	
+row_38	TAF9	TAF9	TAF9 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 32kDa	12005	-4.383140563964844	0.018776648	Yes	

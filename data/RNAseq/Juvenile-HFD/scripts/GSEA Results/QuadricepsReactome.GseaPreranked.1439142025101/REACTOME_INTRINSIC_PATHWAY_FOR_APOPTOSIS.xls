@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PMAIP1	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	437	2.810777187347412	0.1994208	Yes	
+row_1	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	558	2.445347547531128	0.39422756	Yes	
+row_2	BID	BID	BH3 interacting domain death agonist	732	1.8474671840667725	0.53465986	Yes	
+row_3	TFDP1	TFDP1	transcription factor Dp-1	2290	0.3346315026283264	0.43512386	No	
+row_4	E2F1	E2F1	E2F transcription factor 1	2905	0.23143570125102997	0.40419644	No	
+row_5	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	0.38375825	No	
+row_6	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3430	0.17367631196975708	0.3912476	No	
+row_7	DIABLO	DIABLO	diablo homolog (Drosophila)	3797	0.14075563848018646	0.37304625	No	
+row_8	CASP7	CASP7	caspase 7, apoptosis-related cysteine peptidase	3905	0.13164907693862915	0.3752984	No	
+row_9	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	4816	0.0663435310125351	0.306309	No	
+row_10	APAF1	APAF1	apoptotic peptidase activating factor	4895	0.060947589576244354	0.3050201	No	
+row_11	BAX	BAX	BCL2-associated X protein	5114	0.044763945043087006	0.290909	No	
+row_12	BAK1	BAK1	BCL2-antagonist/killer 1	5772	0.006364821456372738	0.23762445	No	
+row_13	CYCS	CYCS	cytochrome c, somatic	6345	-0.026793451979756355	0.1930121	No	
+row_14	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	6651	-0.04347074404358864	0.1716663	No	
+row_15	DYNLL1	DYNLL1	dynein, light chain, LC8-type 1	6781	-0.05181760713458061	0.16543576	No	
+row_16	BCL2L1	BCL2L1	BCL2-like 1	6848	-0.05580556020140648	0.1646995	No	
+row_17	DYNLL2	DYNLL2	dynein, light chain, LC8-type 2	7107	-0.07226620614528656	0.14961334	No	
+row_18	BAD	BAD	BCL2-antagonist of cell death	8533	-0.17860820889472961	0.047833238	No	
+row_19	NMT1	NMT1	N-myristoyltransferase 1	8590	-0.18317008018493652	0.05857448	No	
+row_20	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	8702	-0.19496704638004303	0.0657977	No	
+row_21	BCL2	BCL2	B-cell CLL/lymphoma 2	9030	-0.22705602645874023	0.058012933	No	
+row_22	BMF	BMF	Bcl2 modifying factor	9755	-0.3393479287624359	0.027105538	No	
+row_23	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	9845	-0.3581591248512268	0.049787413	No	
+row_24	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	10076	-0.4143373370170593	0.0656207	No	
+row_25	BCL2L11	BCL2L11	BCL2-like 11 (apoptosis facilitator)	10494	-0.5840502381324768	0.08033841	No	
+row_26	BBC3	BBC3	BCL2 binding component 3	10718	-0.7421863675117493	0.1241808	No	

@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	F2RL2	F2RL2	coagulation factor II (thrombin) receptor-like 2	67	7.025190830230713	0.08954896	Yes	
+row_1	ENPP7	ENPP7	ectonucleotide pyrophosphatase/phosphodiesterase 7	295	4.946318626403809	0.13865452	Yes	
+row_2	PDE2A	PDE2A	phosphodiesterase 2A, cGMP-stimulated	351	4.662971019744873	0.1972762	Yes	
+row_3	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	446	4.294555187225342	0.24790512	Yes	
+row_4	PDE3B	PDE3B	phosphodiesterase 3B, cGMP-inhibited	559	3.9353280067443848	0.29229358	Yes	
+row_5	EDNRA	EDNRA	endothelin receptor type A	944	2.9729115962982178	0.3026107	Yes	
+row_6	CCR5	CCR5	chemokine (C-C motif) receptor 5	988	2.888976573944092	0.33823815	Yes	
+row_7	PDE3A	PDE3A	phosphodiesterase 3A, cGMP-inhibited	1062	2.75628924369812	0.36974984	Yes	
+row_8	C3AR1	C3AR1	complement component 3a receptor 1	1237	2.4547135829925537	0.38936248	Yes	
+row_9	PLCD1	PLCD1	phospholipase C, delta 1	1882	1.6246612071990967	0.3613353	No	
+row_10	PLD2	PLD2	phospholipase D2	2084	1.4208061695098877	0.3649106	No	
+row_11	PLCE1	PLCE1	phospholipase C, epsilon 1	2235	1.2770311832427979	0.3705016	No	
+row_12	CCKBR	CCKBR	cholecystokinin B receptor	2368	1.1738945245742798	0.37609747	No	
+row_13	PDE4B	PDE4B	phosphodiesterase 4B, cAMP-specific (phosphodiesterase E4 dunce homolog, Drosophila)	2557	1.008563756942749	0.37512118	No	
+row_14	PLD1	PLD1	phospholipase D1, phosphatidylcholine-specific	2641	0.9558916091918945	0.38157657	No	
+row_15	BDKRB2	BDKRB2	bradykinin receptor B2	2864	0.8071841597557068	0.37524793	No	
+row_16	SMPD1	SMPD1	sphingomyelin phosphodiesterase 1, acid lysosomal (acid sphingomyelinase)	2919	0.7762341499328613	0.38152918	No	
+row_17	PLCB2	PLCB2	phospholipase C, beta 2	3471	0.5012419819831848	0.34556267	No	
+row_18	PDE4D	PDE4D	phosphodiesterase 4D, cAMP-specific (phosphodiesterase E3 dunce homolog, Drosophila)	3692	0.40851783752441406	0.33401254	No	
+row_19	CNP	CNP	2',3'-cyclic nucleotide 3' phosphodiesterase	4120	0.2636958658695221	0.3044578	No	
+row_20	ENPP2	ENPP2	ectonucleotide pyrophosphatase/phosphodiesterase 2 (autotaxin)	4500	0.14339366555213928	0.27700272	No	
+row_21	PDE7A	PDE7A	phosphodiesterase 7A	5746	-0.15777139365673065	0.18258892	No	
+row_22	PDE7B	PDE7B	phosphodiesterase 7B	5901	-0.1916511207818985	0.17323191	No	
+row_23	CHRM3	CHRM3	cholinergic receptor, muscarinic 3	7266	-0.4992152750492096	0.07419528	No	
+row_24	ENPP3	ENPP3	ectonucleotide pyrophosphatase/phosphodiesterase 3	7599	-0.5864432454109192	0.05635986	No	
+row_25	APEX1	APEX1	APEX nuclease (multifunctional DNA repair enzyme) 1	7873	-0.6537429094314575	0.04400713	No	
+row_26	SMPD2	SMPD2	sphingomyelin phosphodiesterase 2, neutral membrane (neutral sphingomyelinase)	7909	-0.6626351475715637	0.050229657	No	
+row_27	PLD3	PLD3	phospholipase D family, member 3	8087	-0.7075980305671692	0.046047404	No	
+row_28	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	8094	-0.7090162634849548	0.055144202	No	
+row_29	CASR	CASR	calcium-sensing receptor (hypocalciuric hypercalcemia 1, severe neonatal hyperparathyroidism)	8525	-0.8459913730621338	0.03320989	No	
+row_30	SMPD4	SMPD4	sphingomyelin phosphodiesterase 4, neutral membrane (neutral sphingomyelinase-3)	9209	-1.1075286865234375	-0.0048157205	No	
+row_31	PLCH1	PLCH1	phospholipase C, eta 1	9232	-1.1153650283813477	0.008520557	No	
+row_32	PDE4C	PDE4C	phosphodiesterase 4C, cAMP-specific (phosphodiesterase E1 dunce homolog, Drosophila)	9385	-1.1823331117630005	0.012679346	No	
+row_33	PDIA3	PDIA3	protein disulfide isomerase family A, member 3	9451	-1.2118501663208008	0.02398249	No	
+row_34	PDE4A	PDE4A	phosphodiesterase 4A, cAMP-specific (phosphodiesterase E2 dunce homolog, Drosophila)	9685	-1.330466628074646	0.023858046	No	
+row_35	CHRM1	CHRM1	cholinergic receptor, muscarinic 1	10389	-1.7343332767486572	-0.00726511	No	
+row_36	PDE10A	PDE10A	phosphodiesterase 10A	11217	-2.6627368927001953	-0.035482854	No	
+row_37	CHRM5	CHRM5	cholinergic receptor, muscarinic 5	11584	-3.273010730743408	-0.01972269	No	
+row_38	PDE1C	PDE1C	phosphodiesterase 1C, calmodulin-dependent 70kDa	12598	-9.218842506408691	0.026054598	No	

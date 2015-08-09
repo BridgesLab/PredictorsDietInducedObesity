@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SORBS1	SORBS1	sorbin and SH3 domain containing 1	431	4.35695743560791	0.12644197	Yes	
+row_1	FOXC2	FOXC2	forkhead box C2 (MFH-1, mesenchyme forkhead 1)	607	3.802910327911377	0.2523797	Yes	
+row_2	GRB10	GRB10	growth factor receptor-bound protein 10	663	3.6297640800476074	0.38125604	Yes	
+row_3	IRS1	IRS1	insulin receptor substrate 1	900	3.054851531982422	0.47503406	Yes	
+row_4	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.5677846	Yes	
+row_5	IGF2	IGF2	insulin-like growth factor 2 (somatomedin A)	1876	1.6301242113113403	0.5623946	Yes	
+row_6	AP3S1	AP3S1	adaptor-related protein complex 3, sigma 1 subunit	2147	1.3508833646774292	0.5910418	Yes	
+row_7	SOCS1	SOCS1	suppressor of cytokine signaling 1	2296	1.2260102033615112	0.624553	Yes	
+row_8	INSR	INSR	insulin receptor	2614	0.9725548624992371	0.6356854	Yes	
+row_9	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.5003627	No	
+row_10	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.505391	No	
+row_11	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.37108818	No	
+row_12	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7351	-0.5213844180107117	0.31024578	No	
+row_13	BAIAP2	BAIAP2	BAI1-associated protein 2	8158	-0.7307611107826233	0.27465537	No	
+row_14	GAB1	GAB1	GRB2-associated binding protein 1	8172	-0.7347733974456787	0.30059934	No	
+row_15	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.29623568	No	
+row_16	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	0.31699958	No	

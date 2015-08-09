@@ -1,0 +1,47 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FOXC2	FOXC2	forkhead box C2 (MFH-1, mesenchyme forkhead 1)	607	3.802910327911377	-0.0076781265	No	
+row_1	BCL6	BCL6	B-cell CLL/lymphoma 6 (zinc finger protein 51)	953	2.962963581085205	-0.0037346983	No	
+row_2	ELK3	ELK3	ELK3, ETS-domain protein (SRF accessory protein 2)	1077	2.7232720851898193	0.014948371	No	
+row_3	FOXP3	FOXP3	forkhead box P3	1357	2.266920566558838	0.016798118	No	
+row_4	CEBPG	CEBPG	CCAAT/enhancer binding protein (C/EBP), gamma	2040	1.4555869102478027	-0.021028392	No	
+row_5	GLI2	GLI2	GLI-Kruppel family member GLI2	2184	1.3287776708602905	-0.01835065	No	
+row_6	FOXL1	FOXL1	forkhead box L1	2622	0.968151867389679	-0.042220857	No	
+row_7	FOXC1	FOXC1	forkhead box C1	3321	0.5675688982009888	-0.09049284	No	
+row_8	SP1	SP1	Sp1 transcription factor	3757	0.38267093896865845	-0.12027625	No	
+row_9	RORB	RORB	RAR-related orphan receptor B	3818	0.3650600016117096	-0.12114762	No	
+row_10	SREBF1	SREBF1	sterol regulatory element binding transcription factor 1	3862	0.3508031666278839	-0.12084781	No	
+row_11	TERF2IP	TERF2IP	telomeric repeat binding factor 2, interacting protein	4580	0.12089059501886368	-0.17522363	No	
+row_12	PURA	PURA	purine-rich element binding protein A	5055	-0.0026963497512042522	-0.21197122	No	
+row_13	TERF2	TERF2	telomeric repeat binding factor 2	5159	-0.02659723162651062	-0.21968687	No	
+row_14	SMAD3	SMAD3	SMAD, mothers against DPP homolog 3 (Drosophila)	5358	-0.07069455087184906	-0.23431607	No	
+row_15	SMAD4	SMAD4	SMAD, mothers against DPP homolog 4 (Drosophila)	5461	-0.09522564709186554	-0.2412428	No	
+row_16	ZW10	ZW10	ZW10, kinetochore associated, homolog (Drosophila)	5729	-0.15452833473682404	-0.2603565	No	
+row_17	MBD2	MBD2	methyl-CpG binding domain protein 2	6010	-0.2158556431531906	-0.27984315	No	
+row_18	CXXC1	CXXC1	CXXC finger 1 (PHD domain)	6199	-0.2536851167678833	-0.29179984	No	
+row_19	MBD4	MBD4	methyl-CpG binding domain protein 4	6986	-0.43553200364112854	-0.34826788	No	
+row_20	TINF2	TINF2	TERF1 (TRF1)-interacting nuclear factor 2	7008	-0.4405396282672882	-0.34533107	No	
+row_21	SMG6	SMG6	Smg-6 homolog, nonsense mediated mRNA decay factor (C. elegans)	7168	-0.4757035970687866	-0.35273662	No	
+row_22	DMBX1	DMBX1	diencephalon/mesencephalon homeobox 1	7338	-0.5182445645332336	-0.3604771	No	
+row_23	TERF1	TERF1	telomeric repeat binding factor (NIMA-interacting) 1	8127	-0.7215045094490051	-0.41413626	No	
+row_24	FOXK2	FOXK2	forkhead box K2	8269	-0.7647324800491333	-0.41714954	No	
+row_25	MLH3	MLH3	mutL homolog 3 (E. coli)	8603	-0.8711456656455994	-0.43395633	No	
+row_26	HMGA1	HMGA1	high mobility group AT-hook 1	8814	-0.9512707591056824	-0.44038957	No	
+row_27	TBX2	TBX2	T-box 2	9219	-1.111101508140564	-0.4602178	No	
+row_28	TBX5	TBX5	T-box 5	9398	-1.188683271408081	-0.46170762	Yes	
+row_29	TRIM28	TRIM28	tripartite motif-containing 28	9452	-1.2124329805374146	-0.45325306	Yes	
+row_30	TERT	TERT	telomerase reverse transcriptase	9609	-1.2867733240127563	-0.4520193	Yes	
+row_31	FOXF1	FOXF1	forkhead box F1	9752	-1.3591506481170654	-0.44894916	Yes	
+row_32	TBX3	TBX3	T-box 3 (ulnar mammary syndrome)	10054	-1.5167001485824585	-0.45658216	Yes	
+row_33	NR5A2	NR5A2	nuclear receptor subfamily 5, group A, member 2	10211	-1.6090898513793945	-0.45200765	Yes	
+row_34	TBX1	TBX1	T-box 1	10390	-1.7346597909927368	-0.44783852	Yes	
+row_35	LEF1	LEF1	lymphoid enhancer-binding factor 1	10403	-1.7416437864303589	-0.4307178	Yes	
+row_36	HMGA2	HMGA2	high mobility group AT-hook 2	10488	-1.8126106262207031	-0.4184477	Yes	
+row_37	GCM2	GCM2	glial cells missing homolog 2 (Drosophila)	10740	-2.057917356491089	-0.41659182	Yes	
+row_38	TFAP2B	TFAP2B	transcription factor AP-2 beta (activating enhancer binding protein 2 beta)	11121	-2.547304391860962	-0.4196721	Yes	
+row_39	FOXD1	FOXD1	forkhead box D1	11569	-3.262620449066162	-0.42053652	Yes	
+row_40	NR6A1	NR6A1	nuclear receptor subfamily 6, group A, member 1	11809	-3.8550851345062256	-0.3991224	Yes	
+row_41	FOXF2	FOXF2	forkhead box F2	12081	-4.9958720207214355	-0.36836702	Yes	
+row_42	KIF2C	KIF2C	kinesin family member 2C	12380	-7.086185932159424	-0.31804082	Yes	
+row_43	FOXH1	FOXH1	forkhead box H1	12584	-9.050171852111816	-0.23998772	Yes	
+row_44	FIGLA	FIGLA	folliculogenesis specific basic helix-loop-helix	12609	-9.33169174194336	-0.14512892	Yes	
+row_45	NR0B1	NR0B1	nuclear receptor subfamily 0, group B, member 1	12890	-16.427453994750977	0.0034139198	Yes	

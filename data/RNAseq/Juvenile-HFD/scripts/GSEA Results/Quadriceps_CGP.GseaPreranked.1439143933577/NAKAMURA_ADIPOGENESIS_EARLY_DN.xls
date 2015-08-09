@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GDF15	GDF15	growth differentiation factor 15	7	7.773494720458984	0.21495104	Yes	
+row_1	HAPLN1	HAPLN1	hyaluronan and proteoglycan link protein 1	137	4.4730916023254395	0.32839474	Yes	
+row_2	IL6	IL6	interleukin 6 (interferon, beta 2)	166	4.199713706970215	0.44253892	Yes	
+row_3	COL9A3	COL9A3	collagen, type IX, alpha 3	189	3.936361074447632	0.54987335	Yes	
+row_4	GLIPR1	GLIPR1	GLI pathogenesis-related 1 (glioma)	709	1.955140471458435	0.56153286	Yes	
+row_5	EDIL3	EDIL3	EGF-like repeats and discoidin I-like domains 3	721	1.890599250793457	0.6130491	Yes	
+row_6	LOX	LOX	lysyl oxidase	1193	0.8889066576957703	0.5990817	Yes	
+row_7	THBS2	THBS2	thrombospondin 2	1222	0.8489315509796143	0.62032336	Yes	
+row_8	VCAM1	VCAM1	vascular cell adhesion molecule 1	1835	0.4632875323295593	0.58299613	No	
+row_9	DAB2	DAB2	disabled homolog 2, mitogen-responsive phosphoprotein (Drosophila)	1873	0.4495944380760193	0.59242815	No	
+row_10	STK38L	STK38L	serine/threonine kinase 38 like	2518	0.29116830229759216	0.5477054	No	
+row_11	PRSS23	PRSS23	protease, serine, 23	2700	0.26141372323036194	0.54011476	No	
+row_12	IGFBP3	IGFBP3	insulin-like growth factor binding protein 3	2735	0.25547024607658386	0.5444105	No	
+row_13	COL15A1	COL15A1	collagen, type XV, alpha 1	3607	0.15794233977794647	0.47738442	No	
+row_14	PDE6D	PDE6D	phosphodiesterase 6D, cGMP-specific, rod, delta	3643	0.15458059310913086	0.47880092	No	
+row_15	ABI3BP	ABI3BP	ABI gene family, member 3 (NESH) binding protein	5480	0.024117428809404373	0.32895312	No	
+row_16	SERPINE2	SERPINE2	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 2	5953	-0.004902096930891275	0.2903942	No	
+row_17	SRPK2	SRPK2	SFRS protein kinase 2	6269	-0.022275760769844055	0.2651879	No	
+row_18	ACTG2	ACTG2	actin, gamma 2, smooth muscle, enteric	6457	-0.032624538987874985	0.25076205	No	
+row_19	CALD1	CALD1	caldesmon 1	7675	-0.11112792044878006	0.15407267	No	
+row_20	EPOR	EPOR	erythropoietin receptor	7896	-0.12599414587020874	0.13953018	No	
+row_21	TIMP3	TIMP3	TIMP metallopeptidase inhibitor 3 (Sorsby fundus dystrophy, pseudoinflammatory)	8115	-0.14430482685565948	0.12565935	No	
+row_22	POSTN	POSTN	periostin, osteoblast specific factor	8188	-0.14991365373134613	0.123913184	No	
+row_23	TPM1	TPM1	tropomyosin 1 (alpha)	8211	-0.15185822546482086	0.12631997	No	
+row_24	LRP3	LRP3	low density lipoprotein receptor-related protein 3	8530	-0.17844878137111664	0.10519773	No	
+row_25	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	8765	-0.20198222994804382	0.091614336	No	
+row_26	MYH11	MYH11	myosin, heavy chain 11, smooth muscle	8809	-0.20581845939159393	0.09379561	No	
+row_27	NT5E	NT5E	5'-nucleotidase, ecto (CD73)	8899	-0.21418608725070953	0.092437774	No	
+row_28	TMEM47	TMEM47	transmembrane protein 47	9123	-0.2393415868282318	0.08079198	No	
+row_29	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	9544	-0.29706326127052307	0.05459637	No	
+row_30	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	9778	-0.3444995880126953	0.04504634	No	
+row_31	RAI14	RAI14	retinoic acid induced 14	10117	-0.42835521697998047	0.029213289	No	
+row_32	CYR61	CYR61	cysteine-rich, angiogenic inducer, 61	10402	-0.5400906205177307	0.020905128	No	
+row_33	IER2	IER2	immediate early response 2	10637	-0.679442822933197	0.020559622	No	
+row_34	RGS4	RGS4	regulator of G-protein signalling 4	10866	-0.8962783813476562	0.026717901	No	
+row_35	HCK	HCK	hemopoietic cell kinase	11027	-1.1364591121673584	0.04511002	No	
+row_36	TNFRSF11B	TNFRSF11B	tumor necrosis factor receptor superfamily, member 11b (osteoprotegerin)	11412	-1.9389512538909912	0.06738806	No	

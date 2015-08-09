@@ -1,0 +1,53 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CD80	CD80	CD80 molecule	484	4.155834197998047	0.02414612	Yes	
+row_1	CD247	CD247	CD247 molecule	667	3.6241092681884766	0.06383776	Yes	
+row_2	PPP2R5A	PPP2R5A	protein phosphatase 2, regulatory subunit B (B56), alpha isoform	751	3.428173065185547	0.10830425	Yes	
+row_3	CD86	CD86	CD86 molecule	760	3.404416561126709	0.15823957	Yes	
+row_4	ICOS	ICOS	inducible T-cell co-stimulator	772	3.390563726425171	0.20773631	Yes	
+row_5	CD274	CD274	CD274 molecule	851	3.2015435695648193	0.24922541	Yes	
+row_6	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.2940843	Yes	
+row_7	TNFRSF14	TNFRSF14	tumor necrosis factor receptor superfamily, member 14 (herpesvirus entry mediator)	939	2.979641914367676	0.3333648	Yes	
+row_8	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.36783564	Yes	
+row_9	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.4052069	Yes	
+row_10	PPP2R1B	PPP2R1B	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform	1540	2.007734537124634	0.3989281	Yes	
+row_11	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	1780	1.7319632768630981	0.40609655	Yes	
+row_12	VAV1	VAV1	vav 1 oncogene	2297	1.2255312204360962	0.38424316	Yes	
+row_13	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	2298	1.2248284816741943	0.4024321	Yes	
+row_14	MAP3K8	MAP3K8	mitogen-activated protein kinase kinase kinase 8	2344	1.189238429069519	0.41659957	Yes	
+row_15	GRAP2	GRAP2	GRB2-related adaptor protein 2	2424	1.1255486011505127	0.4271821	Yes	
+row_16	FYN	FYN	FYN oncogene related to SRC, FGR, YES	2505	1.0475741624832153	0.43652904	Yes	
+row_17	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	2687	0.914352297782898	0.43605787	Yes	
+row_18	PPP2R5D	PPP2R5D	protein phosphatase 2, regulatory subunit B (B56), delta isoform	2702	0.9043288826942444	0.44840062	Yes	
+row_19	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.45332715	Yes	
+row_20	CD4	CD4	CD4 molecule	2814	0.8348308205604553	0.46479312	Yes	
+row_21	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	3042	0.7102105617523193	0.45771977	Yes	
+row_22	PAK2	PAK2	p21 (CDKN1A)-activated kinase 2	3096	0.68260657787323	0.46374267	Yes	
+row_23	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	3118	0.6703222393989563	0.47206703	Yes	
+row_24	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.45380384	No	
+row_25	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	0.44480363	No	
+row_26	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	3845	0.3569004237651825	0.43512267	No	
+row_27	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	3855	0.35194310545921326	0.4396505	No	
+row_28	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.4201131	No	
+row_29	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	4215	0.23167863488197327	0.4190515	No	
+row_30	BTLA	BTLA	B and T lymphocyte associated	4414	0.1667662113904953	0.40615892	No	
+row_31	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.4066749	No	
+row_32	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.40829423	No	
+row_33	LCK	LCK	lymphocyte-specific protein tyrosine kinase	5685	-0.1461292952299118	0.31460154	No	
+row_34	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.26976177	No	
+row_35	CD28	CD28	CD28 molecule	6346	-0.28763648867607117	0.27185982	No	
+row_36	RICTOR	RICTOR	-	6436	-0.3057534098625183	0.269492	No	
+row_37	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.24432048	No	
+row_38	PPP2R5B	PPP2R5B	protein phosphatase 2, regulatory subunit B (B56), beta isoform	6913	-0.41561901569366455	0.24474852	No	
+row_39	PPP2CB	PPP2CB	protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform	7413	-0.5356752872467041	0.21397018	No	
+row_40	PDCD1	PDCD1	programmed cell death 1	7632	-0.5963993072509766	0.20590532	No	
+row_41	PPP2R5E	PPP2R5E	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	7834	-0.6419617533683777	0.19983663	No	
+row_42	CSK	CSK	c-src tyrosine kinase	8384	-0.802052915096283	0.169133	No	
+row_43	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	8494	-0.8370139598846436	0.17310207	No	
+row_44	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.17961259	No	
+row_45	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.18708332	No	
+row_46	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	0.19489795	No	
+row_47	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	10070	-1.520922064781189	0.11331569	No	
+row_48	PPP2R5C	PPP2R5C	protein phosphatase 2, regulatory subunit B (B56), gamma isoform	10311	-1.6829924583435059	0.11967927	No	
+row_49	PDCD1LG2	PDCD1LG2	programmed cell death 1 ligand 2	10322	-1.694377064704895	0.14406492	No	
+row_50	CTLA4	CTLA4	cytotoxic T-lymphocyte-associated protein 4	10534	-1.855212926864624	0.15523703	No	
+row_51	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	0.16836147	No	

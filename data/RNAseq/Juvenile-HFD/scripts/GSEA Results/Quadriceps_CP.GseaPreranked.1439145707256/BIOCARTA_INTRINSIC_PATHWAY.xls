@@ -1,0 +1,16 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SERPING1	SERPING1	serpin peptidase inhibitor, clade G (C1 inhibitor), member 1, (angioedema, hereditary)	2490	0.2955474257469177	-0.19818223	No	
+row_1	PROS1	PROS1	protein S (alpha)	3100	0.20800375938415527	-0.24408993	No	
+row_2	F2R	F2R	coagulation factor II (thrombin) receptor	6339	-0.02642723172903061	-0.50856626	No	
+row_3	COL4A1	COL4A1	collagen, type IV, alpha 1	7050	-0.06881952285766602	-0.5653679	No	
+row_4	COL4A2	COL4A2	collagen, type IV, alpha 2	7721	-0.11424630135297775	-0.61803824	No	
+row_5	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	8015	-0.1351766139268875	-0.6394622	No	
+row_6	COL4A6	COL4A6	collagen, type IV, alpha 6	8475	-0.17384600639343262	-0.6737401	No	
+row_7	COL4A5	COL4A5	collagen, type IV, alpha 5 (Alport syndrome)	9042	-0.22815066576004028	-0.7157484	No	
+row_8	COL4A4	COL4A4	collagen, type IV, alpha 4	10621	-0.6661592125892639	-0.83229905	No	
+row_9	PROC	PROC	protein C (inactivator of coagulation factors Va and VIIIa)	11468	-2.040459394454956	-0.86299103	Yes	
+row_10	KNG1	KNG1	kininogen 1	12108	-5.726766109466553	-0.8071192	Yes	
+row_11	FGG	FGG	fibrinogen gamma chain	12155	-6.689607620239258	-0.68453485	Yes	
+row_12	FGB	FGB	fibrinogen beta chain	12174	-7.116446018218994	-0.55159736	Yes	
+row_13	SERPINC1	SERPINC1	serpin peptidase inhibitor, clade C (antithrombin), member 1	12178	-7.246213912963867	-0.4149814	Yes	
+row_14	FGA	FGA	fibrinogen alpha chain	12234	-22.209741592407227	-4.7904905E-8	Yes	

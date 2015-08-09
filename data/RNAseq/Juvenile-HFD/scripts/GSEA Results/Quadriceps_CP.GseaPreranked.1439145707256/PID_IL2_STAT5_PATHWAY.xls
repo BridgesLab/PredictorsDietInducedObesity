@@ -1,0 +1,30 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRF1	PRF1	perforin 1 (pore forming protein)	58	5.685256004333496	0.2713432	Yes	
+row_1	IL4	IL4	interleukin 4	141	4.467897891998291	0.4816012	Yes	
+row_2	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.5199157	Yes	
+row_3	FOXP3	FOXP3	forkhead box P3	916	1.3146129846572876	0.5696662	Yes	
+row_4	LTA	LTA	lymphotoxin alpha (TNF superfamily, member 1)	1122	0.9819457530975342	0.6005578	Yes	
+row_5	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.6436307	Yes	
+row_6	IL2RA	IL2RA	interleukin 2 receptor, alpha	1197	0.8816441893577576	0.6827595	Yes	
+row_7	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3231	0.19360294938087463	0.5256041	No	
+row_8	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.47138783	No	
+row_9	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.44612327	No	
+row_10	STAT5B	STAT5B	signal transducer and activator of transcription 5B	4354	0.0993134006857872	0.44971737	No	
+row_11	CCNA2	CCNA2	cyclin A2	5894	-0.0015347411390393972	0.32370636	No	
+row_12	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.29232076	No	
+row_13	CCND3	CCND3	cyclin D3	6568	-0.03949020802974701	0.2717086	No	
+row_14	ELF1	ELF1	E74-like factor 1 (ets domain transcription factor)	6721	-0.04818756505846977	0.26159588	No	
+row_15	BCL2L1	BCL2L1	BCL2-like 1	6848	-0.05580556020140648	0.2539832	No	
+row_16	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	0.24109204	No	
+row_17	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	0.24442299	No	
+row_18	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	0.23708858	No	
+row_19	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	7397	-0.09080315381288528	0.22412978	No	
+row_20	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	0.1988055	No	
+row_21	CCND2	CCND2	cyclin D2	8584	-0.1823049634695053	0.14162575	No	
+row_22	BCL2	BCL2	B-cell CLL/lymphoma 2	9030	-0.22705602645874023	0.11619486	No	
+row_23	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	9237	-0.25364887714385986	0.111635946	No	
+row_24	SP1	SP1	Sp1 transcription factor	9590	-0.3060528337955475	0.097660616	No	
+row_25	CDK6	CDK6	cyclin-dependent kinase 6	10259	-0.4792875051498413	0.066209234	No	
+row_26	GAB2	GAB2	GRB2-associated binding protein 2	10364	-0.5232264995574951	0.083098456	No	
+row_27	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	10690	-0.7185487747192383	0.091367334	No	
+row_28	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	0.12608561	No	

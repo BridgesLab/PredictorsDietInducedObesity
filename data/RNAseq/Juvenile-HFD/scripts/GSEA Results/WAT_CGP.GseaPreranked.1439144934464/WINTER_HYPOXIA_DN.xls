@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ICAM2	ICAM2	intercellular adhesion molecule 2	389	4.513816833496094	0.02165381	Yes	
+row_1	SYNPO2	SYNPO2	synaptopodin 2	400	4.492509841918945	0.07245198	Yes	
+row_2	EVI2A	EVI2A	ecotropic viral integration site 2A	464	4.231930255889893	0.11614891	Yes	
+row_3	CHPT1	CHPT1	choline phosphotransferase 1	470	4.204736709594727	0.1640312	Yes	
+row_4	FBLN5	FBLN5	fibulin 5	519	4.056089878082275	0.20687264	Yes	
+row_5	FLI1	FLI1	Friend leukemia virus integration 1	584	3.8702402114868164	0.24633986	Yes	
+row_6	RGS5	RGS5	regulator of G-protein signalling 5	623	3.7608370780944824	0.28656727	Yes	
+row_7	GYPC	GYPC	glycophorin C (Gerbich blood group)	625	3.7601840496063232	0.3296563	Yes	
+row_8	LRMP	LRMP	lymphoid-restricted membrane protein	652	3.6619303226470947	0.3696788	Yes	
+row_9	GIMAP7	GIMAP7	GTPase, IMAP family member 7	737	3.4545702934265137	0.4028233	Yes	
+row_10	IL16	IL16	interleukin 16 (lymphocyte chemoattractant factor)	747	3.4374303817749023	0.4415868	Yes	
+row_11	TLR7	TLR7	toll-like receptor 7	855	3.1875457763671875	0.46988237	Yes	
+row_12	DOCK2	DOCK2	dedicator of cytokinesis 2	880	3.119906187057495	0.5038376	Yes	
+row_13	ARHGEF6	ARHGEF6	Rac/Cdc42 guanine nucleotide exchange factor (GEF) 6	915	3.0187995433807373	0.53585666	Yes	
+row_14	RHOH	RHOH	ras homolog gene family, member H	959	2.9602742195129395	0.56650597	Yes	
+row_15	HMHA1	HMHA1	histocompatibility (minor) HA-1	961	2.9559383392333984	0.6003623	Yes	
+row_16	GIMAP1	GIMAP1	GTPase, IMAP family member 1	973	2.9260668754577637	0.63310033	Yes	
+row_17	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	999	2.8713419437408447	0.6641245	Yes	
+row_18	CD48	CD48	CD48 molecule	1139	2.6042423248291016	0.6832424	Yes	
+row_19	ANKRD44	ANKRD44	ankyrin repeat domain 44	1201	2.49798846244812	0.7071889	Yes	
+row_20	LMO2	LMO2	LIM domain only 2 (rhombotin-like 1)	1331	2.308717727661133	0.7236897	Yes	
+row_21	ARHGAP15	ARHGAP15	Rho GTPase activating protein 15	1751	1.7676355838775635	0.7114913	No	
+row_22	CCL19	CCL19	chemokine (C-C motif) ligand 19	2324	1.2056140899658203	0.6809768	No	
+row_23	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	2398	1.1468926668167114	0.68848234	No	
+row_24	IRF8	IRF8	interferon regulatory factor 8	2719	0.8948881030082703	0.6739417	No	
+row_25	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.6801898	No	
+row_26	ARL6IP5	ARL6IP5	ADP-ribosylation-like factor 6 interacting protein 5	3137	0.6573781371116638	0.65912294	No	
+row_27	ITM2A	ITM2A	integral membrane protein 2A	3285	0.5839982628822327	0.6544283	No	
+row_28	SLC25A20	SLC25A20	solute carrier family 25 (carnitine/acylcarnitine translocase), member 20	4181	0.2424556463956833	0.5878103	No	
+row_29	PBXIP1	PBXIP1	pre-B-cell leukemia transcription factor interacting protein 1	4375	0.17886613309383392	0.57489777	No	
+row_30	ENPP2	ENPP2	ectonucleotide pyrophosphatase/phosphodiesterase 2 (autotaxin)	4500	0.14339366555213928	0.56692857	No	
+row_31	KLHDC1	KLHDC1	kelch domain containing 1	5156	-0.025761833414435387	0.51643336	No	
+row_32	ATP8A1	ATP8A1	ATPase, aminophospholipid transporter (APLT), Class I, type 8A, member 1	5350	-0.06753692775964737	0.5022428	No	
+row_33	IKZF1	IKZF1	IKAROS family zinc finger 1 (Ikaros)	5418	-0.08682580292224884	0.49804413	No	
+row_34	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	0.49371186	No	
+row_35	CD28	CD28	CD28 molecule	6346	-0.28763648867607117	0.43071428	No	
+row_36	SYNE1	SYNE1	spectrin repeat containing, nuclear envelope 1	6966	-0.4295158088207245	0.3876457	No	
+row_37	INPP5D	INPP5D	inositol polyphosphate-5-phosphatase, 145kDa	8779	-0.9397314190864563	0.25792503	No	
+row_38	FRZB	FRZB	frizzled-related protein	12181	-5.591540813446045	0.058390234	No	

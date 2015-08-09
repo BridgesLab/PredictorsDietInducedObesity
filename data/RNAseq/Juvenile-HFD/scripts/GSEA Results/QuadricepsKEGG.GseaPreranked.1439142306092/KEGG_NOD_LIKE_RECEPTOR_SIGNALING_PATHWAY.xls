@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL7	CCL7	chemokine (C-C motif) ligand 7	6	7.801300048828125	0.21881492	Yes	
+row_1	IL6	IL6	interleukin 6 (interferon, beta 2)	166	4.199713706970215	0.32383218	Yes	
+row_2	CCL2	CCL2	chemokine (C-C motif) ligand 2	181	4.006468772888184	0.435312	Yes	
+row_3	CCL8	CCL8	chemokine (C-C motif) ligand 8	430	2.8394453525543213	0.49478883	Yes	
+row_4	CASP1	CASP1	caspase 1, apoptosis-related cysteine peptidase (interleukin 1, beta, convertase)	836	1.5234390497207642	0.5043912	Yes	
+row_5	MAPK11	MAPK11	mitogen-activated protein kinase 11	1240	0.8205039501190186	0.494397	No	
+row_6	RIPK2	RIPK2	receptor-interacting serine-threonine kinase 2	1588	0.578131377696991	0.48218328	No	
+row_7	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.4790448	No	
+row_8	PYCARD	PYCARD	PYD and CARD domain containing	1839	0.4625259041786194	0.48827356	No	
+row_9	TNFAIP3	TNFAIP3	tumor necrosis factor, alpha-induced protein 3	2163	0.36434537172317505	0.47201878	No	
+row_10	HSP90AA1	HSP90AA1	heat shock protein 90kDa alpha (cytosolic), class A member 1	2541	0.2878989279270172	0.44918507	No	
+row_11	ERBB2IP	ERBB2IP	erbb2 interacting protein	2546	0.28743699193000793	0.45693725	No	
+row_12	BIRC2	BIRC2	baculoviral IAP repeat-containing 2	2891	0.23319849371910095	0.435273	No	
+row_13	TRAF6	TRAF6	TNF receptor-associated factor 6	3074	0.21015088260173798	0.4262504	No	
+row_14	MAPK14	MAPK14	mitogen-activated protein kinase 14	3083	0.20983949303627014	0.43149304	No	
+row_15	CCL11	CCL11	chemokine (C-C motif) ligand 11	3289	0.18844005465507507	0.41997334	No	
+row_16	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	0.42078468	No	
+row_17	NFKBIB	NFKBIB	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, beta	3478	0.1697414368391037	0.41456375	No	
+row_18	TRIP6	TRIP6	thyroid hormone receptor interactor 6	3997	0.12521125376224518	0.3755898	No	
+row_19	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.3592513	No	
+row_20	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	4302	0.10265637189149857	0.35664082	No	
+row_21	HSP90AB1	HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1	4690	0.07401172071695328	0.32697406	No	
+row_22	MAPK9	MAPK9	mitogen-activated protein kinase 9	4754	0.07017195224761963	0.32377854	No	
+row_23	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	0.31073967	No	
+row_24	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	5725	0.009372304193675518	0.24619591	No	
+row_25	MAPK12	MAPK12	mitogen-activated protein kinase 12	5737	0.008555998094379902	0.24553406	No	
+row_26	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.24275787	No	
+row_27	SUGT1	SUGT1	SGT1, suppressor of G2 allele of SKP1 (S. cerevisiae)	6103	-0.013033917173743248	0.21621698	No	
+row_28	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	0.13194717	No	
+row_29	PSTPIP1	PSTPIP1	proline-serine-threonine phosphatase interacting protein 1	7331	-0.08515483140945435	0.120149046	No	
+row_30	CARD9	CARD9	caspase recruitment domain family, member 9	7362	-0.08761363476514816	0.120150976	No	
+row_31	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	0.112100266	No	
+row_32	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.08602941	No	
+row_33	CARD6	CARD6	caspase recruitment domain family, member 6	7946	-0.1296970546245575	0.08237434	No	
+row_34	HSP90B1	HSP90B1	heat shock protein 90kDa beta (Grp94), member 1	8168	-0.1484123170375824	0.068416834	No	
+row_35	BIRC3	BIRC3	baculoviral IAP repeat-containing 3	9144	-0.2418367564678192	-0.004768342	No	
+row_36	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	-0.028135384	No	
+row_37	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	-0.03527303	No	
+row_38	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	9925	-0.376265287399292	-0.040282153	No	
+row_39	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	10076	-0.4143373370170593	-0.040939633	No	
+row_40	MAPK13	MAPK13	mitogen-activated protein kinase 13	10887	-0.9262542724609375	-0.08134904	No	
+row_41	MAPK10	MAPK10	mitogen-activated protein kinase 10	11050	-1.1731984615325928	-0.06165812	No	
+row_42	CCL5	CCL5	chemokine (C-C motif) ligand 5	11062	-1.185520887374878	-0.029233595	No	
+row_43	MEFV	MEFV	Mediterranean fever	11160	-1.3728035688400269	0.0014007866	No	
+row_44	CXCL1	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	11809	-3.0813682079315186	0.03486469	No	

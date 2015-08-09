@@ -1,0 +1,181 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DBH	DBH	dopamine beta-hydroxylase (dopamine beta-monooxygenase)	33	6.322621822357178	0.024197856	No	
+row_1	TH	TH	tyrosine hydroxylase	103	4.872713088989258	0.03923257	No	
+row_2	ACMSD	ACMSD	aminocarboxymuconate semialdehyde decarboxylase	356	2.894254684448242	0.030658336	No	
+row_3	TPO	TPO	thyroid peroxidase	385	2.878185749053955	0.04059715	No	
+row_4	DIO3	DIO3	deiodinase, iodothyronine, type III	443	2.771190643310547	0.047674503	No	
+row_5	ASNS	ASNS	asparagine synthetase	702	1.9898909330368042	0.034749825	No	
+row_6	INHBA	INHBA	inhibin, beta A (activin A, activin AB alpha polypeptide)	821	1.5881227254867554	0.031726994	No	
+row_7	LHB	LHB	luteinizing hormone beta polypeptide	925	1.3009430170059204	0.028725032	No	
+row_8	SLC25A21	SLC25A21	solute carrier family 25 (mitochondrial oxodicarboxylate carrier), member 21	933	1.2797528505325317	0.033596296	No	
+row_9	PHGDH	PHGDH	phosphoglycerate dehydrogenase	1001	1.1480844020843506	0.032929447	No	
+row_10	BBOX1	BBOX1	butyrobetaine (gamma), 2-oxoglutarate dioxygenase (gamma-butyrobetaine hydroxylase) 1	1109	0.9923790693283081	0.028281145	No	
+row_11	CDO1	CDO1	cysteine dioxygenase, type I	1190	0.8924767374992371	0.025446977	No	
+row_12	AFMID	AFMID	arylformamidase	1469	0.6450331211090088	0.0051339427	No	
+row_13	PCSK1	PCSK1	proprotein convertase subtilisin/kexin type 1	1477	0.6414157748222351	0.007285797	No	
+row_14	PCBD1	PCBD1	pterin-4 alpha-carbinolamine dehydratase/dimerization cofactor of hepatocyte nuclear factor 1 alpha (TCF1)	1612	0.5607640743255615	-0.0014409844	No	
+row_15	INHBB	INHBB	inhibin, beta B (activin AB beta polypeptide)	1753	0.49264562129974365	-0.01095568	No	
+row_16	PAOX	PAOX	polyamine oxidase (exo-N4-amino)	1757	0.4903278052806854	-0.00911567	No	
+row_17	CSAD	CSAD	cysteine sulfinic acid decarboxylase	2045	0.3999793529510498	-0.031219248	No	
+row_18	ODC1	ODC1	ornithine decarboxylase 1	2145	0.3699599504470825	-0.037855525	No	
+row_19	APIP	APIP	APAF1 interacting protein	2201	0.3551710247993469	-0.040904865	No	
+row_20	PSMB6	PSMB6	proteasome (prosome, macropain) subunit, beta type, 6	2292	0.33429619669914246	-0.046946496	No	
+row_21	SLC5A5	SLC5A5	solute carrier family 5 (sodium iodide symporter), member 5	2318	0.32803162932395935	-0.04762286	No	
+row_22	SLC25A2	SLC25A2	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 2	2401	0.31106889247894287	-0.05309982	No	
+row_23	PSMD13	PSMD13	proteasome (prosome, macropain) 26S subunit, non-ATPase, 13	2477	0.29730597138404846	-0.058054734	No	
+row_24	PSMB9	PSMB9	proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2)	2538	0.2883048355579376	-0.061803702	No	
+row_25	PSMB7	PSMB7	proteasome (prosome, macropain) subunit, beta type, 7	2576	0.2828805446624756	-0.063667856	No	
+row_26	INHA	INHA	inhibin, alpha	2696	0.262208491563797	-0.07242223	No	
+row_27	ACADSB	ACADSB	acyl-Coenzyme A dehydrogenase, short/branched chain	2731	0.25617244839668274	-0.07415131	No	
+row_28	CNDP2	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)	2736	0.2551283836364746	-0.073396236	No	
+row_29	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	2810	0.24459943175315857	-0.07840978	No	
+row_30	GCLC	GCLC	glutamate-cysteine ligase, catalytic subunit	2903	0.23169274628162384	-0.08505443	No	
+row_31	GPT	GPT	glutamic-pyruvate transaminase (alanine aminotransferase)	2921	0.22866033017635345	-0.0854905	No	
+row_32	PSMB5	PSMB5	proteasome (prosome, macropain) subunit, beta type, 5	2975	0.22268305718898773	-0.088938355	No	
+row_33	PSMB10	PSMB10	proteasome (prosome, macropain) subunit, beta type, 10	2986	0.22185587882995605	-0.088822745	No	
+row_34	PSMD6	PSMD6	proteasome (prosome, macropain) 26S subunit, non-ATPase, 6	3171	0.20068922638893127	-0.103231154	No	
+row_35	PSMA6	PSMA6	proteasome (prosome, macropain) subunit, alpha type, 6	3255	0.19113218784332275	-0.109302014	No	
+row_36	PSMA4	PSMA4	proteasome (prosome, macropain) subunit, alpha type, 4	3476	0.17025455832481384	-0.12682639	No	
+row_37	SLC25A10	SLC25A10	solute carrier family 25 (mitochondrial carrier; dicarboxylate transporter), member 10	3557	0.16289173066616058	-0.1327687	No	
+row_38	PSMC4	PSMC4	proteasome (prosome, macropain) 26S subunit, ATPase, 4	3559	0.16277341544628143	-0.13215822	No	
+row_39	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	3649	0.15410877764225006	-0.13888451	No	
+row_40	CCBL1	CCBL1	cysteine conjugate-beta lyase; cytoplasmic (glutamine transaminase K, kyneurenine aminotransferase)	3666	0.15261617302894592	-0.13956161	No	
+row_41	MAT2A	MAT2A	methionine adenosyltransferase II, alpha	3751	0.1459827423095703	-0.14590776	No	
+row_42	QDPR	QDPR	quinoid dihydropteridine reductase	3792	0.1412169635295868	-0.14862427	No	
+row_43	NQO1	NQO1	NAD(P)H dehydrogenase, quinone 1	3815	0.13889023661613464	-0.14985755	No	
+row_44	PSMB4	PSMB4	proteasome (prosome, macropain) subunit, beta type, 4	3834	0.1375693380832672	-0.15076464	No	
+row_45	GPT2	GPT2	glutamic pyruvate transaminase (alanine aminotransferase) 2	4039	0.12143965065479279	-0.16716973	No	
+row_46	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	4098	0.11776391416788101	-0.17147933	No	
+row_47	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	4157	0.11295610666275024	-0.1758094	No	
+row_48	SUOX	SUOX	sulfite oxidase	4249	0.10676809400320053	-0.18290327	No	
+row_49	AUH	AUH	AU RNA binding protein/enoyl-Coenzyme A hydratase	4294	0.10338183492422104	-0.18611279	No	
+row_50	PSMA5	PSMA5	proteasome (prosome, macropain) subunit, alpha type, 5	4359	0.09884388744831085	-0.19100071	No	
+row_51	PSMA2	PSMA2	proteasome (prosome, macropain) subunit, alpha type, 2	4592	0.08079161494970322	-0.20990165	No	
+row_52	GLS	GLS	glutaminase	4641	0.0773971751332283	-0.21355368	No	
+row_53	PSMD8	PSMD8	proteasome (prosome, macropain) 26S subunit, non-ATPase, 8	4662	0.07567499577999115	-0.21489036	No	
+row_54	OAZ1	OAZ1	ornithine decarboxylase antizyme 1	4678	0.07454563677310944	-0.21581708	No	
+row_55	PYCR1	PYCR1	pyrroline-5-carboxylate reductase 1	4769	0.06914044916629791	-0.22298831	No	
+row_56	PSMA3	PSMA3	proteasome (prosome, macropain) subunit, alpha type, 3	4827	0.06571662425994873	-0.22743668	No	
+row_57	PSMD2	PSMD2	proteasome (prosome, macropain) 26S subunit, non-ATPase, 2	4856	0.06392607092857361	-0.22948703	No	
+row_58	PSMA7	PSMA7	proteasome (prosome, macropain) subunit, alpha type, 7	4899	0.06051861122250557	-0.23271324	No	
+row_59	PSMD5	PSMD5	proteasome (prosome, macropain) 26S subunit, non-ATPase, 5	4915	0.059296172112226486	-0.23370492	No	
+row_60	PSMD11	PSMD11	proteasome (prosome, macropain) 26S subunit, non-ATPase, 11	4958	0.05669502913951874	-0.23694743	No	
+row_61	SMS	SMS	spermine synthase	4960	0.05666026100516319	-0.236789	No	
+row_62	AZIN1	AZIN1	antizyme inhibitor 1	4971	0.0562778078019619	-0.23737878	No	
+row_63	PSMC1	PSMC1	proteasome (prosome, macropain) 26S subunit, ATPase, 1	5008	0.05388658121228218	-0.24013554	No	
+row_64	GATM	GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase)	5013	0.05362987518310547	-0.24023888	No	
+row_65	FAH	FAH	fumarylacetoacetate hydrolase (fumarylacetoacetase)	5027	0.051935385912656784	-0.241096	No	
+row_66	PSMA1	PSMA1	proteasome (prosome, macropain) subunit, alpha type, 1	5048	0.050622183829545975	-0.24253942	No	
+row_67	PSMF1	PSMF1	proteasome (prosome, macropain) inhibitor subunit 1 (PI31)	5117	0.04455209895968437	-0.24799043	No	
+row_68	PSMC2	PSMC2	proteasome (prosome, macropain) 26S subunit, ATPase, 2	5221	0.03818463161587715	-0.25637195	No	
+row_69	GRHPR	GRHPR	glyoxylate reductase/hydroxypyruvate reductase	5304	0.03313850238919258	-0.2630329	No	
+row_70	POMC	POMC	proopiomelanocortin (adrenocorticotropin/ beta-lipotropin/ alpha-melanocyte stimulating hormone/ beta-melanocyte stimulating hormone/ beta-endorphin)	5317	0.03254145756363869	-0.26388973	No	
+row_71	GCDH	GCDH	glutaryl-Coenzyme A dehydrogenase	5332	0.03188435733318329	-0.26491523	No	
+row_72	PSMC6	PSMC6	proteasome (prosome, macropain) 26S subunit, ATPase, 6	5387	0.028682073578238487	-0.2692725	No	
+row_73	GAMT	GAMT	guanidinoacetate N-methyltransferase	5482	0.023994076997041702	-0.27696788	No	
+row_74	MAT2B	MAT2B	methionine adenosyltransferase II, beta	5552	0.019574491307139397	-0.28260827	No	
+row_75	TPH1	TPH1	tryptophan hydroxylase 1 (tryptophan 5-monooxygenase)	5639	0.014103182591497898	-0.28968215	No	
+row_76	PSME2	PSME2	proteasome (prosome, macropain) activator subunit 2 (PA28 beta)	5645	0.013650384731590748	-0.29003876	No	
+row_77	PSMC3	PSMC3	proteasome (prosome, macropain) 26S subunit, ATPase, 3	5660	0.01287874300032854	-0.29114524	No	
+row_78	BCKDHB	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide (maple syrup urine disease)	5739	0.008286743424832821	-0.29758027	No	
+row_79	PSMD1	PSMD1	proteasome (prosome, macropain) 26S subunit, non-ATPase, 1	5755	0.007604381535202265	-0.29879218	No	
+row_80	AMD1	AMD1	adenosylmethionine decarboxylase 1	5762	0.006953195668756962	-0.2992603	No	
+row_81	SLC25A15	SLC25A15	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 15	5856	0.0016620648093521595	-0.30696785	No	
+row_82	SQRDL	SQRDL	sulfide quinone reductase-like (yeast)	5886	-0.0011638069991022348	-0.30936852	No	
+row_83	PSMD3	PSMD3	proteasome (prosome, macropain) 26S subunit, non-ATPase, 3	5903	-0.002313384786248207	-0.31068593	No	
+row_84	DLST	DLST	dihydrolipoamide S-succinyltransferase (E2 component of 2-oxo-glutarate complex)	5955	-0.005167149472981691	-0.31489453	No	
+row_85	GLUL	GLUL	glutamate-ammonia ligase (glutamine synthetase)	5957	-0.005263951141387224	-0.31495506	No	
+row_86	PSMD12	PSMD12	proteasome (prosome, macropain) 26S subunit, non-ATPase, 12	5969	-0.006100054364651442	-0.31584156	No	
+row_87	ADI1	ADI1	acireductone dioxygenase 1	6400	-0.029878461733460426	-0.3513841	No	
+row_88	ETHE1	ETHE1	ethylmalonic encephalopathy 1	6402	-0.030163593590259552	-0.35133857	No	
+row_89	IVD	IVD	isovaleryl Coenzyme A dehydrogenase	6426	-0.030995942652225494	-0.35311443	No	
+row_90	SHMT1	SHMT1	serine hydroxymethyltransferase 1 (soluble)	6471	-0.03354401886463165	-0.35662147	No	
+row_91	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	6500	-0.03511209785938263	-0.35879457	No	
+row_92	BCKDHA	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	6511	-0.03581142798066139	-0.35947153	No	
+row_93	GLUD1	GLUD1	glutamate dehydrogenase 1	6594	-0.04042927175760269	-0.36610147	No	
+row_94	PSMC5	PSMC5	proteasome (prosome, macropain) 26S subunit, ATPase, 5	6600	-0.04064492508769035	-0.36634308	No	
+row_95	MCCC1	MCCC1	methylcrotonoyl-Coenzyme A carboxylase 1 (alpha)	6723	-0.048383649438619614	-0.37625724	No	
+row_96	OAT	OAT	ornithine aminotransferase (gyrate atrophy)	6827	-0.05424024537205696	-0.38457033	No	
+row_97	PSMD10	PSMD10	proteasome (prosome, macropain) 26S subunit, non-ATPase, 10	6917	-0.060113854706287384	-0.39169708	No	
+row_98	CKB	CKB	creatine kinase, brain	6934	-0.06126648932695389	-0.39276332	No	
+row_99	PSMB2	PSMB2	proteasome (prosome, macropain) subunit, beta type, 2	7066	-0.06956196576356888	-0.40333384	No	
+row_100	PSMB3	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3	7145	-0.07420619577169418	-0.40948805	No	
+row_101	PSMD4	PSMD4	proteasome (prosome, macropain) 26S subunit, non-ATPase, 4	7225	-0.0785643458366394	-0.41570666	No	
+row_102	CKM	CKM	creatine kinase, muscle	7256	-0.08054132759571075	-0.41785213	No	
+row_103	PSMD14	PSMD14	proteasome (prosome, macropain) 26S subunit, non-ATPase, 14	7370	-0.08840760588645935	-0.42684922	No	
+row_104	PSME4	PSME4	proteasome (prosome, macropain) activator subunit 4	7612	-0.10643518716096878	-0.44638747	No	
+row_105	DLD	DLD	dihydrolipoamide dehydrogenase	7792	-0.11869831383228302	-0.4607304	No	
+row_106	SRM	SRM	spermidine synthase	7845	-0.12248243391513824	-0.46452218	No	
+row_107	ACAD8	ACAD8	acyl-Coenzyme A dehydrogenase family, member 8	7849	-0.12286507338285446	-0.4642476	No	
+row_108	DBT	DBT	dihydrolipoamide branched chain transacylase E2	7854	-0.1230158731341362	-0.46405536	No	
+row_109	BCAT1	BCAT1	branched chain aminotransferase 1, cytosolic	7910	-0.12685565650463104	-0.46807736	No	
+row_110	ALDH4A1	ALDH4A1	aldehyde dehydrogenase 4 family, member A1	7926	-0.12803678214550018	-0.4687762	No	
+row_111	BCAT2	BCAT2	branched chain aminotransferase 2, mitochondrial	7943	-0.12948961555957794	-0.4695518	No	
+row_112	TST	TST	thiosulfate sulfurtransferase (rhodanese)	8035	-0.13699422776699066	-0.47651693	No	
+row_113	PSMB1	PSMB1	proteasome (prosome, macropain) subunit, beta type, 1	8037	-0.13711850345134735	-0.47601575	No	
+row_114	PSMD9	PSMD9	proteasome (prosome, macropain) 26S subunit, non-ATPase, 9	8043	-0.13750028610229492	-0.47584474	No	
+row_115	MTR	MTR	5-methyltetrahydrofolate-homocysteine methyltransferase	8117	-0.14468006789684296	-0.48128396	No	
+row_116	PSME1	PSME1	proteasome (prosome, macropain) activator subunit 1 (PA28 alpha)	8241	-0.15412203967571259	-0.4908306	No	
+row_117	GCLM	GCLM	glutamate-cysteine ligase, modifier subunit	8281	-0.15747688710689545	-0.4933949	No	
+row_118	OGDH	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)	8331	-0.1618572324514389	-0.49677008	No	
+row_119	SLC6A8	SLC6A8	solute carrier family 6 (neurotransmitter transporter, creatine), member 8	8411	-0.16770628094673157	-0.5026089	No	
+row_120	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	8432	-0.17007195949554443	-0.50354344	No	
+row_121	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	8479	-0.17409980297088623	-0.5066176	No	
+row_122	PSPH	PSPH	phosphoserine phosphatase	8481	-0.17449596524238586	-0.5059572	No	
+row_123	MTAP	MTAP	methylthioadenosine phosphorylase	8498	-0.17600762844085693	-0.50653464	No	
+row_124	AHCY	AHCY	S-adenosylhomocysteine hydrolase	8519	-0.1773473620414734	-0.5074381	No	
+row_125	PRODH	PRODH	proline dehydrogenase (oxidase) 1	8582	-0.18223808705806732	-0.5118049	No	
+row_126	HIBADH	HIBADH	3-hydroxyisobutyrate dehydrogenase	8614	-0.18517231941223145	-0.51358753	No	
+row_127	PSMD7	PSMD7	proteasome (prosome, macropain) 26S subunit, non-ATPase, 7 (Mov34 homolog)	8747	-0.19971878826618195	-0.5236865	No	
+row_128	PSMB8	PSMB8	proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7)	8762	-0.20166140794754028	-0.5239888	No	
+row_129	OAZ2	OAZ2	ornithine decarboxylase antizyme 2	8843	-0.2087249606847763	-0.5297358	No	
+row_130	MCCC2	MCCC2	methylcrotonoyl-Coenzyme A carboxylase 2 (beta)	9106	-0.23686648905277252	-0.55046046	No	
+row_131	PSMA8	PSMA8	proteasome (prosome, macropain) subunit, alpha type, 8	9457	-0.2835487127304077	-0.5782861	No	
+row_132	GLS2	GLS2	glutaminase 2 (liver, mitochondrial)	9478	-0.2872302532196045	-0.5787215	No	
+row_133	ASL	ASL	argininosuccinate lyase	9537	-0.296457439661026	-0.58226985	No	
+row_134	PNMT	PNMT	phenylethanolamine N-methyltransferase	9791	-0.3460276424884796	-0.60178286	No	
+row_135	AASS	AASS	aminoadipate-semialdehyde synthase	9846	-0.3583315908908844	-0.6047358	No	
+row_136	DDC	DDC	dopa decarboxylase (aromatic L-amino acid decarboxylase)	9855	-0.35975897312164307	-0.6038668	No	
+row_137	KYNU	KYNU	kynureninase (L-kynurenine hydrolase)	9893	-0.36869561672210693	-0.60536534	No	
+row_138	CKMT2	CKMT2	creatine kinase, mitochondrial 2 (sarcomeric)	9919	-0.3749476373195648	-0.6058419	No	
+row_139	SMOX	SMOX	spermine oxidase	10284	-0.48999691009521484	-0.63394934	No	
+row_140	HIBCH	HIBCH	3-hydroxyisobutyryl-Coenzyme A hydrolase	10336	-0.5081530213356018	-0.6360151	No	
+row_141	DIO1	DIO1	deiodinase, iodothyronine, type I	10353	-0.5180290341377258	-0.63513553	No	
+row_142	HDC	HDC	histidine decarboxylase	10444	-0.5599310994148254	-0.6402159	No	
+row_143	CTH	CTH	cystathionase (cystathionine gamma-lyase)	10476	-0.575587272644043	-0.6403354	No	
+row_144	PSAT1	PSAT1	phosphoserine aminotransferase 1	10486	-0.5813684463500977	-0.63860524	No	
+row_145	ALDH18A1	ALDH18A1	aldehyde dehydrogenase 18 family, member A1	10565	-0.6280755400657654	-0.64239985	No	
+row_146	SAT1	SAT1	spermidine/spermine N1-acetyltransferase 1	10638	-0.6794508695602417	-0.64547795	No	
+row_147	DIO2	DIO2	deiodinase, iodothyronine, type II	10853	-0.8760806322097778	-0.6594977	No	
+row_148	KMO	KMO	kynurenine 3-monooxygenase (kynurenine 3-hydroxylase)	11069	-1.1957688331604004	-0.67223847	No	
+row_149	CBS	CBS	cystathionine-beta-synthase	11119	-1.2900574207305908	-0.6708073	No	
+row_150	DAO	DAO	D-amino-acid oxidase	11269	-1.6188156604766846	-0.6762709	No	
+row_151	IYD	IYD	iodotyrosine deiodinase	11354	-1.825378179550171	-0.6754626	No	
+row_152	HAAO	HAAO	3-hydroxyanthranilate 3,4-dioxygenase	11498	-2.0833628177642822	-0.67844945	Yes	
+row_153	ASS1	ASS1	argininosuccinate synthetase 1	11522	-2.153834581375122	-0.67118174	Yes	
+row_154	AADAT	AADAT	aminoadipate aminotransferase	11527	-2.1825923919677734	-0.6622154	Yes	
+row_155	TPH2	TPH2	tryptophan hydroxylase 2	11595	-2.323815107345581	-0.65787345	Yes	
+row_156	NAGS	NAGS	N-acetylglutamate synthase	11770	-2.8624329566955566	-0.6601129	Yes	
+row_157	OAZ3	OAZ3	ornithine decarboxylase antizyme 3	11799	-3.0435633659362793	-0.64946955	Yes	
+row_158	TSHB	TSHB	thyroid stimulating hormone, beta	11823	-3.096017837524414	-0.638188	Yes	
+row_159	AGXT2	AGXT2	alanine-glyoxylate aminotransferase 2	11899	-3.5779809951782227	-0.6291667	Yes	
+row_160	AANAT	AANAT	arylalkylamine N-acetyltransferase	11913	-3.6711413860321045	-0.61460555	Yes	
+row_161	HGD	HGD	homogentisate 1,2-dioxygenase (homogentisate oxidase)	11922	-3.7466444969177246	-0.5993079	Yes	
+row_162	HAL	HAL	histidine ammonia-lyase	11945	-3.9133026599884033	-0.5844616	Yes	
+row_163	HPD	HPD	4-hydroxyphenylpyruvate dioxygenase	12021	-4.497598648071289	-0.57152265	Yes	
+row_164	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	12027	-4.532679080963135	-0.5526275	Yes	
+row_165	INHBE	INHBE	inhibin, beta E	12032	-4.577663421630859	-0.5334578	Yes	
+row_166	BHMT	BHMT	betaine-homocysteine methyltransferase	12101	-5.63968563079834	-0.5150727	Yes	
+row_167	OTC	OTC	ornithine carbamoyltransferase	12112	-5.839074611663818	-0.49102694	Yes	
+row_168	TDO2	TDO2	tryptophan 2,3-dioxygenase	12124	-6.045047760009766	-0.4661866	Yes	
+row_169	PAH	PAH	phenylalanine hydroxylase	12135	-6.178974628448486	-0.4406928	Yes	
+row_170	AGMAT	AGMAT	agmatine ureohydrolase (agmatinase)	12137	-6.240572929382324	-0.41419	Yes	
+row_171	INHBC	INHBC	inhibin, beta C	12149	-6.594518661499023	-0.38700885	Yes	
+row_172	AMDHD1	AMDHD1	amidohydrolase domain containing 1	12171	-7.032733917236328	-0.35879037	Yes	
+row_173	AGXT	AGXT	alanine-glyoxylate aminotransferase (oxalosis I; hyperoxaluria I; glycolicaciduria; serine-pyruvate aminotransferase)	12188	-7.4820356369018555	-0.32824305	Yes	
+row_174	FTCD	FTCD	formiminotransferase cyclodeaminase	12191	-7.545209884643555	-0.2962652	Yes	
+row_175	ARG1	ARG1	arginase, liver	12214	-8.73173999786377	-0.26089168	Yes	
+row_176	TAT	TAT	tyrosine aminotransferase	12217	-8.862757682800293	-0.22330093	Yes	
+row_177	UROC1	UROC1	urocanase domain containing 1	12226	-9.709391593933105	-0.18260111	Yes	
+row_178	MAT1A	MAT1A	methionine adenosyltransferase I, alpha	12231	-20.776729583740234	-0.094420955	Yes	
+row_179	CPS1	CPS1	carbamoyl-phosphate synthetase 1, mitochondrial	12233	-22.202674865722656	8.278266E-5	Yes	

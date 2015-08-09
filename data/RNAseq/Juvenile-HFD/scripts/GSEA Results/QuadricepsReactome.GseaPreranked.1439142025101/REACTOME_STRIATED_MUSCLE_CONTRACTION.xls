@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNNT2	TNNT2	troponin T type 2 (cardiac)	3246	0.1920492798089981	-0.25603414	No	
+row_1	NEB	NEB	nebulin	3247	0.19190841913223267	-0.24618427	No	
+row_2	MYBPC2	MYBPC2	myosin binding protein C, fast type	3942	0.12872391939163208	-0.2964254	No	
+row_3	MYH3	MYH3	myosin, heavy chain 3, skeletal muscle, embryonic	4449	0.09088602662086487	-0.33320883	No	
+row_4	VIM	VIM	vimentin	4733	0.07156450301408768	-0.35271722	No	
+row_5	MYL1	MYL1	myosin, light chain 1, alkali; skeletal, fast	4881	0.062206707894802094	-0.3615657	No	
+row_6	DES	DES	desmin	5478	0.024281106889247894	-0.4091399	No	
+row_7	MYL4	MYL4	myosin, light chain 4, alkali; atrial, embryonic	5679	0.011788608506321907	-0.42491755	No	
+row_8	TPM4	TPM4	tropomyosin 4	5841	0.0027579092420637608	-0.43796408	No	
+row_9	TNNC2	TNNC2	troponin C type 2 (fast)	6205	-0.018519533798098564	-0.46674815	No	
+row_10	TPM1	TPM1	tropomyosin 1 (alpha)	8211	-0.15185822546482086	-0.62319046	No	
+row_11	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	9085	-0.2339877188205719	-0.68269134	No	
+row_12	TMOD1	TMOD1	tropomodulin 1	9134	-0.24064426124095917	-0.67427194	No	
+row_13	TNNI2	TNNI2	troponin I type 2 (skeletal, fast)	9142	-0.24173523485660553	-0.66243804	No	
+row_14	TCAP	TCAP	titin-cap (telethonin)	9715	-0.3324068784713745	-0.69223154	Yes	
+row_15	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	9785	-0.34539994597435	-0.68015563	Yes	
+row_16	MYBPC1	MYBPC1	myosin binding protein C, slow type	9788	-0.345873087644577	-0.6625672	Yes	
+row_17	TPM2	TPM2	tropomyosin 2 (beta)	9848	-0.3585957884788513	-0.64899486	Yes	
+row_18	ACTN2	ACTN2	actinin, alpha 2	9852	-0.3587188720703125	-0.6308291	Yes	
+row_19	TNNI3	TNNI3	troponin I type 3 (cardiac)	10014	-0.3989501893520355	-0.6235407	Yes	
+row_20	MYH8	MYH8	myosin, heavy chain 8, skeletal muscle, perinatal	10389	-0.5343887209892273	-0.62674844	Yes	
+row_21	TPM3	TPM3	tropomyosin 3	11350	-1.8170452117919922	-0.612124	Yes	
+row_22	TNNT1	TNNT1	troponin T type 1 (skeletal, slow)	11616	-2.398545265197754	-0.51072377	Yes	
+row_23	TNNI1	TNNI1	troponin I type 1 (skeletal, slow)	11658	-2.472162961959839	-0.38719642	Yes	
+row_24	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	11699	-2.7073278427124023	-0.25151712	Yes	
+row_25	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	11702	-2.7151999473571777	-0.11232105	Yes	
+row_26	TNNC1	TNNC1	troponin C type 1 (slow)	11796	-3.0358433723449707	0.035878178	Yes	

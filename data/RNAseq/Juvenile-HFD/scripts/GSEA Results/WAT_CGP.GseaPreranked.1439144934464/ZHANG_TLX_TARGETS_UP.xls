@@ -1,0 +1,75 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PEG3	PEG3	paternally expressed 3	298	4.929829120635986	0.008556466	No	
+row_1	FAM111A	FAM111A	family with sequence similarity 111, member A	677	3.59602427482605	0.0023085035	No	
+row_2	SLC12A2	SLC12A2	solute carrier family 12 (sodium/potassium/chloride transporters), member 2	1819	1.6904726028442383	-0.075529814	No	
+row_3	NET1	NET1	neuroepithelial cell transforming gene 1	2119	1.3818202018737793	-0.0898853	No	
+row_4	TIMELESS	TIMELESS	timeless homolog (Drosophila)	2254	1.2660942077636719	-0.0921561	No	
+row_5	ANLN	ANLN	anillin, actin binding protein	2350	1.1868563890457153	-0.091904424	No	
+row_6	DEK	DEK	DEK oncogene (DNA binding)	3204	0.6225316524505615	-0.15422249	No	
+row_7	PLK4	PLK4	polo-like kinase 4 (Drosophila)	3622	0.43989643454551697	-0.18381502	No	
+row_8	TIPIN	TIPIN	TIMELESS interacting protein	3642	0.43203285336494446	-0.18251188	No	
+row_9	PDZD11	PDZD11	PDZ domain containing 11	4123	0.2624621093273163	-0.21814488	No	
+row_10	SLC4A4	SLC4A4	solute carrier family 4, sodium bicarbonate cotransporter, member 4	4213	0.23214736580848694	-0.22357097	No	
+row_11	TCF19	TCF19	transcription factor 19 (SC1)	4450	0.15587422251701355	-0.24091785	No	
+row_12	CCNA2	CCNA2	cyclin A2	5352	-0.06791079044342041	-0.31053755	No	
+row_13	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	-0.3205321	No	
+row_14	GINS1	GINS1	GINS complex subunit 1 (Psf1 homolog)	5721	-0.15302659571170807	-0.3374308	No	
+row_15	TYMS	TYMS	thymidylate synthetase	5832	-0.17753641307353973	-0.3448412	No	
+row_16	RFC1	RFC1	replication factor C (activator 1) 1, 145kDa	5835	-0.17793826758861542	-0.34385154	No	
+row_17	NUP85	NUP85	nucleoporin 85kDa	6158	-0.24569125473499298	-0.36730725	No	
+row_18	TMPO	TMPO	thymopoietin	6168	-0.24751722812652588	-0.36641407	No	
+row_19	NCAPG2	NCAPG2	non-SMC condensin II complex, subunit G2	6339	-0.28503546118736267	-0.3777979	No	
+row_20	TARDBP	TARDBP	TAR DNA binding protein	6682	-0.36513811349868774	-0.40203997	No	
+row_21	POLA1	POLA1	polymerase (DNA directed), alpha 1	6865	-0.4061275124549866	-0.41357756	No	
+row_22	HAT1	HAT1	histone acetyltransferase 1	6909	-0.41499316692352295	-0.4142502	No	
+row_23	CASP8AP2	CASP8AP2	CASP8 associated protein 2	7277	-0.5020585656166077	-0.43955493	No	
+row_24	RBL1	RBL1	retinoblastoma-like 1 (p107)	7402	-0.5320842862129211	-0.4457721	No	
+row_25	PRIM1	PRIM1	primase, polypeptide 1, 49kDa	7705	-0.6121993660926819	-0.46531397	No	
+row_26	RBBP8	RBBP8	retinoblastoma binding protein 8	7855	-0.6481729745864868	-0.4727279	No	
+row_27	WDHD1	WDHD1	WD repeat and HMG-box DNA binding protein 1	8141	-0.7254452705383301	-0.4902191	No	
+row_28	MCM4	MCM4	MCM4 minichromosome maintenance deficient 4 (S. cerevisiae)	8143	-0.7256672382354736	-0.4856266	No	
+row_29	SMC6	SMC6	structural maintenance of chromosomes 6	8145	-0.7262784242630005	-0.4810302	No	
+row_30	MKI67	MKI67	antigen identified by monoclonal antibody Ki-67	8376	-0.7998924255371094	-0.4937658	No	
+row_31	CHAF1B	CHAF1B	chromatin assembly factor 1, subunit B (p60)	8635	-0.883274495601654	-0.5081419	No	
+row_32	PPAT	PPAT	phosphoribosyl pyrophosphate amidotransferase	8685	-0.9030160307884216	-0.50614023	No	
+row_33	LIG1	LIG1	ligase I, DNA, ATP-dependent	8747	-0.9263439774513245	-0.5049215	No	
+row_34	CENPK	CENPK	centromere protein K	8802	-0.9478092193603516	-0.50302035	No	
+row_35	MCM10	MCM10	MCM10 minichromosome maintenance deficient 10 (S. cerevisiae)	9441	-1.2084020376205444	-0.5448507	No	
+row_36	RIF1	RIF1	RAP1 interacting factor homolog (yeast)	9460	-1.2143769264221191	-0.5384348	No	
+row_37	RAD54L	RAD54L	RAD54-like (S. cerevisiae)	9681	-1.3278206586837769	-0.5469952	No	
+row_38	EZH2	EZH2	enhancer of zeste homolog 2 (Drosophila)	9854	-1.399071455001831	-0.5513649	No	
+row_39	INCENP	INCENP	inner centromere protein antigens 135/155kDa	10119	-1.5522520542144775	-0.5619021	Yes	
+row_40	MASTL	MASTL	microtubule associated serine/threonine kinase-like	10199	-1.6024683713912964	-0.55773157	Yes	
+row_41	SMC4	SMC4	structural maintenance of chromosomes 4	10327	-1.6974539756774902	-0.55668193	Yes	
+row_42	POLE	POLE	polymerase (DNA directed), epsilon	10328	-1.6974716186523438	-0.5457574	Yes	
+row_43	KIF11	KIF11	kinesin family member 11	10345	-1.7094770669937134	-0.53599966	Yes	
+row_44	FANCA	FANCA	Fanconi anemia, complementation group A	10376	-1.7276411056518555	-0.5272136	Yes	
+row_45	TTPA	TTPA	tocopherol (alpha) transfer protein (ataxia (Friedreich-like) with vitamin E deficiency)	10539	-1.8567038774490356	-0.52786046	Yes	
+row_46	SMC2	SMC2	structural maintenance of chromosomes 2	10679	-1.9943718910217285	-0.52583295	Yes	
+row_47	USP1	USP1	ubiquitin specific peptidase 1	10701	-2.0162065029144287	-0.51448995	Yes	
+row_48	CHEK1	CHEK1	CHK1 checkpoint homolog (S. pombe)	10782	-2.1063451766967773	-0.50715435	Yes	
+row_49	SHMT1	SHMT1	serine hydroxymethyltransferase 1 (soluble)	10891	-2.2214314937591553	-0.50125515	Yes	
+row_50	RAD51C	RAD51C	RAD51 homolog C (S. cerevisiae)	10991	-2.357630968093872	-0.49377966	Yes	
+row_51	BLM	BLM	Bloom syndrome	11156	-2.5951077938079834	-0.48982987	Yes	
+row_52	CEP55	CEP55	centrosomal protein 55kDa	11157	-2.597538471221924	-0.47311267	Yes	
+row_53	TRIP13	TRIP13	thyroid hormone receptor interactor 13	11181	-2.629549980163574	-0.45797783	Yes	
+row_54	ZWILCH	ZWILCH	Zwilch, kinetochore associated, homolog (Drosophila)	11264	-2.7319700717926025	-0.44677132	Yes	
+row_55	SGOL1	SGOL1	shugoshin-like 1 (S. pombe)	11360	-2.903615713119507	-0.43547097	Yes	
+row_56	BRCA1	BRCA1	breast cancer 1, early onset	11442	-3.0339694023132324	-0.42224312	Yes	
+row_57	DTL	DTL	denticleless homolog (Drosophila)	11717	-3.575773239135742	-0.42053497	Yes	
+row_58	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	11760	-3.699307918548584	-0.3999927	Yes	
+row_59	RAD51AP1	RAD51AP1	RAD51 associated protein 1	11803	-3.8313121795654297	-0.37860093	Yes	
+row_60	LYAR	LYAR	-	11876	-4.096965312957764	-0.35783207	Yes	
+row_61	NCAPG	NCAPG	non-SMC condensin I complex, subunit G	11884	-4.1380486488342285	-0.3317448	Yes	
+row_62	NASP	NASP	nuclear autoantigenic sperm protein (histone-binding)	11902	-4.215923309326172	-0.30593386	Yes	
+row_63	HMMR	HMMR	hyaluronan-mediated motility receptor (RHAMM)	11924	-4.298189640045166	-0.2799045	Yes	
+row_64	EXO1	EXO1	exonuclease 1	11939	-4.3227972984313965	-0.2531725	Yes	
+row_65	SASS6	SASS6	spindle assembly 6 homolog (C. elegans)	11985	-4.514551162719727	-0.22761679	Yes	
+row_66	FANCI	FANCI	Fanconi anemia, complementation group I	12013	-4.64994478225708	-0.19979014	Yes	
+row_67	FIGNL1	FIGNL1	fidgetin-like 1	12066	-4.92734432220459	-0.17212206	Yes	
+row_68	CENPF	CENPF	centromere protein F, 350/400ka (mitosin)	12107	-5.100307941436768	-0.14240779	Yes	
+row_69	SHCBP1	SHCBP1	SHC SH2-domain binding protein 1	12199	-5.729546070098877	-0.11260935	Yes	
+row_70	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	-0.077922665	Yes	
+row_71	TTK	TTK	TTK protein kinase	12302	-6.468929290771484	-0.038544934	Yes	
+row_72	CENPN	CENPN	centromere protein N	12305	-6.490599632263184	0.0030716227	Yes	
+row_73	SPAG5	SPAG5	sperm associated antigen 5	12382	-7.109932899475098	0.042920247	Yes	

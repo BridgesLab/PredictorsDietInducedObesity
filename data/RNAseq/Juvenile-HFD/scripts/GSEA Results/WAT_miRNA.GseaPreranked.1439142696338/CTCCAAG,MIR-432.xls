@@ -1,0 +1,65 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TRPC3	TRPC3	transient receptor potential cation channel, subfamily C, member 3	171	5.743251323699951	0.04864567	Yes	
+row_1	SDPR	SDPR	serum deprivation response (phosphatidylserine binding protein)	182	5.6819748878479	0.10913932	Yes	
+row_2	RGS7BP	RGS7BP	regulator of G-protein signalling 7 binding protein	218	5.390728950500488	0.16455002	Yes	
+row_3	RASGRP4	RASGRP4	RAS guanyl releasing protein 4	257	5.136268138885498	0.2169837	Yes	
+row_4	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	446	4.294555187225342	0.2486868	Yes	
+row_5	SPARC	SPARC	secreted protein, acidic, cysteine-rich (osteonectin)	499	4.117643356323242	0.2890486	Yes	
+row_6	DAB2IP	DAB2IP	DAB2 interacting protein	836	3.236037492752075	0.29783866	Yes	
+row_7	ABCA9	ABCA9	ATP-binding cassette, sub-family A (ABC1), member 9	967	2.935736894607544	0.31939545	Yes	
+row_8	HOXA5	HOXA5	homeobox A5	984	2.8963708877563477	0.34938484	Yes	
+row_9	PMP22	PMP22	peripheral myelin protein 22	1295	2.3749494552612305	0.35090956	Yes	
+row_10	VGLL3	VGLL3	vestigial like 3 (Drosophila)	1377	2.2486748695373535	0.36886454	Yes	
+row_11	FAM126B	FAM126B	family with sequence similarity 126, member B	2014	1.4668611288070679	0.33526877	No	
+row_12	AP3S1	AP3S1	adaptor-related protein complex 3, sigma 1 subunit	2147	1.3508833646774292	0.33958018	No	
+row_13	DCTN3	DCTN3	dynactin 3 (p22)	2275	1.245913028717041	0.3431481	No	
+row_14	PDLIM5	PDLIM5	PDZ and LIM domain 5	2374	1.1717021465301514	0.34816894	No	
+row_15	TLN1	TLN1	talin 1	2636	0.9600453972816467	0.33824328	No	
+row_16	FN1	FN1	fibronectin 1	3283	0.5844084024429321	0.2943548	No	
+row_17	SMCR8	SMCR8	Smith-Magenis syndrome chromosome region, candidate 8	3613	0.4430290758609772	0.27357078	No	
+row_18	PRPF4B	PRPF4B	PRP4 pre-mRNA processing factor 4 homolog B (yeast)	3952	0.3163994550704956	0.25072202	No	
+row_19	BACE1	BACE1	beta-site APP-cleaving enzyme 1	3981	0.3077077567577362	0.2518647	No	
+row_20	BRPF1	BRPF1	bromodomain and PHD finger containing, 1	4097	0.2723464369773865	0.2458667	No	
+row_21	ESRRA	ESRRA	estrogen-related receptor alpha	4146	0.2566792666912079	0.24490523	No	
+row_22	HSPA14	HSPA14	heat shock 70kDa protein 14	4174	0.24529923498630524	0.24545264	No	
+row_23	FNTB	FNTB	farnesyltransferase, CAAX box, beta	4383	0.17630404233932495	0.23119342	No	
+row_24	CHKB	CHKB	choline kinase beta	4474	0.14902105927467346	0.2258079	No	
+row_25	POLDIP2	POLDIP2	polymerase (DNA-directed), delta interacting protein 2	4684	0.09862639755010605	0.21063337	No	
+row_26	ZFP91	ZFP91	zinc finger protein 91 homolog (mouse)	5005	0.012187506072223186	0.1859027	No	
+row_27	PURA	PURA	purine-rich element binding protein A	5055	-0.0026963497512042522	0.18212476	No	
+row_28	ALKBH8	ALKBH8	alkB, alkylation repair homolog 8 (E. coli)	5947	-0.20190741121768951	0.1150766	No	
+row_29	ARL5B	ARL5B	ADP-ribosylation factor-like 5B	6269	-0.2680274546146393	0.09302705	No	
+row_30	NFAT5	NFAT5	nuclear factor of activated T-cells 5, tonicity-responsive	6531	-0.32950741052627563	0.07630209	No	
+row_31	TSHZ3	TSHZ3	teashirt family zinc finger 3	6751	-0.37902992963790894	0.063374296	No	
+row_32	PLAGL2	PLAGL2	pleiomorphic adenoma gene-like 2	6782	-0.3866468369960785	0.06521281	No	
+row_33	HIF1AN	HIF1AN	hypoxia-inducible factor 1, alpha subunit inhibitor	7116	-0.4644351899623871	0.04434885	No	
+row_34	SLMAP	SLMAP	sarcolemma associated protein	7314	-0.5138779282569885	0.034584437	No	
+row_35	SPTY2D1	SPTY2D1	SPT2, Suppressor of Ty, domain containing 1 (S. cerevisiae)	7347	-0.5209094285964966	0.037715364	No	
+row_36	PITPNC1	PITPNC1	phosphatidylinositol transfer protein, cytoplasmic 1	7575	-0.5783153176307678	0.02631498	No	
+row_37	TBC1D22B	TBC1D22B	TBC1 domain family, member 22B	7758	-0.626714289188385	0.018932728	No	
+row_38	CSE1L	CSE1L	CSE1 chromosome segregation 1-like (yeast)	7771	-0.6288363337516785	0.024781348	No	
+row_39	PSD3	PSD3	pleckstrin and Sec7 domain containing 3	7851	-0.647167444229126	0.025622135	No	
+row_40	FURIN	FURIN	furin (paired basic amino acid cleaving enzyme)	7875	-0.6537939310073853	0.030885246	No	
+row_41	AMFR	AMFR	autocrine motility factor receptor	7906	-0.6622312068939209	0.03569548	No	
+row_42	RNF44	RNF44	ring finger protein 44	7960	-0.6751575469970703	0.038858138	No	
+row_43	ANKZF1	ANKZF1	ankyrin repeat and zinc finger domain containing 1	8146	-0.7263501286506653	0.032317214	No	
+row_44	EHD3	EHD3	EH-domain containing 3	8283	-0.7682710886001587	0.03003534	No	
+row_45	ANKRD28	ANKRD28	ankyrin repeat domain 28	8293	-0.7732773423194885	0.037674595	No	
+row_46	TRIM9	TRIM9	tripartite motif-containing 9	8356	-0.7944145798683167	0.041423995	No	
+row_47	CELSR2	CELSR2	cadherin, EGF LAG seven-pass G-type receptor 2 (flamingo homolog, Drosophila)	8367	-0.7971454858779907	0.049242936	No	
+row_48	HOMER2	HOMER2	homer homolog 2 (Drosophila)	8408	-0.8084781765937805	0.054853257	No	
+row_49	EML4	EML4	echinoderm microtubule associated protein like 4	8537	-0.8498113751411438	0.054072212	No	
+row_50	WHSC1	WHSC1	Wolf-Hirschhorn syndrome candidate 1	8896	-0.9813855290412903	0.036840346	No	
+row_51	GRIA2	GRIA2	glutamate receptor, ionotropic, AMPA 2	8951	-1.0022844076156616	0.04345283	No	
+row_52	POLE3	POLE3	polymerase (DNA directed), epsilon 3 (p17 subunit)	9115	-1.0722451210021973	0.042351067	No	
+row_53	LUZP1	LUZP1	leucine zipper protein 1	9351	-1.1660937070846558	0.036667336	No	
+row_54	PDE4A	PDE4A	phosphodiesterase 4A, cAMP-specific (phosphodiesterase E2 dunce homolog, Drosophila)	9685	-1.330466628074646	0.025142075	No	
+row_55	ACE	ACE	angiotensin I converting enzyme (peptidyl-dipeptidase A) 1	9990	-1.4752767086029053	0.017431477	No	
+row_56	NR5A2	NR5A2	nuclear receptor subfamily 5, group A, member 2	10211	-1.6090898513793945	0.017690128	No	
+row_57	STK35	STK35	serine/threonine kinase 35	10443	-1.7773466110229492	0.018908512	No	
+row_58	HMGA2	HMGA2	high mobility group AT-hook 2	10488	-1.8126106262207031	0.035035945	No	
+row_59	CRB3	CRB3	crumbs homolog 3 (Drosophila)	10540	-1.8569607734680176	0.051097766	No	
+row_60	CPEB2	CPEB2	cytoplasmic polyadenylation element binding protein 2	10860	-2.1911816596984863	0.049941592	No	
+row_61	ABCC3	ABCC3	ATP-binding cassette, sub-family C (CFTR/MRP), member 3	10920	-2.257258892059326	0.0696984	No	
+row_62	CAPN3	CAPN3	calpain 3, (p94)	11277	-2.750190019607544	0.07169552	No	
+row_63	CPT1B	CPT1B	carnitine palmitoyltransferase 1B (muscle)	12139	-5.282769203186035	0.061766773	No	

@@ -1,0 +1,64 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PCDH10	PCDH10	protocadherin 10	309	3.1386282444000244	0.078727	Yes	
+row_1	CECR6	CECR6	cat eye syndrome chromosome region, candidate 6	325	3.0625040531158447	0.17908263	Yes	
+row_2	SMPD3	SMPD3	sphingomyelin phosphodiesterase 3, neutral membrane (neutral sphingomyelinase II)	565	2.4058802127838135	0.23925416	Yes	
+row_3	SAMD11	SAMD11	sterile alpha motif domain containing 11	703	1.9848910570144653	0.2938407	Yes	
+row_4	ELOVL6	ELOVL6	ELOVL family member 6, elongation of long chain fatty acids (FEN1/Elo2, SUR4/Elo3-like, yeast)	1115	0.9882379770278931	0.29285607	Yes	
+row_5	PCDH17	PCDH17	protocadherin 17	1643	0.5415670275688171	0.2675246	Yes	
+row_6	AKAP2	AKAP2	A kinase (PRKA) anchor protein 2	1745	0.495930552482605	0.27567762	Yes	
+row_7	IKZF4	IKZF4	IKAROS family zinc finger 4 (Eos)	2097	0.3852531611919403	0.2596204	Yes	
+row_8	CTDSPL	CTDSPL	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like	2141	0.3715223968029022	0.26841167	Yes	
+row_9	SGCD	SGCD	sarcoglycan, delta (35kDa dystrophin-associated glycoprotein)	2170	0.36219263076782227	0.2781258	Yes	
+row_10	STC1	STC1	stanniocalcin 1	2226	0.34958434104919434	0.2852035	Yes	
+row_11	GPC4	GPC4	glypican 4	2452	0.3014540374279022	0.27671814	Yes	
+row_12	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	2465	0.29934123158454895	0.28566188	Yes	
+row_13	H3F3B	H3F3B	H3 histone, family 3B (H3.3B)	2575	0.28292858600616455	0.28609207	Yes	
+row_14	MMD	MMD	monocyte to macrophage differentiation-associated	2661	0.26973071694374084	0.28805622	Yes	
+row_15	RRAGC	RRAGC	Ras-related GTP binding C	2682	0.26598265767097473	0.29523614	Yes	
+row_16	GATA3	GATA3	GATA binding protein 3	2742	0.25456342101097107	0.29883322	Yes	
+row_17	ZDHHC9	ZDHHC9	zinc finger, DHHC-type containing 9	3220	0.1946732997894287	0.26610252	No	
+row_18	DND1	DND1	dead end homolog 1 (zebrafish)	3262	0.19039535522460938	0.26904985	No	
+row_19	SORT1	SORT1	sortilin 1	3364	0.1810789257287979	0.2667588	No	
+row_20	IL16	IL16	interleukin 16 (lymphocyte chemoattractant factor)	3680	0.15086787939071655	0.24588424	No	
+row_21	NRF1	NRF1	nuclear respiratory factor 1	3821	0.13858197629451752	0.23897941	No	
+row_22	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	4114	0.1160978153347969	0.21884106	No	
+row_23	MECP2	MECP2	methyl CpG binding protein 2 (Rett syndrome)	4400	0.09424830973148346	0.19855304	No	
+row_24	LIF	LIF	leukemia inhibitory factor (cholinergic differentiation factor)	4671	0.07501573860645294	0.17885937	No	
+row_25	KLF13	KLF13	Kruppel-like factor 13	4759	0.06991323083639145	0.17403094	No	
+row_26	CNTFR	CNTFR	ciliary neurotrophic factor receptor	4970	0.0562986359000206	0.15864575	No	
+row_27	PURB	PURB	purine-rich element binding protein B	5229	0.037766654044389725	0.13870233	No	
+row_28	CHRD	CHRD	chordin	5396	0.02813846431672573	0.12599787	No	
+row_29	ARNT	ARNT	aryl hydrocarbon receptor nuclear translocator	5465	0.024834612384438515	0.12123508	No	
+row_30	RNF44	RNF44	ring finger protein 44	5614	0.01564277894794941	0.10959492	No	
+row_31	KLHL18	KLHL18	kelch-like 18 (Drosophila)	5968	-0.005912071093916893	0.08079005	No	
+row_32	USP9X	USP9X	ubiquitin specific peptidase 9, X-linked	6374	-0.02858235128223896	0.04846508	No	
+row_33	ZMYND11	ZMYND11	zinc finger, MYND domain containing 11	6629	-0.042070236057043076	0.02899305	No	
+row_34	POLR3E	POLR3E	polymerase (RNA) III (DNA directed) polypeptide E (80kD)	6796	-0.05239833891391754	0.017093327	No	
+row_35	VANGL2	VANGL2	vang-like 2 (van gogh, Drosophila)	6815	-0.05372457578778267	0.01739665	No	
+row_36	POMT2	POMT2	protein-O-mannosyltransferase 2	6973	-0.06432196497917175	0.006631852	No	
+row_37	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	7030	-0.0676606222987175	0.004275536	No	
+row_38	PCDH1	PCDH1	protocadherin 1 (cadherin-like 1)	7264	-0.08094389736652374	-0.012181724	No	
+row_39	CHD3	CHD3	chromodomain helicase DNA binding protein 3	7679	-0.11154650896787643	-0.042494044	No	
+row_40	CHD6	CHD6	chromodomain helicase DNA binding protein 6	7711	-0.11369223147630692	-0.041269526	No	
+row_41	SDC4	SDC4	syndecan 4 (amphiglycan, ryudocan)	7906	-0.126668781042099	-0.053005945	No	
+row_42	FXR2	FXR2	fragile X mental retardation, autosomal homolog 2	7921	-0.12753605842590332	-0.04992556	No	
+row_43	CNOT6	CNOT6	CCR4-NOT transcription complex, subunit 6	8172	-0.14879100024700165	-0.06552888	No	
+row_44	BACH2	BACH2	BTB and CNC homology 1, basic leucine zipper transcription factor 2	8289	-0.15828411281108856	-0.069808416	No	
+row_45	FZD7	FZD7	frizzled homolog 7 (Drosophila)	8403	-0.16725784540176392	-0.07354382	No	
+row_46	CEP170	CEP170	centrosomal protein 170kDa	8569	-0.18126767873764038	-0.08108659	No	
+row_47	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	8639	-0.1881517916917801	-0.08051406	No	
+row_48	ATP1B4	ATP1B4	ATPase, (Na+)/K+ transporting, beta 4 polypeptide	9141	-0.24166488647460938	-0.1136577	No	
+row_49	MNT	MNT	MAX binding protein	9358	-0.2685948312282562	-0.12249364	No	
+row_50	NFIX	NFIX	nuclear factor I/X (CCAAT-binding transcription factor)	9418	-0.27705487608909607	-0.118150495	No	
+row_51	USP2	USP2	ubiquitin specific peptidase 2	9800	-0.3493928015232086	-0.13786195	No	
+row_52	CSNK1G1	CSNK1G1	casein kinase 1, gamma 1	9820	-0.3521161377429962	-0.12774268	No	
+row_53	HMGN2	HMGN2	high-mobility group nucleosomal binding domain 2	9826	-0.3540184795856476	-0.116410114	No	
+row_54	COPS7B	COPS7B	COP9 constitutive photomorphogenic homolog subunit 7B (Arabidopsis)	9979	-0.3875023126602173	-0.11604375	No	
+row_55	SH2D3C	SH2D3C	SH2 domain containing 3C	10025	-0.4014444649219513	-0.10642422	No	
+row_56	BAIAP2	BAIAP2	BAI1-associated protein 2	10301	-0.49514439702033997	-0.112592354	No	
+row_57	HAS3	HAS3	hyaluronan synthase 3	10481	-0.5794978737831116	-0.1080754	No	
+row_58	SLC25A22	SLC25A22	solute carrier family 25 (mitochondrial carrier: glutamate), member 22	10623	-0.6702072620391846	-0.097427554	No	
+row_59	IER2	IER2	immediate early response 2	10637	-0.679442822933197	-0.07595742	No	
+row_60	DCX	DCX	doublecortex; lissencephaly, X-linked (doublecortin)	10771	-0.7925101518630981	-0.060595352	No	
+row_61	HTR7	HTR7	5-hydroxytryptamine (serotonin) receptor 7 (adenylate cyclase-coupled)	11524	-2.1641852855682373	-0.05058713	No	
+row_62	SOHLH1	SOHLH1	spermatogenesis and oogenesis specific basic helix-loop-helix 1	11850	-3.280989170074463	0.03154771	No	

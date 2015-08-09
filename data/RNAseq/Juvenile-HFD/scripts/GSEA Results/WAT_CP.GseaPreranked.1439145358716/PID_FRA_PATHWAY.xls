@@ -1,0 +1,35 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BGLAP	BGLAP	bone gamma-carboxyglutamate (gla) protein (osteocalcin)	29	8.233338356018066	0.11651746	Yes	
+row_1	NOS3	NOS3	nitric oxide synthase 3 (endothelial cell)	276	5.04119873046875	0.17016812	Yes	
+row_2	PLAUR	PLAUR	plasminogen activator, urokinase receptor	378	4.562633037567139	0.22815494	Yes	
+row_3	THBD	THBD	thrombomodulin	379	4.545618057250977	0.29372516	Yes	
+row_4	MMP2	MMP2	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)	473	4.1983323097229	0.34707707	Yes	
+row_5	DCN	DCN	decorin	560	3.9327852725982666	0.3971411	Yes	
+row_6	CCL2	CCL2	chemokine (C-C motif) ligand 2	630	3.718816041946411	0.44543633	Yes	
+row_7	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	960	2.956447124481201	0.46258098	Yes	
+row_8	IL6	IL6	interleukin 6 (interferon, beta 2)	1008	2.8525662422180176	0.50008595	Yes	
+row_9	NFATC2	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2	1140	2.6036345958709717	0.52748895	Yes	
+row_10	COL1A2	COL1A2	collagen, type I, alpha 2	1170	2.547736883163452	0.561992	Yes	
+row_11	NFATC1	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	1508	2.0340843200683594	0.5652115	Yes	
+row_12	HMOX1	HMOX1	heme oxygenase (decycling) 1	1660	1.8871469497680664	0.58072895	Yes	
+row_13	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.57029486	No	
+row_14	PLAU	PLAU	plasminogen activator, urokinase	2329	1.2002309560775757	0.56698954	No	
+row_15	FOSL2	FOSL2	FOS-like antigen 2	2984	0.7392375469207764	0.52695924	No	
+row_16	LIF	LIF	leukemia inhibitory factor (cholinergic differentiation factor)	3151	0.6486998796463013	0.5234495	No	
+row_17	SP1	SP1	Sp1 transcription factor	3757	0.38267093896865845	0.4820739	No	
+row_18	ATF4	ATF4	activating transcription factor 4 (tax-responsive enhancer element B67)	4381	0.17704249918460846	0.4363369	No	
+row_19	NFATC3	NFATC3	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3	4476	0.14862433075904846	0.43119454	No	
+row_20	DMTF1	DMTF1	cyclin D binding myb-like transcription factor 1	4946	0.0302134919911623	0.39527658	No	
+row_21	CCNA2	CCNA2	cyclin A2	5352	-0.06791079044342041	0.36486328	No	
+row_22	USF2	USF2	upstream transcription factor 2, c-fos interacting	5472	-0.09772946685552597	0.35704893	No	
+row_23	MGP	MGP	matrix Gla protein	5604	-0.12815187871456146	0.34874326	No	
+row_24	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	0.23521388	No	
+row_25	JUNB	JUNB	jun B proto-oncogene	7183	-0.4812280535697937	0.24029525	No	
+row_26	JUND	JUND	jun D proto-oncogene	7786	-0.631808340549469	0.20274599	No	
+row_27	GJA1	GJA1	gap junction protein, alpha 1, 43kDa (connexin 43)	7794	-0.6336514353752136	0.21134377	No	
+row_28	ITGB4	ITGB4	integrin, beta 4	7944	-0.6700896620750427	0.20946027	No	
+row_29	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	0.17080049	No	
+row_30	LAMA3	LAMA3	laminin, alpha 3	8649	-0.888403594493866	0.1803601	No	
+row_31	IVL	IVL	involucrin	11143	-2.5778377056121826	0.024304388	No	
+row_32	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	0.029695941	No	
+row_33	FOSL1	FOSL1	FOS-like antigen 1	11904	-4.217679023742676	0.07983883	No	

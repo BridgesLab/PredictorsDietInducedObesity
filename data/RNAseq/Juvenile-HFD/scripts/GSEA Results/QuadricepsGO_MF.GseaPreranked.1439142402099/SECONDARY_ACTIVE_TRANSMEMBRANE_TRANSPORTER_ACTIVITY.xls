@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SLC9A3	SLC9A3	solute carrier family 9 (sodium/hydrogen exchanger), member 3	292	3.2871124744415283	0.038062174	No	
+row_1	SLC13A2	SLC13A2	solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2	533	2.4782848358154297	0.06513148	No	
+row_2	SLC16A7	SLC16A7	solute carrier family 16, member 7 (monocarboxylic acid transporter 2)	1352	0.7202874422073364	0.011657152	No	
+row_3	SLC5A3	SLC5A3	solute carrier family 5 (inositol transporters), member 3	1716	0.507133424282074	-0.008536426	No	
+row_4	SLC4A4	SLC4A4	solute carrier family 4, sodium bicarbonate cotransporter, member 4	1818	0.46931758522987366	-0.007964345	No	
+row_5	SLC7A11	SLC7A11	solute carrier family 7, (cationic amino acid transporter, y+ system) member 11	1819	0.4691539704799652	8.8469574E-4	No	
+row_6	SLC13A4	SLC13A4	solute carrier family 13 (sodium/sulfate symporters), member 4	2252	0.3421964645385742	-0.028076539	No	
+row_7	SLC3A2	SLC3A2	solute carrier family 3 (activators of dibasic and neutral amino acid transport), member 2	3317	0.18572139739990234	-0.11180093	No	
+row_8	SLC9A6	SLC9A6	solute carrier family 9 (sodium/hydrogen exchanger), member 6	4534	0.08561668545007706	-0.20987453	No	
+row_9	SLC6A5	SLC6A5	solute carrier family 6 (neurotransmitter transporter, glycine), member 5	5952	-0.004897869657725096	-0.32594872	No	
+row_10	SLC9A1	SLC9A1	solute carrier family 9 (sodium/hydrogen exchanger), member 1 (antiporter, Na+/H+, amiloride sensitive)	6203	-0.01831716299057007	-0.3460984	No	
+row_11	SLC12A9	SLC12A9	solute carrier family 12 (potassium/chloride transporters), member 9	6574	-0.03960973024368286	-0.37568414	No	
+row_12	SLC12A2	SLC12A2	solute carrier family 12 (sodium/potassium/chloride transporters), member 2	6986	-0.06509942561388016	-0.4081503	No	
+row_13	SLC9A7	SLC9A7	solute carrier family 9 (sodium/hydrogen exchanger), member 7	7128	-0.07326926290988922	-0.4183276	No	
+row_14	SLC5A6	SLC5A6	solute carrier family 5 (sodium-dependent vitamin transporter), member 6	7353	-0.08669044077396393	-0.43505612	No	
+row_15	SLC25A11	SLC25A11	solute carrier family 25 (mitochondrial carrier; oxoglutarate carrier), member 11	7830	-0.12155657261610031	-0.47178614	No	
+row_16	SLC9A5	SLC9A5	solute carrier family 9 (sodium/hydrogen exchanger), member 5	8322	-0.16138753294944763	-0.5089946	No	
+row_17	SLC6A8	SLC6A8	solute carrier family 6 (neurotransmitter transporter, creatine), member 8	8411	-0.16770628094673157	-0.51304567	No	
+row_18	SLC9A2	SLC9A2	solute carrier family 9 (sodium/hydrogen exchanger), member 2	8496	-0.1758527010679245	-0.51661515	No	
+row_19	SLC20A2	SLC20A2	solute carrier family 20 (phosphate transporter), member 2	9281	-0.2583676874637604	-0.57601476	No	
+row_20	SLC6A6	SLC6A6	solute carrier family 6 (neurotransmitter transporter, taurine), member 6	9339	-0.2662496864795685	-0.5756657	No	
+row_21	SLC12A4	SLC12A4	solute carrier family 12 (potassium/chloride transporters), member 4	9491	-0.288913756608963	-0.5825954	No	
+row_22	SLC20A1	SLC20A1	solute carrier family 20 (phosphate transporter), member 1	9515	-0.2919672429561615	-0.57897395	No	
+row_23	SLC4A3	SLC4A3	solute carrier family 4, anion exchanger, member 3	9550	-0.29788774251937866	-0.5761426	No	
+row_24	SLC22A4	SLC22A4	solute carrier family 22 (organic cation transporter), member 4	10178	-0.44716399908065796	-0.6191102	No	
+row_25	SLC12A7	SLC12A7	solute carrier family 12 (potassium/chloride transporters), member 7	10245	-0.47301235795021057	-0.61559916	No	
+row_26	SLC17A7	SLC17A7	solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 7	10545	-0.614486575126648	-0.6285211	Yes	
+row_27	SLC17A5	SLC17A5	solute carrier family 17 (anion/sugar transporter), member 5	10666	-0.7002161741256714	-0.6251515	Yes	
+row_28	SLC6A9	SLC6A9	solute carrier family 6 (neurotransmitter transporter, glycine), member 9	10723	-0.7457996606826782	-0.6156754	Yes	
+row_29	SLC6A2	SLC6A2	solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2	10886	-0.9260385632514954	-0.6114896	Yes	
+row_30	SLC15A2	SLC15A2	solute carrier family 15 (H+/peptide transporter), member 2	11023	-1.1299844980239868	-0.6013255	Yes	
+row_31	SLC17A4	SLC17A4	solute carrier family 17 (sodium phosphate), member 4	11579	-2.3149921894073486	-0.6031601	Yes	
+row_32	SLC10A2	SLC10A2	solute carrier family 10 (sodium/bile acid cotransporter family), member 2	11710	-2.7526674270629883	-0.5618976	Yes	
+row_33	SLC17A3	SLC17A3	solute carrier family 17 (sodium phosphate), member 3	12107	-5.713820457458496	-0.48658958	Yes	
+row_34	SLC22A7	SLC22A7	solute carrier family 22 (organic anion transporter), member 7	12157	-6.729017734527588	-0.36368594	Yes	
+row_35	SLC17A2	SLC17A2	solute carrier family 17 (sodium phosphate), member 2	12215	-8.793584823608398	-0.20249687	Yes	
+row_36	SLC10A1	SLC10A1	solute carrier family 10 (sodium/bile acid cotransporter family), member 1	12228	-10.814107894897461	4.9180293E-4	Yes	

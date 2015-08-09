@@ -1,0 +1,61 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TPTE	TPTE	transmembrane phosphatase with tensin homology	176	4.050224781036377	0.10438206	Yes	
+row_1	PTPRT	PTPRT	protein tyrosine phosphatase, receptor type, T	214	3.83522629737854	0.21387267	Yes	
+row_2	PTPRH	PTPRH	protein tyrosine phosphatase, receptor type, H	288	3.305394172668457	0.30486056	Yes	
+row_3	PPEF1	PPEF1	protein phosphatase, EF-hand calcium binding domain 1	618	2.1466641426086426	0.3408234	Yes	
+row_4	PTPN7	PTPN7	protein tyrosine phosphatase, non-receptor type 7	767	1.7169079780578613	0.37904325	Yes	
+row_5	MTMR7	MTMR7	myotubularin related protein 7	774	1.695595383644104	0.428301	Yes	
+row_6	PTPRR	PTPRR	protein tyrosine phosphatase, receptor type, R	1261	0.7957344651222229	0.41173086	Yes	
+row_7	DUSP5	DUSP5	dual specificity phosphatase 5	1270	0.7843652963638306	0.43408787	Yes	
+row_8	PPM1M	PPM1M	protein phosphatase 1M (PP2C domain containing)	1297	0.7616445422172546	0.45429984	Yes	
+row_9	PTPN18	PTPN18	protein tyrosine phosphatase, non-receptor type 18 (brain-derived)	1396	0.6906240582466125	0.4665142	Yes	
+row_10	PTPRJ	PTPRJ	protein tyrosine phosphatase, receptor type, J	1433	0.6632440686225891	0.4830176	Yes	
+row_11	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	1771	0.486439973115921	0.4696106	Yes	
+row_12	PTPRO	PTPRO	protein tyrosine phosphatase, receptor type, O	1938	0.4296329915523529	0.468582	Yes	
+row_13	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	1962	0.42282822728157043	0.4790991	Yes	
+row_14	DUSP4	DUSP4	dual specificity phosphatase 4	2092	0.3863554894924164	0.4798397	Yes	
+row_15	PTPRN2	PTPRN2	protein tyrosine phosphatase, receptor type, N polypeptide 2	2134	0.3729693591594696	0.48741546	Yes	
+row_16	PTPRZ1	PTPRZ1	protein tyrosine phosphatase, receptor-type, Z polypeptide 1	2353	0.32100561261177063	0.47892857	No	
+row_17	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.42811933	No	
+row_18	PTPN9	PTPN9	protein tyrosine phosphatase, non-receptor type 9	3195	0.19839031994342804	0.4220307	No	
+row_19	PPM1D	PPM1D	protein phosphatase 1D magnesium-dependent, delta isoform	3214	0.19517885148525238	0.42627898	No	
+row_20	PTPRE	PTPRE	protein tyrosine phosphatase, receptor type, E	3473	0.1704554557800293	0.41008937	No	
+row_21	PTPN14	PTPN14	protein tyrosine phosphatase, non-receptor type 14	3499	0.16839362680912018	0.41297683	No	
+row_22	PTPN21	PTPN21	protein tyrosine phosphatase, non-receptor type 21	3856	0.13609212636947632	0.38772967	No	
+row_23	DUSP10	DUSP10	dual specificity phosphatase 10	4227	0.10816236585378647	0.36051312	No	
+row_24	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	4235	0.10741055011749268	0.3630897	No	
+row_25	PPP6C	PPP6C	protein phosphatase 6, catalytic subunit	4242	0.10712620615959167	0.3657401	No	
+row_26	PTPN12	PTPN12	protein tyrosine phosphatase, non-receptor type 12	4451	0.09053998440504074	0.35131246	No	
+row_27	PPP1CA	PPP1CA	protein phosphatase 1, catalytic subunit, alpha isoform	4625	0.07845915108919144	0.3394051	No	
+row_28	PTPRM	PTPRM	protein tyrosine phosphatase, receptor type, M	4801	0.0671340823173523	0.32700115	No	
+row_29	EPM2A	EPM2A	epilepsy, progressive myoclonus type 2A, Lafora disease (laforin)	4810	0.06641644984483719	0.3282928	No	
+row_30	CTDP1	CTDP1	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) phosphatase, subunit 1	5592	0.017183491960167885	0.26464915	No	
+row_31	PPP2R4	PPP2R4	protein phosphatase 2A, regulatory subunit B' (PR 53)	5612	0.015684323385357857	0.26354876	No	
+row_32	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	5941	-0.004421691410243511	0.23673804	No	
+row_33	PPP2R3A	PPP2R3A	protein phosphatase 2 (formerly 2A), regulatory subunit B'', alpha	6251	-0.021151026710867882	0.21197876	No	
+row_34	DUSP6	DUSP6	dual specificity phosphatase 6	6401	-0.03015417978167534	0.20062533	No	
+row_35	MTMR3	MTMR3	myotubularin related protein 3	6645	-0.04321838170289993	0.18193448	No	
+row_36	PPP2R2A	PPP2R2A	protein phosphatase 2 (formerly 2A), regulatory subunit B (PR 52), alpha isoform	6656	-0.04411913827061653	0.18240762	No	
+row_37	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	6659	-0.04453466087579727	0.18355004	No	
+row_38	TIMM50	TIMM50	translocase of inner mitochondrial membrane 50 homolog (S. cerevisiae)	6835	-0.05460824444890022	0.17077859	No	
+row_39	DUSP22	DUSP22	dual specificity phosphatase 22	6980	-0.06460445374250412	0.16084664	No	
+row_40	DUSP13	DUSP13	dual specificity phosphatase 13	7006	-0.06636788696050644	0.16074055	No	
+row_41	PPM1B	PPM1B	protein phosphatase 1B (formerly 2C), magnesium-dependent, beta isoform	7101	-0.07183684408664703	0.15512758	No	
+row_42	PPP5C	PPP5C	protein phosphatase 5, catalytic subunit	7459	-0.09627819806337357	0.1286301	No	
+row_43	SSH1	SSH1	slingshot homolog 1 (Drosophila)	7502	-0.0993247926235199	0.12809472	No	
+row_44	DUSP3	DUSP3	dual specificity phosphatase 3 (vaccinia virus phosphatase VH1-related)	7629	-0.10778862237930298	0.12090827	No	
+row_45	PTPN2	PTPN2	protein tyrosine phosphatase, non-receptor type 2	7743	-0.1155872493982315	0.11501841	No	
+row_46	SBF1	SBF1	SET binding factor 1	7834	-0.12162546068429947	0.111194834	No	
+row_47	PTPRB	PTPRB	protein tyrosine phosphatase, receptor type, B	7902	-0.1262061595916748	0.109394774	No	
+row_48	PTPN13	PTPN13	protein tyrosine phosphatase, non-receptor type 13 (APO-1/CD95 (Fas)-associated phosphatase)	7957	-0.13052119314670563	0.10878909	No	
+row_49	SSH2	SSH2	slingshot homolog 2 (Drosophila)	8507	-0.1765749305486679	0.068877585	No	
+row_50	PPP2CB	PPP2CB	protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform	8552	-0.18003009259700775	0.0705459	No	
+row_51	PTPRD	PTPRD	protein tyrosine phosphatase, receptor type, D	8838	-0.20836205780506134	0.053250838	No	
+row_52	PTPN4	PTPN4	protein tyrosine phosphatase, non-receptor type 4 (megakaryocyte)	8893	-0.2135440558195114	0.055081133	No	
+row_53	DUSP8	DUSP8	dual specificity phosphatase 8	9098	-0.23543564975261688	0.045233417	No	
+row_54	PPM1G	PPM1G	protein phosphatase 1G (formerly 2C), magnesium-dependent, gamma isoform	9305	-0.2618054449558258	0.03599515	No	
+row_55	PTPN3	PTPN3	protein tyrosine phosphatase, non-receptor type 3	10678	-0.7075201272964478	-0.055935387	No	
+row_56	PTPN22	PTPN22	protein tyrosine phosphatase, non-receptor type 22 (lymphoid)	11067	-1.1930180788040161	-0.05279955	No	
+row_57	PPEF2	PPEF2	protein phosphatase, EF-hand calcium binding domain 2	11163	-1.3819609880447388	-0.020054214	No	
+row_58	DUSP2	DUSP2	dual specificity phosphatase 2	11289	-1.6367783546447754	0.01770367	No	
+row_59	PTPN5	PTPN5	protein tyrosine phosphatase, non-receptor type 5 (striatum-enriched)	11464	-2.039196252822876	0.06324428	No	

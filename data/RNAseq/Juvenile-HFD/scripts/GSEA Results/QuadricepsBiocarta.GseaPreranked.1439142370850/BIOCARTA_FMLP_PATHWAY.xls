@@ -1,0 +1,35 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CAMK1G	CAMK1G	calcium/calmodulin-dependent protein kinase IG	612	2.185596227645874	0.114386275	No	
+row_1	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	2289	0.33466866612434387	0.00221655	No	
+row_2	NFATC4	NFATC4	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4	2395	0.31210944056510925	0.017108357	No	
+row_3	MAPK14	MAPK14	mitogen-activated protein kinase 14	3083	0.20983949303627014	-0.023400405	No	
+row_4	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	-0.0362565	No	
+row_5	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	3725	0.14796601235866547	-0.051425964	No	
+row_6	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3795	0.14097797870635986	-0.046467483	No	
+row_7	GNA15	GNA15	guanine nucleotide binding protein (G protein), alpha 15 (Gq class)	3975	0.12652899324893951	-0.051612474	No	
+row_8	NFATC3	NFATC3	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3	4101	0.11770854145288467	-0.052995663	No	
+row_9	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	-0.05572219	No	
+row_10	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	4311	0.10185524076223373	-0.05428285	No	
+row_11	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	4555	0.08333557844161987	-0.0679252	No	
+row_12	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	-0.094499946	No	
+row_13	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	5162	0.04181811213493347	-0.10995664	No	
+row_14	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	5604	0.016282564029097557	-0.14487536	No	
+row_15	MAP2K3	MAP2K3	mitogen-activated protein kinase kinase 3	5677	0.011937723495066166	-0.14987776	No	
+row_16	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	-0.15727177	No	
+row_17	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	6449	-0.03214356303215027	-0.21009317	No	
+row_18	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	-0.2218255	No	
+row_19	MAP2K6	MAP2K6	mitogen-activated protein kinase kinase 6	6735	-0.049156591296195984	-0.22648464	No	
+row_20	ELK1	ELK1	ELK1, member of ETS oncogene family	6984	-0.06501252204179764	-0.24191627	No	
+row_21	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	-0.2762767	No	
+row_22	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-0.296512	No	
+row_23	CAMK1	CAMK1	calcium/calmodulin-dependent protein kinase I	7857	-0.12314243614673615	-0.287241	No	
+row_24	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	8145	-0.1467313915491104	-0.29971677	No	
+row_25	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	8218	-0.1521199643611908	-0.29416534	No	
+row_26	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8491	-0.1754104644060135	-0.30325255	No	
+row_27	NFATC1	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	9259	-0.25558581948280334	-0.34687406	Yes	
+row_28	NFATC2	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2	9464	-0.28489816188812256	-0.342145	Yes	
+row_29	PLCB1	PLCB1	phospholipase C, beta 1 (phosphoinositide-specific)	9627	-0.3130129277706146	-0.3318569	Yes	
+row_30	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.3261054	Yes	
+row_31	NCF2	NCF2	neutrophil cytosolic factor 2 (65kDa, chronic granulomatous disease, autosomal 2)	10385	-0.531096339225769	-0.32595375	Yes	
+row_32	FPR1	FPR1	formyl peptide receptor 1	11448	-2.039196252822876	-0.25947165	Yes	
+row_33	PIK3C2G	PIK3C2G	phosphoinositide-3-kinase, class 2, gamma polypeptide	11997	-4.301040172576904	0.019424675	Yes	

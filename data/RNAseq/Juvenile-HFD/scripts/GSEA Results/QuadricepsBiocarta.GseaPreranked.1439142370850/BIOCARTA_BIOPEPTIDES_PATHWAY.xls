@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	STAT4	STAT4	signal transducer and activator of transcription 4	30	6.424749374389648	0.32447377	Yes	
+row_1	AGTR2	AGTR2	angiotensin II receptor, type 2	666	2.05810809135437	0.37713763	Yes	
+row_2	PTK2B	PTK2B	PTK2B protein tyrosine kinase 2 beta	1285	0.7716411352157593	0.36573145	No	
+row_3	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	0.31044295	No	
+row_4	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	2289	0.33466866612434387	0.31886372	No	
+row_5	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	2722	0.25834447145462036	0.29658854	No	
+row_6	MAPK14	MAPK14	mitogen-activated protein kinase 14	3083	0.20983949303627014	0.27774867	No	
+row_7	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	0.2658511	No	
+row_8	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	0.26999578	No	
+row_9	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	3725	0.14796601235866547	0.25120515	No	
+row_10	CDK5	CDK5	cyclin-dependent kinase 5	3773	0.1440238654613495	0.2546803	No	
+row_11	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3811	0.13945505023002625	0.25874293	No	
+row_12	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.22961101	No	
+row_13	STAT5B	STAT5B	signal transducer and activator of transcription 5B	4354	0.0993134006857872	0.22490744	No	
+row_14	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	4555	0.08333557844161987	0.21274929	No	
+row_15	FYN	FYN	FYN oncogene related to SRC, FGR, YES	4568	0.08248276263475418	0.21596262	No	
+row_16	GNA11	GNA11	guanine nucleotide binding protein (G protein), alpha 11 (Gq class)	4861	0.06377872079610825	0.19526583	No	
+row_17	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5042	0.050998505204916	0.18310203	No	
+row_18	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	5843	0.002514437772333622	0.1176347	No	
+row_19	MAPT	MAPT	microtubule-associated protein tau	6085	-0.012449685484170914	0.09850764	No	
+row_20	MYLK	MYLK	myosin, light chain kinase	6175	-0.017095312476158142	0.092080094	No	
+row_21	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.07880014	No	
+row_22	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	0.05832218	No	
+row_23	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	6901	-0.05907402187585831	0.039353836	No	
+row_24	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	7030	-0.0676606222987175	0.032301612	No	
+row_25	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	0.034479406	No	
+row_26	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	0.037969712	No	
+row_27	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	0.030804474	No	
+row_28	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	7507	-0.09960462898015976	0.0094709145	No	
+row_29	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	7699	-0.11298403143882751	-4.405859E-4	No	
+row_30	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	-7.541751E-4	No	
+row_31	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-8.837509E-4	No	
+row_32	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	8218	-0.1521199643611908	-0.022742754	No	
+row_33	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8491	-0.1754104644060135	-0.036119107	No	
+row_34	AGT	AGT	angiotensinogen (serpin peptidase inhibitor, clade A, member 8)	8621	-0.1862734854221344	-0.037217524	No	
+row_35	STAT2	STAT2	signal transducer and activator of transcription 2, 113kDa	8804	-0.20549526810646057	-0.041683495	No	
+row_36	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	-0.058702655	No	
+row_37	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.09995953	No	
+row_38	KNG1	KNG1	kininogen 1	12108	-5.726766109466553	0.010331111	No	

@@ -1,0 +1,54 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HSPB1	HSPB1	heat shock 27kDa protein 1	1900	1.601487159729004	-0.12667957	No	
+row_1	DKC1	DKC1	dyskeratosis congenita 1, dyskerin	2250	1.2676199674606323	-0.13729756	No	
+row_2	EIF2B3	EIF2B3	eukaryotic translation initiation factor 2B, subunit 3 gamma, 58kDa	2433	1.1168389320373535	-0.13691127	No	
+row_3	EXOSC2	EXOSC2	exosome component 2	3172	0.6387016177177429	-0.1858999	No	
+row_4	TXNL4A	TXNL4A	thioredoxin-like 4A	3284	0.5843412280082703	-0.18692243	No	
+row_5	MTIF3	MTIF3	-	3518	0.481808602809906	-0.19874805	No	
+row_6	EIF2B1	EIF2B1	eukaryotic translation initiation factor 2B, subunit 1 alpha, 26kDa	3740	0.38712766766548157	-0.21087264	No	
+row_7	GEMIN7	GEMIN7	gem (nuclear organelle) associated protein 7	4075	0.2798505425453186	-0.23316333	No	
+row_8	EXOSC7	EXOSC7	exosome component 7	4119	0.2640295922756195	-0.23306997	No	
+row_9	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	4319	0.19672903418540955	-0.24596117	No	
+row_10	EIF1	EIF1	eukaryotic translation initiation factor 1	4428	0.16452868282794952	-0.25220674	No	
+row_11	EIF4A2	EIF4A2	eukaryotic translation initiation factor 4A, isoform 2	4583	0.12045398354530334	-0.26259598	No	
+row_12	EIF2A	EIF2A	eukaryotic translation initiation factor 2A, 65kDa	4709	0.09154630452394485	-0.2711097	No	
+row_13	SLU7	SLU7	-	4931	0.033404793590307236	-0.28783128	No	
+row_14	EIF1B	EIF1B	eukaryotic translation initiation factor 1B	5366	-0.07241497188806534	-0.3205806	No	
+row_15	MTIF2	MTIF2	mitochondrial translational initiation factor 2	6142	-0.24276205897331238	-0.3775871	No	
+row_16	POP4	POP4	processing of precursor 4, ribonuclease P/MRP subunit (S. cerevisiae)	6204	-0.25522351264953613	-0.3790055	No	
+row_17	EIF2AK4	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4	6323	-0.2799171805381775	-0.38452774	No	
+row_18	DICER1	DICER1	Dicer1, Dcr-1 homolog (Drosophila)	6324	-0.28033506870269775	-0.38088447	No	
+row_19	PAIP1	PAIP1	poly(A) binding protein interacting protein 1	6407	-0.3012564778327942	-0.3833348	No	
+row_20	RPS14	RPS14	ribosomal protein S14	6422	-0.30308470129966736	-0.38048267	No	
+row_21	EIF2AK3	EIF2AK3	eukaryotic translation initiation factor 2-alpha kinase 3	6472	-0.31407833099365234	-0.38020465	No	
+row_22	SF3A3	SF3A3	splicing factor 3a, subunit 3, 60kDa	6627	-0.35320475697517395	-0.38756904	No	
+row_23	FBL	FBL	fibrillarin	6643	-0.35663825273513794	-0.38409856	No	
+row_24	SNRPD2	SNRPD2	small nuclear ribonucleoprotein D2 polypeptide 16.5kDa	6744	-0.37756726145744324	-0.38695443	No	
+row_25	NOLC1	NOLC1	nucleolar and coiled-body phosphoprotein 1	6855	-0.40399521589279175	-0.3902431	No	
+row_26	EIF2B5	EIF2B5	eukaryotic translation initiation factor 2B, subunit 5 epsilon, 82kDa	6963	-0.4289736747741699	-0.39297432	No	
+row_27	PAIP2	PAIP2	poly(A) binding protein interacting protein 2	7027	-0.44387373328208923	-0.39209622	No	
+row_28	USP39	USP39	ubiquitin specific peptidase 39	7060	-0.45073503255844116	-0.38872254	No	
+row_29	EIF5A	EIF5A	eukaryotic translation initiation factor 5A	7097	-0.4588402509689331	-0.38555402	No	
+row_30	CRNKL1	CRNKL1	Crn, crooked neck-like 1 (Drosophila)	7175	-0.478336900472641	-0.38531482	No	
+row_31	SF1	SF1	splicing factor 1	7264	-0.49789902567863464	-0.38567534	No	
+row_32	PRPF31	PRPF31	PRP31 pre-mRNA processing factor 31 homolog (S. cerevisiae)	7381	-0.5278245210647583	-0.3878205	No	
+row_33	EIF5	EIF5	eukaryotic translation initiation factor 5	7443	-0.5441550016403198	-0.38548392	No	
+row_34	EIF4B	EIF4B	eukaryotic translation initiation factor 4B	7577	-0.5793384313583374	-0.38827926	No	
+row_35	NPM1	NPM1	nucleophosmin (nucleolar phosphoprotein B23, numatrin)	7835	-0.642658531665802	-0.39987755	No	
+row_36	SRPK2	SRPK2	SFRS protein kinase 2	8095	-0.7090294361114502	-0.4107685	No	
+row_37	SF3A2	SF3A2	splicing factor 3a, subunit 2, 66kDa	8361	-0.7961252331733704	-0.42099336	No	
+row_38	SDAD1	SDAD1	SDA1 domain containing 1	8404	-0.8073435425758362	-0.4137614	No	
+row_39	SF3A1	SF3A1	splicing factor 3a, subunit 1, 120kDa	8460	-0.8250654339790344	-0.4073083	No	
+row_40	GEMIN6	GEMIN6	gem (nuclear organelle) associated protein 6	8475	-0.8307770490646362	-0.39759827	No	
+row_41	SNRPD1	SNRPD1	small nuclear ribonucleoprotein D1 polypeptide 16kDa	8508	-0.840368390083313	-0.38916084	No	
+row_42	ATXN2	ATXN2	ataxin 2	8654	-0.8907423615455627	-0.3888407	No	
+row_43	EXOSC3	EXOSC3	exosome component 3	8667	-0.8946312665939331	-0.37814555	No	
+row_44	EIF4G3	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3	8870	-0.9729033708572388	-0.3811824	No	
+row_45	GEMIN5	GEMIN5	gem (nuclear organelle) associated protein 5	9655	-1.3150019645690918	-0.42495266	No	
+row_46	EIF2B2	EIF2B2	eukaryotic translation initiation factor 2B, subunit 2 beta, 39kDa	9686	-1.3304835557937622	-0.40999043	No	
+row_47	EIF2B4	EIF2B4	eukaryotic translation initiation factor 2B, subunit 4 delta, 67kDa	9797	-1.3748925924301147	-0.40066126	No	
+row_48	EIF1AX	EIF1AX	eukaryotic translation initiation factor 1A, X-linked	9820	-1.3859089612960815	-0.3843577	No	
+row_49	DDX20	DDX20	DEAD (Asp-Glu-Ala-Asp) box polypeptide 20	11371	-2.926253318786621	-0.46665078	Yes	
+row_50	GEMIN4	GEMIN4	gem (nuclear organelle) associated protein 4	11977	-4.498705863952637	-0.45515	Yes	
+row_51	DAZL	DAZL	deleted in azoospermia-like	12725	-10.726475715637207	-0.37373576	Yes	
+row_52	BOLL	BOLL	bol, boule-like (Drosophila)	12931	-30.0	2.3293697E-4	Yes	

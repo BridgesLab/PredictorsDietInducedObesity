@@ -1,0 +1,26 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GALNT5	GALNT5	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 5 (GalNAc-T5)	2577	0.9976324439048767	-0.18270086	No	
+row_1	ST3GAL1	ST3GAL1	ST3 beta-galactoside alpha-2,3-sialyltransferase 1	2716	0.8979061841964722	-0.17816897	No	
+row_2	GALNT2	GALNT2	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 2 (GalNAc-T2)	3889	0.3391971290111542	-0.26320124	No	
+row_3	C1GALT1	C1GALT1	core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase, 1	4265	0.21408343315124512	-0.28861934	No	
+row_4	GALNT4	GALNT4	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 4 (GalNAc-T4)	4315	0.19737407565116882	-0.28906897	No	
+row_5	WBSCR17	WBSCR17	Williams-Beuren syndrome chromosome region 17	4465	0.15122894942760468	-0.2980468	No	
+row_6	C1GALT1C1	C1GALT1C1	C1GALT1-specific chaperone 1	5693	-0.14683306217193604	-0.3906003	No	
+row_7	GALNT1	GALNT1	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 1 (GalNAc-T1)	5803	-0.17193345725536346	-0.39612874	No	
+row_8	B4GALT5	B4GALT5	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 5	6548	-0.33442187309265137	-0.44808936	No	
+row_9	ST6GALNAC1	ST6GALNAC1	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 1	6681	-0.36499062180519104	-0.45212668	No	
+row_10	ST3GAL2	ST3GAL2	ST3 beta-galactoside alpha-2,3-sialyltransferase 2	7087	-0.45726674795150757	-0.47574615	No	
+row_11	GALNT10	GALNT10	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 10 (GalNAc-T10)	7886	-0.6567586660385132	-0.52642536	No	
+row_12	GALNT13	GALNT13	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 13 (GalNAc-T13)	7962	-0.6757492423057556	-0.5207795	No	
+row_13	B3GNT6	B3GNT6	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 6 (core 3 synthase)	8073	-0.7024980187416077	-0.51739126	No	
+row_14	GCNT4	GCNT4	glucosaminyl (N-acetyl) transferase 4, core 2 (beta-1,6-N-acetylglucosaminyltransferase)	8074	-0.7025743722915649	-0.50548124	No	
+row_15	GALNT11	GALNT11	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 11 (GalNAc-T11)	8609	-0.8729926347732544	-0.5320456	No	
+row_16	GALNT6	GALNT6	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 6 (GalNAc-T6)	8980	-1.0205655097961426	-0.54340494	No	
+row_17	GALNT14	GALNT14	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 14 (GalNAc-T14)	9036	-1.042216420173645	-0.5299976	No	
+row_18	GCNT1	GCNT1	glucosaminyl (N-acetyl) transferase 1, core 2 (beta-1,6-N-acetylglucosaminyltransferase)	9852	-1.398505687713623	-0.5694195	No	
+row_19	GALNT9	GALNT9	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 9 (GalNAc-T9)	9884	-1.4171186685562134	-0.54779774	No	
+row_20	GALNT12	GALNT12	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 12 (GalNAc-T12)	9908	-1.4312611818313599	-0.5253166	No	
+row_21	GALNT7	GALNT7	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 7 (GalNAc-T7)	10112	-1.5479297637939453	-0.51480037	No	
+row_22	GALNT3	GALNT3	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3 (GalNAc-T3)	11846	-3.9943196773529053	-0.58132577	Yes	
+row_23	GALNTL5	GALNTL5	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 5	12822	-11.994101524353027	-0.45352486	Yes	
+row_24	GCNT3	GCNT3	glucosaminyl (N-acetyl) transferase 3, mucin type	12918	-27.26069450378418	0.0012392622	Yes	

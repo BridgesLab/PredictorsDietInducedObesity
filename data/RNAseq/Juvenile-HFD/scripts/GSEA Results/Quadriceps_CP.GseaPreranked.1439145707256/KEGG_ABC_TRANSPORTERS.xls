@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ABCC12	ABCC12	ATP-binding cassette, sub-family C (CFTR/MRP), member 12	1181	0.900458812713623	-0.06865276	No	
+row_1	ABCA4	ABCA4	ATP-binding cassette, sub-family A (ABC1), member 4	1355	0.7170665264129639	-0.060405534	No	
+row_2	ABCA5	ABCA5	ATP-binding cassette, sub-family A (ABC1), member 5	2007	0.4098290205001831	-0.100955464	No	
+row_3	ABCA9	ABCA9	ATP-binding cassette, sub-family A (ABC1), member 9	2156	0.36594358086586	-0.10164187	No	
+row_4	ABCC8	ABCC8	ATP-binding cassette, sub-family C (CFTR/MRP), member 8	2508	0.2925730347633362	-0.12126538	No	
+row_5	ABCD2	ABCD2	ATP-binding cassette, sub-family D (ALD), member 2	4095	0.11781688034534454	-0.24760137	No	
+row_6	ABCG2	ABCG2	ATP-binding cassette, sub-family G (WHITE), member 2	4370	0.09775685518980026	-0.26700625	No	
+row_7	ABCB9	ABCB9	ATP-binding cassette, sub-family B (MDR/TAP), member 9	4553	0.08351356536149979	-0.2793144	No	
+row_8	ABCA3	ABCA3	ATP-binding cassette, sub-family A (ABC1), member 3	4896	0.060890309512615204	-0.30544713	No	
+row_9	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	5049	0.05044495686888695	-0.31633028	No	
+row_10	ABCB10	ABCB10	ATP-binding cassette, sub-family B (MDR/TAP), member 10	5109	0.045142777264118195	-0.31975508	No	
+row_11	ABCA7	ABCA7	ATP-binding cassette, sub-family A (ABC1), member 7	5658	0.012901277281343937	-0.36427692	No	
+row_12	ABCA1	ABCA1	ATP-binding cassette, sub-family A (ABC1), member 1	5779	0.006089655216783285	-0.3739241	No	
+row_13	ABCC9	ABCC9	ATP-binding cassette, sub-family C (CFTR/MRP), member 9	6055	-0.010830242186784744	-0.39613003	No	
+row_14	ABCC5	ABCC5	ATP-binding cassette, sub-family C (CFTR/MRP), member 5	6235	-0.019969793036580086	-0.41017988	No	
+row_15	TAP2	TAP2	transporter 2, ATP-binding cassette, sub-family B (MDR/TAP)	6343	-0.02665744721889496	-0.41811797	No	
+row_16	ABCC4	ABCC4	ATP-binding cassette, sub-family C (CFTR/MRP), member 4	7180	-0.07658098638057709	-0.48425835	No	
+row_17	ABCD4	ABCD4	ATP-binding cassette, sub-family D (ALD), member 4	7526	-0.10079766064882278	-0.50938874	No	
+row_18	ABCB7	ABCB7	ATP-binding cassette, sub-family B (MDR/TAP), member 7	7873	-0.12452077120542526	-0.533859	No	
+row_19	ABCB8	ABCB8	ATP-binding cassette, sub-family B (MDR/TAP), member 8	7998	-0.13374054431915283	-0.5398412	No	
+row_20	ABCC10	ABCC10	ATP-binding cassette, sub-family C (CFTR/MRP), member 10	8448	-0.17162755131721497	-0.57128197	No	
+row_21	TAP1	TAP1	transporter 1, ATP-binding cassette, sub-family B (MDR/TAP)	8731	-0.1982055902481079	-0.5882006	No	
+row_22	ABCD3	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3	8914	-0.21518558263778687	-0.5963901	No	
+row_23	ABCA6	ABCA6	ATP-binding cassette, sub-family A (ABC1), member 6	9152	-0.2428990602493286	-0.60822165	No	
+row_24	ABCA2	ABCA2	ATP-binding cassette, sub-family A (ABC1), member 2	9185	-0.24637895822525024	-0.60313827	No	
+row_25	ABCB4	ABCB4	ATP-binding cassette, sub-family B (MDR/TAP), member 4	9260	-0.2558155357837677	-0.6012029	No	
+row_26	ABCD1	ABCD1	ATP-binding cassette, sub-family D (ALD), member 1	9587	-0.3052644729614258	-0.61837995	No	
+row_27	ABCC1	ABCC1	ATP-binding cassette, sub-family C (CFTR/MRP), member 1	9830	-0.35475465655326843	-0.6271225	No	
+row_28	ABCB6	ABCB6	ATP-binding cassette, sub-family B (MDR/TAP), member 6	10407	-0.5416430234909058	-0.6574007	No	
+row_29	ABCC3	ABCC3	ATP-binding cassette, sub-family C (CFTR/MRP), member 3	10790	-0.8159511685371399	-0.66319436	Yes	
+row_30	ABCG4	ABCG4	ATP-binding cassette, sub-family G (WHITE), member 4	11079	-1.2189604043960571	-0.6486756	Yes	
+row_31	ABCC6	ABCC6	ATP-binding cassette, sub-family C (CFTR/MRP), member 6	11359	-1.8397804498672485	-0.61399984	Yes	
+row_32	ABCA12	ABCA12	ATP-binding cassette, sub-family A (ABC1), member 12	11433	-2.0089688301086426	-0.55714375	Yes	
+row_33	ABCC2	ABCC2	ATP-binding cassette, sub-family C (CFTR/MRP), member 2	11836	-3.156872272491455	-0.4913529	Yes	
+row_34	ABCB11	ABCB11	ATP-binding cassette, sub-family B (MDR/TAP), member 11	12059	-4.9425835609436035	-0.35494834	Yes	
+row_35	ABCG5	ABCG5	ATP-binding cassette, sub-family G (WHITE), member 5 (sterolin 1)	12077	-5.23850679397583	-0.19248128	Yes	
+row_36	ABCG8	ABCG8	ATP-binding cassette, sub-family G (WHITE), member 8 (sterolin 2)	12148	-6.5623369216918945	0.0070502907	Yes	

@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PAPSS2	PAPSS2	3'-phosphoadenosine 5'-phosphosulfate synthase 2	1227	2.473142385482788	0.0039958833	No	
+row_1	MARS2	MARS2	methionine-tRNA synthetase 2 (mitochondrial)	4423	0.16487357020378113	-0.23680952	No	
+row_2	MAT2B	MAT2B	methionine adenosyltransferase II, beta	4603	0.11641950905323029	-0.24600975	No	
+row_3	METTL6	METTL6	methyltransferase like 6	4783	0.07101680338382721	-0.2570276	No	
+row_4	MAT2A	MAT2A	methionine adenosyltransferase II, alpha	4876	0.04680759459733963	-0.26227778	No	
+row_5	HEMK1	HEMK1	HemK methyltransferase family member 1	5767	-0.16386531293392181	-0.3246351	No	
+row_6	AHCYL1	AHCYL1	S-adenosylhomocysteine hydrolase-like 1	6458	-0.3098984956741333	-0.3656591	No	
+row_7	SEPHS1	SEPHS1	selenophosphate synthetase 1	6920	-0.41624754667282104	-0.38469285	No	
+row_8	MARS	MARS	methionine-tRNA synthetase	7310	-0.5136089324951172	-0.39425355	No	
+row_9	SCLY	SCLY	selenocysteine lyase	7815	-0.6376960277557373	-0.40775162	Yes	
+row_10	LCMT1	LCMT1	leucine carboxyl methyltransferase 1	7967	-0.6771647334098816	-0.39233494	Yes	
+row_11	WBSCR22	WBSCR22	Williams Beuren syndrome chromosome region 22	8573	-0.8605684638023376	-0.40473157	Yes	
+row_12	PAPSS1	PAPSS1	3'-phosphoadenosine 5'-phosphosulfate synthase 1	8943	-0.9986975193023682	-0.39332366	Yes	
+row_13	LCMT2	LCMT2	leucine carboxyl methyltransferase 2	9136	-1.0793497562408447	-0.36498088	Yes	
+row_14	SEPHS2	SEPHS2	selenophosphate synthetase 2	9898	-1.4274802207946777	-0.36676186	Yes	
+row_15	GGT1	GGT1	gamma-glutamyltransferase 1	9995	-1.4780876636505127	-0.31502232	Yes	
+row_16	MAT1A	MAT1A	methionine adenosyltransferase I, alpha	10786	-2.109152317047119	-0.29175907	Yes	
+row_17	GGT6	GGT6	gamma-glutamyltransferase 6 homolog (rat)	11231	-2.6894962787628174	-0.21846987	Yes	
+row_18	AHCY	AHCY	S-adenosylhomocysteine hydrolase	11339	-2.866398811340332	-0.1120029	Yes	
+row_19	CTH	CTH	cystathionase (cystathionine gamma-lyase)	11370	-2.9255621433258057	0.0027951188	Yes	
+row_20	CBS	CBS	cystathionine-beta-synthase	11390	-2.953421115875244	0.11956023	Yes	

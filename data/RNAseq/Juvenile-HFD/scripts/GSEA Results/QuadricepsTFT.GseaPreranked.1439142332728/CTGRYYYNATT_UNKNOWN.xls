@@ -1,0 +1,56 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CNKSR2	CNKSR2	connector enhancer of kinase suppressor of Ras 2	3	8.297865867614746	0.2034051	Yes	
+row_1	IL25	IL25	interleukin 25	116	4.756222248077393	0.31093985	Yes	
+row_2	GRIA1	GRIA1	glutamate receptor, ionotropic, AMPA 1	338	3.012714385986328	0.36673528	Yes	
+row_3	PAX9	PAX9	paired box gene 9	722	1.8776402473449707	0.3813725	Yes	
+row_4	CDKL5	CDKL5	cyclin-dependent kinase-like 5	904	1.3336281776428223	0.39924282	Yes	
+row_5	NTRK2	NTRK2	neurotrophic tyrosine kinase, receptor, type 2	1030	1.1074903011322021	0.4161608	Yes	
+row_6	PHYHIP	PHYHIP	phytanoyl-CoA 2-hydroxylase interacting protein	1101	0.9972367286682129	0.43488848	Yes	
+row_7	SOCS1	SOCS1	suppressor of cytokine signaling 1	1166	0.9164315462112427	0.45212558	Yes	
+row_8	CCDC3	CCDC3	coiled-coil domain containing 3	1420	0.6733523607254028	0.44787967	Yes	
+row_9	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.45800975	Yes	
+row_10	RANBP9	RANBP9	RAN binding protein 9	2033	0.40329742431640625	0.42316222	No	
+row_11	NXPH4	NXPH4	neurexophilin 4	2171	0.36210477352142334	0.42080128	No	
+row_12	RPL27A	RPL27A	ribosomal protein L27a	2785	0.24772751331329346	0.37655276	No	
+row_13	ICT1	ICT1	immature colon carcinoma transcript 1	2842	0.2396346926689148	0.37783632	No	
+row_14	CHMP2B	CHMP2B	chromatin modifying protein 2B	2938	0.22682984173297882	0.37560365	No	
+row_15	HOXC4	HOXC4	homeobox C4	3160	0.2014913409948349	0.3624043	No	
+row_16	GPX1	GPX1	glutathione peroxidase 1	3340	0.18365590274333954	0.35221544	No	
+row_17	ATP6V1B2	ATP6V1B2	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B2	3508	0.16714878380298615	0.34260672	No	
+row_18	RREB1	RREB1	ras responsive element binding protein 1	3653	0.15394018590450287	0.33456215	No	
+row_19	PCNT	PCNT	pericentrin (kendrin)	3693	0.15036971867084503	0.33505064	No	
+row_20	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	3887	0.13375750184059143	0.32248777	No	
+row_21	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.31895256	No	
+row_22	GABARAP	GABARAP	GABA(A) receptor-associated protein	4232	0.10780103504657745	0.30008763	No	
+row_23	CDC42EP1	CDC42EP1	CDC42 effector protein (Rho GTPase binding) 1	4598	0.08036509156227112	0.27209282	No	
+row_24	NCDN	NCDN	neurochondrin	4834	0.06517080217599869	0.25439838	No	
+row_25	ERG	ERG	v-ets erythroblastosis virus E26 oncogene homolog (avian)	5801	0.005340127740055323	0.17521909	No	
+row_26	SOX4	SOX4	SRY (sex determining region Y)-box 4	6044	-0.010146009735763073	0.15559946	No	
+row_27	WFIKKN2	WFIKKN2	WAP, follistatin/kazal, immunoglobulin, kunitz and netrin domain containing 2	6184	-0.017587978392839432	0.14461896	No	
+row_28	GTF2IRD1	GTF2IRD1	GTF2I repeat domain containing 1	7010	-0.06657468527555466	0.07851889	No	
+row_29	SSX2IP	SSX2IP	synovial sarcoma, X breakpoint 2 interacting protein	7377	-0.08931785076856613	0.050661728	No	
+row_30	DRG1	DRG1	developmentally regulated GTP binding protein 1	7409	-0.09149350970983505	0.05036206	No	
+row_31	HSPB2	HSPB2	heat shock 27kDa protein 2	7476	-0.09768123179674149	0.047340695	No	
+row_32	NRP2	NRP2	neuropilin 2	7589	-0.10486690700054169	0.040719002	No	
+row_33	TSPAN33	TSPAN33	tetraspanin 33	7701	-0.11309290677309036	0.0343813	No	
+row_34	GADD45A	GADD45A	growth arrest and DNA-damage-inducible, alpha	8266	-0.1566229611635208	-0.00808018	No	
+row_35	TMEM109	TMEM109	transmembrane protein 109	8548	-0.17964565753936768	-0.02674181	No	
+row_36	RHOBTB2	RHOBTB2	Rho-related BTB domain containing 2	8619	-0.18589648604393005	-0.02792655	No	
+row_37	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	9085	-0.2339877188205719	-0.060361218	No	
+row_38	CRYAB	CRYAB	crystallin, alpha B	9350	-0.26722410321235657	-0.07547771	No	
+row_39	NHLH2	NHLH2	nescient helix loop helix 2	9423	-0.2778414487838745	-0.07457008	No	
+row_40	ERRFI1	ERRFI1	ERBB receptor feedback inhibitor 1	9492	-0.2889527678489685	-0.07306135	No	
+row_41	CACNB2	CACNB2	calcium channel, voltage-dependent, beta 2 subunit	9527	-0.2946450412273407	-0.06862145	No	
+row_42	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	10263	-0.48028919100761414	-0.117178716	No	
+row_43	SMOX	SMOX	spermine oxidase	10284	-0.48999691009521484	-0.106794946	No	
+row_44	GAB2	GAB2	GRB2-associated binding protein 2	10364	-0.5232264995574951	-0.10043964	No	
+row_45	CSPG5	CSPG5	chondroitin sulfate proteoglycan 5 (neuroglycan C)	10591	-0.6445798277854919	-0.10317496	No	
+row_46	GNB3	GNB3	guanine nucleotide binding protein (G protein), beta polypeptide 3	10603	-0.6558817625045776	-0.08798102	No	
+row_47	MOAP1	MOAP1	modulator of apoptosis 1	10620	-0.6660913825035095	-0.072947025	No	
+row_48	SOX10	SOX10	SRY (sex determining region Y)-box 10	10708	-0.7356976866722107	-0.06203393	No	
+row_49	DKK1	DKK1	dickkopf homolog 1 (Xenopus laevis)	10840	-0.8624295592308044	-0.051622983	No	
+row_50	COL9A1	COL9A1	collagen, type IX, alpha 1	10940	-0.9935783743858337	-0.03536604	No	
+row_51	CABP1	CABP1	calcium binding protein 1 (calbrain)	10985	-1.07099449634552	-0.012693506	No	
+row_52	ASTN1	ASTN1	astrotactin 1	11132	-1.3124700784683228	0.007531087	No	
+row_53	CSMD3	CSMD3	CUB and Sushi multiple domains 3	11210	-1.4994256496429443	0.038009085	No	
+row_54	LONRF3	LONRF3	LON peptidase N-terminal domain and ring finger 3	11370	-1.8735270500183105	0.070936166	No	

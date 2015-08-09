@@ -1,0 +1,43 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KRT1	KRT1	keratin 1 (epidermolytic hyperkeratosis)	42	6.239395618438721	0.1320732	Yes	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.22344154	Yes	
+row_2	IL4	IL4	interleukin 4	141	4.467897891998291	0.31958076	Yes	
+row_3	TRAT1	TRAT1	T cell receptor associated transmembrane adaptor 1	209	3.877997875213623	0.39831474	Yes	
+row_4	SPACA3	SPACA3	sperm acrosome associated 3	528	2.491335391998291	0.42634526	Yes	
+row_5	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	567	2.384432315826416	0.47501788	Yes	
+row_6	EBI3	EBI3	Epstein-Barr virus induced gene 3	998	1.1611801385879517	0.46497223	Yes	
+row_7	CRTAM	CRTAM	cytotoxic and regulatory T cell molecule	1064	1.0484024286270142	0.48241228	Yes	
+row_8	TNFSF13	TNFSF13	tumor necrosis factor (ligand) superfamily, member 13	1138	0.962350070476532	0.49732718	Yes	
+row_9	MALT1	MALT1	mucosa associated lymphoid tissue lymphoma translocation gene 1	1220	0.8515532612800598	0.50917953	Yes	
+row_10	IL7	IL7	interleukin 7	1348	0.7213791012763977	0.51443183	Yes	
+row_11	LAT2	LAT2	linker for activation of T cells family, member 2	1421	0.673097550868988	0.5231463	Yes	
+row_12	NFAM1	NFAM1	NFAT activating protein with ITAM motif 1	1508	0.6223675608634949	0.5296107	Yes	
+row_13	CD28	CD28	CD28 molecule	1787	0.48268067836761475	0.5172944	Yes	
+row_14	TLR8	TLR8	toll-like receptor 8	1847	0.45926913619041443	0.5224307	Yes	
+row_15	ZAP70	ZAP70	zeta-chain (TCR) associated protein kinase 70kDa	1923	0.43454352021217346	0.5257178	Yes	
+row_16	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	1962	0.42282822728157043	0.531785	Yes	
+row_17	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.4752299	No	
+row_18	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.45305625	No	
+row_19	TRAF6	TRAF6	TNF receptor-associated factor 6	3074	0.21015088260173798	0.45565233	No	
+row_20	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	0.4282193	No	
+row_21	SOCS5	SOCS5	suppressor of cytokine signaling 5	3461	0.17154352366924286	0.4315351	No	
+row_22	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	4302	0.10265637189149857	0.36487275	No	
+row_23	FYN	FYN	FYN oncogene related to SRC, FGR, YES	4568	0.08248276263475418	0.34493047	No	
+row_24	TRAF2	TRAF2	TNF receptor-associated factor 2	4687	0.07413031905889511	0.3368629	No	
+row_25	NCK2	NCK2	NCK adaptor protein 2	4872	0.06321029365062714	0.32314515	No	
+row_26	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	5386	0.028700249269604683	0.2816952	No	
+row_27	EREG	EREG	epiregulin	5533	0.020633287727832794	0.27016926	No	
+row_28	CD276	CD276	CD276 molecule	6619	-0.04153776913881302	0.18208596	No	
+row_29	CD47	CD47	CD47 molecule	6976	-0.06433936953544617	0.15428631	No	
+row_30	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7023	-0.06725116819143295	0.15197434	No	
+row_31	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	0.14269859	No	
+row_32	THY1	THY1	Thy-1 cell surface antigen	7160	-0.07527352124452591	0.14416948	No	
+row_33	SART1	SART1	squamous cell carcinoma antigen recognised by T cells	7604	-0.10565824806690216	0.110132016	No	
+row_34	NCK1	NCK1	NCK adaptor protein 1	7810	-0.1200655922293663	0.09592688	No	
+row_35	MIA3	MIA3	melanoma inhibitory activity family, member 3	7821	-0.12059564143419266	0.09772604	No	
+row_36	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	-0.051796854	No	
+row_37	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	-0.11485642	No	
+row_38	SLA2	SLA2	Src-like-adaptor 2	11052	-1.175809621810913	-0.118515275	No	
+row_39	MBL2	MBL2	mannose-binding lectin (protein C) 2, soluble (opsonic defect)	11166	-1.3864120244979858	-0.09767044	No	
+row_40	IL21	IL21	interleukin 21	11947	-3.944441556930542	-0.075969495	No	
+row_41	CFHR1	CFHR1	complement factor H-related 1	12029	-4.577663421630859	0.016812813	No	

@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PCTP	PCTP	phosphatidylcholine transfer protein	1933	0.43150216341018677	-0.14851698	No	
+row_1	APOD	APOD	apolipoprotein D	2320	0.3273286521434784	-0.17271395	No	
+row_2	PITPNM1	PITPNM1	phosphatidylinositol transfer protein, membrane-associated 1	2522	0.2904820144176483	-0.18259615	No	
+row_3	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	3211	0.19568708539009094	-0.2345035	No	
+row_4	SLCO2A1	SLCO2A1	solute carrier organic anion transporter family, member 2A1	3520	0.16640186309814453	-0.25595695	No	
+row_5	PITPNA	PITPNA	phosphatidylinositol transfer protein, alpha	4064	0.11980504542589188	-0.2977088	No	
+row_6	ATP11B	ATP11B	ATPase, Class VI, type 11B	4876	0.0628749430179596	-0.3626953	No	
+row_7	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	5049	0.05044495686888695	-0.37563765	No	
+row_8	PITPNM3	PITPNM3	PITPNM family member 3	5648	0.013560785911977291	-0.42429885	No	
+row_9	ABCA1	ABCA1	ATP-binding cassette, sub-family A (ABC1), member 1	5779	0.006089655216783285	-0.43480623	No	
+row_10	CDIPT	CDIPT	CDP-diacylglycerol--inositol 3-phosphatidyltransferase (phosphatidylinositol synthase)	5818	0.004432953428477049	-0.43781754	No	
+row_11	PITPNC1	PITPNC1	phosphatidylinositol transfer protein, cytoplasmic 1	6880	-0.05789618194103241	-0.52338845	No	
+row_12	SLC27A4	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4	7440	-0.09396988153457642	-0.56703544	No	
+row_13	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	7494	-0.09879449754953384	-0.5691386	No	
+row_14	NPC1	NPC1	Niemann-Pick disease, type C1	8906	-0.21478396654129028	-0.67981756	No	
+row_15	GLTP	GLTP	glycolipid transfer protein	9343	-0.2663576304912567	-0.70948935	No	
+row_16	PLSCR1	PLSCR1	phospholipid scramblase 1	10073	-0.41309627890586853	-0.75983155	No	
+row_17	ATP8B1	ATP8B1	ATPase, Class I, type 8B, member 1	11048	-1.1630100011825562	-0.8132566	Yes	
+row_18	APOC4	APOC4	apolipoprotein C-IV	12093	-5.536646842956543	-0.773387	Yes	
+row_19	APOM	APOM	apolipoprotein M	12140	-6.359576225280762	-0.633162	Yes	
+row_20	APOF	APOF	apolipoprotein F	12199	-7.887370586395264	-0.4593278	Yes	
+row_21	APOA1	APOA1	apolipoprotein A-I	12211	-8.635818481445312	-0.2646987	Yes	
+row_22	APOA4	APOA4	apolipoprotein A-IV	12229	-11.770315170288086	4.0945274E-4	Yes	

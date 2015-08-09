@@ -1,0 +1,65 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GRIN3A	GRIN3A	glutamate receptor, ionotropic, N-methyl-D-aspartate 3A	321	3.0806198120117188	0.070202306	Yes	
+row_1	PLAG1	PLAG1	pleiomorphic adenoma gene 1	346	2.915332317352295	0.15962517	Yes	
+row_2	ZIC3	ZIC3	Zic family member 3 heterotaxy 1 (odd-paired homolog, Drosophila)	353	2.894254684448242	0.24986617	Yes	
+row_3	RAPGEFL1	RAPGEFL1	Rap guanine nucleotide exchange factor (GEF)-like 1	965	1.2405625581741333	0.23855613	Yes	
+row_4	ADNP	ADNP	activity-dependent neuroprotector	1154	0.9301772117614746	0.25227034	Yes	
+row_5	SLC4A10	SLC4A10	solute carrier family 4, sodium bicarbonate transporter-like, member 10	1173	0.9072667360305786	0.27923396	Yes	
+row_6	CSNK1G3	CSNK1G3	casein kinase 1, gamma 3	1832	0.46375736594200134	0.23970966	No	
+row_7	RPL5	RPL5	ribosomal protein L5	2239	0.3462890386581421	0.21720773	No	
+row_8	CAPZA1	CAPZA1	capping protein (actin filament) muscle Z-line, alpha 1	2260	0.34067729115486145	0.22624461	No	
+row_9	GPC6	GPC6	glypican 6	2354	0.3207959830760956	0.22866036	No	
+row_10	PPP1R10	PPP1R10	protein phosphatase 1, regulatory subunit 10	2369	0.31758663058280945	0.23746632	No	
+row_11	ROCK2	ROCK2	Rho-associated, coiled-coil containing protein kinase 2	3585	0.16018660366535187	0.14266066	No	
+row_12	TRIM13	TRIM13	tripartite motif-containing 13	3814	0.13893342018127441	0.12828313	No	
+row_13	GPR180	GPR180	G protein-coupled receptor 180	3990	0.1255790889263153	0.11784156	No	
+row_14	NUPL1	NUPL1	nucleoporin like 1	4207	0.10927171260118484	0.10352009	No	
+row_15	INSIG2	INSIG2	insulin induced gene 2	4403	0.09399297088384628	0.09044505	No	
+row_16	RYBP	RYBP	RING1 and YY1 binding protein	4944	0.05769209936261177	0.04788592	No	
+row_17	PDIA6	PDIA6	protein disulfide isomerase family A, member 6	5015	0.05346066504716873	0.04381052	No	
+row_18	NFKBIZ	NFKBIZ	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, zeta	5670	0.012273150496184826	-0.009539006	No	
+row_19	SIDT2	SIDT2	SID1 transmembrane family, member 2	6067	-0.011216288432478905	-0.041723736	No	
+row_20	RBMS1	RBMS1	RNA binding motif, single stranded interacting protein 1	6105	-0.013157213106751442	-0.044351272	No	
+row_21	NIPBL	NIPBL	Nipped-B homolog (Drosophila)	6323	-0.02539151720702648	-0.06138452	No	
+row_22	CAPN3	CAPN3	calpain 3, (p94)	6337	-0.026311704888939857	-0.06162777	No	
+row_23	FBXO11	FBXO11	F-box protein 11	6512	-0.03589482977986336	-0.074798755	No	
+row_24	ZMYND11	ZMYND11	zinc finger, MYND domain containing 11	6629	-0.042070236057043076	-0.08301072	No	
+row_25	GRIK5	GRIK5	glutamate receptor, ionotropic, kainate 5	6647	-0.043292611837387085	-0.08305027	No	
+row_26	COPS7A	COPS7A	COP9 constitutive photomorphogenic homolog subunit 7A (Arabidopsis)	6681	-0.04571138322353363	-0.0843286	No	
+row_27	SMARCA2	SMARCA2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2	6805	-0.053115904331207275	-0.09276942	No	
+row_28	KPNA4	KPNA4	karyopherin alpha 4 (importin alpha 3)	6918	-0.060129690915346146	-0.10008658	No	
+row_29	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	7041	-0.06842163950204849	-0.1079654	No	
+row_30	LARP4	LARP4	La ribonucleoprotein domain family, member 4	7186	-0.0768052190542221	-0.117388986	No	
+row_31	ANK2	ANK2	ankyrin 2, neuronal	7306	-0.0836298018693924	-0.12454456	No	
+row_32	EIF4B	EIF4B	eukaryotic translation initiation factor 4B	7313	-0.0839928537607193	-0.12240438	No	
+row_33	SEPT7	SEPT7	septin 7	7400	-0.09091019630432129	-0.12662035	No	
+row_34	SCOC	SCOC	short coiled-coil protein	7471	-0.09695994108915329	-0.12933207	No	
+row_35	NDST1	NDST1	N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 1	7608	-0.10599002242088318	-0.13718341	No	
+row_36	TRIM35	TRIM35	tripartite motif-containing 35	7749	-0.1159328743815422	-0.1450517	No	
+row_37	ZBTB7A	ZBTB7A	zinc finger and BTB domain containing 7A	7839	-0.12213576585054398	-0.14853525	No	
+row_38	PDE8A	PDE8A	phosphodiesterase 8A	7860	-0.1235574334859848	-0.14630501	No	
+row_39	VPS54	VPS54	vacuolar protein sorting 54 (S. cerevisiae)	7866	-0.12408623099327087	-0.14282577	No	
+row_40	MBD5	MBD5	methyl-CpG binding domain protein 5	8012	-0.13481779396533966	-0.15051283	No	
+row_41	PEX12	PEX12	peroxisomal biogenesis factor 12	8101	-0.1429792046546936	-0.15326078	No	
+row_42	PTGES2	PTGES2	prostaglandin E synthase 2	8184	-0.14963167905807495	-0.1553072	No	
+row_43	TM2D1	TM2D1	TM2 domain containing 1	8219	-0.15218882262706757	-0.15332966	No	
+row_44	PLEKHA5	PLEKHA5	pleckstrin homology domain containing, family A member 5	8535	-0.17876678705215454	-0.17360656	No	
+row_45	NRP1	NRP1	neuropilin 1	8666	-0.19069282710552216	-0.17830953	No	
+row_46	BRWD1	BRWD1	bromodomain and WD repeat domain containing 1	8978	-0.2212217152118683	-0.19692683	No	
+row_47	ATP6V1G1	ATP6V1G1	ATPase, H+ transporting, lysosomal 13kDa, V1 subunit G1	9023	-0.2256777137517929	-0.19346707	No	
+row_48	CRISPLD2	CRISPLD2	cysteine-rich secretory protein LCCL domain containing 2	9077	-0.2332274317741394	-0.19051006	No	
+row_49	PTMA	PTMA	prothymosin, alpha (gene sequence 28)	9104	-0.23663878440856934	-0.18522774	No	
+row_50	CEBPB	CEBPB	CCAAT/enhancer binding protein (C/EBP), beta	9577	-0.30280566215515137	-0.21451558	No	
+row_51	GRAMD3	GRAMD3	GRAM domain containing 3	9668	-0.3224908411502838	-0.21180022	No	
+row_52	NFIB	NFIB	nuclear factor I/B	9799	-0.3491371273994446	-0.211536	No	
+row_53	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	10076	-0.4143373370170593	-0.22122352	No	
+row_54	ENAH	ENAH	enabled homolog (Drosophila)	10085	-0.4177447259426117	-0.20878464	No	
+row_55	KCNIP2	KCNIP2	Kv channel interacting protein 2	10319	-0.5007687211036682	-0.21222956	No	
+row_56	BCL2L11	BCL2L11	BCL2-like 11 (apoptosis facilitator)	10494	-0.5840502381324768	-0.20821606	No	
+row_57	KHDRBS3	KHDRBS3	KH domain containing, RNA binding, signal transduction associated 3	10549	-0.6167535185813904	-0.1933178	No	
+row_58	HES5	HES5	hairy and enhancer of split 5 (Drosophila)	10770	-0.790584146976471	-0.18660899	No	
+row_59	SLITRK6	SLITRK6	SLIT and NTRK-like family, member 6	10776	-0.800280749797821	-0.16193125	No	
+row_60	DLX5	DLX5	distal-less homeobox 5	10925	-0.980439305305481	-0.14335483	No	
+row_61	SLC6A1	SLC6A1	solute carrier family 6 (neurotransmitter transporter, GABA), member 1	11312	-1.7202060222625732	-0.121141635	No	
+row_62	GRIK2	GRIK2	glutamate receptor, ionotropic, kainate 2	11743	-2.789155960083008	-0.06903234	No	
+row_63	DSCAML1	DSCAML1	Down syndrome cell adhesion molecule like 1	11881	-3.486227512359619	0.02900354	No	

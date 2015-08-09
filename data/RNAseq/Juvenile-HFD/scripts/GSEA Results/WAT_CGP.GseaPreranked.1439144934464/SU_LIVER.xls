@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CRYGA	CRYGA	crystallin, gamma A	2024	1.4632813930511475	-0.14289047	No	
+row_1	RXRA	RXRA	retinoid X receptor, alpha	2093	1.4129356145858765	-0.13454425	No	
+row_2	IGFALS	IGFALS	insulin-like growth factor binding protein, acid labile subunit	2098	1.4071980714797974	-0.121289045	No	
+row_3	GPT	GPT	glutamic-pyruvate transaminase (alanine aminotransferase)	2722	0.8934538960456848	-0.16100064	No	
+row_4	SLC25A20	SLC25A20	solute carrier family 25 (carnitine/acylcarnitine translocase), member 20	4181	0.2424556463956833	-0.27175674	No	
+row_5	DHODH	DHODH	dihydroorotate dehydrogenase	5902	-0.19217738509178162	-0.40332022	No	
+row_6	ARID1A	ARID1A	AT rich interactive domain 1A (SWI- like)	6866	-0.40612784028053284	-0.47410262	No	
+row_7	RDH16	RDH16	retinol dehydrogenase 16 (all-trans)	9268	-1.1300065517425537	-0.6494488	No	
+row_8	FMO3	FMO3	flavin containing monooxygenase 3	9327	-1.15437912940979	-0.6428194	No	
+row_9	DDT	DDT	D-dopachrome tautomerase	9513	-1.2410639524459839	-0.6452055	No	
+row_10	GALK1	GALK1	galactokinase 1	9526	-1.2487882375717163	-0.6340979	No	
+row_11	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	10428	-1.7625646591186523	-0.68699497	Yes	
+row_12	ARG1	ARG1	arginase, liver	10479	-1.8020085096359253	-0.67350185	Yes	
+row_13	TAT	TAT	tyrosine aminotransferase	10691	-2.0067379474639893	-0.67052346	Yes	
+row_14	SLC25A13	SLC25A13	solute carrier family 25, member 13 (citrin)	10861	-2.1919212341308594	-0.6625021	Yes	
+row_15	APCS	APCS	amyloid P component, serum	10863	-2.1926610469818115	-0.6414423	Yes	
+row_16	CPS1	CPS1	carbamoyl-phosphate synthetase 1, mitochondrial	10931	-2.2671408653259277	-0.62478393	Yes	
+row_17	C8A	C8A	complement component 8, alpha polypeptide	10978	-2.345202684402466	-0.6057441	Yes	
+row_18	TFR2	TFR2	transferrin receptor 2	11064	-2.457632541656494	-0.58864564	Yes	
+row_19	SAA4	SAA4	serum amyloid A4, constitutive	11080	-2.479794502258301	-0.5659038	Yes	
+row_20	APOB	APOB	apolipoprotein B (including Ag(x) antigen)	11091	-2.4915924072265625	-0.5426603	Yes	
+row_21	CFHR2	CFHR2	complement factor H-related 2	11127	-2.5589818954467773	-0.5207064	Yes	
+row_22	HABP2	HABP2	hyaluronan binding protein 2	11168	-2.6094114780426025	-0.49865425	Yes	
+row_23	CPN2	CPN2	carboxypeptidase N, polypeptide 2, 83kD	11175	-2.623297929763794	-0.47383088	Yes	
+row_24	ITIH2	ITIH2	inter-alpha (globulin) inhibitor H2	11287	-2.7714078426361084	-0.45572433	Yes	
+row_25	APOF	APOF	apolipoprotein F	11316	-2.819741725921631	-0.4307137	Yes	
+row_26	GCGR	GCGR	glucagon receptor	11319	-2.824509382247925	-0.4036404	Yes	
+row_27	CTH	CTH	cystathionase (cystathionine gamma-lyase)	11370	-2.9255621433258057	-0.37931615	Yes	
+row_28	SLC22A1	SLC22A1	solute carrier family 22 (organic cation transporter), member 1	11382	-2.9385414123535156	-0.35184166	Yes	
+row_29	SERPIND1	SERPIND1	serpin peptidase inhibitor, clade D (heparin cofactor), member 1	11403	-2.9803061485290527	-0.32466266	Yes	
+row_30	SEC14L2	SEC14L2	SEC14-like 2 (S. cerevisiae)	11468	-3.068998336791992	-0.30004165	Yes	
+row_31	SLC6A12	SLC6A12	solute carrier family 6 (neurotransmitter transporter, betaine/GABA), member 12	11475	-3.073075771331787	-0.2708824	Yes	
+row_32	MASP2	MASP2	mannan-binding lectin serine peptidase 2	11558	-3.238101005554199	-0.24602742	Yes	
+row_33	SERPINC1	SERPINC1	serpin peptidase inhibitor, clade C (antithrombin), member 1	11562	-3.2441675662994385	-0.21498613	Yes	
+row_34	CRP	CRP	C-reactive protein, pentraxin-related	11563	-3.248225450515747	-0.18367302	Yes	
+row_35	MBL2	MBL2	mannose-binding lectin (protein C) 2, soluble (opsonic defect)	11621	-3.32454514503479	-0.15604554	Yes	
+row_36	AFM	AFM	afamin	11623	-3.3283133506774902	-0.12403795	Yes	
+row_37	LECT2	LECT2	leukocyte cell-derived chemotaxin 2	11682	-3.499955892562866	-0.09479707	Yes	
+row_38	GCKR	GCKR	glucokinase (hexokinase 4) regulator	11739	-3.633626699447632	-0.06411245	Yes	
+row_39	LIPC	LIPC	lipase, hepatic	11771	-3.724973201751709	-0.03060805	Yes	
+row_40	CPN1	CPN1	carboxypeptidase N, polypeptide 1, 50kD	11839	-3.9844393730163574	0.0026051851	Yes	
+row_41	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	11913	-4.251522064208984	0.03792771	Yes	
+row_42	SPP2	SPP2	secreted phosphoprotein 2, 24kDa	11919	-4.272902488708496	0.07873093	Yes	

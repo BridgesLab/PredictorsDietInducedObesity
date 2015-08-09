@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TGFB3	TGFB3	transforming growth factor, beta 3	1407	2.196622371673584	-0.04938478	No	
+row_1	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	-0.0032646356	No	
+row_2	E2F1	E2F1	E2F transcription factor 1	2017	1.4653208255767822	-0.0018460953	No	
+row_3	CDKN2B	CDKN2B	cyclin-dependent kinase inhibitor 2B (p15, inhibits CDK4)	2104	1.4005683660507202	0.029498601	No	
+row_4	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	3347	0.5545215010643005	-0.051665492	No	
+row_5	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	-0.1339041	No	
+row_6	CDK2	CDK2	cyclin-dependent kinase 2	4593	0.11837294697761536	-0.14068489	No	
+row_7	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	4795	0.06617257744073868	-0.15445971	No	
+row_8	SMAD3	SMAD3	SMAD, mothers against DPP homolog 3 (Drosophila)	5358	-0.07069455087184906	-0.19607683	No	
+row_9	SMAD4	SMAD4	SMAD, mothers against DPP homolog 4 (Drosophila)	5461	-0.09522564709186554	-0.20139419	No	
+row_10	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	-0.20078966	No	
+row_11	HDAC1	HDAC1	histone deacetylase 1	5559	-0.11769767105579376	-0.20286338	No	
+row_12	TFDP1	TFDP1	transcription factor Dp-1	6102	-0.23321354389190674	-0.23852096	No	
+row_13	CCNE1	CCNE1	cyclin E1	6821	-0.39628103375434875	-0.28338733	No	
+row_14	GSK3B	GSK3B	glycogen synthase kinase 3 beta	6826	-0.3987458348274231	-0.27287656	No	
+row_15	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	6941	-0.423297256231308	-0.27022076	No	
+row_16	TGFB2	TGFB2	transforming growth factor, beta 2	7236	-0.4911147356033325	-0.27966836	No	
+row_17	CDK4	CDK4	cyclin-dependent kinase 4	8223	-0.7500976920127869	-0.33569404	No	
+row_18	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	-0.34162638	No	
+row_19	CDK6	CDK6	cyclin-dependent kinase 6	9305	-1.1451270580291748	-0.3646223	No	
+row_20	DHFR	DHFR	dihydrofolate reductase	9993	-1.4774905443191528	-0.37774685	Yes	
+row_21	CDC25A	CDC25A	cell division cycle 25A	10088	-1.5307327508926392	-0.34348965	Yes	
+row_22	ATR	ATR	ataxia telangiectasia and Rad3 related	10812	-2.13700270652771	-0.34150603	Yes	
+row_23	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	-0.31455567	Yes	
+row_24	SKP2	SKP2	S-phase kinase-associated protein 2 (p45)	11979	-4.501242160797119	-0.20890722	Yes	
+row_25	CCNA1	CCNA1	cyclin A1	12699	-10.421676635742188	0.018204473	Yes	

@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TRIM29	TRIM29	tripartite motif-containing 29	10	7.243049621582031	0.1872944	Yes	
+row_1	S100A9	S100A9	S100 calcium binding protein A9	23	6.771914005279541	0.36218864	Yes	
+row_2	IVL	IVL	involucrin	236	3.6027510166168213	0.43837824	Yes	
+row_3	SPRR1A	SPRR1A	small proline-rich protein 1A	285	3.3178160190582275	0.5206125	Yes	
+row_4	SERPINB5	SERPINB5	serpin peptidase inhibitor, clade B (ovalbumin), member 5	462	2.684269666671753	0.5758989	Yes	
+row_5	S100A2	S100A2	S100 calcium binding protein A2	518	2.491335391998291	0.6360941	Yes	
+row_6	DSC3	DSC3	desmocollin 3	794	1.6607285737991333	0.65668136	Yes	
+row_7	PKP1	PKP1	plakophilin 1 (ectodermal dysplasia/skin fragility syndrome)	890	1.3611071109771729	0.68424344	Yes	
+row_8	AQP3	AQP3	aquaporin 3 (Gill blood group)	894	1.3555163145065308	0.7192025	Yes	
+row_9	S100A8	S100A8	S100 calcium binding protein A8	1517	0.6152167916297913	0.6841888	No	
+row_10	HTRA1	HTRA1	HtrA serine peptidase 1	2159	0.36475610733032227	0.6411125	No	
+row_11	PTPRZ1	PTPRZ1	protein tyrosine phosphatase, receptor-type, Z polypeptide 1	2353	0.32100561261177063	0.6336273	No	
+row_12	AMIGO2	AMIGO2	adhesion molecule with Ig-like domain 2	2850	0.23865750432014465	0.59916323	No	
+row_13	FLRT3	FLRT3	fibronectin leucine rich transmembrane protein 3	3117	0.2062472254037857	0.58271295	No	
+row_14	FABP5	FABP5	fatty acid binding protein 5 (psoriasis-associated)	4080	0.11885090917348862	0.50693434	No	
+row_15	PDPN	PDPN	podoplanin	4579	0.08165376633405685	0.46822867	No	
+row_16	NDRG1	NDRG1	N-myc downstream regulated gene 1	4930	0.058751314878463745	0.4410613	No	
+row_17	GJB5	GJB5	gap junction protein, beta 5 (connexin 31.1)	5599	0.0167978648096323	0.3867345	No	
+row_18	SERPINE2	SERPINE2	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 2	5953	-0.004902096930891275	0.35792264	No	
+row_19	ITGA6	ITGA6	integrin, alpha 6	6046	-0.010191689245402813	0.35064512	No	
+row_20	SFN	SFN	stratifin	6322	-0.025365818291902542	0.32875922	No	
+row_21	DST	DST	dystonin	6427	-0.031007496640086174	0.32103854	No	
+row_22	JAG1	JAG1	jagged 1 (Alagille syndrome)	6690	-0.04616129770874977	0.3007585	No	
+row_23	KRT75	KRT75	keratin 75	7016	-0.06685730814933777	0.2758512	No	
+row_24	SDC1	SDC1	syndecan 1	7135	-0.07382869720458984	0.26809493	No	
+row_25	PTGES	PTGES	prostaglandin E synthase	7137	-0.07391566783189774	0.26993266	No	
+row_26	MFAP5	MFAP5	microfibrillar associated protein 5	8132	-0.14582376182079315	0.1922312	No	
+row_27	POSTN	POSTN	periostin, osteoblast specific factor	8188	-0.14991365373134613	0.19161576	No	
+row_28	GJA1	GJA1	gap junction protein, alpha 1, 43kDa (connexin 43)	8293	-0.1585243046283722	0.18720692	No	
+row_29	SLC39A6	SLC39A6	solute carrier family 39 (zinc transporter), member 6	9063	-0.23099081218242645	0.13016301	No	
+row_30	CXCL14	CXCL14	chemokine (C-X-C motif) ligand 14	9407	-0.2739444971084595	0.10915846	No	
+row_31	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	0.10674141	No	
+row_32	CLCA2	CLCA2	chloride channel, calcium activated, family member 2	9844	-0.35785093903541565	0.09045744	No	
+row_33	FEZ1	FEZ1	fasciculation and elongation protein zeta 1 (zygin I)	10048	-0.4086405336856842	0.08442845	No	
+row_34	SLPI	SLPI	secretory leukocyte peptidase inhibitor	10130	-0.4308643341064453	0.08897829	No	
+row_35	PTHLH	PTHLH	parathyroid hormone-like hormone	10865	-0.8940830230712891	0.052025333	No	
+row_36	KRT16	KRT16	keratin 16 (focal non-epidermolytic palmoplantar keratoderma)	11586	-2.3149921894073486	0.053123508	No	

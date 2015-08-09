@@ -1,0 +1,33 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CHEK2	CHEK2	CHK2 checkpoint homolog (S. pombe)	3165	0.6406944394111633	-0.22782865	No	
+row_1	MCM3	MCM3	MCM3 minichromosome maintenance deficient 3 (S. cerevisiae)	4066	0.28157612681388855	-0.28990507	No	
+row_2	CDC7	CDC7	CDC7 cell division cycle 7 (S. cerevisiae)	4218	0.23054926097393036	-0.2953238	No	
+row_3	MCM8	MCM8	MCM8 minichromosome maintenance deficient 8 (S. cerevisiae)	4524	0.13696517050266266	-0.3152285	No	
+row_4	CDK2	CDK2	cyclin-dependent kinase 2	4593	0.11837294697761536	-0.31727213	No	
+row_5	RAD9A	RAD9A	RAD9 homolog A (S. pombe)	4657	0.10370554029941559	-0.31932807	No	
+row_6	RAD1	RAD1	RAD1 homolog (S. pombe)	4818	0.06015848368406296	-0.33008856	No	
+row_7	RAD17	RAD17	RAD17 homolog (S. pombe)	5177	-0.029494309797883034	-0.35703015	No	
+row_8	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	-0.37842476	No	
+row_9	RPA3	RPA3	replication protein A3, 14kDa	5517	-0.10677117854356766	-0.37752956	No	
+row_10	HUS1	HUS1	HUS1 checkpoint homolog (S. pombe)	5556	-0.11719086766242981	-0.37728038	No	
+row_11	MCM6	MCM6	MCM6 minichromosome maintenance deficient 6 (MIS5 homolog, S. pombe) (S. cerevisiae)	5720	-0.15283869206905365	-0.38574725	No	
+row_12	MCM7	MCM7	MCM7 minichromosome maintenance deficient 7 (S. cerevisiae)	6051	-0.22290466725826263	-0.4052471	No	
+row_13	RFC3	RFC3	replication factor C (activator 1) 3, 38kDa	6377	-0.293229877948761	-0.4224426	No	
+row_14	CDC6	CDC6	CDC6 cell division cycle 6 homolog (S. cerevisiae)	6905	-0.4138560891151428	-0.45200548	No	
+row_15	RPA2	RPA2	replication protein A2, 32kDa	7088	-0.4573472738265991	-0.45364502	No	
+row_16	MCM5	MCM5	MCM5 minichromosome maintenance deficient 5, cell division cycle 46 (S. cerevisiae)	7124	-0.467097669839859	-0.44362608	No	
+row_17	RPA1	RPA1	replication protein A1, 70kDa	7380	-0.5276384949684143	-0.4490073	No	
+row_18	MCM2	MCM2	MCM2 minichromosome maintenance deficient 2, mitotin (S. cerevisiae)	7740	-0.6215787529945374	-0.45988816	No	
+row_19	RFC4	RFC4	replication factor C (activator 1) 4, 37kDa	7943	-0.6700111031532288	-0.45728123	No	
+row_20	MCM4	MCM4	MCM4 minichromosome maintenance deficient 4 (S. cerevisiae)	8143	-0.7256672382354736	-0.4529248	No	
+row_21	MCM10	MCM10	MCM10 minichromosome maintenance deficient 10 (S. cerevisiae)	9441	-1.2084020376205444	-0.52050716	Yes	
+row_22	RFC5	RFC5	replication factor C (activator 1) 5, 36.5kDa	9546	-1.2550338506698608	-0.49435934	Yes	
+row_23	CDC25A	CDC25A	cell division cycle 25A	10088	-1.5307327508926392	-0.49456504	Yes	
+row_24	RFC2	RFC2	replication factor C (activator 1) 2, 40kDa	10516	-1.8409957885742188	-0.47747886	Yes	
+row_25	WEE1	WEE1	WEE1 homolog (S. pombe)	10745	-2.0652332305908203	-0.43885797	Yes	
+row_26	CHEK1	CHEK1	CHK1 checkpoint homolog (S. pombe)	10782	-2.1063451766967773	-0.38423625	Yes	
+row_27	ATR	ATR	ataxia telangiectasia and Rad3 related	10812	-2.13700270652771	-0.3282364	Yes	
+row_28	DBF4	DBF4	DBF4 homolog (S. cerevisiae)	11197	-2.6486997604370117	-0.28580242	Yes	
+row_29	CDC25C	CDC25C	cell division cycle 25C	12028	-4.714576721191406	-0.22162528	Yes	
+row_30	CCNB1	CCNB1	cyclin B1	12067	-4.93411922454834	-0.090083115	Yes	
+row_31	CCNB2	CCNB2	cyclin B2	12207	-5.767383098602295	0.056343354	Yes	

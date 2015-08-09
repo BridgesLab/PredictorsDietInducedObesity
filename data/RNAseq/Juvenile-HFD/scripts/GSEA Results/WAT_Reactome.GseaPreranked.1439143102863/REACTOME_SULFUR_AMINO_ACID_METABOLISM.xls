@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CSAD	CSAD	cysteine sulfinic acid decarboxylase	2216	1.2935798168182373	-0.12564239	No	
+row_1	APIP	APIP	APAF1 interacting protein	2904	0.7869098782539368	-0.1508816	No	
+row_2	SQRDL	SQRDL	sulfide quinone reductase-like (yeast)	3226	0.6104083061218262	-0.15404929	No	
+row_3	CDO1	CDO1	cysteine dioxygenase, type I	3370	0.5449298620223999	-0.14575922	No	
+row_4	MAT2B	MAT2B	methionine adenosyltransferase II, beta	4603	0.11641950905323029	-0.23702995	No	
+row_5	TST	TST	thiosulfate sulfurtransferase (rhodanese)	4677	0.09995445609092712	-0.23913127	No	
+row_6	MAT2A	MAT2A	methionine adenosyltransferase II, alpha	4876	0.04680759459733963	-0.25280133	No	
+row_7	MTAP	MTAP	methylthioadenosine phosphorylase	5161	-0.02676672488451004	-0.27384353	No	
+row_8	SLC25A10	SLC25A10	solute carrier family 25 (mitochondrial carrier; dicarboxylate transporter), member 10	6566	-0.33825984597206116	-0.37055102	No	
+row_9	CNDP2	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)	7286	-0.5040108561515808	-0.40832123	No	
+row_10	GCLC	GCLC	glutamate-cysteine ligase, catalytic subunit	8956	-1.0061699151992798	-0.5018164	Yes	
+row_11	MTR	MTR	5-methyltetrahydrofolate-homocysteine methyltransferase	8974	-1.015433669090271	-0.46704924	Yes	
+row_12	ADI1	ADI1	acireductone dioxygenase 1	9549	-1.2576625347137451	-0.4668093	Yes	
+row_13	GCLM	GCLM	glutamate-cysteine ligase, modifier subunit	10141	-1.5645840167999268	-0.45697933	Yes	
+row_14	SUOX	SUOX	sulfite oxidase	10371	-1.7223761081695557	-0.41350845	Yes	
+row_15	ETHE1	ETHE1	ethylmalonic encephalopathy 1	10606	-1.9191324710845947	-0.36343297	Yes	
+row_16	BHMT	BHMT	betaine-homocysteine methyltransferase	10634	-1.943460464477539	-0.29646266	Yes	
+row_17	MAT1A	MAT1A	methionine adenosyltransferase I, alpha	10786	-2.109152317047119	-0.23320717	Yes	
+row_18	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	11089	-2.4897208213806152	-0.16812174	Yes	
+row_19	AHCY	AHCY	S-adenosylhomocysteine hydrolase	11339	-2.866398811340332	-0.08554661	Yes	
+row_20	CTH	CTH	cystathionase (cystathionine gamma-lyase)	11370	-2.9255621433258057	0.01609055	Yes	
+row_21	CBS	CBS	cystathionine-beta-synthase	11390	-2.953421115875244	0.11956954	Yes	

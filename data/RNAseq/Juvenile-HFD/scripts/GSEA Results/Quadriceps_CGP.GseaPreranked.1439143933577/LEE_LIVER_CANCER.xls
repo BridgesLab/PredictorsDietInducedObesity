@@ -1,0 +1,34 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SLC22A3	SLC22A3	solute carrier family 22 (extraneuronal monoamine transporter), member 3	182	3.994213104248047	0.019129539	No	
+row_1	CD4	CD4	CD4 molecule	268	3.448735475540161	0.041559156	No	
+row_2	COLEC10	COLEC10	collectin sub-family member 10 (C-type lectin)	1827	0.46403712034225464	-0.08216955	No	
+row_3	SLC28A1	SLC28A1	solute carrier family 28 (sodium-coupled nucleoside transporter), member 1	2635	0.2735334634780884	-0.14597476	No	
+row_4	FAM20C	FAM20C	family with sequence similarity 20, member C	3414	0.17534789443016052	-0.2082402	No	
+row_5	DNASE1L3	DNASE1L3	deoxyribonuclease I-like 3	3498	0.16839487850666046	-0.21360703	No	
+row_6	ADRA1A	ADRA1A	adrenergic, alpha-1A-, receptor	4310	0.10189647227525711	-0.279203	No	
+row_7	PPAP2B	PPAP2B	phosphatidic acid phosphatase type 2B	4952	0.056882016360759735	-0.33125055	No	
+row_8	CYP2E1	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	5709	0.009959316812455654	-0.3931227	No	
+row_9	ACADS	ACADS	acyl-Coenzyme A dehydrogenase, C-2 to C-3 short chain	6497	-0.03499768674373627	-0.457322	No	
+row_10	TMED8	TMED8	transmembrane emp24 protein transport domain containing 8	7315	-0.08403290063142776	-0.523562	No	
+row_11	NDRG2	NDRG2	NDRG family member 2	7693	-0.11275342106819153	-0.5534975	No	
+row_12	CETN2	CETN2	centrin, EF-hand protein, 2	7725	-0.11448293179273605	-0.55506223	No	
+row_13	LDHD	LDHD	lactate dehydrogenase D	8770	-0.2024320513010025	-0.6388965	No	
+row_14	RXRB	RXRB	retinoid X receptor, beta	9074	-0.23248866200447083	-0.66174686	No	
+row_15	ETS2	ETS2	v-ets erythroblastosis virus E26 oncogene homolog 2 (avian)	9513	-0.2916865348815918	-0.6951564	No	
+row_16	ADH4	ADH4	alcohol dehydrogenase 4 (class II), pi polypeptide	10208	-0.45383578538894653	-0.748164	No	
+row_17	IGFALS	IGFALS	insulin-like growth factor binding protein, acid labile subunit	10609	-0.6586623787879944	-0.7753313	No	
+row_18	PEMT	PEMT	phosphatidylethanolamine N-methyltransferase	10702	-0.7294184565544128	-0.7766538	No	
+row_19	LCAT	LCAT	lecithin-cholesterol acyltransferase	11502	-2.093421697616577	-0.82429135	Yes	
+row_20	RSPO3	RSPO3	R-spondin 3 homolog (Xenopus laevis)	11608	-2.3825714588165283	-0.8125884	Yes	
+row_21	ITIH4	ITIH4	inter-alpha (globulin) inhibitor H4 (plasma Kallikrein-sensitive glycoprotein)	11694	-2.67598557472229	-0.7967454	Yes	
+row_22	FETUB	FETUB	fetuin B	11986	-4.234105587005615	-0.78450406	Yes	
+row_23	SLC22A1	SLC22A1	solute carrier family 22 (organic cation transporter), member 1	12147	-6.5116753578186035	-0.74211365	Yes	
+row_24	TTR	TTR	transthyretin (prealbumin, amyloidosis type I)	12156	-6.724978446960449	-0.68544817	Yes	
+row_25	CIDEB	CIDEB	cell death-inducing DFFA-like effector b	12179	-7.276393890380859	-0.62523	Yes	
+row_26	DMGDH	DMGDH	dimethylglycine dehydrogenase	12195	-7.683990001678467	-0.5609639	Yes	
+row_27	APOF	APOF	apolipoprotein F	12199	-7.887370586395264	-0.4939809	Yes	
+row_28	C8A	C8A	complement component 8, alpha polypeptide	12210	-8.594880104064941	-0.421541	Yes	
+row_29	HPX	HPX	hemopexin	12218	-8.997003555297852	-0.3454277	Yes	
+row_30	C8B	C8B	complement component 8, beta polypeptide	12224	-9.496541976928711	-0.26489264	Yes	
+row_31	UROC1	UROC1	urocanase domain containing 1	12226	-9.709391593933105	-0.18221548	Yes	
+row_32	PLG	PLG	plasminogen	12232	-21.44502830505371	1.6388246E-4	Yes	

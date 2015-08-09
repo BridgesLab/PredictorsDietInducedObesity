@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UBD	UBD	ubiquitin D	386	2.878185749053955	0.029981324	No	
+row_1	CD14	CD14	CD14 molecule	1077	1.0316311120986938	-0.0044411654	No	
+row_2	FST	FST	follistatin	1260	0.7960211038589478	-0.0023101785	No	
+row_3	GGH	GGH	gamma-glutamyl hydrolase (conjugase, folylpolygammaglutamyl hydrolase)	1579	0.5802041888237	-0.015932886	No	
+row_4	CD74	CD74	CD74 molecule, major histocompatibility complex, class II invariant chain	1682	0.5265452265739441	-0.013017706	No	
+row_5	SLC25A5	SLC25A5	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 5	2639	0.2729923129081726	-0.0854535	No	
+row_6	MRFAP1	MRFAP1	Mof4 family associated protein 1	2947	0.22596578299999237	-0.10575547	No	
+row_7	MYL6	MYL6	myosin, light chain 6, alkali, smooth muscle and non-muscle	3365	0.18105974793434143	-0.13602513	No	
+row_8	FTH1	FTH1	ferritin, heavy polypeptide 1	4034	0.12191591411828995	-0.18811221	No	
+row_9	ACTB	ACTB	actin, beta	4646	0.07699259370565414	-0.2364934	No	
+row_10	MALAT1	MALAT1	metastasis associated lung adenocarcinoma transcript 1 (non-coding RNA)	4699	0.07356675714254379	-0.23917697	No	
+row_11	PRDX1	PRDX1	peroxiredoxin 1	5026	0.05220093950629234	-0.26475286	No	
+row_12	GLUL	GLUL	glutamate-ammonia ligase (glutamine synthetase)	5957	-0.005263951141387224	-0.3407886	No	
+row_13	DUSP22	DUSP22	dual specificity phosphatase 22	6980	-0.06460445374250412	-0.42308754	No	
+row_14	RPL13A	RPL13A	ribosomal protein L13a	7255	-0.08049091696739197	-0.4438003	No	
+row_15	DPP4	DPP4	dipeptidyl-peptidase 4 (CD26, adenosine deaminase complexing protein 2)	8175	-0.14904740452766418	-0.5158587	No	
+row_16	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	10302	-0.4951803982257843	-0.6793397	No	
+row_17	DPYD	DPYD	dihydropyrimidine dehydrogenase	11058	-1.1829782724380493	-0.7158459	Yes	
+row_18	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	11539	-2.1825923919677734	-0.7084455	Yes	
+row_19	FABP1	FABP1	fatty acid binding protein 1, liver	12145	-6.430042743682861	-0.62039375	Yes	
+row_20	FGB	FGB	fibrinogen beta chain	12174	-7.116446018218994	-0.47040975	Yes	
+row_21	FGA	FGA	fibrinogen alpha chain	12234	-22.209741592407227	5.538459E-8	Yes	

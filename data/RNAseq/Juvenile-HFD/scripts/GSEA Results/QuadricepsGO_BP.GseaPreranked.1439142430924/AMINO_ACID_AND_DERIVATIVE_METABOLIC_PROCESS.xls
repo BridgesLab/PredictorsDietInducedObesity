@@ -1,0 +1,92 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	484	2.5702457427978516	-0.011590471	No	
+row_1	PRG3	PRG3	proteoglycan 3	521	2.491335391998291	0.012841942	No	
+row_2	BBOX1	BBOX1	butyrobetaine (gamma), 2-oxoglutarate dioxygenase (gamma-butyrobetaine hydroxylase) 1	1109	0.9923790693283081	-0.024581643	No	
+row_3	CDO1	CDO1	cysteine dioxygenase, type I	1190	0.8924767374992371	-0.021354826	No	
+row_4	MARS2	MARS2	methionine-tRNA synthetase 2 (mitochondrial)	2061	0.393938809633255	-0.08866306	No	
+row_5	ASRGL1	ASRGL1	asparaginase like 1	2450	0.30168402194976807	-0.11729542	No	
+row_6	PEPD	PEPD	peptidase D	2694	0.263051837682724	-0.13441256	No	
+row_7	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	2810	0.24459943175315857	-0.14119244	No	
+row_8	BPHL	BPHL	biphenyl hydrolase-like (serine hydrolase; breast epithelial mucin-associated antigen)	2855	0.23796646296977997	-0.14219874	No	
+row_9	GCLC	GCLC	glutamate-cysteine ligase, catalytic subunit	2903	0.23169274628162384	-0.14352107	No	
+row_10	PTS	PTS	6-pyruvoyltetrahydropterin synthase	3212	0.1956857293844223	-0.16673146	No	
+row_11	NFS1	NFS1	NFS1 nitrogen fixation 1 (S. cerevisiae)	3290	0.18821178376674652	-0.17100231	No	
+row_12	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	-0.18261719	No	
+row_13	KARS	KARS	lysyl-tRNA synthetase	3568	0.16176946461200714	-0.1900609	No	
+row_14	DARS	DARS	aspartyl-tRNA synthetase	3619	0.15661491453647614	-0.19245589	No	
+row_15	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	3649	0.15410877764225006	-0.19314918	No	
+row_16	CCBL1	CCBL1	cysteine conjugate-beta lyase; cytoplasmic (glutamine transaminase K, kyneurenine aminotransferase)	3666	0.15261617302894592	-0.1927884	No	
+row_17	SLC7A6	SLC7A6	solute carrier family 7 (cationic amino acid transporter, y+ system), member 6	3764	0.14457698166370392	-0.199186	No	
+row_18	QDPR	QDPR	quinoid dihydropteridine reductase	3792	0.1412169635295868	-0.19985639	No	
+row_19	YOD1	YOD1	YOD1 OTU deubiquinating enzyme 1 homolog (S. cerevisiae)	3809	0.13946415483951569	-0.19964023	No	
+row_20	ALDH5A1	ALDH5A1	aldehyde dehydrogenase 5 family, member A1 (succinate-semialdehyde dehydrogenase)	4092	0.11791864782571793	-0.22156484	No	
+row_21	OAZ1	OAZ1	ornithine decarboxylase antizyme 1	4678	0.07454563677310944	-0.26891702	No	
+row_22	OTUB2	OTUB2	OTU domain, ubiquitin aldehyde binding 2	4750	0.07032746821641922	-0.27399015	No	
+row_23	PYCR1	PYCR1	pyrroline-5-carboxylate reductase 1	4769	0.06914044916629791	-0.27471203	No	
+row_24	SMS	SMS	spermine synthase	4960	0.05666026100516319	-0.28973454	No	
+row_25	GATM	GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase)	5013	0.05362987518310547	-0.29342672	No	
+row_26	FAH	FAH	fumarylacetoacetate hydrolase (fumarylacetoacetase)	5027	0.051935385912656784	-0.2939261	No	
+row_27	SCLY	SCLY	selenocysteine lyase	5437	0.026213916018605232	-0.327317	No	
+row_28	GAMT	GAMT	guanidinoacetate N-methyltransferase	5482	0.023994076997041702	-0.33067632	No	
+row_29	MTHFR	MTHFR	5,10-methylenetetrahydrofolate reductase (NADPH)	5491	0.02341298758983612	-0.33107764	No	
+row_30	MAT2B	MAT2B	methionine adenosyltransferase II, beta	5552	0.019574491307139397	-0.33580306	No	
+row_31	DDO	DDO	D-aspartate oxidase	5692	0.010888748802244663	-0.34712932	No	
+row_32	BCKDHB	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide (maple syrup urine disease)	5739	0.008286743424832821	-0.35082605	No	
+row_33	GSS	GSS	glutathione synthetase	5803	0.005264397244900465	-0.35595593	No	
+row_34	SLC25A15	SLC25A15	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 15	5856	0.0016620648093521595	-0.3602196	No	
+row_35	ATF4	ATF4	activating transcription factor 4 (tax-responsive enhancer element B67)	6043	-0.01002203393727541	-0.37542558	No	
+row_36	AARS	AARS	alanyl-tRNA synthetase	6163	-0.016382593661546707	-0.38504452	No	
+row_37	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	6276	-0.022701401263475418	-0.39401752	No	
+row_38	ETNK1	ETNK1	ethanolamine kinase 1	6385	-0.029137246310710907	-0.4025904	No	
+row_39	GCSH	GCSH	glycine cleavage system protein H (aminomethyl carrier)	6396	-0.029666513204574585	-0.40308762	No	
+row_40	ADI1	ADI1	acireductone dioxygenase 1	6400	-0.029878461733460426	-0.40300608	No	
+row_41	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	6500	-0.03511209785938263	-0.41077211	No	
+row_42	BCKDHA	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	6511	-0.03581142798066139	-0.41120178	No	
+row_43	GLUD1	GLUD1	glutamate dehydrogenase 1	6594	-0.04042927175760269	-0.41750947	No	
+row_44	FARS2	FARS2	phenylalanine-tRNA synthetase 2 (mitochondrial)	6750	-0.04990370571613312	-0.4297242	No	
+row_45	RARS	RARS	arginyl-tRNA synthetase	6834	-0.05458023026585579	-0.43595862	No	
+row_46	DHPS	DHPS	deoxyhypusine synthase	7056	-0.06919468194246292	-0.453396	No	
+row_47	WARS	WARS	tryptophanyl-tRNA synthetase	7341	-0.08557598292827606	-0.47584096	No	
+row_48	BCKDK	BCKDK	branched chain ketoacid dehydrogenase kinase	7632	-0.10800782591104507	-0.49853334	No	
+row_49	BCAT1	BCAT1	branched chain aminotransferase 1, cytosolic	7910	-0.12685565650463104	-0.51994795	No	
+row_50	ALDH4A1	ALDH4A1	aldehyde dehydrogenase 4 family, member A1	7926	-0.12803678214550018	-0.5197751	No	
+row_51	YARS	YARS	tyrosyl-tRNA synthetase	8155	-0.14754459261894226	-0.5369273	No	
+row_52	GCLM	GCLM	glutamate-cysteine ligase, modifier subunit	8281	-0.15747688710689545	-0.5454887	No	
+row_53	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	8432	-0.17007195949554443	-0.5559702	No	
+row_54	SLC7A8	SLC7A8	solute carrier family 7 (cationic amino acid transporter, y+ system), member 8	8506	-0.17638656497001648	-0.5600417	No	
+row_55	PLOD1	PLOD1	procollagen-lysine 1, 2-oxoglutarate 5-dioxygenase 1	8615	-0.18533436954021454	-0.5668969	No	
+row_56	OAZ2	OAZ2	ornithine decarboxylase antizyme 2	8843	-0.2087249606847763	-0.5832939	No	
+row_57	SARS2	SARS2	seryl-tRNA synthetase 2	8989	-0.22244779765605927	-0.59278774	No	
+row_58	FPGS	FPGS	folylpolyglutamate synthase	9035	-0.22745142877101898	-0.59399205	No	
+row_59	DDAH2	DDAH2	dimethylarginine dimethylaminohydrolase 2	9086	-0.2343769669532776	-0.5955319	No	
+row_60	MCCC2	MCCC2	methylcrotonoyl-Coenzyme A carboxylase 2 (beta)	9106	-0.23686648905277252	-0.59449166	No	
+row_61	SLC6A6	SLC6A6	solute carrier family 6 (neurotransmitter transporter, taurine), member 6	9339	-0.2662496864795685	-0.6106679	No	
+row_62	SLC7A5	SLC7A5	solute carrier family 7 (cationic amino acid transporter, y+ system), member 5	9437	-0.27982527017593384	-0.6155781	No	
+row_63	GLS2	GLS2	glutaminase 2 (liver, mitochondrial)	9478	-0.2872302532196045	-0.6157133	No	
+row_64	ASL	ASL	argininosuccinate lyase	9537	-0.296457439661026	-0.6172292	No	
+row_65	BAAT	BAAT	bile acid Coenzyme A: amino acid N-acyltransferase (glycine N-choloyltransferase)	9548	-0.2975568175315857	-0.6147805	No	
+row_66	ASPA	ASPA	aspartoacylase (Canavan disease)	9678	-0.32442551851272583	-0.6218354	No	
+row_67	MSRA	MSRA	methionine sulfoxide reductase A	9731	-0.33505135774612427	-0.6224328	No	
+row_68	SLC7A2	SLC7A2	solute carrier family 7 (cationic amino acid transporter, y+ system), member 2	9751	-0.339155375957489	-0.62026775	No	
+row_69	COLQ	COLQ	collagen-like tail subunit (single strand of homotrimer) of asymmetric acetylcholinesterase	9914	-0.37392348051071167	-0.6294957	No	
+row_70	DIO1	DIO1	deiodinase, iodothyronine, type I	10353	-0.5180290341377258	-0.6598662	No	
+row_71	HDC	HDC	histidine decarboxylase	10444	-0.5599310994148254	-0.66111976	No	
+row_72	ALDH18A1	ALDH18A1	aldehyde dehydrogenase 18 family, member A1	10565	-0.6280755400657654	-0.6640943	No	
+row_73	AMT	AMT	aminomethyltransferase	10700	-0.728748619556427	-0.6671147	Yes	
+row_74	DDAH1	DDAH1	dimethylarginine dimethylaminohydrolase 1	10724	-0.7464421987533569	-0.6608001	Yes	
+row_75	GAD2	GAD2	glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)	10835	-0.853858470916748	-0.66046834	Yes	
+row_76	DIO2	DIO2	deiodinase, iodothyronine, type II	10853	-0.8760806322097778	-0.6522341	Yes	
+row_77	SNCAIP	SNCAIP	synuclein, alpha interacting protein (synphilin)	10942	-0.9983941316604614	-0.6485012	Yes	
+row_78	SLC7A7	SLC7A7	solute carrier family 7 (cationic amino acid transporter, y+ system), member 7	11075	-1.2118568420410156	-0.6460442	Yes	
+row_79	SLC3A1	SLC3A1	 1	11129	-1.3050506114959717	-0.6360571	Yes	
+row_80	GLDC	GLDC	glycine dehydrogenase (decarboxylating)	11311	-1.7176653146743774	-0.6320726	Yes	
+row_81	SLC7A4	SLC7A4	solute carrier family 7 (cationic amino acid transporter, y+ system), member 4	11328	-1.7480722665786743	-0.61416686	Yes	
+row_82	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11443	-2.039196252822876	-0.6011295	Yes	
+row_83	HGD	HGD	homogentisate 1,2-dioxygenase (homogentisate oxidase)	11922	-3.7466444969177246	-0.5992892	Yes	
+row_84	SDS	SDS	serine dehydratase	11968	-4.0862274169921875	-0.5580591	Yes	
+row_85	HPD	HPD	4-hydroxyphenylpyruvate dioxygenase	12021	-4.497598648071289	-0.51288164	Yes	
+row_86	GGT1	GGT1	gamma-glutamyltransferase 1	12089	-5.483580112457275	-0.45809668	Yes	
+row_87	PAH	PAH	phenylalanine hydroxylase	12135	-6.178974628448486	-0.39385295	Yes	
+row_88	DCT	DCT	dopachrome tautomerase (dopachrome delta-isomerase, tyrosine-related protein 2)	12170	-7.025452136993408	-0.31939486	Yes	
+row_89	ARG1	ARG1	arginase, liver	12214	-8.73173999786377	-0.22691408	Yes	
+row_90	MAT1A	MAT1A	methionine adenosyltransferase I, alpha	12231	-20.776729583740234	2.469464E-4	Yes	

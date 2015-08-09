@@ -1,0 +1,66 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL4	IL4	interleukin 4	141	4.467897891998291	0.07948797	Yes	
+row_1	IL6	IL6	interleukin 6 (interferon, beta 2)	166	4.199713706970215	0.16312307	Yes	
+row_2	KRT7	KRT7	keratin 7	249	3.519792318344116	0.2281328	Yes	
+row_3	IL10	IL10	interleukin 10	388	2.878185749053955	0.2754625	Yes	
+row_4	LTB	LTB	lymphotoxin beta (TNF superfamily, member 3)	465	2.676633834838867	0.32377827	Yes	
+row_5	PRG3	PRG3	proteoglycan 3	521	2.491335391998291	0.37004247	Yes	
+row_6	TLR1	TLR1	toll-like receptor 1	758	1.7414653301239014	0.38614863	Yes	
+row_7	INHBA	INHBA	inhibin, beta A (activin A, activin AB alpha polypeptide)	821	1.5881227254867554	0.41342652	Yes	
+row_8	FOXP3	FOXP3	forkhead box P3	916	1.3146129846572876	0.43249974	Yes	
+row_9	EBI3	EBI3	Epstein-Barr virus induced gene 3	998	1.1611801385879517	0.44951355	Yes	
+row_10	TLR9	TLR9	toll-like receptor 9	1315	0.7415943145751953	0.43866476	Yes	
+row_11	DAZL	DAZL	deleted in azoospermia-like	1436	0.6591823101043701	0.44224125	Yes	
+row_12	MTIF3	MTIF3	-	1546	0.5954349637031555	0.44542217	Yes	
+row_13	TLR6	TLR6	toll-like receptor 6	1576	0.5808759331703186	0.45487988	Yes	
+row_14	TNFRSF8	TNFRSF8	tumor necrosis factor receptor superfamily, member 8	1613	0.5605972409248352	0.463349	Yes	
+row_15	INHBB	INHBB	inhibin, beta B (activin AB beta polypeptide)	1753	0.49264562129974365	0.4619696	Yes	
+row_16	CD28	CD28	CD28 molecule	1787	0.48268067836761475	0.46909702	Yes	
+row_17	TLR8	TLR8	toll-like receptor 8	1847	0.45926913619041443	0.4736108	Yes	
+row_18	IRF4	IRF4	interferon regulatory factor 4	1894	0.4423057734966278	0.47884697	Yes	
+row_19	TLR4	TLR4	toll-like receptor 4	2222	0.3505037724971771	0.45912233	No	
+row_20	MTIF2	MTIF2	mitochondrial translational initiation factor 2	2543	0.287735253572464	0.43869337	No	
+row_21	INHA	INHA	inhibin, alpha	2696	0.262208491563797	0.4315485	No	
+row_22	SPN	SPN	sialophorin (leukosialin, CD43)	2711	0.259531706571579	0.43568844	No	
+row_23	IL27	IL27	interleukin 27	2933	0.22721076011657715	0.4221605	No	
+row_24	EIF2B2	EIF2B2	eukaryotic translation initiation factor 2B, subunit 2 beta, 39kDa	3258	0.19071657955646515	0.39942524	No	
+row_25	HSPB1	HSPB1	heat shock 27kDa protein 1	3338	0.1838187575340271	0.39668083	No	
+row_26	EIF2A	EIF2A	eukaryotic translation initiation factor 2A, 65kDa	3798	0.1407206505537033	0.3618336	No	
+row_27	ETF1	ETF1	eukaryotic translation termination factor 1	4339	0.10054697096347809	0.31951174	No	
+row_28	EIF4A2	EIF4A2	eukaryotic translation initiation factor 4A, isoform 2	4416	0.09283878654241562	0.31515932	No	
+row_29	EIF5A	EIF5A	eukaryotic translation initiation factor 5A	4714	0.07308944314718246	0.2922449	No	
+row_30	FURIN	FURIN	furin (paired basic amino acid cleaving enzyme)	4989	0.05486270785331726	0.27084884	No	
+row_31	METAP1	METAP1	methionyl aminopeptidase 1	5398	0.02805030345916748	0.23789556	No	
+row_32	EIF1	EIF1	eukaryotic translation initiation factor 1	5456	0.025344647467136383	0.23372854	No	
+row_33	EREG	EREG	epiregulin	5533	0.020633287727832794	0.22790428	No	
+row_34	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	5586	0.01776258647441864	0.22399354	No	
+row_35	UPF1	UPF1	UPF1 regulator of nonsense transcripts homolog (yeast)	5711	0.009905264712870121	0.21400645	No	
+row_36	EIF2B5	EIF2B5	eukaryotic translation initiation factor 2B, subunit 5 epsilon, 82kDa	5768	0.006675479467958212	0.20954105	No	
+row_37	BACE2	BACE2	beta-site APP-cleaving enzyme 2	5792	0.005561056546866894	0.20776452	No	
+row_38	EIF5	EIF5	eukaryotic translation initiation factor 5	5867	0.001112304162234068	0.20170666	No	
+row_39	EIF2AK1	EIF2AK1	eukaryotic translation initiation factor 2-alpha kinase 1	6134	-0.014863329939544201	0.18015261	No	
+row_40	CEBPG	CEBPG	CCAAT/enhancer binding protein (C/EBP), gamma	6350	-0.027137914672493935	0.1630394	No	
+row_41	CD276	CD276	CD276 molecule	6619	-0.04153776913881302	0.14186475	No	
+row_42	MTRF1	MTRF1	mitochondrial translational release factor 1	6626	-0.041889749467372894	0.14222562	No	
+row_43	YBX2	YBX2	Y box binding protein 2	6991	-0.06530439853668213	0.11364717	No	
+row_44	EIF4B	EIF4B	eukaryotic translation initiation factor 4B	7313	-0.0839928537607193	0.08898295	No	
+row_45	EIF4G3	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3	7406	-0.09134522825479507	0.08328536	No	
+row_46	SIGIRR	SIGIRR	single immunoglobulin and toll-interleukin 1 receptor (TIR) domain	7677	-0.11142131686210632	0.063370876	No	
+row_47	NDUFA13	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	8244	-0.1543019860982895	0.020008372	No	
+row_48	PAIP2	PAIP2	poly(A) binding protein interacting protein 2	8362	-0.16364064812660217	0.013730228	No	
+row_49	MAST2	MAST2	microtubule associated serine/threonine kinase 2	8372	-0.16417868435382843	0.01633733	No	
+row_50	TSC1	TSC1	tuberous sclerosis 1	8752	-0.20036806166172028	-0.01072051	No	
+row_51	EIF1B	EIF1B	eukaryotic translation initiation factor 1B	8755	-0.20086969435214996	-0.006790311	No	
+row_52	EIF2AK4	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4	8772	-0.20254318416118622	-0.0039763697	No	
+row_53	EIF2AK3	EIF2AK3	eukaryotic translation initiation factor 2-alpha kinase 3	8897	-0.21405015885829926	-0.009802151	No	
+row_54	IGF2BP2	IGF2BP2	insulin-like growth factor 2 mRNA binding protein 2	8908	-0.214946448802948	-0.0062423646	No	
+row_55	APBB1	APBB1	amyloid beta (A4) precursor protein-binding, family B, member 1 (Fe65)	9446	-0.28193458914756775	-0.044620294	No	
+row_56	HRSP12	HRSP12	heat-responsive protein 12	9570	-0.3014378547668457	-0.048582587	No	
+row_57	BCL10	BCL10	B-cell CLL/lymphoma 10	9593	-0.30674323439598083	-0.044137646	No	
+row_58	GLMN	GLMN	glomulin, FKBP associated protein	9987	-0.3891294002532959	-0.068498135	No	
+row_59	TLR3	TLR3	toll-like receptor 3	10356	-0.5185937881469727	-0.08816539	No	
+row_60	BCL3	BCL3	B-cell CLL/lymphoma 3	10793	-0.816895604133606	-0.107339546	No	
+row_61	TLR7	TLR7	toll-like receptor 7	11097	-1.2478090524673462	-0.106801435	No	
+row_62	IL17F	IL17F	interleukin 17F	11422	-1.9646574258804321	-0.093376614	No	
+row_63	GHRL	GHRL	ghrelin/obestatin preprohormone	11523	-2.158080816268921	-0.057603117	No	
+row_64	APOA2	APOA2	apolipoprotein A-II	12103	-5.6879401206970215	0.010764116	No	

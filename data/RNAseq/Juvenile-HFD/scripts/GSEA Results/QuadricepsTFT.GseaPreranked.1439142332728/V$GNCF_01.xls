@@ -1,0 +1,58 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RASAL1	RASAL1	RAS protein activator like 1 (GAP1 like)	47	6.05001974105835	0.10819543	Yes	
+row_1	KCNMB2	KCNMB2	potassium large conductance calcium-activated channel, subfamily M, beta member 2	90	5.070010662078857	0.19865029	Yes	
+row_2	SLCO1C1	SLCO1C1	solute carrier organic anion transporter family, member 1C1	146	4.424612522125244	0.27608398	Yes	
+row_3	SLITRK1	SLITRK1	SLIT and NTRK-like family, member 1	173	4.085341930389404	0.34961525	Yes	
+row_4	BCL11A	BCL11A	B-cell CLL/lymphoma 11A (zinc finger protein)	289	3.3019497394561768	0.4013287	Yes	
+row_5	NFE2	NFE2	nuclear factor (erythroid-derived 2), 45kDa	483	2.5734128952026367	0.4331437	Yes	
+row_6	EPN3	EPN3	epsin 3	1005	1.1435540914535522	0.41154185	Yes	
+row_7	STAC2	STAC2	SH3 and cysteine rich domain 2	1076	1.0328351259231567	0.42492333	Yes	
+row_8	IL2RA	IL2RA	interleukin 2 receptor, alpha	1197	0.8816441893577576	0.43139878	Yes	
+row_9	BCL11B	BCL11B	B-cell CLL/lymphoma 11B (zinc finger protein)	1264	0.7939749956130981	0.4406847	Yes	
+row_10	TRPS1	TRPS1	trichorhinophalangeal syndrome I	1575	0.5814250111579895	0.42599776	No	
+row_11	PSMC3IP	PSMC3IP	PSMC3 interacting protein	1946	0.4275559186935425	0.40353405	No	
+row_12	TIMM9	TIMM9	translocase of inner mitochondrial membrane 9 homolog (yeast)	2396	0.31164368987083435	0.37243637	No	
+row_13	ERBB2IP	ERBB2IP	erbb2 interacting protein	2546	0.28743699193000793	0.36552492	No	
+row_14	ARMC8	ARMC8	armadillo repeat containing 8	2709	0.2596190273761749	0.35703075	No	
+row_15	NFIL3	NFIL3	nuclear factor, interleukin 3 regulated	3020	0.21786032617092133	0.3356101	No	
+row_16	CLUAP1	CLUAP1	clusterin associated protein 1	3075	0.21014569699764252	0.33506805	No	
+row_17	HOXC4	HOXC4	homeobox C4	3160	0.2014913409948349	0.33190227	No	
+row_18	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	3172	0.20050941407680511	0.3347127	No	
+row_19	MALL	MALL	mal, T-cell differentiation protein-like	3175	0.1999945044517517	0.33825266	No	
+row_20	SOCS5	SOCS5	suppressor of cytokine signaling 5	3461	0.17154352366924286	0.31802702	No	
+row_21	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	3959	0.12759864330291748	0.27957904	No	
+row_22	AAK1	AAK1	AP2 associated kinase 1	4728	0.0719408318400383	0.21784694	No	
+row_23	KCNJ2	KCNJ2	potassium inwardly-rectifying channel, subfamily J, member 2	5011	0.053773194551467896	0.19568639	No	
+row_24	ZFYVE1	ZFYVE1	zinc finger, FYVE domain containing 1	5261	0.035964902490377426	0.1759058	No	
+row_25	TNRC6A	TNRC6A	trinucleotide repeat containing 6A	5717	0.009621163830161095	0.13872153	No	
+row_26	AMD1	AMD1	adenosylmethionine decarboxylase 1	5762	0.006953195668756962	0.13523725	No	
+row_27	CPNE1	CPNE1	copine I	6026	-0.00908634439110756	0.11380921	No	
+row_28	FLT1	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	6102	-0.013002200983464718	0.10789138	No	
+row_29	HOXC10	HOXC10	homeobox C10	6152	-0.015797270461916924	0.104160324	No	
+row_30	WFIKKN2	WFIKKN2	WAP, follistatin/kazal, immunoglobulin, kunitz and netrin domain containing 2	6184	-0.017587978392839432	0.101940505	No	
+row_31	INSR	INSR	insulin receptor	6256	-0.021388236433267593	0.096506454	No	
+row_32	USP34	USP34	ubiquitin specific peptidase 34	6562	-0.039319202303886414	0.07218954	No	
+row_33	MLLT6	MLLT6	myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 6	7063	-0.06949443370103836	0.032419026	No	
+row_34	SEZ6L	SEZ6L	seizure related 6 homolog (mouse)-like	7158	-0.07514622807502747	0.026092002	No	
+row_35	HOXB6	HOXB6	homeobox B6	7287	-0.08225245028734207	0.017104676	No	
+row_36	EXOSC9	EXOSC9	exosome component 9	8002	-0.13420186936855316	-0.039040036	No	
+row_37	TUBD1	TUBD1	tubulin, delta 1	8327	-0.1614714413881302	-0.06265472	No	
+row_38	TNKS1BP1	TNKS1BP1	tankyrase 1 binding protein 1, 182kDa	8367	-0.16395582258701324	-0.06282052	No	
+row_39	CHD2	CHD2	chromodomain helicase DNA binding protein 2	8426	-0.16912274062633514	-0.064450815	No	
+row_40	MEF2C	MEF2C	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	8786	-0.20423845946788788	-0.09014742	No	
+row_41	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	9085	-0.2339877188205719	-0.110284	No	
+row_42	GNAO1	GNAO1	guanine nucleotide binding protein (G protein), alpha activating activity polypeptide O	9219	-0.2509636878967285	-0.116557136	No	
+row_43	INTS8	INTS8	integrator complex subunit 8	9239	-0.253834992647171	-0.11341595	No	
+row_44	ABTB2	ABTB2	ankyrin repeat and BTB (POZ) domain containing 2	9614	-0.31133562326431274	-0.1383607	No	
+row_45	NFIB	NFIB	nuclear factor I/B	9799	-0.3491371273994446	-0.1470034	No	
+row_46	MRVI1	MRVI1	murine retrovirus integration site 1 homolog	9901	-0.3713094890117645	-0.14841987	No	
+row_47	HOXC6	HOXC6	homeobox C6	9920	-0.3760150074958801	-0.14293362	No	
+row_48	GPR155	GPR155	G protein-coupled receptor 155	10340	-0.5095118880271912	-0.16790305	No	
+row_49	NOG	NOG	noggin	10751	-0.7708979249000549	-0.18729222	No	
+row_50	ITGB8	ITGB8	integrin, beta 8	10755	-0.7759122848510742	-0.17316757	No	
+row_51	CTNND2	CTNND2	catenin (cadherin-associated protein), delta 2 (neural plakophilin-related arm-repeat protein)	10971	-1.0392924547195435	-0.1715732	No	
+row_52	GNAZ	GNAZ	guanine nucleotide binding protein (G protein), alpha z polypeptide	11225	-1.522263526916504	-0.16415392	No	
+row_53	HOXC13	HOXC13	homeobox C13	11569	-2.3149921894073486	-0.14944257	No	
+row_54	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	11699	-2.7073278427124023	-0.109891936	No	
+row_55	MCF2	MCF2	MCF.2 cell line derived transforming sequence	11949	-3.9537649154663086	-0.057109375	No	
+row_56	TMEM132E	TMEM132E	transmembrane protein 132E	12000	-4.342544078826904	0.01921487	No	

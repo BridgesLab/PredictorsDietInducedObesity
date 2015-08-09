@@ -1,0 +1,62 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TSSK6	TSSK6	testis-specific serine kinase 6	67	5.4192728996276855	0.20724218	Yes	
+row_1	NPM2	NPM2	nucleophosmin/nucleoplasmin, 2	85	5.157601356506348	0.40831897	Yes	
+row_2	HMGA2	HMGA2	high mobility group AT-hook 2	432	2.8332650661468506	0.4911239	Yes	
+row_3	HELLS	HELLS	helicase, lymphoid-specific	971	1.2247645854949951	0.49501225	Yes	
+row_4	HDAC1	HDAC1	histone deacetylase 1	1616	0.5582811236381531	0.4640292	No	
+row_5	SUV39H2	SUV39H2	suppressor of variegation 3-9 homolog 2 (Drosophila)	1866	0.4523587226867676	0.46133414	No	
+row_6	CHAF1A	CHAF1A	chromatin assembly factor 1, subunit A (p150)	2135	0.37287232279777527	0.45395795	No	
+row_7	ACTL6A	ACTL6A	actin-like 6A	2168	0.36252734065055847	0.4655612	No	
+row_8	SIRT1	SIRT1	sirtuin (silent mating type information regulation 2 homolog) 1 (S. cerevisiae)	2246	0.34434834122657776	0.47275442	No	
+row_9	HDAC8	HDAC8	histone deacetylase 8	2534	0.28880947828292847	0.46051747	No	
+row_10	EZH2	EZH2	enhancer of zeste homolog 2 (Drosophila)	2899	0.23231272399425507	0.43973762	No	
+row_11	NASP	NASP	nuclear autoantigenic sperm protein (histone-binding)	3655	0.15366710722446442	0.38375276	No	
+row_12	HMGB1	HMGB1	high-mobility group box 1	3923	0.1306917518377304	0.36695138	No	
+row_13	TLK2	TLK2	tousled-like kinase 2	4002	0.12476438283920288	0.3654422	No	
+row_14	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	4079	0.11888410896062851	0.36386642	No	
+row_15	HMGA1	HMGA1	high mobility group AT-hook 1	4141	0.11406449228525162	0.3633336	No	
+row_16	ASF1A	ASF1A	ASF1 anti-silencing function 1 homolog A (S. cerevisiae)	4457	0.0899171307682991	0.3409887	No	
+row_17	NAP1L1	NAP1L1	nucleosome assembly protein 1-like 1	4561	0.0828005000948906	0.33577856	No	
+row_18	SIRT2	SIRT2	sirtuin (silent mating type information regulation 2 homolog) 2 (S. cerevisiae)	4565	0.08250374346971512	0.338771	No	
+row_19	SET	SET	SET translocation (myeloid leukemia-associated)	4789	0.0678025409579277	0.32311502	No	
+row_20	HUWE1	HUWE1	HECT, UBA and WWE domain containing 1	4832	0.06533372402191162	0.32222986	No	
+row_21	PHB	PHB	prohibitin	4894	0.06105545535683632	0.31961605	No	
+row_22	RBBP4	RBBP4	retinoblastoma binding protein 4	5036	0.051372088491916656	0.31005073	No	
+row_23	EHMT1	EHMT1	euchromatic histone-lysine N-methyltransferase 1	5168	0.04144865274429321	0.30091724	No	
+row_24	TLK1	TLK1	tousled-like kinase 1	5224	0.03801354765892029	0.2978917	No	
+row_25	PRMT7	PRMT7	protein arginine methyltransferase 7	5269	0.0356978215277195	0.29567885	No	
+row_26	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	5386	0.028700249269604683	0.28727704	No	
+row_27	MTA2	MTA2	metastasis associated 1 family, member 2	5582	0.017837945371866226	0.27195957	No	
+row_28	HDAC4	HDAC4	histone deacetylase 4	5616	0.015486715361475945	0.26985684	No	
+row_29	RPS6KA5	RPS6KA5	ribosomal protein S6 kinase, 90kDa, polypeptide 5	5620	0.015176177956163883	0.27020618	No	
+row_30	NAP1L4	NAP1L4	nucleosome assembly protein 1-like 4	5666	0.012597139924764633	0.2670043	No	
+row_31	RBM14	RBM14	RNA binding motif protein 14	5681	0.01168147288262844	0.2663129	No	
+row_32	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	5687	0.011147426441311836	0.2663398	No	
+row_33	SAFB	SAFB	scaffold attachment factor B	5778	0.006118076853454113	0.2591872	No	
+row_34	NSD1	NSD1	nuclear receptor binding SET domain protein 1	6225	-0.019407842308282852	0.22331363	No	
+row_35	CHAF1B	CHAF1B	chromatin assembly factor 1, subunit B (p60)	6243	-0.020539764314889908	0.22272354	No	
+row_36	SMARCC2	SMARCC2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 2	6358	-0.02752067707479	0.2144397	No	
+row_37	HDAC3	HDAC3	histone deacetylase 3	6453	-0.03235592693090439	0.20798855	No	
+row_38	ARID1A	ARID1A	AT rich interactive domain 1A (SWI- like)	6822	-0.05396033078432083	0.17987852	No	
+row_39	SATB1	SATB1	special AT-rich sequence binding protein 1 (binds to nuclear matrix/scaffold-associating DNA's)	6914	-0.06007097288966179	0.17476179	No	
+row_40	HDAC6	HDAC6	histone deacetylase 6	7052	-0.06892300397157669	0.16621403	No	
+row_41	SMARCA5	SMARCA5	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5	7251	-0.08014996349811554	0.15309633	No	
+row_42	RSF1	RSF1	remodeling and spacing factor 1	7543	-0.10177534818649292	0.13318835	No	
+row_43	HDAC10	HDAC10	histone deacetylase 10	7763	-0.11709528416395187	0.11979602	No	
+row_44	SMARCE1	SMARCE1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1	8076	-0.14041675627231598	0.09968001	No	
+row_45	HDAC2	HDAC2	histone deacetylase 2	8167	-0.14841218292713165	0.098113455	No	
+row_46	SMARCC1	SMARCC1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1	8171	-0.14867724478244781	0.10370369	No	
+row_47	HDAC5	HDAC5	histone deacetylase 5	8352	-0.16312851011753082	0.09532206	No	
+row_48	HDAC11	HDAC11	histone deacetylase 11	8445	-0.17126621305942535	0.094488405	No	
+row_49	SIRT5	SIRT5	sirtuin (silent mating type information regulation 2 homolog) 5 (S. cerevisiae)	8555	-0.1802893728017807	0.092612565	No	
+row_50	TAF6L	TAF6L	TAF6-like RNA polymerase II, p300/CBP-associated factor (PCAF)-associated factor, 65kDa	8871	-0.21148169040679932	0.07503993	No	
+row_51	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	8991	-0.22252437472343445	0.074000694	No	
+row_52	HIRIP3	HIRIP3	HIRA interacting protein 3	9240	-0.2538464665412903	0.06359472	No	
+row_53	SIRT4	SIRT4	sirtuin (silent mating type information regulation 2 homolog) 4 (S. cerevisiae)	9257	-0.25546377897262573	0.072309256	No	
+row_54	WHSC1L1	WHSC1L1	Wolf-Hirschhorn syndrome candidate 1-like 1	9632	-0.3141799867153168	0.053921882	No	
+row_55	CARM1	CARM1	coactivator-associated arginine methyltransferase 1	9709	-0.33117684721946716	0.06068016	No	
+row_56	NAP1L3	NAP1L3	nucleosome assembly protein 1-like 3	9719	-0.3330669105052948	0.07301617	No	
+row_57	MAP3K12	MAP3K12	mitogen-activated protein kinase kinase kinase 12	9990	-0.3903622627258301	0.0661623	No	
+row_58	PRMT8	PRMT8	protein arginine methyltransferase 8	10347	-0.51593416929245	0.057173803	No	
+row_59	SMARCD1	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1	10514	-0.5949716567993164	0.066895135	No	
+row_60	SYCP3	SYCP3	synaptonemal complex protein 3	11387	-1.892829418182373	0.069574334	No	

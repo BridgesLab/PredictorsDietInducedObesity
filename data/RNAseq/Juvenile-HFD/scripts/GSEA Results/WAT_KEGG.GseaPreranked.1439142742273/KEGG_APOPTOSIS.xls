@@ -1,0 +1,74 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.059165694	Yes	
+row_1	CSF2RB	CSF2RB	colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)	296	4.9432291984558105	0.10875401	Yes	
+row_2	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.10210649	Yes	
+row_3	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.12488696	Yes	
+row_4	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.1584762	Yes	
+row_5	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.18154268	Yes	
+row_6	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.20877273	Yes	
+row_7	TNFSF10	TNFSF10	tumor necrosis factor (ligand) superfamily, member 10	1300	2.362727642059326	0.22909114	Yes	
+row_8	CAPN2	CAPN2	calpain 2, (m/II) large subunit	1310	2.341249942779541	0.25692266	Yes	
+row_9	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	1436	2.142984628677368	0.27331924	Yes	
+row_10	IRAK2	IRAK2	interleukin-1 receptor-associated kinase 2	1564	1.979629635810852	0.2875696	Yes	
+row_11	IL1A	IL1A	interleukin 1, alpha	1823	1.686923623085022	0.28806794	Yes	
+row_12	TNFRSF10B	TNFRSF10B	tumor necrosis factor receptor superfamily, member 10b	1934	1.5672053098678589	0.2986141	Yes	
+row_13	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	2003	1.4810236692428589	0.31137547	Yes	
+row_14	APAF1	APAF1	apoptotic peptidase activating factor	2258	1.2632818222045898	0.30702215	Yes	
+row_15	IRAK3	IRAK3	interleukin-1 receptor-associated kinase 3	2285	1.233887791633606	0.32003728	Yes	
+row_16	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.3321106	Yes	
+row_17	CFLAR	CFLAR	CASP8 and FADD-like apoptosis regulator	2355	1.1834384202957153	0.34388897	Yes	
+row_18	BID	BID	BH3 interacting domain death agonist	2375	1.1657052040100098	0.35661742	Yes	
+row_19	IL3RA	IL3RA	interleukin 3 receptor, alpha (low affinity)	2427	1.1223729848861694	0.36632985	Yes	
+row_20	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	2692	0.9107204675674438	0.35690263	Yes	
+row_21	IL1R1	IL1R1	interleukin 1 receptor, type I	2733	0.8824132084846497	0.36454606	Yes	
+row_22	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.3724818	Yes	
+row_23	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.38020125	Yes	
+row_24	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.3847355	Yes	
+row_25	FAS	FAS	Fas (TNF receptor superfamily, member 6)	3022	0.7178462743759155	0.3817434	Yes	
+row_26	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	3110	0.6760115027427673	0.3832174	Yes	
+row_27	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	3118	0.6703222393989563	0.39084193	Yes	
+row_28	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	3167	0.6400119066238403	0.39490938	Yes	
+row_29	PRKX	PRKX	protein kinase, X-linked	3311	0.5705565810203552	0.39074436	No	
+row_30	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.38382682	No	
+row_31	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.3844409	No	
+row_32	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.37056848	No	
+row_33	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.36973628	No	
+row_34	BCL2L1	BCL2L1	BCL2-like 1	3973	0.3092285990715027	0.3640971	No	
+row_35	ENDOG	ENDOG	endonuclease G	4032	0.29479560256004333	0.36318016	No	
+row_36	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	4114	0.266051709651947	0.3601247	No	
+row_37	CASP7	CASP7	caspase 7, apoptosis-related cysteine peptidase	4151	0.2550143897533417	0.36043346	No	
+row_38	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.36319903	No	
+row_39	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.34322613	No	
+row_40	TRAF2	TRAF2	TNF receptor-associated factor 2	4591	0.11890102177858353	0.3329351	No	
+row_41	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.32575932	No	
+row_42	FADD	FADD	Fas (TNFRSF6)-associated via death domain	4768	0.07654271274805069	0.3214052	No	
+row_43	TRADD	TRADD	TNFRSF1A-associated via death domain	4813	0.06214272603392601	0.31874156	No	
+row_44	CYCS	CYCS	cytochrome c, somatic	4919	0.03802182152867317	0.31104133	No	
+row_45	IL1B	IL1B	interleukin 1, beta	5249	-0.047556936740875244	0.28604165	No	
+row_46	CASP6	CASP6	caspase 6, apoptosis-related cysteine peptidase	5342	-0.06697218865156174	0.27970496	No	
+row_47	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	0.26952145	No	
+row_48	BAX	BAX	BCL2-associated X protein	5578	-0.12088820338249207	0.26423052	No	
+row_49	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.25964668	No	
+row_50	IRAK4	IRAK4	interleukin-1 receptor-associated kinase 4	5701	-0.1485220044851303	0.2583467	No	
+row_51	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.25707817	No	
+row_52	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	5865	-0.1837351769208908	0.24990967	No	
+row_53	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	5898	-0.19108980894088745	0.2497504	No	
+row_54	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	5926	-0.19703328609466553	0.2500523	No	
+row_55	BIRC2	BIRC2	baculoviral IAP repeat-containing 2	6272	-0.26817137002944946	0.22649714	No	
+row_56	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.21529654	No	
+row_57	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.21105403	No	
+row_58	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	6817	-0.39525026082992554	0.19713332	No	
+row_59	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.20046493	No	
+row_60	BIRC3	BIRC3	baculoviral IAP repeat-containing 3	6856	-0.40400493144989014	0.20406654	No	
+row_61	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.19504842	No	
+row_62	NTRK1	NTRK1	neurotrophic tyrosine kinase, receptor, type 1	7430	-0.5385637283325195	0.17160065	No	
+row_63	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	7748	-0.6243744492530823	0.15456325	No	
+row_64	ENDOD1	ENDOD1	endonuclease domain containing 1	7838	-0.6431102156639099	0.1554808	No	
+row_65	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.12511823	No	
+row_66	MYD88	MYD88	myeloid differentiation primary response gene (88)	8557	-0.8557984232902527	0.11984209	No	
+row_67	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.123455726	No	
+row_68	CAPN1	CAPN1	calpain 1, (mu/I) large subunit	8967	-1.013085961341858	0.11131078	No	
+row_69	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	9152	-1.0870416164398193	0.11025213	No	
+row_70	IL1RAP	IL1RAP	interleukin 1 receptor accessory protein	10752	-2.0746846199035645	0.011215224	No	
+row_71	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	11116	-2.5401909351348877	0.013948168	No	
+row_72	PPP3R2	PPP3R2	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, beta isoform (calcineurin B, type II)	12704	-10.447811126708984	0.01788197	No	

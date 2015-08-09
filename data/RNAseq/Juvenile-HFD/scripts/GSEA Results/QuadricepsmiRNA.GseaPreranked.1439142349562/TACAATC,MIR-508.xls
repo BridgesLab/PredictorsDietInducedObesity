@@ -1,0 +1,54 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GRM8	GRM8	glutamate receptor, metabotropic 8	89	5.073449611663818	0.19475265	Yes	
+row_1	PHYHIPL	PHYHIPL	phytanoyl-CoA 2-hydroxylase interacting protein-like	304	3.1925172805786133	0.30433303	Yes	
+row_2	HMGA2	HMGA2	high mobility group AT-hook 2	432	2.8332650661468506	0.40674725	Yes	
+row_3	ADNP	ADNP	activity-dependent neuroprotector	1154	0.9301772117614746	0.3846074	No	
+row_4	NR4A3	NR4A3	nuclear receptor subfamily 4, group A, member 3	1329	0.7328792810440063	0.39951217	No	
+row_5	RANBP9	RANBP9	RAN binding protein 9	2033	0.40329742431640625	0.35786608	No	
+row_6	VNN3	VNN3	vanin 3	2158	0.36476755142211914	0.3622146	No	
+row_7	SMEK1	SMEK1	SMEK homolog 1, suppressor of mek1 (Dictyostelium)	2786	0.24771648645401	0.3206109	No	
+row_8	FCHSD2	FCHSD2	FCH and double SH3 domains 2	2955	0.22535976767539978	0.31579542	No	
+row_9	RSBN1	RSBN1	round spermatid basic protein 1	3050	0.21377433836460114	0.31659302	No	
+row_10	PTPN9	PTPN9	protein tyrosine phosphatase, non-receptor type 9	3195	0.19839031994342804	0.31267354	No	
+row_11	CTDSPL2	CTDSPL2	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase like 2	3206	0.1964496225118637	0.31967658	No	
+row_12	ZBTB33	ZBTB33	zinc finger and BTB domain containing 33	3308	0.18632566928863525	0.31880638	No	
+row_13	BMI1	BMI1	B lymphoma Mo-MLV insertion region (mouse)	3545	0.1637219339609146	0.30595404	No	
+row_14	PHTF2	PHTF2	putative homeodomain transcription factor 2	3742	0.14695698022842407	0.2957175	No	
+row_15	HBP1	HBP1	HMG-box transcription factor 1	3817	0.13861045241355896	0.29516336	No	
+row_16	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	3887	0.13375750184059143	0.2948264	No	
+row_17	RAPH1	RAPH1	Ras association (RalGDS/AF-6) and pleckstrin homology domains 1	3928	0.13040155172348022	0.29673633	No	
+row_18	RNF103	RNF103	ring finger protein 103	4196	0.10994145274162292	0.27919734	No	
+row_19	ZBTB44	ZBTB44	zinc finger and BTB domain containing 44	4202	0.10954561829566956	0.28314972	No	
+row_20	BDNF	BDNF	brain-derived neurotrophic factor	4247	0.10690923780202866	0.28379568	No	
+row_21	GLCE	GLCE	UDP-glucuronic acid epimerase	4412	0.09320390969514847	0.2740452	No	
+row_22	KLF4	KLF4	Kruppel-like factor 4 (gut)	4444	0.09128148853778839	0.27513587	No	
+row_23	CPNE2	CPNE2	copine II	5066	0.04920857027173042	0.22611885	No	
+row_24	TNPO1	TNPO1	transportin 1	5076	0.04833700880408287	0.22730516	No	
+row_25	UBP1	UBP1	upstream binding protein 1 (LBP-1a)	5085	0.04719892144203186	0.22852823	No	
+row_26	ARHGEF12	ARHGEF12	Rho guanine nucleotide exchange factor (GEF) 12	5191	0.03986717015504837	0.22149673	No	
+row_27	PURB	PURB	purine-rich element binding protein B	5229	0.037766654044389725	0.21996358	No	
+row_28	LMO3	LMO3	LIM domain only 3 (rhombotin-like 2)	5433	0.02635972388088703	0.20434946	No	
+row_29	RAD23B	RAD23B	RAD23 homolog B (S. cerevisiae)	5510	0.022287068888545036	0.19899838	No	
+row_30	RHOQ	RHOQ	ras homolog gene family, member Q	5550	0.01960962638258934	0.1965779	No	
+row_31	NLK	NLK	nemo-like kinase	5721	0.009494421072304249	0.18300103	No	
+row_32	SMG1	SMG1	-	5931	-0.0038356143049895763	0.16599733	No	
+row_33	HMGN1	HMGN1	high-mobility group nucleosome binding domain 1	6068	-0.011230237782001495	0.15528058	No	
+row_34	MITF	MITF	microphthalmia-associated transcription factor	6125	-0.014188293367624283	0.15124871	No	
+row_35	CLASP1	CLASP1	cytoplasmic linker associated protein 1	6229	-0.019594965502619743	0.143574	No	
+row_36	SUB1	SUB1	SUB1 homolog (S. cerevisiae)	6430	-0.0314420610666275	0.12840857	No	
+row_37	DNAJB1	DNAJB1	DnaJ (Hsp40) homolog, subfamily B, member 1	6817	-0.053761083632707596	0.0988636	No	
+row_38	SATB1	SATB1	special AT-rich sequence binding protein 1 (binds to nuclear matrix/scaffold-associating DNA's)	6914	-0.06007097288966179	0.09337555	No	
+row_39	NONO	NONO	non-POU domain containing, octamer-binding	7076	-0.07024713605642319	0.08295704	No	
+row_40	NUMB	NUMB	numb homolog (Drosophila)	7254	-0.080349400639534	0.071627446	No	
+row_41	SEPT7	SEPT7	septin 7	7400	-0.09091019630432129	0.06334529	No	
+row_42	NDST1	NDST1	N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 1	7608	-0.10599002242088318	0.050574232	No	
+row_43	VAPA	VAPA	VAMP (vesicle-associated membrane protein)-associated protein A, 33kDa	8379	-0.16497883200645447	-0.0060632257	No	
+row_44	DHDDS	DHDDS	dehydrodolichyl diphosphate synthase	8396	-0.16659438610076904	-7.417422E-4	No	
+row_45	ABLIM3	ABLIM3	actin binding LIM protein family, member 3	8435	-0.17035602033138275	0.0029236113	No	
+row_46	ARL4C	ARL4C	ADP-ribosylation factor-like 4C	8682	-0.19231556355953217	-0.009610833	No	
+row_47	TFAP2B	TFAP2B	transcription factor AP-2 beta (activating enhancer binding protein 2 beta)	9483	-0.2880558669567108	-0.06380919	No	
+row_48	HOXA1	HOXA1	homeobox A1	10172	-0.44662854075431824	-0.10249825	No	
+row_49	GRIA2	GRIA2	glutamate receptor, ionotropic, AMPA 2	10786	-0.8112303614616394	-0.1205098	No	
+row_50	SORCS1	SORCS1	sortilin-related VPS10 domain containing receptor 1	10857	-0.8811988830566406	-0.09116078	No	
+row_51	LHX8	LHX8	LIM homeobox 8	11505	-2.1098597049713135	-0.060243286	No	
+row_52	HTR2C	HTR2C	5-hydroxytryptamine (serotonin) receptor 2C	11792	-3.013150215148926	0.036283135	No	

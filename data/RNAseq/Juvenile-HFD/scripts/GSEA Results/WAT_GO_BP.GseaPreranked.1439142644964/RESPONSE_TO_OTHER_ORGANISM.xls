@@ -1,0 +1,55 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL10	IL10	interleukin 10	21	9.050509452819824	0.07133611	Yes	
+row_1	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	44	7.617632865905762	0.13104254	Yes	
+row_2	CCL11	CCL11	chemokine (C-C motif) ligand 11	72	6.843034267425537	0.18411589	Yes	
+row_3	CCL4	CCL4	chemokine (C-C motif) ligand 4	432	4.356210231781006	0.19136573	Yes	
+row_4	SPN	SPN	sialophorin (leukosialin, CD43)	655	3.658254384994507	0.20362438	Yes	
+row_5	TLR7	TLR7	toll-like receptor 7	855	3.1875457763671875	0.21387368	Yes	
+row_6	CXCR4	CXCR4	chemokine (C-X-C motif) receptor 4	858	3.1749303340911865	0.23931514	Yes	
+row_7	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	885	3.1104812622070312	0.26237378	Yes	
+row_8	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	999	2.8713419437408447	0.2767503	Yes	
+row_9	TLR8	TLR8	toll-like receptor 8	1081	2.715723991394043	0.2923565	Yes	
+row_10	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.3084351	Yes	
+row_11	CFP	CFP	complement factor properdin	1150	2.5939483642578125	0.32903734	Yes	
+row_12	PGLYRP1	PGLYRP1	peptidoglycan recognition protein 1	1160	2.5707335472106934	0.34906423	Yes	
+row_13	RSAD2	RSAD2	radical S-adenosyl methionine domain containing 2	1241	2.4459426403045654	0.36257306	Yes	
+row_14	SLC11A1	SLC11A1	solute carrier family 11 (proton-coupled divalent metal ion transporters), member 1	1285	2.3830559253692627	0.37844732	Yes	
+row_15	CCL5	CCL5	chemokine (C-C motif) ligand 5	1356	2.2674052715301514	0.39129308	Yes	
+row_16	STAB1	STAB1	stabilin 1	1424	2.1657333374023438	0.40355206	Yes	
+row_17	IFNGR1	IFNGR1	interferon gamma receptor 1	1502	2.043566942214966	0.41404977	Yes	
+row_18	ITLN1	ITLN1	intelectin 1 (galactofuranose binding)	1701	1.835951805114746	0.41347998	Yes	
+row_19	CXCL12	CXCL12	chemokine (C-X-C motif) ligand 12 (stromal cell-derived factor 1)	1775	1.7360824346542358	0.42180926	Yes	
+row_20	LALBA	LALBA	lactalbumin, alpha-	1787	1.7239656448364258	0.43485412	Yes	
+row_21	FGR	FGR	Gardner-Rasheed feline sarcoma viral (v-fgr) oncogene homolog	1820	1.6893792152404785	0.44598985	Yes	
+row_22	CCL8	CCL8	chemokine (C-C motif) ligand 8	1868	1.6410257816314697	0.45557123	Yes	
+row_23	DUOX2	DUOX2	dual oxidase 2	2229	1.2832696437835693	0.43796897	No	
+row_24	CCL19	CCL19	chemokine (C-C motif) ligand 19	2324	1.2056140899658203	0.4403912	No	
+row_25	CCL22	CCL22	chemokine (C-C motif) ligand 22	2746	0.8748344779014587	0.41476044	No	
+row_26	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.42015523	No	
+row_27	TLR3	TLR3	toll-like receptor 3	2779	0.8558698296546936	0.4262014	No	
+row_28	IFI44	IFI44	interferon-induced protein 44	2833	0.8237344026565552	0.42872787	No	
+row_29	TLR6	TLR6	toll-like receptor 6	3116	0.6721018552780151	0.41225374	No	
+row_30	BNIP3L	BNIP3L	BCL2/adenovirus E1B 19kDa interacting protein 3-like	3290	0.5817012190818787	0.40351284	No	
+row_31	BCL3	BCL3	B-cell CLL/lymphoma 3	3313	0.5703811645507812	0.4064034	No	
+row_32	IFNAR1	IFNAR1	interferon (alpha, beta and omega) receptor 1	4078	0.2790473699569702	0.34934095	No	
+row_33	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	4244	0.21994629502296448	0.3383046	No	
+row_34	BCL10	BCL10	B-cell CLL/lymphoma 10	4896	0.042808689177036285	0.2881102	No	
+row_35	ABCE1	ABCE1	ATP-binding cassette, sub-family E (OABP), member 1	5857	-0.18173430860042572	0.21504697	No	
+row_36	WFDC12	WFDC12	WAP four-disulfide core domain 12	6078	-0.2273596078157425	0.19980057	No	
+row_37	BANF1	BANF1	barrier to autointegration factor 1	6114	-0.23685799539089203	0.19899297	No	
+row_38	IVNS1ABP	IVNS1ABP	influenza virus NS1A binding protein	6333	-0.28330081701278687	0.18435282	No	
+row_39	POLA1	POLA1	polymerase (DNA directed), alpha 1	6865	-0.4061275124549866	0.14640357	No	
+row_40	PRKRA	PRKRA	protein kinase, interferon-inducible double stranded RNA dependent activator	7160	-0.47507062554359436	0.12740934	No	
+row_41	IRF7	IRF7	interferon regulatory factor 7	7630	-0.5948766469955444	0.09579509	No	
+row_42	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	8430	-0.8147324919700623	0.040334225	No	
+row_43	DMBT1	DMBT1	deleted in malignant brain tumors 1	9044	-1.044915795326233	0.0011690031	No	
+row_44	TARBP2	TARBP2	Tar (HIV-1) RNA binding protein 2	9760	-1.361526608467102	-0.0433623	No	
+row_45	CCDC130	CCDC130	coiled-coil domain containing 130	9832	-1.3904305696487427	-0.03766446	No	
+row_46	CAMP	CAMP	cathelicidin antimicrobial peptide	9845	-1.395566463470459	-0.02734482	No	
+row_47	STAB2	STAB2	stabilin 2	10706	-2.021794319152832	-0.07780985	No	
+row_48	PGLYRP4	PGLYRP4	peptidoglycan recognition protein 4	11000	-2.367795705795288	-0.08146705	No	
+row_49	ISG20	ISG20	interferon stimulated exonuclease gene 20kDa	11018	-2.3927741050720215	-0.06349596	No	
+row_50	PGLYRP2	PGLYRP2	peptidoglycan recognition protein 2	11258	-2.7264115810394287	-0.060069717	No	
+row_51	FOSL1	FOSL1	FOS-like antigen 1	11904	-4.217679023742676	-0.07613998	No	
+row_52	CHIT1	CHIT1	chitinase 1 (chitotriosidase)	12398	-7.268209934234619	-0.055816125	No	
+row_53	SPACA3	SPACA3	sperm acrosome associated 3	12827	-12.074983596801758	0.008306769	No	

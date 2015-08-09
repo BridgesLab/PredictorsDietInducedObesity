@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GDF15	GDF15	growth differentiation factor 15	7	7.773494720458984	0.26280063	Yes	
+row_1	PMAIP1	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	437	2.810777187347412	0.32283157	Yes	
+row_2	SERPINB5	SERPINB5	serpin peptidase inhibitor, clade B (ovalbumin), member 5	462	2.684269666671753	0.41180846	Yes	
+row_3	S100A2	S100A2	S100 calcium binding protein A2	518	2.491335391998291	0.49170476	Yes	
+row_4	EVPL	EVPL	envoplakin	985	1.1874855756759644	0.4937007	Yes	
+row_5	VDR	VDR	vitamin D (1,25- dihydroxyvitamin D3) receptor	1143	0.9515987038612366	0.5130594	Yes	
+row_6	CABLES1	CABLES1	Cdk5 and Abl enzyme substrate 1	1262	0.7956113815307617	0.53033316	Yes	
+row_7	FAS	FAS	Fas (TNF receptor superfamily, member 6)	1302	0.7556638121604919	0.5527358	Yes	
+row_8	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	2199	0.3557278513908386	0.49126732	No	
+row_9	ITCH	ITCH	itchy homolog E3 ubiquitin protein ligase (mouse)	2520	0.2909233570098877	0.47486666	No	
+row_10	ADA	ADA	adenosine deaminase	2588	0.28041189908981323	0.47886968	No	
+row_11	IGFBP3	IGFBP3	insulin-like growth factor binding protein 3	2735	0.25547024607658386	0.47554532	No	
+row_12	PERP	PERP	PERP, TP53 apoptosis effector	2817	0.24396774172782898	0.4771648	No	
+row_13	YWHAQ	YWHAQ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, theta polypeptide	3481	0.1694936454296112	0.4285052	No	
+row_14	PLK1	PLK1	polo-like kinase 1 (Drosophila)	3565	0.16200430691242218	0.42718357	No	
+row_15	NQO1	NQO1	NAD(P)H dehydrogenase, quinone 1	3815	0.13889023661613464	0.41145772	No	
+row_16	HBP1	HBP1	HMG-box transcription factor 1	3817	0.13861045241355896	0.41607195	No	
+row_17	SMARCD3	SMARCD3	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3	3879	0.13421428203582764	0.41561395	No	
+row_18	WWP1	WWP1	WW domain containing E3 ubiquitin protein ligase 1	4188	0.1105756014585495	0.39408755	No	
+row_19	DICER1	DICER1	Dicer1, Dcr-1 homolog (Drosophila)	4252	0.10658079385757446	0.3925292	No	
+row_20	OGG1	OGG1	8-oxoguanine DNA glycosylase	4525	0.08604617416858673	0.37312567	No	
+row_21	BAX	BAX	BCL2-associated X protein	5114	0.044763945043087006	0.3263942	No	
+row_22	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	5725	0.009372304193675518	0.27665842	No	
+row_23	FLOT2	FLOT2	flotillin 2	5879	-6.086226203478873E-4	0.26412466	No	
+row_24	DST	DST	dystonin	6427	-0.031007496640086174	0.22029135	No	
+row_25	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	6541	-0.03814968094229698	0.21231173	No	
+row_26	NOC2L	NOC2L	nucleolar complex associated 2 homolog (S. cerevisiae)	6555	-0.03894342482089996	0.21256447	No	
+row_27	JAG1	JAG1	jagged 1 (Alagille syndrome)	6690	-0.04616129770874977	0.20313314	No	
+row_28	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	7258	-0.08057409524917603	0.1593381	No	
+row_29	EP300	EP300	E1A binding protein p300	7271	-0.0813620463013649	0.16111009	No	
+row_30	DHRS3	DHRS3	dehydrogenase/reductase (SDR family) member 3	8164	-0.14800499379634857	0.09293192	No	
+row_31	GADD45A	GADD45A	growth arrest and DNA-damage-inducible, alpha	8266	-0.1566229611635208	0.089950964	No	
+row_32	SSRP1	SSRP1	structure specific recognition protein 1	8562	-0.18078048527240753	0.071869895	No	
+row_33	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	8765	-0.20198222994804382	0.062138252	No	
+row_34	MFGE8	MFGE8	milk fat globule-EGF factor 8 protein	8806	-0.20573964715003967	0.065826766	No	
+row_35	PRKCD	PRKCD	protein kinase C, delta	9129	-0.2397969663143158	0.047529764	No	
+row_36	ITGB4	ITGB4	integrin, beta 4	9363	-0.2688722014427185	0.037520736	No	
+row_37	FDXR	FDXR	ferredoxin reductase	9448	-0.28225085139274597	0.040191133	No	
+row_38	TRAF4	TRAF4	TNF receptor-associated factor 4	9450	-0.2823158800601959	0.04967427	No	
+row_39	SP1	SP1	Sp1 transcription factor	9590	-0.3060528337955475	0.048638098	No	
+row_40	PML	PML	promyelocytic leukemia	9606	-0.3102834224700928	0.05792004	No	
+row_41	CLCA2	CLCA2	chloride channel, calcium activated, family member 2	9844	-0.35785093903541565	0.050597493	No	
+row_42	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	9925	-0.376265287399292	0.056781426	No	
+row_43	TFAP2C	TFAP2C	transcription factor AP-2 gamma (activating enhancer binding protein 2 gamma)	9961	-0.38419678807258606	0.06692655	No	
+row_44	BBC3	BBC3	BCL2 binding component 3	10718	-0.7421863675117493	0.030039368	No	
+row_45	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	10830	-0.8505929708480835	0.04975038	No	
+row_46	EGR2	EGR2	early growth response 2 (Krox-20 homolog, Drosophila)	10892	-0.9337369799613953	0.07638114	No	
+row_47	SSPO	SSPO	SCO-spondin homolog (Bos taurus)	10939	-0.9932990074157715	0.10626075	No	

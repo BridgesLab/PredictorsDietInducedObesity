@@ -1,0 +1,54 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NEUROG1	NEUROG1	neurogenin 1	419	2.859224557876587	0.15151387	Yes	
+row_1	GDF3	GDF3	growth differentiation factor 3	621	2.1466641426086426	0.2745918	Yes	
+row_2	IL1RL1	IL1RL1	interleukin 1 receptor-like 1	1093	1.0070488452911377	0.30140725	Yes	
+row_3	NTRK3	NTRK3	neurotrophic tyrosine kinase, receptor, type 3	1625	0.5516360402107239	0.29368615	Yes	
+row_4	USP46	USP46	ubiquitin specific peptidase 46	1676	0.5280376076698303	0.32391512	Yes	
+row_5	H3F3B	H3F3B	H3 histone, family 3B (H3.3B)	2575	0.28292858600616455	0.26859602	No	
+row_6	CAMK2N2	CAMK2N2	calcium/calmodulin-dependent protein kinase II inhibitor 2	2686	0.2653728127479553	0.27682105	No	
+row_7	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	2723	0.2581988573074341	0.29065415	No	
+row_8	FAM126B	FAM126B	family with sequence similarity 126, member B	2730	0.25621867179870605	0.30682114	No	
+row_9	KPNB1	KPNB1	karyopherin (importin) beta 1	2913	0.22973446547985077	0.30681857	No	
+row_10	UTP14A	UTP14A	UTP14, U3 small nucleolar ribonucleoprotein, homolog A (yeast)	3142	0.2034679353237152	0.30133206	No	
+row_11	RNF4	RNF4	ring finger protein 4	3460	0.17155103385448456	0.28646442	No	
+row_12	WDR44	WDR44	WD repeat domain 44	3623	0.15649574995040894	0.2833416	No	
+row_13	PKNOX2	PKNOX2	PBX/knotted 1 homeobox 2	3832	0.13761436939239502	0.275215	No	
+row_14	CNOT7	CNOT7	CCR4-NOT transcription complex, subunit 7	4023	0.12280093133449554	0.26760283	No	
+row_15	CPEB3	CPEB3	cytoplasmic polyadenylation element binding protein 3	4046	0.12095281481742859	0.27366132	No	
+row_16	RIOK3	RIOK3	RIO kinase 3 (yeast)	4431	0.09201446175575256	0.24812226	No	
+row_17	PHF20L1	PHF20L1	PHD finger protein 20-like 1	4437	0.09173198789358139	0.2536763	No	
+row_18	MXD4	MXD4	MAX dimerization protein 4	4504	0.08731203526258469	0.25393558	No	
+row_19	RAB10	RAB10	RAB10, member RAS oncogene family	4772	0.06892207264900208	0.23649934	No	
+row_20	PLXNA1	PLXNA1	plexin A1	5054	0.050068147480487823	0.21668799	No	
+row_21	DAG1	DAG1	dystroglycan 1 (dystrophin-associated glycoprotein 1)	5106	0.04525620490312576	0.21544407	No	
+row_22	ZDHHC5	ZDHHC5	zinc finger, DHHC-type containing 5	5257	0.03613831475377083	0.20548056	No	
+row_23	RBM3	RBM3	RNA binding motif (RNP1, RRM) protein 3	5321	0.032393310219049454	0.20241524	No	
+row_24	SETD2	SETD2	SET domain containing 2	5544	0.019985580816864967	0.1854911	No	
+row_25	MTA2	MTA2	metastasis associated 1 family, member 2	5582	0.017837945371866226	0.18361367	No	
+row_26	RB1CC1	RB1CC1	RB1-inducible coiled-coil 1	5824	0.0038059442304074764	0.16407785	No	
+row_27	VAMP2	VAMP2	vesicle-associated membrane protein 2 (synaptobrevin 2)	6489	-0.034493084996938705	0.11181397	No	
+row_28	ODF2	ODF2	outer dense fiber of sperm tails 2	6498	-0.035007294267416	0.113433465	No	
+row_29	R3HDM1	R3HDM1	R3H domain containing 1	6504	-0.03524008393287659	0.11531436	No	
+row_30	VEZF1	VEZF1	vascular endothelial zinc finger 1	6649	-0.04342696815729141	0.10631729	No	
+row_31	WHSC1	WHSC1	Wolf-Hirschhorn syndrome candidate 1	6771	-0.050998009741306305	0.09970053	No	
+row_32	UBE2J2	UBE2J2	ubiquitin-conjugating enzyme E2, J2 (UBC6 homolog, yeast)	6847	-0.055671803653240204	0.09716373	No	
+row_33	MAP2	MAP2	microtubule-associated protein 2	6902	-0.059222787618637085	0.09658167	No	
+row_34	SATB1	SATB1	special AT-rich sequence binding protein 1 (binds to nuclear matrix/scaffold-associating DNA's)	6914	-0.06007097288966179	0.09958456	No	
+row_35	NEK9	NEK9	NIMA (never in mitosis gene a)- related kinase 9	6965	-0.06373881548643112	0.099624485	No	
+row_36	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	7030	-0.0676606222987175	0.09877017	No	
+row_37	MLLT6	MLLT6	myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 6	7063	-0.06949443370103836	0.100661926	No	
+row_38	ACE	ACE	angiotensin I converting enzyme (peptidyl-dipeptidase A) 1	7245	-0.07994013279676437	0.091001704	No	
+row_39	XPO1	XPO1	exportin 1 (CRM1 homolog, yeast)	7422	-0.09249941259622574	0.08256854	No	
+row_40	DDX54	DDX54	DEAD (Asp-Glu-Ala-Asp) box polypeptide 54	7967	-0.13150498270988464	0.04646304	No	
+row_41	SON	SON	SON DNA binding protein	8003	-0.13435140252113342	0.052325573	No	
+row_42	HIVEP2	HIVEP2	human immunodeficiency virus type I enhancer binding protein 2	8080	-0.1407759040594101	0.055240214	No	
+row_43	PDCD7	PDCD7	programmed cell death 7	8083	-0.14141547679901123	0.06427097	No	
+row_44	DNAL4	DNAL4	dynein, axonemal, light chain 4	8376	-0.16463232040405273	0.0510057	No	
+row_45	SLC6A8	SLC6A8	solute carrier family 6 (neurotransmitter transporter, creatine), member 8	8411	-0.16770628094673157	0.05911908	No	
+row_46	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	8639	-0.1881517916917801	0.052718796	No	
+row_47	TMOD1	TMOD1	tropomodulin 1	9134	-0.24064426124095917	0.02781403	No	
+row_48	FHL1	FHL1	four and a half LIM domains 1	9176	-0.24519245326519012	0.040391	No	
+row_49	HIC2	HIC2	hypermethylated in cancer 2	9926	-0.37627676129341125	0.0033726369	No	
+row_50	SYNPO2	SYNPO2	synaptopodin 2	10044	-0.4070724844932556	0.020236455	No	
+row_51	RBAK	RBAK	RB-associated KRAB zinc finger	10625	-0.6705841422080994	0.016227098	No	
+row_52	PHACTR3	PHACTR3	phosphatase and actin regulator 3	11341	-1.780523419380188	0.073304884	No	

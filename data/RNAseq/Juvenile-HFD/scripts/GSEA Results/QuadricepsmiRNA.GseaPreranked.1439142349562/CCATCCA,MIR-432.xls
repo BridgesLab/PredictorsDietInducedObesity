@@ -1,0 +1,50 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AIRE	AIRE	autoimmune regulator (autoimmune polyendocrinopathy candidiasis ectodermal dystrophy)	155	4.323460102081299	0.12806635	Yes	
+row_1	PCDH10	PCDH10	protocadherin 10	309	3.1386282444000244	0.21771485	Yes	
+row_2	CALN1	CALN1	calneuron 1	367	2.8872642517089844	0.307056	Yes	
+row_3	LEP	LEP	leptin (obesity homolog, mouse)	576	2.337125301361084	0.3660916	Yes	
+row_4	NTRK3	NTRK3	neurotrophic tyrosine kinase, receptor, type 3	1625	0.5516360402107239	0.29805434	No	
+row_5	PTGIR	PTGIR	prostaglandin I2 (prostacyclin) receptor (IP)	2611	0.27628231048583984	0.22622053	No	
+row_6	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	2740	0.2548370063304901	0.224015	No	
+row_7	RSBN1	RSBN1	round spermatid basic protein 1	3050	0.21377433836460114	0.20561922	No	
+row_8	RPS6KA3	RPS6KA3	ribosomal protein S6 kinase, 90kDa, polypeptide 3	3236	0.19314244389533997	0.1967272	No	
+row_9	ARID2	ARID2	AT rich interactive domain 2 (ARID, RFX-like)	3279	0.18926042318344116	0.19944355	No	
+row_10	LRRC1	LRRC1	leucine rich repeat containing 1	3346	0.18319441378116608	0.19999291	No	
+row_11	H3F3A	H3F3A	H3 histone, family 3A	3366	0.18090565502643585	0.20432462	No	
+row_12	CLK2	CLK2	CDC-like kinase 2	3590	0.15973541140556335	0.19122642	No	
+row_13	RBCK1	RBCK1	RanBP-type and C3HC4-type zinc finger containing 1	3609	0.1578017771244049	0.19488786	No	
+row_14	TLK2	TLK2	tousled-like kinase 2	4002	0.12476438283920288	0.16678253	No	
+row_15	PCGF3	PCGF3	polycomb group ring finger 3	4470	0.08943943679332733	0.1313723	No	
+row_16	ABCB9	ABCB9	ATP-binding cassette, sub-family B (MDR/TAP), member 9	4553	0.08351356536149979	0.12736274	No	
+row_17	RAB10	RAB10	RAB10, member RAS oncogene family	4772	0.06892207264900208	0.111717686	No	
+row_18	FURIN	FURIN	furin (paired basic amino acid cleaving enzyme)	4989	0.05486270785331726	0.095778935	No	
+row_19	IDH3G	IDH3G	isocitrate dehydrogenase 3 (NAD+) gamma	5234	0.03726532310247421	0.07696944	No	
+row_20	ERP29	ERP29	endoplasmic reticulum protein 29	5916	-0.0029582250863313675	0.02118197	No	
+row_21	KLHL18	KLHL18	kelch-like 18 (Drosophila)	5968	-0.005912071093916893	0.017189356	No	
+row_22	SOX4	SOX4	SRY (sex determining region Y)-box 4	6044	-0.010146009735763073	0.01136514	No	
+row_23	ADIPOR1	ADIPOR1	adiponectin receptor 1	6061	-0.01099209301173687	0.010410096	No	
+row_24	SMURF1	SMURF1	SMAD specific E3 ubiquitin protein ligase 1	6171	-0.01702805981040001	0.0020198938	No	
+row_25	BCORL1	BCORL1	BCL6 co-repressor-like 1	6265	-0.022044789046049118	-0.0048939646	No	
+row_26	PPP1CB	PPP1CB	protein phosphatase 1, catalytic subunit, beta isoform	6613	-0.04137915372848511	-0.032021824	No	
+row_27	DYNLL1	DYNLL1	dynein, light chain, LC8-type 1	6781	-0.05181760713458061	-0.044038724	No	
+row_28	ELK1	ELK1	ELK1, member of ETS oncogene family	6984	-0.06501252204179764	-0.058498107	No	
+row_29	DUSP13	DUSP13	dual specificity phosphatase 13	7006	-0.06636788696050644	-0.05806024	No	
+row_30	COL11A1	COL11A1	collagen, type XI, alpha 1	7444	-0.09453946352005005	-0.09084255	No	
+row_31	SIN3A	SIN3A	SIN3 homolog A, transcription regulator (yeast)	8040	-0.13740356266498566	-0.13519476	No	
+row_32	CAMTA1	CAMTA1	calmodulin binding transcription activator 1	8271	-0.15680329501628876	-0.14896287	No	
+row_33	ZGPAT	ZGPAT	zinc finger, CCCH-type with G patch domain	8308	-0.159838005900383	-0.14671223	No	
+row_34	TM9SF3	TM9SF3	transmembrane 9 superfamily member 3	8315	-0.16063398122787476	-0.14197384	No	
+row_35	YPEL5	YPEL5	yippee-like 5 (Drosophila)	8499	-0.17603255808353424	-0.15125887	No	
+row_36	SLC7A8	SLC7A8	solute carrier family 7 (cationic amino acid transporter, y+ system), member 8	8506	-0.17638656497001648	-0.14600752	No	
+row_37	GTF2I	GTF2I	general transcription factor II, i	8719	-0.19702455401420593	-0.15698878	No	
+row_38	IGF2BP2	IGF2BP2	insulin-like growth factor 2 mRNA binding protein 2	8908	-0.214946448802948	-0.16541697	No	
+row_39	TMEM47	TMEM47	transmembrane protein 47	9123	-0.2393415868282318	-0.17518437	No	
+row_40	HECW2	HECW2	HECT, C2 and WW domain containing E3 ubiquitin protein ligase 2	9374	-0.26972994208335876	-0.18691644	No	
+row_41	GPM6A	GPM6A	glycoprotein M6A	9430	-0.2787728011608124	-0.18235207	No	
+row_42	CXXC1	CXXC1	CXXC finger 1 (PHD domain)	9579	-0.3034171462059021	-0.18461691	No	
+row_43	CHD9	CHD9	chromodomain helicase DNA binding protein 9	9742	-0.33620524406433105	-0.18696292	No	
+row_44	PRKG1	PRKG1	protein kinase, cGMP-dependent, type I	9762	-0.34082674980163574	-0.17742366	No	
+row_45	CAPN6	CAPN6	calpain 6	10511	-0.594061017036438	-0.21946102	No	
+row_46	PPM1E	PPM1E	protein phosphatase 1E (PP2C domain containing)	11077	-1.2170530557632446	-0.22619452	No	
+row_47	SPTBN4	SPTBN4	spectrin, beta, non-erythrocytic 4	11833	-3.1279706954956055	-0.186294	No	
+row_48	SLC22A7	SLC22A7	solute carrier family 22 (organic anion transporter), member 7	12157	-6.729017734527588	0.0063187634	No	

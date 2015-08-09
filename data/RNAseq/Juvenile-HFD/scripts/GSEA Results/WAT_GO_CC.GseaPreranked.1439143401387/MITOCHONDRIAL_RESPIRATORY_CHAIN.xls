@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NDUFAB1	NDUFAB1	NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1, 8kDa	2050	1.4454530477523804	-0.015567956	Yes	
+row_1	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	2883	0.7973940372467041	-0.001007385	Yes	
+row_2	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	3045	0.709170937538147	0.0567802	Yes	
+row_3	NDUFS2	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2, 49kDa (NADH-coenzyme Q reductase)	3220	0.614263653755188	0.10415863	Yes	
+row_4	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	3371	0.544820249080658	0.14651614	Yes	
+row_5	NDUFS7	NDUFS7	NADH dehydrogenase (ubiquinone) Fe-S protein 7, 20kDa (NADH-coenzyme Q reductase)	3528	0.4792640209197998	0.18191439	Yes	
+row_6	NDUFS3	NDUFS3	NADH dehydrogenase (ubiquinone) Fe-S protein 3, 30kDa (NADH-coenzyme Q reductase)	3564	0.465676486492157	0.22533768	Yes	
+row_7	NDUFS4	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	3567	0.4649527668952942	0.27124503	Yes	
+row_8	NDUFV1	NDUFV1	NADH dehydrogenase (ubiquinone) flavoprotein 1, 51kDa	3906	0.33348357677459717	0.2781056	Yes	
+row_9	NDUFA2	NDUFA2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2, 8kDa	3945	0.3190816640853882	0.30677357	Yes	
+row_10	BCS1L	BCS1L	BCS1-like (yeast)	4036	0.29107558727264404	0.3286398	Yes	
+row_11	NDUFA9	NDUFA9	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 9, 39kDa	4175	0.2452329397201538	0.34224695	Yes	
+row_12	NDUFB6	NDUFB6	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6, 17kDa	4470	0.15016771852970123	0.33435434	No	
+row_13	OXA1L	OXA1L	oxidase (cytochrome c) assembly 1-like	4989	0.014607153832912445	0.29568374	No	
+row_14	SURF1	SURF1	surfeit 1	4997	0.013021528720855713	0.29643163	No	
+row_15	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	5243	-0.04622587934136391	0.28203657	No	
+row_16	NDUFA1	NDUFA1	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 1, 7.5kDa	5433	-0.08997288346290588	0.27631253	No	
+row_17	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	5697	-0.14720028638839722	0.2705268	No	
+row_18	NDUFA13	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	5738	-0.15627627074718475	0.282911	No	
+row_19	NDUFA6	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa	6784	-0.3870609700679779	0.24032412	No	
+row_20	NDUFS8	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)	7998	-0.6854196190834045	0.2142841	No	
+row_21	COX15	COX15	COX15 homolog, cytochrome c oxidase assembly protein (yeast)	8425	-0.8137612342834473	0.26190978	No	
+row_22	NNT	NNT	nicotinamide nucleotide transhydrogenase	8626	-0.8804277181625366	0.33364308	No	

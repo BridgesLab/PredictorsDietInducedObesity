@@ -1,0 +1,62 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GDF6	GDF6	growth differentiation factor 6	403	4.4731245040893555	0.01534176	Yes	
+row_1	GNG3	GNG3	guanine nucleotide binding protein (G protein), gamma 3	404	4.46968412399292	0.061951045	Yes	
+row_2	RGS4	RGS4	regulator of G-protein signalling 4	457	4.255226135253906	0.10228484	Yes	
+row_3	IGFBP5	IGFBP5	insulin-like growth factor binding protein 5	582	3.8752362728118896	0.1330635	Yes	
+row_4	NPR2	NPR2	natriuretic peptide receptor B/guanylate cyclase B (atrionatriuretic peptide receptor B)	700	3.5440104007720947	0.16093189	Yes	
+row_5	HOXC10	HOXC10	homeobox C10	789	3.3307061195373535	0.18882857	Yes	
+row_6	SYDE1	SYDE1	synapse defective 1, Rho GTPase, homolog 1 (C. elegans)	799	3.307838201522827	0.2226232	Yes	
+row_7	MYOZ1	MYOZ1	myozenin 1	936	2.981956958770752	0.24315473	Yes	
+row_8	SNRK	SNRK	SNF related kinase	942	2.9784340858459473	0.27382508	Yes	
+row_9	EXTL3	EXTL3	exostoses (multiple)-like 3	978	2.9163239002227783	0.30151746	Yes	
+row_10	FMR1	FMR1	fragile X mental retardation 1	1068	2.7367401123046875	0.32314268	Yes	
+row_11	PLCXD3	PLCXD3	phosphatidylinositol-specific phospholipase C, X domain containing 3	1974	1.5100821256637573	0.2685929	No	
+row_12	SORCS1	SORCS1	sortilin-related VPS10 domain containing receptor 1	2210	1.3035967350006104	0.2639328	No	
+row_13	ELK1	ELK1	ELK1, member of ETS oncogene family	2211	1.301913857460022	0.27750897	No	
+row_14	TSC22D2	TSC22D2	TSC22 domain family, member 2	3364	0.5456957817077637	0.19371675	No	
+row_15	SGIP1	SGIP1	SH3-domain GRB2-like (endophilin) interacting protein 1	3539	0.4755097031593323	0.1851597	No	
+row_16	FOXJ3	FOXJ3	forkhead box J3	3548	0.47000229358673096	0.18943942	No	
+row_17	PTPRG	PTPRG	protein tyrosine phosphatase, receptor type, G	3582	0.4595920443534851	0.19166867	No	
+row_18	PHF21A	PHF21A	PHD finger protein 21A	3604	0.44846075773239136	0.19471397	No	
+row_19	MOSPD1	MOSPD1	motile sperm domain containing 1	4185	0.2402084916830063	0.15216678	No	
+row_20	ANKRD11	ANKRD11	ankyrin repeat domain 11	4258	0.21652227640151978	0.148832	No	
+row_21	RAP2C	RAP2C	RAP2C, member of RAS oncogene family	4480	0.14830465614795685	0.1332121	No	
+row_22	PURB	PURB	purine-rich element binding protein B	4608	0.11576869338750839	0.124554485	No	
+row_23	MTPN	MTPN	myotrophin	4916	0.03865776211023331	0.10111109	No	
+row_24	DYRK1A	DYRK1A	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A	5096	-0.012249205261468887	0.087334834	No	
+row_25	CBX4	CBX4	chromobox homolog 4 (Pc class homolog, Drosophila)	5330	-0.06297007948160172	0.06989298	No	
+row_26	UBE2G1	UBE2G1	ubiquitin-conjugating enzyme E2G 1 (UBC7 homolog, yeast)	5394	-0.08047262579202652	0.06583856	No	
+row_27	ETF1	ETF1	eukaryotic translation termination factor 1	5412	-0.08540873974561691	0.0654087	No	
+row_28	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	5430	-0.08919770270586014	0.06501835	No	
+row_29	TRPC4AP	TRPC4AP	transient receptor potential cation channel, subfamily C, member 4 associated protein	5541	-0.1122697964310646	0.057644732	No	
+row_30	FAM120A	FAM120A	family with sequence similarity 120A	5553	-0.11582819372415543	0.05799814	No	
+row_31	ARID5B	ARID5B	AT rich interactive domain 5B (MRF1-like)	6132	-0.2411680519580841	0.015616317	No	
+row_32	TM9SF3	TM9SF3	transmembrane 9 superfamily member 3	6395	-0.2972296178340912	-0.0016353051	No	
+row_33	NONO	NONO	non-POU domain containing, octamer-binding	6581	-0.34213390946388245	-0.012437625	No	
+row_34	PPA2	PPA2	pyrophosphatase (inorganic) 2	6936	-0.42186275124549866	-0.035535775	No	
+row_35	JAZF1	JAZF1	JAZF zinc finger 1	7050	-0.44755566120147705	-0.039646104	No	
+row_36	ANKZF1	ANKZF1	ankyrin repeat and zinc finger domain containing 1	8146	-0.7263501286506653	-0.117126964	No	
+row_37	USP25	USP25	ubiquitin specific peptidase 25	8164	-0.7316473722457886	-0.11081793	No	
+row_38	POP5	POP5	processing of precursor 5, ribonuclease P/MRP subunit (S. cerevisiae)	8331	-0.7849740982055664	-0.11552653	No	
+row_39	SLC7A3	SLC7A3	solute carrier family 7 (cationic amino acid transporter, y+ system), member 3	8453	-0.8232369422912598	-0.11634071	No	
+row_40	PATZ1	PATZ1	POZ (BTB) and AT hook containing zinc finger 1	8548	-0.8541355133056641	-0.11473543	No	
+row_41	CNOT7	CNOT7	CCR4-NOT transcription complex, subunit 7	8744	-0.9255052208900452	-0.12023119	No	
+row_42	KALRN	KALRN	kalirin, RhoGEF kinase	8876	-0.9747045040130615	-0.12024265	No	
+row_43	MINK1	MINK1	misshapen-like kinase 1 (zebrafish)	8926	-0.9909992218017578	-0.113714755	No	
+row_44	MTMR4	MTMR4	myotubularin related protein 4	9374	-1.177738904953003	-0.13615459	No	
+row_45	ESRRG	ESRRG	estrogen-related receptor gamma	9383	-1.1810345649719238	-0.12446032	No	
+row_46	SYTL4	SYTL4	synaptotagmin-like 4 (granuphilin-a)	9542	-1.2528058290481567	-0.12366902	No	
+row_47	USP37	USP37	ubiquitin specific peptidase 37	9982	-1.4714198112487793	-0.14242499	No	
+row_48	RHCG	RHCG	Rh family, C glycoprotein	10237	-1.626624345779419	-0.14519244	No	
+row_49	PSME4	PSME4	proteasome (prosome, macropain) activator subunit 4	10303	-1.6737011671066284	-0.13278824	No	
+row_50	ICA1	ICA1	islet cell autoantigen 1, 69kDa	10448	-1.7796460390090942	-0.12541565	No	
+row_51	GRID1	GRID1	glutamate receptor, ionotropic, delta 1	10489	-1.8129228353500366	-0.10961777	No	
+row_52	NRK	NRK	Nik related kinase	10714	-2.032907485961914	-0.10581828	No	
+row_53	CPEB2	CPEB2	cytoplasmic polyadenylation element binding protein 2	10860	-2.1911816596984863	-0.09423193	No	
+row_54	SEPT3	SEPT3	septin 3	10868	-2.1985394954681396	-0.07184958	No	
+row_55	MDM1	MDM1	Mdm4, transformed 3T3 cell double minute 1, p53 binding protein (mouse)	10908	-2.237670421600342	-0.051544804	No	
+row_56	RNF139	RNF139	ring finger protein 139	10982	-2.3466267585754395	-0.03274483	No	
+row_57	KCND1	KCND1	potassium voltage-gated channel, Shal-related subfamily, member 1	11191	-2.642428159713745	-0.021346526	No	
+row_58	MLLT11	MLLT11	myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 11	11686	-3.5183167457580566	-0.023029886	No	
+row_59	ZIC3	ZIC3	Zic family member 3 heterotaxy 1 (odd-paired homolog, Drosophila)	11934	-4.310344219207764	0.002731869	No	
+row_60	GLT6D1	GLT6D1	glycosyltransferase 6 domain containing 1	12388	-7.179441928863525	0.04241096	No	

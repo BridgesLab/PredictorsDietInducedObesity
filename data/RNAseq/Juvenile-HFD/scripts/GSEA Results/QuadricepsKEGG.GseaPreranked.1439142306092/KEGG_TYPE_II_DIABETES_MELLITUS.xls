@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CACNA1E	CACNA1E	calcium channel, voltage-dependent, alpha 1E subunit	1008	1.1384660005569458	-0.04080292	No	
+row_1	ADIPOQ	ADIPOQ	adiponectin, C1Q and collagen domain containing	1140	0.9575111865997314	-0.016329167	No	
+row_2	SOCS1	SOCS1	suppressor of cytokine signaling 1	1166	0.9164315462112427	0.015327845	No	
+row_3	HK3	HK3	hexokinase 3 (white cell)	1180	0.9009937644004822	0.047401283	No	
+row_4	CACNA1B	CACNA1B	calcium channel, voltage-dependent, L type, alpha 1B subunit	1279	0.7763332724571228	0.067917764	No	
+row_5	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.074241914	No	
+row_6	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.06698997	No	
+row_7	IRS1	IRS1	insulin receptor substrate 1	2223	0.3504559099674225	0.044611163	No	
+row_8	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	2340	0.32350537180900574	0.046995673	No	
+row_9	ABCC8	ABCC8	ATP-binding cassette, sub-family C (CFTR/MRP), member 8	2508	0.2925730347633362	0.04405938	No	
+row_10	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	-0.017595883	No	
+row_11	CACNA1G	CACNA1G	calcium channel, voltage-dependent, alpha 1G subunit	3345	0.1832846701145172	-0.010936459	No	
+row_12	PRKCZ	PRKCZ	protein kinase C, zeta	3474	0.17037838697433472	-0.015168409	No	
+row_13	PRKCE	PRKCE	protein kinase C, epsilon	3537	0.16474615037441254	-0.014194135	No	
+row_14	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	-0.04487675	No	
+row_15	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	-0.062576815	No	
+row_16	KCNJ11	KCNJ11	potassium inwardly-rectifying channel, subfamily J, member 11	4293	0.10360114276409149	-0.06352345	No	
+row_17	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	-0.06343288	No	
+row_18	MAPK9	MAPK9	mitogen-activated protein kinase 9	4754	0.07017195224761963	-0.09489057	No	
+row_19	CACNA1A	CACNA1A	calcium channel, voltage-dependent, P/Q type, alpha 1A subunit	4767	0.06924864649772644	-0.093327776	No	
+row_20	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	4953	0.05683550983667374	-0.106411174	No	
+row_21	HK1	HK1	hexokinase 1	5427	0.02659221924841404	-0.14422901	No	
+row_22	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	5471	0.02460470423102379	-0.14685091	No	
+row_23	SLC2A4	SLC2A4	solute carrier family 2 (facilitated glucose transporter), member 4	5505	0.02277437224984169	-0.14871994	No	
+row_24	MAFA	MAFA	v-maf musculoaponeurotic fibrosarcoma oncogene homolog A (avian)	6020	-0.008877500891685486	-0.1905522	No	
+row_25	INSR	INSR	insulin receptor	6256	-0.021388236433267593	-0.20904045	No	
+row_26	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-0.33566293	No	
+row_27	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	8749	-0.20006079971790314	-0.40146717	No	
+row_28	CACNA1D	CACNA1D	calcium channel, voltage-dependent, L type, alpha 1D subunit	8801	-0.2051367461681366	-0.39810506	No	
+row_29	SOCS3	SOCS3	suppressor of cytokine signaling 3	8924	-0.21689200401306152	-0.40013403	No	
+row_30	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.40356994	No	
+row_31	PRKCD	PRKCD	protein kinase C, delta	9129	-0.2397969663143158	-0.3994251	No	
+row_32	SOCS4	SOCS4	suppressor of cytokine signaling 4	9251	-0.2547849714756012	-0.3999783	No	
+row_33	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	9313	-0.26288267970085144	-0.39531243	No	
+row_34	GCK	GCK	glucokinase (hexokinase 4, maturity onset diabetes of the young 2)	9904	-0.37147626280784607	-0.43004143	Yes	
+row_35	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	9925	-0.376265287399292	-0.41784233	Yes	
+row_36	HK2	HK2	hexokinase 2	9945	-0.37912943959236145	-0.40545586	Yes	
+row_37	SOCS2	SOCS2	suppressor of cytokine signaling 2	9964	-0.3849661946296692	-0.39277267	Yes	
+row_38	IRS2	IRS2	insulin receptor substrate 2	10345	-0.5154324173927307	-0.4049824	Yes	
+row_39	MAPK10	MAPK10	mitogen-activated protein kinase 10	11050	-1.1731984615325928	-0.41957343	Yes	
+row_40	IRS4	IRS4	insulin receptor substrate 4	11283	-1.6354732513427734	-0.37844747	Yes	
+row_41	PKLR	PKLR	pyruvate kinase, liver and RBC	12109	-5.736804962158203	-0.23510769	Yes	
+row_42	SLC2A2	SLC2A2	solute carrier family 2 (facilitated glucose transporter), member 2	12153	-6.6685614585876465	0.0066436995	Yes	

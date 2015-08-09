@@ -1,0 +1,41 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KLRG1	KLRG1	killer cell lectin-like receptor subfamily G, member 1	53	7.213596343994141	0.063038655	Yes	
+row_1	ADORA2A	ADORA2A	adenosine A2a receptor	110	6.284002780914307	0.11719141	Yes	
+row_2	PRF1	PRF1	perforin 1 (pore forming protein)	181	5.68412446975708	0.16467442	Yes	
+row_3	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	325	4.789604663848877	0.19816956	Yes	
+row_4	MNDA	MNDA	myeloid cell nuclear differentiation antigen	595	3.8369252681732178	0.21302532	Yes	
+row_5	CD300C	CD300C	CD300c molecule	598	3.8319830894470215	0.24854077	Yes	
+row_6	CCR2	CCR2	chemokine (C-C motif) receptor 2	603	3.818634033203125	0.28377688	Yes	
+row_7	SPN	SPN	sialophorin (leukosialin, CD43)	655	3.658254384994507	0.31387523	Yes	
+row_8	NCR1	NCR1	natural cytotoxicity triggering receptor 1	675	3.6057584285736084	0.3459665	Yes	
+row_9	C5AR1	C5AR1	complement component 5a receptor 1	694	3.54888653755188	0.37760592	Yes	
+row_10	LSP1	LSP1	lymphocyte-specific protein 1	824	3.2553861141204834	0.39790526	Yes	
+row_11	CCR5	CCR5	chemokine (C-C motif) receptor 5	988	2.888976573944092	0.41215715	Yes	
+row_12	CCR3	CCR3	chemokine (C-C motif) receptor 3	1315	2.33581280708313	0.40861925	Yes	
+row_13	CCL5	CCL5	chemokine (C-C motif) ligand 5	1356	2.2674052715301514	0.42662373	Yes	
+row_14	CLEC5A	CLEC5A	C-type lectin domain family 5, member A	1358	2.2656774520874023	0.44763657	Yes	
+row_15	TYROBP	TYROBP	TYRO protein tyrosine kinase binding protein	1449	2.125486373901367	0.4604425	Yes	
+row_16	NCF1	NCF1	neutrophil cytosolic factor 1, (chronic granulomatous disease, autosomal 1)	1511	2.0332283973693848	0.47463858	Yes	
+row_17	LGALS3BP	LGALS3BP	lectin, galactoside-binding, soluble, 3 binding protein	1891	1.6149935722351074	0.46028075	No	
+row_18	ITK	ITK	IL2-inducible T-cell kinase	2125	1.3771097660064697	0.45503074	No	
+row_19	TCIRG1	TCIRG1	T-cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 subunit A3	2523	1.029120683670044	0.43382332	No	
+row_20	IL1RL2	IL1RL2	interleukin 1 receptor-like 2	2712	0.8990472555160522	0.42761293	No	
+row_21	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	2820	0.83323734998703	0.42707145	No	
+row_22	LYST	LYST	lysosomal trafficking regulator	2851	0.8137860298156738	0.4323202	No	
+row_23	KLRC2	KLRC2	killer cell lectin-like receptor subfamily C, member 2	3030	0.7152884006500244	0.42517477	No	
+row_24	CX3CR1	CX3CR1	chemokine (C-X3-C motif) receptor 1	3431	0.5199554562568665	0.39899507	No	
+row_25	CD19	CD19	CD19 molecule	3815	0.36588093638420105	0.3726995	No	
+row_26	LBP	LBP	lipopolysaccharide binding protein	4538	0.1337529420852661	0.31795385	No	
+row_27	VEZF1	VEZF1	vascular endothelial zinc finger 1	4959	0.026086056604981422	0.28562593	No	
+row_28	BECN1	BECN1	beclin 1 (coiled-coil, myosin-like BCL2 interacting protein)	7523	-0.5651612281799316	0.09212759	No	
+row_29	NCF2	NCF2	neutrophil cytosolic factor 2 (65kDa, chronic granulomatous disease, autosomal 2)	8528	-0.8466670513153076	0.02214927	No	
+row_30	CD5L	CD5L	CD5 molecule-like	9321	-1.151802897453308	-0.028548168	No	
+row_31	UMOD	UMOD	uromodulin (uromucoid, Tamm-Horsfall glycoprotein)	9759	-1.361161708831787	-0.04976671	No	
+row_32	ADORA2B	ADORA2B	adenosine A2b receptor	10015	-1.4934943914413452	-0.055639412	No	
+row_33	CD160	CD160	CD160 molecule	10121	-1.553816318511963	-0.049318187	No	
+row_34	LY96	LY96	lymphocyte antigen 96	10155	-1.5727384090423584	-0.03723726	No	
+row_35	CCR9	CCR9	chemokine (C-C motif) receptor 9	10200	-1.6031789779663086	-0.02572602	No	
+row_36	FOSL1	FOSL1	FOS-like antigen 1	11904	-4.217679023742676	-0.11853186	No	
+row_37	KIR3DL2	KIR3DL2	killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2	12001	-4.5848069190979	-0.08329829	No	
+row_38	TRAT1	TRAT1	T cell receptor associated transmembrane adaptor 1	12364	-6.930150508880615	-0.046860907	No	
+row_39	CCR6	CCR6	chemokine (C-C motif) receptor 6	12643	-9.774409294128418	0.022566808	No	

@@ -1,0 +1,70 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL4	IL4	interleukin 4	141	4.467897891998291	0.08896979	Yes	
+row_1	CALCA	CALCA	calcitonin/calcitonin-related polypeptide, alpha	158	4.31622314453125	0.18480036	Yes	
+row_2	CD4	CD4	CD4 molecule	268	3.448735475540161	0.25346202	Yes	
+row_3	IL10	IL10	interleukin 10	388	2.878185749053955	0.3084603	Yes	
+row_4	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	567	2.384432315826416	0.34749606	Yes	
+row_5	RAG1	RAG1	recombination activating gene 1	669	2.05810809135437	0.3855163	Yes	
+row_6	INHBA	INHBA	inhibin, beta A (activin A, activin AB alpha polypeptide)	821	1.5881227254867554	0.4088487	Yes	
+row_7	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	1043	1.0808360576629639	0.41500983	Yes	
+row_8	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	1128	0.9744981527328491	0.43003848	Yes	
+row_9	TNFSF13	TNFSF13	tumor necrosis factor (ligand) superfamily, member 13	1138	0.962350070476532	0.45095843	Yes	
+row_10	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.47099775	Yes	
+row_11	IL7	IL7	interleukin 7	1348	0.7213791012763977	0.47112343	Yes	
+row_12	ALAS2	ALAS2	aminolevulinate, delta-, synthase 2 (sideroblastic/hypochromic anemia)	1377	0.7000881433486938	0.48457888	Yes	
+row_13	MAFB	MAFB	v-maf musculoaponeurotic fibrosarcoma oncogene homolog B (avian)	1378	0.6995744109153748	0.5003243	Yes	
+row_14	NFAM1	NFAM1	NFAT activating protein with ITAM motif 1	1508	0.6223675608634949	0.5037287	Yes	
+row_15	RASGRP4	RASGRP4	RAS guanyl releasing protein 4	1541	0.5982042551040649	0.51456225	Yes	
+row_16	RAB3D	RAB3D	RAB3D, member RAS oncogene family	1646	0.540827751159668	0.5181863	Yes	
+row_17	SPI1	SPI1	spleen focus forming virus (SFFV) proviral integration oncogene spi1	1667	0.5331310033798218	0.5285416	Yes	
+row_18	ZAP70	ZAP70	zeta-chain (TCR) associated protein kinase 70kDa	1923	0.43454352021217346	0.5173619	Yes	
+row_19	RPS19	RPS19	ribosomal protein S19	1926	0.43251389265060425	0.5269321	Yes	
+row_20	SCIN	SCIN	scinderin	1947	0.4272496700286865	0.53490436	Yes	
+row_21	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	1962	0.42282822728157043	0.54327023	Yes	
+row_22	SPINK5	SPINK5	serine peptidase inhibitor, Kazal type 5	2278	0.3369137644767761	0.52496135	No	
+row_23	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	2533	0.28884175419807434	0.5105845	No	
+row_24	INHA	INHA	inhibin, alpha	2696	0.262208491563797	0.50317025	No	
+row_25	IL27	IL27	interleukin 27	2933	0.22721076011657715	0.4888858	No	
+row_26	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.48424664	No	
+row_27	HCLS1	HCLS1	hematopoietic cell-specific Lyn substrate 1	3215	0.1951572597026825	0.47507668	No	
+row_28	HDAC9	HDAC9	histone deacetylase 9	3407	0.17618303000926971	0.46334258	No	
+row_29	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	0.46334705	No	
+row_30	SOCS5	SOCS5	suppressor of cytokine signaling 5	3461	0.17154352366924286	0.46679702	No	
+row_31	LRMP	LRMP	lymphoid-restricted membrane protein	3555	0.1629585474729538	0.46282047	No	
+row_32	MAP4K1	MAP4K1	mitogen-activated protein kinase kinase kinase kinase 1	3608	0.15792705118656158	0.46210074	No	
+row_33	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	3631	0.15540872514247894	0.46379024	No	
+row_34	JAG2	JAG2	jagged 2	3718	0.14841490983963013	0.46006176	No	
+row_35	LDB1	LDB1	LIM domain binding 1	3749	0.14635536074638367	0.4608899	No	
+row_36	NOTCH2	NOTCH2	Notch homolog 2 (Drosophila)	3926	0.13048774003982544	0.44936025	No	
+row_37	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	4656	0.07616647332906723	0.39115345	No	
+row_38	TAZ	TAZ	tafazzin (cardiomyopathy, dilated 3A (X-linked); endocardial fibroelastosis 2; Barth syndrome)	4849	0.06444551050662994	0.37682223	No	
+row_39	BLNK	BLNK	B-cell linker	5233	0.03727196902036667	0.34617996	No	
+row_40	LIG1	LIG1	ligase I, DNA, ATP-dependent	5385	0.028705120086669922	0.3344144	No	
+row_41	LIG3	LIG3	ligase III, DNA, ATP-dependent	5577	0.01819661632180214	0.31912446	No	
+row_42	SNRK	SNRK	SNF related kinase	5613	0.015645386651158333	0.31659973	No	
+row_43	HDAC4	HDAC4	histone deacetylase 4	5616	0.015486715361475945	0.31678388	No	
+row_44	ACVR1B	ACVR1B	activin A receptor, type IB	5809	0.004990456160157919	0.30111453	No	
+row_45	CEBPG	CEBPG	CCAAT/enhancer binding protein (C/EBP), gamma	6350	-0.027137914672493935	0.25733933	No	
+row_46	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	6764	-0.050631552934646606	0.22453183	No	
+row_47	NCOA6	NCOA6	nuclear receptor coactivator 6	7110	-0.07235594838857651	0.19780263	No	
+row_48	CSF1	CSF1	colony stimulating factor 1 (macrophage)	7291	-0.08255258202552795	0.18486533	No	
+row_49	MAP4K2	MAP4K2	mitogen-activated protein kinase kinase kinase kinase 2	7408	-0.09149222820997238	0.17738977	No	
+row_50	SART1	SART1	squamous cell carcinoma antigen recognised by T cells	7604	-0.10565824806690216	0.16373956	No	
+row_51	MYH9	MYH9	myosin, heavy chain 9, non-muscle	8215	-0.152023047208786	0.117021434	No	
+row_52	TBX1	TBX1	T-box 1	8245	-0.15430735051631927	0.11811075	No	
+row_53	HDAC5	HDAC5	histone deacetylase 5	8352	-0.16312851011753082	0.1130695	No	
+row_54	ACIN1	ACIN1	apoptotic chromatin condensation inducer 1	8501	-0.1761578619480133	0.104869254	No	
+row_55	ZBTB16	ZBTB16	zinc finger and BTB domain containing 16	8710	-0.19602158665657043	0.092184305	No	
+row_56	TPD52	TPD52	tumor protein D52	9149	-0.2421983927488327	0.06163352	No	
+row_57	ACVR2A	ACVR2A	activin A receptor, type IIA	9212	-0.25020408630371094	0.06216872	No	
+row_58	IL31RA	IL31RA	interleukin 31 receptor A	9931	-0.37655165791511536	0.011626879	No	
+row_59	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	10047	-0.4085608124732971	0.011369829	No	
+row_60	MLF1	MLF1	myeloid leukemia factor 1	10144	-0.43751516938209534	0.013326189	No	
+row_61	RUNX1	RUNX1	runt-related transcription factor 1 (acute myeloid leukemia 1; aml1 oncogene)	10181	-0.4476546347141266	0.020442534	No	
+row_62	CDK6	CDK6	cyclin-dependent kinase 6	10259	-0.4792875051498413	0.024900796	No	
+row_63	KIRREL3	KIRREL3	kin of IRRE like 3 (Drosophila)	10553	-0.6181447505950928	0.014729938	No	
+row_64	NHEJ1	NHEJ1	nonhomologous end-joining factor 1	10582	-0.6382164359092712	0.026792848	No	
+row_65	MAL	MAL	mal, T-cell differentiation protein	10586	-0.642200231552124	0.041000333	No	
+row_66	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	0.048365504	No	
+row_67	DYRK3	DYRK3	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 3	10908	-0.9519360065460205	0.05236522	No	
+row_68	CARTPT	CARTPT	CART prepropeptide	11671	-2.51231050491333	0.046276502	No	

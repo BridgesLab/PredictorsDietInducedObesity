@@ -1,0 +1,39 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	368	2.8872642517089844	0.17971857	Yes	
+row_1	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.28011382	Yes	
+row_2	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.31465518	Yes	
+row_3	IL2RA	IL2RA	interleukin 2 receptor, alpha	1197	0.8816441893577576	0.37505695	Yes	
+row_4	PTK2B	PTK2B	PTK2B protein tyrosine kinase 2 beta	1285	0.7716411352157593	0.42401856	Yes	
+row_5	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.4535945	Yes	
+row_6	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	1771	0.486439973115921	0.46575385	Yes	
+row_7	SYK	SYK	spleen tyrosine kinase	1848	0.4591689705848694	0.49290216	Yes	
+row_8	CSF2RB	CSF2RB	colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)	2091	0.38650238513946533	0.501158	Yes	
+row_9	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3231	0.19360294938087463	0.4218484	No	
+row_10	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	0.4206604	No	
+row_11	IL3RA	IL3RA	interleukin 3 receptor, alpha (low affinity)	3955	0.1276799887418747	0.3847671	No	
+row_12	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.392928	No	
+row_13	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.37909704	No	
+row_14	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.37796408	No	
+row_15	STAT5B	STAT5B	signal transducer and activator of transcription 5B	4354	0.0993134006857872	0.38395387	No	
+row_16	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	4555	0.08333557844161987	0.3736145	No	
+row_17	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	4816	0.0663435310125351	0.3571206	No	
+row_18	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	4953	0.05683550983667374	0.35010198	No	
+row_19	IL5RA	IL5RA	interleukin 5 receptor, alpha	5056	0.050039034336805344	0.34537688	No	
+row_20	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5100	0.04559203237295151	0.34516573	No	
+row_21	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	5471	0.02460470423102379	0.31661904	No	
+row_22	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	6139	-0.015314154326915741	0.2630467	No	
+row_23	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.25229016	No	
+row_24	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.24920265	No	
+row_25	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	0.229649	No	
+row_26	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	0.20069152	No	
+row_27	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	0.20567766	No	
+row_28	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	0.20018646	No	
+row_29	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	0.1602213	No	
+row_30	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.16277765	No	
+row_31	CSF2RA	CSF2RA	colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage)	9140	-0.24135294556617737	0.07513302	No	
+row_32	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	9237	-0.25364887714385986	0.08570126	No	
+row_33	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	9313	-0.26288267970085144	0.09866249	No	
+row_34	INPPL1	INPPL1	inositol polyphosphate phosphatase-like 1	9645	-0.3174455165863037	0.09460139	No	
+row_35	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	0.1008617	No	
+row_36	GAB2	GAB2	GRB2-associated binding protein 2	10364	-0.5232264995574951	0.100773565	No	
+row_37	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	0.12617852	No	

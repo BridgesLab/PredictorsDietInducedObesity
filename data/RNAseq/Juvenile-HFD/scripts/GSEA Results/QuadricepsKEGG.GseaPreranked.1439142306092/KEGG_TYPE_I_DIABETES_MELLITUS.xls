@@ -1,0 +1,20 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRF1	PRF1	perforin 1 (pore forming protein)	58	5.685256004333496	0.22961205	Yes	
+row_1	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.31993428	Yes	
+row_2	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	558	2.445347547531128	0.40829468	Yes	
+row_3	CD80	CD80	CD80 molecule	634	2.136542558670044	0.4902286	Yes	
+row_4	LTA	LTA	lymphotoxin alpha (TNF superfamily, member 1)	1122	0.9819457530975342	0.490841	Yes	
+row_5	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.52705806	Yes	
+row_6	FAS	FAS	Fas (TNF receptor superfamily, member 6)	1302	0.7556638121604919	0.5459294	Yes	
+row_7	ICA1	ICA1	islet cell autoantigen 1, 69kDa	1637	0.5435360670089722	0.540994	Yes	
+row_8	CD28	CD28	CD28 molecule	1787	0.48268067836761475	0.54869413	Yes	
+row_9	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.5681842	Yes	
+row_10	PTPRN2	PTPRN2	protein tyrosine phosphatase, receptor type, N polypeptide 2	2134	0.3729693591594696	0.5556447	No	
+row_11	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.51832545	No	
+row_12	HSPD1	HSPD1	heat shock 60kDa protein 1 (chaperonin)	4308	0.10213539004325867	0.39270598	No	
+row_13	CPE	CPE	carboxypeptidase E	6873	-0.057497695088386536	0.18518749	No	
+row_14	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	-0.02014572	No	
+row_15	GAD2	GAD2	glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)	10835	-0.853858470916748	-0.09161101	No	
+row_16	CD86	CD86	CD86 molecule	11086	-1.2272332906723022	-0.06148647	No	
+row_17	PTPRN	PTPRN	protein tyrosine phosphatase, receptor type, N	11316	-1.7281213998794556	-0.00899506	No	
+row_18	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11443	-2.039196252822876	0.06475117	No	

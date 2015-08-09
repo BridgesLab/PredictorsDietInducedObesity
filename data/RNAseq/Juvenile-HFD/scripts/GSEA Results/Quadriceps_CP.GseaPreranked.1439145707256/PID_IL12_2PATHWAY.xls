@@ -1,0 +1,53 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	STAT4	STAT4	signal transducer and activator of transcription 4	30	6.424749374389648	0.117009014	Yes	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.1932295	Yes	
+row_2	IL4	IL4	interleukin 4	141	4.467897891998291	0.2754094	Yes	
+row_3	CCL4	CCL4	chemokine (C-C motif) ligand 4	194	3.9144575595855713	0.34393248	Yes	
+row_4	CD4	CD4	CD4 molecule	268	3.448735475540161	0.4020715	Yes	
+row_5	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.44442973	Yes	
+row_6	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	558	2.445347547531128	0.47742578	Yes	
+row_7	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.49584773	Yes	
+row_8	IL18R1	IL18R1	interleukin 18 receptor 1	776	1.6943020820617676	0.5247275	Yes	
+row_9	IL18RAP	IL18RAP	interleukin 18 receptor accessory protein	786	1.6804428100585938	0.5552375	Yes	
+row_10	IL12RB1	IL12RB1	interleukin 12 receptor, beta 1	823	1.5786798000335693	0.5816389	Yes	
+row_11	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	913	1.3225001096725464	0.5989262	Yes	
+row_12	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.5968444	Yes	
+row_13	SOCS1	SOCS1	suppressor of cytokine signaling 1	1166	0.9164315462112427	0.61273676	Yes	
+row_14	IL2RA	IL2RA	interleukin 2 receptor, alpha	1197	0.8816441893577576	0.62666893	Yes	
+row_15	GZMA	GZMA	granzyme A (granzyme 1, cytotoxic T-lymphocyte-associated serine esterase 3)	1256	0.8037322759628296	0.636854	Yes	
+row_16	RIPK2	RIPK2	receptor-interacting serine-threonine kinase 2	1588	0.578131377696991	0.62043566	No	
+row_17	B2M	B2M	beta-2-microglobulin	2539	0.28809723258018494	0.54781544	No	
+row_18	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.5377632	No	
+row_19	CD247	CD247	CD247 molecule	2910	0.22990232706069946	0.526607	No	
+row_20	MAPK14	MAPK14	mitogen-activated protein kinase 14	3083	0.20983949303627014	0.51639104	No	
+row_21	RELB	RELB	v-rel reticuloendotheliosis viral oncogene homolog B, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3 (avian)	3126	0.20476733148097992	0.51675135	No	
+row_22	ATF2	ATF2	activating transcription factor 2	3762	0.14479154348373413	0.46732202	No	
+row_23	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3811	0.13945505023002625	0.46597534	No	
+row_24	IL12RB2	IL12RB2	interleukin 12 receptor, beta 2	4248	0.10689530521631241	0.43217555	No	
+row_25	SPHK2	SPHK2	sphingosine kinase 2	4520	0.08639931678771973	0.41153806	No	
+row_26	NFKB2	NFKB2	nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100)	4527	0.08596916496753693	0.41264424	No	
+row_27	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	0.38040745	No	
+row_28	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5042	0.050998505204916	0.37257305	No	
+row_29	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	5604	0.016282564029097557	0.32682806	No	
+row_30	MAP2K3	MAP2K3	mitogen-activated protein kinase kinase 3	5677	0.011937723495066166	0.32114017	No	
+row_31	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.31337747	No	
+row_32	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	5843	0.002514437772333622	0.30784267	No	
+row_33	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.2715064	No	
+row_34	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.26692784	No	
+row_35	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	6449	-0.03214356303215027	0.259892	No	
+row_36	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	6651	-0.04347074404358864	0.24420194	No	
+row_37	MAP2K6	MAP2K6	mitogen-activated protein kinase kinase 6	6735	-0.049156591296195984	0.23830326	No	
+row_38	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	0.21405113	No	
+row_39	TYK2	TYK2	tyrosine kinase 2	8001	-0.1341870129108429	0.13832265	No	
+row_40	IL1R1	IL1R1	interleukin 1 receptor, type I	9528	-0.29488953948020935	0.018549765	No	
+row_41	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	0.023874803	No	
+row_42	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	0.0135343475	No	
+row_43	GADD45B	GADD45B	growth arrest and DNA-damage-inducible, beta	10010	-0.39569902420043945	-0.0016798666	No	
+row_44	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	10047	-0.4085608124732971	0.002962591	No	
+row_45	GADD45G	GADD45G	growth arrest and DNA-damage-inducible, gamma	10320	-0.5011442303657532	-0.010044572	No	
+row_46	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	-0.027323544	No	
+row_47	CCR5	CCR5	chemokine (C-C motif) receptor 5	10847	-0.869622528553009	-0.023546794	No	
+row_48	TBX21	TBX21	T-box 21	10923	-0.9786840081214905	-0.0115037905	No	
+row_49	EOMES	EOMES	eomesodermin homolog (Xenopus laevis)	11191	-1.455987811088562	-0.0063447463	No	
+row_50	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	11426	-1.9830992221832275	0.011324892	No	
+row_51	CD8A	CD8A	CD8a molecule	11788	-2.9531304836273193	0.036608394	No	

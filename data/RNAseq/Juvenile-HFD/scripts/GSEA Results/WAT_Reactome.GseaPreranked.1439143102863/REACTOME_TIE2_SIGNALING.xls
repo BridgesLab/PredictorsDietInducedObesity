@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ANGPT1	ANGPT1	angiopoietin 1	531	4.032510280609131	0.12429392	Yes	
+row_1	TEK	TEK	TEK tyrosine kinase, endothelial (venous malformations, multiple cutaneous and mucosal)	563	3.9218029975891113	0.2827527	Yes	
+row_2	DOK2	DOK2	docking protein 2, 56kDa	611	3.7985215187072754	0.43491632	Yes	
+row_3	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.5186877	Yes	
+row_4	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.6332157	Yes	
+row_5	ANGPT2	ANGPT2	angiopoietin 2	2204	1.313047170639038	0.596501	No	
+row_6	GRB14	GRB14	growth factor receptor-bound protein 14	2498	1.0563514232635498	0.61714727	No	
+row_7	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.6283866	No	
+row_8	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.5114971	No	
+row_9	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.5143383	No	
+row_10	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.50914985	No	
+row_11	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.50333405	No	
+row_12	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.47908515	No	
+row_13	ANGPT4	ANGPT4	angiopoietin 4	6278	-0.269512802362442	0.39306575	No	
+row_14	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.38207504	No	
+row_15	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.38064018	No	
+row_16	GRB7	GRB7	growth factor receptor-bound protein 7	10894	-2.2230608463287354	0.1579192	No	

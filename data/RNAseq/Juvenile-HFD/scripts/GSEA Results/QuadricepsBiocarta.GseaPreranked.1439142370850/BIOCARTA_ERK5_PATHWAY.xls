@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	-0.28758064	No	
+row_1	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	-0.27762765	No	
+row_2	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	-0.25652486	No	
+row_3	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	4981	0.05562165752053261	-0.29273847	No	
+row_4	MEF2A	MEF2A	MADS box transcription enhancer factor 2, polypeptide A (myocyte enhancer factor 2A)	5650	0.013560215942561626	-0.34343028	No	
+row_5	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	-0.43763018	No	
+row_6	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	-0.42615294	No	
+row_7	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-0.4449163	Yes	
+row_8	MEF2D	MEF2D	MADS box transcription enhancer factor 2, polypeptide D (myocyte enhancer factor 2D)	8343	-0.1626216471195221	-0.43694413	Yes	
+row_9	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	8702	-0.19496704638004303	-0.4089982	Yes	
+row_10	CREB1	CREB1	cAMP responsive element binding protein 1	8736	-0.19850218296051025	-0.35341418	Yes	
+row_11	MEF2C	MEF2C	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	8786	-0.20423845946788788	-0.2974554	Yes	
+row_12	MAPK7	MAPK7	mitogen-activated protein kinase 7	8823	-0.20697681605815887	-0.23962858	Yes	
+row_13	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.1916768	Yes	
+row_14	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	-0.1275602	Yes	
+row_15	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.07881615	Yes	
+row_16	NTRK1	NTRK1	neurotrophic tyrosine kinase, receptor, type 1	10883	-0.9192982912063599	0.1105747	Yes	

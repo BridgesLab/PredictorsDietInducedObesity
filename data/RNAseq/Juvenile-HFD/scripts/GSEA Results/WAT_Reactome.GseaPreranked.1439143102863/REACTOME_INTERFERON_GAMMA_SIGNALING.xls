@@ -1,0 +1,42 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IRF4	IRF4	interferon regulatory factor 4	113	6.221400737762451	0.07338112	Yes	
+row_1	PTAFR	PTAFR	platelet-activating factor receptor	398	4.492714881896973	0.11067538	Yes	
+row_2	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	426	4.3841471672058105	0.1664679	Yes	
+row_3	GBP4	GBP4	guanylate binding protein 4	505	4.1039299964904785	0.21460523	Yes	
+row_4	GBP2	GBP2	guanylate binding protein 2, interferon-inducible	549	3.9637293815612793	0.26360583	Yes	
+row_5	GBP5	GBP5	guanylate binding protein 5	658	3.639153242111206	0.3032798	Yes	
+row_6	OAS2	OAS2	2'-5'-oligoadenylate synthetase 2, 69/71kDa	671	3.6097283363342285	0.3500105	Yes	
+row_7	SP100	SP100	SP100 nuclear antigen	739	3.4520115852355957	0.3903933	Yes	
+row_8	CIITA	CIITA	class II, major histocompatibility complex, transactivator	758	3.405202627182007	0.4339582	Yes	
+row_9	IRF5	IRF5	interferon regulatory factor 5	952	2.963937520980835	0.45812467	Yes	
+row_10	GBP7	GBP7	guanylate binding protein 7	1097	2.7006468772888184	0.48261493	Yes	
+row_11	IFNG	IFNG	interferon, gamma	1283	2.3843295574188232	0.49974892	Yes	
+row_12	GBP6	GBP6	guanylate binding protein family, member 6	1320	2.330031394958496	0.5277217	Yes	
+row_13	CD44	CD44	CD44 molecule (Indian blood group)	1484	2.0705792903900146	0.54241925	Yes	
+row_14	IFNGR1	IFNGR1	interferon gamma receptor 1	1502	2.043566942214966	0.5680833	Yes	
+row_15	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	2035	1.4578473567962646	0.5460726	Yes	
+row_16	SOCS1	SOCS1	suppressor of cytokine signaling 1	2296	1.2260102033615112	0.54209596	Yes	
+row_17	SOCS3	SOCS3	suppressor of cytokine signaling 3	2371	1.1727453470230103	0.55184126	Yes	
+row_18	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	2382	1.1586858034133911	0.5663645	Yes	
+row_19	VCAM1	VCAM1	vascular cell adhesion molecule 1	2493	1.0581434965133667	0.57180476	Yes	
+row_20	IRF8	IRF8	interferon regulatory factor 8	2719	0.8948881030082703	0.5661705	No	
+row_21	IRF1	IRF1	interferon regulatory factor 1	2915	0.7805810570716858	0.5613537	No	
+row_22	ICAM1	ICAM1	intercellular adhesion molecule 1 (CD54), human rhinovirus receptor	3133	0.6613787412643433	0.55325675	No	
+row_23	IRF2	IRF2	interferon regulatory factor 2	3397	0.5363364815711975	0.53994125	No	
+row_24	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3822	0.363411009311676	0.5118561	No	
+row_25	PML	PML	promyelocytic leukemia	4877	0.04629367217421532	0.43072385	No	
+row_26	SUMO1	SUMO1	SMT3 suppressor of mif two 3 homolog 1 (S. cerevisiae)	5304	-0.05852800980210304	0.398458	No	
+row_27	B2M	B2M	beta-2-microglobulin	5421	-0.08757371455430984	0.39061785	No	
+row_28	IRF3	IRF3	interferon regulatory factor 3	6295	-0.2729640007019043	0.32651606	No	
+row_29	PTPN1	PTPN1	protein tyrosine phosphatase, non-receptor type 1	6721	-0.3735677897930145	0.29848742	No	
+row_30	OAS3	OAS3	2'-5'-oligoadenylate synthetase 3, 100kDa	7100	-0.4592880606651306	0.27523574	No	
+row_31	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	7272	-0.501181960105896	0.26859117	No	
+row_32	IRF7	IRF7	interferon regulatory factor 7	7630	-0.5948766469955444	0.24875838	No	
+row_33	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	8430	-0.8147324919700623	0.19754897	No	
+row_34	PTPN2	PTPN2	protein tyrosine phosphatase, non-receptor type 2	9061	-1.0523111820220947	0.16258332	No	
+row_35	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	9896	-1.4262335300445557	0.1167335	No	
+row_36	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	10070	-1.520922064781189	0.12339805	No	
+row_37	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	0.1392902	No	
+row_38	PIAS1	PIAS1	protein inhibitor of activated STAT, 1	10242	-1.6288611888885498	0.15234348	No	
+row_39	NCAM1	NCAM1	neural cell adhesion molecule 1	10695	-2.009878396987915	0.14382605	No	
+row_40	IRF6	IRF6	interferon regulatory factor 6	10918	-2.2526423931121826	0.15635173	No	

@@ -1,0 +1,65 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BGLAP	BGLAP	bone gamma-carboxyglutamate (gla) protein (osteocalcin)	29	8.233338356018066	0.08690441	Yes	
+row_1	PPARG	PPARG	peroxisome proliferative activated receptor, gamma	135	5.991634368896484	0.143629	Yes	
+row_2	CKM	CKM	creatine kinase, muscle	145	5.938887596130371	0.20724104	Yes	
+row_3	CSF2	CSF2	colony stimulating factor 2 (granulocyte-macrophage)	192	5.62690544128418	0.2646	Yes	
+row_4	GSC	GSC	goosecoid	358	4.621450424194336	0.30182546	Yes	
+row_5	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP), alpha	476	4.187028408050537	0.33807594	Yes	
+row_6	CCND2	CCND2	cyclin D2	738	3.4533114433288574	0.35519314	Yes	
+row_7	MYOD1	MYOD1	myogenic differentiation 1	745	3.438281297683716	0.3919596	Yes	
+row_8	MITF	MITF	microphthalmia-associated transcription factor	802	3.302779197692871	0.423374	Yes	
+row_9	CEBPD	CEBPD	CCAAT/enhancer binding protein (C/EBP), delta	889	3.092390298843384	0.45017934	Yes	
+row_10	MEF2C	MEF2C	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	898	3.056178569793701	0.48265266	Yes	
+row_11	E2F2	E2F2	E2F transcription factor 2	1075	2.7253763675689697	0.49849117	Yes	
+row_12	SPI1	SPI1	spleen focus forming virus (SFFV) proviral integration oncogene spi1	1247	2.4390828609466553	0.51161796	Yes	
+row_13	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.5123048	Yes	
+row_14	E2F1	E2F1	E2F transcription factor 1	2017	1.4653208255767822	0.48971394	No	
+row_15	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.50179654	No	
+row_16	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	2221	1.2897648811340332	0.5034875	No	
+row_17	ATF7	ATF7	activating transcription factor 7	2390	1.155558466911316	0.5029483	No	
+row_18	CCND3	CCND3	cyclin D3	3088	0.6861340403556824	0.45622557	No	
+row_19	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.44286132	No	
+row_20	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	3347	0.5545215010643005	0.4483223	No	
+row_21	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	0.42942518	No	
+row_22	ELF1	ELF1	E74-like factor 1 (ets domain transcription factor)	4101	0.27104300260543823	0.39747566	No	
+row_23	CEBPB	CEBPB	CCAAT/enhancer binding protein (C/EBP), beta	4177	0.24441811442375183	0.39429536	No	
+row_24	CTBP1	CTBP1	C-terminal binding protein 1	4225	0.22710607945919037	0.39310303	No	
+row_25	MAPK14	MAPK14	mitogen-activated protein kinase 14	4260	0.21614307165145874	0.39280203	No	
+row_26	SIRT1	SIRT1	sirtuin (silent mating type information regulation 2 homolog) 1 (S. cerevisiae)	4446	0.15739786624908447	0.38013306	No	
+row_27	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.3805401	No	
+row_28	CDK2	CDK2	cyclin-dependent kinase 2	4593	0.11837294697761536	0.3717994	No	
+row_29	HDAC3	HDAC3	histone deacetylase 3	4841	0.05441005900502205	0.3531982	No	
+row_30	UBTF	UBTF	upstream binding transcription factor, RNA polymerase I	4903	0.04135701805353165	0.3489067	No	
+row_31	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	5270	-0.051160458475351334	0.3210247	No	
+row_32	CBX4	CBX4	chromobox homolog 4 (Pc class homolog, Drosophila)	5330	-0.06297007948160172	0.31712264	No	
+row_33	CCNA2	CCNA2	cyclin A2	5352	-0.06791079044342041	0.31622645	No	
+row_34	SMARCB1	SMARCB1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1	5539	-0.11213221400976181	0.30298963	No	
+row_35	HDAC1	HDAC1	histone deacetylase 1	5559	-0.11769767105579376	0.30278796	No	
+row_36	RBBP4	RBBP4	retinoblastoma binding protein 4	5606	-0.12824441492557526	0.3006028	No	
+row_37	BRD2	BRD2	bromodomain containing 2	5987	-0.21079827845096588	0.27336174	No	
+row_38	TFDP1	TFDP1	transcription factor Dp-1	6102	-0.23321354389190674	0.26703006	No	
+row_39	E2F4	E2F4	E2F transcription factor 4, p107/p130-binding	6313	-0.27726972103118896	0.25371683	No	
+row_40	ATF2	ATF2	activating transcription factor 2	6400	-0.29928991198539734	0.2502761	No	
+row_41	SFTPD	SFTPD	surfactant, pulmonary-associated protein D	6532	-0.3305225670337677	0.24367736	No	
+row_42	E2F3	E2F3	E2F transcription factor 3	6730	-0.3752363324165344	0.232435	No	
+row_43	CCNE1	CCNE1	cyclin E1	6821	-0.39628103375434875	0.22973381	No	
+row_44	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	6941	-0.423297256231308	0.22507204	No	
+row_45	TAF1	TAF1	TAF1 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 250kDa	6955	-0.4259703755378723	0.22867478	No	
+row_46	AATF	AATF	apoptosis antagonizing transcription factor	7068	-0.45223647356033325	0.22487025	No	
+row_47	PAX3	PAX3	paired box gene 3 (Waardenburg syndrome 1)	7148	-0.4725922644138336	0.22385004	No	
+row_48	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	0.22829229	No	
+row_49	TGFB2	TGFB2	transforming growth factor, beta 2	7236	-0.4911147356033325	0.22762804	No	
+row_50	SUV39H1	SUV39H1	suppressor of variegation 3-9 homolog 1 (Drosophila)	7628	-0.5943008661270142	0.20368527	No	
+row_51	SMARCA4	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	8215	-0.7487339973449707	0.16626447	No	
+row_52	CDK4	CDK4	cyclin-dependent kinase 4	8223	-0.7500976920127869	0.17384331	No	
+row_53	MAPK11	MAPK11	mitogen-activated protein kinase 11	8377	-0.8003036975860596	0.17062248	No	
+row_54	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	0.1623495	No	
+row_55	MAPK9	MAPK9	mitogen-activated protein kinase 9	8706	-0.9113094210624695	0.16452622	No	
+row_56	RUNX2	RUNX2	runt-related transcription factor 2	8753	-0.9288007020950317	0.17101014	No	
+row_57	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.17436998	No	
+row_58	RBP2	RBP2	retinol binding protein 2, cellular	9008	-1.030121088027954	0.17293857	No	
+row_59	DNMT1	DNMT1	DNA (cytosine-5-)-methyltransferase 1	9292	-1.1403988599777222	0.16330035	No	
+row_60	CDK6	CDK6	cyclin-dependent kinase 6	9305	-1.1451270580291748	0.17476842	No	
+row_61	TBP	TBP	TATA box binding protein	10287	-1.6644442081451416	0.11657458	No	
+row_62	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	0.04200364	No	
+row_63	SKP2	SKP2	S-phase kinase-associated protein 2 (p45)	11979	-4.501242160797119	0.07419805	No	

@@ -1,0 +1,47 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SH3GL2	SH3GL2	SH3-domain GRB2-like 2	172	4.093270301818848	0.24560542	Yes	
+row_1	AP1M2	AP1M2	adaptor-related protein complex 1, mu 2 subunit	516	2.491335391998291	0.37553963	Yes	
+row_2	DNAJC6	DNAJC6	DnaJ (Hsp40) homolog, subfamily C, member 6	1119	0.9834144711494446	0.3885481	Yes	
+row_3	AP4E1	AP4E1	adaptor-related protein complex 4, epsilon 1 subunit	1287	0.7707355618476868	0.42375013	Yes	
+row_4	YIPF6	YIPF6	Yip1 domain family, member 6	1853	0.4569356441497803	0.40638924	Yes	
+row_5	AP3S1	AP3S1	adaptor-related protein complex 3, sigma 1 subunit	1895	0.44188830256462097	0.4310632	Yes	
+row_6	OCRL	OCRL	oculocerebrorenal syndrome of Lowe	1958	0.42441338300704956	0.45290554	Yes	
+row_7	HSPA8	HSPA8	heat shock 70kDa protein 8	2088	0.3871466815471649	0.46688652	Yes	
+row_8	PIK3C2A	PIK3C2A	phosphoinositide-3-kinase, class 2, alpha polypeptide	2338	0.3239893317222595	0.46701527	Yes	
+row_9	AP1S1	AP1S1	adaptor-related protein complex 1, sigma 1 subunit	2531	0.2890577018260956	0.469604	Yes	
+row_10	PICALM	PICALM	phosphatidylinositol binding clathrin assembly protein	2578	0.28233638405799866	0.48374423	Yes	
+row_11	ARRB1	ARRB1	arrestin, beta 1	2621	0.274909645318985	0.4977414	Yes	
+row_12	AP4B1	AP4B1	adaptor-related protein complex 4, beta 1 subunit	2647	0.27117475867271423	0.5128963	Yes	
+row_13	NAPA	NAPA	N-ethylmaleimide-sensitive factor attachment protein, alpha	2916	0.22914543747901917	0.50544846	No	
+row_14	CLTC	CLTC	clathrin, heavy chain (Hc)	3178	0.19996342062950134	0.49672332	No	
+row_15	SORT1	SORT1	sortilin 1	3364	0.1810789257287979	0.4930351	No	
+row_16	CPD	CPD	carboxypeptidase D	3386	0.17780068516731262	0.50259364	No	
+row_17	DTNBP1	DTNBP1	dystrobrevin binding protein 1	3673	0.15154512226581573	0.48874533	No	
+row_18	SNX9	SNX9	sorting nexin 9	3688	0.15040375292301178	0.4971398	No	
+row_19	FTH1	FTH1	ferritin, heavy polypeptide 1	4034	0.12191591411828995	0.4765711	No	
+row_20	HIP1R	HIP1R	huntingtin interacting protein 1 related	4134	0.11469222605228424	0.47572622	No	
+row_21	NECAP1	NECAP1	NECAP endocytosis associated 1	4167	0.11233778297901154	0.4802287	No	
+row_22	TFRC	TFRC	transferrin receptor (p90, CD71)	4217	0.10860837250947952	0.48309985	No	
+row_23	TPD52L1	TPD52L1	tumor protein D52-like 1	4306	0.10240091383457184	0.48237753	No	
+row_24	ARF1	ARF1	ADP-ribosylation factor 1	4574	0.08178112655878067	0.4656615	No	
+row_25	AP1B1	AP1B1	adaptor-related protein complex 1, beta 1 subunit	4589	0.08114457875490189	0.46966153	No	
+row_26	GAK	GAK	cyclin G associated kinase	5285	0.03441144898533821	0.41482627	No	
+row_27	RAB5C	RAB5C	RAB5C, member RAS oncogene family	5565	0.01889377273619175	0.3931356	No	
+row_28	PUM1	PUM1	pumilio homolog 1 (Drosophila)	5712	0.009857219643890858	0.381783	No	
+row_29	BLOC1S1	BLOC1S1	biogenesis of lysosome-related organelles complex-1, subunit 1	5821	0.0039885928854346275	0.37317565	No	
+row_30	AP1M1	AP1M1	adaptor-related protein complex 1, mu 1 subunit	6475	-0.03363385051488876	0.3217368	No	
+row_31	VAMP2	VAMP2	vesicle-associated membrane protein 2 (synaptobrevin 2)	6489	-0.034493084996938705	0.32285884	No	
+row_32	SNX2	SNX2	sorting nexin 2	6879	-0.05787021666765213	0.29461667	No	
+row_33	AP1G1	AP1G1	adaptor-related protein complex 1, gamma 1 subunit	6938	-0.06151377409696579	0.2937613	No	
+row_34	DNM2	DNM2	dynamin 2	7156	-0.07510551810264587	0.28072378	No	
+row_35	TXNDC5	TXNDC5	thioredoxin domain containing 5	7438	-0.09386538714170456	0.26362595	No	
+row_36	CLTA	CLTA	clathrin, light chain (Lca)	7760	-0.11685077100992203	0.24470486	No	
+row_37	TBC1D8B	TBC1D8B	TBC1 domain family, member 8B (with GRAM domain)	7916	-0.12695111334323883	0.24004348	No	
+row_38	IGF2R	IGF2R	insulin-like growth factor 2 receptor	7944	-0.1295527070760727	0.24604844	No	
+row_39	BLOC1S3	BLOC1S3	biogenesis of lysosome-related organelles complex-1, subunit 3	8493	-0.17546086013317108	0.21222278	No	
+row_40	SH3D19	SH3D19	-	8629	-0.1870238333940506	0.21301383	No	
+row_41	SNX5	SNX5	sorting nexin 5	8778	-0.20364117622375488	0.21379268	No	
+row_42	TPD52	TPD52	tumor protein D52	9149	-0.2421983927488327	0.19880484	No	
+row_43	VAMP8	VAMP8	vesicle-associated membrane protein 8 (endobrevin)	9182	-0.24584686756134033	0.21177842	No	
+row_44	AP1S2	AP1S2	adaptor-related protein complex 1, sigma 2 subunit	9475	-0.28669142723083496	0.20601286	No	
+row_45	AP3B1	AP3B1	adaptor-related protein complex 3, beta 1 subunit	9654	-0.3192555010318756	0.21166617	No	

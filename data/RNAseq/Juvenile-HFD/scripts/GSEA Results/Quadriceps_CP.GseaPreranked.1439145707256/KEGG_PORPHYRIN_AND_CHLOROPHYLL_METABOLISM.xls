@@ -1,0 +1,29 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ALAS2	ALAS2	aminolevulinate, delta-, synthase 2 (sideroblastic/hypochromic anemia)	1377	0.7000881433486938	-0.085648976	No	
+row_1	BLVRB	BLVRB	biliverdin reductase B (flavin reductase (NADPH))	1608	0.5622875690460205	-0.0826805	No	
+row_2	HCCS	HCCS	holocytochrome c synthase (cytochrome c heme-lyase)	2160	0.3647095263004303	-0.11367211	No	
+row_3	HMOX2	HMOX2	heme oxygenase (decycling) 2	2574	0.283340722322464	-0.13651489	No	
+row_4	GUSB	GUSB	glucuronidase, beta	2748	0.2540394961833954	-0.14083335	No	
+row_5	FECH	FECH	ferrochelatase (protoporphyria)	2866	0.2364833652973175	-0.14124525	No	
+row_6	EARS2	EARS2	glutamyl-tRNA synthetase 2 (mitochondrial)(putative)	2964	0.22415366768836975	-0.14049698	No	
+row_7	PPOX	PPOX	protoporphyrinogen oxidase	3168	0.20080947875976562	-0.14933775	No	
+row_8	UROS	UROS	uroporphyrinogen III synthase (congenital erythropoietic porphyria)	3922	0.13074299693107605	-0.20595239	No	
+row_9	FTH1	FTH1	ferritin, heavy polypeptide 1	4034	0.12191591411828995	-0.21031663	No	
+row_10	MMAB	MMAB	methylmalonic aciduria (cobalamin deficiency) cblB type	4503	0.08751318603754044	-0.2452608	No	
+row_11	CPOX	CPOX	coproporphyrinogen oxidase	6304	-0.024475373327732086	-0.39176783	No	
+row_12	COX15	COX15	COX15 homolog, cytochrome c oxidase assembly protein (yeast)	6587	-0.04018941894173622	-0.41331047	No	
+row_13	EPRS	EPRS	glutamyl-prolyl-tRNA synthetase	6760	-0.05044799670577049	-0.42544395	No	
+row_14	HMBS	HMBS	hydroxymethylbilane synthase	6900	-0.059058286249637604	-0.4345401	No	
+row_15	UROD	UROD	uroporphyrinogen decarboxylase	7218	-0.07831617444753647	-0.45747104	No	
+row_16	ALAS1	ALAS1	aminolevulinate, delta-, synthase 1	7976	-0.13229544460773468	-0.51435316	No	
+row_17	COX10	COX10	COX10 homolog, cytochrome c oxidase assembly protein, heme A: farnesyltransferase (yeast)	8364	-0.16380904614925385	-0.5397024	No	
+row_18	BLVRA	BLVRA	biliverdin reductase A	8560	-0.18070147931575775	-0.5486678	No	
+row_19	ALAD	ALAD	aminolevulinate, delta-, dehydratase	9652	-0.3185381293296814	-0.6256872	No	
+row_20	CP	CP	ceruloplasmin (ferroxidase)	9856	-0.35999518632888794	-0.6283534	No	
+row_21	HMOX1	HMOX1	heme oxygenase (decycling) 1	10552	-0.6179543733596802	-0.66131866	Yes	
+row_22	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	11398	-1.892829418182373	-0.6571218	Yes	
+row_23	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	11539	-2.1825923919677734	-0.5839318	Yes	
+row_24	FTMT	FTMT	ferritin mitochondrial	11572	-2.3149921894073486	-0.49675888	Yes	
+row_25	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	11806	-3.0664620399475098	-0.39690372	Yes	
+row_26	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	11937	-3.852306604385376	-0.25812933	Yes	
+row_27	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	12180	-7.279993534088135	0.004423814	Yes	

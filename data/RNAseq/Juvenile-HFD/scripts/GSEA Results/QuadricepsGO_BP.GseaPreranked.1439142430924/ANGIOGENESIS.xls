@@ -1,0 +1,42 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CHRNA7	CHRNA7	cholinergic receptor, nicotinic, alpha 7	265	3.469489574432373	0.044300925	No	
+row_1	SPHK1	SPHK1	sphingosine kinase 1	1124	0.9788258671760559	-0.0074320827	No	
+row_2	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	1128	0.9744981527328491	0.010868992	No	
+row_3	C1GALT1	C1GALT1	core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase, 1	1393	0.6929048895835876	0.0024066854	No	
+row_4	SPINK5	SPINK5	serine peptidase inhibitor, Kazal type 5	2278	0.3369137644767761	-0.06367569	No	
+row_5	SERPINF1	SERPINF1	serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 1	2704	0.26062268018722534	-0.0935686	No	
+row_6	AGGF1	AGGF1	angiogenic factor with G patch and FHA domains 1	2994	0.2212773561477661	-0.11305733	No	
+row_7	EMCN	EMCN	endomucin	3034	0.21617044508457184	-0.11214136	No	
+row_8	ACVRL1	ACVRL1	activin A receptor type II-like 1	3294	0.1880093663930893	-0.12980303	No	
+row_9	NF1	NF1	neurofibromin 1 (neurofibromatosis, von Recklinghausen disease, Watson disease)	3350	0.182820662856102	-0.13083392	No	
+row_10	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	-0.13609211	No	
+row_11	EGF	EGF	epidermal growth factor (beta-urogastrone)	3505	0.16771185398101807	-0.13691851	No	
+row_12	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	3631	0.15540872514247894	-0.14421163	No	
+row_13	AMOT	AMOT	angiomotin	3686	0.15042820572853088	-0.14577703	No	
+row_14	TNFSF12	TNFSF12	tumor necrosis factor (ligand) superfamily, member 12	4088	0.11847282201051712	-0.17640723	No	
+row_15	NPR1	NPR1	natriuretic peptide receptor A/guanylate cyclase A (atrionatriuretic peptide receptor A)	4507	0.08715153485536575	-0.20902768	No	
+row_16	CANX	CANX	calnexin	4677	0.07464785128831863	-0.22146621	No	
+row_17	STAB1	STAB1	stabilin 1	5230	0.03765152022242546	-0.26601776	No	
+row_18	CDH13	CDH13	cadherin 13, H-cadherin (heart)	5934	-0.00404907064512372	-0.323592	No	
+row_19	BTG1	BTG1	B-cell translocation gene 1, anti-proliferative	6481	-0.03391050174832344	-0.36772275	No	
+row_20	THY1	THY1	Thy-1 cell surface antigen	7160	-0.07527352124452591	-0.4218912	No	
+row_21	NCL	NCL	nucleolin	7210	-0.07799961417913437	-0.42442507	No	
+row_22	COL4A2	COL4A2	collagen, type IV, alpha 2	7721	-0.11424630135297775	-0.46407452	No	
+row_23	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	8015	-0.1351766139268875	-0.48553	No	
+row_24	MYH9	MYH9	myosin, heavy chain 9, non-muscle	8215	-0.152023047208786	-0.4989561	No	
+row_25	RNH1	RNH1	ribonuclease/angiogenin inhibitor 1	8285	-0.1580418050289154	-0.5016067	No	
+row_26	ATPIF1	ATPIF1	ATPase inhibitory factor 1	8657	-0.18976400792598724	-0.52841985	No	
+row_27	PML	PML	promyelocytic leukemia	9606	-0.3102834224700928	-0.6002575	No	
+row_28	RHOB	RHOB	ras homolog gene family, member B	9680	-0.3247149586677551	-0.6000639	No	
+row_29	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	-0.5980237	No	
+row_30	ROBO4	ROBO4	roundabout homolog 4, magic roundabout (Drosophila)	9816	-0.35179832577705383	-0.5979707	No	
+row_31	TNNI3	TNNI3	troponin I type 3 (cardiac)	10014	-0.3989501893520355	-0.60653317	No	
+row_32	HTATIP2	HTATIP2	HIV-1 Tat interactive protein 2, 30kDa	10165	-0.44426092505455017	-0.610379	No	
+row_33	RUNX1	RUNX1	runt-related transcription factor 1 (acute myeloid leukemia 1; aml1 oncogene)	10181	-0.4476546347141266	-0.6030891	No	
+row_34	ANG	ANG	angiogenin, ribonuclease, RNase A family, 5	10833	-0.8529377579689026	-0.6402425	Yes	
+row_35	ANGPTL4	ANGPTL4	angiopoietin-like 4	10947	-1.003725528717041	-0.63040596	Yes	
+row_36	IL17F	IL17F	interleukin 17F	11422	-1.9646574258804321	-0.6318853	Yes	
+row_37	SCG2	SCG2	secretogranin II (chromogranin C)	11692	-2.6742053031921387	-0.6030486	Yes	
+row_38	PROK2	PROK2	prokineticin 2	11839	-3.19010591506958	-0.55430615	Yes	
+row_39	ANGPTL3	ANGPTL3	angiopoietin-like 3	12222	-9.37259292602539	-0.4072495	Yes	
+row_40	PLG	PLG	plasminogen	12232	-21.44502830505371	1.64067E-4	Yes	

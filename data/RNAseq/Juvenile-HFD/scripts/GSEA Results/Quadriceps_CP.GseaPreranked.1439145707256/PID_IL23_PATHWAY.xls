@@ -1,0 +1,33 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	STAT4	STAT4	signal transducer and activator of transcription 4	30	6.424749374389648	0.12553321	Yes	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.20777622	Yes	
+row_2	IL6	IL6	interleukin 6 (interferon, beta 2)	166	4.199713706970215	0.28849137	Yes	
+row_3	CCL2	CCL2	chemokine (C-C motif) ligand 2	181	4.006468772888184	0.36715958	Yes	
+row_4	CD4	CD4	CD4 molecule	268	3.448735475540161	0.42881662	Yes	
+row_5	IL23A	IL23A	interleukin 23, alpha subunit p19	364	2.8872642517089844	0.47855073	Yes	
+row_6	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.5326111	Yes	
+row_7	IL18R1	IL18R1	interleukin 18 receptor 1	776	1.6943020820617676	0.53604394	Yes	
+row_8	IL18RAP	IL18RAP	interleukin 18 receptor accessory protein	786	1.6804428100585938	0.5687836	Yes	
+row_9	IL12RB1	IL12RB1	interleukin 12 receptor, beta 1	823	1.5786798000335693	0.5972834	Yes	
+row_10	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.58909714	No	
+row_11	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.54622823	No	
+row_12	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	2298	0.3332894444465637	0.5114847	No	
+row_13	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3811	0.13945505023002625	0.39035887	No	
+row_14	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.38002172	No	
+row_15	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.35186896	No	
+row_16	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	0.3042764	No	
+row_17	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5042	0.050998505204916	0.29652405	No	
+row_18	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.23674622	No	
+row_19	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.18976384	No	
+row_20	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	0.13450462	No	
+row_21	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	0.099842824	No	
+row_22	TYK2	TYK2	tyrosine kinase 2	8001	-0.1341870129108429	0.06113279	No	
+row_23	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	8765	-0.20198222994804382	0.0026310016	No	
+row_24	SOCS3	SOCS3	suppressor of cytokine signaling 3	8924	-0.21689200401306152	-0.0059957867	No	
+row_25	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	-0.049775038	No	
+row_26	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	-0.059643306	No	
+row_27	IL17F	IL17F	interleukin 17F	11422	-1.9646574258804321	-0.15874878	No	
+row_28	MPO	MPO	myeloperoxidase	11584	-2.3149921894073486	-0.1258238	No	
+row_29	ALOX12B	ALOX12B	arachidonate 12-lipoxygenase, 12R type	11605	-2.3592889308929443	-0.0804618	No	
+row_30	CXCL1	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	11809	-3.0813682079315186	-0.035711113	No	
+row_31	IL19	IL19	interleukin 19	11894	-3.5366899967193604	0.02786204	No	

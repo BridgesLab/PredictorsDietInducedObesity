@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP6V0A4	ATP6V0A4	ATPase, H+ transporting, lysosomal V0 subunit a4	334	3.0239837169647217	0.13988507	Yes	
+row_1	ATP6V1B1	ATP6V1B1	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B1 (Renal tubular acidosis with deafness)	547	2.4508249759674072	0.2580728	Yes	
+row_2	KDELR3	KDELR3	KDEL (Lys-Asp-Glu-Leu) endoplasmic reticulum protein retention receptor 3	991	1.1744334697723389	0.286694	Yes	
+row_3	ATP6V1E2	ATP6V1E2	ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E2	1206	0.8701292872428894	0.31727117	Yes	
+row_4	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	0.25703746	No	
+row_5	TJP2	TJP2	tight junction protein 2 (zona occludens 2)	2784	0.24803774058818817	0.22152649	No	
+row_6	ATP6V1H	ATP6V1H	ATPase, H+ transporting, lysosomal 50/57kDa, V1 subunit H	3013	0.21874530613422394	0.21491934	No	
+row_7	SEC61G	SEC61G	Sec61 gamma subunit	3046	0.2141975313425064	0.22414333	No	
+row_8	PRKX	PRKX	protein kinase, X-linked	3115	0.20637893676757812	0.2299808	No	
+row_9	ATP6V1B2	ATP6V1B2	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B2	3508	0.16714878380298615	0.2070623	No	
+row_10	PDIA4	PDIA4	protein disulfide isomerase family A, member 4	4026	0.12255490571260452	0.17141996	No	
+row_11	ATP6V1E1	ATP6V1E1	ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1	4146	0.11379256844520569	0.16795065	No	
+row_12	ATP6V0A2	ATP6V0A2	ATPase, H+ transporting, lysosomal V0 subunit a2	4211	0.10894439369440079	0.16872612	No	
+row_13	ARF1	ARF1	ADP-ribosylation factor 1	4574	0.08178112655878067	0.14354658	No	
+row_14	ACTB	ACTB	actin, beta	4646	0.07699259370565414	0.14198005	No	
+row_15	ATP6V1D	ATP6V1D	ATPase, H+ transporting, lysosomal 34kDa, V1 subunit D	4710	0.07319021224975586	0.14085959	No	
+row_16	PRKCG	PRKCG	protein kinase C, gamma	4869	0.0633360967040062	0.13139881	No	
+row_17	ATP6AP1	ATP6AP1	ATPase, H+ transporting, lysosomal accessory protein 1	5336	0.03167584538459778	0.0949137	No	
+row_18	ADCY3	ADCY3	adenylate cyclase 3	5373	0.029566839337348938	0.093595415	No	
+row_19	ATP6V0E2	ATP6V0E2	ATPase, H+ transporting V0 subunit e2	5391	0.02838527411222458	0.0937708	No	
+row_20	ACTG1	ACTG1	actin, gamma 1	5397	0.028100715950131416	0.0949151	No	
+row_21	ATP6V1C1	ATP6V1C1	ATPase, H+ transporting, lysosomal 42kDa, V1 subunit C1	5404	0.027670573443174362	0.095953554	No	
+row_22	SEC61A2	SEC61A2	Sec61 alpha 2 subunit (S. cerevisiae)	5474	0.024427250027656555	0.09164313	No	
+row_23	KDELR1	KDELR1	KDEL (Lys-Asp-Glu-Leu) endoplasmic reticulum protein retention receptor 1	5558	0.01940198615193367	0.08590595	No	
+row_24	ATP6V0B	ATP6V0B	ATPase, H+ transporting, lysosomal 21kDa, V0 subunit b	5759	0.0071586910635232925	0.06989104	No	
+row_25	ADCY9	ADCY9	adenylate cyclase 9	5892	-0.001363346935249865	0.05913525	No	
+row_26	TJP1	TJP1	tight junction protein 1 (zona occludens 1)	6140	-0.015318255871534348	0.039715182	No	
+row_27	ATP6V0A1	ATP6V0A1	ATPase, H+ transporting, lysosomal V0 subunit a1	6333	-0.026051651686429977	0.025401907	No	
+row_28	ATP6V0D1	ATP6V0D1	ATPase, H+ transporting, lysosomal 38kDa, V0 subunit d1	6336	-0.026185862720012665	0.026686437	No	
+row_29	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	6338	-0.026418445631861687	0.028065892	No	
+row_30	SEC61A1	SEC61A1	Sec61 alpha 1 subunit (S. cerevisiae)	6516	-0.036924611777067184	0.015584944	No	
+row_31	ATP6V1F	ATP6V1F	ATPase, H+ transporting, lysosomal 14kDa, V1 subunit F	6694	-0.04627605155110359	0.0036213319	No	
+row_32	SLC12A2	SLC12A2	solute carrier family 12 (sodium/potassium/chloride transporters), member 2	6986	-0.06509942561388016	-0.016655173	No	
+row_33	ATP6V1A	ATP6V1A	ATPase, H+ transporting, lysosomal 70kDa, V1 subunit A	7096	-0.07157845795154572	-0.021639302	No	
+row_34	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	7360	-0.08756589889526367	-0.038375396	No	
+row_35	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7662	-0.11022922396659851	-0.0569758	No	
+row_36	ERO1L	ERO1L	ERO1-like (S. cerevisiae)	7928	-0.12811048328876495	-0.07163302	No	
+row_37	KDELR2	KDELR2	KDEL (Lys-Asp-Glu-Leu) endoplasmic reticulum protein retention receptor 2	7962	-0.13114359974861145	-0.06708576	No	
+row_38	GNAS	GNAS	GNAS complex locus	8267	-0.15663428604602814	-0.08336513	No	
+row_39	ATP6V0C	ATP6V0C	ATPase, H+ transporting, lysosomal 16kDa, V0 subunit c	8409	-0.16761794686317444	-0.08566196	No	
+row_40	ATP6V1G2	ATP6V1G2	ATPase, H+ transporting, lysosomal 13kDa, V1 subunit G2	8708	-0.19592733681201935	-0.09927525	No	
+row_41	ATP6V1G1	ATP6V1G1	ATPase, H+ transporting, lysosomal 13kDa, V1 subunit G1	9023	-0.2256777137517929	-0.11255558	No	
+row_42	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	-0.11054435	No	
+row_43	TCIRG1	TCIRG1	T-cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 subunit A3	10019	-0.39971479773521423	-0.1585062	No	
+row_44	SEC61B	SEC61B	Sec61 beta subunit	10479	-0.5782532691955566	-0.16417944	No	
+row_45	MUC2	MUC2	mucin 2, oligomeric mucus/gel-forming	11106	-1.264917016029358	-0.14556855	No	
+row_46	KCNQ1	KCNQ1	potassium voltage-gated channel, KQT-like subfamily, member 1	11195	-1.4694030284881592	-0.07149978	No	
+row_47	ATP6V0D2	ATP6V0D2	ATPase, H+ transporting, lysosomal 38kDa, V0 subunit d2	11766	-2.832036018371582	0.038401548	No	

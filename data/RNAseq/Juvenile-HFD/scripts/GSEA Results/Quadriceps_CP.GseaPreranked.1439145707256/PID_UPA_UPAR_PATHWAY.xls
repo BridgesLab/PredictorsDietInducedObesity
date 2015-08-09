@@ -1,0 +1,39 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MMP13	MMP13	matrix metallopeptidase 13 (collagenase 3)	118	4.724356651306152	0.046792142	No	
+row_1	CTSG	CTSG	cathepsin G	376	2.8872642517089844	0.06023067	No	
+row_2	PLAUR	PLAUR	plasminogen activator, urokinase receptor	746	1.795101284980774	0.05143281	No	
+row_3	ITGB2	ITGB2	integrin, beta 2 (complement component 3 receptor 3 and 4 subunit)	905	1.3331780433654785	0.05441327	No	
+row_4	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	1043	1.0808360576629639	0.056099415	No	
+row_5	PDGFD	PDGFD	platelet derived growth factor D	1561	0.5876671671867371	0.020735882	No	
+row_6	ITGAM	ITGAM	integrin, alpha M (complement component 3 receptor 3 subunit)	1688	0.5236325263977051	0.016664056	No	
+row_7	MMP12	MMP12	matrix metallopeptidase 12 (macrophage elastase)	1931	0.4317685067653656	0.001983712	No	
+row_8	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	2821	0.24302102625370026	-0.06799842	No	
+row_9	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	-0.08405341	No	
+row_10	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	3211	0.19568708539009094	-0.09491448	No	
+row_11	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3795	0.14097797870635986	-0.14102812	No	
+row_12	PLAU	PLAU	plasminogen activator, urokinase	5548	0.019855206832289696	-0.28443268	No	
+row_13	DOCK1	DOCK1	dedicator of cytokinesis 1	6517	-0.036984916776418686	-0.3633544	No	
+row_14	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6556	-0.0389585942029953	-0.3660043	No	
+row_15	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	6904	-0.05932068079710007	-0.3937449	No	
+row_16	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7023	-0.06725116819143295	-0.4026156	No	
+row_17	NCL	NCL	nucleolin	7210	-0.07799961417913437	-0.41693297	No	
+row_18	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	7723	-0.11436598002910614	-0.45754358	No	
+row_19	VLDLR	VLDLR	very low density lipoprotein receptor	8016	-0.13521713018417358	-0.47986776	No	
+row_20	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	8138	-0.1462743580341339	-0.4880399	No	
+row_21	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	8765	-0.20198222994804382	-0.5369499	No	
+row_22	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8827	-0.2071710228919983	-0.53947496	No	
+row_23	FN1	FN1	fibronectin 1	8869	-0.211385115981102	-0.5403099	No	
+row_24	ITGB5	ITGB5	integrin, beta 5	9019	-0.22553293406963348	-0.5498304	No	
+row_25	MMP3	MMP3	matrix metallopeptidase 3 (stromelysin 1, progelatinase)	9301	-0.2608497440814972	-0.5697511	No	
+row_26	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	9544	-0.29706326127052307	-0.5860415	No	
+row_27	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	9778	-0.3444995880126953	-0.601027	No	
+row_28	GPLD1	GPLD1	glycosylphosphatidylinositol specific phospholipase D1	9803	-0.3498477637767792	-0.59881324	No	
+row_29	ITGA5	ITGA5	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)	9944	-0.37911176681518555	-0.6057602	No	
+row_30	VTN	VTN	vitronectin	10453	-0.5631802082061768	-0.6406785	No	
+row_31	FPR1	FPR1	formyl peptide receptor 1	11448	-2.039196252822876	-0.69780105	Yes	
+row_32	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	11673	-2.51231050491333	-0.68613845	Yes	
+row_33	KLK4	KLK4	kallikrein 4 (prostase, enamel matrix, prostate)	11925	-3.759777784347534	-0.6617795	Yes	
+row_34	FGG	FGG	fibrinogen gamma chain	12155	-6.689607620239258	-0.6005988	Yes	
+row_35	FGB	FGB	fibrinogen beta chain	12174	-7.116446018218994	-0.5170171	Yes	
+row_36	PLG	PLG	plasminogen	12232	-21.44502830505371	-0.26537424	Yes	
+row_37	FGA	FGA	fibrinogen alpha chain	12234	-22.209741592407227	-2.5051122E-8	Yes	

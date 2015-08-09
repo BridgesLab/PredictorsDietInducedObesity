@@ -1,0 +1,25 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CHRNA7	CHRNA7	cholinergic receptor, nicotinic, alpha 7	265	3.469489574432373	0.059037767	No	
+row_1	SPHK1	SPHK1	sphingosine kinase 1	1124	0.9788258671760559	0.0115517955	No	
+row_2	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	1128	0.9744981527328491	0.03398395	No	
+row_3	SPINK5	SPINK5	serine peptidase inhibitor, Kazal type 5	2278	0.3369137644767761	-0.052271124	No	
+row_4	SERPINF1	SERPINF1	serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 1	2704	0.26062268018722534	-0.08101078	No	
+row_5	AGGF1	AGGF1	angiogenic factor with G patch and FHA domains 1	2994	0.2212773561477661	-0.09952856	No	
+row_6	NF1	NF1	neurofibromin 1 (neurofibromatosis, von Recklinghausen disease, Watson disease)	3350	0.182820662856102	-0.124346234	No	
+row_7	AMOT	AMOT	angiomotin	3686	0.15042820572853088	-0.14827986	No	
+row_8	TNFSF12	TNFSF12	tumor necrosis factor (ligand) superfamily, member 12	4088	0.11847282201051712	-0.17836209	No	
+row_9	NPR1	NPR1	natriuretic peptide receptor A/guanylate cyclase A (atrionatriuretic peptide receptor A)	4507	0.08715153485536575	-0.21056539	No	
+row_10	STAB1	STAB1	stabilin 1	5230	0.03765152022242546	-0.2688162	No	
+row_11	BTG1	BTG1	B-cell translocation gene 1, anti-proliferative	6481	-0.03391050174832344	-0.37039378	No	
+row_12	COL4A2	COL4A2	collagen, type IV, alpha 2	7721	-0.11424630135297775	-0.46920103	No	
+row_13	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	8015	-0.1351766139268875	-0.49005005	No	
+row_14	RNH1	RNH1	ribonuclease/angiogenin inhibitor 1	8285	-0.1580418050289154	-0.5084015	No	
+row_15	PML	PML	promyelocytic leukemia	9606	-0.3102834224700928	-0.6092801	No	
+row_16	RHOB	RHOB	ras homolog gene family, member B	9680	-0.3247149586677551	-0.6077018	No	
+row_17	TNNI3	TNNI3	troponin I type 3 (cardiac)	10014	-0.3989501893520355	-0.6256882	No	
+row_18	HTATIP2	HTATIP2	HIV-1 Tat interactive protein 2, 30kDa	10165	-0.44426092505455017	-0.62763363	No	
+row_19	RUNX1	RUNX1	runt-related transcription factor 1 (acute myeloid leukemia 1; aml1 oncogene)	10181	-0.4476546347141266	-0.61844456	No	
+row_20	ANGPTL4	ANGPTL4	angiopoietin-like 4	10947	-1.003725528717041	-0.657735	Yes	
+row_21	IL17F	IL17F	interleukin 17F	11422	-1.9646574258804321	-0.65083236	Yes	
+row_22	ANGPTL3	ANGPTL3	angiopoietin-like 3	12222	-9.37259292602539	-0.49815276	Yes	
+row_23	PLG	PLG	plasminogen	12232	-21.44502830505371	1.637202E-4	Yes	

@@ -1,0 +1,64 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SLC44A3	SLC44A3	solute carrier family 44, member 3	53	5.8206400871276855	0.17460583	Yes	
+row_1	PLA2G4C	PLA2G4C	phospholipase A2, group IVC (cytosolic, calcium-independent)	220	3.7813992500305176	0.27723002	Yes	
+row_2	MBOAT2	MBOAT2	membrane bound O-acyltransferase domain containing 2	716	1.908512830734253	0.29524162	Yes	
+row_3	SLC44A4	SLC44A4	solute carrier family 44, member 4	756	1.7451145648956299	0.34569246	Yes	
+row_4	PLA2G5	PLA2G5	phospholipase A2, group V	907	1.325940728187561	0.37413615	Yes	
+row_5	MBOAT1	MBOAT1	membrane bound O-acyltransferase domain containing 1	1079	1.026746392250061	0.39165562	Yes	
+row_6	PLD4	PLD4	phospholipase D family, member 4	1390	0.6941622495651245	0.38752988	Yes	
+row_7	DGAT1	DGAT1	diacylglycerol O-acyltransferase homolog 1 (mouse)	1560	0.5879756808280945	0.39172333	Yes	
+row_8	PCYT1B	PCYT1B	phosphate cytidylyltransferase 1, choline, beta	1589	0.5772697329521179	0.40717158	Yes	
+row_9	PITPNB	PITPNB	phosphatidylinositol transfer protein, beta	1791	0.48102957010269165	0.4054479	Yes	
+row_10	CRLS1	CRLS1	cardiolipin synthase 1	1841	0.46174436807632446	0.41561896	Yes	
+row_11	PLA2G2D	PLA2G2D	phospholipase A2, group IID	1890	0.44351211190223694	0.4253116	Yes	
+row_12	PNPLA3	PNPLA3	patatin-like phospholipase domain containing 3	2001	0.41165241599082947	0.42893103	Yes	
+row_13	PLA2G2F	PLA2G2F	phospholipase A2, group IIF	2277	0.3369137644767761	0.41669688	No	
+row_14	LPIN1	LPIN1	lipin 1	3136	0.20381484925746918	0.35247368	No	
+row_15	PTDSS1	PTDSS1	phosphatidylserine synthase 1	3553	0.16329503059387207	0.3233175	No	
+row_16	PHOSPHO1	PHOSPHO1	phosphatase, orphan 1	3560	0.16271145641803741	0.32782724	No	
+row_17	LPGAT1	LPGAT1	lysophosphatidylglycerol acyltransferase 1	4222	0.10844056308269501	0.27685636	No	
+row_18	GPD1	GPD1	glycerol-3-phosphate dehydrogenase 1 (soluble)	4443	0.0913136899471283	0.26158962	No	
+row_19	AGPAT6	AGPAT6	1-acylglycerol-3-phosphate O-acyltransferase 6 (lysophosphatidic acid acyltransferase, zeta)	4479	0.08892352133989334	0.26144817	No	
+row_20	CDS2	CDS2	CDP-diacylglycerol synthase (phosphatidate cytidylyltransferase) 2	4496	0.08780591189861298	0.26283336	No	
+row_21	PNPLA2	PNPLA2	patatin-like phospholipase domain containing 2	4580	0.08155206590890884	0.2585218	No	
+row_22	TAZ	TAZ	tafazzin (cardiomyopathy, dilated 3A (X-linked); endocardial fibroelastosis 2; Barth syndrome)	4849	0.06444551050662994	0.23848549	No	
+row_23	GPD1L	GPD1L	glycerol-3-phosphate dehydrogenase 1-like	5073	0.04846041649580002	0.22165471	No	
+row_24	AGPAT2	AGPAT2	1-acylglycerol-3-phosphate O-acyltransferase 2 (lysophosphatidic acid acyltransferase, beta)	5078	0.048149459064006805	0.22280647	No	
+row_25	PLD2	PLD2	phospholipase D2	5104	0.04553729295730591	0.22215267	No	
+row_26	CEPT1	CEPT1	choline/ethanolamine phosphotransferase 1	5353	0.030676957219839096	0.20272122	No	
+row_27	PCYT1A	PCYT1A	phosphate cytidylyltransferase 1, choline, alpha	5408	0.027444876730442047	0.19912861	No	
+row_28	PLA2G12A	PLA2G12A	phospholipase A2, group XIIA	5568	0.018702182918787003	0.18664086	No	
+row_29	CDIPT	CDIPT	CDP-diacylglycerol--inositol 3-phosphatidyltransferase (phosphatidylinositol synthase)	5818	0.004432953428477049	0.16632037	No	
+row_30	GNPAT	GNPAT	glyceronephosphate O-acyltransferase	6041	-0.009920435026288033	0.1483868	No	
+row_31	AGPAT1	AGPAT1	1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha)	6169	-0.016789672896265984	0.13846923	No	
+row_32	PCYT2	PCYT2	phosphate cytidylyltransferase 2, ethanolamine	6219	-0.019221225753426552	0.13503458	No	
+row_33	ETNK1	ETNK1	ethanolamine kinase 1	6385	-0.029137246310710907	0.12237471	No	
+row_34	PLD3	PLD3	phospholipase D family, member 3	6536	-0.03790627792477608	0.111216806	No	
+row_35	CHPT1	CHPT1	choline phosphotransferase 1	6586	-0.04011806100606918	0.108424634	No	
+row_36	AGPAT5	AGPAT5	1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon)	6713	-0.0476500429213047	0.09953805	No	
+row_37	MGLL	MGLL	monoglyceride lipase	7208	-0.07789984345436096	0.06134819	No	
+row_38	HADHB	HADHB	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), beta subunit	7294	-0.08268187940120697	0.056907065	No	
+row_39	LPIN3	LPIN3	lipin 3	7429	-0.09312183409929276	0.048761297	No	
+row_40	PNPLA8	PNPLA8	patatin-like phospholipase domain containing 8	7460	-0.09627881646156311	0.04925679	No	
+row_41	SLC44A2	SLC44A2	solute carrier family 44, member 2	7778	-0.11795032024383545	0.026839884	No	
+row_42	DGAT2	DGAT2	diacylglycerol O-acyltransferase homolog 2 (mouse)	7886	-0.12524878978729248	0.021900088	No	
+row_43	PTDSS2	PTDSS2	phosphatidylserine synthase 2	8097	-0.14266112446784973	0.009033603	No	
+row_44	HADHA	HADHA	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit	8227	-0.15298980474472046	0.0031392982	No	
+row_45	SLC44A1	SLC44A1	solute carrier family 44, member 1	8393	-0.1663152277469635	-0.0053029135	No	
+row_46	AGPAT3	AGPAT3	1-acylglycerol-3-phosphate O-acyltransferase 3	8483	-0.17458321154117584	-0.007247081	No	
+row_47	PGS1	PGS1	phosphatidylglycerophosphate synthase 1	8686	-0.19252224266529083	-0.017923301	No	
+row_48	CHKB	CHKB	choline kinase beta	9252	-0.25485390424728394	-0.05650563	No	
+row_49	PLA2G6	PLA2G6	phospholipase A2, group VI (cytosolic, calcium-independent)	9314	-0.2628968358039856	-0.053434167	No	
+row_50	PLD1	PLD1	phospholipase D1, phosphatidylcholine-specific	9333	-0.2656703293323517	-0.04674473	No	
+row_51	ACHE	ACHE	acetylcholinesterase (Yt blood group)	9385	-0.2715763747692108	-0.042584848	No	
+row_52	GPAM	GPAM	glycerol-3-phosphate acyltransferase, mitochondrial	9406	-0.27366122603416443	-0.03581404	No	
+row_53	CHKA	CHKA	choline kinase alpha	9631	-0.313636839389801	-0.044573925	No	
+row_54	AGPAT4	AGPAT4	1-acylglycerol-3-phosphate O-acyltransferase 4 (lysophosphatidic acid acyltransferase, delta)	9782	-0.3453449606895447	-0.04627939	No	
+row_55	SLC44A5	SLC44A5	solute carrier family 44, member 5	9868	-0.3630143702030182	-0.042101473	No	
+row_56	LPIN2	LPIN2	lipin 2	10255	-0.4759432077407837	-0.05918036	No	
+row_57	CDS1	CDS1	CDP-diacylglycerol synthase (phosphatidate cytidylyltransferase) 1	10395	-0.5373826622962952	-0.054077767	No	
+row_58	PEMT	PEMT	phosphatidylethanolamine N-methyltransferase	10702	-0.7294184565544128	-0.056790896	No	
+row_59	PLA2G4A	PLA2G4A	phospholipase A2, group IVA (cytosolic, calcium-dependent)	10792	-0.816642701625824	-0.03899445	No	
+row_60	PLA2G3	PLA2G3	phospholipase A2, group III	10856	-0.8804695010185242	-0.017099546	No	
+row_61	ETNK2	ETNK2	ethanolamine kinase 2	11202	-1.480297327041626	6.9598325E-5	No	
+row_62	PLA2G2E	PLA2G2E	phospholipase A2, group IIE	11716	-2.7526674270629883	0.042556576	No	

@@ -1,0 +1,74 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TRIM9	TRIM9	tripartite motif-containing 9	55	5.772735118865967	0.17246269	Yes	
+row_1	SLC6A15	SLC6A15	solute carrier family 6, member 15	677	2.05810809135437	0.18450107	Yes	
+row_2	MBOAT2	MBOAT2	membrane bound O-acyltransferase domain containing 2	716	1.908512830734253	0.23988923	Yes	
+row_3	JPH4	JPH4	junctophilin 4	820	1.589784026145935	0.28016105	Yes	
+row_4	NANOS1	NANOS1	nanos homolog 1 (Drosophila)	1135	0.9646837115287781	0.28391895	Yes	
+row_5	RNF43	RNF43	ring finger protein 43	1194	0.8870792984962463	0.30634677	Yes	
+row_6	LRRC31	LRRC31	leucine rich repeat containing 31	1418	0.6750922203063965	0.30870846	Yes	
+row_7	PCDH17	PCDH17	protocadherin 17	1643	0.5415670275688171	0.30689424	Yes	
+row_8	STK4	STK4	serine/threonine kinase 4	1763	0.4881780743598938	0.3120766	Yes	
+row_9	IKZF4	IKZF4	IKAROS family zinc finger 4 (Eos)	2097	0.3852531611919403	0.29650763	No	
+row_10	TNRC6B	TNRC6B	trinucleotide repeat containing 6B	2131	0.3739683926105499	0.30525964	No	
+row_11	CYB561D1	CYB561D1	cytochrome b-561 domain containing 1	2506	0.2931904196739197	0.283497	No	
+row_12	CLOCK	CLOCK	clock homolog (mouse)	2653	0.27073052525520325	0.27979267	No	
+row_13	RPS6KA3	RPS6KA3	ribosomal protein S6 kinase, 90kDa, polypeptide 3	3236	0.19314244389533997	0.23786019	No	
+row_14	FMNL3	FMNL3	formin-like 3	3388	0.17752663791179657	0.23088722	No	
+row_15	MKRN1	MKRN1	makorin, ring finger protein, 1	3440	0.17284592986106873	0.23199308	No	
+row_16	FAT2	FAT2	FAT tumor suppressor homolog 2 (Drosophila)	3709	0.14871954917907715	0.21451679	No	
+row_17	PTPRG	PTPRG	protein tyrosine phosphatase, receptor type, G	3759	0.14482656121253967	0.21492805	No	
+row_18	PAFAH1B1	PAFAH1B1	platelet-activating factor acetylhydrolase, isoform Ib, alpha subunit 45kDa	3849	0.13652049005031586	0.21179572	No	
+row_19	UBE2Z	UBE2Z	ubiquitin-conjugating enzyme E2Z (putative)	3917	0.13090935349464417	0.21030028	No	
+row_20	DLL1	DLL1	delta-like 1 (Drosophila)	3938	0.12940935790538788	0.21262334	No	
+row_21	TLK2	TLK2	tousled-like kinase 2	4002	0.12476438283920288	0.2112684	No	
+row_22	DCUN1D3	DCUN1D3	DCN1, defective in cullin neddylation 1, domain containing 3 (S. cerevisiae)	4107	0.11694540828466415	0.20630258	No	
+row_23	DNAJC16	DNAJC16	DnaJ (Hsp40) homolog, subfamily C, member 16	5063	0.04970282316207886	0.12930313	No	
+row_24	ZFAND5	ZFAND5	zinc finger, AN1-type domain 5	5111	0.04493415728211403	0.12681626	No	
+row_25	MTMR4	MTMR4	myotubularin related protein 4	5174	0.041097890585660934	0.12297843	No	
+row_26	ARHGEF12	ARHGEF12	Rho guanine nucleotide exchange factor (GEF) 12	5191	0.03986717015504837	0.12288514	No	
+row_27	BICD2	BICD2	bicaudal D homolog 2 (Drosophila)	5294	0.03372391313314438	0.115532294	No	
+row_28	SUV39H1	SUV39H1	suppressor of variegation 3-9 homolog 1 (Drosophila)	5311	0.03292333334684372	0.115226105	No	
+row_29	COX11	COX11	COX11 homolog, cytochrome c oxidase assembly protein (yeast)	5625	0.015018786303699017	0.089950666	No	
+row_30	NEDD4L	NEDD4L	neural precursor cell expressed, developmentally down-regulated 4-like	5630	0.014753438532352448	0.09007409	No	
+row_31	BTBD3	BTBD3	BTB (POZ) domain containing 3	5897	-0.001639481051824987	0.06825296	No	
+row_32	DYRK1A	DYRK1A	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A	6025	-0.009030472487211227	0.058087457	No	
+row_33	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	6098	-0.012871046550571918	0.052561987	No	
+row_34	PAFAH1B2	PAFAH1B2	platelet-activating factor acetylhydrolase, isoform Ib, beta subunit 30kDa	6162	-0.016207357868552208	0.047878817	No	
+row_35	XRN1	XRN1	5'-3' exoribonuclease 1	6303	-0.024387070909142494	0.03711523	No	
+row_36	ARIH1	ARIH1	ariadne homolog, ubiquitin-conjugating enzyme E2 binding protein, 1 (Drosophila)	6405	-0.030276240780949593	0.029738907	No	
+row_37	PPP1R7	PPP1R7	protein phosphatase 1, regulatory subunit 7	6524	-0.03729259967803955	0.0211799	No	
+row_38	VEZF1	VEZF1	vascular endothelial zinc finger 1	6649	-0.04342696815729141	0.012315626	No	
+row_39	DPYSL5	DPYSL5	dihydropyrimidinase-like 5	6679	-0.04559298977255821	0.011328975	No	
+row_40	SSFA2	SSFA2	sperm specific antigen 2	6747	-0.04978351294994354	0.007346314	No	
+row_41	BAZ2A	BAZ2A	bromodomain adjacent to zinc finger domain, 2A	6773	-0.051337648183107376	0.0068646804	No	
+row_42	SYNE1	SYNE1	spectrin repeat containing, nuclear envelope 1	6807	-0.053142134100198746	0.0057805832	No	
+row_43	DAZAP2	DAZAP2	DAZ associated protein 2	6828	-0.05424586683511734	0.005799229	No	
+row_44	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	-0.018866135	No	
+row_45	CS	CS	citrate synthase	7266	-0.08101131021976471	-0.025262546	No	
+row_46	FAM65A	FAM65A	family with sequence similarity 65, member A	7558	-0.10354302823543549	-0.046015028	No	
+row_47	GATAD2B	GATAD2B	GATA zinc finger domain containing 2B	7577	-0.1042511984705925	-0.044298835	No	
+row_48	DHX15	DHX15	DEAH (Asp-Glu-Ala-His) box polypeptide 15	7708	-0.11363314837217331	-0.051504012	No	
+row_49	ZBTB7A	ZBTB7A	zinc finger and BTB domain containing 7A	7839	-0.12213576585054398	-0.058448512	No	
+row_50	BAZ1B	BAZ1B	bromodomain adjacent to zinc finger domain, 1B	8018	-0.1353151798248291	-0.06893567	No	
+row_51	MTDH	MTDH	metadherin	8195	-0.15040293335914612	-0.0787958	No	
+row_52	ZKSCAN1	ZKSCAN1	zinc finger with KRAB and SCAN domains 1	8276	-0.15725237131118774	-0.0805525	No	
+row_53	BCOR	BCOR	BCL6 co-repressor	8332	-0.16187594830989838	-0.08011187	No	
+row_54	SEMA6D	SEMA6D	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D	8360	-0.16348959505558014	-0.0773195	No	
+row_55	NPAS2	NPAS2	neuronal PAS domain protein 2	8366	-0.16389568150043488	-0.07270578	No	
+row_56	SLCO3A1	SLCO3A1	solute carrier organic anion transporter family, member 3A1	8417	-0.16829292476177216	-0.07165729	No	
+row_57	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	8639	-0.1881517916917801	-0.08406015	No	
+row_58	ARL4C	ARL4C	ADP-ribosylation factor-like 4C	8682	-0.19231556355953217	-0.08161736	No	
+row_59	CACNA1D	CACNA1D	calcium channel, voltage-dependent, L type, alpha 1D subunit	8801	-0.2051367461681366	-0.085030474	No	
+row_60	EFNB1	EFNB1	ephrin-B1	8977	-0.22121842205524445	-0.09263727	No	
+row_61	EPHA7	EPHA7	EPH receptor A7	9097	-0.2353035807609558	-0.09520773	No	
+row_62	NR4A2	NR4A2	nuclear receptor subfamily 4, group A, member 2	9250	-0.2547394931316376	-0.09989567	No	
+row_63	GAN	GAN	giant axonal neuropathy (gigaxonin)	9285	-0.258918821811676	-0.09475313	No	
+row_64	DCTN4	DCTN4	dynactin 4 (p62)	9509	-0.29097774624824524	-0.10416791	No	
+row_65	SP1	SP1	Sp1 transcription factor	9590	-0.3060528337955475	-0.10136257	No	
+row_66	GALE	GALE	UDP-galactose-4-epimerase	10350	-0.5164146423339844	-0.14793743	No	
+row_67	IL18BP	IL18BP	interleukin 18 binding protein	10691	-0.7190534472465515	-0.15384807	No	
+row_68	MMP19	MMP19	matrix metallopeptidase 19	10815	-0.8371226191520691	-0.13829638	No	
+row_69	SOX11	SOX11	SRY (sex determining region Y)-box 11	10849	-0.8703826665878296	-0.11432489	No	
+row_70	YPEL4	YPEL4	yippee-like 4 (Drosophila)	11051	-1.1741273403167725	-0.094854474	No	
+row_71	LRP8	LRP8	low density lipoprotein receptor-related protein 8, apolipoprotein e receptor	11332	-1.7670241594314575	-0.06370221	No	
+row_72	SYT1	SYT1	synaptotagmin I	12019	-4.49416446685791	0.017678158	No	

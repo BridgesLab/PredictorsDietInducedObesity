@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	-0.067927554	No	
+row_1	CDC25B	CDC25B	cell division cycle 25B	2295	1.227555751800537	-0.09752118	No	
+row_2	GADD45A	GADD45A	growth arrest and DNA-damage-inducible, alpha	2771	0.8607010841369629	-0.11308303	No	
+row_3	CHEK2	CHEK2	CHK2 checkpoint homolog (S. pombe)	3165	0.6406944394111633	-0.12771952	No	
+row_4	YWHAQ	YWHAQ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, theta polypeptide	3632	0.4363037645816803	-0.15304899	No	
+row_5	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	-0.29433736	No	
+row_6	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	5759	-0.16095679998397827	-0.31112286	No	
+row_7	PRKDC	PRKDC	protein kinase, DNA-activated, catalytic polypeptide	6242	-0.2629593014717102	-0.34196565	No	
+row_8	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	-0.40111718	No	
+row_9	CDKN2D	CDKN2D	cyclin-dependent kinase inhibitor 2D (p19, inhibits CDK4)	7433	-0.5403772592544556	-0.40901172	No	
+row_10	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	-0.49453208	No	
+row_11	CDC34	CDC34	cell division cycle 34	9028	-1.0392045974731445	-0.48300216	No	
+row_12	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	9420	-1.1979033946990967	-0.48374432	No	
+row_13	CDC25A	CDC25A	cell division cycle 25A	10088	-1.5307327508926392	-0.49765357	Yes	
+row_14	WEE1	WEE1	WEE1 homolog (S. pombe)	10745	-2.0652332305908203	-0.49753147	Yes	
+row_15	CHEK1	CHEK1	CHK1 checkpoint homolog (S. pombe)	10782	-2.1063451766967773	-0.44838205	Yes	
+row_16	ATR	ATR	ataxia telangiectasia and Rad3 related	10812	-2.13700270652771	-0.3979346	Yes	
+row_17	BRCA1	BRCA1	breast cancer 1, early onset	11442	-3.0339694023132324	-0.3718349	Yes	
+row_18	CDC25C	CDC25C	cell division cycle 25C	12028	-4.714576721191406	-0.30088815	Yes	
+row_19	CCNB1	CCNB1	cyclin B1	12067	-4.93411922454834	-0.18216759	Yes	
+row_20	MYT1	MYT1	myelin transcription factor 1	12091	-5.019172668457031	-0.060188204	Yes	
+row_21	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	0.064353794	Yes	

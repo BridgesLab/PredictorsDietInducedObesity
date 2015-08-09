@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HTR2B	HTR2B	5-hydroxytryptamine (serotonin) receptor 2B	11	9.599899291992188	0.108363226	Yes	
+row_1	DRD1	DRD1	dopamine receptor D1	156	5.8892927169799805	0.16419998	Yes	
+row_2	EDNRB	EDNRB	endothelin receptor type B	360	4.620817184448242	0.20103118	Yes	
+row_3	HRH1	HRH1	histamine receptor H1	386	4.520138263702393	0.25051758	Yes	
+row_4	C5AR1	C5AR1	complement component 5a receptor 1	694	3.54888653755188	0.26709038	Yes	
+row_5	P2RY6	P2RY6	pyrimidinergic receptor P2Y, G-protein coupled, 6	862	3.165072441101074	0.290151	Yes	
+row_6	EDNRA	EDNRA	endothelin receptor type A	944	2.9729115962982178	0.31769317	Yes	
+row_7	P2RY4	P2RY4	pyrimidinergic receptor P2Y, G-protein coupled, 4	971	2.930562973022461	0.34901777	Yes	
+row_8	GRM5	GRM5	glutamate receptor, metabotropic 5	1011	2.8412773609161377	0.37831867	Yes	
+row_9	AVPR1B	AVPR1B	arginine vasopressin receptor 1B	1165	2.5543265342712402	0.3955164	Yes	
+row_10	F2RL3	F2RL3	coagulation factor II (thrombin) receptor-like 3	1280	2.388800621032715	0.41385472	Yes	
+row_11	CHRM2	CHRM2	cholinergic receptor, muscarinic 2	1284	2.3831610679626465	0.44073483	Yes	
+row_12	CALCA	CALCA	calcitonin/calcitonin-related polypeptide, alpha	1609	1.9276597499847412	0.43754527	No	
+row_13	CCKBR	CCKBR	cholecystokinin B receptor	2368	1.1738945245742798	0.3921316	No	
+row_14	GNA15	GNA15	guanine nucleotide binding protein (G protein), alpha 15 (Gq class)	2750	0.8721252083778381	0.37251413	No	
+row_15	GNAQ	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide	2861	0.8089718818664551	0.37318918	No	
+row_16	PPAP2A	PPAP2A	phosphatidic acid phosphatase type 2A	2901	0.7872931957244873	0.37912232	No	
+row_17	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	3099	0.681157648563385	0.37159804	No	
+row_18	P2RY2	P2RY2	purinergic receptor P2Y, G-protein coupled, 2	3451	0.5119621157646179	0.350209	No	
+row_19	PLCB2	PLCB2	phospholipase C, beta 2	3471	0.5012419819831848	0.35443842	No	
+row_20	TACR1	TACR1	tachykinin receptor 1	3663	0.4224205017089844	0.34443572	No	
+row_21	NMUR2	NMUR2	neuromedin U receptor 2	4042	0.28978192806243896	0.31842563	No	
+row_22	BUD31	BUD31	BUD31 homolog (yeast)	5368	-0.07273748517036438	0.21652405	No	
+row_23	CCKAR	CCKAR	cholecystokinin A receptor	6080	-0.2278927117586136	0.16399191	No	
+row_24	P2RY1	P2RY1	purinergic receptor P2Y, G-protein coupled, 1	6997	-0.43864676356315613	0.097963534	No	
+row_25	PRKD3	PRKD3	protein kinase D3	7376	-0.5271844267845154	0.07465433	No	
+row_26	PARD3	PARD3	par-3 partitioning defective 3 homolog (C. elegans)	7723	-0.6165580749511719	0.054842923	No	
+row_27	AVPR1A	AVPR1A	arginine vasopressin receptor 1A	8243	-0.7559959888458252	0.023204932	No	
+row_28	HOMER1	HOMER1	homer homolog 1 (Drosophila)	8563	-0.8581743836402893	0.008235687	No	
+row_29	GAP43	GAP43	growth associated protein 43	8755	-0.9292776584625244	0.003999389	No	
+row_30	PICK1	PICK1	protein interacting with PRKCA 1	9291	-1.1403632164001465	-0.024506235	No	
+row_31	ANG	ANG	angiogenin, ribonuclease, RNase A family, 5	10073	-1.522667407989502	-0.06773519	No	
+row_32	CHRM1	CHRM1	cholinergic receptor, muscarinic 1	10389	-1.7343332767486572	-0.07242643	No	
+row_33	EDN2	EDN2	endothelin 2	11491	-3.0948526859283447	-0.12257901	No	
+row_34	NMUR1	NMUR1	neuromedin U receptor 1	12168	-5.468934535980225	-0.112771295	No	
+row_35	DRD2	DRD2	dopamine receptor D2	12223	-5.837121486663818	-0.050550267	No	
+row_36	NMBR	NMBR	neuromedin B receptor	12602	-9.281841278076172	0.025740447	No	

@@ -1,0 +1,82 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ADCY4	ADCY4	adenylate cyclase 4	485	4.150942802429199	-0.008547199	No	
+row_1	ADCY5	ADCY5	adenylate cyclase 5	524	4.0463151931762695	0.016945159	No	
+row_2	PDE3B	PDE3B	phosphodiesterase 3B, cGMP-inhibited	559	3.9353280067443848	0.04196838	No	
+row_3	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.03958687	No	
+row_4	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	897	3.0584075450897217	0.059378248	No	
+row_5	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.06940229	No	
+row_6	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.08851765	No	
+row_7	PDE3A	PDE3A	phosphodiesterase 3A, cGMP-inhibited	1062	2.75628924369812	0.10571812	No	
+row_8	ADCY3	ADCY3	adenylate cyclase 3	1162	2.560685396194458	0.116019785	No	
+row_9	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.13160296	No	
+row_10	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	1432	2.1561176776885986	0.12801306	No	
+row_11	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	1436	2.142984628677368	0.14284647	No	
+row_12	MOS	MOS	v-mos Moloney murine sarcoma viral oncogene homolog	1493	2.0613420009613037	0.15298262	No	
+row_13	RPS6KA3	RPS6KA3	ribosomal protein S6 kinase, 90kDa, polypeptide 3	1767	1.7471964359283447	0.1440282	No	
+row_14	CDC25B	CDC25B	cell division cycle 25B	2295	1.227555751800537	0.11165994	No	
+row_15	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.112707675	No	
+row_16	ADCY6	ADCY6	adenylate cyclase 6	2772	0.8604217171669006	0.08888312	No	
+row_17	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.0926387	No	
+row_18	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.09301469	No	
+row_19	PRKX	PRKX	protein kinase, X-linked	3311	0.5705565810203552	0.06279554	No	
+row_20	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.06462906	No	
+row_21	CDC16	CDC16	CDC16 cell division cycle 16 homolog (S. cerevisiae)	3725	0.39346978068351746	0.037443686	No	
+row_22	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.034999933	No	
+row_23	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	3938	0.32431790232658386	0.025921801	No	
+row_24	ANAPC1	ANAPC1	anaphase promoting complex subunit 1	3997	0.30479001998901367	0.023552489	No	
+row_25	ANAPC5	ANAPC5	anaphase promoting complex subunit 5	4000	0.3035910129547119	0.025531368	No	
+row_26	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.015247846	No	
+row_27	MAPK14	MAPK14	mitogen-activated protein kinase 14	4260	0.21614307165145874	0.008754425	No	
+row_28	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	-0.0010204049	No	
+row_29	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	-0.0026948147	No	
+row_30	ANAPC4	ANAPC4	anaphase promoting complex subunit 4	4487	0.14733533561229706	-0.0053153858	No	
+row_31	CDC23	CDC23	CDC23 (cell division cycle 23, yeast, homolog)	4501	0.14257481694221497	-0.0053243362	No	
+row_32	CDK2	CDK2	cyclin-dependent kinase 2	4593	0.11837294697761536	-0.011571594	No	
+row_33	PKMYT1	PKMYT1	protein kinase, membrane associated tyrosine/threonine 1	4715	0.08985959738492966	-0.020353226	No	
+row_34	CDC26	CDC26	cell division cycle 26	4881	0.04558661952614784	-0.03286919	No	
+row_35	ANAPC2	ANAPC2	anaphase promoting complex subunit 2	4894	0.04316529631614685	-0.033499267	No	
+row_36	ADCY9	ADCY9	adenylate cyclase 9	4967	0.02304287999868393	-0.038938627	No	
+row_37	CDC27	CDC27	cell division cycle 27	5309	-0.05974048376083374	-0.06504731	No	
+row_38	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	-0.0666918	No	
+row_39	CCNA2	CCNA2	cyclin A2	5352	-0.06791079044342041	-0.06730349	No	
+row_40	MAPK12	MAPK12	mitogen-activated protein kinase 12	5567	-0.11854458600282669	-0.08311855	No	
+row_41	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	-0.12089095	No	
+row_42	ANAPC7	ANAPC7	anaphase promoting complex subunit 7	6307	-0.2754993736743927	-0.13700284	No	
+row_43	ANAPC11	ANAPC11	APC11 anaphase promoting complex subunit 11 homolog (yeast)	6308	-0.27605971693992615	-0.13506193	No	
+row_44	GNAI3	GNAI3	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 3	6311	-0.27644699811935425	-0.1332739	No	
+row_45	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	-0.14844012	No	
+row_46	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	6817	-0.39525026082992554	-0.16736652	No	
+row_47	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	-0.1661032	No	
+row_48	CPEB1	CPEB1	cytoplasmic polyadenylation element binding protein 1	6978	-0.4332040548324585	-0.1738712	No	
+row_49	ANAPC13	ANAPC13	anaphase promoting complex subunit 13	6983	-0.43463820219039917	-0.17112656	No	
+row_50	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	-0.17257626	No	
+row_51	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	7738	-0.6211190819740295	-0.2222003	No	
+row_52	HSP90AB1	HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1	7785	-0.631742537021637	-0.22133733	No	
+row_53	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	8045	-0.6963041424751282	-0.23659116	No	
+row_54	MAPK11	MAPK11	mitogen-activated protein kinase 11	8377	-0.8003036975860596	-0.25671515	No	
+row_55	ANAPC10	ANAPC10	anaphase promoting complex subunit 10	8523	-0.8453293442726135	-0.2620524	No	
+row_56	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	-0.26567614	No	
+row_57	MAPK9	MAPK9	mitogen-activated protein kinase 9	8706	-0.9113094210624695	-0.26347	No	
+row_58	MAD2L1	MAD2L1	MAD2 mitotic arrest deficient-like 1 (yeast)	8775	-0.9391726851463318	-0.26215708	No	
+row_59	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	-0.2603033	No	
+row_60	ADCY7	ADCY7	adenylate cyclase 7	9067	-1.0541902780532837	-0.2705514	No	
+row_61	FZR1	FZR1	fizzy/cell division cycle 20 related 1 (Drosophila)	9310	-1.1471405029296875	-0.28131297	No	
+row_62	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	9420	-1.1979033946990967	-0.28137067	No	
+row_63	RPS6KA2	RPS6KA2	ribosomal protein S6 kinase, 90kDa, polypeptide 2	9485	-1.2267284393310547	-0.27772483	No	
+row_64	HSP90AA1	HSP90AA1	heat shock protein 90kDa alpha (cytosolic), class A member 1	9673	-1.323603868484497	-0.2829669	No	
+row_65	ADCY8	ADCY8	adenylate cyclase 8 (brain)	9894	-1.4257359504699707	-0.2900582	No	
+row_66	MAPK13	MAPK13	mitogen-activated protein kinase 13	10074	-1.5229854583740234	-0.2932761	No	
+row_67	CDC25A	CDC25A	cell division cycle 25A	10088	-1.5307327508926392	-0.28352526	No	
+row_68	MAD2L2	MAD2L2	MAD2 mitotic arrest deficient-like 2 (yeast)	10596	-1.9086369276046753	-0.30954906	No	
+row_69	ADCY2	ADCY2	adenylate cyclase 2 (brain)	11099	-2.508901357650757	-0.3309636	Yes	
+row_70	MAPK10	MAPK10	mitogen-activated protein kinase 10	11245	-2.707796096801758	-0.3232063	Yes	
+row_71	PGR	PGR	progesterone receptor	11611	-3.306676149368286	-0.3283537	Yes	
+row_72	RPS6KA6	RPS6KA6	ribosomal protein S6 kinase, 90kDa, polypeptide 6	11970	-4.469363689422607	-0.32478198	Yes	
+row_73	CDC25C	CDC25C	cell division cycle 25C	12028	-4.714576721191406	-0.29606938	Yes	
+row_74	CCNB1	CCNB1	cyclin B1	12067	-4.93411922454834	-0.2643351	Yes	
+row_75	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.23130372	Yes	
+row_76	CCNB2	CCNB2	cyclin B2	12207	-5.767383098602295	-0.19876775	Yes	
+row_77	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	-0.1597375	Yes	
+row_78	SPDYA	SPDYA	speedy homolog A (Drosophila)	12541	-8.560564994812012	-0.12039983	Yes	
+row_79	CCNA1	CCNA1	cyclin A1	12699	-10.421676635742188	-0.059341718	Yes	
+row_80	CCNB3	CCNB3	cyclin B3	12751	-11.029593467712402	0.014236974	Yes	

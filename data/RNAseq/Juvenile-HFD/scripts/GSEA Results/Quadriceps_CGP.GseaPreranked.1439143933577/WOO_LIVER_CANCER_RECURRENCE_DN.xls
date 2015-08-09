@@ -1,0 +1,62 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DCXR	DCXR	dicarbonyl/L-xylulose reductase	1610	0.5617729425430298	-0.12699193	No	
+row_1	PAOX	PAOX	polyamine oxidase (exo-N4-amino)	1757	0.4903278052806854	-0.13439615	No	
+row_2	PCTP	PCTP	phosphatidylcholine transfer protein	1933	0.43150216341018677	-0.14473301	No	
+row_3	CSAD	CSAD	cysteine sulfinic acid decarboxylase	2045	0.3999793529510498	-0.15010776	No	
+row_4	CRYL1	CRYL1	crystallin, lambda 1	2077	0.38998472690582275	-0.14900464	No	
+row_5	SERPING1	SERPING1	serpin peptidase inhibitor, clade G (C1 inhibitor), member 1, (angioedema, hereditary)	2490	0.2955474257469177	-0.18008149	No	
+row_6	ACADSB	ACADSB	acyl-Coenzyme A dehydrogenase, short/branched chain	2731	0.25617244839668274	-0.19739835	No	
+row_7	BPHL	BPHL	biphenyl hydrolase-like (serine hydrolase; breast epithelial mucin-associated antigen)	2855	0.23796646296977997	-0.20527492	No	
+row_8	GPT	GPT	glutamic-pyruvate transaminase (alanine aminotransferase)	2921	0.22866033017635345	-0.20847435	No	
+row_9	ACSL5	ACSL5	acyl-CoA synthetase long-chain family member 5	3230	0.19363117218017578	-0.23196214	No	
+row_10	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	3240	0.19282600283622742	-0.23089693	No	
+row_11	APOL6	APOL6	apolipoprotein L, 6	3384	0.1786179095506668	-0.24097176	No	
+row_12	SLC35A2	SLC35A2	solute carrier family 35 (UDP-galactose transporter), member A2	3525	0.1660507470369339	-0.25091776	No	
+row_13	QDPR	QDPR	quinoid dihydropteridine reductase	3792	0.1412169635295868	-0.27144608	No	
+row_14	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	4109	0.1167362853884697	-0.2963106	No	
+row_15	SUOX	SUOX	sulfite oxidase	4249	0.10676809400320053	-0.30672923	No	
+row_16	MTTP	MTTP	microsomal triglyceride transfer protein	4366	0.09802519530057907	-0.3153404	No	
+row_17	ACY1	ACY1	aminoacylase 1	4809	0.06641677767038345	-0.35102576	No	
+row_18	PPAP2B	PPAP2B	phosphatidic acid phosphatase type 2B	4952	0.056882016360759735	-0.36215764	No	
+row_19	GCDH	GCDH	glutaryl-Coenzyme A dehydrogenase	5332	0.03188435733318329	-0.3929912	No	
+row_20	CYB5A	CYB5A	cytochrome b5 type A (microsomal)	5438	0.0261884443461895	-0.40137106	No	
+row_21	CRAT	CRAT	carnitine acetyltransferase	5489	0.02346302755177021	-0.4052586	No	
+row_22	EPHX2	EPHX2	epoxide hydrolase 2, cytoplasmic	5654	0.013133658096194267	-0.41860703	No	
+row_23	CYP2E1	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	5709	0.009959316812455654	-0.42294952	No	
+row_24	SLC25A15	SLC25A15	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 15	5856	0.0016620648093521595	-0.43492672	No	
+row_25	SARDH	SARDH	sarcosine dehydrogenase	5872	2.290067495778203E-4	-0.43615672	No	
+row_26	GLUL	GLUL	glutamate-ammonia ligase (glutamine synthetase)	5957	-0.005263951141387224	-0.4430074	No	
+row_27	PCYT2	PCYT2	phosphate cytidylyltransferase 2, ethanolamine	6219	-0.019221225753426552	-0.46426666	No	
+row_28	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	6500	-0.03511209785938263	-0.4869379	No	
+row_29	GLUD1	GLUD1	glutamate dehydrogenase 1	6594	-0.04042927175760269	-0.4941988	No	
+row_30	POR	POR	P450 (cytochrome) oxidoreductase	7053	-0.06902317702770233	-0.53117406	No	
+row_31	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	7309	-0.08387830853462219	-0.5513354	No	
+row_32	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	7494	-0.09879449754953384	-0.56552505	No	
+row_33	ALAS1	ALAS1	aminolevulinate, delta-, synthase 1	7976	-0.13229544460773468	-0.60379744	No	
+row_34	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	8142	-0.14659489691257477	-0.6159791	No	
+row_35	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	8303	-0.15951991081237793	-0.62762904	No	
+row_36	CYP27A1	CYP27A1	cytochrome P450, family 27, subfamily A, polypeptide 1	8470	-0.17297503352165222	-0.63964593	No	
+row_37	CAT	CAT	catalase	8688	-0.19290274381637573	-0.6556656	No	
+row_38	ADH5	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide	8995	-0.22289183735847473	-0.6787153	No	
+row_39	SLC2A9	SLC2A9	solute carrier family 2 (facilitated glucose transporter), member 9	9146	-0.24189114570617676	-0.688773	No	
+row_40	AASS	AASS	aminoadipate-semialdehyde synthase	9846	-0.3583315908908844	-0.74283713	No	
+row_41	EPHX1	EPHX1	epoxide hydrolase 1, microsomal (xenobiotic)	9887	-0.3665367364883423	-0.7426927	No	
+row_42	ALDH1L1	ALDH1L1	aldehyde dehydrogenase 1 family, member L1	10562	-0.6254440546035767	-0.7922036	No	
+row_43	NHEJ1	NHEJ1	nonhomologous end-joining factor 1	10582	-0.6382164359092712	-0.78779185	No	
+row_44	PEMT	PEMT	phosphatidylethanolamine N-methyltransferase	10702	-0.7294184565544128	-0.7907408	No	
+row_45	ACOX2	ACOX2	acyl-Coenzyme A oxidase 2, branched chain	11088	-1.2319729328155518	-0.8108366	Yes	
+row_46	FMO4	FMO4	flavin containing monooxygenase 4	11133	-1.3143136501312256	-0.8021514	Yes	
+row_47	MASP2	MASP2	mannan-binding lectin serine peptidase 2	11149	-1.3512494564056396	-0.7907384	Yes	
+row_48	DAO	DAO	D-amino-acid oxidase	11269	-1.6188156604766846	-0.7853643	Yes	
+row_49	TTPA	TTPA	tocopherol (alpha) transfer protein (ataxia (Friedreich-like) with vitamin E deficiency)	11368	-1.8720160722732544	-0.77589566	Yes	
+row_50	HGD	HGD	homogentisate 1,2-dioxygenase (homogentisate oxidase)	11922	-3.7466444969177246	-0.7862588	Yes	
+row_51	G6PC	G6PC	glucose-6-phosphatase, catalytic subunit	11926	-3.782181978225708	-0.7511112	Yes	
+row_52	PIPOX	PIPOX	pipecolic acid oxidase	11994	-4.261852264404297	-0.71673185	Yes	
+row_53	HPD	HPD	4-hydroxyphenylpyruvate dioxygenase	12021	-4.497598648071289	-0.6767785	Yes	
+row_54	APOC3	APOC3	apolipoprotein C-III	12087	-5.444080829620361	-0.63117146	Yes	
+row_55	APOC4	APOC4	apolipoprotein C-IV	12093	-5.536646842956543	-0.5797696	Yes	
+row_56	PAH	PAH	phenylalanine hydroxylase	12135	-6.178974628448486	-0.5253139	Yes	
+row_57	SLC2A2	SLC2A2	solute carrier family 2 (facilitated glucose transporter), member 2	12153	-6.6685614585876465	-0.4643052	Yes	
+row_58	HNF4A	HNF4A	hepatocyte nuclear factor 4, alpha	12181	-7.320545673370361	-0.39801657	Yes	
+row_59	MAT1A	MAT1A	methionine adenosyltransferase I, alpha	12231	-20.776729583740234	-0.20761062	Yes	
+row_60	CPS1	CPS1	carbamoyl-phosphate synthetase 1, mitochondrial	12233	-22.202674865722656	8.230256E-5	Yes	

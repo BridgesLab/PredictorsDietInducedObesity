@@ -1,0 +1,60 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PTGER3	PTGER3	prostaglandin E receptor 3 (subtype EP3)	60	7.077932357788086	0.029582057	Yes	
+row_1	SLC7A10	SLC7A10	solute carrier family 7, (neutral amino acid transporter, y+ system) member 10	76	6.790741920471191	0.061269607	Yes	
+row_2	PPP1R1A	PPP1R1A	protein phosphatase 1, regulatory (inhibitor) subunit 1A	81	6.702338695526123	0.093383774	Yes	
+row_3	TIMP4	TIMP4	TIMP metallopeptidase inhibitor 4	88	6.6138739585876465	0.124914646	Yes	
+row_4	ADIPOQ	ADIPOQ	adiponectin, C1Q and collagen domain containing	93	6.5464558601379395	0.15627468	Yes	
+row_5	FABP4	FABP4	fatty acid binding protein 4, adipocyte	106	6.329156398773193	0.18596214	Yes	
+row_6	CD36	CD36	CD36 molecule (thrombospondin receptor)	111	6.253612995147705	0.21590546	Yes	
+row_7	AOC3	AOC3	amine oxidase, copper containing 3 (vascular adhesion protein 1)	121	6.145174503326416	0.24493584	Yes	
+row_8	LPL	LPL	lipoprotein lipase	123	6.130192279815674	0.27451503	Yes	
+row_9	PPARG	PPARG	peroxisome proliferative activated receptor, gamma	135	5.991634368896484	0.3026473	Yes	
+row_10	CFD	CFD	complement factor D (adipsin)	152	5.911004066467285	0.33000115	Yes	
+row_11	NTRK2	NTRK2	neurotrophic tyrosine kinase, receptor, type 2	164	5.789975166320801	0.3571578	Yes	
+row_12	PDK4	PDK4	pyruvate dehydrogenase kinase, isozyme 4	187	5.661712169647217	0.38283965	Yes	
+row_13	ITIH5	ITIH5	inter-alpha (globulin) inhibitor H5	203	5.526124954223633	0.40840918	Yes	
+row_14	ATP1A2	ATP1A2	ATPase, Na+/K+ transporting, alpha 2 (+) polypeptide	204	5.521419525146484	0.4351209	Yes	
+row_15	ANGPTL4	ANGPTL4	angiopoietin-like 4	214	5.457329273223877	0.46082363	Yes	
+row_16	ACACB	ACACB	acetyl-Coenzyme A carboxylase beta	217	5.392345428466797	0.48675558	Yes	
+row_17	FZD4	FZD4	frizzled homolog 4 (Drosophila)	223	5.365858554840088	0.5123264	Yes	
+row_18	LIPE	LIPE	lipase, hormone-sensitive	238	5.286286354064941	0.5368133	Yes	
+row_19	CLDN5	CLDN5	claudin 5 (transmembrane protein deleted in velocardiofacial syndrome)	247	5.206708908081055	0.5613812	Yes	
+row_20	ASPA	ASPA	aspartoacylase (Canavan disease)	258	5.132083415985107	0.58543277	Yes	
+row_21	MEST	MEST	mesoderm specific transcript homolog (mouse)	357	4.633799076080322	0.6002393	Yes	
+row_22	G0S2	G0S2	G0/G1switch 2	381	4.528192043304443	0.62035966	Yes	
+row_23	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP), alpha	476	4.187028408050537	0.63331544	Yes	
+row_24	ANGPT1	ANGPT1	angiopoietin 1	531	4.032510280609131	0.6486302	Yes	
+row_25	PALMD	PALMD	palmdelphin	554	3.955528497695923	0.6660578	Yes	
+row_26	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	585	3.868313789367676	0.6824421	Yes	
+row_27	SVEP1	SVEP1	sushi, von Willebrand factor type A, EGF and pentraxin domain containing 1	618	3.78043270111084	0.69824606	Yes	
+row_28	CHRDL1	CHRDL1	chordin-like 1	626	3.748521089553833	0.7158371	Yes	
+row_29	AQP7	AQP7	aquaporin 7	697	3.546177387237549	0.72755647	Yes	
+row_30	SEMA3G	SEMA3G	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3G	712	3.525470018386841	0.74352485	Yes	
+row_31	CLEC3B	CLEC3B	C-type lectin domain family 3, member B	790	3.3304250240325928	0.7536568	Yes	
+row_32	SLC24A3	SLC24A3	solute carrier family 24 (sodium/potassium/calcium exchanger), member 3	808	3.285851001739502	0.7682329	Yes	
+row_33	NPR1	NPR1	natriuretic peptide receptor A/guanylate cyclase A (atrionatriuretic peptide receptor A)	1157	2.572734832763672	0.75365233	Yes	
+row_34	FOSB	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	1264	2.4115493297576904	0.7570867	Yes	
+row_35	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	1432	2.1561176776885986	0.7545478	Yes	
+row_36	PPP2R1B	PPP2R1B	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform	1540	2.007734537124634	0.7559508	Yes	
+row_37	RAPGEF3	RAPGEF3	Rap guanine nucleotide exchange factor (GEF) 3	1615	1.9221636056900024	0.75950277	Yes	
+row_38	GPC3	GPC3	glypican 3	1648	1.8979566097259521	0.7661995	Yes	
+row_39	SELENBP1	SELENBP1	selenium binding protein 1	1795	1.7142354249954224	0.76315385	Yes	
+row_40	MAOA	MAOA	monoamine oxidase A	1863	1.6476343870162964	0.76592135	Yes	
+row_41	GPD1	GPD1	glycerol-3-phosphate dehydrogenase 1 (soluble)	1929	1.5727238655090332	0.7684818	Yes	
+row_42	MAOB	MAOB	monoamine oxidase B	2408	1.1385715007781982	0.73686665	No	
+row_43	SFRP1	SFRP1	secreted frizzled-related protein 1	2893	0.7926295399665833	0.70311195	No	
+row_44	DUSP4	DUSP4	dual specificity phosphatase 4	3020	0.7182353734970093	0.696801	No	
+row_45	LMOD1	LMOD1	leiomodin 1 (smooth muscle)	3153	0.6479853987693787	0.6896842	No	
+row_46	AGT	AGT	angiotensinogen (serpin peptidase inhibitor, clade A, member 8)	3733	0.3891494870185852	0.6465995	No	
+row_47	RBP4	RBP4	retinol binding protein 4, plasma	3760	0.38218098878860474	0.6464292	No	
+row_48	APOD	APOD	apolipoprotein D	5170	-0.02846609614789486	0.53713846	No	
+row_49	TFPI2	TFPI2	tissue factor pathway inhibitor 2	5664	-0.1415400207042694	0.49953493	No	
+row_50	PTX3	PTX3	pentraxin-related gene, rapidly induced by IL-1 beta	6461	-0.310867577791214	0.43921843	No	
+row_51	NPY1R	NPY1R	neuropeptide Y receptor Y1	6476	-0.31530582904815674	0.43965653	No	
+row_52	GPX3	GPX3	glutathione peroxidase 3 (plasma)	6698	-0.3683319687843323	0.42427474	No	
+row_53	BST2	BST2	bone marrow stromal cell antigen 2	7139	-0.47070369124412537	0.39237985	No	
+row_54	CASQ2	CASQ2	calsequestrin 2 (cardiac muscle)	9033	-1.041652798652649	0.25040147	No	
+row_55	ABCC6	ABCC6	ATP-binding cassette, sub-family C (CFTR/MRP), member 6	11036	-2.4159953594207764	0.1066066	No	
+row_56	TAC1	TAC1	tachykinin, precursor 1 (substance K, substance P, neurokinin 1, neurokinin 2, neuromedin L, neurokinin alpha, neuropeptide K, neuropeptide gamma)	11070	-2.467393159866333	0.11598054	No	
+row_57	VIPR1	VIPR1	vasoactive intestinal peptide receptor 1	11338	-2.8661961555480957	0.10911048	No	
+row_58	TNMD	TNMD	tenomodulin	11452	-3.051652193069458	0.115097865	No	

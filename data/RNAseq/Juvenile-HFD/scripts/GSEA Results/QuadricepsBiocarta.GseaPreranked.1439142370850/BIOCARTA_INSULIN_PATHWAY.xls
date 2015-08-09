@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IRS1	IRS1	insulin receptor substrate 1	2223	0.3504559099674225	-0.111474566	No	
+row_1	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	-0.16615632	No	
+row_2	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	-0.13546275	No	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	-0.15617749	No	
+row_4	CSNK2A1	CSNK2A1	casein kinase 2, alpha 1 polypeptide	4195	0.10994203388690948	-0.15247302	No	
+row_5	SRF	SRF	serum response factor (c-fos serum response element-binding transcription factor)	4221	0.10844840854406357	-0.13269447	No	
+row_6	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	-0.12194972	No	
+row_7	SLC2A4	SLC2A4	solute carrier family 2 (facilitated glucose transporter), member 4	5505	0.02277437224984169	-0.21283057	No	
+row_8	INSR	INSR	insulin receptor	6256	-0.021388236433267593	-0.2699311	No	
+row_9	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	-0.29212102	No	
+row_10	ELK1	ELK1	ELK1, member of ETS oncogene family	6984	-0.06501252204179764	-0.3077747	No	
+row_11	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	-0.2991289	No	
+row_12	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	-0.29474202	No	
+row_13	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	7397	-0.09080315381288528	-0.29382488	No	
+row_14	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	-0.30112565	No	
+row_15	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-0.28273052	No	
+row_16	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.33540204	Yes	
+row_17	JUN	JUN	jun oncogene	9379	-0.2708636522293091	-0.30602548	Yes	
+row_18	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	9692	-0.327439546585083	-0.26567233	Yes	
+row_19	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.2079271	Yes	
+row_20	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	11426	-1.9830992221832275	0.06615361	Yes	

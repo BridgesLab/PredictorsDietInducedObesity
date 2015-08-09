@@ -1,0 +1,31 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGR	FGR	Gardner-Rasheed feline sarcoma viral (v-fgr) oncogene homolog	1422	0.6730913519859314	-0.10225482	No	
+row_1	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	2465	0.29934123158454895	-0.1812902	No	
+row_2	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	2533	0.28884175419807434	-0.18066262	No	
+row_3	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	-0.24306025	No	
+row_4	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3795	0.14097797870635986	-0.27702665	No	
+row_5	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	-0.28851318	No	
+row_6	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	-0.31653464	No	
+row_7	EFNB2	EFNB2	ephrin-B2	4423	0.09247805178165436	-0.32145855	No	
+row_8	RGS3	RGS3	regulator of G-protein signalling 3	4563	0.08260399848222733	-0.33109793	No	
+row_9	FYN	FYN	FYN oncogene related to SRC, FGR, YES	4568	0.08248276263475418	-0.32967883	No	
+row_10	NCK2	NCK2	NCK adaptor protein 2	4872	0.06321029365062714	-0.35316604	No	
+row_11	DNM1	DNM1	dynamin 1	5295	0.033528074622154236	-0.38703197	No	
+row_12	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	5444	0.02577689103782177	-0.39861226	No	
+row_13	CXCR4	CXCR4	chemokine (C-X-C motif) receptor 4	6406	-0.03032987006008625	-0.47670814	No	
+row_14	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	6904	-0.05932068079710007	-0.5161729	No	
+row_15	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	-0.53522867	No	
+row_16	TIAM1	TIAM1	T-cell lymphoma invasion and metastasis 1	7302	-0.08320590108633041	-0.54526496	No	
+row_17	PTPN13	PTPN13	protein tyrosine phosphatase, non-receptor type 13 (APO-1/CD95 (Fas)-associated phosphatase)	7957	-0.13052119314670563	-0.59608537	No	
+row_18	EPHB1	EPHB1	EPH receptor B1	8691	-0.19318504631519318	-0.65205145	No	
+row_19	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8827	-0.2071710228919983	-0.658725	No	
+row_20	EFNB1	EFNB1	ephrin-B1	8977	-0.22121842205524445	-0.66624814	No	
+row_21	EPHB4	EPHB4	EPH receptor B4	9099	-0.23575834929943085	-0.67116916	No	
+row_22	ITGA2B	ITGA2B	integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41)	10438	-0.5574685335159302	-0.7689903	No	
+row_23	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	-0.774682	Yes	
+row_24	EPHB2	EPHB2	EPH receptor B2	10842	-0.863773763179779	-0.7683512	Yes	
+row_25	HCK	HCK	hemopoietic cell kinase	11027	-1.1364591121673584	-0.75935894	Yes	
+row_26	BLK	BLK	B lymphoid tyrosine kinase	12020	-4.4941935539245605	-0.74545854	Yes	
+row_27	FGG	FGG	fibrinogen gamma chain	12155	-6.689607620239258	-0.6147644	Yes	
+row_28	FGB	FGB	fibrinogen beta chain	12174	-7.116446018218994	-0.46552634	Yes	
+row_29	FGA	FGA	fibrinogen alpha chain	12234	-22.209741592407227	-9.06075E-8	Yes	

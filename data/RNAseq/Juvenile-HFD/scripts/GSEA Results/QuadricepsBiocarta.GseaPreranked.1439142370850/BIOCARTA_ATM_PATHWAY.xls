@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RAD51	RAD51	RAD51 homolog (RecA homolog, E. coli) (S. cerevisiae)	1018	1.129015564918518	0.09146509	No	
+row_1	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	2199	0.3557278513908386	0.04995134	No	
+row_2	MRE11A	MRE11A	MRE11 meiotic recombination 11 homolog A (S. cerevisiae)	2838	0.24032950401306152	0.03493629	No	
+row_3	CHEK1	CHEK1	CHK1 checkpoint homolog (S. pombe)	3114	0.20642119646072388	0.04438433	No	
+row_4	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	3183	0.19960279762744904	0.069720365	No	
+row_5	MAPK8	MAPK8	mitogen-activated protein kinase 8	3343	0.18352393805980682	0.085118465	No	
+row_6	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	-0.03596699	No	
+row_7	RBBP8	RBBP8	retinoblastoma binding protein 8	5749	0.007989717647433281	-0.10135851	No	
+row_8	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	-0.102347866	No	
+row_9	CHEK2	CHEK2	CHK2 checkpoint homolog (S. pombe)	5940	-0.004411798901855946	-0.11517061	No	
+row_10	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	6541	-0.03814968094229698	-0.15837626	No	
+row_11	RAD50	RAD50	RAD50 homolog (S. cerevisiae)	6693	-0.04624834284186363	-0.16357602	No	
+row_12	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	7258	-0.08057409524917603	-0.1972669	No	
+row_13	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	-0.20128599	No	
+row_14	GADD45A	GADD45A	growth arrest and DNA-damage-inducible, alpha	8266	-0.1566229611635208	-0.2400649	No	
+row_15	JUN	JUN	jun oncogene	9379	-0.2708636522293091	-0.28915113	Yes	
+row_16	NBN	NBN	nibrin	9752	-0.3392195999622345	-0.2670833	Yes	
+row_17	BRCA1	BRCA1	breast cancer 1, early onset	11797	-3.036868095397949	0.035769816	Yes	

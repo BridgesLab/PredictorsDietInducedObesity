@@ -1,0 +1,12 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NFKBIE	NFKBIE	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, epsilon	1524	0.6085495948791504	-0.07238976	No	
+row_1	MDFI	MDFI	MyoD family inhibitor	2286	0.33496159315109253	-0.1058664	No	
+row_2	FAF1	FAF1	Fas (TNFRSF6) associated factor 1	5848	0.0023087861482053995	-0.39698023	No	
+row_3	PDIA3	PDIA3	protein disulfide isomerase family A, member 3	6614	-0.041400469839572906	-0.45600516	No	
+row_4	SUPT7L	SUPT7L	suppressor of Ty 7 (S. cerevisiae)-like	7049	-0.0687103122472763	-0.4856059	No	
+row_5	NFKBIL1	NFKBIL1	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor-like 1	7169	-0.07595812529325485	-0.48881495	No	
+row_6	MXI1	MXI1	MAX interactor 1	8644	-0.18878273665905	-0.59317833	No	
+row_7	TAF3	TAF3	TAF3 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 140kDa	9195	-0.24744030833244324	-0.61691314	No	
+row_8	TOPORS	TOPORS	topoisomerase I binding, arginine/serine-rich	9657	-0.32016056776046753	-0.62711954	Yes	
+row_9	PDIA2	PDIA2	protein disulfide isomerase family A, member 2	11534	-2.1825923919677734	-0.59307253	Yes	
+row_10	ALB	ALB	albumin	12192	-7.568662166595459	0.003435865	Yes	

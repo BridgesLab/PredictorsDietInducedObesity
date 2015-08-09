@@ -1,0 +1,69 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CACNG5	CACNG5	calcium channel, voltage-dependent, gamma subunit 5	14	7.0834879875183105	0.13813172	No	
+row_1	COX7B2	COX7B2	cytochrome c oxidase subunit VIIb2	501	2.527392864227295	0.14788365	No	
+row_2	CACNG4	CACNG4	calcium channel, voltage-dependent, gamma subunit 4	816	1.600512981414795	0.15354697	No	
+row_3	COX6A1	COX6A1	cytochrome c oxidase subunit VIa polypeptide 1	1430	0.6644865274429321	0.11623056	No	
+row_4	FXYD2	FXYD2	FXYD domain containing ion transport regulator 2	1565	0.5862108469009399	0.11674381	No	
+row_5	CACNG2	CACNG2	calcium channel, voltage-dependent, gamma subunit 2	1650	0.5396952033042908	0.1204519	No	
+row_6	ATP1A3	ATP1A3	ATPase, Na+/K+ transporting, alpha 3 polypeptide	1760	0.4895268380641937	0.121118784	No	
+row_7	SLC8A1	SLC8A1	solute carrier family 8 (sodium/calcium exchanger), member 1	2196	0.3560880124568939	0.09236809	No	
+row_8	COX8A	COX8A	cytochrome c oxidase subunit 8A (ubiquitous)	2232	0.34832045435905457	0.09634047	No	
+row_9	ATP1B3	ATP1B3	ATPase, Na+/K+ transporting, beta 3 polypeptide	2271	0.3384743928909302	0.09987268	No	
+row_10	CACNG6	CACNG6	calcium channel, voltage-dependent, gamma subunit 6	2847	0.23932980000972748	0.05731963	No	
+row_11	TNNT2	TNNT2	troponin T type 2 (cardiac)	3246	0.1920492798089981	0.028384455	No	
+row_12	COX7A2	COX7A2	cytochrome c oxidase subunit VIIa polypeptide 2 (liver)	3628	0.15560221672058105	1.2984523E-4	No	
+row_13	CACNA2D4	CACNA2D4	calcium channel, voltage-dependent, alpha 2/delta subunit 4	3787	0.14239512383937836	-0.01005619	No	
+row_14	ATP1B1	ATP1B1	ATPase, Na+/K+ transporting, beta 1 polypeptide	3839	0.13715508580207825	-0.011550981	No	
+row_15	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	4288	0.10402976721525192	-0.046326358	No	
+row_16	SLC9A6	SLC9A6	solute carrier family 9 (sodium/hydrogen exchanger), member 6	4534	0.08561668545007706	-0.06477931	No	
+row_17	CACNG1	CACNG1	calcium channel, voltage-dependent, gamma subunit 1	5504	0.022846553474664688	-0.14397174	No	
+row_18	ATP1B2	ATP1B2	ATPase, Na+/K+ transporting, beta 2 polypeptide	5835	0.0031275057699531317	-0.17103279	No	
+row_19	TPM4	TPM4	tropomyosin 4	5841	0.0027579092420637608	-0.1713895	No	
+row_20	CACNA2D1	CACNA2D1	calcium channel, voltage-dependent, alpha 2/delta subunit 1	6071	-0.011402387171983719	-0.1899867	No	
+row_21	SLC9A1	SLC9A1	solute carrier family 9 (sodium/hydrogen exchanger), member 1 (antiporter, Na+/H+, amiloride sensitive)	6203	-0.01831716299057007	-0.20039336	No	
+row_22	COX7B	COX7B	cytochrome c oxidase subunit VIIb	6388	-0.029247993603348732	-0.21494113	No	
+row_23	CACNB1	CACNB1	calcium channel, voltage-dependent, beta 1 subunit	6462	-0.0329425074160099	-0.22029322	No	
+row_24	ATP1A1	ATP1A1	ATPase, Na+/K+ transporting, alpha 1 polypeptide	6814	-0.053657252341508865	-0.24808669	No	
+row_25	COX7C	COX7C	cytochrome c oxidase subunit VIIc	7004	-0.06632447987794876	-0.26231638	No	
+row_26	UQCRC2	UQCRC2	ubiquinol-cytochrome c reductase core protein II	7070	-0.06961816549301147	-0.2662898	No	
+row_27	COX5B	COX5B	cytochrome c oxidase subunit Vb	7224	-0.07854729145765305	-0.27732033	No	
+row_28	CACNG7	CACNG7	calcium channel, voltage-dependent, gamma subunit 7	7587	-0.10484420508146286	-0.3050114	No	
+row_29	ATP1A2	ATP1A2	ATPase, Na+/K+ transporting, alpha 2 (+) polypeptide	7746	-0.11581266671419144	-0.3157201	No	
+row_30	CYC1	CYC1	cytochrome c-1	7782	-0.11819316446781158	-0.3162727	No	
+row_31	CACNA1S	CACNA1S	calcium channel, voltage-dependent, L type, alpha 1S subunit	7813	-0.12033107131719589	-0.31637233	No	
+row_32	COX7A2L	COX7A2L	cytochrome c oxidase subunit VIIa polypeptide 2 like	7888	-0.1253059208393097	-0.31999046	No	
+row_33	COX6C	COX6C	cytochrome c oxidase subunit VIc	7914	-0.12692196667194366	-0.31954953	No	
+row_34	COX4I2	COX4I2	cytochrome c oxidase subunit IV isoform 2 (lung)	8023	-0.13582691550254822	-0.32575524	No	
+row_35	COX4I1	COX4I1	cytochrome c oxidase subunit IV isoform 1	8027	-0.13654334843158722	-0.32331696	No	
+row_36	TPM1	TPM1	tropomyosin 1 (alpha)	8211	-0.15185822546482086	-0.33537167	No	
+row_37	COX7A1	COX7A1	cytochrome c oxidase subunit VIIa polypeptide 1 (muscle)	8368	-0.16396629810333252	-0.34496918	No	
+row_38	UQCRQ	UQCRQ	ubiquinol-cytochrome c reductase, complex III subunit VII, 9.5kDa	8716	-0.19665130972862244	-0.3696222	No	
+row_39	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	8749	-0.20006079971790314	-0.36831847	No	
+row_40	CACNA1D	CACNA1D	calcium channel, voltage-dependent, L type, alpha 1D subunit	8801	-0.2051367461681366	-0.36847654	No	
+row_41	UQCRFS1	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1	9119	-0.23882150650024414	-0.38983467	No	
+row_42	ATP1B4	ATP1B4	ATPase, (Na+)/K+ transporting, beta 4 polypeptide	9141	-0.24166488647460938	-0.3868088	No	
+row_43	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	9214	-0.250570684671402	-0.3877995	No	
+row_44	COX6B2	COX6B2	cytochrome c oxidase subunit VIb polypeptide 2 (testis)	9227	-0.252349317073822	-0.38382384	No	
+row_45	CACNB4	CACNB4	calcium channel, voltage-dependent, beta 4 subunit	9326	-0.2644932270050049	-0.38667768	No	
+row_46	CACNB2	CACNB2	calcium channel, voltage-dependent, beta 2 subunit	9527	-0.2946450412273407	-0.397322	No	
+row_47	COX6A2	COX6A2	cytochrome c oxidase subunit VIa polypeptide 2	9551	-0.29797232151031494	-0.39335334	No	
+row_48	CACNA2D2	CACNA2D2	calcium channel, voltage-dependent, alpha 2/delta subunit 2	9771	-0.3429658114910126	-0.4046091	No	
+row_49	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	9785	-0.34539994597435	-0.398886	No	
+row_50	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	9806	-0.35011765360832214	-0.39364544	No	
+row_51	TPM2	TPM2	tropomyosin 2 (beta)	9848	-0.3585957884788513	-0.38996416	No	
+row_52	ACTC1	ACTC1	actin, alpha, cardiac muscle 1	9916	-0.3743840754032135	-0.38810936	No	
+row_53	COX6B1	COX6B1	cytochrome c oxidase subunit Vib polypeptide 1 (ubiquitous)	9943	-0.37906768918037415	-0.38279268	No	
+row_54	TNNI3	TNNI3	troponin I type 3 (cardiac)	10014	-0.3989501893520355	-0.3807014	No	
+row_55	COX5A	COX5A	cytochrome c oxidase subunit Va	10241	-0.471933513879776	-0.38999662	No	
+row_56	ATP1A4	ATP1A4	ATPase, Na+/K+ transporting, alpha 4 polypeptide	10441	-0.558705747127533	-0.39536652	No	
+row_57	CACNB3	CACNB3	calcium channel, voltage-dependent, beta 3 subunit	10760	-0.7810923457145691	-0.4061442	Yes	
+row_58	CACNA2D3	CACNA2D3	calcium channel, voltage-dependent, alpha 2/delta 3 subunit	10950	-1.0080070495605469	-0.4018576	Yes	
+row_59	RYR2	RYR2	ryanodine receptor 2 (cardiac)	11268	-1.617676019668579	-0.3961034	Yes	
+row_60	TPM3	TPM3	tropomyosin 3	11350	-1.8170452117919922	-0.36703226	Yes	
+row_61	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	11374	-1.8844225406646729	-0.33186927	Yes	
+row_62	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	11699	-2.7073278427124023	-0.3052646	Yes	
+row_63	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	11702	-2.7151999473571777	-0.2520401	Yes	
+row_64	MYH7	MYH7	myosin, heavy chain 7, cardiac muscle, beta	11758	-2.816828966140747	-0.2011733	Yes	
+row_65	TNNC1	TNNC1	troponin C type 1 (slow)	11796	-3.0358433723449707	-0.14452064	Yes	
+row_66	CACNA1F	CACNA1F	calcium channel, voltage-dependent, alpha 1F subunit	11857	-3.302424669265747	-0.08451655	Yes	
+row_67	CACNG8	CACNG8	calcium channel, voltage-dependent, gamma subunit 8	12115	-5.869907379150391	0.009780529	Yes	

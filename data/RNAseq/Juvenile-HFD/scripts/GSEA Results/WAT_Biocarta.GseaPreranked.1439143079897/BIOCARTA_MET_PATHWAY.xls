@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ACTA1	ACTA1	actin, alpha 1, skeletal muscle	40	7.733504295349121	0.18277554	Yes	
+row_1	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.17333962	Yes	
+row_2	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.22169805	Yes	
+row_3	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1373	2.2552542686462402	0.26179296	Yes	
+row_4	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	1534	2.0107243061065674	0.29771623	Yes	
+row_5	RAPGEF1	RAPGEF1	Rap guanine nucleotide exchange factor (GEF) 1	1789	1.7223161458969116	0.31941956	Yes	
+row_6	ITGA1	ITGA1	integrin, alpha 1	1861	1.6487354040145874	0.35354263	Yes	
+row_7	RAP1A	RAP1A	RAP1A, member of RAS oncogene family	2044	1.453795313835144	0.37437424	Yes	
+row_8	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.40746185	Yes	
+row_9	ELK1	ELK1	ELK1, member of ETS oncogene family	2211	1.301913857460022	0.42727906	Yes	
+row_10	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	2221	1.2897648811340332	0.4575811	Yes	
+row_11	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	2358	1.180870532989502	0.47541937	Yes	
+row_12	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.50103223	Yes	
+row_13	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.5208067	Yes	
+row_14	MAP4K1	MAP4K1	mitogen-activated protein kinase kinase kinase kinase 1	2545	1.016396164894104	0.5393437	Yes	
+row_15	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.53985876	Yes	
+row_16	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	2820	0.83323734998703	0.5584903	Yes	
+row_17	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	3138	0.6569126844406128	0.54970187	Yes	
+row_18	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.5558467	Yes	
+row_19	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.5621627	Yes	
+row_20	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.5641917	Yes	
+row_21	DOCK1	DOCK1	dedicator of cytokinesis 1	3734	0.38879507780075073	0.5531457	No	
+row_22	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5577369	No	
+row_23	PTK2B	PTK2B	PTK2B protein tyrosine kinase 2 beta	4138	0.25808095932006836	0.537114	No	
+row_24	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	4341	0.1897527426481247	0.52601343	No	
+row_25	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.5214692	No	
+row_26	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	4498	0.143723726272583	0.52120215	No	
+row_27	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.48070052	No	
+row_28	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.45799217	No	
+row_29	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	0.4063741	No	
+row_30	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.37359795	No	
+row_31	PXN	PXN	paxillin	7542	-0.5692581534385681	0.31478834	No	
+row_32	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	8030	-0.6928877234458923	0.2936843	No	
+row_33	GAB1	GAB1	GRB2-associated binding protein 1	8172	-0.7347733974456787	0.30041283	No	
+row_34	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	8494	-0.8370139598846436	0.2956431	No	
+row_35	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.3100766	No	
+row_36	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.27988845	No	

@@ -1,0 +1,95 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL6	IL6	interleukin 6 (interferon, beta 2)	166	4.199713706970215	0.09864044	Yes	
+row_1	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	368	2.8872642517089844	0.15929921	Yes	
+row_2	IL1R2	IL1R2	interleukin 1 receptor, type II	557	2.447561264038086	0.20926972	Yes	
+row_3	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.24224585	Yes	
+row_4	CASP1	CASP1	caspase 1, apoptosis-related cysteine peptidase (interleukin 1, beta, convertase)	836	1.5234390497207642	0.27540964	Yes	
+row_5	IL1RN	IL1RN	interleukin 1 receptor antagonist	988	1.1805614233016968	0.29454425	Yes	
+row_6	IL2	IL2	interleukin 2	1151	0.9341790676116943	0.30618382	Yes	
+row_7	IL2RA	IL2RA	interleukin 2 receptor, alpha	1197	0.8816441893577576	0.3260552	Yes	
+row_8	PTK2B	PTK2B	PTK2B protein tyrosine kinase 2 beta	1285	0.7716411352157593	0.33952543	Yes	
+row_9	IRAK3	IRAK3	interleukin-1 receptor-associated kinase 3	1293	0.764602780342102	0.3593967	Yes	
+row_10	IL7	IL7	interleukin 7	1348	0.7213791012763977	0.37424082	Yes	
+row_11	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.37981722	Yes	
+row_12	RIPK2	RIPK2	receptor-interacting serine-threonine kinase 2	1588	0.578131377696991	0.38704166	Yes	
+row_13	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	1719	0.505634605884552	0.38985634	Yes	
+row_14	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	1771	0.486439973115921	0.3986646	Yes	
+row_15	SYK	SYK	spleen tyrosine kinase	1848	0.4591689705848694	0.4046844	Yes	
+row_16	CSF2RB	CSF2RB	colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)	2091	0.38650238513946533	0.39508817	No	
+row_17	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	2465	0.29934123158454895	0.37237114	No	
+row_18	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	2533	0.28884175419807434	0.37457713	No	
+row_19	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	2821	0.24302102625370026	0.35743734	No	
+row_20	IRAK2	IRAK2	interleukin-1 receptor-associated kinase 2	2870	0.23589687049388885	0.3597924	No	
+row_21	TRAF6	TRAF6	TNF receptor-associated factor 6	3074	0.21015088260173798	0.34869227	No	
+row_22	MAP3K3	MAP3K3	mitogen-activated protein kinase kinase kinase 3	3228	0.1938130110502243	0.3412735	No	
+row_23	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3231	0.19360294938087463	0.3462863	No	
+row_24	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	0.33692238	No	
+row_25	RBX1	RBX1	ring-box 1	3459	0.17158767580986023	0.33698106	No	
+row_26	IL6ST	IL6ST	interleukin 6 signal transducer (gp130, oncostatin M receptor)	3518	0.16651563346385956	0.336657	No	
+row_27	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3811	0.13945505023002625	0.3163357	No	
+row_28	IL3RA	IL3RA	interleukin 3 receptor, alpha (low affinity)	3955	0.1276799887418747	0.30797198	No	
+row_29	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.31029555	No	
+row_30	BTRC	BTRC	beta-transducin repeat containing	3994	0.1254054307937622	0.3116725	No	
+row_31	YWHAZ	YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide	4020	0.1229005753993988	0.3129001	No	
+row_32	CUL1	CUL1	cullin 1	4059	0.12000324577093124	0.31297946	No	
+row_33	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.30152237	No	
+row_34	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	4262	0.10553818196058273	0.30212092	No	
+row_35	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	4302	0.10265637189149857	0.301654	No	
+row_36	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.30146104	No	
+row_37	STAT5B	STAT5B	signal transducer and activator of transcription 5B	4354	0.0993134006857872	0.3028815	No	
+row_38	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	4438	0.09168624877929688	0.29849714	No	
+row_39	NFKB2	NFKB2	nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100)	4527	0.08596916496753693	0.29354805	No	
+row_40	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	4555	0.08333557844161987	0.29355282	No	
+row_41	FYN	FYN	FYN oncogene related to SRC, FGR, YES	4568	0.08248276263475418	0.29477027	No	
+row_42	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	4816	0.0663435310125351	0.27620023	No	
+row_43	MYD88	MYD88	myeloid differentiation primary response gene (88)	4885	0.061958834528923035	0.27225634	No	
+row_44	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	4953	0.05683550983667374	0.2682578	No	
+row_45	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5042	0.050998505204916	0.26237348	No	
+row_46	IL5RA	IL5RA	interleukin 5 receptor, alpha	5056	0.050039034336805344	0.26264092	No	
+row_47	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5100	0.04559203237295151	0.2603185	No	
+row_48	BLNK	BLNK	B-cell linker	5233	0.03727196902036667	0.25044298	No	
+row_49	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	5386	0.028700249269604683	0.23869097	No	
+row_50	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	5444	0.02577689103782177	0.23468548	No	
+row_51	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	5471	0.02460470423102379	0.23320198	No	
+row_52	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	5725	0.009372304193675518	0.21261415	No	
+row_53	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.20882905	No	
+row_54	TOLLIP	TOLLIP	toll interacting protein	6004	-0.00773474620655179	0.19017419	No	
+row_55	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	6139	-0.015314154326915741	0.17954676	No	
+row_56	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.16765462	No	
+row_57	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.16328213	No	
+row_58	PELI2	PELI2	pellino homolog 2 (Drosophila)	6616	-0.04140955209732056	0.14297451	No	
+row_59	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	0.1428702	No	
+row_60	MAP2K6	MAP2K6	mitogen-activated protein kinase kinase 6	6735	-0.049156591296195984	0.13578352	No	
+row_61	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	0.11200183	No	
+row_62	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	0.113836125	No	
+row_63	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	0.10695028	No	
+row_64	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	0.106860474	No	
+row_65	PELI3	PELI3	pellino homolog 3 (Drosophila)	7393	-0.09057994186878204	0.09215083	No	
+row_66	RAPGEF1	RAPGEF1	Rap guanine nucleotide exchange factor (GEF) 1	7611	-0.106366366147995	0.07712207	No	
+row_67	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7662	-0.11022922396659851	0.07595166	No	
+row_68	SQSTM1	SQSTM1	sequestosome 1	7680	-0.11156560480594635	0.07753505	No	
+row_69	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	0.07278118	No	
+row_70	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.0696497	No	
+row_71	IL7R	IL7R	interleukin 7 receptor	7920	-0.12743331491947174	0.06786863	No	
+row_72	TYK2	TYK2	tyrosine kinase 2	8001	-0.1341870129108429	0.06486795	No	
+row_73	SOCS3	SOCS3	suppressor of cytokine signaling 3	8924	-0.21689200401306152	-0.005272719	No	
+row_74	IL1RAP	IL1RAP	interleukin 1 receptor accessory protein	9091	-0.23482172191143036	-0.01266555	No	
+row_75	TNIP2	TNIP2	TNFAIP3 interacting protein 2	9132	-0.2402445673942566	-0.009535301	No	
+row_76	CSF2RA	CSF2RA	colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage)	9140	-0.24135294556617737	-0.0036573478	No	
+row_77	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	9237	-0.25364887714385986	-0.0047810962	No	
+row_78	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	9313	-0.26288267970085144	-0.0039282287	No	
+row_79	IL1R1	IL1R1	interleukin 1 receptor, type I	9528	-0.29488953948020935	-0.013668209	No	
+row_80	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	-0.005938669	No	
+row_81	INPPL1	INPPL1	inositol polyphosphate phosphatase-like 1	9645	-0.3174455165863037	-0.006756516	No	
+row_82	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	-0.005030617	No	
+row_83	PELI1	PELI1	pellino homolog 1 (Drosophila)	9756	-0.339737206697464	0.0023253134	No	
+row_84	TEC	TEC	tec protein tyrosine kinase	9885	-0.36621955037117004	0.0015763503	No	
+row_85	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	0.010491699	No	
+row_86	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	9925	-0.376265287399292	0.018412674	No	
+row_87	IRAK4	IRAK4	interleukin-1 receptor-associated kinase 4	9995	-0.3924199938774109	0.023223957	No	
+row_88	VAV1	VAV1	vav 1 oncogene	10287	-0.490598201751709	0.012375675	No	
+row_89	GAB2	GAB2	GRB2-associated binding protein 2	10364	-0.5232264995574951	0.020108564	No	
+row_90	MAP3K8	MAP3K8	mitogen-activated protein kinase kinase kinase 8	10561	-0.6247237920761108	0.020671934	No	
+row_91	LCK	LCK	lymphocyte-specific protein tyrosine kinase	10695	-0.7216551899909973	0.029016573	No	
+row_92	HCK	HCK	hemopoietic cell kinase	11027	-1.1364591121673584	0.032145955	No	
+row_93	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	11673	-2.51231050491333	0.04620701	No	

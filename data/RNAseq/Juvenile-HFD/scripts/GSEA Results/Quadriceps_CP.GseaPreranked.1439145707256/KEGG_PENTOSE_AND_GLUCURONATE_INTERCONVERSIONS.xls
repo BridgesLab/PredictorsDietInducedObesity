@@ -1,0 +1,14 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DCXR	DCXR	dicarbonyl/L-xylulose reductase	1610	0.5617729425430298	-0.10702792	No	
+row_1	CRYL1	CRYL1	crystallin, lambda 1	2077	0.38998472690582275	-0.12800784	No	
+row_2	GUSB	GUSB	glucuronidase, beta	2748	0.2540394961833954	-0.17165662	No	
+row_3	DHDH	DHDH	dihydrodiol dehydrogenase (dimeric)	4361	0.0985657274723053	-0.2992159	No	
+row_4	UGP2	UGP2	UDP-glucose pyrophosphorylase 2	8134	-0.1459198147058487	-0.60142344	No	
+row_5	RPE	RPE	ribulose-5-phosphate-3-epimerase	8986	-0.22220614552497864	-0.66128135	No	
+row_6	UGDH	UGDH	UDP-glucose dehydrogenase	10349	-0.5164120197296143	-0.7500126	No	
+row_7	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	11398	-1.892829418182373	-0.75252986	Yes	
+row_8	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	11539	-2.1825923919677734	-0.6680137	Yes	
+row_9	XYLB	XYLB	xylulokinase homolog (H. influenzae)	11557	-2.279142379760742	-0.5691883	Yes	
+row_10	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	11806	-3.0664620399475098	-0.45464396	Yes	
+row_11	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	11937	-3.852306604385376	-0.2958905	Yes	
+row_12	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	12180	-7.279993534088135	0.0044182003	Yes	

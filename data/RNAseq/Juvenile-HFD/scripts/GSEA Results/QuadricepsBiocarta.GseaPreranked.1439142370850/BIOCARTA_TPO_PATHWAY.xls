@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	-0.10873408	No	
+row_1	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	-0.17410746	No	
+row_2	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3811	0.13945505023002625	-0.18022493	No	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	-0.16831718	No	
+row_4	CSNK2A1	CSNK2A1	casein kinase 2, alpha 1 polypeptide	4195	0.10994203388690948	-0.16529049	No	
+row_5	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	-0.1572941	No	
+row_6	STAT5B	STAT5B	signal transducer and activator of transcription 5B	4354	0.0993134006857872	-0.13914625	No	
+row_7	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5042	0.050998505204916	-0.18544799	No	
+row_8	THPO	THPO	thrombopoietin (myeloproliferative leukemia virus oncogene ligand, megakaryocyte growth and development factor)	6050	-0.010423584841191769	-0.26586747	No	
+row_9	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	-0.2854029	No	
+row_10	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	-0.29974937	No	
+row_11	STAT5A	STAT5A	signal transducer and activator of transcription 5A	7047	-0.06857803463935852	-0.32026812	No	
+row_12	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	-0.30688623	No	
+row_13	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	-0.30297217	No	
+row_14	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	-0.3284412	No	
+row_15	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-0.31080404	No	
+row_16	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.3649118	Yes	
+row_17	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	-0.32483882	Yes	
+row_18	JUN	JUN	jun oncogene	9379	-0.2708636522293091	-0.28951564	Yes	
+row_19	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	9692	-0.327439546585083	-0.25117874	Yes	
+row_20	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.1957129	Yes	
+row_21	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	11426	-1.9830992221832275	0.066158995	Yes	

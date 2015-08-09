@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL4	IL4	interleukin 4	141	4.467897891998291	0.16105935	Yes	
+row_1	CD7	CD7	CD7 molecule	147	4.420373439788818	0.33141297	Yes	
+row_2	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	368	2.8872642517089844	0.42494574	Yes	
+row_3	IL10	IL10	interleukin 10	388	2.878185749053955	0.5345776	Yes	
+row_4	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.64445496	Yes	
+row_5	CD5	CD5	CD5 molecule	802	1.6460508108139038	0.6756348	Yes	
+row_6	CD33	CD33	CD33 molecule	819	1.5904076099395752	0.73576415	Yes	
+row_7	TLR2	TLR2	toll-like receptor 2	1212	0.8635981678962708	0.7370445	Yes	
+row_8	TLR9	TLR9	toll-like receptor 9	1315	0.7415943145751953	0.7573453	Yes	
+row_9	TLR4	TLR4	toll-like receptor 4	2222	0.3505037724971771	0.6967387	No	
+row_10	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.6659636	No	
+row_11	ANPEP	ANPEP	alanyl (membrane) aminopeptidase (aminopeptidase N, aminopeptidase M, microsomal aminopeptidase, CD13, p150)	7930	-0.1282082498073578	0.24469492	No	
+row_12	ITGAX	ITGAX	integrin, alpha X (complement component 3 receptor 4 subunit)	9655	-0.31967294216156006	0.11595241	No	
+row_13	CD2	CD2	CD2 molecule	9897	-0.36999818682670593	0.110522375	No	
+row_14	CD40	CD40	CD40 molecule, TNF receptor superfamily member 5	10816	-0.8379182815551758	0.067762986	No	
+row_15	TLR7	TLR7	toll-like receptor 7	11097	-1.2478090524673462	0.09305179	No	

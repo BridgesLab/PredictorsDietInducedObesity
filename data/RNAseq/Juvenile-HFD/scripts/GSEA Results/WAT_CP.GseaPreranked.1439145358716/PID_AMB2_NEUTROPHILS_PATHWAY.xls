@@ -1,0 +1,41 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MST1R	MST1R	macrophage stimulating 1 receptor (c-met-related tyrosine kinase)	272	5.063354969024658	0.05093457	Yes	
+row_1	PLAUR	PLAUR	plasminogen activator, urokinase receptor	378	4.562633037567139	0.10769695	Yes	
+row_2	MMP2	MMP2	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)	473	4.1983323097229	0.16013007	Yes	
+row_3	ITGB2	ITGB2	integrin, beta 2 (complement component 3 receptor 3 and 4 subunit)	691	3.562255859375	0.1939762	Yes	
+row_4	BLK	BLK	B lymphoid tyrosine kinase	757	3.407954216003418	0.23741484	Yes	
+row_5	SELPLG	SELPLG	selectin P ligand	957	2.9621174335479736	0.26411965	Yes	
+row_6	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	960	2.956447124481201	0.30602106	Yes	
+row_7	IL6	IL6	interleukin 6 (interferon, beta 2)	1008	2.8525662422180176	0.34295502	Yes	
+row_8	JAM2	JAM2	junctional adhesion molecule 2	1021	2.821791887283325	0.3821654	Yes	
+row_9	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	1120	2.6500442028045654	0.4122634	Yes	
+row_10	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.4474022	Yes	
+row_11	ITGAM	ITGAM	integrin, alpha M (complement component 3 receptor 3 subunit)	1207	2.492988348007202	0.47813535	Yes	
+row_12	THY1	THY1	Thy-1 cell surface antigen	1454	2.116316556930542	0.48916352	Yes	
+row_13	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	1780	1.7319632768630981	0.48859775	Yes	
+row_14	FGR	FGR	Gardner-Rasheed feline sarcoma viral (v-fgr) oncogene homolog	1820	1.6893792152404785	0.50960535	Yes	
+row_15	SELP	SELP	selectin P (granule membrane protein 140kDa, antigen CD62)	2027	1.4609564542770386	0.51441276	Yes	
+row_16	RAP1A	RAP1A	RAP1A, member of RAS oncogene family	2044	1.453795313835144	0.53385276	Yes	
+row_17	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.54461676	Yes	
+row_18	PLAU	PLAU	plasminogen activator, urokinase	2329	1.2002309560775757	0.5481193	Yes	
+row_19	FYN	FYN	FYN oncogene related to SRC, FGR, YES	2505	1.0475741624832153	0.5494503	Yes	
+row_20	TLN1	TLN1	talin 1	2636	0.9600453972816467	0.55302584	Yes	
+row_21	HCK	HCK	hemopoietic cell kinase	2834	0.8231748342514038	0.54945856	Yes	
+row_22	MYH2	MYH2	myosin, heavy chain 2, skeletal muscle, adult	2926	0.7738419771194458	0.55340976	Yes	
+row_23	HMGB1	HMGB1	high-mobility group box 1	2992	0.7338926196098328	0.5588089	Yes	
+row_24	ICAM1	ICAM1	intercellular adhesion molecule 1 (CD54), human rhinovirus receptor	3133	0.6613787412643433	0.55736035	Yes	
+row_25	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	3138	0.6569126844406128	0.5663949	Yes	
+row_26	ROCK1	ROCK1	Rho-associated, coiled-coil containing protein kinase 1	3252	0.5981104969978333	0.5661402	No	
+row_27	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.550125	No	
+row_28	PLAT	PLAT	plasminogen activator, tissue	3583	0.4591388702392578	0.55386466	No	
+row_29	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	4215	0.23167863488197327	0.50822663	No	
+row_30	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.49321193	No	
+row_31	AGER	AGER	advanced glycosylation end product-specific receptor	4829	0.05721119046211243	0.46385905	No	
+row_32	JAM3	JAM3	junctional adhesion molecule 3	5186	-0.031089067459106445	0.4366937	No	
+row_33	LCK	LCK	lymphocyte-specific protein tyrosine kinase	5685	-0.1461292952299118	0.4001528	No	
+row_34	CTGF	CTGF	connective tissue growth factor	5733	-0.15522697567939758	0.39871615	No	
+row_35	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.19058003	No	
+row_36	PRKCZ	PRKCZ	protein kinase C, zeta	10077	-1.5236854553222656	0.09593083	No	
+row_37	APOB	APOB	apolipoprotein B (including Ag(x) antigen)	11091	-2.4915924072265625	0.052817028	No	
+row_38	PLG	PLG	plasminogen	11483	-3.084174394607544	0.06636867	No	
+row_39	MST1	MST1	macrophage stimulating 1 (hepatocyte growth factor-like)	11559	-3.2391438484191895	0.10663043	No	

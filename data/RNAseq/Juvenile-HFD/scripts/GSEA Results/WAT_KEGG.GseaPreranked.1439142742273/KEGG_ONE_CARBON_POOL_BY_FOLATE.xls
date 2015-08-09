@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATIC	ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase	3056	0.7030685544013977	-0.20199442	No	
+row_1	ALDH1L1	ALDH1L1	aldehyde dehydrogenase 1 family, member L1	3322	0.5672056078910828	-0.19461502	No	
+row_2	MTHFR	MTHFR	5,10-methylenetetrahydrofolate reductase (NADPH)	3919	0.33081236481666565	-0.22448388	No	
+row_3	MTFMT	MTFMT	mitochondrial methionyl-tRNA formyltransferase	3971	0.3098832070827484	-0.21319276	No	
+row_4	TYMS	TYMS	thymidylate synthetase	5832	-0.17753641307353973	-0.34844723	No	
+row_5	GART	GART	phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase	5948	-0.20272734761238098	-0.34738004	No	
+row_6	MTHFS	MTHFS	5,10-methenyltetrahydrofolate synthetase (5-formyltetrahydrofolate cyclo-ligase)	6573	-0.3403228521347046	-0.3789487	No	
+row_7	MTHFD2L	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2-like	7096	-0.45880818367004395	-0.39679468	No	
+row_8	MTR	MTR	5-methyltetrahydrofolate-homocysteine methyltransferase	8974	-1.015433669090271	-0.49215996	Yes	
+row_9	MTHFD1	MTHFD1	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1, methenyltetrahydrofolate cyclohydrolase, formyltetrahydrofolate synthetase	9567	-1.2650456428527832	-0.4757765	Yes	
+row_10	DHFR	DHFR	dihydrofolate reductase	9993	-1.4774905443191528	-0.43601793	Yes	
+row_11	MTHFD2	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase	10104	-1.5391852855682373	-0.36884084	Yes	
+row_12	AMT	AMT	aminomethyltransferase	10210	-1.6084502935409546	-0.2978705	Yes	
+row_13	SHMT2	SHMT2	serine hydroxymethyltransferase 2 (mitochondrial)	10887	-2.215688943862915	-0.24123989	Yes	
+row_14	SHMT1	SHMT1	serine hydroxymethyltransferase 1 (soluble)	10891	-2.2214314937591553	-0.13222905	Yes	
+row_15	MTHFD1L	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like	11221	-2.6737966537475586	-0.026208412	Yes	
+row_16	FTCD	FTCD	formiminotransferase cyclodeaminase	11550	-3.227872371673584	0.10713735	Yes	

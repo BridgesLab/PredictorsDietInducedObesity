@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GSN	GSN	gelsolin (amyloidosis, Finnish type)	2690	0.2636212706565857	-0.17843153	No	
+row_1	PFN1	PFN1	profilin 1	3026	0.21733306348323822	-0.17136711	No	
+row_2	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	-0.17413874	No	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	-0.20025852	No	
+row_4	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	-0.20481575	No	
+row_5	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	-0.19728523	No	
+row_6	FYN	FYN	FYN oncogene related to SRC, FGR, YES	4568	0.08248276263475418	-0.2029451	No	
+row_7	TLN1	TLN1	talin 1	5337	0.03164966404438019	-0.26081043	No	
+row_8	RHOA	RHOA	ras homolog gene family, member A	5453	0.025401633232831955	-0.2661955	No	
+row_9	MYLK	MYLK	myosin, light chain kinase	6175	-0.017095312476158142	-0.3225223	No	
+row_10	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6556	-0.0389585942029953	-0.3474555	No	
+row_11	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	-0.34688318	No	
+row_12	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	7048	-0.06858988106250763	-0.3699791	No	
+row_13	PTK2	PTK2	PTK2 protein tyrosine kinase 2	7367	-0.0879579484462738	-0.38205785	No	
+row_14	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	-0.40247366	No	
+row_15	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8827	-0.2071710228919983	-0.44902024	Yes	
+row_16	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.43206874	Yes	
+row_17	ROCK1	ROCK1	Rho-associated, coiled-coil containing protein kinase 1	9211	-0.25017333030700684	-0.4037419	Yes	
+row_18	ARHGAP5	ARHGAP5	Rho GTPase activating protein 5	9348	-0.2669346034526825	-0.37250897	Yes	
+row_19	PXN	PXN	paxillin	9568	-0.30120110511779785	-0.34263363	Yes	
+row_20	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	-0.31079337	Yes	
+row_21	ITGA1	ITGA1	integrin, alpha 1	10175	-0.44695520401000977	-0.26245058	Yes	
+row_22	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	11702	-2.7151999473571777	0.043563817	Yes	

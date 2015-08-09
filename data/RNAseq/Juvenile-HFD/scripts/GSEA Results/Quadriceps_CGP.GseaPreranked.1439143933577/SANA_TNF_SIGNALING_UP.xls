@@ -1,0 +1,59 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL7	CCL7	chemokine (C-C motif) ligand 7	6	7.801300048828125	0.19238365	Yes	
+row_1	LIPG	LIPG	lipase, endothelial	162	4.2703537940979	0.28523335	Yes	
+row_2	CCL2	CCL2	chemokine (C-C motif) ligand 2	181	4.006468772888184	0.38280955	Yes	
+row_3	UBD	UBD	ubiquitin D	386	2.878185749053955	0.43721583	Yes	
+row_4	CCL8	CCL8	chemokine (C-C motif) ligand 8	430	2.8394453525543213	0.5038859	Yes	
+row_5	INHBA	INHBA	inhibin, beta A (activin A, activin AB alpha polypeptide)	821	1.5881227254867554	0.5111225	Yes	
+row_6	CASP1	CASP1	caspase 1, apoptosis-related cysteine peptidase (interleukin 1, beta, convertase)	836	1.5234390497207642	0.5476377	Yes	
+row_7	CTHRC1	CTHRC1	collagen triple helix repeat containing 1	924	1.3046479225158691	0.5727487	Yes	
+row_8	RAC3	RAC3	ras-related C3 botulinum toxin substrate 3 (rho family, small GTP binding protein Rac3)	1184	0.896295428276062	0.5736388	Yes	
+row_9	TLR2	TLR2	toll-like receptor 2	1212	0.8635981678962708	0.5927728	Yes	
+row_10	RIPK2	RIPK2	receptor-interacting serine-threonine kinase 2	1588	0.578131377696991	0.5762705	No	
+row_11	VCAM1	VCAM1	vascular cell adhesion molecule 1	1835	0.4632875323295593	0.56752264	No	
+row_12	MX1	MX1	myxovirus (influenza virus) resistance 1, interferon-inducible protein p78 (mouse)	2012	0.40915942192077637	0.56318504	No	
+row_13	LAMB3	LAMB3	laminin, beta 3	2021	0.4061685800552368	0.57257	No	
+row_14	OAS2	OAS2	2'-5'-oligoadenylate synthetase 2, 69/71kDa	2123	0.3763577938079834	0.5735806	No	
+row_15	TNFAIP3	TNFAIP3	tumor necrosis factor, alpha-induced protein 3	2163	0.36434537172317505	0.5793858	No	
+row_16	DNAJA1	DNAJA1	DnaJ (Hsp40) homolog, subfamily A, member 1	2701	0.2613247036933899	0.54174715	No	
+row_17	SLC15A3	SLC15A3	solute carrier family 15, member 3	2768	0.2496809959411621	0.54250014	No	
+row_18	IFI30	IFI30	interferon, gamma-inducible protein 30	3029	0.21662023663520813	0.52650404	No	
+row_19	ATP13A3	ATP13A3	ATPase type 13A3	3260	0.1905592978000641	0.5123273	No	
+row_20	CCL11	CCL11	chemokine (C-C motif) ligand 11	3289	0.18844005465507507	0.51468676	No	
+row_21	IFIH1	IFIH1	interferon induced with helicase C domain 1	3292	0.1880812644958496	0.5191726	No	
+row_22	SMAD3	SMAD3	SMAD, mothers against DPP homolog 3 (Drosophila)	3489	0.16906000673770905	0.50725645	No	
+row_23	PLA1A	PLA1A	phospholipase A1 member A	3699	0.14981070160865784	0.49379683	No	
+row_24	BPGM	BPGM	2,3-bisphosphoglycerate mutase	3746	0.14644992351531982	0.49363998	No	
+row_25	SAMHD1	SAMHD1	SAM domain and HD domain 1	3985	0.1257510483264923	0.47720397	No	
+row_26	FTH1	FTH1	ferritin, heavy polypeptide 1	4034	0.12191591411828995	0.4762763	No	
+row_27	OXR1	OXR1	oxidation resistance 1	4582	0.08152853697538376	0.43337122	No	
+row_28	SPAG9	SPAG9	sperm associated antigen 9	4974	0.05608538165688515	0.40264815	No	
+row_29	ICAM1	ICAM1	intercellular adhesion molecule 1 (CD54), human rhinovirus receptor	5183	0.040458597242832184	0.38656706	No	
+row_30	BST2	BST2	bone marrow stromal cell antigen 2	5357	0.030386503785848618	0.3731112	No	
+row_31	SOD2	SOD2	superoxide dismutase 2, mitochondrial	5535	0.020629337057471275	0.35908562	No	
+row_32	LGALS3BP	LGALS3BP	lectin, galactoside-binding, soluble, 3 binding protein	5938	-0.004215206950902939	0.3261768	No	
+row_33	TNIP1	TNIP1	TNFAIP3 interacting protein 1	5987	-0.007039055693894625	0.32240897	No	
+row_34	IFIT1	IFIT1	interferon-induced protein with tetratricopeptide repeats 1	6215	-0.019089577719569206	0.3042392	No	
+row_35	C1QTNF1	C1QTNF1	C1q and tumor necrosis factor related protein 1	6751	-0.05002061277627945	0.26154062	No	
+row_36	SSPN	SSPN	sarcospan (Kras oncogene-associated gene)	7018	-0.06696552038192749	0.2413518	No	
+row_37	CSF1	CSF1	colony stimulating factor 1 (macrophage)	7291	-0.08255258202552795	0.22105561	No	
+row_38	TAPBP	TAPBP	TAP binding protein (tapasin)	7415	-0.09195536375045776	0.21322806	No	
+row_39	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	0.20918348	No	
+row_40	OAS3	OAS3	2'-5'-oligoadenylate synthetase 3, 100kDa	7597	-0.10530130565166473	0.20349258	No	
+row_41	IL7R	IL7R	interleukin 7 receptor	7920	-0.12743331491947174	0.1801999	No	
+row_42	RABL3	RABL3	RAB, member of RAS oncogene family-like 3	8261	-0.15569333732128143	0.15612772	No	
+row_43	TNFAIP2	TNFAIP2	tumor necrosis factor, alpha-induced protein 2	8473	-0.1731870025396347	0.14308178	No	
+row_44	CXCL11	CXCL11	chemokine (C-X-C motif) ligand 11	9020	-0.22558583319187164	0.10382045	No	
+row_45	BIRC3	BIRC3	baculoviral IAP repeat-containing 3	9144	-0.2418367564678192	0.09969852	No	
+row_46	MMP3	MMP3	matrix metallopeptidase 3 (stromelysin 1, progelatinase)	9301	-0.2608497440814972	0.093336634	No	
+row_47	SAMD9L	SAMD9L	sterile alpha motif domain containing 9-like	9512	-0.2912307679653168	0.083291285	No	
+row_48	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	9544	-0.29706326127052307	0.08808998	No	
+row_49	RHOB	RHOB	ras homolog gene family, member B	9680	-0.3247149586677551	0.085031636	No	
+row_50	PARP14	PARP14	poly (ADP-ribose) polymerase family, member 14	9697	-0.3288876414299011	0.09184898	No	
+row_51	SLC7A2	SLC7A2	solute carrier family 7 (cationic amino acid transporter, y+ system), member 2	9751	-0.339155375957489	0.095881656	No	
+row_52	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	9778	-0.3444995880126953	0.10226376	No	
+row_53	LGALS9	LGALS9	lectin, galactoside-binding, soluble, 9 (galectin 9)	10186	-0.4480542540550232	0.07991762	No	
+row_54	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	10203	-0.4532257914543152	0.089809045	No	
+row_55	CXCL10	CXCL10	chemokine (C-X-C motif) ligand 10	10597	-0.6505874991416931	0.07361997	No	
+row_56	SAT1	SAT1	spermidine/spermine N1-acetyltransferase 1	10638	-0.6794508695602417	0.08713357	No	
+row_57	MX2	MX2	myxovirus (influenza virus) resistance 2 (mouse)	11336	-1.7736494541168213	0.07374555	No	

@@ -1,0 +1,31 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIGZ	PIGZ	phosphatidylinositol glycan anchor biosynthesis, class Z	537	2.4657363891601562	0.0109773865	No	
+row_1	DPM3	DPM3	dolichyl-phosphate mannosyltransferase polypeptide 3	1611	0.5608422160148621	-0.064432934	No	
+row_2	ATG7	ATG7	ATG7 autophagy related 7 homolog (S. cerevisiae)	1754	0.4924330711364746	-0.06508829	No	
+row_3	PIGB	PIGB	phosphatidylinositol glycan anchor biosynthesis, class B	1970	0.4214015603065491	-0.073308505	No	
+row_4	PIGG	PIGG	phosphatidylinositol glycan anchor biosynthesis, class G	2265	0.339493989944458	-0.08982768	No	
+row_5	FNTA	FNTA	farnesyltransferase, CAAX box, alpha	2439	0.30400970578193665	-0.097224034	No	
+row_6	PIGK	PIGK	phosphatidylinositol glycan anchor biosynthesis, class K	2489	0.29564040899276733	-0.09464722	No	
+row_7	FNTB	FNTB	farnesyltransferase, CAAX box, beta	2515	0.2918359041213989	-0.09018882	No	
+row_8	CHM	CHM	choroideremia (Rab escort protein 1)	4344	0.10017803311347961	-0.23772995	No	
+row_9	AIPL1	AIPL1	aryl hydrocarbon receptor interacting protein-like 1	4439	0.09157001972198486	-0.24339008	No	
+row_10	PIGT	PIGT	phosphatidylinositol glycan anchor biosynthesis, class T	4497	0.08779589086771011	-0.24610281	No	
+row_11	PIGS	PIGS	phosphatidylinositol glycan anchor biosynthesis, class S	5511	0.02223997190594673	-0.3286057	No	
+row_12	NPC1L1	NPC1L1	NPC1 (Niemann-Pick disease, type C1, gene)-like 1	5763	0.006822524126619101	-0.34901896	No	
+row_13	PIGC	PIGC	phosphatidylinositol glycan anchor biosynthesis, class C	7281	-0.08201443403959274	-0.47148368	No	
+row_14	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	7309	-0.08387830853462219	-0.47182575	No	
+row_15	GPAA1	GPAA1	glycosylphosphatidylinositol anchor attachment protein 1 homolog (yeast)	7316	-0.08404608070850372	-0.4704435	No	
+row_16	PIGV	PIGV	phosphatidylinositol glycan anchor biosynthesis, class V	7404	-0.0911736786365509	-0.4755389	No	
+row_17	DPM2	DPM2	dolichyl-phosphate mannosyltransferase polypeptide 2, regulatory subunit	7891	-0.12556259334087372	-0.5125591	No	
+row_18	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	8045	-0.13781382143497467	-0.5220223	No	
+row_19	PGGT1B	PGGT1B	protein geranylgeranyltransferase type I, beta subunit	8599	-0.18413986265659332	-0.56322604	No	
+row_20	PIGO	PIGO	phosphatidylinositol glycan anchor biosynthesis, class O	8753	-0.2006954699754715	-0.5712872	No	
+row_21	DPM1	DPM1	dolichyl-phosphate mannosyltransferase polypeptide 1, catalytic subunit	10007	-0.395357608795166	-0.6651352	No	
+row_22	SCARF1	SCARF1	scavenger receptor class F, member 1	10113	-0.4270144999027252	-0.6642176	No	
+row_23	PIGA	PIGA	phosphatidylinositol glycan anchor biosynthesis, class A (paroxysmal nocturnal hemoglobinuria)	10515	-0.5950216054916382	-0.6838064	No	
+row_24	PIGH	PIGH	phosphatidylinositol glycan anchor biosynthesis, class H	10726	-0.748694658279419	-0.6843197	Yes	
+row_25	PIGF	PIGF	phosphatidylinositol glycan anchor biosynthesis, class F	10728	-0.749269425868988	-0.667696	Yes	
+row_26	APOA2	APOA2	apolipoprotein A-II	12103	-5.6879401206970215	-0.65345526	Yes	
+row_27	APOA1	APOA1	apolipoprotein A-I	12211	-8.635818481445312	-0.469679	Yes	
+row_28	ANGPTL3	ANGPTL3	angiopoietin-like 3	12222	-9.37259292602539	-0.2615282	Yes	
+row_29	APOA4	APOA4	apolipoprotein A-IV	12229	-11.770315170288086	4.096416E-4	Yes	

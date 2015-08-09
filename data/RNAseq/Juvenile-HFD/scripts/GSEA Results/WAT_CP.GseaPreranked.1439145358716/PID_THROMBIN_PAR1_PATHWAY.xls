@@ -1,0 +1,42 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	F2RL2	F2RL2	coagulation factor II (thrombin) receptor-like 2	67	7.025190830230713	0.108065434	Yes	
+row_1	NOS3	NOS3	nitric oxide synthase 3 (endothelial cell)	276	5.04119873046875	0.17320919	Yes	
+row_2	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.21252596	Yes	
+row_3	TRPC6	TRPC6	transient receptor potential cation channel, subfamily C, member 6	722	3.486421823501587	0.2576444	Yes	
+row_4	ARRB1	ARRB1	arrestin, beta 1	782	3.36015248298645	0.3072417	Yes	
+row_5	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	897	3.0584075450897217	0.3477087	Yes	
+row_6	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.38978598	Yes	
+row_7	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.43627116	Yes	
+row_8	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.4771111	Yes	
+row_9	ROCK2	ROCK2	Rho-associated, coiled-coil containing protein kinase 2	1036	2.799757719039917	0.5220943	Yes	
+row_10	GNG2	GNG2	guanine nucleotide binding protein (G protein), gamma 2	1163	2.5575356483459473	0.5535554	Yes	
+row_11	PLCB1	PLCB1	phospholipase C, beta 1 (phosphoinositide-specific)	1408	2.1947224140167236	0.5700157	Yes	
+row_12	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.53400594	Yes	
+row_13	ARHGEF1	ARHGEF1	Rho guanine nucleotide exchange factor (GEF) 1	2243	1.2726337909698486	0.5476212	Yes	
+row_14	VASP	VASP	vasodilator-stimulated phosphoprotein	2504	1.0497578382492065	0.5443812	Yes	
+row_15	DNM1	DNM1	dynamin 1	2524	1.0290634632110596	0.5594984	Yes	
+row_16	GNA15	GNA15	guanine nucleotide binding protein (G protein), alpha 15 (Gq class)	2750	0.8721252083778381	0.556109	Yes	
+row_17	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.5658383	Yes	
+row_18	SNX2	SNX2	sorting nexin 2	2802	0.8434831500053406	0.5794371	Yes	
+row_19	GNAQ	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide	2861	0.8089718818664551	0.5879813	Yes	
+row_20	AKAP13	AKAP13	A kinase (PRKA) anchor protein 13	3192	0.6285216212272644	0.57252115	No	
+row_21	ROCK1	ROCK1	Rho-associated, coiled-coil containing protein kinase 1	3252	0.5981104969978333	0.57758826	No	
+row_22	F2R	F2R	coagulation factor II (thrombin) receptor	3374	0.5435751080513	0.57696766	No	
+row_23	PLCB2	PLCB2	phospholipase C, beta 2	3471	0.5012419819831848	0.57760346	No	
+row_24	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	3938	0.32431790232658386	0.54669136	No	
+row_25	PKN1	PKN1	protein kinase N1	4203	0.2348976731300354	0.5300038	No	
+row_26	PLCB3	PLCB3	phospholipase C, beta 3 (phosphatidylinositol-specific)	4466	0.1508135050535202	0.5121157	No	
+row_27	ARHGDIA	ARHGDIA	Rho GDP dissociation inhibitor (GDI) alpha	4599	0.11727574467658997	0.50376916	No	
+row_28	DNM2	DNM2	dynamin 2	4650	0.10531022399663925	0.5015892	No	
+row_29	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	4796	0.06615310162305832	0.4914102	No	
+row_30	GNA13	GNA13	guanine nucleotide binding protein (G protein), alpha 13	4895	0.04288588836789131	0.48450118	No	
+row_31	GNA12	GNA12	guanine nucleotide binding protein (G protein) alpha 12	5043	0.001036441302858293	0.47311723	No	
+row_32	ZYX	ZYX	zyxin	5915	-0.19454079866409302	0.40870288	No	
+row_33	GNAI3	GNAI3	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 3	6311	-0.27644699811935425	0.3825254	No	
+row_34	ADRBK2	ADRBK2	adrenergic, beta, receptor kinase 2	7024	-0.44367140531539917	0.3344589	No	
+row_35	GNAO1	GNAO1	guanine nucleotide binding protein (G protein), alpha activating activity polypeptide O	7470	-0.5501213073730469	0.3088159	No	
+row_36	GNA11	GNA11	guanine nucleotide binding protein (G protein), alpha 11 (Gq class)	7731	-0.6199078559875488	0.29864576	No	
+row_37	SNX1	SNX1	sorting nexin 1	9569	-1.2656466960906982	0.17658143	No	
+row_38	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	0.15817696	No	
+row_39	GNAZ	GNAZ	guanine nucleotide binding protein (G protein), alpha z polypeptide	10173	-1.588561773300171	0.18068588	No	
+row_40	GNA14	GNA14	guanine nucleotide binding protein (G protein), alpha 14	10747	-2.0696372985839844	0.16961375	No	

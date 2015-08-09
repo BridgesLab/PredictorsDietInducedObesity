@@ -1,0 +1,39 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ALDH3B2	ALDH3B2	aldehyde dehydrogenase 3 family, member B2	5	7.860567092895508	0.15100436	No	
+row_1	MGST2	MGST2	microsomal glutathione S-transferase 2	277	3.404431104660034	0.19436368	No	
+row_2	GSTO2	GSTO2	glutathione S-transferase omega 2	696	2.009991407394409	0.19881046	No	
+row_3	CYP2S1	CYP2S1	cytochrome P450, family 2, subfamily S, polypeptide 1	1400	0.687121570110321	0.15440902	No	
+row_4	GSTT2	GSTT2	glutathione S-transferase theta 2	1837	0.4626663625240326	0.12757464	No	
+row_5	GSTM2	GSTM2	glutathione S-transferase M2 (muscle)	2407	0.3096657693386078	0.08688877	No	
+row_6	GSTM4	GSTM4	glutathione S-transferase M4	3227	0.19383925199508667	0.023474937	No	
+row_7	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	3649	0.15410877764225006	-0.008073226	No	
+row_8	CYP1B1	CYP1B1	cytochrome P450, family 1, subfamily B, polypeptide 1	3875	0.13450917601585388	-0.0239294	No	
+row_9	GSTM5	GSTM5	glutathione S-transferase M5	4160	0.11270105093717575	-0.04504291	No	
+row_10	DHDH	DHDH	dihydrodiol dehydrogenase (dimeric)	4361	0.0985657274723053	-0.05954176	No	
+row_11	GSTK1	GSTK1	glutathione S-transferase kappa 1	4560	0.08291764557361603	-0.074178055	No	
+row_12	GSTM1	GSTM1	glutathione S-transferase M1	4668	0.07530062645673752	-0.081500225	No	
+row_13	GSTT1	GSTT1	glutathione S-transferase theta 1	5023	0.052458345890045166	-0.109513275	No	
+row_14	GSTO1	GSTO1	glutathione S-transferase omega 1	5108	0.045169103890657425	-0.11553015	No	
+row_15	CYP1A1	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	5268	0.03574519604444504	-0.1278776	No	
+row_16	CYP2E1	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	5709	0.009959316812455654	-0.1637602	No	
+row_17	ALDH1A3	ALDH1A3	aldehyde dehydrogenase 1 family, member A3	6221	-0.019331328570842743	-0.20528337	No	
+row_18	GSTA4	GSTA4	glutathione S-transferase A4	8055	-0.1385556161403656	-0.35289732	No	
+row_19	ALDH3B1	ALDH3B1	aldehyde dehydrogenase 3 family, member B1	8359	-0.16347014904022217	-0.37459064	No	
+row_20	MGST3	MGST3	microsomal glutathione S-transferase 3	8947	-0.2184147983789444	-0.41851002	No	
+row_21	ADH5	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide	8995	-0.22289183735847473	-0.41806996	No	
+row_22	ADH7	ADH7	alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide	9101	-0.2362775206565857	-0.42212734	No	
+row_23	MGST1	MGST1	microsomal glutathione S-transferase 1	9249	-0.2546008229255676	-0.4292752	No	
+row_24	EPHX1	EPHX1	epoxide hydrolase 1, microsomal (xenobiotic)	9887	-0.3665367364883423	-0.47444075	No	
+row_25	GSTP1	GSTP1	glutathione S-transferase pi	9973	-0.38656944036483765	-0.47396338	No	
+row_26	ADH4	ADH4	alcohol dehydrogenase 4 (class II), pi polypeptide	10208	-0.45383578538894653	-0.4844064	No	
+row_27	GSTA1	GSTA1	glutathione S-transferase A1	10756	-0.7768106460571289	-0.51429015	No	
+row_28	GSTM3	GSTM3	glutathione S-transferase M3 (brain)	11196	-1.4698139429092407	-0.52197033	Yes	
+row_29	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	11398	-1.892829418182373	-0.5019891	Yes	
+row_30	ALDH3A1	ALDH3A1	aldehyde dehydrogenase 3 family, memberA1	11501	-2.092451810836792	-0.47004595	Yes	
+row_31	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	11539	-2.1825923919677734	-0.43103728	Yes	
+row_32	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	11806	-3.0664620399475098	-0.39377815	Yes	
+row_33	GSTA2	GSTA2	glutathione S-transferase A2	11847	-3.280989170074463	-0.3338575	Yes	
+row_34	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	11859	-3.3101139068603516	-0.27099827	Yes	
+row_35	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	11937	-3.852306604385376	-0.20310616	Yes	
+row_36	GSTA3	GSTA3	glutathione S-transferase A3	12025	-4.519733905792236	-0.12317763	Yes	
+row_37	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	12180	-7.279993534088135	0.004427297	Yes	

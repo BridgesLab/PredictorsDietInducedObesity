@@ -1,0 +1,57 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	EIF4EBP1	EIF4EBP1	eukaryotic translation initiation factor 4E binding protein 1	352	4.656890392303467	0.03846728	Yes	
+row_1	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP), alpha	476	4.187028408050537	0.08807663	Yes	
+row_2	ZBTB16	ZBTB16	zinc finger and BTB domain containing 16	547	3.9680163860321045	0.13870671	Yes	
+row_3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific, HMG-box)	871	3.1432013511657715	0.15803836	Yes	
+row_4	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.20218904	Yes	
+row_5	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.23046389	Yes	
+row_6	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.2695085	Yes	
+row_7	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.29293367	Yes	
+row_8	SPI1	SPI1	spleen focus forming virus (SFFV) proviral integration oncogene spi1	1247	2.4390828609466553	0.32304806	Yes	
+row_9	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	1436	2.142984628677368	0.3387295	Yes	
+row_10	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	2135	1.3669613599777222	0.30384696	Yes	
+row_11	TCF7L1	TCF7L1	transcription factor 7-like 1 (T-cell specific, HMG-box)	2224	1.2872800827026367	0.3152025	Yes	
+row_12	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.31895676	Yes	
+row_13	JUP	JUP	junction plakoglobin	2388	1.1559462547302246	0.33528948	Yes	
+row_14	FLT3	FLT3	fms-related tyrosine kinase 3	2406	1.1390331983566284	0.35006323	Yes	
+row_15	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.35744566	Yes	
+row_16	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	2768	0.8617117404937744	0.34912255	Yes	
+row_17	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.3585629	Yes	
+row_18	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	3247	0.5995216369628906	0.33248135	No	
+row_19	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.33332157	No	
+row_20	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.33590433	No	
+row_21	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.33797517	No	
+row_22	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.33881325	No	
+row_23	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	3689	0.40941691398620605	0.33357233	No	
+row_24	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.33098137	No	
+row_25	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.30628538	No	
+row_26	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.28966272	No	
+row_27	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.2891309	No	
+row_28	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.2906375	No	
+row_29	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.27262926	No	
+row_30	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.27346665	No	
+row_31	PML	PML	promyelocytic leukemia	4877	0.04629367217421532	0.26092094	No	
+row_32	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.24973571	No	
+row_33	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.22634903	No	
+row_34	RARA	RARA	retinoic acid receptor, alpha	5630	-0.13434074819087982	0.2055746	No	
+row_35	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.2053099	No	
+row_36	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	5926	-0.19703328609466553	0.1875177	No	
+row_37	KIT	KIT	v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog	6222	-0.2596489489078522	0.16828085	No	
+row_38	PPARD	PPARD	peroxisome proliferative activated receptor, delta	6344	-0.28721585869789124	0.16294388	No	
+row_39	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.1579602	No	
+row_40	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.15439115	No	
+row_41	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.15699568	No	
+row_42	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	6817	-0.39525026082992554	0.14627467	No	
+row_43	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.15038745	No	
+row_44	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	7738	-0.6211190819740295	0.08935987	No	
+row_45	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	8045	-0.6963041424751282	0.07543855	No	
+row_46	RUNX1	RUNX1	runt-related transcription factor 1 (acute myeloid leukemia 1; aml1 oncogene)	8505	-0.8397887349128723	0.051664762	No	
+row_47	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	0.056218997	No	
+row_48	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.065375805	No	
+row_49	RUNX1T1	RUNX1T1	runt-related transcription factor 1; translocated to, 1 (cyclin D-related)	8680	-0.9005721807479858	0.07592618	No	
+row_50	PIM2	PIM2	pim-2 oncogene	9153	-1.0871890783309937	0.054638587	No	
+row_51	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.0577388	No	
+row_52	PIM1	PIM1	pim-1 oncogene	9873	-1.410360336303711	0.035116315	No	
+row_53	LEF1	LEF1	lymphoid enhancer-binding factor 1	10403	-1.7416437864303589	0.018649902	No	
+row_54	TCF7	TCF7	transcription factor 7 (T-cell specific, HMG-box)	10830	-2.156174659729004	0.016038038	No	
+row_55	CCNA1	CCNA1	cyclin A1	12699	-10.421676635742188	0.018246712	No	

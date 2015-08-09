@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FHIT	FHIT	fragile histidine triad gene	1075	1.0348243713378906	-0.0067337225	Yes	
+row_1	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	1345	0.7249175906181335	0.028278433	Yes	
+row_2	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.066599965	Yes	
+row_3	RASSF5	RASSF5	Ras association (RalGDS/AF-6) domain family 5	1679	0.5268170237541199	0.09241271	Yes	
+row_4	STK4	STK4	serine/threonine kinase 4	1763	0.4881780743598938	0.124046564	Yes	
+row_5	RXRG	RXRG	retinoid X receptor, gamma	1781	0.48329177498817444	0.16071254	Yes	
+row_6	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	1900	0.440790593624115	0.18574181	Yes	
+row_7	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	0.19085693	Yes	
+row_8	E2F2	E2F2	E2F transcription factor 2	2189	0.3574480712413788	0.21859708	Yes	
+row_9	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	2340	0.32350537180900574	0.23176326	Yes	
+row_10	ERBB2	ERBB2	v-erb-b2 erythroblastic leukemia viral oncogene homolog 2, neuro/glioblastoma derived oncogene homolog (avian)	2630	0.27393653988838196	0.22961728	Yes	
+row_11	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	2737	0.25511956214904785	0.24100907	Yes	
+row_12	E2F1	E2F1	E2F transcription factor 1	2905	0.23143570125102997	0.2455291	Yes	
+row_13	TGFA	TGFA	transforming growth factor, alpha	2958	0.22515417635440826	0.25899303	Yes	
+row_14	RASSF1	RASSF1	Ras association (RalGDS/AF-6) domain family 1	3351	0.18278439342975616	0.24121474	No	
+row_15	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	0.2509303	No	
+row_16	EGF	EGF	epidermal growth factor (beta-urogastrone)	3505	0.16771185398101807	0.25584877	No	
+row_17	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.22784391	No	
+row_18	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.21464112	No	
+row_19	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.21410859	No	
+row_20	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	4372	0.09770175814628601	0.21909453	No	
+row_21	CDK4	CDK4	cyclin-dependent kinase 4	4414	0.09293115139007568	0.22304818	No	
+row_22	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	4555	0.08333557844161987	0.21812072	No	
+row_23	PRKCG	PRKCG	protein kinase C, gamma	4869	0.0633360967040062	0.19741929	No	
+row_24	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	4953	0.05683550983667374	0.1950831	No	
+row_25	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5100	0.04559203237295151	0.18669073	No	
+row_26	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	5471	0.02460470423102379	0.15826076	No	
+row_27	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	5676	0.011962556280195713	0.1424596	No	
+row_28	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	6139	-0.015314154326915741	0.10574707	No	
+row_29	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	6362	-0.027748260647058487	0.08971174	No	
+row_30	E2F3	E2F3	E2F transcription factor 3	6565	-0.039427101612091064	0.07623767	No	
+row_31	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	0.07415189	No	
+row_32	GRB2	GRB2	growth factor receptor-bound protein 2	7184	-0.07671891897916794	0.034970578	No	
+row_33	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	7360	-0.08756589889526367	0.027503658	No	
+row_34	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7777	-0.11790839582681656	0.0026462974	No	
+row_35	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.0059419223	No	
+row_36	RXRA	RXRA	retinoid X receptor, alpha	8044	-0.13766664266586304	0.0014357476	No	
+row_37	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	8138	-0.1462743580341339	0.0053225034	No	
+row_38	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	8487	-0.17521008849143982	-0.009441019	No	
+row_39	BAD	BAD	BCL2-antagonist of cell death	8533	-0.17860820889472961	9.317553E-4	No	
+row_40	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	8702	-0.19496704638004303	0.0024976502	No	
+row_41	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.009422277	No	
+row_42	RXRB	RXRB	retinoid X receptor, beta	9074	-0.23248866200447083	0.008723026	No	
+row_43	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	0.020634998	No	
+row_44	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	9313	-0.26288267970085144	0.02919103	No	
+row_45	CCND1	CCND1	cyclin D1	9504	-0.2900942862033844	0.036442947	No	
+row_46	RARB	RARB	retinoic acid receptor, beta	9653	-0.3187883198261261	0.04940178	No	
+row_47	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	9845	-0.3581591248512268	0.061932012	No	
+row_48	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	9898	-0.3703294098377228	0.08682911	No	
+row_49	CDK6	CDK6	cyclin-dependent kinase 6	10259	-0.4792875051498413	0.09502805	No	
+row_50	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	10830	-0.8505929708480835	0.11523314	No	

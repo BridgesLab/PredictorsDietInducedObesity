@@ -1,0 +1,47 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BCL11A	BCL11A	B-cell CLL/lymphoma 11A (zinc finger protein)	289	3.3019497394561768	0.18330078	Yes	
+row_1	XKR7	XKR7	XK, Kell blood group complex subunit-related family, member 7	1088	1.0123767852783203	0.18130133	Yes	
+row_2	RNF43	RNF43	ring finger protein 43	1194	0.8870792984962463	0.2283011	Yes	
+row_3	BTBD11	BTBD11	BTB (POZ) domain containing 11	1290	0.7671929597854614	0.26860517	Yes	
+row_4	SP4	SP4	Sp4 transcription factor	1370	0.7071676254272461	0.3064587	Yes	
+row_5	CHST2	CHST2	carbohydrate (N-acetylglucosamine-6-O) sulfotransferase 2	1965	0.42204657196998596	0.2841858	No	
+row_6	RABEPK	RABEPK	Rab9 effector protein with kelch motifs	2528	0.2895379960536957	0.2562308	No	
+row_7	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	2740	0.2548370063304901	0.25489673	No	
+row_8	KCNMA1	KCNMA1	potassium large conductance calcium-activated channel, subfamily M, alpha member 1	2760	0.25127294659614563	0.2690911	No	
+row_9	ZNFX1	ZNFX1	zinc finger, NFX1-type containing 1	3219	0.19474874436855316	0.24372572	No	
+row_10	ARRDC3	ARRDC3	arrestin domain containing 3	3379	0.1788349449634552	0.24189296	No	
+row_11	PPME1	PPME1	protein phosphatase methylesterase 1	3995	0.12529128789901733	0.19929257	No	
+row_12	PDZD11	PDZD11	PDZ domain containing 11	4090	0.11809390783309937	0.19898441	No	
+row_13	PAXIP1	PAXIP1	PAX interacting (with transcription-activation domain) protein 1	4182	0.11150594055652618	0.19850937	No	
+row_14	ABCE1	ABCE1	ATP-binding cassette, sub-family E (OABP), member 1	4269	0.10512073338031769	0.19804421	No	
+row_15	SMC1A	SMC1A	structural maintenance of chromosomes 1A	4296	0.10330359637737274	0.2023876	No	
+row_16	CNNM4	CNNM4	cyclin M4	4313	0.10181186348199844	0.20745787	No	
+row_17	PDLIM2	PDLIM2	PDZ and LIM domain 2 (mystique)	4672	0.0749250203371048	0.18278444	No	
+row_18	GIT1	GIT1	G protein-coupled receptor kinase interactor 1	5037	0.05133933201432228	0.15614009	No	
+row_19	RAB6A	RAB6A	RAB6A, member RAS oncogene family	5260	0.03600132837891579	0.140184	No	
+row_20	NGFR	NGFR	nerve growth factor receptor (TNFR superfamily, member 16)	5887	-0.0011656649876385927	0.08889929	No	
+row_21	TOP1	TOP1	topoisomerase (DNA) I	5967	-0.005900822579860687	0.082787976	No	
+row_22	MAPRE3	MAPRE3	microtubule-associated protein, RP/EB family, member 3	6165	-0.0164339616894722	0.06765617	No	
+row_23	IFIT1	IFIT1	interferon-induced protein with tetratricopeptide repeats 1	6215	-0.019089577719569206	0.06483294	No	
+row_24	TCF4	TCF4	transcription factor 4	6740	-0.04921674728393555	0.024928927	No	
+row_25	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	6764	-0.050631552934646606	0.026216246	No	
+row_26	CD164	CD164	CD164 molecule, sialomucin	6911	-0.059979476034641266	0.017998556	No	
+row_27	AP1G1	AP1G1	adaptor-related protein complex 1, gamma 1 subunit	6938	-0.06151377409696579	0.019721996	No	
+row_28	NDST1	NDST1	N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 1	7608	-0.10599002242088318	-0.028518677	No	
+row_29	ADD1	ADD1	adducin 1 (alpha)	8093	-0.1419294774532318	-0.05932856	No	
+row_30	TIMP3	TIMP3	TIMP metallopeptidase inhibitor 3 (Sorsby fundus dystrophy, pseudoinflammatory)	8115	-0.14430482685565948	-0.052004453	No	
+row_31	KLHL17	KLHL17	kelch-like 17 (Drosophila)	8384	-0.16545967757701874	-0.06361825	No	
+row_32	IQSEC2	IQSEC2	IQ motif and Sec7 domain 2	8405	-0.1673860251903534	-0.054765064	No	
+row_33	UBE2H	UBE2H	ubiquitin-conjugating enzyme E2H (UBC8 homolog, yeast)	8415	-0.16818596422672272	-0.044959273	No	
+row_34	WDR81	WDR81	WD repeat domain 81	8646	-0.188914492726326	-0.05198504	No	
+row_35	EPHA7	EPHA7	EPH receptor A7	9097	-0.2353035807609558	-0.074151576	No	
+row_36	RUNX1T1	RUNX1T1	runt-related transcription factor 1; translocated to, 1 (cyclin D-related)	9304	-0.26151999831199646	-0.074656464	No	
+row_37	FOXP4	FOXP4	forkhead box P4	9352	-0.2678616940975189	-0.061719224	No	
+row_38	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	9544	-0.29706326127052307	-0.05876516	No	
+row_39	CYB5R3	CYB5R3	cytochrome b5 reductase 3	9763	-0.3412025570869446	-0.05525897	No	
+row_40	PARP6	PARP6	poly (ADP-ribose) polymerase family, member 6	9838	-0.35716408491134644	-0.03893816	No	
+row_41	TRPM3	TRPM3	transient receptor potential cation channel, subfamily M, member 3	10078	-0.4152463972568512	-0.03251277	No	
+row_42	FBXO33	FBXO33	F-box protein 33	10427	-0.5510889887809753	-0.026513422	No	
+row_43	PLEKHH2	PLEKHH2	pleckstrin homology domain containing, family H (with MyTH4 domain) member 2	10618	-0.6623695492744446	-5.7500147E-4	No	
+row_44	MUC4	MUC4	mucin 4, cell surface associated	10850	-0.8719386458396912	0.035138343	No	
+row_45	TMEM35	TMEM35	transmembrane protein 35	11099	-1.249326467514038	0.09311674	No	

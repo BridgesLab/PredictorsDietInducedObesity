@@ -1,0 +1,20 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	840	1.510262131690979	0.0738957	No	
+row_1	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	1275	0.7785515785217285	0.11190979	No	
+row_2	GRIN2D	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D	1998	0.4126238524913788	0.09178305	No	
+row_3	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	0.11061663	No	
+row_4	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	2289	0.33466866612434387	0.13363384	No	
+row_5	GRIN2A	GRIN2A	glutamate receptor, ionotropic, N-methyl D-aspartate 2A	3818	0.13860242068767548	0.021644235	No	
+row_6	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	4114	0.1160978153347969	0.00846207	No	
+row_7	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	4311	0.10185524076223373	0.0020386903	No	
+row_8	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	5604	0.016282564029097557	-0.10218621	No	
+row_9	NOS1	NOS1	nitric oxide synthase 1 (neuronal)	6408	-0.03040170855820179	-0.16504796	No	
+row_10	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	6449	-0.03214356303215027	-0.1652861	No	
+row_11	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	7623	-0.10723578184843063	-0.25117832	No	
+row_12	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7662	-0.11022922396659851	-0.24387684	No	
+row_13	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	8218	-0.1521199643611908	-0.27493995	No	
+row_14	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8491	-0.1754104644060135	-0.28063673	No	
+row_15	DLG4	DLG4	discs, large homolog 4 (Drosophila)	8774	-0.20285700261592865	-0.28455952	No	
+row_16	GRIN2B	GRIN2B	glutamate receptor, ionotropic, N-methyl D-aspartate 2B	11235	-1.5445258617401123	-0.34004027	Yes	
+row_17	GRIN2C	GRIN2C	glutamate receptor, ionotropic, N-methyl D-aspartate 2C	11514	-2.1283068656921387	-0.16175939	Yes	
+row_18	GRIN1	GRIN1	glutamate receptor, ionotropic, N-methyl D-aspartate 1	11599	-2.3355770111083984	0.051980846	Yes	

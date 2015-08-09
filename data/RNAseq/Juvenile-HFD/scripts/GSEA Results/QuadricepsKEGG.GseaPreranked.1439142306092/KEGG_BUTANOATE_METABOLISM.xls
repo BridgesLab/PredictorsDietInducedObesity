@@ -1,0 +1,31 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ACSM3	ACSM3	acyl-CoA synthetase medium-chain family member 3	882	1.3869125843048096	-0.011756458	No	
+row_1	AACS	AACS	acetoacetyl-CoA synthetase	1175	0.9056552052497864	0.0038313572	No	
+row_2	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	3761	0.14479312300682068	-0.20164998	No	
+row_3	ALDH5A1	ALDH5A1	aldehyde dehydrogenase 5 family, member A1 (succinate-semialdehyde dehydrogenase)	4092	0.11791864782571793	-0.22354345	No	
+row_4	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	4098	0.11776391416788101	-0.21881525	No	
+row_5	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	4109	0.1167362853884697	-0.21454155	No	
+row_6	L2HGDH	L2HGDH	L-2-hydroxyglutarate dehydrogenase	4120	0.11560932546854019	-0.21031702	No	
+row_7	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	4157	0.11295610666275024	-0.20833851	No	
+row_8	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	4505	0.08724384009838104	-0.23296316	No	
+row_9	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	4578	0.0816550999879837	-0.23529989	No	
+row_10	HMGCS1	HMGCS1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1 (soluble)	4749	0.07038434594869614	-0.24615784	No	
+row_11	ACADS	ACADS	acyl-Coenzyme A dehydrogenase, C-2 to C-3 short chain	6497	-0.03499768674373627	-0.38776898	No	
+row_12	HMGCL	HMGCL	3-hydroxymethyl-3-methylglutaryl-Coenzyme A lyase (hydroxymethylglutaricaciduria)	7297	-0.08299396932125092	-0.44961306	No	
+row_13	PDHA1	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	7301	-0.08319180458784103	-0.44622934	No	
+row_14	HADH	HADH	hydroxyacyl-Coenzyme A dehydrogenase	7622	-0.1072266474366188	-0.46776995	No	
+row_15	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	8142	-0.14659489691257477	-0.5038978	No	
+row_16	HADHA	HADHA	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit	8227	-0.15298980474472046	-0.50410545	No	
+row_17	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	8479	-0.17409980297088623	-0.5170751	No	
+row_18	OXCT1	OXCT1	3-oxoacid CoA transferase 1	8650	-0.18938666582107544	-0.52274114	No	
+row_19	AKR1B10	AKR1B10	aldo-keto reductase family 1, member B10 (aldose reductase)	8812	-0.2060878574848175	-0.5269411	No	
+row_20	ABAT	ABAT	4-aminobutyrate aminotransferase	9205	-0.24914629757404327	-0.5481892	No	
+row_21	BDH2	BDH2	3-hydroxybutyrate dehydrogenase, type 2	9758	-0.3403104841709137	-0.57856935	No	
+row_22	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	10231	-0.46372297406196594	-0.59701043	No	
+row_23	GAD2	GAD2	glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)	10835	-0.853858470916748	-0.6091638	Yes	
+row_24	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	10897	-0.9389330148696899	-0.5731975	Yes	
+row_25	BDH1	BDH1	3-hydroxybutyrate dehydrogenase, type 1	11176	-1.4176692962646484	-0.53412414	Yes	
+row_26	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11443	-2.039196252822876	-0.46695128	Yes	
+row_27	PDHA2	PDHA2	pyruvate dehydrogenase (lipoamide) alpha 2	11452	-2.039196252822876	-0.37863955	Yes	
+row_28	HMGCS2	HMGCS2	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 2 (mitochondrial)	11597	-2.324941635131836	-0.28900412	Yes	
+row_29	ACSM1	ACSM1	acyl-CoA synthetase medium-chain family member 1	12197	-7.818588733673096	0.0030314403	Yes	

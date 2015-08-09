@@ -1,0 +1,50 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HOXA5	HOXA5	homeobox A5	984	2.8963708877563477	-0.05231327	No	
+row_1	ELK3	ELK3	ELK3, ETS-domain protein (SRF accessory protein 2)	1077	2.7232720851898193	-0.03684137	No	
+row_2	MGLL	MGLL	monoglyceride lipase	1096	2.702775001525879	-0.015796993	No	
+row_3	CDKN2C	CDKN2C	cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)	1217	2.4858059883117676	-0.0044696857	No	
+row_4	LMO4	LMO4	LIM domain only 4	1256	2.4265265464782715	0.012728919	No	
+row_5	C1QTNF7	C1QTNF7	C1q and tumor necrosis factor related protein 7	1296	2.373636484146118	0.029410772	No	
+row_6	RHOB	RHOB	ras homolog gene family, member B	1506	2.0373117923736572	0.030107494	No	
+row_7	VASH1	VASH1	vasohibin 1	1516	2.0257673263549805	0.046229087	No	
+row_8	ROR1	ROR1	receptor tyrosine kinase-like orphan receptor 1	1563	1.9802374839782715	0.059101306	No	
+row_9	NDUFA4L2	NDUFA4L2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4-like 2	1954	1.539483904838562	0.041618295	No	
+row_10	GABRB2	GABRB2	gamma-aminobutyric acid (GABA) A receptor, beta 2	2042	1.4554328918457031	0.046951294	No	
+row_11	SLC43A2	SLC43A2	solute carrier family 43, member 2	2554	1.0111329555511475	0.015691327	No	
+row_12	LGR5	LGR5	leucine-rich repeat-containing G protein-coupled receptor 5	2565	1.004734992980957	0.023257645	No	
+row_13	SMAD6	SMAD6	SMAD, mothers against DPP homolog 6 (Drosophila)	2572	1.0007542371749878	0.031101324	No	
+row_14	SOCS2	SOCS2	suppressor of cytokine signaling 2	2727	0.8873097896575928	0.026517734	No	
+row_15	MESDC1	MESDC1	mesoderm development candidate 1	2747	0.8726322650909424	0.032288764	No	
+row_16	PHC2	PHC2	polyhomeotic homolog 2 (Drosophila)	3768	0.3775936961174011	-0.043731738	No	
+row_17	ULK1	ULK1	unc-51-like kinase 1 (C. elegans)	4494	0.1442398577928543	-0.09879672	No	
+row_18	HYAL2	HYAL2	hyaluronoglucosaminidase 2	4873	0.0475458949804306	-0.1277361	No	
+row_19	DUSP6	DUSP6	dual specificity phosphatase 6	5134	-0.01980936899781227	-0.14774856	No	
+row_20	CTCF	CTCF	CCCTC-binding factor (zinc finger protein)	5846	-0.17914628982543945	-0.20143726	No	
+row_21	SMC3	SMC3	structural maintenance of chromosomes 3	6349	-0.28881406784057617	-0.23799625	No	
+row_22	ETV6	ETV6	ets variant gene 6 (TEL oncogene)	6686	-0.3655436933040619	-0.26103592	No	
+row_23	EFNB3	EFNB3	ephrin-B3	6840	-0.4014122486114502	-0.26957634	No	
+row_24	RCOR2	RCOR2	REST corepressor 2	6937	-0.422509104013443	-0.27351817	No	
+row_25	DCP1A	DCP1A	DCP1 decapping enzyme homolog A (S. cerevisiae)	7248	-0.4938834607601166	-0.29347456	No	
+row_26	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	-0.32036826	No	
+row_27	PPP2R5E	PPP2R5E	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	7834	-0.6419617533683777	-0.32846346	No	
+row_28	PHF21B	PHF21B	PHD finger protein 21B	7857	-0.6484847664833069	-0.32478634	No	
+row_29	CSTF3	CSTF3	cleavage stimulation factor, 3' pre-RNA, subunit 3, 77kDa	7996	-0.6849473118782043	-0.3298085	No	
+row_30	BMI1	BMI1	B lymphoma Mo-MLV insertion region (mouse)	8092	-0.7082182765007019	-0.33130047	No	
+row_31	PHOSPHO1	PHOSPHO1	phosphatase, orphan 1	8682	-0.9012259244918823	-0.3695261	No	
+row_32	ERF	ERF	Ets2 repressor factor	8786	-0.9415677189826965	-0.3697014	No	
+row_33	PCF11	PCF11	PCF11, cleavage and polyadenylation factor subunit, homolog (S. cerevisiae)	9205	-1.106117606163025	-0.39295554	No	
+row_34	RFX1	RFX1	regulatory factor X, 1 (influences HLA class II expression)	10162	-1.5774776935577393	-0.45404676	No	
+row_35	STK35	STK35	serine/threonine kinase 35	10443	-1.7773466110229492	-0.46101838	No	
+row_36	GIT1	GIT1	G protein-coupled receptor kinase interactor 1	10678	-1.9908658266067505	-0.46264738	No	
+row_37	HOXD3	HOXD3	homeobox D3	10799	-2.120452880859375	-0.45435363	No	
+row_38	TMEM56	TMEM56	transmembrane protein 56	11541	-3.2097294330596924	-0.48520738	Yes	
+row_39	E2F8	E2F8	E2F transcription factor 8	11858	-4.0169677734375	-0.4763771	Yes	
+row_40	PPFIA2	PPFIA2	protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 2	11892	-4.17144775390625	-0.44430232	Yes	
+row_41	BARHL2	BARHL2	BarH-like 2 (Drosophila)	11940	-4.332526683807373	-0.41197655	Yes	
+row_42	PHOX2A	PHOX2A	paired-like (aristaless) homeobox 2a	12258	-6.162845134735107	-0.38540655	Yes	
+row_43	ST8SIA2	ST8SIA2	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2	12270	-6.214022159576416	-0.33466494	Yes	
+row_44	NOL4	NOL4	nucleolar protein 4	12361	-6.916003227233887	-0.28422543	Yes	
+row_45	CBLN4	CBLN4	cerebellin 4 precursor	12592	-9.167364120483398	-0.22595729	Yes	
+row_46	GABRA1	GABRA1	gamma-aminobutyric acid (GABA) A receptor, alpha 1	12604	-9.298008918762207	-0.14960921	Yes	
+row_47	CDC20B	CDC20B	CDC20 cell division cycle 20 homolog B (S. cerevisiae)	12645	-9.813719749450684	-0.071229674	Yes	
+row_48	RFX4	RFX4	regulatory factor X, 4 (influences HLA class II expression)	12771	-11.270522117614746	0.012649443	Yes	

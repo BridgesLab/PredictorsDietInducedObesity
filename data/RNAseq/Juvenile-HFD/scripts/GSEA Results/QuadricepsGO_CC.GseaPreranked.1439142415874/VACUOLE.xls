@@ -1,0 +1,54 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	LRP2	LRP2	low density lipoprotein-related protein 2	366	2.8872642517089844	0.06677806	Yes	
+row_1	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	484	2.5702457427978516	0.1433651	Yes	
+row_2	SPACA3	SPACA3	sperm acrosome associated 3	528	2.491335391998291	0.22338049	Yes	
+row_3	ATP6V1B1	ATP6V1B1	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B1 (Renal tubular acidosis with deafness)	547	2.4508249759674072	0.3040896	Yes	
+row_4	RAMP3	RAMP3	receptor (calcitonin) activity modifying protein 3	860	1.432988166809082	0.3265323	Yes	
+row_5	CASC5	CASC5	cancer susceptibility candidate 5	1189	0.8926569819450378	0.32954195	Yes	
+row_6	ARSB	ARSB	arylsulfatase B	1631	0.5495487451553345	0.31176972	No	
+row_7	CORO1A	CORO1A	coronin, actin binding protein, 1A	1833	0.46361416578292847	0.31081694	No	
+row_8	TRIM23	TRIM23	tripartite motif-containing 23	2142	0.37080782651901245	0.29796854	No	
+row_9	NPC2	NPC2	Niemann-Pick disease, type C2	2456	0.30058664083480835	0.28235483	No	
+row_10	GALC	GALC	galactosylceramidase	2569	0.28364047408103943	0.28267264	No	
+row_11	USP4	USP4	ubiquitin specific peptidase 4 (proto-oncogene)	2675	0.26705092191696167	0.28300872	No	
+row_12	IFI30	IFI30	interferon, gamma-inducible protein 30	3029	0.21662023663520813	0.26129574	No	
+row_13	NAGLU	NAGLU	N-acetylglucosaminidase, alpha- (Sanfilippo disease IIIB)	3495	0.16871270537376404	0.22878234	No	
+row_14	CTSC	CTSC	cathepsin C	3612	0.15740957856178284	0.22453871	No	
+row_15	AP3M1	AP3M1	adaptor-related protein complex 3, mu 1 subunit	3803	0.14010055363178253	0.21364011	No	
+row_16	LAMP2	LAMP2	lysosomal-associated membrane protein 2	4112	0.1166045218706131	0.19226715	No	
+row_17	GLA	GLA	galactosidase, alpha	4140	0.1141648069024086	0.1938792	No	
+row_18	CD63	CD63	CD63 molecule	4159	0.11276078224182129	0.19618297	No	
+row_19	RAMP2	RAMP2	receptor (calcitonin) activity modifying protein 2	4218	0.10859191417694092	0.1950634	No	
+row_20	RAB14	RAB14	RAB14, member RAS oncogene family	4223	0.10838121920824051	0.19836953	No	
+row_21	TIAL1	TIAL1	TIA1 cytotoxic granule-associated RNA binding protein-like 1	4277	0.10475087910890579	0.1975316	No	
+row_22	STX3	STX3	syntaxin 3	4679	0.07436542212963104	0.16710797	No	
+row_23	ACR	ACR	acrosin	4833	0.06525733321905136	0.1567368	No	
+row_24	LIPA	LIPA	lipase A, lysosomal acid, cholesterol esterase (Wolman disease)	4843	0.0646619200706482	0.15816641	No	
+row_25	MAP1LC3A	MAP1LC3A	microtubule-associated protein 1 light chain 3 alpha	5419	0.026866387575864792	0.11186656	No	
+row_26	MAP1LC3B	MAP1LC3B	microtubule-associated protein 1 light chain 3 beta	5423	0.026717839762568474	0.11251626	No	
+row_27	CLN5	CLN5	ceroid-lipofuscinosis, neuronal 5	5496	0.023296911269426346	0.10738715	No	
+row_28	CTSF	CTSF	cathepsin F	6095	-0.01284789852797985	0.058729175	No	
+row_29	TPP1	TPP1	tripeptidyl peptidase I	6217	-0.01920827478170395	0.049440622	No	
+row_30	MYO7A	MYO7A	myosin VIIA	6314	-0.024882998317480087	0.04239458	No	
+row_31	LAMP3	LAMP3	lysosomal-associated membrane protein 3	6413	-0.030536357313394547	0.035373937	No	
+row_32	ANKRD27	ANKRD27	ankyrin repeat domain 27 (VPS9 domain)	6450	-0.03221215680241585	0.03349897	No	
+row_33	HYAL2	HYAL2	hyaluronoglucosaminidase 2	6538	-0.038057390600442886	0.027633512	No	
+row_34	TSPAN8	TSPAN8	tetraspanin 8	7099	-0.07180299609899521	-0.015928088	No	
+row_35	USP5	USP5	ubiquitin specific peptidase 5 (isopeptidase T)	7766	-0.11749130487442017	-0.06665893	No	
+row_36	TOM1L1	TOM1L1	target of myb1-like 1 (chicken)	7798	-0.11945319175720215	-0.065197885	No	
+row_37	VAMP4	VAMP4	vesicle-associated membrane protein 4	7829	-0.12152864038944244	-0.063585155	No	
+row_38	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	8045	-0.13781382143497467	-0.07661266	No	
+row_39	TOM1	TOM1	target of myb1 (chicken)	8144	-0.14662036299705505	-0.0797405	No	
+row_40	ABCA2	ABCA2	ATP-binding cassette, sub-family A (ABC1), member 2	9185	-0.24637895822525024	-0.15685022	No	
+row_41	ADRB2	ADRB2	adrenergic, beta-2-, receptor, surface	9366	-0.2690773904323578	-0.1626028	No	
+row_42	BCL10	BCL10	B-cell CLL/lymphoma 10	9593	-0.30674323439598083	-0.17086834	No	
+row_43	HPS4	HPS4	Hermansky-Pudlak syndrome 4	9749	-0.33894163370132446	-0.17222586	No	
+row_44	GABARAPL1	GABARAPL1	GABA(A) receptor-associated protein like 1	9938	-0.3782091438770294	-0.17497548	No	
+row_45	CTNS	CTNS	cystinosis, nephropathic	10036	-0.40455392003059387	-0.16937162	No	
+row_46	HPS1	HPS1	Hermansky-Pudlak syndrome 1	10091	-0.4190375804901123	-0.15975226	No	
+row_47	ATG5	ATG5	ATG5 autophagy related 5 homolog (S. cerevisiae)	10436	-0.5566895008087158	-0.16932246	No	
+row_48	SLC17A5	SLC17A5	solute carrier family 17 (anion/sugar transporter), member 5	10666	-0.7002161741256714	-0.16463943	No	
+row_49	NEU4	NEU4	sialidase 4	11442	-2.039196252822876	-0.15987487	No	
+row_50	CYLC1	CYLC1	cylicin, basic protein of sperm head cytoskeleton 1	11476	-2.0689055919647217	-0.09320448	No	
+row_51	KCNE1	KCNE1	potassium voltage-gated channel, Isk-related family, member 1	11564	-2.3149921894073486	-0.022714527	No	
+row_52	MPO	MPO	myeloperoxidase	11584	-2.3149921894073486	0.053357434	No	

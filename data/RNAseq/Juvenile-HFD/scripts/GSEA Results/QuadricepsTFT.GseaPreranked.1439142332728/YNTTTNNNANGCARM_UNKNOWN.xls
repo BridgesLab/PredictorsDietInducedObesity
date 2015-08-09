@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TLL2	TLL2	tolloid-like 2	159	4.293071269989014	0.07970793	No	
+row_1	IL10	IL10	interleukin 10	388	2.878185749053955	0.123184554	No	
+row_2	SFRP2	SFRP2	secreted frizzled-related protein 2	867	1.4225997924804688	0.11469863	No	
+row_3	VDR	VDR	vitamin D (1,25- dihydroxyvitamin D3) receptor	1143	0.9515987038612366	0.11269352	No	
+row_4	MSX2	MSX2	msh homeobox homolog 2 (Drosophila)	1372	0.7060205340385437	0.109239094	No	
+row_5	MAFB	MAFB	v-maf musculoaponeurotic fibrosarcoma oncogene homolog B (avian)	1378	0.6995744109153748	0.12394358	No	
+row_6	CDX2	CDX2	caudal type homeobox transcription factor 2	1783	0.4832807779312134	0.1012351	No	
+row_7	KCTD12	KCTD12	potassium channel tetramerisation domain containing 12	1934	0.4310089349746704	0.09823914	No	
+row_8	CCDC14	CCDC14	coiled-coil domain containing 14	1977	0.41900214552879333	0.103845656	No	
+row_9	KLHL5	KLHL5	kelch-like 5 (Drosophila)	2075	0.3908021152019501	0.10432989	No	
+row_10	FGD4	FGD4	FYVE, RhoGEF and PH domain containing 4	2393	0.31262096762657166	0.08507295	No	
+row_11	HOXC4	HOXC4	homeobox C4	3160	0.2014913409948349	0.02657244	No	
+row_12	ETV5	ETV5	ets variant gene 5 (ets-related molecule)	3184	0.19957441091537476	0.028997118	No	
+row_13	FGF6	FGF6	fibroblast growth factor 6	3354	0.18235039710998535	0.019069683	No	
+row_14	EYA1	EYA1	eyes absent homolog 1 (Drosophila)	3587	0.15997576713562012	0.003489385	No	
+row_15	NRF1	NRF1	nuclear respiratory factor 1	3821	0.13858197629451752	-0.012635194	No	
+row_16	PDE4D	PDE4D	phosphodiesterase 4D, cAMP-specific (phosphodiesterase E3 dunce homolog, Drosophila)	4410	0.09359242022037506	-0.0588612	No	
+row_17	DDX17	DDX17	DEAD (Asp-Glu-Ala-Asp) box polypeptide 17	4788	0.06789089739322662	-0.08832898	No	
+row_18	CNN3	CNN3	calponin 3, acidic	5142	0.04325788468122482	-0.11635965	No	
+row_19	ADAMTS5	ADAMTS5	ADAM metallopeptidase with thrombospondin type 1 motif, 5 (aggrecanase-2)	5210	0.03884361684322357	-0.121018074	No	
+row_20	GCDH	GCDH	glutaryl-Coenzyme A dehydrogenase	5332	0.03188435733318329	-0.1302578	No	
+row_21	MARCH1	MARCH1	membrane-associated ring finger (C3HC4) 1	5840	0.0027863115537911654	-0.1717993	No	
+row_22	LDB2	LDB2	LIM domain binding 2	5913	-0.002769303508102894	-0.17764741	No	
+row_23	KIF13A	KIF13A	kinesin family member 13A	6433	-0.031536445021629333	-0.21955241	No	
+row_24	HOXB6	HOXB6	homeobox B6	7287	-0.08225245028734207	-0.28776792	No	
+row_25	ETV6	ETV6	ets variant gene 6 (TEL oncogene)	7308	-0.08379112929105759	-0.28759864	No	
+row_26	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	7507	-0.09960462898015976	-0.30169344	No	
+row_27	HOXC5	HOXC5	homeobox C5	8029	-0.13676536083221436	-0.341489	No	
+row_28	LEMD2	LEMD2	LEM domain containing 2	8695	-0.19380228221416473	-0.3918681	No	
+row_29	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	8749	-0.20006079971790314	-0.39189458	No	
+row_30	CD93	CD93	CD93 molecule	9011	-0.22463609278202057	-0.40845743	No	
+row_31	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	9085	-0.2339877188205719	-0.40939194	No	
+row_32	SMPX	SMPX	small muscle protein, X-linked	9364	-0.2689509689807892	-0.4263923	No	
+row_33	GPM6A	GPM6A	glycoprotein M6A	9430	-0.2787728011608124	-0.42570278	No	
+row_34	VWA1	VWA1	von Willebrand factor A domain containing 1	9524	-0.2934386432170868	-0.4269939	No	
+row_35	MYBPC1	MYBPC1	myosin binding protein C, slow type	9788	-0.345873087644577	-0.44110146	No	
+row_36	PLEKHA6	PLEKHA6	pleckstrin homology domain containing, family A member 6	10029	-0.4024756848812103	-0.45209885	No	
+row_37	GRK5	GRK5	G protein-coupled receptor kinase 5	10138	-0.4348926842212677	-0.4515646	No	
+row_38	PVRL1	PVRL1	poliovirus receptor-related 1 (herpesvirus entry mediator C; nectin)	10480	-0.5792531967163086	-0.46703008	Yes	
+row_39	KCNA2	KCNA2	potassium voltage-gated channel, shaker-related subfamily, member 2	10657	-0.6918172836303711	-0.46652454	Yes	
+row_40	DCX	DCX	doublecortex; lissencephaly, X-linked (doublecortin)	10771	-0.7925101518630981	-0.458674	Yes	
+row_41	NRK	NRK	Nik related kinase	11174	-1.4047354459762573	-0.46130976	Yes	
+row_42	LRRTM1	LRRTM1	leucine rich repeat transmembrane neuronal 1	11375	-1.8864753246307373	-0.43696216	Yes	
+row_43	GABRG1	GABRG1	gamma-aminobutyric acid (GABA) A receptor, gamma 1	11504	-2.1044232845306396	-0.40199772	Yes	
+row_44	SYNPR	SYNPR	synaptoporin	11843	-3.2360033988952637	-0.3598162	Yes	
+row_45	ELAVL2	ELAVL2	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 2 (Hu antigen B)	11927	-3.785928726196289	-0.28482926	Yes	
+row_46	GABRA1	GABRA1	gamma-aminobutyric acid (GABA) A receptor, alpha 1	12169	-7.008058547973633	-0.15319075	Yes	
+row_47	FGF12	FGF12	fibroblast growth factor 12	12182	-7.333372592926025	0.0042669172	Yes	

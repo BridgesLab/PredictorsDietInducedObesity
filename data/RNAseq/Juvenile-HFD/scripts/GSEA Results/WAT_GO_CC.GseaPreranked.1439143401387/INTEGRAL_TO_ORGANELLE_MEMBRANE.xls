@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DHRS9	DHRS9	dehydrogenase/reductase (SDR family) member 9	646	3.6822350025177	0.0421514	Yes	
+row_1	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	885	3.1104812622070312	0.101624794	Yes	
+row_2	LARGE	LARGE	like-glycosyltransferase	1216	2.4876413345336914	0.13835646	Yes	
+row_3	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	1590	1.9462100267410278	0.15818693	Yes	
+row_4	RTN4	RTN4	reticulon 4	1983	1.5012537240982056	0.16539504	Yes	
+row_5	BSCL2	BSCL2	Bernardinelli-Seip congenital lipodystrophy 2 (seipin)	1993	1.4916514158248901	0.20207089	Yes	
+row_6	DOLPP1	DOLPP1	dolichyl pyrophosphate phosphatase 1	2238	1.2760899066925049	0.21511741	Yes	
+row_7	PEX13	PEX13	peroxisome biogenesis factor 13	2303	1.2231017351150513	0.24079844	Yes	
+row_8	STIM1	STIM1	stromal interaction molecule 1	2305	1.2211295366287231	0.2713168	Yes	
+row_9	STEAP2	STEAP2	six transmembrane epithelial antigen of the prostate 2	2340	1.1940033435821533	0.2985958	Yes	
+row_10	DERL1	DERL1	Der1-like domain family, member 1	2365	1.176511526107788	0.32621217	Yes	
+row_11	PEX16	PEX16	peroxisomal biogenesis factor 16	2508	1.0462398529052734	0.34141156	Yes	
+row_12	EXT1	EXT1	exostoses (multiple) 1	2827	0.829754114151001	0.33753496	Yes	
+row_13	PEX3	PEX3	peroxisomal biogenesis factor 3	3073	0.6926722526550293	0.33588612	Yes	
+row_14	PIGK	PIGK	phosphatidylinositol glycan anchor biosynthesis, class K	3331	0.5634117722511292	0.3300678	Yes	
+row_15	EDEM1	EDEM1	ER degradation enhancer, mannosidase alpha-like 1	3345	0.5561731457710266	0.3429946	Yes	
+row_16	RHOT1	RHOT1	ras homolog gene family, member T1	3798	0.36959144473075867	0.31719437	No	
+row_17	LBR	LBR	lamin B receptor	4400	0.17075993120670319	0.27485478	No	
+row_18	DPM3	DPM3	dolichyl-phosphate mannosyltransferase polypeptide 3	4566	0.12367157638072968	0.26515478	No	
+row_19	RER1	RER1	RER1 retention in endoplasmic reticulum 1 homolog (S. cerevisiae)	4875	0.04713480919599533	0.24244498	No	
+row_20	PEX11A	PEX11A	peroxisomal biogenesis factor 11A	5183	-0.030310794711112976	0.21939121	No	
+row_21	RHOT2	RHOT2	ras homolog gene family, member T2	5474	-0.09886853396892548	0.19937384	No	
+row_22	PEX12	PEX12	peroxisomal biogenesis factor 12	5493	-0.10237367451190948	0.20054264	No	
+row_23	COX18	COX18	COX18 cytochrome c oxidase assembly homolog (S. cerevisiae)	5895	-0.19039714336395264	0.17420857	No	
+row_24	GPAA1	GPAA1	glycosylphosphatidylinositol anchor attachment protein 1 homolog (yeast)	5981	-0.20951354503631592	0.17286478	No	
+row_25	PIGS	PIGS	phosphatidylinositol glycan anchor biosynthesis, class S	6057	-0.22393684089183807	0.17265806	No	
+row_26	FIS1	FIS1	fission 1 (mitochondrial outer membrane) homolog (S. cerevisiae)	6238	-0.26262614130973816	0.16527611	No	
+row_27	ATP7A	ATP7A	ATPase, Cu++ transporting, alpha polypeptide (Menkes syndrome)	6393	-0.2966841757297516	0.16076428	No	
+row_28	DERL2	DERL2	Der1-like domain family, member 2	6511	-0.3251052796840668	0.15983453	No	
+row_29	LEMD3	LEMD3	LEM domain containing 3	6760	-0.3813200294971466	0.15015194	No	
+row_30	PSEN2	PSEN2	presenilin 2 (Alzheimer disease 4)	7015	-0.441901296377182	0.14152181	No	
+row_31	BNIP1	BNIP1	BCL2/adenovirus E1B 19kDa interacting protein 1	7532	-0.567699134349823	0.11572094	No	
+row_32	AMFR	AMFR	autocrine motility factor receptor	7906	-0.6622312068939209	0.10338076	No	
+row_33	PCSK7	PCSK7	proprotein convertase subtilisin/kexin type 7	8052	-0.6970895528793335	0.10959936	No	
+row_34	PSEN1	PSEN1	presenilin 1 (Alzheimer disease 3)	8509	-0.8410472273826599	0.09530139	No	
+row_35	CLN3	CLN3	ceroid-lipofuscinosis, neuronal 3, juvenile (Batten, Spielmeyer-Vogt disease)	8672	-0.8975928425788879	0.105225034	No	
+row_36	PIGT	PIGT	phosphatidylinositol glycan anchor biosynthesis, class T	8945	-1.0006136894226074	0.10919748	No	
+row_37	ABCD3	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3	8985	-1.0216842889785767	0.13177109	No	
+row_38	SPCS1	SPCS1	signal peptidase complex subunit 1 homolog (S. cerevisiae)	9099	-1.067502498626709	0.1497527	No	
+row_39	ERN1	ERN1	endoplasmic reticulum to nucleus signalling 1	9400	-1.189193606376648	0.15627822	No	
+row_40	RTN1	RTN1	reticulon 1	9437	-1.2063339948654175	0.183711	No	
+row_41	ENTPD4	ENTPD4	ectonucleoside triphosphate diphosphohydrolase 4	10118	-1.5518628358840942	0.16984771	No	
+row_42	DERL3	DERL3	Der1-like domain family, member 3	10623	-1.9358911514282227	0.1792583	No	

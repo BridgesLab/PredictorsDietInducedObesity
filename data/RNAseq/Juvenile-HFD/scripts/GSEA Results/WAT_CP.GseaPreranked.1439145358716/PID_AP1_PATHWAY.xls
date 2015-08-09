@@ -1,0 +1,64 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL10	IL10	interleukin 10	21	9.050509452819824	0.072980836	Yes	
+row_1	ACTA1	ACTA1	actin, alpha 1, skeletal muscle	40	7.733504295349121	0.13533735	Yes	
+row_2	NTS	NTS	neurotensin	78	6.7513532638549805	0.18812098	Yes	
+row_3	FABP4	FABP4	fatty acid binding protein 4, adipocyte	106	6.329156398773193	0.23820087	Yes	
+row_4	DMP1	DMP1	dentin matrix acidic phosphoprotein	132	6.015102386474609	0.2858471	Yes	
+row_5	CSF2	CSF2	colony stimulating factor 2 (granulocyte-macrophage)	192	5.62690544128418	0.32765165	Yes	
+row_6	NPPA	NPPA	natriuretic peptide precursor A	511	4.080921649932861	0.33658993	Yes	
+row_7	CCL2	CCL2	chemokine (C-C motif) ligand 2	630	3.718816041946411	0.35808063	Yes	
+row_8	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific, HMG-box)	871	3.1432013511657715	0.365348	Yes	
+row_9	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	960	2.956447124481201	0.38288438	Yes	
+row_10	NR3C1	NR3C1	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)	976	2.9196901321411133	0.40578893	Yes	
+row_11	MAF	MAF	v-maf musculoaponeurotic fibrosarcoma oncogene homolog (avian)	1006	2.8542866706848145	0.42706668	Yes	
+row_12	IL6	IL6	interleukin 6 (interferon, beta 2)	1008	2.8525662422180176	0.45050552	Yes	
+row_13	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	1057	2.767228603363037	0.4695895	Yes	
+row_14	DUSP1	DUSP1	dual specificity phosphatase 1	1110	2.6785497665405273	0.48763165	Yes	
+row_15	NFATC2	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2	1140	2.6036345958709717	0.50684303	Yes	
+row_16	IL2	IL2	interleukin 2	1167	2.549928665161133	0.5258447	Yes	
+row_17	COL1A2	COL1A2	collagen, type I, alpha 2	1170	2.547736883163452	0.54669285	Yes	
+row_18	FOSB	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	1264	2.4115493297576904	0.55934864	Yes	
+row_19	IFNG	IFNG	interferon, gamma	1283	2.3843295574188232	0.5776066	Yes	
+row_20	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1373	2.2552542686462402	0.5892847	Yes	
+row_21	NFATC1	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	1508	2.0340843200683594	0.59564346	Yes	
+row_22	CYR61	CYR61	cysteine-rich, angiogenic inducer, 61	1905	1.5971620082855225	0.578046	No	
+row_23	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.5777277	No	
+row_24	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	2135	1.3669613599777222	0.58340335	No	
+row_25	PLAU	PLAU	plasminogen activator, urokinase	2329	1.2002309560775757	0.57830423	No	
+row_26	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.5764933	No	
+row_27	GATA2	GATA2	GATA binding protein 2	2908	0.7829152345657349	0.5488426	No	
+row_28	FOSL2	FOSL2	FOS-like antigen 2	2984	0.7392375469207764	0.5491103	No	
+row_29	PENK	PENK	proenkephalin	3124	0.6647329926490784	0.5437917	No	
+row_30	ATF3	ATF3	activating transcription factor 3	3147	0.6522098779678345	0.54745936	No	
+row_31	ESR1	ESR1	estrogen receptor 1	3168	0.6398691534996033	0.55118066	No	
+row_32	TIMP1	TIMP1	TIMP metallopeptidase inhibitor 1	3550	0.4694266617298126	0.5254515	No	
+row_33	AGT	AGT	angiotensinogen (serpin peptidase inhibitor, clade A, member 8)	3733	0.3891494870185852	0.5145204	No	
+row_34	SP1	SP1	Sp1 transcription factor	3757	0.38267093896865845	0.51588833	No	
+row_35	EGR1	EGR1	early growth response 1	4051	0.28658488392829895	0.49548835	No	
+row_36	ELF1	ELF1	E74-like factor 1 (ets domain transcription factor)	4101	0.27104300260543823	0.4939161	No	
+row_37	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.49606714	No	
+row_38	EDN1	EDN1	endothelin 1	4447	0.15679532289505005	0.47071278	No	
+row_39	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.4708037	No	
+row_40	NFATC3	NFATC3	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3	4476	0.14862433075904846	0.47109672	No	
+row_41	HIF1A	HIF1A	hypoxia-inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)	4648	0.10557965189218521	0.45868245	No	
+row_42	CBFB	CBFB	core-binding factor, beta subunit	4692	0.0962398424744606	0.45613527	No	
+row_43	TRIP6	TRIP6	thyroid hormone receptor interactor 6	4710	0.09122946113348007	0.45556667	No	
+row_44	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	4795	0.06617257744073868	0.44958642	No	
+row_45	DMTF1	DMTF1	cyclin D binding myb-like transcription factor 1	4946	0.0302134919911623	0.4381823	No	
+row_46	MAFG	MAFG	v-maf musculoaponeurotic fibrosarcoma oncogene homolog G (avian)	5085	-0.009192598052322865	0.4275371	No	
+row_47	BAG1	BAG1	BCL2-associated athanogene	5384	-0.07765831798315048	0.40502632	No	
+row_48	CTNNB1	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	5522	-0.10790947824716568	0.39527267	No	
+row_49	ATF2	ATF2	activating transcription factor 2	6400	-0.29928991198539734	0.32960764	No	
+row_50	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	0.27471203	No	
+row_51	JUNB	JUNB	jun B proto-oncogene	7183	-0.4812280535697937	0.27681473	No	
+row_52	JUND	JUND	jun D proto-oncogene	7786	-0.631808340549469	0.23525518	No	
+row_53	GJA1	GJA1	gap junction protein, alpha 1, 43kDa (connexin 43)	7794	-0.6336514353752136	0.23993517	No	
+row_54	COPS5	COPS5	COP9 constitutive photomorphogenic homolog subunit 5 (Arabidopsis)	8086	-0.7075901031494141	0.22316134	No	
+row_55	CRTC1	CRTC1	CREB regulated transcription coactivator 1	8175	-0.7355831861495972	0.22238892	No	
+row_56	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	0.19617072	No	
+row_57	BCL2L11	BCL2L11	BCL2-like 11 (apoptosis facilitator)	9023	-1.0365514755249023	0.17239782	No	
+row_58	MYB	MYB	v-myb myeloblastosis viral oncogene homolog (avian)	9726	-1.3474595546722412	0.12896928	No	
+row_59	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	11583	-3.273010730743408	0.011763001	No	
+row_60	TH	TH	tyrosine hydroxylase	11628	-3.3477184772491455	0.035943277	No	
+row_61	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	0.055969108	No	
+row_62	FOSL1	FOSL1	FOS-like antigen 1	11904	-4.217679023742676	0.080018654	No	

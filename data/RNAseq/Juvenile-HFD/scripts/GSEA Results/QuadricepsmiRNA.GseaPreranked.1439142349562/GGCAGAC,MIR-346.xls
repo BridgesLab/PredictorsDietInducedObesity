@@ -1,0 +1,30 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CALN1	CALN1	calneuron 1	367	2.8872642517089844	0.124175474	No	
+row_1	ABCC12	ABCC12	ATP-binding cassette, sub-family C (CFTR/MRP), member 12	1181	0.900458812713623	0.10567295	No	
+row_2	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.11453015	No	
+row_3	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	2999	0.2203005850315094	0.0025074158	No	
+row_4	LRP6	LRP6	low density lipoprotein receptor-related protein 6	3091	0.20913165807724	0.0062242406	No	
+row_5	MBNL1	MBNL1	muscleblind-like (Drosophila)	3276	0.18941643834114075	0.0012686416	No	
+row_6	SMAD3	SMAD3	SMAD, mothers against DPP homolog 3 (Drosophila)	3489	0.16906000673770905	-0.0070683877	No	
+row_7	HBP1	HBP1	HMG-box transcription factor 1	3817	0.13861045241355896	-0.026453681	No	
+row_8	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	3887	0.13375750184059143	-0.02496108	No	
+row_9	SF1	SF1	splicing factor 1	4268	0.10517875850200653	-0.05047448	No	
+row_10	LIF	LIF	leukemia inhibitory factor (cholinergic differentiation factor)	4671	0.07501573860645294	-0.07940163	No	
+row_11	KCTD15	KCTD15	potassium channel tetramerisation domain containing 15	4848	0.06447184085845947	-0.09037657	No	
+row_12	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5100	0.04559203237295151	-0.10850462	No	
+row_13	RBM39	RBM39	RNA binding motif protein 39	5146	0.04300510138273239	-0.109893925	No	
+row_14	TRAF7	TRAF7	TNF receptor-associated factor 7	5214	0.038778454065322876	-0.11331142	No	
+row_15	NRBF2	NRBF2	nuclear receptor binding factor 2	5338	0.031625159084796906	-0.12169896	No	
+row_16	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	5799	0.005437918938696384	-0.15909484	No	
+row_17	PFN2	PFN2	profilin 2	7261	-0.08082710206508636	-0.27447215	No	
+row_18	PPP1R9B	PPP1R9B	protein phosphatase 1, regulatory subunit 9B, spinophilin	8408	-0.16752837598323822	-0.35941073	No	
+row_19	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	8639	-0.1881517916917801	-0.36820254	No	
+row_20	PRICKLE2	PRICKLE2	prickle homolog 2 (Drosophila)	9018	-0.22553011775016785	-0.3871227	No	
+row_21	CSNK1D	CSNK1D	casein kinase 1, delta	9463	-0.2847226560115814	-0.40828788	No	
+row_22	CSNK1G1	CSNK1G1	casein kinase 1, gamma 1	9820	-0.3521161377429962	-0.4186432	Yes	
+row_23	BCL6	BCL6	B-cell CLL/lymphoma 6 (zinc finger protein 51)	10053	-0.40942996740341187	-0.4157778	Yes	
+row_24	IGF2BP1	IGF2BP1	insulin-like growth factor 2 mRNA binding protein 1	10293	-0.4920329749584198	-0.40907308	Yes	
+row_25	COL2A1	COL2A1	collagen, type II, alpha 1 (primary osteoarthritis, spondyloepiphyseal dysplasia, congenital)	11116	-1.2831621170043945	-0.40786827	Yes	
+row_26	AFF2	AFF2	AF4/FMR2 family, member 2	11150	-1.3535882234573364	-0.33826083	Yes	
+row_27	LRRTM1	LRRTM1	leucine rich repeat transmembrane neuronal 1	11375	-1.8864753246307373	-0.2558337	Yes	
+row_28	FSTL4	FSTL4	follistatin-like 4	12128	-6.104763031005859	0.00868426	Yes	

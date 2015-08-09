@@ -1,0 +1,85 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	LAT	LAT	linker for activation of T cells	310	3.1356024742126465	0.095619366	Yes	
+row_1	AMPH	AMPH	amphiphysin (Stiff-Man syndrome with breast cancer 128kDa autoantigen)	1016	1.1303846836090088	0.08126741	Yes	
+row_2	DOCK2	DOCK2	dedicator of cytokinesis 2	1040	1.0914257764816284	0.12153751	Yes	
+row_3	MARCKSL1	MARCKSL1	MARCKS-like 1	1071	1.040253758430481	0.15925469	Yes	
+row_4	SPHK1	SPHK1	sphingosine kinase 1	1124	0.9788258671760559	0.19278829	Yes	
+row_5	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	1487	0.6335420608520508	0.1874709	Yes	
+row_6	PPAP2C	PPAP2C	phosphatidic acid phosphatase type 2C	1591	0.5754228830337524	0.20122343	Yes	
+row_7	INPP5D	INPP5D	inositol polyphosphate-5-phosphatase, 145kDa	1734	0.49830323457717896	0.20878714	Yes	
+row_8	SYK	SYK	spleen tyrosine kinase	1848	0.4591689705848694	0.21722567	Yes	
+row_9	SCIN	SCIN	scinderin	1947	0.4272496700286865	0.22566561	Yes	
+row_10	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	1962	0.42282822728157043	0.24084774	Yes	
+row_11	RAC2	RAC2	ras-related C3 botulinum toxin substrate 2 (rho family, small GTP binding protein Rac2)	2046	0.39964666962623596	0.24945581	Yes	
+row_12	WASF3	WASF3	WAS protein family, member 3	2133	0.3730475604534149	0.25678942	Yes	
+row_13	PRKCA	PRKCA	protein kinase C, alpha	2183	0.35884109139442444	0.26661924	Yes	
+row_14	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	2340	0.32350537180900574	0.26627815	Yes	
+row_15	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	2533	0.28884175419807434	0.26163524	Yes	
+row_16	GSN	GSN	gelsolin (amyloidosis, Finnish type)	2690	0.2636212706565857	0.25898078	Yes	
+row_17	PLA2G4B	PLA2G4B	phospholipase A2, group IVB (cytosolic)	2741	0.25479939579963684	0.26470906	Yes	
+row_18	VAV3	VAV3	vav 3 oncogene	2745	0.25441113114356995	0.27429035	Yes	
+row_19	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	2821	0.24302102625370026	0.27750617	Yes	
+row_20	ARF6	ARF6	ADP-ribosylation factor 6	2856	0.23788388073444366	0.28389776	Yes	
+row_21	ARPC5	ARPC5	actin related protein 2/3 complex, subunit 5, 16kDa	2869	0.2359931319952011	0.29202685	Yes	
+row_22	NCF1	NCF1	neutrophil cytosolic factor 1, (chronic granulomatous disease, autosomal 1)	2951	0.22565248608589172	0.29407793	Yes	
+row_23	ARPC2	ARPC2	actin related protein 2/3 complex, subunit 2, 34kDa	3148	0.20302677154541016	0.2857907	No	
+row_24	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3403	0.17651619017124176	0.27170607	No	
+row_25	DNM3	DNM3	dynamin 3	3522	0.1662420928478241	0.26841706	No	
+row_26	PRKCE	PRKCE	protein kinase C, epsilon	3537	0.16474615037441254	0.27362922	No	
+row_27	PLA2G4E	PLA2G4E	phospholipase A2, group IVE	3723	0.14803217351436615	0.26412275	No	
+row_28	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3795	0.14097797870635986	0.26372576	No	
+row_29	ARPC1B	ARPC1B	actin related protein 2/3 complex, subunit 1B, 41kDa	3862	0.13560089468955994	0.26353252	No	
+row_30	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	3959	0.12759864330291748	0.2605612	No	
+row_31	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	3969	0.12692414224147797	0.26472375	No	
+row_32	CFL1	CFL1	cofilin 1 (non-muscle)	4008	0.12421753257513046	0.26639506	No	
+row_33	ARPC1A	ARPC1A	actin related protein 2/3 complex, subunit 1A, 41kDa	4029	0.12232346087694168	0.2694746	No	
+row_34	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.25683817	No	
+row_35	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	4262	0.10553818196058273	0.2586932	No	
+row_36	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	4338	0.10058098286390305	0.2564064	No	
+row_37	SPHK2	SPHK2	sphingosine kinase 2	4520	0.08639931678771973	0.2448482	No	
+row_38	ARPC5L	ARPC5L	actin related protein 2/3 complex, subunit 5-like	4530	0.08590210229158401	0.24742602	No	
+row_39	DNM1L	DNM1L	dynamin 1-like	4673	0.07489150017499924	0.23863287	No	
+row_40	PRKCG	PRKCG	protein kinase C, gamma	4869	0.0633360967040062	0.22503155	No	
+row_41	PPAP2B	PPAP2B	phosphatidic acid phosphatase type 2B	4952	0.056882016360759735	0.22048055	No	
+row_42	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	4953	0.05683550983667374	0.22267616	No	
+row_43	PPAP2A	PPAP2A	phosphatidic acid phosphatase type 2A	4955	0.05678703635931015	0.22478761	No	
+row_44	PIP5K1B	PIP5K1B	phosphatidylinositol-4-phosphate 5-kinase, type I, beta	5040	0.051112622022628784	0.21984914	No	
+row_45	PLD2	PLD2	phospholipase D2	5104	0.04553729295730591	0.21642353	No	
+row_46	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	5162	0.04181811213493347	0.21334803	No	
+row_47	DNM1	DNM1	dynamin 1	5295	0.033528074622154236	0.20377995	No	
+row_48	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	5471	0.02460470423102379	0.19032836	No	
+row_49	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	5676	0.011962556280195713	0.17400174	No	
+row_50	WASF2	WASF2	WAS protein family, member 2	5708	0.009986835531890392	0.17183632	No	
+row_51	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	5799	0.005437918938696384	0.16463959	No	
+row_52	MYO10	MYO10	myosin X	6022	-0.008896217681467533	0.14671315	No	
+row_53	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	6362	-0.027748260647058487	0.11988616	No	
+row_54	WASL	WASL	Wiskott-Aldrich syndrome-like	6407	-0.030349968001246452	0.11743751	No	
+row_55	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6632	-0.04229816421866417	0.10063684	No	
+row_56	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	6764	-0.050631552934646606	0.09181178	No	
+row_57	DNM2	DNM2	dynamin 2	7156	-0.07510551810264587	0.06253477	No	
+row_58	CFL2	CFL2	cofilin 2 (muscle)	7181	-0.07659044861793518	0.0635184	No	
+row_59	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	7360	-0.08756589889526367	0.05225216	No	
+row_60	LIMK1	LIMK1	LIM domain kinase 1	7416	-0.0919676423072815	0.05127859	No	
+row_61	VASP	VASP	vasodilator-stimulated phosphoprotein	7568	-0.10392773896455765	0.04286647	No	
+row_62	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.024003884	No	
+row_63	LIMK2	LIMK2	LIM domain kinase 2	7863	-0.12391944974660873	0.028297238	No	
+row_64	VAV2	VAV2	vav 2 oncogene	7961	-0.13111764192581177	0.02537957	No	
+row_65	ARPC4	ARPC4	actin related protein 2/3 complex, subunit 4, 20kDa	8277	-0.1573237180709839	0.005533361	No	
+row_66	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	8702	-0.19496704638004303	-0.0218291	No	
+row_67	ARPC3	ARPC3	actin related protein 2/3 complex, subunit 3, 21kDa	8764	-0.2017628699541092	-0.01905495	No	
+row_68	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	9071	-0.23216061294078827	-0.03526945	No	
+row_69	PRKCD	PRKCD	protein kinase C, delta	9129	-0.2397969663143158	-0.03069681	No	
+row_70	PLCG1	PLCG1	phospholipase C, gamma 1	9164	-0.24400776624679565	-0.024068654	No	
+row_71	PIP5K1A	PIP5K1A	phosphatidylinositol-4-phosphate 5-kinase, type I, alpha	9202	-0.24864743649959564	-0.017508155	No	
+row_72	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	9313	-0.26288267970085144	-0.016405469	No	
+row_73	PLA2G6	PLA2G6	phospholipase A2, group VI (cytosolic, calcium-independent)	9314	-0.2628968358039856	-0.006249483	No	
+row_74	PLD1	PLD1	phospholipase D1, phosphatidylcholine-specific	9333	-0.2656703293323517	0.0025322854	No	
+row_75	PIP5K1C	PIP5K1C	phosphatidylinositol-4-phosphate 5-kinase, type I, gamma	9584	-0.30425429344177246	-0.0062884847	No	
+row_76	MARCKS	MARCKS	myristoylated alanine-rich protein kinase C substrate	9698	-0.32903945446014404	-0.0028769858	No	
+row_77	FCGR2B	FCGR2B	Fc fragment of IgG, low affinity IIb, receptor (CD32)	10251	-0.4745667278766632	-0.029972328	No	
+row_78	VAV1	VAV1	vav 1 oncogene	10287	-0.490598201751709	-0.013900418	No	
+row_79	GAB2	GAB2	GRB2-associated binding protein 2	10364	-0.5232264995574951	5.775007E-5	No	
+row_80	WASF1	WASF1	WAS protein family, member 1	10661	-0.6965926289558411	0.0026077302	No	
+row_81	PLA2G4A	PLA2G4A	phospholipase A2, group IVA (cytosolic, calcium-dependent)	10792	-0.816642701625824	0.0234568	No	
+row_82	HCK	HCK	hemopoietic cell kinase	11027	-1.1364591121673584	0.048101753	No	
+row_83	WAS	WAS	Wiskott-Aldrich syndrome (eczema-thrombocytopenia)	11139	-1.3240444660186768	0.09011595	No	

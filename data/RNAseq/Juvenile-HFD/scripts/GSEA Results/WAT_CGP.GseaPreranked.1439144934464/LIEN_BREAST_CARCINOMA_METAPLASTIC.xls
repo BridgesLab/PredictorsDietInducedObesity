@@ -1,0 +1,33 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	THBS1	THBS1	thrombospondin 1	109	6.297066688537598	0.084008716	Yes	
+row_1	HTRA3	HTRA3	HtrA serine peptidase 3	128	6.039111137390137	0.17128263	Yes	
+row_2	THBS2	THBS2	thrombospondin 2	251	5.187238693237305	0.23798884	Yes	
+row_3	MCAM	MCAM	melanoma cell adhesion molecule	269	5.079347610473633	0.31124857	Yes	
+row_4	ADAMTS5	ADAMTS5	ADAM metallopeptidase with thrombospondin type 1 motif, 5 (aggrecanase-2)	311	4.852756023406982	0.37932137	Yes	
+row_5	SPARC	SPARC	secreted protein, acidic, cysteine-rich (osteonectin)	499	4.117643356323242	0.4252857	Yes	
+row_6	HOXA7	HOXA7	homeobox A7	577	3.8885905742645264	0.47641212	Yes	
+row_7	LUM	LUM	lumican	672	3.607318878173828	0.52209127	Yes	
+row_8	SFRP2	SFRP2	secreted frizzled-related protein 2	740	3.4499828815460205	0.56755286	Yes	
+row_9	TIMP3	TIMP3	TIMP metallopeptidase inhibitor 3 (Sorsby fundus dystrophy, pseudoinflammatory)	781	3.3618879318237305	0.6138136	Yes	
+row_10	SFRP4	SFRP4	secreted frizzled-related protein 4	1267	2.4048495292663574	0.61153454	Yes	
+row_11	RARRES2	RARRES2	retinoic acid receptor responder (tazarotene induced) 2	1507	2.03639817237854	0.622911	Yes	
+row_12	MXRA8	MXRA8	matrix-remodelling associated 8	1552	1.9970232248306274	0.6488221	Yes	
+row_13	PKD2	PKD2	polycystic kidney disease 2 (autosomal dominant)	1806	1.7044423818588257	0.65423965	Yes	
+row_14	IGF2	IGF2	insulin-like growth factor 2 (somatomedin A)	1876	1.6301242113113403	0.6728263	Yes	
+row_15	TPM4	TPM4	tropomyosin 4	1969	1.5158218145370483	0.68795216	Yes	
+row_16	POSTN	POSTN	periostin, osteoblast specific factor	2011	1.4709731340408325	0.7063721	Yes	
+row_17	MSX1	MSX1	msh homeobox homolog 1 (Drosophila)	2234	1.278167486190796	0.7079334	Yes	
+row_18	STAG2	STAG2	stromal antigen 2	2306	1.2211058139801025	0.7203596	Yes	
+row_19	KCNE4	KCNE4	potassium voltage-gated channel, Isk-related family, member 4	2677	0.9222869873046875	0.7052256	No	
+row_20	TPM3	TPM3	tropomyosin 3	3790	0.3719484210014343	0.62450516	No	
+row_21	PPP1R12A	PPP1R12A	protein phosphatase 1, regulatory (inhibitor) subunit 12A	4643	0.10670409351587296	0.5600407	No	
+row_22	EDIL3	EDIL3	EGF-like repeats and discoidin I-like domains 3	4701	0.09346465766429901	0.5569954	No	
+row_23	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	4912	0.03931080549955368	0.5412973	No	
+row_24	MMP16	MMP16	matrix metallopeptidase 16 (membrane-inserted)	5189	-0.03326764330267906	0.5203954	No	
+row_25	PRRX1	PRRX1	paired related homeobox 1	5280	-0.05333827808499336	0.51420337	No	
+row_26	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.5047853	No	
+row_27	RUNX1T1	RUNX1T1	runt-related transcription factor 1; translocated to, 1 (cyclin D-related)	8680	-0.9005721807479858	0.26535347	No	
+row_28	COL18A1	COL18A1	collagen, type XVIII, alpha 1	8833	-0.9574980735778809	0.26763168	No	
+row_29	TBX2	TBX2	T-box 2	9219	-1.111101508140564	0.25410736	No	
+row_30	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	9285	-1.1377607583999634	0.26577488	No	
+row_31	COL16A1	COL16A1	collagen, type XVI, alpha 1	9328	-1.15445077419281	0.27946997	No	

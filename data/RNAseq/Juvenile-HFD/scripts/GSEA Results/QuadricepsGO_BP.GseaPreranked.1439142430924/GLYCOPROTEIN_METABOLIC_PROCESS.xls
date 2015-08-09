@@ -1,0 +1,82 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	A4GNT	A4GNT	alpha-1,4-N-acetylglucosaminyltransferase	257	3.515204429626465	0.028310085	No	
+row_1	LRP2	LRP2	low density lipoprotein-related protein 2	366	2.8872642517089844	0.060045023	No	
+row_2	FUT7	FUT7	fucosyltransferase 7 (alpha (1,3) fucosyltransferase)	814	1.605635166168213	0.045856677	No	
+row_3	FUT4	FUT4	fucosyltransferase 4 (alpha (1,3) fucosyltransferase, myeloid-specific)	892	1.3569514751434326	0.058612257	No	
+row_4	GCNT4	GCNT4	glucosaminyl (N-acetyl) transferase 4, core 2 (beta-1,6-N-acetylglucosaminyltransferase)	974	1.213887333869934	0.069025956	No	
+row_5	B3GALT4	B3GALT4	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 4	1447	0.6544428467750549	0.039398357	No	
+row_6	DPM3	DPM3	dolichyl-phosphate mannosyltransferase polypeptide 3	1611	0.5608422160148621	0.03387762	No	
+row_7	MGAT4A	MGAT4A	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme A	1684	0.5252465605735779	0.035343334	No	
+row_8	AGA	AGA	aspartylglucosaminidase	1772	0.4862179160118103	0.035025794	No	
+row_9	FUT2	FUT2	fucosyltransferase 2 (secretor status included)	1851	0.45718568563461304	0.035040297	No	
+row_10	ALG5	ALG5	asparagine-linked glycosylation 5 homolog (S. cerevisiae, dolichyl-phosphate beta-glucosyltransferase)	2288	0.3348706364631653	0.003878625	No	
+row_11	GALNT7	GALNT7	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 7 (GalNAc-T7)	2437	0.3044881224632263	-0.0040145945	No	
+row_12	TUSC3	TUSC3	tumor suppressor candidate 3	2657	0.2704204320907593	-0.01822881	No	
+row_13	BACE1	BACE1	beta-site APP-cleaving enzyme 1	2691	0.2632944881916046	-0.017239677	No	
+row_14	NCSTN	NCSTN	nicastrin	2761	0.2512145936489105	-0.019382484	No	
+row_15	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	2999	0.2203005850315094	-0.03578283	No	
+row_16	STT3B	STT3B	STT3, subunit of the oligosaccharyltransferase complex, homolog B (S. cerevisiae)	3036	0.215935617685318	-0.03570682	No	
+row_17	MAN1A2	MAN1A2	mannosidase, alpha, class 1A, member 2	3099	0.20845411717891693	-0.037875284	No	
+row_18	PSENEN	PSENEN	presenilin enhancer 2 homolog (C. elegans)	3433	0.17335109412670135	-0.06283479	No	
+row_19	CD37	CD37	CD37 molecule	3641	0.15475556254386902	-0.07768897	No	
+row_20	MAN2B1	MAN2B1	mannosidase, alpha, class 2B, member 1	3729	0.14768828451633453	-0.08276928	No	
+row_21	POMT1	POMT1	protein-O-mannosyltransferase 1	3840	0.13704214990139008	-0.089891754	No	
+row_22	SERP1	SERP1	-	3968	0.126926988363266	-0.09855525	No	
+row_23	B3GALT2	B3GALT2	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 2	4280	0.10465937107801437	-0.12267108	No	
+row_24	CLN3	CLN3	ceroid-lipofuscinosis, neuronal 3, juvenile (Batten, Spielmeyer-Vogt disease)	4290	0.10369850695133209	-0.121952645	No	
+row_25	ALG6	ALG6	asparagine-linked glycosylation 6 homolog (S. cerevisiae, alpha-1,3-glucosyltransferase)	4390	0.09572849422693253	-0.12875131	No	
+row_26	GALNT1	GALNT1	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 1 (GalNAc-T1)	4805	0.06684804707765579	-0.16187368	No	
+row_27	LIPA	LIPA	lipase A, lysosomal acid, cholesterol esterase (Wolman disease)	4843	0.0646619200706482	-0.16400823	No	
+row_28	POMGNT1	POMGNT1	protein O-linked mannose beta1,2-N-acetylglucosaminyltransferase	5002	0.05421845614910126	-0.17624526	No	
+row_29	COG3	COG3	component of oligomeric golgi complex 3	5016	0.0532691553235054	-0.17656542	No	
+row_30	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	5049	0.05044495686888695	-0.1784886	No	
+row_31	SDF2	SDF2	stromal cell-derived factor 2	5164	0.04161747172474861	-0.1872827	No	
+row_32	NGLY1	NGLY1	N-glycanase 1	5486	0.02361897937953472	-0.21336147	No	
+row_33	PSEN2	PSEN2	presenilin 2 (Alzheimer disease 4)	5529	0.020848819985985756	-0.2165238	No	
+row_34	GYPC	GYPC	glycophorin C (Gerbich blood group)	5575	0.01828848011791706	-0.21996897	No	
+row_35	STT3A	STT3A	STT3, subunit of the oligosaccharyltransferase complex, homolog A (S. cerevisiae)	5576	0.01821756176650524	-0.21971267	No	
+row_36	ALG1	ALG1	asparagine-linked glycosylation 1 homolog (S. cerevisiae, beta-1,4-mannosyltransferase)	5766	0.006732851732522249	-0.23516838	No	
+row_37	BACE2	BACE2	beta-site APP-cleaving enzyme 2	5792	0.005561056546866894	-0.2371471	No	
+row_38	TNIP1	TNIP1	TNFAIP3 interacting protein 1	5987	-0.007039055693894625	-0.2530099	No	
+row_39	FUT10	FUT10	fucosyltransferase 10 (alpha (1,3) fucosyltransferase)	6045	-0.010173439979553223	-0.25755656	No	
+row_40	MGEA5	MGEA5	meningioma expressed antigen 5 (hyaluronidase)	6082	-0.01211564987897873	-0.26034808	No	
+row_41	ADAMTS9	ADAMTS9	ADAM metallopeptidase with thrombospondin type 1 motif, 9	6455	-0.032520826905965805	-0.29049778	No	
+row_42	ALG2	ALG2	asparagine-linked glycosylation 2 homolog (S. cerevisiae, alpha-1,3-mannosyltransferase)	6576	-0.03987883776426315	-0.29981	No	
+row_43	ALG12	ALG12	asparagine-linked glycosylation 12 homolog (S. cerevisiae, alpha-1,6-mannosyltransferase)	6865	-0.05677232891321182	-0.32270718	No	
+row_44	TSPAN8	TSPAN8	tetraspanin 8	7099	-0.07180299609899521	-0.3408676	No	
+row_45	MGAT4B	MGAT4B	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme B	7105	-0.07205123454332352	-0.34026533	No	
+row_46	B3GALNT1	B3GALNT1	beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group)	7250	-0.08012476563453674	-0.350986	No	
+row_47	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	7309	-0.08387830853462219	-0.35457802	No	
+row_48	TSPAN7	TSPAN7	tetraspanin 7	7467	-0.09641683846712112	-0.36613908	No	
+row_49	COG7	COG7	component of oligomeric golgi complex 7	7477	-0.09772612899541855	-0.36550465	No	
+row_50	PSEN1	PSEN1	presenilin 1 (Alzheimer disease 3)	7635	-0.10835117101669312	-0.37689784	No	
+row_51	FUT8	FUT8	fucosyltransferase 8 (alpha (1,6) fucosyltransferase)	7683	-0.11190609633922577	-0.37919047	No	
+row_52	APH1A	APH1A	anterior pharynx defective 1 homolog A (C. elegans)	7819	-0.12052319198846817	-0.3886023	No	
+row_53	DPM2	DPM2	dolichyl-phosphate mannosyltransferase polypeptide 2, regulatory subunit	7891	-0.12556259334087372	-0.39267743	No	
+row_54	RPN1	RPN1	ribophorin I	8477	-0.17396005988121033	-0.4383623	No	
+row_55	LARGE	LARGE	like-glycosyltransferase	8495	-0.1757076531648636	-0.43728897	No	
+row_56	COG2	COG2	component of oligomeric golgi complex 2	8592	-0.18332159519195557	-0.44260848	No	
+row_57	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	8639	-0.1881517916917801	-0.44374612	No	
+row_58	MPDU1	MPDU1	mannose-P-dolichol utilization defect 1	9088	-0.23450319468975067	-0.4773072	No	
+row_59	DOLPP1	DOLPP1	dolichyl pyrophosphate phosphatase 1	9356	-0.2681069076061249	-0.49550328	No	
+row_60	POFUT1	POFUT1	protein O-fucosyltransferase 1	9382	-0.2711295485496521	-0.49374568	No	
+row_61	ACHE	ACHE	acetylcholinesterase (Yt blood group)	9385	-0.2715763747692108	-0.49008945	No	
+row_62	TRAK1	TRAK1	trafficking protein, kinesin binding 1	9574	-0.30215346813201904	-0.5013066	No	
+row_63	GALNT2	GALNT2	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 2 (GalNAc-T2)	9950	-0.3807588517665863	-0.52680373	No	
+row_64	DPM1	DPM1	dolichyl-phosphate mannosyltransferase polypeptide 1, catalytic subunit	10007	-0.395357608795166	-0.525849	No	
+row_65	ST8SIA4	ST8SIA4	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 4	10056	-0.40975916385650635	-0.5240334	No	
+row_66	ALG8	ALG8	asparagine-linked glycosylation 8 homolog (S. cerevisiae, alpha-1,3-glucosyltransferase)	10190	-0.45029217004776	-0.52864116	No	
+row_67	FUT9	FUT9	fucosyltransferase 9 (alpha (1,3) fucosyltransferase)	10404	-0.5403838157653809	-0.5385636	No	
+row_68	ST8SIA2	ST8SIA2	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2	10529	-0.6033093929290771	-0.540278	No	
+row_69	B3GALT5	B3GALT5	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 5	10837	-0.8608042001724243	-0.55342656	No	
+row_70	B3GNT5	B3GNT5	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5	11114	-1.280975580215454	-0.5581131	Yes	
+row_71	LIPC	LIPC	lipase, hepatic	11399	-1.894073247909546	-0.5548322	Yes	
+row_72	GAL3ST1	GAL3ST1	galactose-3-O-sulfotransferase 1	11432	-2.008881092071533	-0.52920216	Yes	
+row_73	GCNT1	GCNT1	glucosaminyl (N-acetyl) transferase 1, core 2 (beta-1,6-N-acetylglucosaminyltransferase)	11691	-2.6588878631591797	-0.5130218	Yes	
+row_74	ALK	ALK	anaplastic lymphoma kinase (Ki-1)	11827	-3.103644609451294	-0.48046413	Yes	
+row_75	GALNT6	GALNT6	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 6 (GalNAc-T6)	11829	-3.1178417205810547	-0.43668154	Yes	
+row_76	TM4SF4	TM4SF4	transmembrane 4 L six family member 4	12002	-4.361868858337402	-0.38946614	Yes	
+row_77	FUT1	FUT1	fucosyltransferase 1 (galactoside 2-alpha-L-fucosyltransferase, H blood group)	12039	-4.6259379386901855	-0.32734585	Yes	
+row_78	ST8SIA3	ST8SIA3	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 3	12116	-5.882410049438477	-0.25083932	Yes	
+row_79	TM4SF5	TM4SF5	transmembrane 4 L six family member 5	12158	-6.7373151779174805	-0.15942547	Yes	
+row_80	APOA4	APOA4	apolipoprotein A-IV	12229	-11.770315170288086	4.1159254E-4	Yes	

@@ -1,0 +1,103 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TH	TH	tyrosine hydroxylase	103	4.872713088989258	0.15874223	Yes	
+row_1	SLC18A2	SLC18A2	solute carrier family 18 (vesicular monoamine), member 2	150	4.405786991119385	0.3061575	Yes	
+row_2	COX7B2	COX7B2	cytochrome c oxidase subunit VIIb2	501	2.527392864227295	0.3640507	Yes	
+row_3	COX6A1	COX6A1	cytochrome c oxidase subunit VIa polypeptide 1	1430	0.6644865274429321	0.31037024	No	
+row_4	LRRK2	LRRK2	leucine-rich repeat kinase 2	1566	0.5857212543487549	0.3193455	No	
+row_5	PPID	PPID	peptidylprolyl isomerase D (cyclophilin D)	2176	0.3610425889492035	0.2815428	No	
+row_6	COX8A	COX8A	cytochrome c oxidase subunit 8A (ubiquitous)	2232	0.34832045435905457	0.28896406	No	
+row_7	SLC25A5	SLC25A5	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 5	2639	0.2729923129081726	0.2648707	No	
+row_8	NDUFB2	NDUFB2	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 2, 8kDa	3158	0.20154136419296265	0.22909413	No	
+row_9	NDUFB4	NDUFB4	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 4, 15kDa	3300	0.1873423308134079	0.22390252	No	
+row_10	VDAC2	VDAC2	voltage-dependent anion channel 2	3372	0.1804119497537613	0.22424245	No	
+row_11	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3430	0.17367631196975708	0.22550508	No	
+row_12	COX7A2	COX7A2	cytochrome c oxidase subunit VIIa polypeptide 2 (liver)	3628	0.15560221672058105	0.21460865	No	
+row_13	NDUFA2	NDUFA2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2, 8kDa	3983	0.12591798603534698	0.18975353	No	
+row_14	UBE2L3	UBE2L3	ubiquitin-conjugating enzyme E2L 3	3989	0.12561017274856567	0.19365236	No	
+row_15	NDUFB6	NDUFB6	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6, 17kDa	4038	0.121525838971138	0.19386698	No	
+row_16	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	4288	0.10402976721525192	0.17691474	No	
+row_17	ATP5G2	ATP5G2	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C2 (subunit 9)	4355	0.09924403578042984	0.17488109	No	
+row_18	UBE2G1	UBE2G1	ubiquitin-conjugating enzyme E2G 1 (UBC7 homolog, yeast)	4554	0.08338841050863266	0.16142385	No	
+row_19	NDUFS6	NDUFS6	NADH dehydrogenase (ubiquinone) Fe-S protein 6, 13kDa (NADH-coenzyme Q reductase)	4581	0.08154357224702835	0.16207951	No	
+row_20	NDUFB5	NDUFB5	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 5, 16kDa	4627	0.07840761542320251	0.16106157	No	
+row_21	NDUFA4	NDUFA4	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4, 9kDa	4719	0.07283467799425125	0.15606104	No	
+row_22	VDAC1	VDAC1	voltage-dependent anion channel 1	4808	0.06648623943328857	0.1510899	No	
+row_23	NDUFS8	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)	4837	0.0649745836853981	0.15101208	No	
+row_24	APAF1	APAF1	apoptotic peptidase activating factor	4895	0.060947589576244354	0.14840586	No	
+row_25	NDUFV3	NDUFV3	NADH dehydrogenase (ubiquinone) flavoprotein 3, 10kDa	4908	0.05966343730688095	0.14946447	No	
+row_26	NDUFA7	NDUFA7	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 7, 14.5kDa	4916	0.05929434671998024	0.15092252	No	
+row_27	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	5125	0.04426911473274231	0.1352985	No	
+row_28	NDUFS2	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2, 49kDa (NADH-coenzyme Q reductase)	5303	0.033243462443351746	0.12185111	No	
+row_29	UBE2J1	UBE2J1	ubiquitin-conjugating enzyme E2, J1 (UBC6 homolog, yeast)	5637	0.014245872385799885	0.09489422	No	
+row_30	HTRA2	HTRA2	HtrA serine peptidase 2	5674	0.01199544407427311	0.09233879	No	
+row_31	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	5701	0.010427823290228844	0.09055376	No	
+row_32	VDAC3	VDAC3	voltage-dependent anion channel 3	5770	0.006511727813631296	0.08517269	No	
+row_33	NDUFA6	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa	5993	-0.007260868791490793	0.06712468	No	
+row_34	UBB	UBB	ubiquitin B	6104	-0.013128473423421383	0.058509067	No	
+row_35	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	6123	-0.014111476950347424	0.057509813	No	
+row_36	UBE2G2	UBE2G2	ubiquitin-conjugating enzyme E2G 2 (UBC7 homolog, yeast)	6191	-0.01773439161479473	0.05259633	No	
+row_37	NDUFV2	NDUFV2	NADH dehydrogenase (ubiquinone) flavoprotein 2, 24kDa	6234	-0.019900109618902206	0.049817666	No	
+row_38	NDUFC1	NDUFC1	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 1, 6kDa	6281	-0.022967500612139702	0.0468146	No	
+row_39	NDUFB7	NDUFB7	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 7, 18kDa	6291	-0.023434842005372047	0.046877105	No	
+row_40	CYCS	CYCS	cytochrome c, somatic	6345	-0.026793451979756355	0.043428402	No	
+row_41	COX7B	COX7B	cytochrome c oxidase subunit VIIb	6388	-0.029247993603348732	0.04097056	No	
+row_42	NDUFAB1	NDUFAB1	NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1, 8kDa	6621	-0.041651468724012375	0.023278635	No	
+row_43	PARK7	PARK7	Parkinson disease (autosomal recessive, early onset) 7	6692	-0.04623986780643463	0.0190962	No	
+row_44	UBE2J2	UBE2J2	ubiquitin-conjugating enzyme E2, J2 (UBC6 homolog, yeast)	6847	-0.055671803653240204	0.008314199	No	
+row_45	ATP5B	ATP5B	ATP synthase, H+ transporting, mitochondrial F1 complex, beta polypeptide	6895	-0.058781009167432785	0.00645783	No	
+row_46	ATP5O	ATP5O	ATP synthase, H+ transporting, mitochondrial F1 complex, O subunit (oligomycin sensitivity conferring protein)	6954	-0.06265414506196976	0.003827769	No	
+row_47	COX7C	COX7C	cytochrome c oxidase subunit VIIc	7004	-0.06632447987794876	0.0020654525	No	
+row_48	UQCRC2	UQCRC2	ubiquinol-cytochrome c reductase core protein II	7070	-0.06961816549301147	-9.025423E-4	No	
+row_49	NDUFS4	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	7120	-0.07278981804847717	-0.0024429685	No	
+row_50	PINK1	PINK1	PTEN induced putative kinase 1	7124	-0.07303064316511154	-1.8381664E-4	No	
+row_51	COX5B	COX5B	cytochrome c oxidase subunit Vb	7224	-0.07854729145765305	-0.0056476383	No	
+row_52	NDUFA8	NDUFA8	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 8, 19kDa	7553	-0.10296493768692017	-0.029147591	No	
+row_53	NDUFS3	NDUFS3	NADH dehydrogenase (ubiquinone) Fe-S protein 3, 30kDa (NADH-coenzyme Q reductase)	7557	-0.10351307690143585	-0.025842281	No	
+row_54	NDUFB8	NDUFB8	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 8, 19kDa	7574	-0.10417874902486801	-0.023585586	No	
+row_55	ATP5A1	ATP5A1	ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1, cardiac muscle	7661	-0.11021688580513	-0.026891049	No	
+row_56	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	7671	-0.11087160557508469	-0.023827715	No	
+row_57	CYC1	CYC1	cytochrome c-1	7782	-0.11819316446781158	-0.028837508	No	
+row_58	NDUFS7	NDUFS7	NADH dehydrogenase (ubiquinone) Fe-S protein 7, 20kDa (NADH-coenzyme Q reductase)	7837	-0.12203915417194366	-0.029099796	No	
+row_59	COX7A2L	COX7A2L	cytochrome c oxidase subunit VIIa polypeptide 2 like	7888	-0.1253059208393097	-0.028920291	No	
+row_60	NDUFB10	NDUFB10	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 10, 22kDa	7895	-0.12585392594337463	-0.025095504	No	
+row_61	COX6C	COX6C	cytochrome c oxidase subunit VIc	7914	-0.12692196667194366	-0.0222231	No	
+row_62	NDUFA10	NDUFA10	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 10, 42kDa	7938	-0.12889249622821808	-0.019695166	No	
+row_63	NDUFA1	NDUFA1	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 1, 7.5kDa	7986	-0.1327904611825943	-0.019011531	No	
+row_64	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	7992	-0.1334066241979599	-0.014845115	No	
+row_65	COX4I2	COX4I2	cytochrome c oxidase subunit IV isoform 2 (lung)	8023	-0.13582691550254822	-0.012656132	No	
+row_66	COX4I1	COX4I1	cytochrome c oxidase subunit IV isoform 1	8027	-0.13654334843158722	-0.008217224	No	
+row_67	ATP5C1	ATP5C1	ATP synthase, H+ transporting, mitochondrial F1 complex, gamma polypeptide 1	8048	-0.13811013102531433	-0.0051256814	No	
+row_68	NDUFB9	NDUFB9	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 9, 22kDa	8073	-0.14021527767181396	-0.0022915702	No	
+row_69	SLC25A4	SLC25A4	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 4	8185	-0.14973342418670654	-0.0063013225	No	
+row_70	PARK2	PARK2	Parkinson disease (autosomal recessive, juvenile) 2, parkin	8224	-0.15294215083122253	-0.0041843024	No	
+row_71	NDUFA9	NDUFA9	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 9, 39kDa	8238	-0.15397903323173523	2.8799499E-5	No	
+row_72	NDUFV1	NDUFV1	NADH dehydrogenase (ubiquinone) flavoprotein 1, 51kDa	8300	-0.15936031937599182	4.7043443E-4	No	
+row_73	ATP5H	ATP5H	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit d	8335	-0.16228148341178894	0.0032376596	No	
+row_74	COX7A1	COX7A1	cytochrome c oxidase subunit VIIa polypeptide 1 (muscle)	8368	-0.16396629810333252	0.0062275473	No	
+row_75	ATP5J	ATP5J	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit F6	8607	-0.18446823954582214	-0.0070574265	No	
+row_76	UQCRQ	UQCRQ	ubiquinol-cytochrome c reductase, complex III subunit VII, 9.5kDa	8716	-0.19665130972862244	-0.009209697	No	
+row_77	ATP5G3	ATP5G3	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C3 (subunit 9)	8717	-0.19680030643939972	-0.0024555116	No	
+row_78	SLC18A1	SLC18A1	solute carrier family 18 (vesicular monoamine), member 1	8848	-0.20920369029045105	-0.0059902216	No	
+row_79	ATP5D	ATP5D	ATP synthase, H+ transporting, mitochondrial F1 complex, delta subunit	9008	-0.22422944009304047	-0.011399423	No	
+row_80	NDUFA5	NDUFA5	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 5, 13kDa	9010	-0.22462880611419678	-0.0037725833	No	
+row_81	UBE2L6	UBE2L6	ubiquitin-conjugating enzyme E2L 6	9025	-0.2257290780544281	0.0028205598	No	
+row_82	ATP5G1	ATP5G1	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C1 (subunit 9)	9083	-0.23365773260593414	0.0061417613	No	
+row_83	ATP5F1	ATP5F1	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit B1	9084	-0.23393230140209198	0.014170317	No	
+row_84	UQCRFS1	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1	9119	-0.23882150650024414	0.019564396	No	
+row_85	NDUFA3	NDUFA3	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 3, 9kDa	9180	-0.2454809844493866	0.023044111	No	
+row_86	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	9214	-0.250570684671402	0.028923841	No	
+row_87	COX6B2	COX6B2	cytochrome c oxidase subunit VIb polypeptide 2 (testis)	9227	-0.252349317073822	0.03659543	No	
+row_88	NDUFB3	NDUFB3	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 3, 12kDa	9238	-0.2537277936935425	0.04447917	No	
+row_89	NDUFA4L2	NDUFA4L2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4-like 2	9472	-0.28606918454170227	0.035093237	No	
+row_90	COX6A2	COX6A2	cytochrome c oxidase subunit VIa polypeptide 2	9551	-0.29797232151031494	0.0388909	No	
+row_91	SNCA	SNCA	synuclein, alpha (non A4 component of amyloid precursor)	9683	-0.32499679923057556	0.03924779	No	
+row_92	NDUFC2	NDUFC2	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa	9689	-0.3262167274951935	0.050031446	No	
+row_93	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	9806	-0.35011765360832214	0.05248678	No	
+row_94	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	9845	-0.3581591248512268	0.061646845	No	
+row_95	COX6B1	COX6B1	cytochrome c oxidase subunit Vib polypeptide 1 (ubiquitous)	9943	-0.37906768918037415	0.06666172	No	
+row_96	ATP5E	ATP5E	ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit	10032	-0.4038580656051636	0.07326918	No	
+row_97	NDUFS5	NDUFS5	NADH dehydrogenase (ubiquinone) Fe-S protein 5, 15kDa (NADH-coenzyme Q reductase)	10205	-0.45349186658859253	0.07465681	No	
+row_98	COX5A	COX5A	cytochrome c oxidase subunit Va	10241	-0.471933513879776	0.08796887	No	
+row_99	SEPT5	SEPT5	septin 5	10272	-0.4863840937614441	0.102188975	No	
+row_100	UCHL1	UCHL1	ubiquitin carboxyl-terminal esterase L1 (ubiquitin thiolesterase)	10703	-0.7310363054275513	0.09183761	No	
+row_101	SNCAIP	SNCAIP	synuclein, alpha interacting protein (synphilin)	10942	-0.9983941316604614	0.10648657	No	

@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP2A1	ATP2A1	ATPase, Ca++ transporting, cardiac muscle, fast twitch 1	38	7.736367702484131	0.11871998	Yes	
+row_1	SEMA6D	SEMA6D	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D	644	3.687997817993164	0.12976342	Yes	
+row_2	DMRT2	DMRT2	doublesex and mab-3 related transcription factor 2	645	3.68399715423584	0.18770142	Yes	
+row_3	MAP1A	MAP1A	microtubule-associated protein 1A	1210	2.492058515548706	0.18311866	Yes	
+row_4	DMPK	DMPK	dystrophia myotonica-protein kinase	1221	2.479275703430176	0.2213339	Yes	
+row_5	VWA1	VWA1	von Willebrand factor A domain containing 1	1575	1.9653617143630981	0.22484471	Yes	
+row_6	MEIS2	MEIS2	Meis1, myeloid ecotropic viral integration site 1 homolog 2 (mouse)	1583	1.9555734395980835	0.2550566	Yes	
+row_7	ZBTB4	ZBTB4	zinc finger and BTB domain containing 4	1599	1.9361211061477661	0.2843416	Yes	
+row_8	GPD1	GPD1	glycerol-3-phosphate dehydrogenase 1 (soluble)	1929	1.5727238655090332	0.2835402	Yes	
+row_9	MOCS1	MOCS1	molybdenum cofactor synthesis 1	2541	1.0184094905853271	0.2521335	Yes	
+row_10	TLN1	TLN1	talin 1	2636	0.9600453972816467	0.2599362	Yes	
+row_11	CSRP1	CSRP1	cysteine and glycine-rich protein 1	2659	0.9363682270050049	0.27295485	Yes	
+row_12	ITPKA	ITPKA	inositol 1,4,5-trisphosphate 3-kinase A	2853	0.8131904006004333	0.27076402	Yes	
+row_13	MN1	MN1	meningioma (disrupted in balanced translocation) 1	2894	0.7922987937927246	0.28011984	Yes	
+row_14	LPPR4	LPPR4	-	2897	0.7909026741981506	0.2924031	Yes	
+row_15	NFIB	NFIB	nuclear factor I/B	3076	0.6908187866210938	0.289452	No	
+row_16	DNAJB5	DNAJB5	DnaJ (Hsp40) homolog, subfamily B, member 5	4245	0.21981942653656006	0.20225398	No	
+row_17	ZC3H7B	ZC3H7B	zinc finger CCCH-type containing 7B	4949	0.02886190451681614	0.1481441	No	
+row_18	SEH1L	SEH1L	SEH1-like (S. cerevisiae)	4958	0.026580823585391045	0.1479412	No	
+row_19	MBD6	MBD6	methyl-CpG binding domain protein 6	5247	-0.04711795970797539	0.12632892	No	
+row_20	GDAP2	GDAP2	ganglioside induced differentiation associated protein 2	5333	-0.06336966156959534	0.1207282	No	
+row_21	TRIOBP	TRIOBP	TRIO and F-actin binding protein	5410	-0.08465029299259186	0.116160706	No	
+row_22	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.11690769	No	
+row_23	IL1RAPL1	IL1RAPL1	interleukin 1 receptor accessory protein-like 1	5687	-0.14624100923538208	0.09848424	No	
+row_24	SMARCD1	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1	5999	-0.21398338675498962	0.077711076	No	
+row_25	HPS1	HPS1	Hermansky-Pudlak syndrome 1	6287	-0.27128419280052185	0.059701856	No	
+row_26	PUM1	PUM1	pumilio homolog 1 (Drosophila)	6378	-0.2933180034160614	0.057329442	No	
+row_27	B4GALT5	B4GALT5	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 5	6548	-0.33442187309265137	0.049471833	No	
+row_28	APPBP2	APPBP2	amyloid beta precursor protein (cytoplasmic tail) binding protein 2	6705	-0.36981216073036194	0.043179806	No	
+row_29	APH1A	APH1A	anterior pharynx defective 1 homolog A (C. elegans)	7067	-0.4521341621875763	0.022271244	No	
+row_30	RNF40	RNF40	ring finger protein 40	7197	-0.48518192768096924	0.01988925	No	
+row_31	ARL4D	ARL4D	ADP-ribosylation factor-like 4D	7263	-0.49715131521224976	0.022662902	No	
+row_32	CHD4	CHD4	chromodomain helicase DNA binding protein 4	7496	-0.559453010559082	0.0134545555	No	
+row_33	TAF10	TAF10	TAF10 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 30kDa	7763	-0.627781331539154	0.0026818723	No	
+row_34	N4BP3	N4BP3	-	7774	-0.6299934983253479	0.011813585	No	
+row_35	KHDRBS1	KHDRBS1	KH domain containing, RNA binding, signal transduction associated 1	8018	-0.6913651823997498	0.0038260408	No	
+row_36	TRPV4	TRPV4	transient receptor potential cation channel, subfamily V, member 4	8232	-0.7528815865516663	-8.655692E-4	No	
+row_37	PATZ1	PATZ1	POZ (BTB) and AT hook containing zinc finger 1	8548	-0.8541355133056641	-0.011881561	No	
+row_38	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	-0.0112558305	No	
+row_39	TRIM33	TRIM33	tripartite motif-containing 33	8830	-0.9572005271911621	-0.0041187922	No	
+row_40	GIPC1	GIPC1	GIPC PDZ domain containing family, member 1	9096	-1.0666340589523315	-0.007912051	No	
+row_41	AGPAT1	AGPAT1	1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha)	9110	-1.0706638097763062	0.0079172095	No	
+row_42	SYNGAP1	SYNGAP1	synaptic Ras GTPase activating protein 1 homolog (rat)	9556	-1.2607530355453491	-0.0067939674	No	
+row_43	CHD3	CHD3	chromodomain helicase DNA binding protein 3	9645	-1.3077597618103027	0.0069429134	No	
+row_44	ATXN2L	ATXN2L	ataxin 2-like	10273	-1.6506657600402832	-0.015762178	No	
+row_45	AKAP1	AKAP1	A kinase (PRKA) anchor protein 1	10538	-1.856564998626709	-0.007054624	No	
+row_46	SEMA4G	SEMA4G	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4G	10620	-1.933932900428772	0.017073352	No	
+row_47	TCF7	TCF7	transcription factor 7 (T-cell specific, HMG-box)	10830	-2.156174659729004	0.03476171	No	
+row_48	STC1	STC1	stanniocalcin 1	10848	-2.1794843673706055	0.067718856	No	
+row_49	HOXC11	HOXC11	homeobox C11	11203	-2.6490442752838135	0.08190428	No	
+row_50	IGF2BP1	IGF2BP1	insulin-like growth factor 2 mRNA binding protein 1	11624	-3.3300130367279053	0.10167661	No	

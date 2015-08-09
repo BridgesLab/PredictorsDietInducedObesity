@@ -1,0 +1,35 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL7	CCL7	chemokine (C-C motif) ligand 7	6	7.801300048828125	0.17319873	Yes	
+row_1	CCR9	CCR9	chemokine (C-C motif) receptor 9	175	4.063228130340576	0.2498943	Yes	
+row_2	CCL2	CCL2	chemokine (C-C motif) ligand 2	181	4.006468772888184	0.33868572	Yes	
+row_3	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.38448933	Yes	
+row_4	LTB	LTB	lymphotoxin beta (TNF superfamily, member 3)	465	2.676633834838867	0.43924704	Yes	
+row_5	IL1R2	IL1R2	interleukin 1 receptor, type II	557	2.447561264038086	0.48628187	Yes	
+row_6	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.5112584	Yes	
+row_7	CCL22	CCL22	chemokine (C-C motif) ligand 22	766	1.7218800783157349	0.5477918	Yes	
+row_8	CXCR3	CXCR3	chemokine (C-X-C motif) receptor 3	793	1.6613858938217163	0.5826504	Yes	
+row_9	CASP1	CASP1	caspase 1, apoptosis-related cysteine peptidase (interleukin 1, beta, convertase)	836	1.5234390497207642	0.61312634	Yes	
+row_10	LTA	LTA	lymphotoxin alpha (TNF superfamily, member 1)	1122	0.9819457530975342	0.61162996	Yes	
+row_11	CCR4	CCR4	chemokine (C-C motif) receptor 4	1207	0.8701292872428894	0.6241181	Yes	
+row_12	CCR1	CCR1	chemokine (C-C motif) receptor 1	1519	0.6131852269172668	0.61228055	Yes	
+row_13	CCR2	CCR2	chemokine (C-C motif) receptor 2	1622	0.5533095002174377	0.6162396	Yes	
+row_14	ITGAM	ITGAM	integrin, alpha M (complement component 3 receptor 3 subunit)	1688	0.5236325263977051	0.62257046	Yes	
+row_15	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.62483203	Yes	
+row_16	IL10RA	IL10RA	interleukin 10 receptor, alpha	2074	0.391243577003479	0.6105119	No	
+row_17	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	2298	0.3332894444465637	0.59965515	No	
+row_18	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	2519	0.29115766286849976	0.5881063	No	
+row_19	IL15	IL15	interleukin 15	2544	0.28767189383506775	0.592544	No	
+row_20	CCR7	CCR7	chemokine (C-C motif) receptor 7	2601	0.27834552526474	0.5941514	No	
+row_21	IL6ST	IL6ST	interleukin 6 signal transducer (gp130, oncostatin M receptor)	3518	0.16651563346385956	0.5227829	No	
+row_22	IL16	IL16	interleukin 16 (lymphocyte chemoattractant factor)	3680	0.15086787939071655	0.51294625	No	
+row_23	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.29946974	No	
+row_24	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	0.040653847	No	
+row_25	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	9734	-0.33556637167930603	0.031568978	No	
+row_26	IL13RA1	IL13RA1	interleukin 13 receptor, alpha 1	10167	-0.44553086161613464	0.006081477	No	
+row_27	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	10302	-0.4951803982257843	0.006123616	No	
+row_28	XCR1	XCR1	chemokine (C motif) receptor 1	10579	-0.6363211274147034	-0.002330236	No	
+row_29	CXCL10	CXCL10	chemokine (C-X-C motif) ligand 10	10597	-0.6505874991416931	0.010761311	No	
+row_30	CCR5	CCR5	chemokine (C-C motif) receptor 5	10847	-0.869622528553009	0.009714684	No	
+row_31	CCL5	CCL5	chemokine (C-C motif) ligand 5	11062	-1.185520887374878	0.018569931	No	
+row_32	IL11	IL11	interleukin 11	11173	-1.4040920734405518	0.040815406	No	
+row_33	CCR6	CCR6	chemokine (C-C motif) receptor 6	11491	-2.0689055919647217	0.060896665	No	

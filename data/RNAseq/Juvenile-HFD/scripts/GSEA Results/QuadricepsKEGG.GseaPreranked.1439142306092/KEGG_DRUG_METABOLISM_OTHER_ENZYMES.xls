@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NAT2	NAT2	N-acetyltransferase 2 (arylamine N-acetyltransferase)	298	3.2549619674682617	0.058624398	No	
+row_1	UPP1	UPP1	uridine phosphorylase 1	969	1.2290799617767334	0.035100125	No	
+row_2	TK2	TK2	thymidine kinase 2, mitochondrial	1500	0.6257796883583069	0.0076528867	No	
+row_3	UMPS	UMPS	uridine monophosphate synthetase (orotate phosphoribosyl transferase and orotidine-5'-decarboxylase)	1511	0.6201965808868408	0.022654757	No	
+row_4	UCK1	UCK1	uridine-cytidine kinase 1	1785	0.4831583499908447	0.012619355	No	
+row_5	TPMT	TPMT	thiopurine S-methyltransferase	1870	0.45110946893692017	0.017246785	No	
+row_6	GUSB	GUSB	glucuronidase, beta	2748	0.2540394961833954	-0.04810504	No	
+row_7	UCKL1	UCKL1	uridine-cytidine kinase 1-like 1	3157	0.2015962302684784	-0.07638038	No	
+row_8	XDH	XDH	xanthine dehydrogenase	3465	0.1713058054447174	-0.09715583	No	
+row_9	ITPA	ITPA	inosine triphosphatase (nucleoside triphosphate pyrophosphatase)	3982	0.12593945860862732	-0.13620707	No	
+row_10	TK1	TK1	thymidine kinase 1, soluble	5522	0.021452777087688446	-0.26171437	No	
+row_11	IMPDH2	IMPDH2	IMP (inosine monophosphate) dehydrogenase 2	6193	-0.017798172309994698	-0.3161379	No	
+row_12	IMPDH1	IMPDH1	IMP (inosine monophosphate) dehydrogenase 1	6642	-0.04291294887661934	-0.35173747	No	
+row_13	GMPS	GMPS	guanine monphosphate synthetase	7026	-0.06749819219112396	-0.38138592	No	
+row_14	UCK2	UCK2	uridine-cytidine kinase 2	9629	-0.31330931186676025	-0.586515	No	
+row_15	UPB1	UPB1	ureidopropionase, beta	10622	-0.6677168607711792	-0.6507334	Yes	
+row_16	CDA	CDA	cytidine deaminase	10639	-0.6795605421066284	-0.63470864	Yes	
+row_17	UPP2	UPP2	uridine phosphorylase 2	10795	-0.8195066452026367	-0.62649894	Yes	
+row_18	NAT1	NAT1	N-acetyltransferase 1 (arylamine N-acetyltransferase)	11033	-1.1430234909057617	-0.6167528	Yes	
+row_19	DPYD	DPYD	dihydropyrimidine dehydrogenase	11058	-1.1829782724380493	-0.5885413	Yes	
+row_20	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	11398	-1.892829418182373	-0.5680225	Yes	
+row_21	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	11539	-2.1825923919677734	-0.5238125	Yes	
+row_22	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	11806	-3.0664620399475098	-0.46737564	Yes	
+row_23	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	11937	-3.852306604385376	-0.3797529	Yes	
+row_24	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	12180	-7.279993534088135	-0.21386495	Yes	
+row_25	DPYS	DPYS	dihydropyrimidinase	12209	-8.553887367248535	0.002047499	Yes	

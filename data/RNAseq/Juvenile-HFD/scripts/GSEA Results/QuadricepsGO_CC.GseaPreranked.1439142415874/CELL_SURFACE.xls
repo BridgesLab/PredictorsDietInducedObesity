@@ -1,0 +1,62 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CD6	CD6	CD6 molecule	68	5.414945602416992	0.11353398	Yes	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	129	4.531443119049072	0.20828955	Yes	
+row_2	PKHD1	PKHD1	polycystic kidney and hepatic disease 1 (autosomal recessive)	273	3.4204227924346924	0.27178672	Yes	
+row_3	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	567	2.384432315826416	0.30017254	Yes	
+row_4	KCND2	KCND2	potassium voltage-gated channel, Shal-related subfamily, member 2	639	2.1223819255828857	0.34102923	Yes	
+row_5	MMP25	MMP25	matrix metallopeptidase 25	662	2.081547975540161	0.38501266	Yes	
+row_6	IL2RB	IL2RB	interleukin 2 receptor, beta	743	1.8028526306152344	0.41810098	Yes	
+row_7	PLAUR	PLAUR	plasminogen activator, urokinase receptor	746	1.795101284980774	0.4574259	Yes	
+row_8	TLR2	TLR2	toll-like receptor 2	1212	0.8635981678962708	0.43822744	Yes	
+row_9	SRPX	SRPX	sushi-repeat-containing protein, X-linked	1248	0.8134599328041077	0.45324722	Yes	
+row_10	PTPRR	PTPRR	protein tyrosine phosphatase, receptor type, R	1261	0.7957344651222229	0.46976632	Yes	
+row_11	AOC3	AOC3	amine oxidase, copper containing 3 (vascular adhesion protein 1)	1268	0.7850305438041687	0.48654282	Yes	
+row_12	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	1284	0.7719833850860596	0.502293	Yes	
+row_13	ANXA9	ANXA9	annexin A9	1414	0.6767585873603821	0.50658417	Yes	
+row_14	ROBO1	ROBO1	roundabout, axon guidance receptor, homolog 1 (Drosophila)	1453	0.651353657245636	0.51779145	Yes	
+row_15	TDGF1	TDGF1	teratocarcinoma-derived growth factor 1	1703	0.5143643021583557	0.50865316	No	
+row_16	CD28	CD28	CD28 molecule	1787	0.48268067836761475	0.51245356	No	
+row_17	CEP290	CEP290	centrosomal protein 290kDa	1944	0.4278876781463623	0.50905216	No	
+row_18	PGRMC1	PGRMC1	progesterone receptor membrane component 1	1964	0.42241451144218445	0.51678383	No	
+row_19	HSPA8	HSPA8	heat shock 70kDa protein 8	2088	0.3871466815471649	0.5151969	No	
+row_20	DCBLD2	DCBLD2	discoidin, CUB and LCCL domain containing 2	2301	0.33216792345046997	0.5050899	No	
+row_21	ACVR2B	ACVR2B	activin A receptor, type IIB	2609	0.27641770243644714	0.48595294	No	
+row_22	IRAK2	IRAK2	interleukin-1 receptor-associated kinase 2	2870	0.23589687049388885	0.4697853	No	
+row_23	ATP6AP2	ATP6AP2	ATPase, H+ transporting, lysosomal accessory protein 2	3277	0.1894150674343109	0.44060233	No	
+row_24	ACVRL1	ACVRL1	activin A receptor type II-like 1	3294	0.1880093663930893	0.44342396	No	
+row_25	SLC3A2	SLC3A2	solute carrier family 3 (activators of dibasic and neutral amino acid transport), member 2	3317	0.18572139739990234	0.44570237	No	
+row_26	HSPB1	HSPB1	heat shock 27kDa protein 1	3338	0.1838187575340271	0.44810325	No	
+row_27	MPP2	MPP2	membrane protein, palmitoylated 2 (MAGUK p55 subfamily member 2)	3353	0.1824258267879486	0.4509663	No	
+row_28	SULF1	SULF1	sulfatase 1	3401	0.17678114771842957	0.4509945	No	
+row_29	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	3631	0.15540872514247894	0.43560266	No	
+row_30	SULF2	SULF2	sulfatase 2	3637	0.15513752400875092	0.4386047	No	
+row_31	NOTCH2	NOTCH2	Notch homolog 2 (Drosophila)	3926	0.13048774003982544	0.41781825	No	
+row_32	PDLIM2	PDLIM2	PDZ and LIM domain 2 (mystique)	4672	0.0749250203371048	0.35827047	No	
+row_33	HSPA2	HSPA2	heat shock 70kDa protein 2	4705	0.0732821449637413	0.357254	No	
+row_34	GDI2	GDI2	GDP dissociation inhibitor 2	4764	0.06941648572683334	0.35401678	No	
+row_35	SLC2A4	SLC2A4	solute carrier family 2 (facilitated glucose transporter), member 4	5505	0.02277437224984169	0.29373252	No	
+row_36	M6PR	M6PR	mannose-6-phosphate receptor (cation dependent)	5769	0.006528566125780344	0.2722727	No	
+row_37	ACVR1B	ACVR1B	activin A receptor, type IB	5809	0.004990456160157919	0.26917896	No	
+row_38	FLOT2	FLOT2	flotillin 2	5879	-6.086226203478873E-4	0.2635245	No	
+row_39	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	6276	-0.022701401263475418	0.23149557	No	
+row_40	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	6292	-0.02346128039062023	0.23077954	No	
+row_41	MPP3	MPP3	membrane protein, palmitoylated 3 (MAGUK p55 subfamily member 3)	6546	-0.03838857635855675	0.21084203	No	
+row_42	STAB2	STAB2	stabilin 2	6775	-0.05155254900455475	0.19324766	No	
+row_43	THY1	THY1	Thy-1 cell surface antigen	7160	-0.07527352124452591	0.16336092	No	
+row_44	NRD1	NRD1	nardilysin (N-arginine dibasic convertase)	7472	-0.09698084741830826	0.13994808	No	
+row_45	BCAM	BCAM	basal cell adhesion molecule (Lutheran blood group)	7658	-0.10981407016515732	0.1271675	No	
+row_46	KLHL20	KLHL20	kelch-like 20 (Drosophila)	8094	-0.1419992446899414	0.09455935	No	
+row_47	ATPIF1	ATPIF1	ATPase inhibitory factor 1	8657	-0.18976400792598724	0.052569877	No	
+row_48	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	8954	-0.2190018743276596	0.033073436	No	
+row_49	EPHB4	EPHB4	EPH receptor B4	9099	-0.23575834929943085	0.026431233	No	
+row_50	CSPG4	CSPG4	chondroitin sulfate proteoglycan 4 (melanoma-associated)	9200	-0.24837324023246765	0.023680797	No	
+row_51	GPM6A	GPM6A	glycoprotein M6A	9430	-0.2787728011608124	0.011002748	No	
+row_52	ADAM10	ADAM10	ADAM metallopeptidase domain 10	9732	-0.3352166712284088	-0.006347875	No	
+row_53	B4GALT1	B4GALT1	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1	9779	-0.34450963139533997	-0.0025477898	No	
+row_54	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	10203	-0.4532257914543152	-0.02732377	No	
+row_55	SCUBE1	SCUBE1	signal peptide, CUB domain, EGF-like 1	10459	-0.5662685632705688	-0.035813097	No	
+row_56	LAYN	LAYN	layilin	10674	-0.7056203484535217	-0.03786909	No	
+row_57	CCR5	CCR5	chemokine (C-C motif) receptor 5	10847	-0.869622528553009	-0.03286733	No	
+row_58	ROBO2	ROBO2	roundabout, axon guidance receptor, homolog 2 (Drosophila)	11250	-1.5719436407089233	-0.03130842	No	
+row_59	PRLR	PRLR	prolactin receptor	11259	-1.6038066148757935	0.0033154788	No	
+row_60	DSCAML1	DSCAML1	Down syndrome cell adhesion molecule like 1	11881	-3.486227512359619	0.028996248	No	

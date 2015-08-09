@@ -1,0 +1,53 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RGAG1	RGAG1	retrotransposon gag domain containing 1	133	6.0023193359375	0.035987876	No	
+row_1	FGF10	FGF10	fibroblast growth factor 10	208	5.491081714630127	0.072610915	No	
+row_2	MYOZ3	MYOZ3	myozenin 3	244	5.238892078399658	0.11031541	No	
+row_3	SLC43A3	SLC43A3	solute carrier family 43, member 3	443	4.316357612609863	0.12824965	No	
+row_4	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.14783601	No	
+row_5	CHRDL1	CHRDL1	chordin-like 1	626	3.748521089553833	0.17310992	No	
+row_6	ELK3	ELK3	ELK3, ETS-domain protein (SRF accessory protein 2)	1077	2.7232720851898193	0.15919188	No	
+row_7	TSPAN2	TSPAN2	tetraspanin 2	1172	2.544931411743164	0.17153114	No	
+row_8	SULF2	SULF2	sulfatase 2	1529	2.014594554901123	0.15944165	No	
+row_9	HEY1	HEY1	hairy/enhancer-of-split related with YRPW motif 1	1690	1.845384120941162	0.16126044	No	
+row_10	TMOD4	TMOD4	tropomodulin 4 (muscle)	2395	1.151815414428711	0.11550175	No	
+row_11	SLC6A4	SLC6A4	solute carrier family 6 (neurotransmitter transporter, serotonin), member 4	2463	1.0860165357589722	0.11868038	No	
+row_12	FOXP2	FOXP2	forkhead box P2	2464	1.0858632326126099	0.12705848	No	
+row_13	NRXN1	NRXN1	neurexin 1	2791	0.8485313653945923	0.108300745	No	
+row_14	MTUS1	MTUS1	mitochondrial tumor suppressor 1	3061	0.697525680065155	0.09280235	No	
+row_15	UBE2R2	UBE2R2	ubiquitin-conjugating enzyme E2R 2	3135	0.6580625772476196	0.092213325	No	
+row_16	LRRN1	LRRN1	leucine rich repeat neuronal 1	3492	0.49486520886421204	0.0683982	No	
+row_17	LECT1	LECT1	leukocyte cell derived chemotaxin 1	3595	0.4537282884120941	0.06398158	No	
+row_18	ZHX2	ZHX2	zinc fingers and homeoboxes 2	4249	0.2187085747718811	0.014982101	No	
+row_19	SLC4A2	SLC4A2	solute carrier family 4, anion exchanger, member 2 (erythrocyte membrane protein band 3-like 1)	4318	0.19686150550842285	0.011222733	No	
+row_20	SLC39A13	SLC39A13	solute carrier family 39 (zinc transporter), member 13	4393	0.17388761043548584	0.006820379	No	
+row_21	USP3	USP3	ubiquitin specific peptidase 3	5971	-0.2071751356124878	-0.11399051	No	
+row_22	GTPBP2	GTPBP2	GTP binding protein 2	6044	-0.22171299159526825	-0.11786862	No	
+row_23	NFAT5	NFAT5	nuclear factor of activated T-cells 5, tonicity-responsive	6531	-0.32950741052627563	-0.15305041	No	
+row_24	ST7	ST7	suppression of tumorigenicity 7	6660	-0.36024606227874756	-0.16020645	No	
+row_25	INPP4B	INPP4B	inositol polyphosphate-4-phosphatase, type II, 105kDa	6946	-0.4240654706954956	-0.1790567	No	
+row_26	GTPBP1	GTPBP1	GTP binding protein 1	7290	-0.5046463012695312	-0.2017873	No	
+row_27	IKZF2	IKZF2	IKAROS family zinc finger 2 (Helios)	7452	-0.5468248724937439	-0.21006529	No	
+row_28	JAKMIP2	JAKMIP2	janus kinase and microtubule interacting protein 2	7806	-0.6359332799911499	-0.23255913	No	
+row_29	CDK5	CDK5	cyclin-dependent kinase 5	7877	-0.6545014381408691	-0.23294276	No	
+row_30	SMARCA2	SMARCA2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2	7959	-0.6750212907791138	-0.23402192	No	
+row_31	SRPK2	SRPK2	SFRS protein kinase 2	8095	-0.7090294361114502	-0.23903024	No	
+row_32	CXADR	CXADR	coxsackie virus and adenovirus receptor	8621	-0.8795179128646851	-0.27299562	No	
+row_33	GPM6B	GPM6B	glycoprotein M6B	8760	-0.9310580492019653	-0.2765237	No	
+row_34	KRT23	KRT23	keratin 23 (histone deacetylase inducible)	9000	-1.0270246267318726	-0.28715116	No	
+row_35	CASQ2	CASQ2	calsequestrin 2 (cardiac muscle)	9033	-1.041652798652649	-0.2815981	No	
+row_36	NUAK2	NUAK2	NUAK family, SNF1-like kinase, 2	9590	-1.2751725912094116	-0.314917	No	
+row_37	MYB	MYB	v-myb myeloblastosis viral oncogene homolog (avian)	9726	-1.3474595546722412	-0.31499943	No	
+row_38	EMX2	EMX2	empty spiracles homolog 2 (Drosophila)	10822	-2.150484085083008	-0.38340288	Yes	
+row_39	SAMD11	SAMD11	sterile alpha motif domain containing 11	11051	-2.440181255340576	-0.38227314	Yes	
+row_40	TAC1	TAC1	tachykinin, precursor 1 (substance K, substance P, neurokinin 1, neurokinin 2, neuromedin L, neurokinin alpha, neuropeptide K, neuropeptide gamma)	11070	-2.467393159866333	-0.36463287	Yes	
+row_41	WNT2	WNT2	wingless-type MMTV integration site family member 2	11227	-2.6812541484832764	-0.35605434	Yes	
+row_42	PDZRN4	PDZRN4	PDZ domain containing RING finger 4	11330	-2.850656032562256	-0.3419772	Yes	
+row_43	CDH20	CDH20	cadherin 20, type 2	11625	-3.3420257568359375	-0.3390122	Yes	
+row_44	CDC14A	CDC14A	CDC14 cell division cycle 14 homolog A (S. cerevisiae)	11737	-3.6230359077453613	-0.31967428	Yes	
+row_45	ELAVL4	ELAVL4	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 4 (Hu antigen D)	11875	-4.094412326812744	-0.29871756	Yes	
+row_46	LEMD1	LEMD1	LEM domain containing 1	12045	-4.830058574676514	-0.27456877	Yes	
+row_47	MYO18B	MYO18B	myosin XVIIIB	12133	-5.254227161407471	-0.24078228	Yes	
+row_48	MAP2	MAP2	microtubule-associated protein 2	12266	-6.191737651824951	-0.20325531	Yes	
+row_49	NOL4	NOL4	nucleolar protein 4	12361	-6.916003227233887	-0.15719056	Yes	
+row_50	MGAT4C	MGAT4C	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme C (putative)	12761	-11.163862228393555	-0.10202559	Yes	
+row_51	PDHA2	PDHA2	pyruvate dehydrogenase (lipoamide) alpha 2	12885	-14.953675270080566	0.0038036746	Yes	

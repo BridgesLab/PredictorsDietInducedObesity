@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	484	2.5702457427978516	0.046088837	No	
+row_1	PAICS	PAICS	phosphoribosylaminoimidazole carboxylase, phosphoribosylaminoimidazole succinocarboxamide synthetase	2612	0.27613314986228943	-0.1188746	No	
+row_2	MTHFD2	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase	2809	0.24469026923179626	-0.12676357	No	
+row_3	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	2810	0.24459943175315857	-0.11860576	No	
+row_4	PTS	PTS	6-pyruvoyltetrahydropterin synthase	3212	0.1956857293844223	-0.14491588	No	
+row_5	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	-0.15900119	No	
+row_6	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	3649	0.15410877764225006	-0.16966553	No	
+row_7	QDPR	QDPR	quinoid dihydropteridine reductase	3792	0.1412169635295868	-0.17658362	No	
+row_8	MOCS2	MOCS2	molybdenum cofactor synthesis 2	3951	0.12795065343379974	-0.18525434	No	
+row_9	ALDH5A1	ALDH5A1	aldehyde dehydrogenase 5 family, member A1 (succinate-semialdehyde dehydrogenase)	4092	0.11791864782571793	-0.19278568	No	
+row_10	FAH	FAH	fumarylacetoacetate hydrolase (fumarylacetoacetase)	5027	0.051935385912656784	-0.26753572	No	
+row_11	MAT2B	MAT2B	methionine adenosyltransferase II, beta	5552	0.019574491307139397	-0.30979148	No	
+row_12	PRPS1	PRPS1	phosphoribosyl pyrophosphate synthetase 1	6824	-0.054000504314899445	-0.41206843	No	
+row_13	GMPS	GMPS	guanine monphosphate synthetase	7026	-0.06749819219112396	-0.42627648	No	
+row_14	MOCOS	MOCOS	molybdenum cofactor sulfurase	7964	-0.13122068345546722	-0.49862784	No	
+row_15	SPR	SPR	sepiapterin reductase (7,8-dihydrobiopterin:NADP+ oxidoreductase)	9539	-0.29658302664756775	-0.61762595	No	
+row_16	ALDH1L1	ALDH1L1	aldehyde dehydrogenase 1 family, member L1	10562	-0.6254440546035767	-0.6804545	Yes	
+row_17	CDA	CDA	cytidine deaminase	10639	-0.6795605421066284	-0.6640134	Yes	
+row_18	SNCAIP	SNCAIP	synuclein, alpha interacting protein (synphilin)	10942	-0.9983941316604614	-0.6554451	Yes	
+row_19	HGD	HGD	homogentisate 1,2-dioxygenase (homogentisate oxidase)	11922	-3.7466444969177246	-0.61065525	Yes	
+row_20	HPD	HPD	4-hydroxyphenylpyruvate dioxygenase	12021	-4.497598648071289	-0.46867776	Yes	
+row_21	DCT	DCT	dopachrome tautomerase (dopachrome delta-isomerase, tyrosine-related protein 2)	12170	-7.025452136993408	-0.24648643	Yes	
+row_22	FTCD	FTCD	formiminotransferase cyclodeaminase	12191	-7.545209884643555	0.0035211737	Yes	

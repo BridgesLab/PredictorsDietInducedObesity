@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MUC5B	MUC5B	mucin 5B, oligomeric mucus/gel-forming	929	1.2873311042785645	0.023847394	No	
+row_1	ST6GALNAC2	ST6GALNAC2	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 2	4300	0.10283470898866653	-0.24397425	No	
+row_2	ST6GALNAC4	ST6GALNAC4	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 4	5241	0.03705552965402603	-0.31802872	No	
+row_3	ST3GAL1	ST3GAL1	ST3 beta-galactoside alpha-2,3-sialyltransferase 1	5551	0.019596897065639496	-0.3417968	No	
+row_4	ST6GAL1	ST6GAL1	ST6 beta-galactosamide alpha-2,6-sialyltranferase 1	6248	-0.02103329263627529	-0.3971254	No	
+row_5	ST3GAL2	ST3GAL2	ST3 beta-galactoside alpha-2,3-sialyltransferase 2	7159	-0.07517541199922562	-0.46576717	No	
+row_6	MUC6	MUC6	mucin 6, oligomeric mucus/gel-forming	7898	-0.12603731453418732	-0.5163864	No	
+row_7	MUC13	MUC13	mucin 13, cell surface associated	9310	-0.26244837045669556	-0.61150044	No	
+row_8	ST3GAL3	ST3GAL3	ST3 beta-galactoside alpha-2,3-sialyltransferase 3	9738	-0.3356693685054779	-0.6204034	No	
+row_9	ST6GALNAC3	ST6GALNAC3	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 3	10640	-0.6796850562095642	-0.6414082	Yes	
+row_10	MUC19	MUC19	mucin 19, oligomeric	10643	-0.6826683282852173	-0.5886076	Yes	
+row_11	MUC4	MUC4	mucin 4, cell surface associated	10850	-0.8719386458396912	-0.53781796	Yes	
+row_12	MUC2	MUC2	mucin 2, oligomeric mucus/gel-forming	11106	-1.264917016029358	-0.46054956	Yes	
+row_13	MUC15	MUC15	mucin 15, cell surface associated	11365	-1.8651041984558105	-0.33696163	Yes	
+row_14	MUC5AC	MUC5AC	mucin 5AC, oligomeric mucus/gel-forming	11651	-2.468573808670044	-0.16876367	Yes	
+row_15	MUC16	MUC16	mucin 16, cell surface associated	11748	-2.789155960083008	0.039774105	Yes	

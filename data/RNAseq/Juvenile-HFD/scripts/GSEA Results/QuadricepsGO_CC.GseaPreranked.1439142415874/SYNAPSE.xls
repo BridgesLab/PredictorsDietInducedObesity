@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MAGEE1	MAGEE1	melanoma antigen family E, 1	861	1.4297016859054565	0.035856433	No	
+row_1	NLGN1	NLGN1	neuroligin 1	915	1.3198246955871582	0.12971807	No	
+row_2	CABP4	CABP4	calcium binding protein 4	2080	0.3885919749736786	0.06329207	No	
+row_3	CDK5	CDK5	cyclin-dependent kinase 5	3773	0.1440238654613495	-0.064578004	No	
+row_4	PCLO	PCLO	piccolo (presynaptic cytomatrix protein)	4139	0.11433233320713043	-0.08596698	No	
+row_5	RIMS1	RIMS1	regulating synaptic membrane exocytosis 1	4688	0.074088916182518	-0.12533925	No	
+row_6	TRAPPC4	TRAPPC4	trafficking protein particle complex 4	5001	0.05429774895310402	-0.1468541	No	
+row_7	CHRNA1	CHRNA1	cholinergic receptor, nicotinic, alpha 1 (muscle)	5061	0.04975054785609245	-0.14798488	No	
+row_8	NPTN	NPTN	neuroplastin	5362	0.03003811463713646	-0.1703219	No	
+row_9	PICK1	PICK1	protein interacting with PRKCA 1	5716	0.009662858210504055	-0.19851603	No	
+row_10	MYO7A	MYO7A	myosin VIIA	6314	-0.024882998317480087	-0.24556294	No	
+row_11	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6556	-0.0389585942029953	-0.26240373	No	
+row_12	SYNE1	SYNE1	spectrin repeat containing, nuclear envelope 1	6807	-0.053142134100198746	-0.27892634	No	
+row_13	DNM2	DNM2	dynamin 2	7156	-0.07510551810264587	-0.30184162	No	
+row_14	APBB2	APBB2	amyloid beta (A4) precursor protein-binding, family B, member 2 (Fe65-like)	7428	-0.09303634613752365	-0.3171159	No	
+row_15	ERC1	ERC1	ELKS/RAB6-interacting/CAST family member 1	8154	-0.14744527637958527	-0.36552754	No	
+row_16	NUFIP1	NUFIP1	nuclear fragile X mental retardation protein interacting protein 1	8446	-0.1713411808013916	-0.37661365	No	
+row_17	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	8749	-0.20006079971790314	-0.3864638	No	
+row_18	DLG4	DLG4	discs, large homolog 4 (Drosophila)	8774	-0.20285700261592865	-0.3733358	No	
+row_19	EFNB1	EFNB1	ephrin-B1	8977	-0.22121842205524445	-0.37342104	No	
+row_20	ACHE	ACHE	acetylcholinesterase (Yt blood group)	9385	-0.2715763747692108	-0.38655022	No	
+row_21	APBB1	APBB1	amyloid beta (A4) precursor protein-binding, family B, member 1 (Fe65)	9446	-0.28193458914756775	-0.37048703	No	
+row_22	CABP1	CABP1	calcium binding protein 1 (calbrain)	10985	-1.07099449634552	-0.41677144	Yes	
+row_23	CDK5R1	CDK5R1	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	11111	-1.277213215827942	-0.33197764	Yes	
+row_24	ERC2	ERC2	ELKS/RAB6-interacting/CAST family member 2	11187	-1.4515303373336792	-0.23011829	Yes	
+row_25	PCDH15	PCDH15	protocadherin 15	11990	-4.2441911697387695	0.019985141	Yes	

@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL4	IL4	interleukin 4	141	4.467897891998291	0.16340582	Yes	
+row_1	IL10	IL10	interleukin 10	388	2.878185749053955	0.25594142	Yes	
+row_2	IFNG	IFNG	interferon, gamma	405	2.878185749053955	0.36734495	Yes	
+row_3	ITGB2	ITGB2	integrin, beta 2 (complement component 3 receptor 3 and 4 subunit)	905	1.3331780433654785	0.3786199	Yes	
+row_4	MARCKSL1	MARCKSL1	MARCKS-like 1	1071	1.040253758430481	0.40582284	Yes	
+row_5	TLR2	TLR2	toll-like receptor 2	1212	0.8635981678962708	0.42815843	Yes	
+row_6	MAPK11	MAPK11	mitogen-activated protein kinase 11	1240	0.8205039501190186	0.45807624	Yes	
+row_7	PTGS2	PTGS2	prostaglandin-endoperoxide synthase 2 (prostaglandin G/H synthase and cyclooxygenase)	1305	0.752539336681366	0.48229712	Yes	
+row_8	CYBA	CYBA	cytochrome b-245, alpha polypeptide	1573	0.5833998918533325	0.48324114	Yes	
+row_9	ITGAM	ITGAM	integrin, alpha M (complement component 3 receptor 3 subunit)	1688	0.5236325263977051	0.49439582	Yes	
+row_10	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	1771	0.486439973115921	0.50671905	Yes	
+row_11	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1792	0.4807453751564026	0.5239054	Yes	
+row_12	IFNGR1	IFNGR1	interferon gamma receptor 1	1901	0.4406195878982544	0.5323013	Yes	
+row_13	TLR4	TLR4	toll-like receptor 4	2222	0.3505037724971771	0.51977676	No	
+row_14	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	2721	0.2583701014518738	0.48904195	No	
+row_15	NCF4	NCF4	neutrophil cytosolic factor 4, 40kDa	2727	0.2572433054447174	0.498706	No	
+row_16	NCF1	NCF1	neutrophil cytosolic factor 1, (chronic granulomatous disease, autosomal 1)	2951	0.22565248608589172	0.48924938	No	
+row_17	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	3049	0.21386262774467468	0.48966736	No	
+row_18	TRAF6	TRAF6	TNF receptor-associated factor 6	3074	0.21015088260173798	0.4959285	No	
+row_19	MAPK14	MAPK14	mitogen-activated protein kinase 14	3083	0.20983949303627014	0.50349	No	
+row_20	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3231	0.19360294938087463	0.49901286	No	
+row_21	TGFB2	TGFB2	transforming growth factor, beta 2	3455	0.17184336483478546	0.48744893	No	
+row_22	NFKBIB	NFKBIB	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, beta	3478	0.1697414368391037	0.49229163	No	
+row_23	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3811	0.13945505023002625	0.47051755	No	
+row_24	MAPK1	MAPK1	mitogen-activated protein kinase 1	4234	0.1074860617518425	0.4401084	No	
+row_25	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	4438	0.09168624877929688	0.42704603	No	
+row_26	MYD88	MYD88	myeloid differentiation primary response gene (88)	4885	0.061958834528923035	0.39288512	No	
+row_27	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	4934	0.058527301996946335	0.39123952	No	
+row_28	MAPK12	MAPK12	mitogen-activated protein kinase 12	5737	0.008555998094379902	0.32578295	No	
+row_29	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	5774	0.00629850011318922	0.32307637	No	
+row_30	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	6355	-0.027453087270259857	0.2765715	No	
+row_31	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6556	-0.0389585942029953	0.26169032	No	
+row_32	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	6643	-0.04320381581783295	0.2563273	No	
+row_33	ELK1	ELK1	ELK1, member of ETS oncogene family	6984	-0.06501252204179764	0.23098163	No	
+row_34	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7157	-0.07514605671167374	0.21981458	No	
+row_35	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	7495	-0.0988147035241127	0.19603878	No	
+row_36	MAPK3	MAPK3	mitogen-activated protein kinase 3	7856	-0.12313585728406906	0.17132865	No	
+row_37	ITGA4	ITGA4	integrin, alpha 4 (antigen CD49D, alpha 4 subunit of VLA-4 receptor)	8068	-0.13957180082798004	0.15948531	No	
+row_38	TGFB3	TGFB3	transforming growth factor, beta 3	9135	-0.24065211415290833	0.08146104	No	
+row_39	JUN	JUN	jun oncogene	9379	-0.2708636522293091	0.072134286	No	
+row_40	IL1B	IL1B	interleukin 1, beta	9531	-0.2951897084712982	0.07130736	No	
+row_41	IRAK4	IRAK4	interleukin-1 receptor-associated kinase 4	9995	-0.3924199938774109	0.048693433	No	
+row_42	NCF2	NCF2	neutrophil cytosolic factor 2 (65kDa, chronic granulomatous disease, autosomal 2)	10385	-0.531096339225769	0.03758093	No	
+row_43	MAPK13	MAPK13	mitogen-activated protein kinase 13	10887	-0.9262542724609375	0.03275582	No	
+row_44	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	11426	-1.9830992221832275	0.0662838	No	

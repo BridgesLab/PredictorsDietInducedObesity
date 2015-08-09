@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ROCK2	ROCK2	Rho-associated, coiled-coil containing protein kinase 2	1036	2.799757719039917	-0.04723175	No	
+row_1	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	-0.11785482	No	
+row_2	SSPO	SSPO	SCO-spondin homolog (Bos taurus)	2164	1.3377645015716553	-0.102818884	No	
+row_3	CDC25B	CDC25B	cell division cycle 25B	2295	1.227555751800537	-0.09838929	No	
+row_4	STAG2	STAG2	stromal antigen 2	2306	1.2211058139801025	-0.08473216	No	
+row_5	PPP1CB	PPP1CB	protein phosphatase 1, catalytic subunit, beta isoform	3454	0.5102632641792297	-0.1676298	No	
+row_6	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	-0.17775702	No	
+row_7	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	3845	0.3569004237651825	-0.18850233	No	
+row_8	FBXW11	FBXW11	F-box and WD-40 domain protein 11	4124	0.26187756657600403	-0.20696089	No	
+row_9	PPP1R12A	PPP1R12A	protein phosphatase 1, regulatory (inhibitor) subunit 12A	4643	0.10670409351587296	-0.245861	No	
+row_10	FBXO5	FBXO5	F-box protein 5	5059	-0.0033546106424182653	-0.27799687	No	
+row_11	NUDC	NUDC	nuclear distribution gene C homolog (A. nidulans)	5386	-0.07834292203187943	-0.30234617	No	
+row_12	GOLGA2	GOLGA2	golgi autoantigen, golgin subfamily a, 2	6375	-0.29315948486328125	-0.3754823	No	
+row_13	TUBG1	TUBG1	tubulin, gamma 1	7459	-0.5476107001304626	-0.4529765	No	
+row_14	TPT1	TPT1	tumor protein, translationally-controlled 1	7543	-0.5710644125938416	-0.4526621	No	
+row_15	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	8494	-0.8370139598846436	-0.5164241	No	
+row_16	FZR1	FZR1	fizzy/cell division cycle 20 related 1 (Drosophila)	9310	-1.1471405029296875	-0.566054	No	
+row_17	GORASP1	GORASP1	golgi reassembly stacking protein 1, 65kDa	9318	-1.1510542631149292	-0.5529922	No	
+row_18	CDC14B	CDC14B	CDC14 cell division cycle 14 homolog B (S. cerevisiae)	9583	-1.2720081806182861	-0.55842644	No	
+row_19	BUB1B	BUB1B	BUB1 budding uninhibited by benzimidazoles 1 homolog beta (yeast)	10079	-1.524889349937439	-0.5787816	No	
+row_20	INCENP	INCENP	inner centromere protein antigens 135/155kDa	10119	-1.5522520542144775	-0.563459	No	
+row_21	KIF2A	KIF2A	kinesin heavy chain member 2A	10533	-1.8549517393112183	-0.57355547	No	
+row_22	WEE1	WEE1	WEE1 homolog (S. pombe)	10745	-2.0652332305908203	-0.5655053	No	
+row_23	SGOL1	SGOL1	shugoshin-like 1 (S. pombe)	11360	-2.903615713119507	-0.57879126	Yes	
+row_24	TPX2	TPX2	TPX2, microtubule-associated, homolog (Xenopus laevis)	11385	-2.941720724105835	-0.54588336	Yes	
+row_25	ECT2	ECT2	epithelial cell transforming sequence 2 oncogene	11494	-3.1078555583953857	-0.51752454	Yes	
+row_26	CLSPN	CLSPN	claspin homolog (Xenopus laevis)	11716	-3.5736124515533447	-0.49242187	Yes	
+row_27	CENPE	CENPE	centromere protein E, 312kDa	11800	-3.8228132724761963	-0.45367453	Yes	
+row_28	PRC1	PRC1	protein regulator of cytokinesis 1	11859	-4.0240302085876465	-0.4106107	Yes	
+row_29	KIF20A	KIF20A	kinesin family member 20A	12027	-4.702861785888672	-0.36797458	Yes	
+row_30	CDC25C	CDC25C	cell division cycle 25C	12028	-4.714576721191406	-0.31225222	Yes	
+row_31	CCNB1	CCNB1	cyclin B1	12067	-4.93411922454834	-0.25688127	Yes	
+row_32	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.19948956	Yes	
+row_33	ODF2	ODF2	outer dense fiber of sperm tails 2	12115	-5.151712894439697	-0.1394535	Yes	
+row_34	CDC20	CDC20	CDC20 cell division cycle 20 homolog (S. cerevisiae)	12119	-5.185330390930176	-0.078399844	Yes	
+row_35	AURKA	AURKA	aurora kinase A	12195	-5.706864356994629	-0.016764354	Yes	
+row_36	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	0.05132574	Yes	

@@ -1,0 +1,42 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL7	CCL7	chemokine (C-C motif) ligand 7	6	7.801300048828125	0.23506463	Yes	
+row_1	MMP13	MMP13	matrix metallopeptidase 13 (collagenase 3)	118	4.724356651306152	0.36861157	Yes	
+row_2	S100G	S100G	S100 calcium binding protein G	280	3.3520569801330566	0.45662218	Yes	
+row_3	NNAT	NNAT	neuronatin	579	2.321887254714966	0.5022923	Yes	
+row_4	PLAC8	PLAC8	placenta-specific 8	698	2.005324602127075	0.55316526	Yes	
+row_5	HEPH	HEPH	hephaestin	918	1.3114888668060303	0.5748054	Yes	
+row_6	S100A5	S100A5	S100 calcium binding protein A5	942	1.2712478637695312	0.611304	Yes	
+row_7	GYS2	GYS2	glycogen synthase 2 (liver)	954	1.2613366842269897	0.6484874	Yes	
+row_8	S100A8	S100A8	S100 calcium binding protein A8	1517	0.6152167916297913	0.6209753	No	
+row_9	CCDC109B	CCDC109B	coiled-coil domain containing 109B	1644	0.5413756966590881	0.62698895	No	
+row_10	G0S2	G0S2	G0/G1switch 2	1948	0.4272473156452179	0.6150412	No	
+row_11	COL1A1	COL1A1	collagen, type I, alpha 1	2146	0.36990219354629517	0.61005473	No	
+row_12	DPEP2	DPEP2	dipeptidase 2	2181	0.35999348759651184	0.61813635	No	
+row_13	RBP7	RBP7	retinol binding protein 7, cellular	2325	0.3258020877838135	0.6162467	No	
+row_14	OPTN	OPTN	optineurin	2336	0.32450565695762634	0.62522495	No	
+row_15	TFPI	TFPI	tissue factor pathway inhibitor (lipoprotein-associated coagulation inhibitor)	2626	0.2743542194366455	0.60980874	No	
+row_16	TRPV2	TRPV2	transient receptor potential cation channel, subfamily V, member 2	2695	0.26290977001190186	0.61217064	No	
+row_17	GPNMB	GPNMB	glycoprotein (transmembrane) nmb	4091	0.11808152496814728	0.50133556	No	
+row_18	HSPA2	HSPA2	heat shock 70kDa protein 2	4705	0.0732821449637413	0.45327765	No	
+row_19	AEBP1	AEBP1	AE binding protein 1	5153	0.042264990508556366	0.41789645	No	
+row_20	CYP1A1	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	5268	0.03574519604444504	0.4096269	No	
+row_21	RGS17	RGS17	regulator of G-protein signalling 17	5274	0.03519593924283981	0.4102796	No	
+row_22	SPARC	SPARC	secreted protein, acidic, cysteine-rich (osteonectin)	5457	0.02522803097963333	0.39611596	No	
+row_23	GAS6	GAS6	growth arrest-specific 6	6324	-0.025462377816438675	0.32586625	No	
+row_24	EBF1	EBF1	early B-cell factor 1	6424	-0.030968984588980675	0.3186826	No	
+row_25	FUNDC2	FUNDC2	FUN14 domain containing 2	6731	-0.048902932554483414	0.2950649	No	
+row_26	PRAF2	PRAF2	PRA1 domain family, member 2	6970	-0.06419048458337784	0.2774853	No	
+row_27	PTGES	PTGES	prostaglandin E synthase	7137	-0.07391566783189774	0.2661039	No	
+row_28	DYSF	DYSF	dysferlin, limb girdle muscular dystrophy 2B (autosomal recessive)	7152	-0.07486562430858612	0.26721632	No	
+row_29	IGFBP5	IGFBP5	insulin-like growth factor binding protein 5	7539	-0.10143857449293137	0.23862432	No	
+row_30	TAGLN	TAGLN	transgelin	7954	-0.13002514839172363	0.20859924	No	
+row_31	TM4SF1	TM4SF1	transmembrane 4 L six family member 1	8556	-0.1803327202796936	0.16475777	No	
+row_32	ADH7	ADH7	alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide	9101	-0.2362775206565857	0.12727995	No	
+row_33	MYOD1	MYOD1	myogenic differentiation 1	9173	-0.2450057864189148	0.12885526	No	
+row_34	AQP8	AQP8	aquaporin 8	9380	-0.2710116505622864	0.12014478	No	
+row_35	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	9778	-0.3444995880126953	0.09798979	No	
+row_36	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	10302	-0.4951803982257843	0.07005159	No	
+row_37	KLK8	KLK8	kallikrein 8 (neuropsin/ovasin)	10483	-0.5803276300430298	0.07281296	No	
+row_38	ANKRD1	ANKRD1	ankyrin repeat domain 1 (cardiac muscle)	10636	-0.6788465976715088	0.080845274	No	
+row_39	CCDC68	CCDC68	coiled-coil domain containing 68	10704	-0.7311749458312988	0.09742826	No	
+row_40	SLC6A2	SLC6A2	solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2	10886	-0.9260385632514954	0.11054621	No	

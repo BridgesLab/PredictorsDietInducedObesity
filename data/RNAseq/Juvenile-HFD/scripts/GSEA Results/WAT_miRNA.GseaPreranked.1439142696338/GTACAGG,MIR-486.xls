@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SMOC1	SMOC1	SPARC related modular calcium binding 1	435	4.351134300231934	0.023283936	No	
+row_1	PDZRN3	PDZRN3	PDZ domain containing RING finger 3	460	4.244872093200684	0.07706026	No	
+row_2	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.06948108	No	
+row_3	GAB2	GAB2	GRB2-associated binding protein 2	1233	2.46030855178833	0.08629042	No	
+row_4	FGF13	FGF13	fibroblast growth factor 13	1268	2.404677152633667	0.11517122	No	
+row_5	NEUROD6	NEUROD6	neurogenic differentiation 6	2061	1.4317400455474854	0.07249428	No	
+row_6	DCC	DCC	deleted in colorectal carcinoma	2064	1.4310318231582642	0.091095895	No	
+row_7	SORCS1	SORCS1	sortilin-related VPS10 domain containing receptor 1	2210	1.3035967350006104	0.09693332	No	
+row_8	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.09116145	No	
+row_9	AFF3	AFF3	AF4/FMR2 family, member 3	2617	0.9707313776016235	0.09240322	No	
+row_10	BCORL1	BCORL1	BCL6 co-repressor-like 1	2672	0.9263284802436829	0.10035546	No	
+row_11	TOB1	TOB1	transducer of ERBB2, 1	2990	0.7349621653556824	0.08539602	No	
+row_12	PTPN12	PTPN12	protein tyrosine phosphatase, non-receptor type 12	3015	0.7201405763626099	0.09297311	No	
+row_13	ARMC8	ARMC8	armadillo repeat containing 8	3048	0.7072219848632812	0.09976024	No	
+row_14	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	3167	0.6400119066238403	0.0989946	No	
+row_15	TSC22D2	TSC22D2	TSC22 domain family, member 2	3364	0.5456957817077637	0.09094154	No	
+row_16	ARHGAP5	ARHGAP5	Rho GTPase activating protein 5	3828	0.36109548807144165	0.059755158	No	
+row_17	G3BP2	G3BP2	-	4005	0.30157414078712463	0.050053943	No	
+row_18	PUM2	PUM2	pumilio homolog 2 (Drosophila)	4600	0.11722156405448914	0.005508152	No	
+row_19	ST5	ST5	suppression of tumorigenicity 5	4977	0.020407291129231453	-0.023394266	No	
+row_20	SRF	SRF	serum response factor (c-fos serum response element-binding transcription factor)	4986	0.015015683136880398	-0.023818089	No	
+row_21	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	5888	-0.18900857865810394	-0.09123987	No	
+row_22	RBBP6	RBBP6	retinoblastoma binding protein 6	6135	-0.2414996474981308	-0.107159056	No	
+row_23	COPS7B	COPS7B	COP9 constitutive photomorphogenic homolog subunit 7B (Arabidopsis)	6459	-0.3102024793624878	-0.12815137	No	
+row_24	NFAT5	NFAT5	nuclear factor of activated T-cells 5, tonicity-responsive	6531	-0.32950741052627563	-0.1293406	No	
+row_25	STK4	STK4	serine/threonine kinase 4	7281	-0.5029419660568237	-0.18085553	No	
+row_26	MARK1	MARK1	MAP/microtubule affinity-regulating kinase 1	8088	-0.7076151371002197	-0.23410979	No	
+row_27	BTAF1	BTAF1	BTAF1 RNA polymerase II, B-TFIID transcription factor-associated, 170kDa (Mot1 homolog, S. cerevisiae)	8208	-0.7456632256507874	-0.23356822	No	
+row_28	H3F3B	H3F3B	H3 histone, family 3B (H3.3B)	8306	-0.7767137289047241	-0.23091292	No	
+row_29	NCOA6	NCOA6	nuclear receptor coactivator 6	8464	-0.8272879719734192	-0.23224951	No	
+row_30	SNRPD1	SNRPD1	small nuclear ribonucleoprotein D1 polypeptide 16kDa	8508	-0.840368390083313	-0.22457059	No	
+row_31	UNC5C	UNC5C	unc-5 homolog C (C. elegans)	8627	-0.8805018067359924	-0.22218408	No	
+row_32	DYNLL1	DYNLL1	dynein, light chain, LC8-type 1	8837	-0.9586028456687927	-0.22583364	No	
+row_33	MAML3	MAML3	mastermind-like 3 (Drosophila)	8856	-0.9680212736129761	-0.21454206	No	
+row_34	SLC12A5	SLC12A5	solute carrier family 12, (potassium-chloride transporter) member 5	9170	-1.0921986103057861	-0.22450882	No	
+row_35	TBX2	TBX2	T-box 2	9219	-1.111101508140564	-0.21366926	No	
+row_36	SRGAP3	SRGAP3	SLIT-ROBO Rho GTPase activating protein 3	9670	-1.3230669498443604	-0.23123838	No	
+row_37	PIM1	PIM1	pim-1 oncogene	9873	-1.410360336303711	-0.22842361	No	
+row_38	SP5	SP5	Sp5 transcription factor	10630	-1.9419852495193481	-0.2616198	No	
+row_39	ID4	ID4	inhibitor of DNA binding 4, dominant negative helix-loop-helix protein	11251	-2.7180867195129395	-0.2740927	Yes	
+row_40	IRX5	IRX5	iroquois homeobox protein 5	11983	-4.505680561065674	-0.27174664	Yes	
+row_41	CNTNAP4	CNTNAP4	contactin associated protein-like 4	12007	-4.613211154937744	-0.21306486	Yes	
+row_42	GABRB3	GABRB3	gamma-aminobutyric acid (GABA) A receptor, beta 3	12259	-6.167158603668213	-0.15170337	Yes	
+row_43	ELAVL2	ELAVL2	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 2 (Hu antigen B)	12451	-7.712376594543457	-0.06543368	Yes	
+row_44	DOCK3	DOCK3	dedicator of cytokinesis 3	12469	-7.845097541809082	0.036074445	Yes	

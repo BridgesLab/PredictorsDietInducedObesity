@@ -1,0 +1,12 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PTGER1	PTGER1	prostaglandin E receptor 1 (subtype EP1), 42kDa	224	3.747889995574951	0.45488742	Yes	
+row_1	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	840	1.510262131690979	0.59526366	Yes	
+row_2	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	1275	0.7785515785217285	0.6580604	Yes	
+row_3	ADCY1	ADCY1	adenylate cyclase 1 (brain)	1986	0.41661176085472107	0.65257967	No	
+row_4	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	4114	0.1160978153347969	0.4932363	No	
+row_5	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	7623	-0.10723578184843063	0.21979956	No	
+row_6	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7662	-0.11022922396659851	0.23060857	No	
+row_7	GNAS	GNAS	GNAS complex locus	8267	-0.15663428604602814	0.20097436	No	
+row_8	ADRB2	ADRB2	adrenergic, beta-2-, receptor, surface	9366	-0.2690773904323578	0.14512502	No	
+row_9	RAP2B	RAP2B	RAP2B, member of RAS oncogene family	9661	-0.3209361433982849	0.16159566	No	
+row_10	PLCE1	PLCE1	phospholipase C, epsilon 1	9974	-0.3865813612937927	0.18488222	No	

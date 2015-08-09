@@ -1,0 +1,25 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GNGT1	GNGT1	guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1	766	3.4006450176239014	0.060275536	Yes	
+row_1	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	897	3.0584075450897217	0.1577745	Yes	
+row_2	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.25580567	Yes	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.3494314	Yes	
+row_4	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.42581105	Yes	
+row_5	PLCB1	PLCB1	phospholipase C, beta 1 (phosphoinositide-specific)	1408	2.1947224140167236	0.4861947	Yes	
+row_6	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	1940	1.558397650718689	0.49987772	Yes	
+row_7	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.53077835	Yes	
+row_8	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.5533882	Yes	
+row_9	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.55108416	Yes	
+row_10	SMPD1	SMPD1	sphingomyelin phosphodiesterase 1, acid lysosomal (acid sphingomyelinase)	2919	0.7762341499328613	0.5693232	Yes	
+row_11	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.56520474	No	
+row_12	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.56729066	No	
+row_13	ASAH1	ASAH1	N-acylsphingosine amidohydrolase (acid ceramidase) 1	3751	0.38398876786231995	0.55771494	No	
+row_14	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5677659	No	
+row_15	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.5232878	No	
+row_16	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	4796	0.06615310162305832	0.49804106	No	
+row_17	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	4912	0.03931080549955368	0.49051654	No	
+row_18	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.45438433	No	
+row_19	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.37956503	No	
+row_20	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	6867	-0.40639325976371765	0.36837623	No	
+row_21	SMPD2	SMPD2	sphingomyelin phosphodiesterase 2, neutral membrane (neutral sphingomyelinase)	7909	-0.6626351475715637	0.31105298	No	
+row_22	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.28977954	No	
+row_23	SPHK1	SPHK1	sphingosine kinase 1	9744	-1.3557878732681274	0.2470762	No	

@@ -1,0 +1,21 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	319	3.0986106395721436	0.018825982	No	
+row_1	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	1128	0.9744981527328491	-0.03318834	No	
+row_2	SERPING1	SERPING1	serpin peptidase inhibitor, clade G (C1 inhibitor), member 1, (angioedema, hereditary)	2490	0.2955474257469177	-0.14032218	No	
+row_3	TFPI	TFPI	tissue factor pathway inhibitor (lipoprotein-associated coagulation inhibitor)	2626	0.2743542194366455	-0.14739501	No	
+row_4	PROS1	PROS1	protein S (alpha)	3100	0.20800375938415527	-0.18310106	No	
+row_5	C1QBP	C1QBP	complement component 1, q subcomponent binding protein	3695	0.15010911226272583	-0.22955266	No	
+row_6	PRCP	PRCP	prolylcarboxypeptidase (angiotensinase C)	4289	0.10400547832250595	-0.27659106	No	
+row_7	THBD	THBD	thrombomodulin	5410	0.02729674056172371	-0.36788568	No	
+row_8	VWF	VWF	von Willebrand factor	8133	-0.14589455723762512	-0.5886105	No	
+row_9	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	9269	-0.2573256492614746	-0.6777968	No	
+row_10	PROC	PROC	protein C (inactivator of coagulation factors Va and VIIIa)	11468	-2.040459394454956	-0.8281452	Yes	
+row_11	A2M	A2M	alpha-2-macroglobulin	11490	-2.0689055919647217	-0.79985756	Yes	
+row_12	GP5	GP5	glycoprotein V (platelet)	11530	-2.1825923919677734	-0.7713946	Yes	
+row_13	GP1BB	GP1BB	glycoprotein Ib (platelet), beta polypeptide	11621	-2.4175922870635986	-0.74369854	Yes	
+row_14	F13B	F13B	coagulation factor XIII, B polypeptide	12106	-5.713820457458496	-0.70045024	Yes	
+row_15	KNG1	KNG1	kininogen 1	12108	-5.726766109466553	-0.6174726	Yes	
+row_16	FGG	FGG	fibrinogen gamma chain	12155	-6.689607620239258	-0.5242142	Yes	
+row_17	FGB	FGB	fibrinogen beta chain	12174	-7.116446018218994	-0.42247277	Yes	
+row_18	SERPINC1	SERPINC1	serpin peptidase inhibitor, clade C (antithrombin), member 1	12178	-7.246213912963867	-0.31762126	Yes	
+row_19	FGA	FGA	fibrinogen alpha chain	12234	-22.209741592407227	2.138404E-7	Yes	

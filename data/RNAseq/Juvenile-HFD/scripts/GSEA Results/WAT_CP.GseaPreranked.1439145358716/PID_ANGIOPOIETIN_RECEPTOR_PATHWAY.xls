@@ -1,0 +1,48 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NOS3	NOS3	nitric oxide synthase 3 (endothelial cell)	276	5.04119873046875	0.053034484	Yes	
+row_1	MMP2	MMP2	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)	473	4.1983323097229	0.09982862	Yes	
+row_2	ANGPT1	ANGPT1	angiopoietin 1	531	4.032510280609131	0.15495908	Yes	
+row_3	TEK	TEK	TEK tyrosine kinase, endothelial (venous malformations, multiple cutaneous and mucosal)	563	3.9218029975891113	0.21047197	Yes	
+row_4	DOK2	DOK2	docking protein 2, 56kDa	611	3.7985215187072754	0.26292273	Yes	
+row_5	FES	FES	feline sarcoma oncogene	774	3.3803248405456543	0.30027443	Yes	
+row_6	FGF2	FGF2	fibroblast growth factor 2 (basic)	882	3.118696451187134	0.3380299	Yes	
+row_7	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.36785072	Yes	
+row_8	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	1057	2.767228603363037	0.40693328	Yes	
+row_9	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.43859497	Yes	
+row_10	BMX	BMX	BMX non-receptor tyrosine kinase	1494	2.060896873474121	0.44202897	Yes	
+row_11	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.4698749	Yes	
+row_12	ITGA5	ITGA5	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)	1692	1.8429259061813354	0.48390114	Yes	
+row_13	PLD2	PLD2	phospholipase D2	2084	1.4208061695098877	0.4745457	Yes	
+row_14	ANGPT2	ANGPT2	angiopoietin 2	2204	1.313047170639038	0.48470372	Yes	
+row_15	ELK1	ELK1	ELK1, member of ETS oncogene family	2211	1.301913857460022	0.5034652	Yes	
+row_16	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	2358	1.180870532989502	0.5095762	Yes	
+row_17	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.52447516	Yes	
+row_18	GRB14	GRB14	growth factor receptor-bound protein 14	2498	1.0563514232635498	0.5315406	Yes	
+row_19	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.54673755	Yes	
+row_20	FYN	FYN	FYN oncogene related to SRC, FGR, YES	2505	1.0475741624832153	0.5621308	Yes	
+row_21	TNIP2	TNIP2	TNFAIP3 interacting protein 2	2600	0.9814853668212891	0.56933206	Yes	
+row_22	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	2768	0.8617117404937744	0.56910026	Yes	
+row_23	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.5790816	Yes	
+row_24	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	2820	0.83323734998703	0.58999044	Yes	
+row_25	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.565887	No	
+row_26	FN1	FN1	fibronectin 1	3283	0.5844084024429321	0.57172436	No	
+row_27	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.57030696	No	
+row_28	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.57420313	No	
+row_29	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.5739499	No	
+row_30	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5605063	No	
+row_31	ELF1	ELF1	E74-like factor 1 (ets domain transcription factor)	4101	0.27104300260543823	0.54053336	No	
+row_32	MAPK14	MAPK14	mitogen-activated protein kinase 14	4260	0.21614307165145874	0.53146595	No	
+row_33	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	4341	0.1897527426481247	0.5280609	No	
+row_34	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.52290034	No	
+row_35	NCK1	NCK1	NCK adaptor protein 1	4444	0.1578144133090973	0.5249206	No	
+row_36	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.5269154	No	
+row_37	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.518534	No	
+row_38	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.51084137	No	
+row_39	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	0.4075762	No	
+row_40	ANGPT4	ANGPT4	angiopoietin 4	6278	-0.269512802362442	0.39580536	No	
+row_41	PXN	PXN	paxillin	7542	-0.5692581534385681	0.30621415	No	
+row_42	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	8030	-0.6928877234458923	0.27865982	No	
+row_43	ELF2	ELF2	E74-like factor 2 (ets domain transcription factor)	8162	-0.7312185764312744	0.27929416	No	
+row_44	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	8494	-0.8370139598846436	0.26597258	No	
+row_45	GRB7	GRB7	growth factor receptor-bound protein 7	10894	-2.2230608463287354	0.11266119	No	
+row_46	PLG	PLG	plasminogen	11483	-3.084174394607544	0.11258526	No	

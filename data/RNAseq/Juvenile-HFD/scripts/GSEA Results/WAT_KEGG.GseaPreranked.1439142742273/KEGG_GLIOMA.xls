@@ -1,0 +1,61 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	426	4.3841471672058105	0.025046902	Yes	
+row_1	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	493	4.133812427520752	0.07473551	Yes	
+row_2	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.08680136	Yes	
+row_3	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.118678406	Yes	
+row_4	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.15680024	Yes	
+row_5	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.19046508	Yes	
+row_6	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.22706941	Yes	
+row_7	E2F2	E2F2	E2F transcription factor 2	1075	2.7253763675689697	0.26002374	Yes	
+row_8	PDGFB	PDGFB	platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)	1126	2.641366720199585	0.29116505	Yes	
+row_9	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.3196236	Yes	
+row_10	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	1432	2.1561176776885986	0.32949552	Yes	
+row_11	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	1436	2.142984628677368	0.3576787	Yes	
+row_12	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.37796807	Yes	
+row_13	E2F1	E2F1	E2F transcription factor 1	2017	1.4653208255767822	0.35895178	No	
+row_14	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	2035	1.4578473567962646	0.3769626	No	
+row_15	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.36502862	No	
+row_16	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.37314638	No	
+row_17	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.3585514	No	
+row_18	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	3099	0.681157648563385	0.34451568	No	
+row_19	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.3333722	No	
+row_20	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	3347	0.5545215010643005	0.34018153	No	
+row_21	SHC2	SHC2	SHC (Src homology 2 domain containing) transforming protein 2	3530	0.47874611616134644	0.33239385	No	
+row_22	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	3689	0.40941691398620605	0.3255509	No	
+row_23	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.3226345	No	
+row_24	PLCG1	PLCG1	phospholipase C, gamma 1	3890	0.33916980028152466	0.31952026	No	
+row_25	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.3022854	No	
+row_26	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.28550914	No	
+row_27	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.28483722	No	
+row_28	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.2862079	No	
+row_29	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.2776342	No	
+row_30	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.26922622	No	
+row_31	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	4912	0.03931080549955368	0.25382516	No	
+row_32	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.24535033	No	
+row_33	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.22189973	No	
+row_34	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.21676183	No	
+row_35	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	0.16345322	No	
+row_36	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	6258	-0.26650428771972656	0.15852109	No	
+row_37	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.14747497	No	
+row_38	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.14037721	No	
+row_39	E2F3	E2F3	E2F transcription factor 3	6730	-0.3752363324165344	0.13579948	No	
+row_40	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	6817	-0.39525026082992554	0.13436094	No	
+row_41	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.13812469	No	
+row_42	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	7738	-0.6211190819740295	0.07653556	No	
+row_43	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	8045	-0.6963041424751282	0.06200164	No	
+row_44	CDK4	CDK4	cyclin-dependent kinase 4	8223	-0.7500976920127869	0.058200445	No	
+row_45	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	0.05567096	No	
+row_46	SHC4	SHC4	SHC (Src homology 2 domain containing) family, member 4	8414	-0.810090959072113	0.06493713	No	
+row_47	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	0.061663177	No	
+row_48	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.070045464	No	
+row_49	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	0.06826121	No	
+row_50	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.080644585	No	
+row_51	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	9006	-1.0296059846878052	0.08187009	No	
+row_52	CDK6	CDK6	cyclin-dependent kinase 6	9305	-1.1451270580291748	0.07390897	No	
+row_53	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.087808184	No	
+row_54	TGFA	TGFA	transforming growth factor, alpha	9523	-1.2451547384262085	0.088940434	No	
+row_55	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	9896	-1.4262335300445557	0.07895925	No	
+row_56	CALML3	CALML3	calmodulin-like 3	10518	-1.84446120262146	0.055184	No	
+row_57	EGF	EGF	epidermal growth factor (beta-urogastrone)	11049	-2.434933662414551	0.046306446	No	
+row_58	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	0.039977465	No	
+row_59	SHC3	SHC3	SHC (Src homology 2 domain containing) transforming protein 3	11801	-3.8265838623046875	0.08799995	No	

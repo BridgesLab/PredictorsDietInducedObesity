@@ -1,0 +1,32 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CAV1	CAV1	caveolin 1, caveolae protein, 22kDa	193	5.586565971374512	0.06892791	Yes	
+row_1	MFAP5	MFAP5	microfibrillar associated protein 5	536	4.0009541511535645	0.10250041	Yes	
+row_2	ID1	ID1	inhibitor of DNA binding 1, dominant negative helix-loop-helix protein	544	3.9717111587524414	0.16159476	Yes	
+row_3	DCN	DCN	decorin	560	3.9327852725982666	0.21948467	Yes	
+row_4	NOV	NOV	nephroblastoma overexpressed gene	569	3.9057812690734863	0.27751157	Yes	
+row_5	SERPINE2	SERPINE2	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 2	684	3.5778729915618896	0.32240027	Yes	
+row_6	FST	FST	follistatin	713	3.524348020553589	0.3731499	Yes	
+row_7	CCND2	CCND2	cyclin D2	738	3.4533114433288574	0.42314285	Yes	
+row_8	ELN	ELN	elastin (supravalvular aortic stenosis, Williams-Beuren syndrome)	752	3.4264914989471436	0.47358555	Yes	
+row_9	TIMP3	TIMP3	TIMP metallopeptidase inhibitor 3 (Sorsby fundus dystrophy, pseudoinflammatory)	781	3.3618879318237305	0.52189577	Yes	
+row_10	S100A6	S100A6	S100 calcium binding protein A6	839	3.227886915206909	0.5659465	Yes	
+row_11	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	1009	2.849985122680664	0.59564346	Yes	
+row_12	TIMP2	TIMP2	TIMP metallopeptidase inhibitor 2	1229	2.4691128730773926	0.6157467	Yes	
+row_13	COL8A1	COL8A1	collagen, type VIII, alpha 1	1257	2.4252071380615234	0.6500698	Yes	
+row_14	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.6600515	Yes	
+row_15	IGFBP6	IGFBP6	insulin-like growth factor binding protein 6	1533	2.0119547843933105	0.6894094	Yes	
+row_16	IGFBP4	IGFBP4	insulin-like growth factor binding protein 4	1559	1.9868773221969604	0.7173058	Yes	
+row_17	TINAGL1	TINAGL1	tubulointerstitial nephritis antigen-like 1	1717	1.8196055889129639	0.7324611	Yes	
+row_18	PRRX2	PRRX2	paired related homeobox 2	2091	1.4140828847885132	0.7247883	No	
+row_19	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	2770	0.860894501209259	0.68517315	No	
+row_20	CCNG1	CCNG1	cyclin G1	3560	0.46670886874198914	0.6310371	No	
+row_21	COL4A5	COL4A5	collagen, type IV, alpha 5 (Alport syndrome)	3804	0.36777472496032715	0.61772805	No	
+row_22	ANXA3	ANXA3	annexin A3	3875	0.34664586186408997	0.6175084	No	
+row_23	CTTN	CTTN	cortactin	4015	0.2991192936897278	0.6112279	No	
+row_24	MGP	MGP	matrix Gla protein	5604	-0.12815187871456146	0.49008957	No	
+row_25	CD81	CD81	CD81 molecule	6585	-0.3427760899066925	0.41929105	No	
+row_26	GPX3	GPX3	glutathione peroxidase 3 (plasma)	6698	-0.3683319687843323	0.41614223	No	
+row_27	EEF2	EEF2	eukaryotic translation elongation factor 2	8341	-0.790278971195221	0.30076122	No	
+row_28	CCND1	CCND1	cyclin D1	8606	-0.8718628287315369	0.29339382	No	
+row_29	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.28941226	No	
+row_30	AK1	AK1	adenylate kinase 1	10503	-1.8240413665771484	0.18839118	No	

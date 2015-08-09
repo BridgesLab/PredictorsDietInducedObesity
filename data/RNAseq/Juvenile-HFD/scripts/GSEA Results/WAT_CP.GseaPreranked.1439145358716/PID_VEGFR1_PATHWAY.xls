@@ -1,0 +1,25 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CAV1	CAV1	caveolin 1, caveolae protein, 22kDa	193	5.586565971374512	0.120429896	Yes	
+row_1	NOS3	NOS3	nitric oxide synthase 3 (endothelial cell)	276	5.04119873046875	0.23624133	Yes	
+row_2	VEGFB	VEGFB	vascular endothelial growth factor B	587	3.862657308578491	0.30583397	Yes	
+row_3	NRP1	NRP1	neuropilin 1	731	3.4623281955718994	0.3786602	Yes	
+row_4	FLT1	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	748	3.4342808723449707	0.46064335	Yes	
+row_5	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.515008	Yes	
+row_6	NRP2	NRP2	neuropilin 2	1025	2.818830966949463	0.578824	Yes	
+row_7	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.6463117	Yes	
+row_8	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	2358	1.180870532989502	0.57237935	No	
+row_9	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.5982228	No	
+row_10	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.5866869	No	
+row_11	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.60094965	No	
+row_12	SHC2	SHC2	SHC (Src homology 2 domain containing) transforming protein 2	3530	0.47874611616134644	0.56150925	No	
+row_13	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5503777	No	
+row_14	PLCG1	PLCG1	phospholipase C, gamma 1	3890	0.33916980028152466	0.5510064	No	
+row_15	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.51244384	No	
+row_16	NCK1	NCK1	NCK adaptor protein 1	4444	0.1578144133090973	0.51595837	No	
+row_17	HIF1A	HIF1A	hypoxia-inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)	4648	0.10557965189218521	0.5027938	No	
+row_18	CD2AP	CD2AP	CD2-associated protein	6264	-0.2675342559814453	0.38418978	No	
+row_19	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.38691717	No	
+row_20	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	8030	-0.6928877234458923	0.2711077	No	
+row_21	HSP90AA1	HSP90AA1	heat shock protein 90kDa alpha (cytosolic), class A member 1	9673	-1.323603868484497	0.17600402	No	
+row_22	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	9933	-1.4432371854782104	0.19091736	No	
+row_23	PGF	PGF	placental growth factor, vascular endothelial growth factor-related protein	10346	-1.710184097290039	0.20044921	No	

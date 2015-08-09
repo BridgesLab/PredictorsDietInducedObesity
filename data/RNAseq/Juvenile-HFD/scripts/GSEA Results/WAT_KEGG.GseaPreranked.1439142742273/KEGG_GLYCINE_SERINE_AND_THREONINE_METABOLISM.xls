@@ -1,0 +1,32 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AOC3	AOC3	amine oxidase, copper containing 3 (vascular adhesion protein 1)	121	6.145174503326416	0.09048417	No	
+row_1	ALAS1	ALAS1	aminolevulinate, delta-, synthase 1	1860	1.6508209705352783	-0.017376367	No	
+row_2	MAOA	MAOA	monoamine oxidase A	1863	1.6476343870162964	0.009243242	No	
+row_3	DLD	DLD	dihydrolipoamide dehydrogenase	2227	1.2844957113265991	0.0019859076	No	
+row_4	MAOB	MAOB	monoamine oxidase B	2408	1.1385715007781982	0.006538905	No	
+row_5	PHGDH	PHGDH	phosphoglycerate dehydrogenase	2700	0.9071558713912964	-0.0012706611	No	
+row_6	ALAS2	ALAS2	aminolevulinate, delta-, synthase 2 (sideroblastic/hypochromic anemia)	2840	0.8192117214202881	0.001269945	No	
+row_7	PSAT1	PSAT1	phosphoserine aminotransferase 1	4660	0.10299082845449448	-0.13802047	No	
+row_8	DAO	DAO	D-amino-acid oxidase	6512	-0.32515716552734375	-0.27618045	No	
+row_9	AOC2	AOC2	amine oxidase, copper containing 2 (retina-specific)	7694	-0.6113226413726807	-0.35776827	No	
+row_10	CHDH	CHDH	choline dehydrogenase	7999	-0.6861878037452698	-0.37017608	No	
+row_11	GCAT	GCAT	glycine C-acetyltransferase (2-amino-3-ketobutyrate coenzyme A ligase)	9388	-1.1830098628997803	-0.45851532	Yes	
+row_12	PSPH	PSPH	phosphoserine phosphatase	9612	-1.2878831624984741	-0.45486826	Yes	
+row_13	SRR	SRR	serine racemase	9956	-1.455518364906311	-0.4577965	Yes	
+row_14	AMT	AMT	aminomethyltransferase	10210	-1.6084502935409546	-0.451265	Yes	
+row_15	GAMT	GAMT	guanidinoacetate N-methyltransferase	10342	-1.7077088356018066	-0.43366605	Yes	
+row_16	GLYCTK	GLYCTK	-	10439	-1.7719022035598755	-0.4123116	Yes	
+row_17	BHMT	BHMT	betaine-homocysteine methyltransferase	10634	-1.943460464477539	-0.39576384	Yes	
+row_18	AGXT2	AGXT2	alanine-glyoxylate aminotransferase 2	10881	-2.2119741439819336	-0.37888238	Yes	
+row_19	SHMT2	SHMT2	serine hydroxymethyltransferase 2 (mitochondrial)	10887	-2.215688943862915	-0.3432642	Yes	
+row_20	SHMT1	SHMT1	serine hydroxymethyltransferase 1 (soluble)	10891	-2.2214314937591553	-0.3073977	Yes	
+row_21	SARDH	SARDH	sarcosine dehydrogenase	10929	-2.264509916305542	-0.273466	Yes	
+row_22	DMGDH	DMGDH	dimethylglycine dehydrogenase	10942	-2.2821426391601562	-0.23731036	Yes	
+row_23	AGXT	AGXT	alanine-glyoxylate aminotransferase (oxalosis I; hyperoxaluria I; glycolicaciduria; serine-pyruvate aminotransferase)	10984	-2.3504478931427	-0.20229211	Yes	
+row_24	PIPOX	PIPOX	pipecolic acid oxidase	11035	-2.415902853012085	-0.16690767	Yes	
+row_25	SDS	SDS	serine dehydratase	11255	-2.7248568534851074	-0.13959932	Yes	
+row_26	CTH	CTH	cystathionase (cystathionine gamma-lyase)	11370	-2.9255621433258057	-0.100892454	Yes	
+row_27	CBS	CBS	cystathionine-beta-synthase	11390	-2.953421115875244	-0.0543708	Yes	
+row_28	GATM	GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase)	11668	-3.4497668743133545	-0.019777166	Yes	
+row_29	GNMT	GNMT	glycine N-methyltransferase	11701	-3.5370912551879883	0.035221882	Yes	
+row_30	GLDC	GLDC	glycine dehydrogenase (decarboxylating)	11764	-3.707751989364624	0.09066936	Yes	

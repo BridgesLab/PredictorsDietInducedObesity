@@ -1,0 +1,36 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ME2	ME2	malic enzyme 2, NAD(+)-dependent, mitochondrial	1358	0.7142393589019775	-0.06491152	No	
+row_1	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2190	0.35719001293182373	-0.10982174	No	
+row_2	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	2740	0.2548370063304901	-0.13826646	No	
+row_3	LDHAL6B	LDHAL6B	lactate dehydrogenase A-like 6B	3048	0.21404199302196503	-0.14952534	No	
+row_4	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	3240	0.19282600283622742	-0.1526543	No	
+row_5	HAGHL	HAGHL	hydroxyacylglutathione hydrolase-like	3470	0.1710779219865799	-0.16031086	No	
+row_6	GLO1	GLO1	glyoxalase I	3651	0.15401692688465118	-0.16505939	No	
+row_7	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	3761	0.14479312300682068	-0.16458745	No	
+row_8	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	4098	0.11776391416788101	-0.184478	No	
+row_9	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	4157	0.11295610666275024	-0.181894	No	
+row_10	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	4505	0.08724384009838104	-0.2046689	No	
+row_11	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	4578	0.0816550999879837	-0.20526588	No	
+row_12	ME3	ME3	malic enzyme 3, NADP(+)-dependent, mitochondrial	4709	0.07326354086399078	-0.21116212	No	
+row_13	ACACB	ACACB	acetyl-Coenzyme A carboxylase beta	5147	0.04284512624144554	-0.2441984	No	
+row_14	GRHPR	GRHPR	glyoxylate reductase/hydroxypyruvate reductase	5304	0.03313850238919258	-0.25483248	No	
+row_15	LDHA	LDHA	lactate dehydrogenase A	5459	0.025190947577357292	-0.2658189	No	
+row_16	ME1	ME1	malic enzyme 1, NADP(+)-dependent, cytosolic	5723	0.009456389583647251	-0.28676197	No	
+row_17	ACYP1	ACYP1	acylphosphatase 1, erythrocyte (common) type	5731	0.008898249827325344	-0.28675765	No	
+row_18	HAGH	HAGH	hydroxyacylglutathione hydrolase	6206	-0.018580492585897446	-0.32440305	No	
+row_19	PDHA1	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	7301	-0.08319180458784103	-0.4086707	No	
+row_20	DLD	DLD	dihydrolipoamide dehydrogenase	7792	-0.11869831383228302	-0.44112352	No	
+row_21	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	8142	-0.14659489691257477	-0.46020666	No	
+row_22	MDH2	MDH2	malate dehydrogenase 2, NAD (mitochondrial)	8220	-0.15223631262779236	-0.45662823	No	
+row_23	ACSS1	ACSS1	acyl-CoA synthetase short-chain family member 1	8251	-0.15506190061569214	-0.44901377	No	
+row_24	MDH1	MDH1	malate dehydrogenase 1, NAD (soluble)	8264	-0.15590211749076843	-0.4398693	No	
+row_25	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	8479	-0.17409980297088623	-0.44610006	No	
+row_26	DLAT	DLAT	dihydrolipoamide S-acetyltransferase (E2 component of pyruvate dehydrogenase complex)	8488	-0.1752149909734726	-0.4353731	No	
+row_27	LDHD	LDHD	lactate dehydrogenase D	8770	-0.2024320513010025	-0.44525507	No	
+row_28	ACYP2	ACYP2	acylphosphatase 2, muscle type	9488	-0.28856414556503296	-0.48527923	No	
+row_29	ACSS2	ACSS2	acyl-CoA synthetase short-chain family member 2	9494	-0.28908610343933105	-0.46690884	No	
+row_30	LDHB	LDHB	lactate dehydrogenase B	10399	-0.538716733455658	-0.50600994	Yes	
+row_31	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	10897	-0.9389330148696899	-0.48575065	Yes	
+row_32	ACOT12	ACOT12	acyl-CoA thioesterase 12	11164	-1.384358525276184	-0.41762027	Yes	
+row_33	PDHA2	PDHA2	pyruvate dehydrogenase (lipoamide) alpha 2	11452	-2.039196252822876	-0.3086702	Yes	
+row_34	PKLR	PKLR	pyruvate kinase, liver and RBC	12109	-5.736804962158203	0.010245958	Yes	
