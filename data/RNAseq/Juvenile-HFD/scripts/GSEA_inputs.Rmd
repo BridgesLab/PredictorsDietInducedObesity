@@ -1,5 +1,11 @@
-Making input files for GSEA
-========================================================
+---
+title: "Making Input Files for GSEA Analyses"
+author: "Dave Bridges"
+date: "August 9, 2015"
+output:
+  html_document:
+    keep_md: true
+---
 
 Making the input files
 ----------------------
@@ -31,14 +37,32 @@ write.table(results.noDup, file=result_data_file_wat, sep="\t", quote=FALSE, row
 
 This script takes the input files `r deseq_file_quads` and `r deseq_file_wat`.  This script was most recently run on `r date()`.  It writes out to the data files `r result_data_file_quads` and `r result_data_file_wat`.
 
-# GSEA Analysis
+## GSEA Analysis
 
+Used GSEA version 2.2 downloaded from http://www.broadinstitute.org/gsea/index.jsp.  Some notes on the actual analyses
+
+* Used preranked list, ordered by log2fold change
+* Ran 1000 permutations
+* Compared to MSigDB database version 5.0
+* Looked at gene sets with between 10 and 5000 members
+* Used **weighted** enrichment statistic
+
+The analysis was done against the following gene sets:
+
+* Gene Ontology - Cellular Component 
+* Gene Ontology - Biological Process
+* Gene Ontology - Molecular Function
+* KEGG
+* Reactome
+* Biocarta
+* miRNA
+* TFT, TRANSFAC 7.4
 
 
 
 Session Information
 ---------------------
 
-```{r session-information}
+```{r session-information, echo=FALSE}
 sessionInfo()
 ```
