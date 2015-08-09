@@ -112,7 +112,10 @@ dds.wat <- DESeq(dds.wat,   test  = "LRT",
   full = ~  Feeding + Diet + Feeding:Diet,
   reduced = ~ Feeding,
   parallel= T)
+
 res.wat <- results(dds.wat, parallel=T)
+res.wat$log2FC_HFDvsControl <- results(dds.wat, name="DietHigh.Fat.Diet")$log2FoldChange
+res.wat$lfcSE_HFDvsControl <- results(dds.wat, name="DietHigh.Fat.Diet")$lfcSE
 
 res.wat$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.wat), "\\."), "[[", 1))
 
@@ -176,6 +179,8 @@ dds.quad <- DESeq(dds.quad,   test  = "LRT",
   reduced = ~ Feeding,
   parallel= T)
 res.quad <- results(dds.quad, parallel=T)
+res.quad$log2FC_HFDvsControl <- results(dds.quad, name="DietHigh.Fat.Diet")$log2FoldChange
+res.quad$lfcSE_HFDvsControl <- results(dds.quad, name="DietHigh.Fat.Diet")$lfcSE
 
 res.quad$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.quad), "\\."), "[[", 1))
 
