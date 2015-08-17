@@ -5,7 +5,7 @@ August 13, 2015
 
 
 
-Used analysed DESeq results.  This script was most recently run on Mon Aug 17 16:06:47 2015.
+Used analysed DESeq results.  This script was most recently run on Mon Aug 17 16:39:06 2015.
 
 
 
@@ -15,7 +15,7 @@ This script uses the DESeq files DESeq Results for Effects of Diet on WAT.csv an
 
 
 
-Drew bargraphs for *Retn, Pparg, Lep, Hsd11b1, Pnpla2*.
+Drew bargraphs for *Retn, Pparg, Lep, Hsd11b1, Pnpla2, Tbc1d9b, Clk4, Slc1a3, Ap2s1, Rer1, Ywhae*.
 
 
 
