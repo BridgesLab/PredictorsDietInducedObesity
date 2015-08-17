@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Fri Aug  7 17:10:52 2015
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Mon Aug 17 17:39:08 2015
 
 
 
@@ -46,25 +46,47 @@ Table: Top Hits for Effects of Feeding
 
 We identified 42 differentially expressed genes in adipose tissue, out of a total of 45232 genes tested.  Of these significantly differentially expressed genes, 13 were upregulated and 29 were downregulated.
 
-## Effects of Diet 
+## Effects of Diet Overall
+
+
+Table: Top Hits for Effects of Diet, Ignoring Feeding
+
+        ensembl_gene_id       baseMean   log2FoldChange   lfcSE   stat   pvalue    padj       X  gene_biotype     external_gene_name 
+------  -------------------  ---------  ---------------  ------  -----  -------  ------  ------  ---------------  -------------------
+22987   ENSMUSG00000079480        56.7            1.231   0.276   19.8    0.000   0.100   31944  protein_coding   Pin4               
+2264    ENSMUSG00000020018       183.7            0.847   0.205   17.0    0.000   0.212   44451  protein_coding   Snrpf              
+172     ENSMUSG00000001018       425.0            0.397   0.106   14.0    0.000   0.508   22300  protein_coding   Snapin             
+4331    ENSMUSG00000024146       221.1            0.463   0.125   13.6    0.000   0.508   14451  protein_coding   Cript              
+7064    ENSMUSG00000029048       988.4            0.430   0.113   14.4    0.000   0.508   20126  protein_coding   Rer1               
+1150    ENSMUSG00000008036       522.3            0.686   0.190   13.0    0.000   0.595   25195  protein_coding   Ap2s1              
+21532   ENSMUSG00000076258      1674.9            0.939   0.264   12.5    0.000   0.655    3269  miRNA            Gm23935            
+2268    ENSMUSG00000020022      1218.8            0.407   0.117   12.2    0.000   0.668   42527  protein_coding   Ndufa12            
+2776    ENSMUSG00000020849      1597.0            0.268   0.081   11.1    0.001   0.795    2972  protein_coding   Ywhae              
+2847    ENSMUSG00000020952       326.8            0.471   0.141   11.2    0.001   0.795    8910  protein_coding   Scfd1              
+
+![MA Plot for Main Effects of Diet Status on Adipose Tissue](figures/deseq-MA-plot-wat-diet-main-1.png) 
+
+We identified NA differentially expressed genes, out of a total of 45232 genes tested.  
+
+## Effects of Diet with an Interaction
 
 
 Table: Top Hits for Effects of Diet
 
-        ensembl_gene_id       baseMean   log2FoldChange   lfcSE   stat   pvalue    padj       X  gene_biotype     external_gene_name 
-------  -------------------  ---------  ---------------  ------  -----  -------  ------  ------  ---------------  -------------------
-12479   ENSMUSG00000042129       192.9            1.945   0.352   32.9        0   0.001   12610  protein_coding   Rassf4             
-834     ENSMUSG00000005360       739.2            6.638   1.240   24.0        0   0.004   27013  protein_coding   Slc1a3             
-964     ENSMUSG00000006235        37.4            6.110   1.169   24.6        0   0.004   25827  protein_coding   Epor               
-1150    ENSMUSG00000008036       522.3           -0.814   0.334   23.1        0   0.004   25195  protein_coding   Ap2s1              
-1410    ENSMUSG00000012705      4124.9            6.331   1.217   22.8        0   0.004   13700  protein_coding   Retn               
-1680    ENSMUSG00000015950       149.6            2.033   0.454   24.0        0   0.004   37961  protein_coding   Ncf1               
-2317    ENSMUSG00000020101       851.0            5.361   1.053   23.2        0   0.004   15099  protein_coding   4632428N05Rik      
-2401    ENSMUSG00000020241       943.1            3.530   0.680   25.3        0   0.004   16248  protein_coding   Col6a2             
-2665    ENSMUSG00000020676        72.2            6.843   1.270   25.5        0   0.004   41451  protein_coding   Ccl11              
-2854    ENSMUSG00000020963       480.5            6.194   1.165   23.8        0   0.004   21836  protein_coding   Tshr               
+        ensembl_gene_id       baseMean   log2FoldChange   lfcSE   stat   pvalue    padj   log2FC_HFDvsControl   lfcSE_HFDvsControl       X  gene_biotype     external_gene_name 
+------  -------------------  ---------  ---------------  ------  -----  -------  ------  --------------------  -------------------  ------  ---------------  -------------------
+12479   ENSMUSG00000042129       192.9            1.945   0.352   32.9        0   0.001                 -1.14                0.231   12610  protein_coding   Rassf4             
+834     ENSMUSG00000005360       739.2            6.638   1.240   24.0        0   0.004                 -3.40                0.807   27013  protein_coding   Slc1a3             
+964     ENSMUSG00000006235        37.4            6.110   1.169   24.6        0   0.004                 -3.10                0.754   25827  protein_coding   Epor               
+1150    ENSMUSG00000008036       522.3           -0.814   0.334   23.1        0   0.004                  1.03                0.217   25195  protein_coding   Ap2s1              
+1410    ENSMUSG00000012705      4124.9            6.331   1.217   22.8        0   0.004                 -3.13                0.792   13700  protein_coding   Retn               
+1680    ENSMUSG00000015950       149.6            2.033   0.454   24.0        0   0.004                 -1.38                0.298   37961  protein_coding   Ncf1               
+2317    ENSMUSG00000020101       851.0            5.361   1.053   23.2        0   0.004                 -2.83                0.685   15099  protein_coding   4632428N05Rik      
+2401    ENSMUSG00000020241       943.1            3.530   0.680   25.3        0   0.004                 -1.66                0.443   16248  protein_coding   Col6a2             
+2665    ENSMUSG00000020676        72.2            6.843   1.270   25.5        0   0.004                 -3.90                0.831   41451  protein_coding   Ccl11              
+2854    ENSMUSG00000020963       480.5            6.194   1.165   23.8        0   0.004                 -2.98                0.760   21836  protein_coding   Tshr               
 
-![MA Plot for Effects of Diet Status on Adipose Tissue](figures/deseq-MA-plot-wat-diet-1.png) 
+![MA Plot for Effects of Diet Status on Adipose Tissue](figures/deseq-MA-plot-wat-diet-interaction-1.png) 
 
 We identified 1281 differentially expressed genes, out of a total of 45232 genes tested.  Of these significantly differentially expressed genes, 958 were upregulated and 323 were downregulated.
 
@@ -96,18 +118,18 @@ We identified 4770 differentially expressed genes in muscle tissue, out of a tot
 
 Table: Top Hits for Effects of Diet
 
-        ensembl_gene_id       baseMean   log2FoldChange   lfcSE   stat   pvalue    padj       X  gene_biotype           external_gene_name 
-------  -------------------  ---------  ---------------  ------  -----  -------  ------  ------  ---------------------  -------------------
-42477   ENSMUSG00000103880        60.6           -0.918   0.388   35.3        0   0.000   15263  processed_pseudogene   Gm37009            
-17760   ENSMUSG00000063415        74.6           -3.853   0.742   32.6        0   0.000    8793  protein_coding         Cyp26b1            
-5922    ENSMUSG00000027080        33.6           -0.318   0.344   27.7        0   0.003   40317  protein_coding         Med19              
-691     ENSMUSG00000004285       361.5           -0.046   0.206   24.1        0   0.009   21470  protein_coding         Atp6v1f            
-2805    ENSMUSG00000020893       623.4           -0.723   0.314   24.2        0   0.009   41303  protein_coding         Per1               
-18016   ENSMUSG00000064368        44.3           -0.568   0.583   24.3        0   0.009       5  protein_coding         mt-Nd6             
-11439   ENSMUSG00000039159       624.7           -0.168   0.150   20.1        0   0.058   17205  protein_coding         Ube2h              
-5067    ENSMUSG00000025477       910.9           -0.221   0.157   19.8        0   0.060   40491  protein_coding         Inpp5a             
-502     ENSMUSG00000002910      1209.1           -0.479   0.343   18.8        0   0.078    9876  protein_coding         Arrdc2             
-5566    ENSMUSG00000026463        95.0            0.089   0.252   18.8        0   0.078   39858  protein_coding         Atp2b4             
+        ensembl_gene_id       baseMean   log2FoldChange   lfcSE   stat   pvalue    padj   log2FC_HFDvsControl   lfcSE_HFDvsControl       X  gene_biotype           external_gene_name 
+------  -------------------  ---------  ---------------  ------  -----  -------  ------  --------------------  -------------------  ------  ---------------------  -------------------
+42477   ENSMUSG00000103880        60.6           -0.918   0.388   35.3        0   0.000                -0.671                0.249   15263  processed_pseudogene   Gm37009            
+17760   ENSMUSG00000063415        74.6           -3.853   0.742   32.6        0   0.000                 0.286                0.456    8793  protein_coding         Cyp26b1            
+5922    ENSMUSG00000027080        33.6           -0.318   0.344   27.7        0   0.003                 1.031                0.237   40317  protein_coding         Med19              
+691     ENSMUSG00000004285       361.5           -0.046   0.206   24.1        0   0.009                -0.479                0.132   21470  protein_coding         Atp6v1f            
+2805    ENSMUSG00000020893       623.4           -0.723   0.314   24.2        0   0.009                -0.394                0.195   41303  protein_coding         Per1               
+18016   ENSMUSG00000064368        44.3           -0.568   0.583   24.3        0   0.009                -1.172                0.368       5  protein_coding         mt-Nd6             
+11439   ENSMUSG00000039159       624.7           -0.168   0.150   20.1        0   0.058                 0.388                0.096   17205  protein_coding         Ube2h              
+5067    ENSMUSG00000025477       910.9           -0.221   0.157   19.8        0   0.060                 0.417                0.100   40491  protein_coding         Inpp5a             
+502     ENSMUSG00000002910      1209.1           -0.479   0.343   18.8        0   0.078                -0.506                0.212    9876  protein_coding         Arrdc2             
+5566    ENSMUSG00000026463        95.0            0.089   0.252   18.8        0   0.078                -0.577                0.164   39858  protein_coding         Atp2b4             
 
 ![MA Plot for Effects of Diet Status on Adipose Tissue](figures/deseq-MA-plot-quad-diet-1.png) 
 

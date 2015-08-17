@@ -100,9 +100,41 @@ plotMA(res.wat.feeding, main="Adipose, Effects of Feeding", ylim=c(-4,4))
 
 We identified `r table(res.wat.feeding$padj < 0.05)['TRUE']` differentially expressed genes in adipose tissue, out of a total of `r dim(res.wat.feeding)[1]` genes tested.  Of these significantly differentially expressed genes, `r table(res.wat.feeding$padj < 0.05, res.wat.feeding$log2FoldChange>0)['TRUE','TRUE']` were upregulated and `r table(res.wat.feeding$padj < 0.05, res.wat.feeding$log2FoldChange<0)['TRUE','TRUE']` were downregulated.
 
-## Effects of Diet 
+## Effects of Diet Overall
 
-```{r wat-diet}
+```{r wat-diet-main}
+dds.wat <- DESeqDataSetFromHTSeqCount(
+  sampleTable = subset(sample_table, Tissue=="eWAT"),
+  directory = input_folder, 
+  design = ~ Feeding + Diet)
+
+dds.wat <- DESeq(dds.wat,   test  = "LRT",
+  full = ~  Feeding + Diet,
+  reduced = ~ Feeding,
+  parallel= T)
+
+res.wat <- results(dds.wat, parallel=T)
+
+res.wat$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.wat), "\\."), "[[", 1))
+
+annotated.res.wat <- merge(as.data.frame(res.wat), 
+                          annotation, 
+                          by='ensembl_gene_id',
+                          all.x=T)
+kable(head( annotated.res.wat[order(annotated.res.wat$padj),],10), caption="Top Hits for Effects of Diet, Ignoring Feeding")
+wat_diet_results_file <- 'DESeq Results for Main Effects of Diet on WAT.csv'
+write.csv(annotated.res.wat, wat_diet_results_file)
+```
+
+```{r deseq-MA-plot-wat-diet-main, fig.cap="MA Plot for Main Effects of Diet Status on Adipose Tissue"}
+plotMA(res.wat, main="Adipose, Effects of Diet", ylim=c(-10,10), las=1)
+```
+
+We identified `r table(res.wat$padj < 0.05)['TRUE']` differentially expressed genes, out of a total of `r dim(res.wat)[1]` genes tested.  
+
+## Effects of Diet with an Interaction
+
+```{r wat-diet-interaction}
 dds.wat <- DESeqDataSetFromHTSeqCount(
   sampleTable = subset(sample_table, Tissue=="eWAT"),
   directory = input_folder, 
@@ -114,8 +146,8 @@ dds.wat <- DESeq(dds.wat,   test  = "LRT",
   parallel= T)
 
 res.wat <- results(dds.wat, parallel=T)
-res.wat$log2FC_HFDvsControl <- results(dds.wat, name="DietHigh.Fat.Diet")$log2FoldChange
-res.wat$lfcSE_HFDvsControl <- results(dds.wat, name="DietHigh.Fat.Diet")$lfcSE
+res.wat$log2FC_HFDvsControl <- results(dds.wat, name="Diet_High.Fat.Diet_vs_Control.Diet")$log2FoldChange
+res.wat$lfcSE_HFDvsControl <- results(dds.wat, name="Diet_High.Fat.Diet_vs_Control.Diet")$lfcSE
 
 res.wat$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.wat), "\\."), "[[", 1))
 
@@ -128,7 +160,7 @@ wat_diet_results_file <- 'DESeq Results for Effects of Diet on WAT.csv'
 write.csv(annotated.res.wat, wat_diet_results_file)
 ```
 
-```{r deseq-MA-plot-wat-diet, fig.cap="MA Plot for Effects of Diet Status on Adipose Tissue"}
+```{r deseq-MA-plot-wat-diet-interaction, fig.cap="MA Plot for Effects of Diet Status on Adipose Tissue"}
 plotMA(res.wat, main="Adipose, Effects of Diet", ylim=c(-10,10), las=1)
 ```
 
@@ -179,8 +211,8 @@ dds.quad <- DESeq(dds.quad,   test  = "LRT",
   reduced = ~ Feeding,
   parallel= T)
 res.quad <- results(dds.quad, parallel=T)
-res.quad$log2FC_HFDvsControl <- results(dds.quad, name="DietHigh.Fat.Diet")$log2FoldChange
-res.quad$lfcSE_HFDvsControl <- results(dds.quad, name="DietHigh.Fat.Diet")$lfcSE
+res.quad$log2FC_HFDvsControl <- results(dds.quad, name="Diet_High.Fat.Diet_vs_Control.Diet")$log2FoldChange
+res.quad$lfcSE_HFDvsControl <- results(dds.quad, name="Diet_High.Fat.Diet_vs_Control.Diet")$lfcSE
 
 res.quad$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.quad), "\\."), "[[", 1))
 
