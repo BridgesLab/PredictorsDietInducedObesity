@@ -1,0 +1,8 @@
+{
+	"n_targets": 55241,
+	"n_bootstraps": 100,
+	"kallisto_version": "0.42.2.1",
+	"index_version": 10,
+	"start_time": "Wed Aug 19 11:27:39 2015",
+	"call": "kallisto quant -i gencode.vM6.pc_transcripts.idx -o kallisto_output/IonXpress_RNA_032 --single --fragment-length=164 --bootstrap-samples=100 --threads=7 --seed=14036 /volumes/Bailey/bridges_lab/Bridges/Bioinformatics/Juvenile-HFD/raw_sequences/IonXpress_RNA_032.R_2015_07_02_16_10_02_user_SER-146-DBridges_39RNAseq_project_pool_3_6-26-15.fastq"
+}
