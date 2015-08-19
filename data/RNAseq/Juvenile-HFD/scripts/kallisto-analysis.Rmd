@@ -1,0 +1,54 @@
+---
+title: "Sleuth Analysis of Juvenile HFD Data"
+author: "Dave Bridges"
+date: "August 19, 2015"
+output: pdf_document
+---
+
+```{r data-entry}
+library(sleuth)
+base_dir <- "../kallisto/kallisto_output"
+sample_id <- dir(file.path(base_dir))
+kal_dirs <- paste(base_dir, sample_id, sep="/")
+annotation_file <- '../sample-mapping.csv'
+sample.table <- read.csv(annotation_file)
+#duplicate barcode column as sample
+sample.table$sample <- sample.table$Barcode
+sample.table$condition <- sample.table$Tissue
+#make 
+sample.table.all <- sample.table %>% 
+  select(sample, condition)
+
+#created separate annotation tables for quadriceps and ewat
+sample.table.quad <- subset(sample.table, Tissue=="Quadriceps")%>% 
+  select(Barcode, Feeding, Diet, SampleID) %>%
+  transmute(sample=Barcode)
+sample.table.wat <- subset(sample.table, Tissue=="eWAT")%>% 
+  select(Barcode, Feeding, Diet, SampleID) %>%
+  transmute(sample=Barcode)
+```
+
+# Effects of Tissue Type
+
+This analysis looks for transcripts that are differentially expressed between the two tissue types.
+
+```{r sleuth-analysis}
+so.tissue <- sleuth_prep(kal_dirs, sample.table.all, ~condition)
+#fit the data
+so.tissue <- sleuth_fit(so.tissue)
+#calculate statistics
+so.tissue <- sleuth_test(so.tissue, which_beta='conditionQuadriceps')
+#set up interactive plot
+#sleuth_live(so.tissue)
+results.tissue <- sleuth_results(so.tissue, 'conditionQuadriceps') 
+results.tissue.file <- 'tissue_differences.csv'
+write.csv(results.tissue, results.tissue.file)
+```
+
+Wrote these results out to `r results.tissue.file`.  By this analysis there were `r table(results.tissue$qval<0.05)['TRUE']` differentially expressed transcripts, with `r with(results.tissue, table(qval<0.05,b>0))['TRUE','TRUE']` upregulated transcripts and `r with(results.tissue, table(qval<0.05,b>0))['TRUE','FALSE']` downregulated transcripts.
+
+# Session Information
+
+```{r session-info, echo=FALSE, message=FALSE}
+sessionInfo()
+```
