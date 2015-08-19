@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #location of fastq files (remote)
-FASTQ_DIR="/volumes/bridges_lab/Bridges/Bioinformatics/Juvenile-HFD/raw_sequences"
+FASTQ_DIR="/volumes/Bailey/bridges_lab/Bridges/Bioinformatics/Juvenile-HFD/raw_sequences"
 
 #location of index file
 INDEX="gencode.vM6.pc_transcripts.idx"
