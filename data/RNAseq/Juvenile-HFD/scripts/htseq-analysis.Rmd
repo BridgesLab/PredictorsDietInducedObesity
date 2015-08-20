@@ -68,6 +68,15 @@ if (!(annotation_file %in% dir())){
                     values=as.character(lapply(strsplit(rownames(counts.table), "\\."), "[[", 1)),
                     mart=useDataset('mmusculus_gene_ensembl',useMart('ensembl')))
   write.csv(annotation, annotation_file)
+}
+
+annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
+if (!(annotation_file %in% dir())){
+  annotation <- getBM(attributes=c('gene_biotype','external_gene_name', 'ensembl_gene_id', 'ensembl_transcript_id'),
+                    filters='ensembl_gene_id',
+                    values=as.character(lapply(strsplit(rownames(counts.table), "\\."), "[[", 1)),
+                    mart=useDataset('mmusculus_gene_ensembl',useMart('ensembl')))
+  write.csv(annotation, annotation_file)
   }
 ```
 
