@@ -51,7 +51,7 @@ rownames(rpkm.data.unique) <- rpkm.data.unique$external_gene_name
 rpkm.data.unique <- rpkm.data.unique[,-1]
 
 #set genes for single barplots
-genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3")
+genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1")
 
 #get a table of just the genes of interest
 genes.of.interest.data <- rpkm.data.unique[genes.of.interest,]

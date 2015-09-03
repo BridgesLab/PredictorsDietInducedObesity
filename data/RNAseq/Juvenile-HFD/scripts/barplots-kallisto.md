@@ -5,11 +5,11 @@ August 13, 2015
 
 
 
-Used analysed DESeq results.  This script was most recently run on Thu Sep  3 08:32:58 2015.
+Used analysed DESeq results.  This script was most recently run on Thu Sep  3 08:31:54 2015.
 
 
 
-This script uses the DESeq files DESeq Results for Effects of Diet on WAT.csv and the mapping file ../sample-mapping.csv.  It uses the annotation data found in ENSEMBL Annotation.csv.  The normalized counts are found in Normalized Counts.csv.
+This script uses the DESeq files DESeq Results for Effects of Diet on WAT - Kalllisto.csv and the mapping file ../sample-mapping.csv.  It uses the annotation data found in ENSEMBL Annotation - Transcripts.csv.  The normalized counts are found in TPM Table.csv.
 
 # Adipocytes
 

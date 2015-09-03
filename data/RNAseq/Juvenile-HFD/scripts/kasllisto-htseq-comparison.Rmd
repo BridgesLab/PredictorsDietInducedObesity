@@ -1,0 +1,22 @@
+
+---
+title: "Comparison of Kallisto and Tophat/HTSeq"
+author: "Dave Bridges"
+date: "September 3, 2015"
+output:
+  html_document:
+    keep_md: true
+---
+
+This script was most recently run on `r date()`.
+
+```{r data-entry}
+kallisto <- 
+```
+
+Session Information
+---------------------
+
+```{r session-information}
+sessionInfo()
+```

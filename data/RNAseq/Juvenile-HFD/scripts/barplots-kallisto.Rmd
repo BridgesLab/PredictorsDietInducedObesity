@@ -48,8 +48,8 @@ rownames(rpkm.data.unique) <- rpkm.data.unique$ensembl_transcript_id
 rpkm.data.unique <- rpkm.data.unique
 
 #set genes for single barplots
-genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae")
-transcripts.of.interest <- droplevels(subset(annotation, external_gene_name %in% genes.of.interest)$ensembl_transcript_id)
+genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1")
+transcripts.of.interest <- as.character(droplevels(subset(annotation, external_gene_name %in% genes.of.interest)$ensembl_transcript_id))
 
 #get a table of just the genes of interest
 genes.of.interest.data <- rpkm.data.unique[transcripts.of.interest,]
@@ -73,16 +73,16 @@ Drew bargraphs for *`r paste(genes.of.interest, collapse=", ")`*.
 
 ```{r barplots}
 library(ggplot2)
-for (gene in levels(goi.long.cal$external_gene_name)) {
-  #pdf(sprintf('../figures/%s-barplot.pdf', gene))
-  gene.data <- subset(goi.long.cal, external_gene_name==gene)
-  #pdf(paste('../figures/',gene,'-barplot.pdf',sep=""))
+for (transcript in goi.long.cal$ensembl_transcript_id[!(is.na(goi.long.cal$ensembl_transcript_id))]) {
+  gene.data <- subset(goi.long.cal, ensembl_transcript_id==transcript)
   p <- ggplot(gene.data, aes(x=Diet,y=Average,fill=Feeding))
   dodge <- position_dodge(width=0.9)
   p <- p + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) 
   
-  p + xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(gene) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-  ggsave(filename=paste('figures/barplots/Adipose-',gene,'-barplot-kallisto.pdf',sep=""))
+  p + xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(paste(as.character(gene.data$external_gene_name[1]), transcript, sep=" - ")) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+  ggsave(filename=paste('figures/barplots/Adipose-',
+                        paste(as.character(gene.data$external_gene_name[1]), transcript, sep=" - ")
+                        ,'-barplot-kallisto.pdf',sep=""))
 }
 
 ```
