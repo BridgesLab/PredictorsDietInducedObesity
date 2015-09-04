@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Thu Sep  3 13:17:32 2015.  This uses the input data from the kallisto runs.
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Fri Sep  4 13:33:22 2015.  This uses the input data from the kallisto runs.
 
 
 

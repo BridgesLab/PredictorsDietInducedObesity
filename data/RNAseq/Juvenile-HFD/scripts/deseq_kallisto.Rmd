@@ -31,16 +31,26 @@ annotation <- read.csv(annotation_file)
 for (file in dir(file.path(input_folder))) {
   filename <- paste(paste(input_folder, file, sep="/"), "abundance.tsv", sep="/")
   temp <- read.table(filename, header=T)
+  if ( !(exists('tpm.counts.table')) ) {
+    tpm.counts.table <- data.frame(temp$tpm, row.names=temp$target_id)
+  }
+  else
+     tpm.counts.table <- cbind(tpm.counts.table, temp$tpm)
+}
+colnames(tpm.counts.table) <- dir(file.path(input_folder))
+
+
+for (file in dir(file.path(input_folder))) {
+  filename <- paste(paste(input_folder, file, sep="/"), "abundance.tsv", sep="/")
+  temp <- read.table(filename, header=T)
   if ( !(exists('est.counts.table')) ) {
-    est.counts.table <- data.frame(temp$est_counts)
-    tpm.counts.table <- data.frame(temp$tpm)
+    est.counts.table <- data.frame(temp$est_counts, row.names=temp$target_id)
   }
   else
      est.counts.table <- cbind(est.counts.table, temp$est_counts)
-     tpm.counts.table <- cbind(tpm.counts.table, temp$tpm)
 }
 colnames(est.counts.table) <- dir(file.path(input_folder))
-colnames(tpm.counts.table) <- dir(file.path(input_folder))
+
 rownames(est.counts.table) <- as.character(lapply(strsplit(as.character(temp$target_id), "\\|"), "[[", 1))
 rownames(tpm.counts.table) <- as.character(lapply(strsplit(as.character(temp$target_id), "\\|"), "[[", 1))
 
