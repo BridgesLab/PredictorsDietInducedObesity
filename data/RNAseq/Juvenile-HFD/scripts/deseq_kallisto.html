@@ -67,7 +67,7 @@ img {
 </div>
 
 
-<p>This script performs the DESeq analyses on the Juvenile HFD studies. This script was most recently run on Thu Aug 20 12:36:39 2015. This uses the input data from the kallisto runs.</p>
+<p>This script performs the DESeq analyses on the Juvenile HFD studies. This script was most recently run on Thu Sep 3 13:17:32 2015. This uses the input data from the kallisto runs.</p>
 <p>The counts data, derived from HTSeq are located in ../kallisto/kallisto_output. The sample mapping file is located in ../sample-mapping.csv. The annotations are from the file ENSEMBL Annotation - Transcripts.csv. The files are written out as TPM Table.csv and Estimated Counts.csv.</p>
 <div id="overall-analysis" class="section level1">
 <h1>Overall Analysis</h1>
@@ -79,6 +79,416 @@ img {
 <div id="adipose-tissue" class="section level1">
 <h1>Adipose Tissue</h1>
 <p>The adipose tissue samples are all eWAT samples</p>
+<div id="adipose-overall-model" class="section level2">
+<h2>Adipose Overall Model</h2>
+<p>This model used only the adipose tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.</p>
+<pre><code>## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2')</code></pre>
+<p>Using the combined model, we identified 1806 transcripts with a significant interaction between feeding and diet in WAT. After removing those genes with an interaction, 148 genes had a main effect with respect to Diet and 173 transcripts had a main effect with respect to Feeding State.</p>
+<table>
+<caption>Top Hits for Effects of Diet</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">ensembl_transcript_id</th>
+<th align="right">baseMean</th>
+<th align="right">log2FoldChange</th>
+<th align="right">lfcSE</th>
+<th align="right">stat</th>
+<th align="right">pvalue</th>
+<th align="right">padj</th>
+<th align="right">lfcSE_Diet</th>
+<th align="right">pvalue_Diet</th>
+<th align="right">padj_Diet</th>
+<th align="right">lfcSE_Feeding</th>
+<th align="right">pvalue_Feeding</th>
+<th align="right">padj_Feeding</th>
+<th align="right">X</th>
+<th align="left">gene_biotype</th>
+<th align="left">external_gene_name</th>
+<th align="left">ensembl_gene_id</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">15682</td>
+<td align="left">ENSMUST00000077472</td>
+<td align="right">64.0</td>
+<td align="right">7.968</td>
+<td align="right">1.422</td>
+<td align="right">5.602</td>
+<td align="right">0.000</td>
+<td align="right">0.000</td>
+<td align="right">1.289</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1.097</td>
+<td align="right">0.144</td>
+<td align="right">0.611</td>
+<td align="right">108372</td>
+<td align="left">protein_coding</td>
+<td align="left">Chst15</td>
+<td align="left">ENSMUSG00000030930</td>
+</tr>
+<tr class="even">
+<td align="left">1070</td>
+<td align="left">ENSMUST00000009102</td>
+<td align="right">787.2</td>
+<td align="right">-0.421</td>
+<td align="right">0.112</td>
+<td align="right">-3.763</td>
+<td align="right">0.000</td>
+<td align="right">0.008</td>
+<td align="right">0.073</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.077</td>
+<td align="right">0.160</td>
+<td align="right">0.632</td>
+<td align="right">80648</td>
+<td align="left">protein_coding</td>
+<td align="left">Vps72</td>
+<td align="left">ENSMUSG00000008958</td>
+</tr>
+<tr class="odd">
+<td align="left">11110</td>
+<td align="left">ENSMUST00000054083</td>
+<td align="right">425.2</td>
+<td align="right">8.232</td>
+<td align="right">1.509</td>
+<td align="right">5.456</td>
+<td align="right">0.000</td>
+<td align="right">0.000</td>
+<td align="right">1.401</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1.382</td>
+<td align="right">0.540</td>
+<td align="right">0.858</td>
+<td align="right">65681</td>
+<td align="left">protein_coding</td>
+<td align="left">Ermp1</td>
+<td align="left">ENSMUSG00000046324</td>
+</tr>
+<tr class="even">
+<td align="left">29414</td>
+<td align="left">ENSMUST00000119685</td>
+<td align="right">28.2</td>
+<td align="right">-0.438</td>
+<td align="right">1.535</td>
+<td align="right">-0.285</td>
+<td align="right">0.775</td>
+<td align="right">0.921</td>
+<td align="right">1.898</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1.885</td>
+<td align="right">0.792</td>
+<td align="right">0.944</td>
+<td align="right">103448</td>
+<td align="left">protein_coding</td>
+<td align="left">Uspl1</td>
+<td align="left">ENSMUSG00000041264</td>
+</tr>
+<tr class="odd">
+<td align="left">24886</td>
+<td align="left">ENSMUST00000110030</td>
+<td align="right">36.1</td>
+<td align="right">-5.766</td>
+<td align="right">1.510</td>
+<td align="right">-3.818</td>
+<td align="right">0.000</td>
+<td align="right">0.007</td>
+<td align="right">1.487</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1.510</td>
+<td align="right">0.000</td>
+<td align="right">0.007</td>
+<td align="right">78552</td>
+<td align="left">protein_coding</td>
+<td align="left">Snx5</td>
+<td align="left">ENSMUSG00000027423</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Top Hits for Effects of Feeding</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">ensembl_transcript_id</th>
+<th align="right">baseMean</th>
+<th align="right">log2FoldChange</th>
+<th align="right">lfcSE</th>
+<th align="right">stat</th>
+<th align="right">pvalue</th>
+<th align="right">padj</th>
+<th align="right">lfcSE_Diet</th>
+<th align="right">pvalue_Diet</th>
+<th align="right">padj_Diet</th>
+<th align="right">lfcSE_Feeding</th>
+<th align="right">pvalue_Feeding</th>
+<th align="right">padj_Feeding</th>
+<th align="right">X</th>
+<th align="left">gene_biotype</th>
+<th align="left">external_gene_name</th>
+<th align="left">ensembl_gene_id</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">5594</td>
+<td align="left">ENSMUST00000030848</td>
+<td align="right">493</td>
+<td align="right">5.09</td>
+<td align="right">1.137</td>
+<td align="right">4.48</td>
+<td align="right">0</td>
+<td align="right">0.001</td>
+<td align="right">0.819</td>
+<td align="right">0.001</td>
+<td align="right">0.049</td>
+<td align="right">0.873</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">60166</td>
+<td align="left">protein_coding</td>
+<td align="left">Rbp7</td>
+<td align="left">ENSMUSG00000028996</td>
+</tr>
+<tr class="even">
+<td align="left">2545</td>
+<td align="left">ENSMUST00000021784</td>
+<td align="right">143</td>
+<td align="right">5.62</td>
+<td align="right">1.219</td>
+<td align="right">4.62</td>
+<td align="right">0</td>
+<td align="right">0.001</td>
+<td align="right">0.891</td>
+<td align="right">0.003</td>
+<td align="right">0.100</td>
+<td align="right">0.964</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">85133</td>
+<td align="left">protein_coding</td>
+<td align="left">Irf4</td>
+<td align="left">ENSMUSG00000021356</td>
+</tr>
+<tr class="odd">
+<td align="left">17770</td>
+<td align="left">ENSMUST00000089860</td>
+<td align="right">3209</td>
+<td align="right">4.53</td>
+<td align="right">1.001</td>
+<td align="right">4.52</td>
+<td align="right">0</td>
+<td align="right">0.001</td>
+<td align="right">0.702</td>
+<td align="right">0.000</td>
+<td align="right">0.041</td>
+<td align="right">0.744</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">77490</td>
+<td align="left">protein_coding</td>
+<td align="left">Fam13a</td>
+<td align="left">ENSMUSG00000037709</td>
+</tr>
+<tr class="even">
+<td align="left">10543</td>
+<td align="left">ENSMUST00000051209</td>
+<td align="right">3366</td>
+<td align="right">4.13</td>
+<td align="right">0.997</td>
+<td align="right">4.14</td>
+<td align="right">0</td>
+<td align="right">0.003</td>
+<td align="right">0.699</td>
+<td align="right">0.000</td>
+<td align="right">0.038</td>
+<td align="right">0.740</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">20652</td>
+<td align="left">protein_coding</td>
+<td align="left">Peg3</td>
+<td align="left">ENSMUSG00000002265</td>
+</tr>
+<tr class="odd">
+<td align="left">8070</td>
+<td align="left">ENSMUST00000039559</td>
+<td align="right">1533</td>
+<td align="right">5.33</td>
+<td align="right">1.046</td>
+<td align="right">5.09</td>
+<td align="right">0</td>
+<td align="right">0.000</td>
+<td align="right">0.740</td>
+<td align="right">0.000</td>
+<td align="right">0.000</td>
+<td align="right">0.783</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">28760</td>
+<td align="left">protein_coding</td>
+<td align="left">Thbs1</td>
+<td align="left">ENSMUSG00000040152</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Top Hits for Interaction between Diet and Feeding</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">ensembl_transcript_id</th>
+<th align="right">baseMean</th>
+<th align="right">log2FoldChange</th>
+<th align="right">lfcSE</th>
+<th align="right">stat</th>
+<th align="right">pvalue</th>
+<th align="right">padj</th>
+<th align="right">lfcSE_Diet</th>
+<th align="right">pvalue_Diet</th>
+<th align="right">padj_Diet</th>
+<th align="right">lfcSE_Feeding</th>
+<th align="right">pvalue_Feeding</th>
+<th align="right">padj_Feeding</th>
+<th align="right">X</th>
+<th align="left">gene_biotype</th>
+<th align="left">external_gene_name</th>
+<th align="left">ensembl_gene_id</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">58</td>
+<td align="left">ENSMUST00000000342</td>
+<td align="right">221.9</td>
+<td align="right">5.67</td>
+<td align="right">1.02</td>
+<td align="right">5.55</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.722</td>
+<td align="right">0.000</td>
+<td align="right">0.007</td>
+<td align="right">0.762</td>
+<td align="right">0.000</td>
+<td align="right">0.007</td>
+<td align="right">97241</td>
+<td align="left">protein_coding</td>
+<td align="left">Ccl11</td>
+<td align="left">ENSMUSG00000020676</td>
+</tr>
+<tr class="even">
+<td align="left">6301</td>
+<td align="left">ENSMUST00000032958</td>
+<td align="right">347.7</td>
+<td align="right">5.83</td>
+<td align="right">1.05</td>
+<td align="right">5.57</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.739</td>
+<td align="right">0.001</td>
+<td align="right">0.049</td>
+<td align="right">0.786</td>
+<td align="right">0.000</td>
+<td align="right">0.000</td>
+<td align="right">73745</td>
+<td align="left">protein_coding</td>
+<td align="left">Ucp3</td>
+<td align="left">ENSMUSG00000032942</td>
+</tr>
+<tr class="odd">
+<td align="left">15682</td>
+<td align="left">ENSMUST00000077472</td>
+<td align="right">64.0</td>
+<td align="right">7.97</td>
+<td align="right">1.42</td>
+<td align="right">5.60</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1.289</td>
+<td align="right">0.000</td>
+<td align="right">0.000</td>
+<td align="right">1.097</td>
+<td align="right">0.144</td>
+<td align="right">0.611</td>
+<td align="right">108372</td>
+<td align="left">protein_coding</td>
+<td align="left">Chst15</td>
+<td align="left">ENSMUSG00000030930</td>
+</tr>
+<tr class="even">
+<td align="left">24650</td>
+<td align="left">ENSMUST00000109646</td>
+<td align="right">22.1</td>
+<td align="right">-6.95</td>
+<td align="right">1.24</td>
+<td align="right">-5.58</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.924</td>
+<td align="right">0.000</td>
+<td align="right">0.013</td>
+<td align="right">0.970</td>
+<td align="right">0.003</td>
+<td align="right">0.095</td>
+<td align="right">61660</td>
+<td align="left">protein_coding</td>
+<td align="left">Fam227a</td>
+<td align="left">ENSMUSG00000042564</td>
+</tr>
+<tr class="odd">
+<td align="left">26203</td>
+<td align="left">ENSMUST00000112266</td>
+<td align="right">144.0</td>
+<td align="right">-8.17</td>
+<td align="right">1.41</td>
+<td align="right">-5.81</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1.044</td>
+<td align="right">0.689</td>
+<td align="right">0.943</td>
+<td align="right">1.097</td>
+<td align="right">0.937</td>
+<td align="right">0.985</td>
+<td align="right">103482</td>
+<td align="left">protein_coding</td>
+<td align="left">Phospho2</td>
+<td align="left">ENSMUSG00000027088</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div id="effects-of-feeding-state" class="section level2">
 <h2>Effects of Feeding State</h2>
 <p>This model used only the adipose tissue data, and tested for changes related to the feeding state.</p>
@@ -1022,12 +1432,12 @@ img {
 ## [8] methods   base     
 ## 
 ## other attached packages:
-##  [1] gplots_2.17.0             BiocParallel_1.2.20      
-##  [3] DESeq2_1.8.1              RcppArmadillo_0.5.200.1.0
-##  [5] Rcpp_0.12.0               GenomicRanges_1.20.5     
-##  [7] GenomeInfoDb_1.4.2        IRanges_2.2.7            
-##  [9] S4Vectors_0.6.3           BiocGenerics_0.14.0      
-## [11] knitr_1.11               
+##  [1] gplots_2.17.0           BiocParallel_1.2.20    
+##  [3] DESeq2_1.8.1            RcppArmadillo_0.5.300.4
+##  [5] Rcpp_0.12.0             GenomicRanges_1.20.5   
+##  [7] GenomeInfoDb_1.4.2      IRanges_2.2.7          
+##  [9] S4Vectors_0.6.3         BiocGenerics_0.14.0    
+## [11] knitr_1.11             
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] genefilter_1.50.0    gtools_3.5.0         locfit_1.5-9.1      

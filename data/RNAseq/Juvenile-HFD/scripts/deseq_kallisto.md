@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Thu Aug 20 12:36:39 2015.  This uses the input data from the kallisto runs.
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Thu Sep  3 13:17:32 2015.  This uses the input data from the kallisto runs.
 
 
 
@@ -26,6 +26,75 @@ The first model was a completely interacting model in which tissue, feeding stat
 # Adipose Tissue
 
 The adipose tissue samples are all eWAT samples
+
+## Adipose Overall Model
+
+This model used only the adipose tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
+
+
+```
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2') 
+## -- standard model matrices are used for factors with two levels and an interaction,
+##    where the main effects are for the reference level of other factors.
+##    see the 'Interactions' section of the vignette for more details: vignette('DESeq2')
+```
+
+Using the combined model, we identified 1806 transcripts with a significant interaction between feeding and diet in WAT.  After removing those genes with an interaction, 148 genes had a main effect with respect to Diet and 173 transcripts had a main effect with respect to Feeding State.
+
+
+Table: Top Hits for Effects of Diet
+
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE     stat   pvalue    padj   lfcSE_Diet   pvalue_Diet   padj_Diet   lfcSE_Feeding   pvalue_Feeding   padj_Feeding        X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  -------  -------  ------  -----------  ------------  ----------  --------------  ---------------  -------------  -------  ---------------  -------------------  -------------------
+15682   ENSMUST00000077472           64.0            7.968   1.422    5.602    0.000   0.000        1.289             0           0           1.097            0.144          0.611   108372  protein_coding   Chst15               ENSMUSG00000030930 
+1070    ENSMUST00000009102          787.2           -0.421   0.112   -3.763    0.000   0.008        0.073             0           0           0.077            0.160          0.632    80648  protein_coding   Vps72                ENSMUSG00000008958 
+11110   ENSMUST00000054083          425.2            8.232   1.509    5.456    0.000   0.000        1.401             0           0           1.382            0.540          0.858    65681  protein_coding   Ermp1                ENSMUSG00000046324 
+29414   ENSMUST00000119685           28.2           -0.438   1.535   -0.285    0.775   0.921        1.898             0           0           1.885            0.792          0.944   103448  protein_coding   Uspl1                ENSMUSG00000041264 
+24886   ENSMUST00000110030           36.1           -5.766   1.510   -3.818    0.000   0.007        1.487             0           0           1.510            0.000          0.007    78552  protein_coding   Snx5                 ENSMUSG00000027423 
+
+
+
+Table: Top Hits for Effects of Feeding
+
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE   stat   pvalue    padj   lfcSE_Diet   pvalue_Diet   padj_Diet   lfcSE_Feeding   pvalue_Feeding   padj_Feeding       X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  -----  -------  ------  -----------  ------------  ----------  --------------  ---------------  -------------  ------  ---------------  -------------------  -------------------
+5594    ENSMUST00000030848            493             5.09   1.137   4.48        0   0.001        0.819         0.001       0.049           0.873                0              0   60166  protein_coding   Rbp7                 ENSMUSG00000028996 
+2545    ENSMUST00000021784            143             5.62   1.219   4.62        0   0.001        0.891         0.003       0.100           0.964                0              0   85133  protein_coding   Irf4                 ENSMUSG00000021356 
+17770   ENSMUST00000089860           3209             4.53   1.001   4.52        0   0.001        0.702         0.000       0.041           0.744                0              0   77490  protein_coding   Fam13a               ENSMUSG00000037709 
+10543   ENSMUST00000051209           3366             4.13   0.997   4.14        0   0.003        0.699         0.000       0.038           0.740                0              0   20652  protein_coding   Peg3                 ENSMUSG00000002265 
+8070    ENSMUST00000039559           1533             5.33   1.046   5.09        0   0.000        0.740         0.000       0.000           0.783                0              0   28760  protein_coding   Thbs1                ENSMUSG00000040152 
+
+
+
+Table: Top Hits for Interaction between Diet and Feeding
+
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE    stat   pvalue   padj   lfcSE_Diet   pvalue_Diet   padj_Diet   lfcSE_Feeding   pvalue_Feeding   padj_Feeding        X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  ------  -------  -----  -----------  ------------  ----------  --------------  ---------------  -------------  -------  ---------------  -------------------  -------------------
+58      ENSMUST00000000342          221.9             5.67    1.02    5.55        0      0        0.722         0.000       0.007           0.762            0.000          0.007    97241  protein_coding   Ccl11                ENSMUSG00000020676 
+6301    ENSMUST00000032958          347.7             5.83    1.05    5.57        0      0        0.739         0.001       0.049           0.786            0.000          0.000    73745  protein_coding   Ucp3                 ENSMUSG00000032942 
+15682   ENSMUST00000077472           64.0             7.97    1.42    5.60        0      0        1.289         0.000       0.000           1.097            0.144          0.611   108372  protein_coding   Chst15               ENSMUSG00000030930 
+24650   ENSMUST00000109646           22.1            -6.95    1.24   -5.58        0      0        0.924         0.000       0.013           0.970            0.003          0.095    61660  protein_coding   Fam227a              ENSMUSG00000042564 
+26203   ENSMUST00000112266          144.0            -8.17    1.41   -5.81        0      0        1.044         0.689       0.943           1.097            0.937          0.985   103482  protein_coding   Phospho2             ENSMUSG00000027088 
 
 ## Effects of Feeding State
 
@@ -173,12 +242,12 @@ We identified 59 differentially expressed transcripts, out of a total of 55241 t
 ## [8] methods   base     
 ## 
 ## other attached packages:
-##  [1] gplots_2.17.0             BiocParallel_1.2.20      
-##  [3] DESeq2_1.8.1              RcppArmadillo_0.5.200.1.0
-##  [5] Rcpp_0.12.0               GenomicRanges_1.20.5     
-##  [7] GenomeInfoDb_1.4.2        IRanges_2.2.7            
-##  [9] S4Vectors_0.6.3           BiocGenerics_0.14.0      
-## [11] knitr_1.11               
+##  [1] gplots_2.17.0           BiocParallel_1.2.20    
+##  [3] DESeq2_1.8.1            RcppArmadillo_0.5.300.4
+##  [5] Rcpp_0.12.0             GenomicRanges_1.20.5   
+##  [7] GenomeInfoDb_1.4.2      IRanges_2.2.7          
+##  [9] S4Vectors_0.6.3         BiocGenerics_0.14.0    
+## [11] knitr_1.11             
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] genefilter_1.50.0    gtools_3.5.0         locfit_1.5-9.1      

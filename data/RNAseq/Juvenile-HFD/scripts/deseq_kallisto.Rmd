@@ -99,17 +99,65 @@ symm=TRUE, trace="none")
 
 The adipose tissue samples are all eWAT samples
 
-## Effects of Feeding State
+## Adipose Overall Model
 
-This model used only the adipose tissue data, and tested for changes related to the feeding state.
+This model used only the adipose tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
 
-```{r wat-feeding-kallisto}
+```{r wat-overall-kallisto}
 #subsettted the sample tables and counts tables
 sample.table.wat <- subset(sample.table, Tissue=="eWAT")
 est.counts.table.wat <- est.counts.table[,rownames(sample.table.wat)]
 sample.table.quad <- subset(sample.table, Tissue=="Quadriceps")
 est.counts.table.quad <- est.counts.table[,rownames(sample.table.quad)]
 
+dds.wat.feeding <- DESeqDataSetFromMatrix(colData = sample.table.wat,
+                                       countData = est.counts.table.wat,  
+                                       design= ~ Feeding + Diet + Diet:Feeding)
+
+dds.wat.feeding <- DESeq(dds.wat.feeding, parallel=T)
+res.wat.feeding <- results(dds.wat.feeding,
+                           parallel=T,
+                           name='FeedingFed.DietHigh.Fat.Diet')
+
+res.wat.feeding.main.diet <- results(dds.wat.feeding,
+                           parallel=T,
+                           name='Diet_High.Fat.Diet_vs_Control.Diet')
+res.wat.feeding$log2FoldChange_Diet <- res.wat.feeding.main.diet$Log2FoldChange
+res.wat.feeding$lfcSE_Diet <- res.wat.feeding.main.diet$lfcSE
+res.wat.feeding$pvalue_Diet <- res.wat.feeding.main.diet$pvalue
+res.wat.feeding$padj_Diet <- res.wat.feeding.main.diet$padj
+
+res.wat.feeding.main.feeding <- results(dds.wat.feeding,
+                           parallel=T,
+                           name='Feeding_Fed_vs_Fasted')
+res.wat.feeding$log2FoldChange_Feeding <- res.wat.feeding.main.feeding$Log2FoldChange
+res.wat.feeding$lfcSE_Feeding <- res.wat.feeding.main.feeding$lfcSE
+res.wat.feeding$pvalue_Feeding <- res.wat.feeding.main.feeding$pvalue
+res.wat.feeding$padj_Feeding <- res.wat.feeding.main.feeding$padj
+
+res.wat.feeding$ensembl_transcript_id <- as.character(lapply(strsplit(rownames(res.wat.feeding), "\\."), "[[", 1))
+
+annotated.res.wat.feeding <- merge(as.data.frame(res.wat.feeding), 
+                          annotation, 
+                          by='ensembl_transcript_id',
+                          all.x=T)
+```
+
+Using the combined model, we identified `r table(annotated.res.wat.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in WAT.  After removing those genes with an interaction, `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.
+
+```{r wat-overall-model-summary}
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
+wat_feeding_results_file <- 'DESeq Results for Effects of Combined Model on WAT - Kalllisto.csv'
+write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
+```
+
+## Effects of Feeding State
+
+This model used only the adipose tissue data, and tested for changes related to the feeding state.
+
+```{r wat-feeding-kallisto}
 dds.wat.feeding <- DESeqDataSetFromMatrix(colData = sample.table.wat,
                                        countData = est.counts.table.wat,  
                                        design= ~ Feeding)
