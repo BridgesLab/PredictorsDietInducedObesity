@@ -1,0 +1,99 @@
+
+---
+title: "Comparison of Kallisto and Tophat/HTSeq"
+author: "Dave Bridges"
+date: "September 3, 2015"
+output:
+  html_document:
+    keep_md: true
+---
+```{r global_options, include=FALSE}
+library(knitr)
+opts_chunk$set(fig.path='figures/',
+               echo=FALSE, warning=FALSE, message=FALSE,dev=c('png','pdf'))
+options(digits=3, scipen=8)
+```
+
+This script was most recently run on `r date()`.
+
+```{r data-entry}
+kallisto.file <- "TPM Table.csv"
+htseq.file <- "Normalized Counts.csv"
+
+kallisto.data <- read.csv(kallisto.file)
+htseq.data <- read.csv(htseq.file)
+
+annotation.filename <- "ENSEMBL Annotation - Transcripts.csv"
+annotation <- read.csv(annotation.filename, row.names="X")
+
+mapping.filename <- "../sample-mapping.csv"
+mapping.data <- read.csv(mapping.filename)
+```
+
+This script compares the normalzied counds in `r htseq.file` and `r kallisto.file`.
+
+```{r analysis}
+library(tidyr)
+library(dplyr)
+kallisto.data.long <- 
+  kallisto.data %>%
+  gather(sample, X) 
+colnames(kallisto.data.long) <- c('transcript','sample','expression')
+#remove decimal from transcript id
+kallisto.data.long$transcript <- sapply(strsplit(as.character(kallisto.data.long$transcript), "\\."),"[",1)
+kallisto.annotated <-
+  kallisto.data.long %>%
+  inner_join(mapping.data, by=c('sample'='Barcode')) %>%
+  inner_join(annotation, by=c('transcript'='ensembl_transcript_id'))
+
+htseq.data.long <-   
+  htseq.data %>%
+  gather(sample, X) 
+colnames(htseq.data.long) <- c('gene','sample','expression')
+#remove decimal from transcript id
+htseq.data.long$gene <- sapply(strsplit(as.character(htseq.data.long$gene), "\\."),"[",1)
+htseq.data.long$sample <- gsub("\\.", "-", htseq.data.long$sample)
+htseq.data.long$sample <- substring(htseq.data.long$sample,2)
+htseq.annotated <-
+  htseq.data.long %>%
+  inner_join(mapping.data, by=c('sample'='SampleID')) %>%
+  inner_join(annotation, by=c('gene'='ensembl_gene_id'))
+
+combined.data <- merge(htseq.annotated[1:100000,c('gene','expression')],
+                       kallisto.annotated[1:100000,c('transcript','ensembl_gene_id','expression')], 
+                       by.x='gene', by.y='ensembl_gene_id')
+```
+
+We combined the htseq and kallisto data by the annotated gene.
+
+```{r htseq-kallisto-correlation-analysis}
+with(combined.data, plot(log(expression.x+1), log(expression.y+1), col="#00000001", pch=19, las=1,
+                         xlab='HTseq Expression', 
+                         ylab="Kallisto Expression", 
+                         main="Log Expression Between Count Algorithms"))
+
+simple.cor <- with(combined.data, cor.test(log(expression.x+1), log(expression.y+1)))
+
+```
+
+The correlation between kallisto expression and htseq expression is `r simple.cor$estimate` with a R2 of `r simple.cor$estimate^2` and a p-value of `r simple.cor$p.value`.
+
+To do a more in depth analysis we constructed a linear model
+
+```{r htseq-kallist-lm-diagnostics}
+lm.simple <- lm(log(expression.x+1)~log(expression.y+1), data=combined.data)
+par(mfrow=c(2,2))
+plot(lm.simple)
+
+lm.gene <- lm(log(expression.x+1)~log(expression.y+1) + gene, data=combined.data)
+anova(lm.simple,lm.gene)
+```
+
+There did not appear to be a systematic bias for under or over representation of higher or lower transcripts the correlation betwen residuals an
+
+Session Information
+---------------------
+
+```{r session-information}
+sessionInfo()
+```

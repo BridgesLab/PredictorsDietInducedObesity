@@ -84,7 +84,7 @@ for (gene in genes.of.interest) {
   p <- p + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) 
   
   p + xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(gene) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-  ggsave(filename=paste('figures/barplots/Adipose-',gene,'-barplot.pdf',sep=""))
+  ggsave(filename=paste('figures/barplots/Adipose-',gene,' - barplot.pdf',sep=""))
 }
 
 ```
