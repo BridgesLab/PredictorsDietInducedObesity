@@ -2,12 +2,12 @@
 title: "Compare_cohorts"
 author: "Quynh Tran"
 date: "November 4, 2015"
-output: pdf_document
+output: html_document
 ---
 
 This script was most recently run on `r date()`. This script is to compare the mice body weight across different cohorts. The script also explores the relationship between initial weight, weight loss and the weights after HFD.
 
-```{r process_cohort5_6_data, message=FALSE, echo=FALSE}
+```{r process_cohort5_6_data, message=FALSE, echo=FALSE, warning=FALSE}
 previous_cohort_file <- "../data/processed/fasting_weights_file.csv"
 prev_cohort_data <- read.csv(previous_cohort_file)
 
@@ -36,7 +36,7 @@ cohort5.6 <- data.frame(animal.MouseID=sub.prev.long$Subject, Fasting_stat=sub.p
 ```
 Weight data from cohort 5 and 6 were read in from `r previous_cohort_file`.
 
-```{r process_cohort8, message=FALSE, echo=FALSE}
+```{r process_cohort8, message=FALSE, echo=FALSE, warning=FALSE}
 cohort8_file <- "../data/raw/Cohort_8_Raw_Data.csv"
 cohort9_file <- "../data/raw/Cohort_9_Raw_Data.csv"
 
@@ -80,7 +80,7 @@ cohort8_weight$Cohort <- rep("8", nrow(cohort8_weight))
 ```
 Weight data from cohort 8 and 9 were read in from `r cohort8_file` and `r cohort9_file`.
 
-```{r process_cohort9, message=FALSE, echo=FALSE}
+```{r process_cohort9, message=FALSE, echo=FALSE, warning=FALSE}
 
 cohort9_file <- "../data/raw/Cohort_9_Raw_Data.csv"
 cohort9.data <- read.csv(cohort9_file, row.names="X")
@@ -126,14 +126,14 @@ weight.stat <- ddply(combined_weight, .(Cohort, Fasting_stat), summarise, mean =
 
 ```
 
-```{r bar_graphs,  echo=FALSE, message=FALSE}
+```{r bar_graphs,  echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 ggplot(weight.stat, aes(x=Fasting_stat, y=mean, fill=Cohort)) +
     geom_bar(position=position_dodge(), stat="identity") +
     geom_errorbar(aes(ymin=mean-se, ymax=mean+se),width=.2,                    # Width of the error bars
-                  position=position_dodge(.9))+
+  position=position_dodge(.9))+
     ylab("Weight (g)")
-#ggsave("figure/Body_weight_Barplot.pdf")
+ggsave("figure/Body_weight_Barplot.pdf")
 
 #Boxplot
 ggplot(combined_weight, aes(x=Fasting_stat, y=Weight, color=Cohort, fill=Cohort)) +
@@ -146,7 +146,7 @@ ggsave("figure/Body_weight_Boxplot.pdf")
 ```
 
 #Tukey post-hoc analysis of body weight
-```{r Analysis_of_Variance, results='asis', echo=FALSE, message=FALSE}
+```{r Analysis_of_Variance, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
 library(xtable)
 anova.init.weight <- aov(Weight~Cohort ,data=combined_weight[combined_weight$Fasting_stat=="Initial_weight",])
 layout(matrix(c(1,2,3,4),2,2)) # optional layout 
@@ -177,7 +177,7 @@ print(xtable(pairwise.hfd.weight$Cohort), comment=FALSE)
 
 ```
 
-```{r histograms,  echo=FALSE, message=FALSE}
+```{r histograms,  echo=FALSE, message=FALSE, warning=FALSE}
 #histogram
 library(sm)
 par(mfrow=c(2,2))
@@ -236,18 +236,27 @@ lines(density(weight.wide$WL.pct, na.rm = T, from = min(weight.wide$WL.pct), to 
 hist(weight.wide$WG.pct, breaks = 15, freq = F, xlab = 'Weight Gain(%)',  ylab = 'Probability', main = 'Histogram of %WG with Density Plot')
 lines(density(weight.wide$WG.pct, na.rm = T, from = min(weight.wide$WG.pct), to = max(weight.wide$WG.pct)))
 
+p.WL <- shapiro.test(weight.wide$WL)
+p.WG <- shapiro.test(weight.wide$WG)
 ```
+  
+  WL and WG are not normally distributed as shown in the QQ plots, density plots and histograms. Shapiro p-values for WL and WG are `r p.WL$p.value` and `r p.WG$p.value`, respectively. Therefore, Spearman's rho or Kendall's tau correlation coefficient will be computed.
 
 Relationship between Weight Loss after fasting and Weight Gain after HFD
 ============
 ```{r, message=FALSE, echo=FALSE, warning=FALSE}
 par(mfrow=c(1,1))
 ##### Absolute weight ##########
+ggplot(weight.wide, aes(x=WL, y=WG, color=Cohort, fill=Cohort)) +
+  geom_point() + theme(legend.position="top")+
+  geom_smooth(method=lm, se=T)
+ggsave("figure/Correlation_WL_WG.pdf")
+
 cors <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(WL, WG, method="kendall"),2))
 pcorr <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(WL, WG, method="kendall")$p.value,digits=3))
 ggplot(weight.wide, aes(x=WL, y=WG, color=Cohort, fill=Cohort)) +
   geom_point() + facet_grid(Cohort~.) + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(data=cors, aes(label=paste("r=", cor, sep="")), x=5, y=25) +
+  geom_smooth(method=lm, se=T) + geom_text(data=cors, aes(label=paste("r=", cor, sep="")), x=5, y=25, size=4) +
   geom_text(data=pcorr, aes(label=paste("p-value=", p, sep="")), x=5, y=23, size=4) +
   ggtitle("Correlation between WL and WG in each cohort")
 ggsave("figure/Correlation_WL_WG_each_cohort.pdf")
@@ -256,7 +265,7 @@ cor <- round(cor(weight.wide$WL, weight.wide$WG, method="kendall"), 3)
 p <- signif(cor.test(weight.wide$WL, weight.wide$WG, method="kendall")$p.value,digits=3)
 ggplot(weight.wide, aes(x=WL, y=WG)) +
   geom_point() + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", cor, sep="")), x=5, y=25) +
+  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", cor, sep="")), x=5, y=25, size=4) +
   geom_text(aes(label=paste("p-value=", p, sep="")), x=5, y=24, size=4) +
   ggtitle("All cohort combined")
 ggsave("figure/Correlation_WL_WG_all_cohort.pdf")
@@ -266,8 +275,8 @@ corspct <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(WL.pct, WG.pct
 pcorrPct <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(WL, WG, method="kendall")$p.value,digits=3))
 ggplot(weight.wide, aes(x=WL.pct, y=WG.pct, color=Cohort, fill=Cohort)) +
   geom_point() + facet_grid(Cohort~.) + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(data=corspct, aes(label=paste("r=", cor, sep="")), x=20, y=120) +
-  geom_text(data=pcorrPct, aes(label=paste("p-value=", p, sep="")), x=20, y=113, size=5) +
+  geom_smooth(method=lm, se=T) + geom_text(data=corspct, aes(label=paste("r=", cor, sep="")), x=20, y=120, size=5) +
+  geom_text(data=pcorrPct, aes(label=paste("p-value=", p, sep="")), x=20, y=110, size=5) +
   ggtitle("Correlation between %WL and %WG in each cohort")
 ggsave("figure/Correlation_percentWL_percentWG_each_cohort.pdf")
 
@@ -280,17 +289,22 @@ ggplot(weight.wide, aes(x=WL.pct, y=WG.pct)) +
   ggtitle("All cohort combined (percentage)")
 ggsave("figure/Correlation_percentWL_percentWG_all_cohort.pdf")
 
+require(NSM3)
+ktau.ci <- kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000)
+
 ```
+  
+  There is a negative correlation between weight loss (or % weight loss) and weight gain (or %weight gain) after HFD in cohort 5 and 6 while the direction of the relationship reverse in cohort 8 and 9. Although the nominal p-value in cohort9 is statistically significant, it is not significant after Benjamini Hochberg adjustment. When combining all 4 cohorts together, there is a `r corpct` correlation between WL and WG and this correlation is statistically significant with p-value=`r pcorPct`. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the spearman correlation coefficient. The `r print(kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000))`. The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiments are needed.  
 
 
 Relationship between Initial Weight and HFD Weight
 ===============
-```{r initWeight_vs_WG, message=FALSE, echo=FALSE}
+```{r initWeight_vs_WG, message=FALSE, echo=FALSE, warning=FALSE}
 corsInit <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(Weight.Initial_weight, WG, method="spearman"),2))
 pcorrInit <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(Weight.Initial_weight, WG, method="spearman")$p.value,digits=3))
 ggplot(weight.wide, aes(x=Weight.Initial_weight, y=WG, color=Cohort, fill=Cohort)) +
   geom_point() + facet_grid(Cohort~.) + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(data=corsInit, aes(label=paste("r=", cor, sep="")), x=29, y=15) +
+  geom_smooth(method=lm, se=T) + geom_text(data=corsInit, aes(label=paste("r=", cor, sep="")), x=29, y=15, size=4) +
   geom_text(data=pcorrInit, aes(label=paste("p-value=", p, sep="")), x=29, y=13, size=5) +
   ggtitle("Correlation between Initial weight and WG in each cohort")
 ggsave("figure/Correlation_InitWeight_WG_each_cohort.pdf")
@@ -305,10 +319,11 @@ ggplot(weight.wide, aes(x=Weight.Initial_weight, y=WG)) +
 ggsave("figure/Correlation_InitWeight_WG_all_cohort.pdf")
 
 require(RVAideMemoire)
-require(NSM3)
-spearman.ci(weight.wide$Weight.Initial_weight, weight.wide$WG, nrep = 1000, conf.level = 0.95)
+spm.ci <- spearman.ci(weight.wide$Weight.Initial_weight, weight.wide$WG, nrep = 1000, conf.level = 0.95)
 kendall.ci(weight.wide$Weight.Initial_weight, weight.wide$WG, B = 1000)
 ```
+  
+  There is no correlation between initial weight and weight gain after HFD in any individual cohort. All p-values are greater than 0.05, suggesting that we cannot reject the null hypothesis that there is no correlation between init weight and weight gain. When combining all 4 cohorts together, there is a significant correlation between initial weight and weight gain after HFD. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the Spearman correlation coefficient. The 95% CI is (`r spm.ci$conf.int[[1]]`, `r spm.ci$conf.int[[2]]`). The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiment is needed.
 
 Session Information
 ---------------------
