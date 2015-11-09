@@ -206,9 +206,9 @@ ggsave("figure/Density_After_HFD.pdf")
 #Checking the normality of weight loss and weight gain
 ```{r WL_vs_WG, message=FALSE, echo=FALSE, warning=FALSE}
 weight.data <- combined_weight[, c(1:2, 5, 8)]
-weight.wide <- reshape(weight.data, 
+weight.wide <- reshape(combined_weight, 
   timevar = "Fasting_stat",
-  idvar = c( "animal.MouseID", "Cohort"),
+  idvar = c( "animal.MouseID", "Cohort", "Subject"),
   direction = "wide")
 
 weight.wide$WL <- weight.wide$Weight.Initial_weight - weight.wide$Weight.Fasted
@@ -242,9 +242,53 @@ p.WG <- shapiro.test(weight.wide$WG)
   
   WL and WG are not normally distributed as shown in the QQ plots, density plots and histograms. Shapiro p-values for WL and WG are `r p.WL$p.value` and `r p.WG$p.value`, respectively. Therefore, Spearman's rho or Kendall's tau correlation coefficient will be computed.
 
+
+```{r create_plot_function, message=FALSE, echo=FALSE, warning=FALSE}
+### create a function that draws a scatterplot between the 'xaxis' and 'yaxis' variables and show 'corr.type' correlation and the p-values ####
+corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.size, corr.type){
+  data$xaxis <- data[,xaxis]
+  data$yaxis <- data[,yaxis]
+  data$col <- data[, col]
+  corSet <- round(cor(data$xaxis, data$yaxis, method=corr.type),3)
+  p.cor <- signif(cor.test(data$xaxis, data$yaxis, method=corr.type, exact=FALSE)$p.value,digits=3)
+  data$corSet <- corSet
+  data$p.cor <- p.cor
+  #print(p.cor)
+  p <- ggplot(data, aes(x=xaxis, y=yaxis))
+  p + geom_point() + theme(legend.position="top")+
+  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", corSet, sep="")), x=font.x, y=font.y, size=font.size) +
+  geom_text(aes(label=paste("p-value=", p.cor, sep="")), x=font.x, y=font.y-2, size=font.size) +
+  xlab(xaxis) + ylab(yaxis) +
+  ggtitle(title)
+  #ggsave(filename)
+}
+
+### create a function that draws multiple scatterplots between the 'xaxis' and 'yaxis' variables and show 'corr.type' correlation and the p-values ####
+mult.corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.size, corr.type){
+  data$xaxis <- data[,xaxis]
+  data$yaxis <- data[,yaxis]
+  data$col <- data[, col]
+  #data$corr.type <- corr.type
+  #print(data$corr.type)
+  #print(dum.corr.type)
+  corSet <- ddply(data, .(col), summarise, cor=round(cor(xaxis, yaxis, method="kendall"),3))
+  #print(corSet)
+  p.cor <- ddply(data, .(col), summarise, p=signif(cor.test(xaxis, yaxis, method="kendall", exact=FALSE)$p.value,digits=3))
+  #print(p.cor)
+  p <- ggplot(data, aes(x=xaxis, y=yaxis, fill=col, color=col))
+  p + geom_point() + facet_grid(col~.)+
+      theme(legend.position="top")+
+      geom_smooth(method=lm, se=T) + geom_text(data=corSet, aes(label=paste("r=", cor, sep="")), x=font.x, y=font.y, size=font.size) +
+      geom_text(data=p.cor, aes(label=paste("p-value=", p, sep="")), x=font.x, y=font.y-5, size=font.size) +
+      xlab(xaxis) + ylab(yaxis) +
+      ggtitle(title)
+}
+
+```
+
 Relationship between Weight Loss after fasting and Weight Gain after HFD
 ============
-```{r, message=FALSE, echo=FALSE, warning=FALSE}
+```{r WLfasted_vs_WG, message=FALSE, echo=FALSE, warning=FALSE}
 par(mfrow=c(1,1))
 ##### Absolute weight ##########
 ggplot(weight.wide, aes(x=WL, y=WG, color=Cohort, fill=Cohort)) +
@@ -252,41 +296,25 @@ ggplot(weight.wide, aes(x=WL, y=WG, color=Cohort, fill=Cohort)) +
   geom_smooth(method=lm, se=T)
 ggsave("figure/Correlation_WL_WG.pdf")
 
-cors <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(WL, WG, method="kendall"),2))
-pcorr <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(WL, WG, method="kendall")$p.value,digits=3))
-ggplot(weight.wide, aes(x=WL, y=WG, color=Cohort, fill=Cohort)) +
-  geom_point() + facet_grid(Cohort~.) + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(data=cors, aes(label=paste("r=", cor, sep="")), x=5, y=25, size=4) +
-  geom_text(data=pcorr, aes(label=paste("p-value=", p, sep="")), x=5, y=23, size=4) +
-  ggtitle("Correlation between WL and WG in each cohort")
+
+mult.corrplot(weight.wide, "WL", "WG", "Cohort", "Correlation between WL and WG in each cohort", 5, 25, 4, "kendall")
 ggsave("figure/Correlation_WL_WG_each_cohort.pdf")
 
-cor <- round(cor(weight.wide$WL, weight.wide$WG, method="kendall"), 3)
-p <- signif(cor.test(weight.wide$WL, weight.wide$WG, method="kendall")$p.value,digits=3)
-ggplot(weight.wide, aes(x=WL, y=WG)) +
-  geom_point() + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", cor, sep="")), x=5, y=25, size=4) +
-  geom_text(aes(label=paste("p-value=", p, sep="")), x=5, y=24, size=4) +
-  ggtitle("All cohort combined")
+### all corhorts ###
+corrplot(weight.wide, "WL", "WG", "Cohort", "All cohort combined (absolute values)", 5, 25, 5, "kendall")
 ggsave("figure/Correlation_WL_WG_all_cohort.pdf")
 
 ########Percentage weight #########
 corspct <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(WL.pct, WG.pct, method="kendall"),2))
-pcorrPct <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(WL, WG, method="kendall")$p.value,digits=3))
-ggplot(weight.wide, aes(x=WL.pct, y=WG.pct, color=Cohort, fill=Cohort)) +
-  geom_point() + facet_grid(Cohort~.) + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(data=corspct, aes(label=paste("r=", cor, sep="")), x=20, y=120, size=5) +
-  geom_text(data=pcorrPct, aes(label=paste("p-value=", p, sep="")), x=20, y=110, size=5) +
-  ggtitle("Correlation between %WL and %WG in each cohort")
+pcorrPct <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(WL.pct, WG.pct, method="kendall")$p.value,digits=3))
+
+mult.corrplot(weight.wide, "WL.pct", "WG.pct", "Cohort", "Correlation between %WL and %WG in each cohort", 20, 120, 4, "kendall")
 ggsave("figure/Correlation_percentWL_percentWG_each_cohort.pdf")
 
+### all corhorts ###
 corpct <- round(cor(weight.wide$WL.pct, weight.wide$WG.pct, method="kendall"), 3)
-pcorPct <- signif(cor.test(weight.wide$WL, weight.wide$WG.pct, method="kendall")$p.value, digits=3)
-ggplot(weight.wide, aes(x=WL.pct, y=WG.pct)) +
-  geom_point() + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", corpct, sep="")), x=20, y=120) +
-  geom_text(aes(label=paste("p-value=", pcorPct, sep="")), x=20, y=116, size=5) +
-  ggtitle("All cohort combined (percentage)")
+pcorPct <- signif(cor.test(weight.wide$WL.pct, weight.wide$WG.pct, method="kendall")$p.value,digits=3)
+corrplot(weight.wide, "WL.pct", "WG.pct", "Cohort", "All cohort combined (percentage)", 20, 120, 5, "kendall")
 ggsave("figure/Correlation_percentWL_percentWG_all_cohort.pdf")
 
 require(NSM3)
@@ -294,28 +322,17 @@ ktau.ci <- kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000)
 
 ```
   
-  There is a negative correlation between weight loss (or % weight loss) and weight gain (or %weight gain) after HFD in cohort 5 and 6 while the direction of the relationship reverse in cohort 8 and 9. Although the nominal p-value in cohort9 is statistically significant, it is not significant after Benjamini Hochberg adjustment. When combining all 4 cohorts together, there is a `r corpct` correlation between WL and WG and this correlation is statistically significant with p-value=`r pcorPct`. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the spearman correlation coefficient. The `r print(kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000))`. The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiments are needed.  
+  There is a negative correlation between weight loss (or % weight loss) and weight gain (or %weight gain) after HFD in cohort 5 and 6 while the direction of the relationship reverse in cohort 8 and 9. Only the relationship in cohort 9 is significant after Benjamini Hochberg adjustment with p-adjust=0.01536. When combining all 4 cohorts together, there is a `r corpct` correlation between WL and WG and this correlation is statistically significant with p-value=`r pcorPct`. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the spearman correlation coefficient. The `r print(kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000))`. The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiments are needed.  
 
 
 Relationship between Initial Weight and HFD Weight
 ===============
 ```{r initWeight_vs_WG, message=FALSE, echo=FALSE, warning=FALSE}
-corsInit <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(Weight.Initial_weight, WG, method="spearman"),2))
-pcorrInit <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(Weight.Initial_weight, WG, method="spearman")$p.value,digits=3))
-ggplot(weight.wide, aes(x=Weight.Initial_weight, y=WG, color=Cohort, fill=Cohort)) +
-  geom_point() + facet_grid(Cohort~.) + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(data=corsInit, aes(label=paste("r=", cor, sep="")), x=29, y=15, size=4) +
-  geom_text(data=pcorrInit, aes(label=paste("p-value=", p, sep="")), x=29, y=13, size=5) +
-  ggtitle("Correlation between Initial weight and WG in each cohort")
+mult.corrplot(weight.wide, "Weight.Initial_weight", "WG", "Cohort", "Correlation between Initial weight and WG in each cohort", 29, 15, 4, "kendall")
 ggsave("figure/Correlation_InitWeight_WG_each_cohort.pdf")
 
-cor <- round(cor(weight.wide$Weight.Initial_weight, weight.wide$WG, method="spearman"), 3)
-pcor <- signif(cor.test(weight.wide$Weight.Initial_weight, weight.wide$WG, method="spearman")$p.value,digits=3)
-ggplot(weight.wide, aes(x=Weight.Initial_weight, y=WG)) +
-  geom_point() + theme(legend.position="top")+
-  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", cor, sep="")), x=29, y=15) +
-  geom_text(aes(label=paste("p-value=", pcor, sep="")), x=29, y=14, size=5) +
-  ggtitle("All cohort combined")
+## All cohort combined ####
+corrplot(weight.wide, "Weight.Initial_weight", "WG", "Cohort", "Initial Weight vs Weight Gain", 29, 15, 5, "spearman")
 ggsave("figure/Correlation_InitWeight_WG_all_cohort.pdf")
 
 require(RVAideMemoire)
@@ -325,6 +342,31 @@ kendall.ci(weight.wide$Weight.Initial_weight, weight.wide$WG, B = 1000)
   
   There is no correlation between initial weight and weight gain after HFD in any individual cohort. All p-values are greater than 0.05, suggesting that we cannot reject the null hypothesis that there is no correlation between init weight and weight gain. When combining all 4 cohorts together, there is a significant correlation between initial weight and weight gain after HFD. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the Spearman correlation coefficient. The 95% CI is (`r spm.ci$conf.int[[1]]`, `r spm.ci$conf.int[[2]]`). The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiment is needed.
 
+Relationship between Fat mass and HFD Weight
+===============
+```{r fatMass_vs_WG, message=FALSE, warning=FALSE, echo=FALSE}
+
+#### % Fat mass at starting ######
+sub.data <- weight.wide[weight.wide$Cohort%in%c('8', '9'),]
+corsFatInit <- ddply(sub.data, .(Cohort), summarise, cor=round(cor(Percent.Fat.Initial_weight, WG, method="spearman"),2))
+pcorrFatInit <- ddply(sub.data, .(Cohort), summarise, p=signif(cor.test(Percent.Fat.Initial_weight, WG, method="spearman")$p.value,digits=3))
+
+mult.corrplot(sub.data, "Percent.Fat.Initial_weight", "WG.pct", "Cohort", "Correlation between %Fat Mass initial and % WG in each cohort", 13, 100, 4, "kendall")
+ggsave("figure/Correlation_PercentFatMassInit_PercentWG_each_cohort.pdf")
+
+### Percent Fat Mass after fasting######
+
+mult.corrplot(sub.data, "Percent.Fat.Fasted", "WG.pct", "Cohort", "Correlation between %Fat Mass fasted and WG in each cohort", 9, 100, 4, "kendall")
+ggsave("figure/Correlation_PercentFatMassFasted_PercentWG_each_cohort.pdf")
+
+####3 Combined cohort 8 and 9 ######
+corrplot(sub.data, "Percent.Fat.Fasted", "WG.pct", "Cohort", "% Fat Mass Fasted vs Weight Gain", 9, 100, 5, "spearman")
+ggsave("figure/Correlation_PercentFatFasted_PercentWG_cohort8_9.pdf")
+
+```
+
+  There is no correlation between percent fat mass after fasting and the absolute weight gain, r= and p-value=.
+  
 Session Information
 ---------------------
 ```{r sessionInfo, echo=F}
