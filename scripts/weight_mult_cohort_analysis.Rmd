@@ -36,7 +36,7 @@ cohort5.6 <- data.frame(animal.MouseID=sub.prev.long$Subject, Fasting_stat=sub.p
 ```
 Weight data from cohort 5 and 6 were read in from `r previous_cohort_file`.
 
-```{r process_cohort8, message=FALSE, echo=FALSE, warning=FALSE}
+```{r process_cohort7, message=FALSE, echo=FALSE, warning=FALSE}
 cohort8_file <- "../data/raw/Cohort_8_Raw_Data.csv"
 cohort9_file <- "../data/raw/Cohort_9_Raw_Data.csv"
 
@@ -74,13 +74,13 @@ cohort8_weight$Subject <- as.factor(cohort8_weight$animal.MouseID)
 cohort8_weight$Fasting_stat <- as.factor(cohort8_weight$Fasting_stat)
 #set Pre_fasting as the reference level
 cohort8_weight$Fasting_stat <- relevel(as.factor(cohort8_weight$Fasting_stat), ref='Pre_fasted')
-cohort8_weight$Cohort <- rep("8", nrow(cohort8_weight))
+cohort8_weight$Cohort <- rep("7", nrow(cohort8_weight))
 
 
 ```
 Weight data from cohort 8 and 9 were read in from `r cohort8_file` and `r cohort9_file`.
 
-```{r process_cohort9, message=FALSE, echo=FALSE, warning=FALSE}
+```{r process_cohort8, message=FALSE, echo=FALSE, warning=FALSE}
 
 cohort9_file <- "../data/raw/Cohort_9_Raw_Data.csv"
 cohort9.data <- read.csv(cohort9_file, row.names="X")
@@ -111,9 +111,9 @@ cohort9_weight$Subject <- as.factor(cohort9_weight$animal.MouseID)
 cohort9_weight$Fasting_stat <- as.factor(cohort9_weight$Fasting_stat)
 #set Pre_fasting as the reference level
 cohort9_weight$Fasting_stat <- relevel(as.factor(cohort9_weight$Fasting_stat), ref='Pre_fasted')
-cohort9_weight$Cohort <- rep("9", nrow(cohort9_weight))
+cohort9_weight$Cohort <- rep("8", nrow(cohort9_weight))
 
-##### combine cohort 8 and 9 data #####
+##### combine cohort 7 and 8 data #####
 cohort8_9 <- rbind(cohort8_weight, cohort9_weight)
 cohort8.9 <- cohort8_9[,c(1:2, 6:11)]
 #### combine cohort 5,6,8, and 9####
@@ -257,13 +257,13 @@ corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.size,
   p <- ggplot(data, aes(x=xaxis, y=yaxis))
   p + geom_point() + theme(legend.position="top")+
   geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", corSet, sep="")), x=font.x, y=font.y, size=font.size) +
-  geom_text(aes(label=paste("p-value=", p.cor, sep="")), x=font.x, y=font.y-2, size=font.size) +
+  geom_text(aes(label=paste("p-value=", p.cor, sep="")), x=font.x, y=font.y-3, size=font.size) +
   xlab(xaxis) + ylab(yaxis) +
   ggtitle(title)
   #ggsave(filename)
 }
 
-### create a function that draws multiple scatterplots between the 'xaxis' and 'yaxis' variables and show 'corr.type' correlation and the p-values ####
+### create a function that draws multiple scatterplots between the 'xaxis' and 'yaxis' variables and show Kendall's correlation and the p-values ####
 mult.corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.size, corr.type){
   data$xaxis <- data[,xaxis]
   data$yaxis <- data[,yaxis]
@@ -279,7 +279,7 @@ mult.corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.
   p + geom_point() + facet_grid(col~.)+
       theme(legend.position="top")+
       geom_smooth(method=lm, se=T) + geom_text(data=corSet, aes(label=paste("r=", cor, sep="")), x=font.x, y=font.y, size=font.size) +
-      geom_text(data=p.cor, aes(label=paste("p-value=", p, sep="")), x=font.x, y=font.y-5, size=font.size) +
+      geom_text(data=p.cor, aes(label=paste("p-value=", p, sep="")), x=font.x, y=font.y-10, size=font.size) +
       xlab(xaxis) + ylab(yaxis) +
       ggtitle(title)
 }
@@ -347,9 +347,9 @@ Relationship between Fat mass and HFD Weight
 ```{r fatMass_vs_WG, message=FALSE, warning=FALSE, echo=FALSE}
 
 #### % Fat mass at starting ######
-sub.data <- weight.wide[weight.wide$Cohort%in%c('8', '9'),]
+sub.data <- weight.wide[weight.wide$Cohort%in%c('7', '8'),]
 corsFatInit <- ddply(sub.data, .(Cohort), summarise, cor=round(cor(Percent.Fat.Initial_weight, WG, method="spearman"),2))
-pcorrFatInit <- ddply(sub.data, .(Cohort), summarise, p=signif(cor.test(Percent.Fat.Initial_weight, WG, method="spearman")$p.value,digits=3))
+pcorrFatInit <- ddply(sub.data, .(Cohort), summarise, p=signif(cor.test(Percent.Fat.Initial_weight, WG, method="spearman", exact=FALSE)$p.value,digits=3))
 
 mult.corrplot(sub.data, "Percent.Fat.Initial_weight", "WG.pct", "Cohort", "Correlation between %Fat Mass initial and % WG in each cohort", 13, 100, 4, "kendall")
 ggsave("figure/Correlation_PercentFatMassInit_PercentWG_each_cohort.pdf")
@@ -359,13 +359,15 @@ ggsave("figure/Correlation_PercentFatMassInit_PercentWG_each_cohort.pdf")
 mult.corrplot(sub.data, "Percent.Fat.Fasted", "WG.pct", "Cohort", "Correlation between %Fat Mass fasted and WG in each cohort", 9, 100, 4, "kendall")
 ggsave("figure/Correlation_PercentFatMassFasted_PercentWG_each_cohort.pdf")
 
-####3 Combined cohort 8 and 9 ######
+####3 Combined cohort 7 and 8 ######
+corr <- round(cor(sub.data$Percent.Fat.Fasted, sub.data$WG.pct, method="spearman"),3)
+pcorr <- signif(cor.test(sub.data$Percent.Fat.Fasted, sub.data$WG.pct, method="spearman", exact=FALSE)$p.value,digits=3)
 corrplot(sub.data, "Percent.Fat.Fasted", "WG.pct", "Cohort", "% Fat Mass Fasted vs Weight Gain", 9, 100, 5, "spearman")
 ggsave("figure/Correlation_PercentFatFasted_PercentWG_cohort8_9.pdf")
 
 ```
 
-  There is no correlation between percent fat mass after fasting and the absolute weight gain, r= and p-value=.
+  There is no correlation between percent fat mass after fasting and the absolute weight gain, r=`r corr` and p-value=`r pcorr`.
   
 Session Information
 ---------------------
