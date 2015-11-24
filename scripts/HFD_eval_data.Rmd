@@ -21,7 +21,7 @@ output: html_document
 # useful.columns <- intersect(colnames(cohort9.data.1), colnames(cohort9.data.2))
 # cohort9.data <- rbind(cohort9.data.1[,useful.columns],
 #               cohort9.data.2[,useful.columns])
- raw_output_file <- "../data/raw/Cohort 9 Raw Data.csv"
+ raw_output_file <- "../data/raw/Cohort_8_Raw_Data.csv"
 # write.csv(cohort9.data, raw_output_file)
  cohort9.data <- read.csv(raw_output_file, row.names="X")
 
@@ -169,7 +169,7 @@ dark.cycles <- data.frame(
   Day6 = c(Start=first.dark.cycle+120,End=first.dark.cycle+132),
   Day7 = c(Start=first.dark.cycle+144,End=first.dark.cycle+156)
 )
-write.csv(cohort9_clams, file="../data/processed/cohort9_Oxymax.csv")
+write.csv(cohort9_clams, file="../data/processed/cohort8_Oxymax.csv")
 ```
 
 # VO2 Data
@@ -187,7 +187,7 @@ annotated_clams_data <- subset(annotated_clams_data, Event.Log=='')
 annotated_clams_data <- subset(annotated_clams_data, Volume.CO2>100)
 annotated_clams_data <- subset(annotated_clams_data, Volume.O2>100)
 
-write.csv(cohort9_clams, file="../data/processed/clams_testing_data.csv")
+write.csv(annotated_clams_data, file="../data/processed/clams_weight_testing_data.csv")
 
 ```
 
@@ -209,7 +209,7 @@ cohort9_weight_wide$Percent.FL <- as.numeric((cohort9_weight_wide$Fat.Pre_fastin
 cohort9_weight_wide$Percent.FG <- as.numeric((cohort9_weight_wide$Fat.After_HFD - cohort9_weight_wide$Fat.Pre_fasting)/cohort9_weight_wide$Fat.Pre_fasting*100)
 
 #save the body composition data
-write.csv(cohort9_weight, file="../data/processed/body_compostition_testing_data.csv")
+write.csv(cohort9_weight, file="../data/processed/body_composition_testing_data.csv")
 
 panel.cor <- function(x, y, digits=2, cex.cor)
 {
@@ -259,6 +259,8 @@ test_data$VO2.LBM <- ifelse(test_data$Interval<stop_fasting_interval,test_data$V
 
 test_data$Fast <- ifelse(test_data$Interval<start_fasting_interval,"Pre_fasting",ifelse(test_data$Interval>=stop_fasting_interval, "After_fasting", "During_fasting"))
 
+write.csv(test_data, file="../data/processed/Combined_BC_clams_testing_data.csv")
+
 variables <- c("Percent.WL", "Percent.WG", "Percent.LL", "Percent.LG", "Percent.FL", 
                "Percent.FG")
 
@@ -296,11 +298,11 @@ cohort9_m_data<-as.data.frame(cohort9_m_data)
 cohort9_m_data <- cohort9_m_data[!cohort9_m_data$Fasting_stat=="During_fasting",]
 cohort9_m_data[is.na(cohort9_m_data$Light.Dark), 2] <- "Light"
 
-write.csv(cohort9_m_data, file='../data/processed/cohort9_longitudinal_data_for_modelling.csv')
+write.csv(cohort9_m_data, file='../data/processed/cohort8_longitudinal_data_for_modelling.csv')
 
 
 ####prepare data for random forest
-cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG', , 'Percent.WL', "Percent.FL",'Interval')
+cols <- c('Subject','Light.Dark', 'Fast', 'Percent.LL', 'VO2.LBM', 'RER',  'SumXYAmb', 'Percent.WG','Percent.WL', "Percent.FL",'Interval')
 
 test_data$Fast <- as.factor(test_data$Fast)
 cohort9_model_dat1<-test_data[,cols]
@@ -318,7 +320,7 @@ cohort9_m_data<-
     Percent.WG=mean(Percent.WG))
 cohort9_model_data<-as.data.frame(cohort9_m_data)
 
-write.csv(cohort9_model_data, file="../data/processed/cohort9_testing_data_for_modelling.csv")
+write.csv(cohort9_model_data, file="../data/processed/cohort8_testing_data_for_modelling.csv")
 
 cohort9_model_data_dark <- cohort9_model_data[cohort9_model_data$Light.Dark=="Dark",]
 cohort9_model_data_light <- cohort9_model_data[cohort9_model_data$Light.Dark=="Light",]
