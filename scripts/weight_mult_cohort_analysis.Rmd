@@ -2,7 +2,7 @@
 title: "Compare_cohorts"
 author: "Quynh Tran"
 date: "November 4, 2015"
-output: html_document
+output: pdf_document
 ---
 
 This script was most recently run on `r date()`. This script is to compare the mice body weight across different cohorts. The script also explores the relationship between initial weight, weight loss and the weights after HFD.
@@ -23,10 +23,10 @@ prev.long <- reshape(prev.data,
   times = c("Early.Fed", "Early.Fasted", "Late.Fed", "Late.Fasted"), 
   new.row.names = 1:1000,
   direction = "long")
-prev.long$Fasting_stat <- ifelse(prev.long$Fasting_stat=="Early.Fed", "Initial_weight", ifelse(prev.long$Fasting_stat=="Early.Fasted", "Fasted", ifelse(prev.long$Fasting_stat=="Late.Fed", "After_HFD", prev.long$Fasting_stat)))
+prev.long$Fasting_stat <- ifelse(prev.long$Fasting_stat=="Early.Fed", "Pre_fasted", ifelse(prev.long$Fasting_stat=="Early.Fasted", "Fasted", ifelse(prev.long$Fasting_stat=="Late.Fed", "After_HFD", prev.long$Fasting_stat)))
 
 
-sub.prev.long <- prev.long[prev.long$Fasting_stat%in% c("Initial_weight", "Fasted", "After_HFD"),]
+sub.prev.long <- prev.long[prev.long$Fasting_stat%in% c("Pre_fasted", "Fasted", "After_HFD"),]
 sub.prev.long <- sub.prev.long[!is.na(sub.prev.long$X),]
 
 #create a data set for cohort 5 and 6 that has the same structure as cohort 8 and 9
@@ -37,11 +37,11 @@ cohort5.6 <- data.frame(animal.MouseID=sub.prev.long$Subject, Fasting_stat=sub.p
 Weight data from cohort 5 and 6 were read in from `r previous_cohort_file`.
 
 ```{r process_cohort7, message=FALSE, echo=FALSE, warning=FALSE}
+cohort7_file <- "../data/raw/Cohort_7_Raw_Data.csv"
 cohort8_file <- "../data/raw/Cohort_8_Raw_Data.csv"
-cohort9_file <- "../data/raw/Cohort_9_Raw_Data.csv"
 
+cohort7.data <- read.csv(cohort7_file, row.names="X")
 cohort8.data <- read.csv(cohort8_file, row.names="X")
-cohort9.data <- read.csv(cohort9_file, row.names="X")
 
 starting_date <- '2014-10-17'
 date_after_fasting <- '2014-10-21'
@@ -49,20 +49,57 @@ date_before_fasting <- '2014-10-20'
 date_12weeks_MRI <- '2015-01-16'
 
 
-date_of_interest <- c('2014-10-17', '2014-10-21', '2014-10-20', '2015-01-16')
+date_of_interest <- c('2014-10-21', '2014-10-20', '2015-01-16')
 
-sub_cohort8.data <- cohort8.data[cohort8.data$experiment.date %in% date_of_interest,]
+sub_cohort7.data <- cohort7.data[cohort7.data$experiment.date %in% date_of_interest,]
 #Rename the fasting stage based on the date
-sub_cohort8.data$Fasting_stat <- ifelse(sub_cohort8.data$experiment.date=="2014-10-20", "Pre_fasted",ifelse(sub_cohort8.data$experiment.date=="2014-10-21","Fasted",ifelse(sub_cohort8.data$experiment.date=="2014-10-17", "Initial_weight", "After_HFD")))
-sub_cohort8.data$animal.MouseID <- as.factor(sub_cohort8.data$animal.MouseID)
+sub_cohort7.data$Fasting_stat <- ifelse(sub_cohort7.data$experiment.date=="2014-10-20", "Pre_fasted",ifelse(sub_cohort7.data$experiment.date=="2014-10-21","Fasted","After_HFD"))
+sub_cohort7.data$animal.MouseID <- as.factor(sub_cohort7.data$animal.MouseID)
 
 #import body composition data
 library(reshape2)
 library(plyr)
 #there should be Lean Mass for this record, but some how it was labeled "Total Fat Mass"
-sub_cohort8.data$assay.assay[which(sub_cohort8.data$assay.assay=="Total Fat Mass" & sub_cohort8.data$values=="22200")] <- "Lean Mass"
+sub_cohort7.data$assay.assay[which(sub_cohort7.data$assay.assay=="Total Fat Mass" & sub_cohort7.data$values=="22200")] <- "Lean Mass"
 
+cohort7_weight <-dcast(sub_cohort7.data, animal.MouseID+Fasting_stat~assay.assay, value.var='values')
+
+cohort7_weight$Lean <- as.numeric(cohort7_weight$'Lean Mass')/1000
+cohort7_weight$Fat <- as.numeric(cohort7_weight$'Total Fat Mass')/1000
+cohort7_weight$Weight <- as.numeric(cohort7_weight$'Body Weight')/1000
+#calculate percent body fat
+cohort7_weight$Percent.Fat <- cohort7_weight$Fat/cohort7_weight$Weight*100
+#make animal id a factor
+cohort7_weight$Subject <- as.factor(cohort7_weight$animal.MouseID)
+cohort7_weight$Fasting_stat <- as.factor(cohort7_weight$Fasting_stat)
+#set Pre_fasting as the reference level
+cohort7_weight$Fasting_stat <- relevel(as.factor(cohort7_weight$Fasting_stat), ref='Pre_fasted')
+cohort7_weight$Cohort <- rep("7", nrow(cohort7_weight))
+
+
+```
+Weight data from cohort 7 and 8 were read in from `r cohort7_file` and `r cohort8_file`.
+
+```{r process_cohort8, message=FALSE, echo=FALSE, warning=FALSE}
+
+cohort8_file <- "../data/raw/Cohort_8_Raw_Data.csv"
+cohort8.data <- read.csv(cohort8_file, row.names="X")
+
+starting_date <- '2014-11-26'
+date_before_fasting <- '2014-12-01'
+date_after_fasting <- '2014-12-02'
+date_12weeks_MRI <- '2015-02-24'
+
+date_of_interest <- c('2014-12-01', '2014-12-02', '2015-02-24')
+
+sub_cohort8.data <- cohort8.data[cohort8.data$experiment.date %in% date_of_interest,]
+#Rename the fasting stage based on the date
+sub_cohort8.data$Fasting_stat <- ifelse(sub_cohort8.data$experiment.date=="2014-12-01", "Pre_fasted",ifelse(sub_cohort8.data$experiment.date=="2014-12-02","Fasted", "After_HFD"))
+sub_cohort8.data$animal.MouseID <- as.factor(sub_cohort8.data$animal.MouseID)
+
+#import body composition data
 cohort8_weight <-dcast(sub_cohort8.data, animal.MouseID+Fasting_stat~assay.assay, value.var='values')
+cohort8_weight <- cohort8_weight[ , -which(colnames(cohort8_weight)=="Grip Strength (4 Paw)")]
 
 cohort8_weight$Lean <- as.numeric(cohort8_weight$'Lean Mass')/1000
 cohort8_weight$Fat <- as.numeric(cohort8_weight$'Total Fat Mass')/1000
@@ -74,51 +111,15 @@ cohort8_weight$Subject <- as.factor(cohort8_weight$animal.MouseID)
 cohort8_weight$Fasting_stat <- as.factor(cohort8_weight$Fasting_stat)
 #set Pre_fasting as the reference level
 cohort8_weight$Fasting_stat <- relevel(as.factor(cohort8_weight$Fasting_stat), ref='Pre_fasted')
-cohort8_weight$Cohort <- rep("7", nrow(cohort8_weight))
-
-
-```
-Weight data from cohort 8 and 9 were read in from `r cohort8_file` and `r cohort9_file`.
-
-```{r process_cohort8, message=FALSE, echo=FALSE, warning=FALSE}
-
-cohort9_file <- "../data/raw/Cohort_9_Raw_Data.csv"
-cohort9.data <- read.csv(cohort9_file, row.names="X")
-
-starting_date <- '2014-11-26'
-date_before_fasting <- '2014-12-01'
-date_after_fasting <- '2014-12-02'
-date_12weeks_MRI <- '2015-02-24'
-
-date_of_interest <- c('2014-11-26', '2014-12-01', '2014-12-02', '2015-02-24')
-
-sub_cohort9.data <- cohort9.data[cohort9.data$experiment.date %in% date_of_interest,]
-#Rename the fasting stage based on the date
-sub_cohort9.data$Fasting_stat <- ifelse(sub_cohort9.data$experiment.date=="2014-12-01", "Pre_fasted",ifelse(sub_cohort9.data$experiment.date=="2014-12-02","Fasted",ifelse(sub_cohort9.data$experiment.date=="2014-11-26", "Initial_weight", "After_HFD")))
-sub_cohort9.data$animal.MouseID <- as.factor(sub_cohort9.data$animal.MouseID)
-
-#import body composition data
-cohort9_weight <-dcast(sub_cohort9.data, animal.MouseID+Fasting_stat~assay.assay, value.var='values')
-cohort9_weight <- cohort9_weight[ , -which(colnames(cohort9_weight)=="Grip Strength (4 Paw)")]
-
-cohort9_weight$Lean <- as.numeric(cohort9_weight$'Lean Mass')/1000
-cohort9_weight$Fat <- as.numeric(cohort9_weight$'Total Fat Mass')/1000
-cohort9_weight$Weight <- as.numeric(cohort9_weight$'Body Weight')/1000
-#calculate percent body fat
-cohort9_weight$Percent.Fat <- cohort9_weight$Fat/cohort9_weight$Weight*100
-#make animal id a factor
-cohort9_weight$Subject <- as.factor(cohort9_weight$animal.MouseID)
-cohort9_weight$Fasting_stat <- as.factor(cohort9_weight$Fasting_stat)
-#set Pre_fasting as the reference level
-cohort9_weight$Fasting_stat <- relevel(as.factor(cohort9_weight$Fasting_stat), ref='Pre_fasted')
-cohort9_weight$Cohort <- rep("8", nrow(cohort9_weight))
+cohort8_weight$Cohort <- rep("8", nrow(cohort8_weight))
 
 ##### combine cohort 7 and 8 data #####
-cohort8_9 <- rbind(cohort8_weight, cohort9_weight)
-cohort8.9 <- cohort8_9[,c(1:2, 6:11)]
+cohort7_8 <- rbind(cohort7_weight, cohort8_weight)
+cohort7.8 <- cohort7_8[,c(1:2, 6:11)]
+
 #### combine cohort 5,6,8, and 9####
-combined_weight <- rbind(cohort5.6, cohort8.9)
-combined_weight$Fasting_stat <- factor(combined_weight$Fasting_stat, levels=c("Initial_weight", "Pre_fasted", "Fasted", "After_HFD"))
+combined_weight <- rbind(cohort5.6, cohort7.8)
+combined_weight$Fasting_stat <- factor(combined_weight$Fasting_stat, levels=c("Pre_fasted", "Fasted", "After_HFD"))
 combined_weight$Cohort <- factor(combined_weight$Cohort)
 
 se <- function (x) sd(x, na.rm=T)/sqrt(length(x))
@@ -148,13 +149,13 @@ ggsave("figure/Body_weight_Boxplot.pdf")
 #Tukey post-hoc analysis of body weight
 ```{r Analysis_of_Variance, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
 library(xtable)
-anova.init.weight <- aov(Weight~Cohort ,data=combined_weight[combined_weight$Fasting_stat=="Initial_weight",])
+anova.init.weight <- aov(Weight~Cohort ,data=combined_weight[combined_weight$Fasting_stat=="Pre_fasted",])
 layout(matrix(c(1,2,3,4),2,2)) # optional layout 
 plot(anova.init.weight) # diagnostic plots
 #summary(anova.init.weight)
 pairwise.init.weight <- TukeyHSD(anova.init.weight)
 
-print("Tukey's post-hoc pairwise comparisons of Ininital weight", comment=FALSE)
+print("Tukey's post-hoc pairwise comparisons of Pre_fasted weight", comment=FALSE)
 print(xtable(pairwise.init.weight$Cohort), comment=FALSE)
 
 anova.fasted.weight <- aov(Weight~Cohort ,data=combined_weight[combined_weight$Fasting_stat=="Fasted",])
@@ -181,9 +182,9 @@ print(xtable(pairwise.hfd.weight$Cohort), comment=FALSE)
 #histogram
 library(sm)
 par(mfrow=c(2,2))
-sm.density.compare(combined_weight$Weight[combined_weight$Fasting_stat=="Initial_weight"], combined_weight$Cohort[combined_weight$Fasting_stat=="Initial_weight"], xlab="Initial Body weight")
+sm.density.compare(combined_weight$Weight[combined_weight$Fasting_stat=="Pre_fasted"], combined_weight$Cohort[combined_weight$Fasting_stat=="Pre_fasted"], xlab="Pre-fasted weight")
 legend("topright", levels(combined_weight$Cohort), fill=2+(0:nlevels(combined_weight$Cohort)))
-ggsave("figure/Density_Initial_Weight.pdf")
+ggsave("figure/Density_Pre_fasted.pdf")
 
 sm.density.compare(combined_weight$Weight[combined_weight$Fasting_stat=="Fasted"], combined_weight$Cohort[combined_weight$Fasting_stat=="Fasted"], xlab="Fasted Body weight")
 legend("topright", levels(combined_weight$Cohort), fill=2+(0:nlevels(combined_weight$Cohort)))
@@ -211,11 +212,14 @@ weight.wide <- reshape(combined_weight,
   idvar = c( "animal.MouseID", "Cohort", "Subject"),
   direction = "wide")
 
-weight.wide$WL <- weight.wide$Weight.Initial_weight - weight.wide$Weight.Fasted
+weight.wide$WL <- weight.wide$Weight.Pre_fasted - weight.wide$Weight.Fasted
 weight.wide$WG <- weight.wide$Weight.After_HFD - weight.wide$Weight.Fasted
 
-weight.wide$WL.pct <- (weight.wide$Weight.Initial_weight - weight.wide$Weight.Fasted)*100/weight.wide$Weight.Initial_weight
+weight.wide$WL.pct <- (weight.wide$Weight.Pre_fasted - weight.wide$Weight.Fasted)*100/weight.wide$Weight.Pre_fasted
 weight.wide$WG.pct <- (weight.wide$Weight.After_HFD - weight.wide$Weight.Fasted)*100/weight.wide$Weight.Fasted
+
+#only select those with WL.pct >=0
+weight.wide <- weight.wide[weight.wide$WL.pct >=0,]
 
 par(mfrow=c(2,2))
 qqnorm(weight.wide$WL, main="Absolute WL") 
@@ -307,24 +311,24 @@ ggplot(weight.wide, aes(x=WL, y=WG, color=Cohort, fill=Cohort)) +
 ggsave("figure/Correlation_WL_WG.pdf")
 
 
-mult.corrplot(weight.wide, "WL", "WG", "Cohort", "Correlation between WL and WG in each cohort", 5, 25, 4, "kendall")
+mult.corrplot(weight.wide, "WL", "WG", "Cohort", "Correlation between WL and WG in each cohort",3, 25, 4, "kendall")
 ggsave("figure/Correlation_WL_WG_each_cohort.pdf")
 
 ### all corhorts ###
-corrplot(weight.wide, "WL", "WG", "Cohort", "All cohort combined (absolute values)", 5, 25, 5, "kendall")
+corrplot(weight.wide, "WL", "WG", "Cohort", "All cohort combined (absolute values)", 3, 25, 5, "kendall")
 ggsave("figure/Correlation_WL_WG_all_cohort.pdf")
 
 ########Percentage weight #########
 corspct <- ddply(weight.wide, .(Cohort), summarise, cor=round(cor(WL.pct, WG.pct, method="kendall"),2))
 pcorrPct <- ddply(weight.wide, .(Cohort), summarise, p=signif(cor.test(WL.pct, WG.pct, method="kendall")$p.value,digits=3))
 
-mult.corrplot(weight.wide, "WL.pct", "WG.pct", "Cohort", "Correlation between %WL and %WG in each cohort", 20, 120, 4, "kendall")
+mult.corrplot(weight.wide, "WL.pct", "WG.pct", "Cohort", "Correlation between %WL and %WG in each cohort", 2.5, 100, 4, "kendall")
 ggsave("figure/Correlation_percentWL_percentWG_each_cohort.pdf")
 
 ### all corhorts ###
 corpct <- round(cor(weight.wide$WL.pct, weight.wide$WG.pct, method="kendall"), 3)
 pcorPct <- signif(cor.test(weight.wide$WL.pct, weight.wide$WG.pct, method="kendall")$p.value,digits=3)
-corrplot(weight.wide, "WL.pct", "WG.pct", "Cohort", "All cohort combined (percentage)", 20, 120, 5, "kendall")
+corrplot(weight.wide, "WL.pct", "WG.pct", "Cohort", "All cohort combined (percentage)", 2.5, 120, 5, "kendall")
 ggsave("figure/Correlation_percentWL_percentWG_all_cohort.pdf")
 
 require(NSM3)
@@ -334,34 +338,16 @@ ktau.ci <- kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000)
   
   There is a negative correlation between weight loss (or % weight loss) and weight gain (or %weight gain) after HFD in cohort 5 and 6 while the direction of the relationship reverse in cohort 8 and 9. Only the relationship in cohort 9 is significant after Benjamini Hochberg adjustment with p-adjust=0.01536. When combining all 4 cohorts together, there is a `r corpct` correlation between WL and WG and this correlation is statistically significant with p-value=`r pcorPct`. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the spearman correlation coefficient. The `r print(kendall.ci(weight.wide$WL, weight.wide$WG, B = 1000))`. The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiments are needed.  
 
-
-Relationship between Initial Weight and HFD Weight
-===============
-```{r initWeight_vs_WG, message=FALSE, echo=FALSE, warning=FALSE}
-mult.corrplot(weight.wide, "Weight.Initial_weight", "WG", "Cohort", "Correlation between Initial weight and WG in each cohort", 29, 15, 4, "kendall")
-ggsave("figure/Correlation_InitWeight_WG_each_cohort.pdf")
-
-## All cohort combined ####
-corrplot(weight.wide, "Weight.Initial_weight", "WG", "Cohort", "Initial Weight vs Weight Gain", 29, 15, 5, "spearman")
-ggsave("figure/Correlation_InitWeight_WG_all_cohort.pdf")
-
-require(RVAideMemoire)
-spm.ci <- spearman.ci(weight.wide$Weight.Initial_weight, weight.wide$WG, nrep = 1000, conf.level = 0.95)
-kendall.ci(weight.wide$Weight.Initial_weight, weight.wide$WG, B = 1000)
-```
-  
-  There is no correlation between initial weight and weight gain after HFD in any individual cohort. All p-values are greater than 0.05, suggesting that we cannot reject the null hypothesis that there is no correlation between init weight and weight gain. When combining all 4 cohorts together, there is a significant correlation between initial weight and weight gain after HFD. This is likely due to the increase in sample size from about 20 mice in each cohort to about 100 mice in all. A more reliable information to look at is the 95% CI for the Spearman correlation coefficient. The 95% CI is (`r spm.ci$conf.int[[1]]`, `r spm.ci$conf.int[[2]]`). The range of this CI is wide, indicating that we don't have much knowledge about the effect and more information or more murine experiment is needed.
-
 Relationship between Fat mass and HFD Weight
 ===============
 ```{r fatMass_vs_WG, message=FALSE, warning=FALSE, echo=FALSE}
 
 #### % Fat mass at starting ######
 sub.data <- weight.wide[weight.wide$Cohort%in%c('7', '8'),]
-corsFatInit <- ddply(sub.data, .(Cohort), summarise, cor=round(cor(Percent.Fat.Initial_weight, WG, method="spearman"),2))
-pcorrFatInit <- ddply(sub.data, .(Cohort), summarise, p=signif(cor.test(Percent.Fat.Initial_weight, WG, method="spearman", exact=FALSE)$p.value,digits=3))
+corsFatInit <- ddply(sub.data, .(Cohort), summarise, cor=round(cor(Percent.Fat.Pre_fasted, WG, method="spearman"),2))
+pcorrFatInit <- ddply(sub.data, .(Cohort), summarise, p=signif(cor.test(Percent.Fat.Pre_fasted, WG, method="spearman", exact=FALSE)$p.value,digits=3))
 
-mult.corrplot(sub.data, "Percent.Fat.Initial_weight", "WG.pct", "Cohort", "Correlation between %Fat Mass initial and % WG in each cohort", 13, 100, 4, "kendall")
+mult.corrplot(sub.data, "Percent.Fat.Pre_fasted", "WG.pct", "Cohort", "Correlation between %Fat Mass initial and % WG in each cohort", 10, 100, 4, "kendall")
 ggsave("figure/Correlation_PercentFatMassInit_PercentWG_each_cohort.pdf")
 
 ### Percent Fat Mass after fasting######
@@ -373,7 +359,7 @@ ggsave("figure/Correlation_PercentFatMassFasted_PercentWG_each_cohort.pdf")
 corr <- round(cor(sub.data$Percent.Fat.Fasted, sub.data$WG.pct, method="spearman"),3)
 pcorr <- signif(cor.test(sub.data$Percent.Fat.Fasted, sub.data$WG.pct, method="spearman", exact=FALSE)$p.value,digits=3)
 corrplot(sub.data, "Percent.Fat.Fasted", "WG.pct", "Cohort", "% Fat Mass Fasted vs Weight Gain", 9, 100, 5, "spearman")
-ggsave("figure/Correlation_PercentFatFasted_PercentWG_cohort8_9.pdf")
+ggsave("figure/Correlation_PercentFatFasted_PercentWG_cohort7_8.pdf")
 
 ```
 
