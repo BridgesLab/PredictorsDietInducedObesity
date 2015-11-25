@@ -184,15 +184,14 @@ library(sm)
 par(mfrow=c(2,2))
 sm.density.compare(combined_weight$Weight[combined_weight$Fasting_stat=="Pre_fasted"], combined_weight$Cohort[combined_weight$Fasting_stat=="Pre_fasted"], xlab="Pre-fasted weight")
 legend("topright", levels(combined_weight$Cohort), fill=2+(0:nlevels(combined_weight$Cohort)))
-ggsave("figure/Density_Pre_fasted.pdf")
 
 sm.density.compare(combined_weight$Weight[combined_weight$Fasting_stat=="Fasted"], combined_weight$Cohort[combined_weight$Fasting_stat=="Fasted"], xlab="Fasted Body weight")
 legend("topright", levels(combined_weight$Cohort), fill=2+(0:nlevels(combined_weight$Cohort)))
-ggsave("figure/Density_Fasted.pdf")
 
 sm.density.compare(combined_weight$Weight[combined_weight$Fasting_stat=="After_HFD"], combined_weight$Cohort[combined_weight$Fasting_stat=="After_HFD"], xlab="Body weight after HFD")
 legend("topright", levels(combined_weight$Cohort), fill=2+(0:nlevels(combined_weight$Cohort)))
-ggsave("figure/Density_After_HFD.pdf")
+dev.copy(pdf,"figure/Density_Plots.pdf")
+dev.off()
 
 
 #ggplot(combined_weight, aes(x=Weight,  fill=Cohort)) + 
@@ -347,8 +346,8 @@ sub.data <- weight.wide[weight.wide$Cohort%in%c('7', '8'),]
 corsFatInit <- ddply(sub.data, .(Cohort), summarise, cor=round(cor(Percent.Fat.Pre_fasted, WG, method="spearman"),2))
 pcorrFatInit <- ddply(sub.data, .(Cohort), summarise, p=signif(cor.test(Percent.Fat.Pre_fasted, WG, method="spearman", exact=FALSE)$p.value,digits=3))
 
-mult.corrplot(sub.data, "Percent.Fat.Pre_fasted", "WG.pct", "Cohort", "Correlation between %Fat Mass initial and % WG in each cohort", 10, 100, 4, "kendall")
-ggsave("figure/Correlation_PercentFatMassInit_PercentWG_each_cohort.pdf")
+mult.corrplot(sub.data, "Percent.Fat.Pre_fasted", "WG.pct", "Cohort", "Correlation between %Fat Mass Pre fasted and % WG in each cohort", 10, 100, 4, "kendall")
+ggsave("figure/Correlation_PercentFatMassPrefasted_PercentWG_each_cohort.pdf")
 
 ### Percent Fat Mass after fasting######
 
