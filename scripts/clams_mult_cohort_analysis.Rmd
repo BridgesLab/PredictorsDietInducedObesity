@@ -1,0 +1,307 @@
+---
+title: "clams_analysis"
+author: "Quynh Tran"
+date: "November 23, 2015"
+output: pdf_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+```{r process_cohort5_6_data, message=FALSE, echo=FALSE, warning=FALSE}
+cohort7_weight_file <- "../data/processed/body_composition_testing_data.csv"
+cohort8_weight_file <- "../data/processed/body_composition_training_data.csv"
+
+
+cohort7_weight_data <- read.csv(cohort7_weight_file)
+### remove Grip.Strength column
+cohort7_weight_data <- cohort7_weight_data[,!colnames(cohort7_weight_data)=="Grip.Strength..4.Paw."]
+cohort8_weight_data <- read.csv(cohort8_weight_file)
+combined_weight <- rbind(cohort7_weight_data, cohort8_weight_data)
+
+#make animal id a factor
+combined_weight$Subject <- as.factor(combined_weight$animal.MouseID)
+combined_weight$Fasting_stat <- as.factor(combined_weight$Fasting_stat)
+#set Pre_fasting as the reference level
+combined_weight$Fasting_stat <- relevel(as.factor(combined_weight$Fasting_stat), ref='Pre_fasting')
+
+
+cohort7_file <- "../data/processed/Combined_BC_clams_training_data.csv"
+cohort8_file <- "../data/processed/Combined_BC_clams_testing_data.csv"
+
+cohort7_data <- read.csv(cohort7_file)
+cohort8_data <- read.csv(cohort8_file)
+
+weight_clams_data <- rbind(cohort7_data, cohort8_data)
+
+#remove mice with negative Percent WL after fasting
+outlier_mice <- c("1753", "2101", "2105", "2107", "2116")
+weight_clams_clean <- weight_clams_data[!weight_clams_data$Subject%in%outlier_mice,]
+
+weight_clams_clean$Fast <- factor(weight_clams_clean$Fast, levels(weight_clams_clean$Fast)[c(3:1)])
+
+
+```
+
+# Body Weight Analysis
+```{r body-weight, echo=FALSE, message=FALSE}
+se <- function(x) sd(x)/sqrt(length(x))
+library(ggplot2)
+library(plyr)
+library(dplyr)
+body_weight_summary <-
+  combined_weight %>%
+  group_by(Fasting_stat) %>%
+  summarise(
+    Weight = mean(Weight),
+    Fat = mean(Fat),
+    Lean = mean(Lean),
+    Percent.Fat = mean(Percent.Fat))
+
+body_weight_err <-
+ combined_weight %>%
+  group_by(Fasting_stat) %>%
+  summarise(
+    Weight = se(Weight),
+    Fat = se(Fat),
+    Lean = se(Lean),
+    Percent.Fat = se(Percent.Fat))
+
+body_weight_shapiro <-
+ combined_weight %>%
+  group_by(Fasting_stat) %>%
+  summarise(
+    Weight = shapiro.test(Weight)$p.value,
+    Fat = shapiro.test(Fat)$p.value,
+    Lean = shapiro.test(Lean)$p.value,
+    Percent.Fat = shapiro.test(Percent.Fat)$p.value)
+
+body_weight_delta <-
+ combined_weight %>%
+  group_by(animal.MouseID) %>%
+  mutate(
+    Delta_weight=c(0,diff(Weight)))
+
+delta_weight<-body_weight_delta[body_weight_delta$Fasting_stat=="Pre_fasting",c(1,8,9,11)]
+
+library(car)
+body.weight.bartlett <- data.frame()
+body.weight.bartlett['Weight','pval'] <- bartlett.test(Weight~Fasting_stat, data=combined_weight)$p.value
+body.weight.bartlett['Fat','pval'] <- bartlett.test(Fat~Fasting_stat, data=combined_weight)$p.value
+body.weight.bartlett['Lean','pval'] <- bartlett.test(Lean~Fasting_stat, data=combined_weight)$p.value
+body.weight.bartlett['Percent.Fat','pval'] <- bartlett.test(Percent.Fat~Fasting_stat, data=combined_weight)$p.value
+
+superpose.eb <- function (x, y, ebl, ebu = ebl, length = 0.08, ...)
+  arrows(x, y + ebu, x, y - ebl, angle = 90, code = 3,
+  length = length, ...)
+
+par(mfrow=c(2,2))
+ymax <- max(body_weight_summary$Weight + body_weight_err$Weight)
+plot <- barplot(as.numeric(body_weight_summary$Weight),
+                beside=T, las=1, main="Body Weight", ylim=c(0,ymax), col=c('blue','green','red'))
+superpose.eb(plot,as.numeric(body_weight_summary$Weight),as.numeric(body_weight_err$Weight))
+
+ymax <- max(body_weight_summary$Fat + body_weight_err$Fat)
+plot <- barplot(as.numeric(body_weight_summary$Fat),
+                beside=T, las=1, main="Total Fat Mass", ylim=c(0,ymax), col=c('blue','green','red'))
+
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Fat),
+             as.numeric(body_weight_err$Fat))
+
+ymax <- max(body_weight_summary$Lean + body_weight_err$Lean)
+plot <- barplot(as.numeric(body_weight_summary$Lean),
+                beside=T, las=1, main="Lean Mass", ylim=c(0,ymax), col=c('blue','green','red'), names.arg=c("Pre_fasting","After_Fasting","After_HFD"))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Lean),
+             as.numeric(body_weight_err$Lean))
+
+ymax <- max(body_weight_summary$Percent.Fat + body_weight_err$Percent.Fat)
+plot <- barplot(as.numeric(body_weight_summary$Percent.Fat),
+                beside=T, las=1, main="Percent Fat Mass", ylim=c(0,ymax), col=c('blue','green','red'),names.arg=c("Pre_fasting","After_Fasting","After_HFD"))
+superpose.eb(plot,
+             as.numeric(body_weight_summary$Percent.Fat),
+             as.numeric(body_weight_err$Percent.Fat))
+
+
+```
+
+```{r box_plot, message=FALSE, echo=FALSE}
+ggplot(combined_weight, aes(x=Fasting_stat, y=Weight)) +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  ggtitle("Body Weight")+
+  xlab("Fasting status") +
+  ylab("Weight (g)")
+  
+ggplot(combined_weight, aes(x=Fasting_stat, y=Lean)) +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  ggtitle("Lean Mass")+
+  xlab("Fasting status") +
+  ylab("Lean Mass (g)")
+  
+ggplot(combined_weight, aes(x=Fasting_stat, y=Fat)) +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  ggtitle("Fat Mass") +
+  xlab("Fasting status") +
+  ylab("Fat mass (g)")
+  
+ggplot(combined_weight, aes(x=Fasting_stat, y=Percent.Fat)) +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  ggtitle("Percent Fat Mass") +
+  xlab("Fasting status") +
+  ylab("Percent Fat Mass (%)")
+```
+
+```{r scatter_plot, message=FALSE, echo=FALSE}
+par(mfrow=c(1,1))
+ggplot(combined_weight, aes(x=Fasting_stat, y=Weight, group=Subject, colour=Subject)) + geom_point()+geom_line()+
+  xlab("Fasting status")+
+  ylab("Weight (g)")
+```
+
+
+```{r body-weight-statistics, results='asis', message=FALSE, echo=FALSE}
+body.weight.oneway <- data.frame()
+body.weight.oneway['Weight','pval'] <- oneway.test(Weight~Fasting_stat, data=combined_weight)$p.value
+body.weight.oneway['Fat','pval'] <- oneway.test(Fat~Fasting_stat, data=combined_weight)$p.value
+body.weight.oneway['Lean','pval'] <- oneway.test(Lean~Fasting_stat, data=combined_weight)$p.value
+
+body.weight.oneway['Percent.Fat','pval'] <- kruskal.test(Percent.Fat~Fasting_stat, data=combined_weight)$p.value
+body.weight.oneway$padj <- p.adjust(body.weight.oneway$pval, method="BH")
+library(xtable)
+print(xtable(body.weight.oneway, caption="Oneway ANOVA with Welch correction for effects of Fasting and HFD on Weight, Total Fat Mass, and Lean Mass; Kruskal Wallis test on Percent Fat Mass.  P-values are adjusted by the method of Benjamini and Hochberg", digits=8), comment=FALSE)
+```
+
+
+```{r body-weight-TUKEYHSD, results='asis', message=FALSE, echo=FALSE, warning=FALSE}
+body.weight.tukey <- data.frame()
+body.weight.tukey <- TukeyHSD(aov(Weight~Fasting_stat, data=combined_weight))$Fasting_stat
+print(xtable(body.weight.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Body Weight", digits=8), comment=FALSE)
+body.fat.tukey <- TukeyHSD(aov(Fat~Fasting_stat, data=combined_weight))$Fasting_stat
+print(xtable(body.fat.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Fat Mass", digits=8),comment=FALSE)
+body.lean.tukey<- TukeyHSD(aov(Lean~Fasting_stat, data=combined_weight))$Fasting_stat
+print(xtable(body.lean.tukey, caption="Tukey HSD for pairwise comparisons among Fasting stages on Lean Mass", digits=8),comment=FALSE)
+
+require(PMCMR)
+percent.fat.tukey<- posthoc.kruskal.nemenyi.test(Percent.Fat~Fasting_stat, data=combined_weight, dist="Chisquare")
+print(xtable(percent.fat.tukey$p.value, caption="Pairwise comparisons using Nemenyi-test with Chi-squared
+                       approximation for independent samples", digits=8),comment=FALSE)
+
+```
+
+```{r average_data, message=FALSE, echo=FALSE}
+m_data<-
+  weight_clams_clean %>%
+  group_by(Subject, Fast, Light.Dark) %>%
+  summarise(
+    Avg.Percent.LL = mean(Percent.LL),
+    Avg.Percent.FL = mean(Percent.FL),
+    RER = mean(RER),
+    SumXYAmb = mean(SumXYAmb),
+    VO2.LBM = mean(VO2.LBM),
+    Percent.WL = mean(Percent.WL),
+    Percent.WG=mean(Percent.WG))
+m_data<-as.data.frame(m_data)
+
+m_data_light <- m_data[m_data$Light.Dark=="Light",]
+m_data_dark <- m_data[m_data$Light.Dark=="Dark",]
+
+
+ggplot(m_data_light, aes(x=Fast, y=VO2.LBM, fill=Fast)) +
+  geom_boxplot() + geom_jitter()+
+  ggtitle("VO2.LBM vs Feeding status")+
+  ylab("VO2 normalized by LBM")
+
+ggplot(m_data_light, aes(x=Fast, y=RER, fill=Fast)) +
+  geom_boxplot() + geom_jitter()+
+  ggtitle("RER vs Feeding status")+
+  ylab("RER")
+
+ggplot(m_data_light, aes(x=Fast, y=SumXYAmb, fill=Fast)) +
+  geom_boxplot() + geom_jitter()+
+  ggtitle("Ambulatory vs Feeding status")+
+  ylab("SumXY Ambulatory")
+```
+
+
+```{r create_plot_function, message=FALSE, echo=FALSE, warning=FALSE}
+### create a function that draws a scatterplot between the 'xaxis' and 'yaxis' variables and show 'corr.type' correlation and the p-values
+## data= data set
+## xaxis= variable to be in the axis
+## yaxis = variable to be yaxis
+## col = variable used to color the dots or the lines
+## title = title of the graph
+## font.x = x coordinator for the correlation output
+## font.y = y coordinator for the correlation output
+## font.size = size of the font for correlation result output
+## corr.type = type of correlation to be used, e.g. Kendall, Pearson, Spearman
+####
+corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.size, corr.type){
+  data$xaxis <- data[,xaxis]
+  data$yaxis <- data[,yaxis]
+  data$col <- data[, col]
+  corSet <- round(cor(data$xaxis, data$yaxis, method=corr.type),3)
+  p.cor <- signif(cor.test(data$xaxis, data$yaxis, method=corr.type, exact=FALSE)$p.value,digits=3)
+  data$corSet <- corSet
+  data$p.cor <- p.cor
+  #print(p.cor)
+  p <- ggplot(data, aes(x=xaxis, y=yaxis))
+  p + geom_point() + theme(legend.position="top")+
+  geom_smooth(method=lm, se=T) + geom_text(aes(label=paste("r=", corSet, sep="")), x=font.x, y=font.y, size=font.size) +
+  geom_text(aes(label=paste("p-value=", p.cor, sep="")), x=font.x, y=font.y-3, size=font.size) +
+  xlab(xaxis) + ylab(yaxis) +
+  ggtitle(title)
+  #ggsave(filename)
+}
+
+### create a function that draws multiple scatterplots between the 'xaxis' and 'yaxis' variables and show Kendall's correlation and the p-values ####
+mult.corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.size){
+  data$xaxis <- data[,xaxis]
+  data$yaxis <- data[,yaxis]
+  data$col <- data[, col]
+  #data$corr.type <- corr.type
+  #print(data$corr.type)
+  #print(dum.corr.type)
+  corSet <- ddply(data, .(col), summarise, cor=round(cor(xaxis, yaxis, method="kendall"),3))
+  #print(corSet)
+  p.cor <- ddply(data, .(col), summarise, p=signif(cor.test(xaxis, yaxis, method="kendall", exact=FALSE)$p.value,digits=3))
+  #print(p.cor)
+  p <- ggplot(data, aes(x=xaxis, y=yaxis, fill=col, color=col))
+  p + geom_point() + facet_grid(col~.)+
+      theme(legend.position="top")+
+      geom_smooth(method=lm, se=T) + geom_text(data=corSet, aes(label=paste("r=", cor, sep="")), x=font.x, y=font.y, size=font.size) +
+      geom_text(data=p.cor, aes(label=paste("p-value=", p, sep="")), x=font.x, y=font.y-10, size=font.size) +
+      xlab(xaxis) + ylab(yaxis) +
+      ggtitle(title)
+}
+
+```
+
+```{r correlation_plot, message=FALSE, echo=FALSE}
+mult.corrplot(m_data_light, "VO2.LBM", "Percent.WG", "Fast", "VO2.LBM vs Percent.WG", 9, 100, 5)
+mult.corrplot(m_data_light, "RER", "Percent.WG", "Fast", "RER vs Percent.WG", 1.2, 100, 5)
+mult.corrplot(m_data_light, "SumXYAmb", "Percent.WG", "Fast", "Ambulatory vs Percent.WG", 3000, 100, 5)
+
+mult.corrplot(m_data_light, "Percent.WL", "Percent.WG", "Fast", "Percent.WL vs Percent.WG", 9, 100, 5)
+```
+
+```{r modeling, message=FALSE, echo=FALSE}
+library(nlme)
+weight_clams_clean_light <- weight_clams_clean[weight_clams_clean$Light.Dark=="Light",]
+weight_clams_clean_dark <- weight_clams_clean[weight_clams_clean$Light.Dark=="Dark",]
+
+weight_clams_clean$SinTime <- sin(2*pi*weight_clams_clean$Time)
+mult.corrplot(weight_clams_clean, "Time", "VO2", "Fast", "VO2.LBM vs Sine Time", 9, 100, 5)
+
+clean.gls <- gls(Percent.WG ~ VO2.LBM + Percent.WL, correlation=corAR1(form=~1|Subject),
+          data=weight_clams_clean)
+
+baseline <- lme(Percent.WG ~ 1, random=~1|Subject, data=weight_clams_clean)
+
+vo2.lm <- lme(Percent.WG ~ VO2.LBM, random=~1|Subject, data=weight_clams_clean)
+
+vo2.light.lm <- lme(Percent.WG ~  VO2.LBM, random=~1|Subject, data=m_data_light[m_data_light$Fast=="Pre_fasting",])
+vo2.dark.lm <- lme(Percent.WG ~  VO2.LBM, random=~1|Subject, data=m_data_dark[m_data_dark$Fast=="Pre_fasting",])
+vo2.lm <- lme(Percent.WG ~  VO2.LBM:Light.Dark, random=~1|Subject, data=m_data[m_data$Fast=="Pre_fasting",])
+
+```
