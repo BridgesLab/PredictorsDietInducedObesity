@@ -1,0 +1,23 @@
+---
+title: "Food_intake"
+author: "Quynh Tran"
+date: "November 30, 2015"
+output: html_document
+---
+
+This script was most recently run on `r date()`. 
+
+```{r process_cohort5_6_data, message=FALSE, echo=FALSE, warning=FALSE}
+previous_cohort_file <- "../data/processed/fasting_weights_file.csv"
+prev_cohort_data <- read.csv(previous_cohort_file)
+
+
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
