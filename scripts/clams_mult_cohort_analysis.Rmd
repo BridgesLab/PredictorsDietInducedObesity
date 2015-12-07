@@ -34,13 +34,17 @@ cohort8_data <- read.csv(cohort8_file)
 
 weight_clams_data <- rbind(cohort7_data, cohort8_data)
 
-#remove mice with negative Percent WL after fasting
-outlier_mice <- c("1753", "2101", "2105", "2107", "2116")
-weight_clams_clean <- weight_clams_data[!weight_clams_data$Subject%in%outlier_mice,]
+#remove mice that were used for short-term Dex experiment
+dex_mice <- c("1740", "1741", "1742", "1743", "1770", "1771", "1772", "1773")
+weight_clams_clean <- weight_clams_data[!weight_clams_data$Subject%in%dex_mice,]
 
 weight_clams_clean$Fast <- factor(weight_clams_clean$Fast, levels(weight_clams_clean$Fast)[c(3:1)])
 
+#remove after fasting clams data.
+weight_clams_clean <- weight_clams_clean[!weight_clams_clean$Fast=="After_fasting",]
 
+#remove those with RER values greater than 1 and less than 0.7
+weight_clams_clean <- weight_clams_clean[weight_clams_clean$RER<=1 & weight_clams_clean$RER >= 0.7,]
 ```
 
 # Body Weight Analysis
@@ -128,28 +132,28 @@ dev.off()
 
 ```{r box_plot, message=FALSE, echo=FALSE}
 ggplot(combined_weight, aes(x=Fasting_stat, y=Weight)) +
-  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge", outlier.size=NA) + geom_jitter() +
   ggtitle("Body Weight")+
   xlab("Fasting status") +
   ylab("Weight (g)")
 ggsave("figure/Body_weight_Boxplot_cohort7and8.pdf")
 
 ggplot(combined_weight, aes(x=Fasting_stat, y=Lean)) +
-  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge", outlier.size=NA) + geom_jitter() +
   ggtitle("Lean Mass")+
   xlab("Fasting status") +
   ylab("Lean Mass (g)")
 ggsave("figure/Lean_Mass_Boxplot_cohort7and8.pdf")
 
 ggplot(combined_weight, aes(x=Fasting_stat, y=Fat)) +
-  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge", outlier.size=NA) + geom_jitter() +
   ggtitle("Fat Mass") +
   xlab("Fasting status") +
   ylab("Fat mass (g)")
 ggsave("figure/Fat_Mass_Boxplot_cohort7and8.pdf")
 
 ggplot(combined_weight, aes(x=Fasting_stat, y=Percent.Fat)) +
-  geom_boxplot(aes(fill = Fasting_stat),position = "dodge") + geom_jitter() +
+  geom_boxplot(aes(fill = Fasting_stat),position = "dodge", outlier.size=NA) + geom_jitter() +
   ggtitle("Percent Fat Mass") +
   xlab("Fasting status") +
   ylab("Percent Fat Mass (%)")
@@ -194,6 +198,7 @@ print(xtable(percent.fat.tukey$p.value, caption="Pairwise comparisons using Neme
 
 ```
 
+#Analysis of CLAMS data
 ```{r average_data, message=FALSE, echo=FALSE}
 m_data<-
   weight_clams_clean %>%
@@ -201,49 +206,49 @@ m_data<-
   summarise(
     Avg.Percent.LL = mean(Percent.LL),
     Avg.Percent.FL = mean(Percent.FL),
-    RER = mean(RER),
-    SumXYAmb = mean(SumXYAmb),
-    VO2.LBM = mean(VO2.LBM),
-    Percent.WL = mean(Percent.WL),
-    Percent.WG=mean(Percent.WG))
+    Avg.RER = mean(RER),
+    Avg.SumXYAmb = mean(SumXYAmb),
+    Avg.VO2.LBM = mean(VO2.LBM),
+    Avg.Percent.WL = mean(Percent.WL),
+    Avg.Percent.WG=mean(Percent.WG))
 m_data<-as.data.frame(m_data)
 
 m_data_light <- m_data[m_data$Light.Dark=="Light",]
 m_data_dark <- m_data[m_data$Light.Dark=="Dark",]
 
 
-ggplot(m_data_light, aes(x=Fast, y=VO2.LBM, fill=Fast)) +
-  geom_boxplot() + geom_jitter()+
+ggplot(m_data_light, aes(x=Fast, y=Avg.VO2.LBM, fill=Fast)) +
+  geom_boxplot(outlier.size = NA) + geom_jitter()+
   ggtitle("VO2.LBM vs Feeding status in the Light")+
   ylab("VO2 normalized by LBM")
 ggsave("figure/VO2.LBM_Light.pdf")
 
-ggplot(m_data_dark, aes(x=Fast, y=VO2.LBM, fill=Fast)) +
-  geom_boxplot() + geom_jitter()+
+ggplot(m_data_dark, aes(x=Fast, y=Avg.VO2.LBM, fill=Fast)) +
+  geom_boxplot(outlier.size = NA) + geom_jitter()+
   ggtitle("VO2.LBM vs Feeding status in the Dark")+
   ylab("VO2 normalized by LBM")
 ggsave("figure/VO2.LBM_Dark.pdf")
 
-ggplot(m_data_light, aes(x=Fast, y=RER, fill=Fast)) +
-  geom_boxplot() + geom_jitter()+
+ggplot(m_data_light, aes(x=Fast, y=Avg.RER, fill=Fast)) +
+  geom_boxplot(outlier.size = NA) + geom_jitter()+
   ggtitle("RER vs Feeding status in the Light")+
   ylab("RER")
 ggsave("figure/RER_Light.pdf")
 
-ggplot(m_data_dark, aes(x=Fast, y=RER, fill=Fast)) +
-  geom_boxplot() + geom_jitter()+
+ggplot(m_data_dark, aes(x=Fast, y=Avg.RER, fill=Fast)) +
+  geom_boxplot(outlier.size = NA) + geom_jitter()+
   ggtitle("RER vs Feeding status in the Dark")+
   ylab("RER")
 ggsave("figure/RER_Dark.pdf")
 
-ggplot(m_data_light, aes(x=Fast, y=SumXYAmb, fill=Fast)) +
-  geom_boxplot() + geom_jitter()+
+ggplot(m_data_light, aes(x=Fast, y=Avg.SumXYAmb, fill=Fast)) +
+  geom_boxplot(outlier.size = NA) + geom_jitter()+
   ggtitle("Ambulatory vs Feeding status in the Light")+
   ylab("SumXY Ambulatory")
 ggsave("figure/Ambulatory_Light.pdf")
 
-ggplot(m_data_dark, aes(x=Fast, y=SumXYAmb, fill=Fast)) +
-  geom_boxplot() + geom_jitter()+
+ggplot(m_data_dark, aes(x=Fast, y=Avg.SumXYAmb, fill=Fast)) +
+  geom_boxplot(outlier.size = NA) + geom_jitter()+
   ggtitle("Ambulatory vs Feeding status in the Dark")+
   ylab("SumXY Ambulatory")
 ggsave("figure/Ambulatory_Dark.pdf")
@@ -304,25 +309,27 @@ mult.corrplot <- function (data, xaxis, yaxis, col, title, font.x, font.y, font.
 ```
 
 ```{r correlation_plot, message=FALSE, echo=FALSE}
-mult.corrplot(m_data_light, "VO2.LBM", "Percent.WG", "Fast", "VO2.LBM vs Percent.WG (Light)", 9, 75, 5)
+mult.corrplot(m_data_light, "Avg.VO2.LBM", "Avg.Percent.WG", "Fast", "Avg.VO2.LBM vs Avg.Percent.WG (Light)", 9, 75, 5)
 ggsave("figure/VO2.LBM_vs_PercentWG_Light.pdf")
+m1 <-lm(Avg.Percent.WG ~ Avg.VO2.LBM, data=m_data_light)
 
-mult.corrplot(m_data_dark, "VO2.LBM", "Percent.WG", "Fast", "VO2.LBM vs Percent.WG (Dark)", 9, 50, 5)
+mult.corrplot(m_data_dark, "Avg.VO2.LBM", "Avg.Percent.WG", "Fast", "VO2.LBM vs Percent.WG (Dark)", 8, 50, 5)
 ggsave("figure/VO2.LBM_vs_PercentWG_Dark.pdf")
+m2 <-lm(Avg.Percent.WG ~ Avg.VO2.LBM, data=m_data_dark)
 
-mult.corrplot(m_data_light, "RER", "Percent.WG", "Fast", "RER vs Percent.WG (Light)", 1.2, 100, 5)
+mult.corrplot(m_data_light, "Avg.RER", "Avg.Percent.WG", "Fast", "RER vs Percent.WG (Light)", 0.9, 100, 5)
 ggsave("figure/RER_vs_PercentWG_Light.pdf")
 
-mult.corrplot(m_data_dark, "RER", "Percent.WG", "Fast", "RER vs Percent.WG (Dark)", 0.55, 100, 5)
+mult.corrplot(m_data_dark, "Avg.RER", "Avg.Percent.WG", "Fast", "RER vs Percent.WG (Dark)", 0.8, 100, 5)
 ggsave("figure/RER_vs_PercentWG_Dark.pdf")
 
-mult.corrplot(m_data_light, "SumXYAmb", "Percent.WG", "Fast", "Ambulatory vs Percent.WG (Light)", 3000, 100, 5)
+mult.corrplot(m_data_light, "Avg.SumXYAmb", "Avg.Percent.WG", "Fast", "Ambulatory vs Percent.WG (Light)", 2800, 100, 5)
 ggsave("figure/Ambulatory_vs_PercentWG_Light.pdf")
 
-mult.corrplot(m_data_dark, "SumXYAmb", "Percent.WG", "Fast", "Ambulatory vs Percent.WG (Dark)", 4000, 100, 5)
+mult.corrplot(m_data_dark, "Avg.SumXYAmb", "Avg.Percent.WG", "Fast", "Ambulatory vs Percent.WG (Dark)", 2800, 100, 5)
 ggsave("figure/Ambulatory_vs_PercentWG_Dark.pdf")
 
-mult.corrplot(m_data_light, "Percent.WL", "Percent.WG", "Fast", "Percent.WL vs Percent.WG", 9, 100, 5)
+mult.corrplot(m_data_light, "Avg.Percent.WL", "Avg.Percent.WG", "Fast", "Percent.WL vs Percent.WG", 8, 100, 5)
 ```
 
 ```{r modeling, result='asis', message=FALSE, echo=FALSE}
@@ -339,8 +346,8 @@ baseline <- lme(Percent.WG ~ 1, random=~1|Subject, data=weight_clams_clean)
 
 vo2.lm <- lme(Percent.WG ~ VO2.LBM, random=~1|Subject, data=weight_clams_clean)
 
-vo2.light.lm <- lme(Percent.WG ~  VO2.LBM, random=~1|Subject, data=m_data_light[m_data_light$Fast=="Pre_fasting",])
-vo2.dark.lm <- lme(Percent.WG ~  VO2.LBM, random=~1|Subject, data=m_data_dark[m_data_dark$Fast=="Pre_fasting",])
+vo2.light.lm <- lme(Avg.Percent.WG ~  Avg.VO2.LBM, random=~1|Subject, data=m_data_light[m_data_light$Fast=="Pre_fasting",])
+vo2.dark.lm <- lme(Avg.Percent.WG ~  Avg.VO2.LBM, random=~1|Subject, data=m_data_dark[m_data_dark$Fast=="Pre_fasting",])
 #vo2.lm <- lme(Percent.WG ~  VO2.LBM:Light.Dark, random=~1|Subject, data=m_data[m_data$Fast=="Pre_fasting",])
 
 ```
