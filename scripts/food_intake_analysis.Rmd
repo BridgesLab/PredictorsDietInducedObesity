@@ -7,11 +7,76 @@ output: html_document
 
 This script was most recently run on `r date()`. 
 
-```{r process_cohort5_6_data, message=FALSE, echo=FALSE, warning=FALSE}
-previous_cohort_file <- "../data/processed/fasting_weights_file.csv"
-prev_cohort_data <- read.csv(previous_cohort_file)
+```{r read_food_data_corhot7_8_data, message=FALSE, echo=FALSE, warning=FALSE}
+dir <- "../data/processed/Feeding_data/Cohort7/"
+cohort7 <- data.frame(matrix(ncol = 10, nrow = 0))
+for (i in 1745:1769){
+  if (i != 1764){
+    feeding_file <- paste(dir, "Feeding_", i, ".csv", sep="")
+    data <- read.csv(feeding_file)
+    names(data)[2] <- "Sample"
+    names(data)[4] <- "Light_Dark"
+    names(data)[7] <- "Duration"
+    names(data)[8] <- "Weight"
+    names(data)[9] <- "Accumulated"
+    names(data)[10] <- "Animal_ID"
+    data$Animal_ID <- i
+    names(cohort7) <- names(data)
+    cohort7 <- rbind(cohort7, data)
+  }
+}
+
+cohort7$Animal_ID <- factor(cohort7$Animal_ID)
+#remove negative numbers and those that are more than 0.2 g of food. Mice won't eat more than that each time.
+cohort7 <- cohort7[cohort7$Weight<0.2 & cohort7$Weight>0,]
+#remove all the measurement after interval 129. Those after 129 may be from a different experiment.
+
+cohort7 <- cohort7[cohort7$Interval <= 129,]
+
+se <- function(x) sd(x)/sqrt(length(x))
+library(ggplot2)
+library(plyr)
+library(dplyr)
+cohort7_summary <-
+  cohort7 %>%
+  group_by(Animal_ID, Light_Dark, Interval) %>%
+  summarise(
+    mean_weight = mean(Weight),
+    se_weight = se(Weight)
+    )
+cohort7_summary <- cohort7_summary[!is.na(cohort7_summary$Light_Dark), ]
+
+food_cum <-
+  cohort7 %>%
+  group_by(Animal_ID, Light_Dark) %>%
+  summarise(
+    Cum_weight = cumsum(Weight)
+    )
 
 
+ggplot(cohort7_summary, aes(x=Animal_ID, y=mean_weight)) +
+  geom_boxplot(aes(fill = Animal_ID),position = "dodge", outlier.size=NA) +         #geom_jitter() +
+  facet_grid(Light_Dark~.) +
+  ggtitle("Food Weight")+
+  xlab("Animal ID") +
+  ylab("Food (g)")
+
+ggplot(cohort7_summary, aes(x=Interval, y=mean_weight, group=Animal_ID, colour=Animal_ID)) + geom_point()+geom_line()+
+  facet_grid(Light_Dark~.)+
+  xlab("Interval")+
+  ylab("Food (g)")
+
+food_dark <- cohort7_summary[cohort7_summary$Light_Dark=="Dark",]
+food_light <- cohort7_summary[cohort7_summary$Light_Dark=="Light",]
+
+wilcox.test(mean_weight ~ Light_Dark, data=cohort7_summary, alternative="less")
+kruskal.test(mean_weight ~ Animal_ID, data=food_dark)
+kruskal.test(mean_weight ~ Animal_ID, data=food_light)
+
+each_animal <- cohort7_summary[cohort7_summary$Animal_ID==1745,]
+
+cum_food <- c(0, cumsum(each_animal$mean_weight))
+plot(seq(1, 129, 1), cum_food[1:129], xlab="Interval", ylab="Cummulative Food")
 ```
 
 You can also embed plots, for example:
