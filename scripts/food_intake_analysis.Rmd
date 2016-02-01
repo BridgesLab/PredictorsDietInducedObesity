@@ -7,32 +7,49 @@ output: html_document
 
 This script was most recently run on `r date()`. 
 
-```{r read_food_data_corhot7_8_data, message=FALSE, echo=FALSE, warning=FALSE}
+```{r read_food_data_corhot7_data, message=FALSE, echo=FALSE, warning=FALSE}
 dir <- "../data/processed/Feeding_data/Cohort7/"
 cohort7 <- data.frame(matrix(ncol = 10, nrow = 0))
-for (i in 1745:1769){
-  if (i != 1764){
-    feeding_file <- paste(dir, "Feeding_", i, ".csv", sep="")
-    data <- read.csv(feeding_file)
-    names(data)[2] <- "Sample"
-    names(data)[4] <- "Light_Dark"
-    names(data)[7] <- "Duration"
-    names(data)[8] <- "Weight"
-    names(data)[9] <- "Accumulated"
-    names(data)[10] <- "Animal_ID"
-    data$Animal_ID <- i
-    names(cohort7) <- names(data)
-    cohort7 <- rbind(cohort7, data)
+####
+##Make a function that read the food intake from each animal to a dataframe
+##Parameters: directory - the directory contains all the food intake files
+##           start_ID - the smallest animal ID 
+##           stop_ID - the biggest animal ID. We assume that animal_IDs are
+##all consecutive numbers.
+##           eliminate_ID - IDs of non-existing animals
+##           out_data - the data that save the combined food intake
+####
+read.input <- function(directory, start_ID, stop_ID, eliminate_ID, out_data){
+  for (i in start_ID:stop_ID){
+    if (!(i %in% eliminate_ID)){
+      feeding_file <- paste(directory, "Feeding_", i, ".csv", sep="")
+      data <- read.csv(feeding_file)
+      names(data)[2] <- "Sample"
+      names(data)[4] <- "Light_Dark"
+      names(data)[7] <- "Duration"
+      names(data)[8] <- "Weight"
+      names(data)[9] <- "Accumulated"
+      names(data)[10] <- "Animal_ID"
+      data$Animal_ID <- i
+      names(out_data) <- names(data)
+      out_data <- rbind(out_data, data)
+    }
   }
+  return(out_data)
 }
+
+cohort7 <-read.input(dir, 1745, 1769, 1764, cohort7)
 
 cohort7$Animal_ID <- factor(cohort7$Animal_ID)
 #remove negative numbers and those that are more than 0.2 g of food. Mice won't eat more than that each time.
 cohort7 <- cohort7[cohort7$Weight<0.2 & cohort7$Weight>0,]
 #remove all the measurement after interval 129. Those after 129 may be from a different experiment.
-
 cohort7 <- cohort7[cohort7$Interval <= 129,]
 
+
+```
+
+```{r analyze_food_intake_cohort7, echo=FALSE, message=FALSE, warning=FALSE}
 se <- function(x) sd(x)/sqrt(length(x))
 library(ggplot2)
 library(plyr)
@@ -53,18 +70,21 @@ food_cum <-
     Cum_weight = cumsum(Weight)
     )
 
-
-ggplot(cohort7_summary, aes(x=Animal_ID, y=mean_weight)) +
-  geom_boxplot(aes(fill = Animal_ID),position = "dodge", outlier.size=NA) +         #geom_jitter() +
+mult.boxplot <- function(data, x_var, y_var, x_lab, y_lab, title){
+  ggplot(data, aes(x=x_var, y=y_var)) +
+  geom_boxplot(aes(fill = x_var),position = "dodge", outlier.size=NA) +         #geom_jitter() +
   facet_grid(Light_Dark~.) +
-  ggtitle("Food Weight")+
-  xlab("Animal ID") +
-  ylab("Food (g)")
+  ggtitle(title)+
+  xlab(x_lab) +
+  ylab(y_lab)
+}
+
+mult.boxplot(cohort7_summary, Animal_ID, mean_weight, "Animal ID", "Food (g)", "Food Weight")
 
 ggplot(cohort7_summary, aes(x=Interval, y=mean_weight, group=Animal_ID, colour=Animal_ID)) + geom_point()+geom_line()+
   facet_grid(Light_Dark~.)+
   xlab("Interval")+
-  ylab("Food (g)")
+  ylab("Food (g )")
 
 food_dark <- cohort7_summary[cohort7_summary$Light_Dark=="Dark",]
 food_light <- cohort7_summary[cohort7_summary$Light_Dark=="Light",]
@@ -73,12 +93,25 @@ wilcox.test(mean_weight ~ Light_Dark, data=cohort7_summary, alternative="less")
 kruskal.test(mean_weight ~ Animal_ID, data=food_dark)
 kruskal.test(mean_weight ~ Animal_ID, data=food_light)
 
-each_animal <- cohort7_summary[cohort7_summary$Animal_ID==1745,]
+each_animal <- cohort7_summary[cohort7_summary$Animal_ID==1755,]
 
 cum_food <- c(0, cumsum(each_animal$mean_weight))
 plot(seq(1, 129, 1), cum_food[1:129], xlab="Interval", ylab="Cummulative Food")
 ```
 
+```{r read_food_data_corhot8_data, message=FALSE, echo=FALSE, warning=FALSE}
+dir8 <- "../data/processed/Feeding_data/Cohort8/"
+cohort8 <- data.frame(matrix(ncol = 10, nrow = 0))
+cohort8 <- read.input(dir8, 2098, 2128, c(2100,2110), cohort8)
+
+cohort8$Animal_ID <- factor(cohort8$Animal_ID)
+#remove negative numbers and those that are more than 0.2 g of food. Mice won't eat more than that each time.
+cohort8 <- cohort8[cohort8$Weight<0.2 & cohort8$Weight>0,]
+
+#cohort8 <- cohort8[cohort8$Interval <= 129,]
+
+
+```
 You can also embed plots, for example:
 
 ```{r, echo=FALSE}
