@@ -78,9 +78,9 @@ cohort7_summary <-
 cohort7_summary <- cohort7_summary[!is.na(cohort7_summary$Light_Dark), ]
 
 cohort7$Interval <- as.factor(cohort7$Interval)
-ggplot(data=cohort7[cohort7$Animal_ID=="1767",], aes(x=Interval, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+ggplot(data=cohort7[cohort7$Animal_ID=="1767",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
   geom_point() + geom_line()+         
-  facet_grid(.~Light_Dark) +
+  #facet_grid(.~Light_Dark) +
   #ggtitle("Feeding habit")+
   xlab("Interval") +
   ylab("Food (g)")
@@ -132,6 +132,20 @@ cohort7_each_animal_by_day <-
 #Is the amount of food intake per day the same in all animals?
 kruskal.test(sum_weight ~ Animal_ID, data=cohort7_each_animal_by_day)
 
+library(lubridate)
+
+cohort7$Date.Time <- mdy_hms(cohort7$Date.Time)
+
+for (row in rownames(feeding_data)) {
+  if (hour(feeding_data[row,]$Date.Time)>7&hour(feeding_data[row,]$Date.Time)<19){
+    feeding_data[row,'Dark.Light'] <- 'Light'
+  }
+  else
+    feeding_data[row,'Dark.Light'] <- 'Dark'
+}
+feeding_data$Dark.Light <- as.factor(feeding_data$Dark.Light)
+
+
 #calculate the amount of food intake for each animal from the each day statistics
 cohort7_each_animal <-
   cohort7_each_animal_by_day %>%
@@ -166,12 +180,15 @@ boxplot(Duration~Light_Dark, data=cohort7)
 wilcox.test(Weight ~ Light_Dark, data=cohort7, alternative="greater")
 wilcox.test(Duration ~ Light_Dark, data=cohort7, alternative="greater")
 
+#compare the mean food intake across all mice.
 kruskal.test(mean_weight ~ Animal_ID, data=food_dark)
 kruskal.test(mean_weight ~ Animal_ID, data=food_light)
 
 ```
 
-Analysis included LBM
+There is no difference in the food intake across all animals in each dark and light cycle. The p-value `r wilcox.test(Weight ~ Light_Dark, data=cohort7, alternative="greater")$p.value`
+
+Analysis adjusting for LBM, BW, or fat mass
 -----
 ```{r food_intake_per_LBM}
 body_comp_7_file <- "./data/processed/body_composition_cohort7.csv"
@@ -184,8 +201,10 @@ food_per_LBM7 <-
   summarise(
     food.LBM = cum_food/Lean,
     food.BW = cum_food/Weight,
+    food.FM = cum_food/Fat,
     food.LBM.day = (cum_food/Lean)/num_day,
     food.BW.day = (cum_food/Weight)/num_day,
+    food.FM.day = food.FM/num_day,
     food.day = food.day
   )
 
@@ -199,13 +218,33 @@ ggplot(data=food_per_LBM7, aes(x=animal.MouseID, y=food.LBM.day, colour=animal.M
   xlab("Animal_ID") +
   ylab("Food intake (g/g LBM per day)")
 
+ggplot(data=food_per_LBM7, aes(x=animal.MouseID, y=food.FM.day, colour=animal.MouseID)) +
+  geom_bar(position=position_dodge(), aes(fill=animal.MouseID),stat="identity") +  
+  facet_grid(.~Fasting_stat)+
+  ggtitle("Cohort7 Food intake per g of fat mass per day")+
+  xlab("Animal_ID") +
+  ylab("Food intake (g/g fat mass per day)")
+
+
 with(food_LBM7, plot(Lean,food.day, pch=19, las=1,
                             col=c('green','red','blue'),
                             xlab="Fat Free Mass (g)",
                             ylim=c(0,max(food.day)),
                             ylab="Daily Food Intake (g)"))
 cor(food_LBM7$Lean, food_LBM7$food.day, method="kendall")
+cor.test(food_LBM7$Lean, food_LBM7$food.day, method="kendall")
+
+with(food_LBM7, plot(Fat,food.day, pch=19, las=1,
+                            col=c('green','red','blue'),
+                            xlab="Fat Mass (g)",
+                            ylim=c(0,max(food.day)),
+                            ylab="Daily Food Intake (g)"))
+cor(food_LBM7$Fat, food_LBM7$food.day, method="kendall")
+cor.test(food_LBM7$Fat, food_LBM7$food.day, method="kendall")
 ```
+
+
+There is no correlation between the food intake before fasting and the amount of fat mass accumulated after HFD. The correlation is `r cor(food_LBM7$Fat, food_LBM7$food.day, method="kendall")` with the p-value of `r cor.test(food_LBM7$Fat, food_LBM7$food.day, method="kendall")$p.value`.
 
 
 Analysis for cohort8
@@ -262,7 +301,90 @@ ggplot(cohort8_summary, aes(x=Animal_ID, y=sum_weight, group=Animal_ID, colour=A
   xlab("Animal ID")+
   ylab("Food (g)")
 ```
+
+Analysis for each animal per day cohort8
+-----------
+```{r analysis_per_animal}
+#calculate the amount of food intake for each day
+cohort8_each_animal_by_day <-
+  cohort8 %>%
+  group_by(Animal_ID, substring(Date.Time,0, 11)) %>%
+  summarise(
+    sum_weight = sum(Weight), #get the food for each day
+    #num_day = length(Animal_ID) -1,
+    #food_per_day = sum(sum_weight)/num_day, #get the food/day
+    #se_weight = se(sum_weight),
+    sum_duration = sum(Duration),
+    mean_duration = mean(Duration),
+    se_duration = se(Duration),
+    num_feed = length(Weight)
+    #food_per_sec = sum_weight/sum_duration
+    )
+#Is the amount of food intake per day the same in all animals?
+kruskal.test(sum_weight ~ Animal_ID, data=cohort8_each_animal_by_day)
+
+library(lubridate)
+
+cohort8$Date.Time <- mdy_hms(cohort8$Date.Time)
+
+for (row in rownames(feeding_data)) {
+  if (hour(feeding_data[row,]$Date.Time)>7&hour(feeding_data[row,]$Date.Time)<19){
+    feeding_data[row,'Dark.Light'] <- 'Light'
+  }
+  else
+    feeding_data[row,'Dark.Light'] <- 'Dark'
+}
+feeding_data$Dark.Light <- as.factor(feeding_data$Dark.Light)
+
+
+#calculate the amount of food intake for each animal from the each day statistics
+cohort8_each_animal <-
+  cohort8_each_animal_by_day %>%
+  group_by(Animal_ID) %>%
+  summarise(
+    cum_food = sum(sum_weight),
+    mean_food = mean(sum_weight),
+    se_food = se(sum_weight),
+    num_day = length(Animal_ID)-1,
+    mean_duration = mean(sum_duration),
+    se_duration = se(sum_duration),
+    num_feed = sum(num_feed),
+    food.day = cum_food/num_day
+    #weight.shapiro = shapiro.test(sum_weight)$p.value
+  )
+
+
+ggplot(data=cohort8_each_animal, aes(x=Animal_ID, y=mean_food, colour=Animal_ID)) +
+  geom_bar(position=position_dodge(), aes(fill=Animal_ID),stat="identity") +  
+  geom_errorbar(aes(ymin=mean_food-se_food, ymax=mean_food+se_food), width=0.25, position=position_dodge(.9)) +
+  ggtitle("cohort8 Food intake per day")+
+  xlab("Animal_ID") +
+  ylab("Food (g/day)")
+
+food_dark8 <- cohort8_summary[cohort8_summary$Light_Dark=="Dark",]
+food_light8 <- cohort8_summary[cohort8_summary$Light_Dark=="Light",]
+dark.shapiro <- shapiro.test(food_dark$sum_weight)
+
+wilcox.test(food_dark$sum_weight, food_light$sum_weight, alternative="greater")
+boxplot(Weight~Light_Dark, data=cohort8)
+boxplot(Duration~Light_Dark, data=cohort8)
+wilcox.test(Weight ~ Light_Dark, data=cohort8, alternative="greater")
+wilcox.test(Duration ~ Light_Dark, data=cohort8, alternative="greater")
+
+#compare the mean food intake across all mice.
+kruskal.test(mean_weight ~ Animal_ID, data=food_dark8)
+kruskal.test(mean_weight ~ Animal_ID, data=food_light8)
+
+```
+
+
   
+Analysis of combining cohort7 and 8
+--------
+```{r}
+combined_data <- 
+```
+
 Session Information
 ---------------------
 ```{r sessionInfo, echo=F}
