@@ -160,10 +160,11 @@ cohort7_each_animal <-
     #weight.shapiro = shapiro.test(sum_weight)$p.value
   )
 
-
+#remove animals with cummulative food intake < 1 g
+sub_cohort7 <- cohort7_each_animal[cohort7_each_animal$cum_food>1,]
 
 #Is the amount of food intake per day the same in all animals?
-kruskal.test(cum_food ~ Animal_ID, data=cohort7_each_animal)
+kruskal.test(cum_food ~ Animal_ID, data=sub_cohort7)
 
 ggplot(data=cohort7_each_animal, aes(x=Animal_ID, y=mean_food, colour=Animal_ID)) +
   geom_bar(position=position_dodge(), aes(fill=Animal_ID),stat="identity") +  
