@@ -46,8 +46,8 @@ cohort7$Animal_ID <- factor(cohort7$Animal_ID)
 cohort7$Light_Dark <- factor(cohort7$Light_Dark)
 #remove negative numbers and those that are more than 0.2 g of food. Mice won't eat more than that each time.
 cohort7 <- cohort7[cohort7$Weight<0.2 & cohort7$Weight>0,]
-#remove any duration that is more than 500
-cohort7 <- cohort7[cohort7$Duration<500,]
+#remove any duration that is more than 300
+cohort7 <- cohort7[cohort7$Duration<300,]
 #remove all the measurement after interval 129. Those after 129 may be from a different experiment.
 cohort7 <- cohort7[cohort7$Interval <= 129,]
 
@@ -80,10 +80,9 @@ cohort7_summary <- cohort7_summary[!is.na(cohort7_summary$Light_Dark), ]
 cohort7$Interval <- as.factor(cohort7$Interval)
 ggplot(data=cohort7[cohort7$Animal_ID=="1767",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
   geom_point() + geom_line()+         
-  #facet_grid(.~Light_Dark) +
-  #ggtitle("Feeding habit")+
   xlab("Interval") +
   ylab("Food (g)")
+
 
 #Number of feedings for each mouse
 ggplot(data=cohort7_summary, aes(x=Animal_ID, y=num_feed, colour=Animal_ID)) +
@@ -92,6 +91,7 @@ ggplot(data=cohort7_summary, aes(x=Animal_ID, y=num_feed, colour=Animal_ID)) +
   ggtitle("Feeding habit")+
   xlab("Animal_ID") +
   ylab("Number of feedings")
+ggsave("./figures/Cohor7_Number_of_feedings.pdf")
 
 #Avg Duration per feeding
 ggplot(data=cohort7_summary, aes(x=Animal_ID, y=mean_duration, colour=Animal_ID)) +
@@ -101,7 +101,7 @@ ggplot(data=cohort7_summary, aes(x=Animal_ID, y=mean_duration, colour=Animal_ID)
   ggtitle("Cohort7 Feeding habit")+
   xlab("Animal_ID") +
   ylab("Avg duration per feeding (s)")
-
+ggsave("./figures/Cohor7_duration_per_feeding.pdf")
 
 ggplot(cohort7_summary, aes(x=Animal_ID, y=sum_weight, group=Animal_ID, colour=Animal_ID)) + 
   geom_point()+
@@ -109,11 +109,40 @@ ggplot(cohort7_summary, aes(x=Animal_ID, y=sum_weight, group=Animal_ID, colour=A
   ggtitle("Cohort7 total food intake")+
   xlab("Animal ID")+
   ylab("Food (g)")
+ggsave("./figures/Cohor7_total_food_intake_in_each_animal.pdf")
 ```
 
 Analysis for each animal per day
 -----------
 ```{r analysis_per_animal}
+library(lubridate)
+cohort7$Date.Time <- mdy_hms(cohort7$Date.Time)
+numday <- as.period(interval(first(cohort7$Date.Time),last(cohort7$Date.Time)), units="days")
+day.stamp <- as.POSIXct(rep(NA, day(numday)), tz="UTC")
+#calculate the time stamp for each next day.
+for (d in 1:day(numday)){
+  day.stamp[d] = first(cohort7$Date.Time) + days(d)
+  mdy_hms(day.stamp)
+}
+cohort7$Day <- NULL
+for (row in rownames(cohort7)) {
+  if (cohort7[row,]$Date.Time)< (first(cohort7$Date.Time)+days(1)){cohort7[row, 'Day'] <- '1'
+                                                                   }
+  else if (cohort7[row,]$Date.Time)>(first(cohort7$Date.Time) + days(1)) & cohort7[row,]$Date.Time)< (first(cohort7$Date.Time) + days(2))){
+    cohort7[row,'Day'] <- '2'
+  }
+  else if (cohort7[row,]$Date.Time)>(first(cohort7$Date.Time) + days(2)) & cohort7[row,]$Date.Time)< (first(cohort7$Date.Time) + days(3)))
+    cohort7[row,'Day'] <- '2'
+}
+
+for (row in rownames(cohort7)) {
+  num_day <- as.period(interval(first(cohort7$Date.Time),cohort7[row,]$Date.Time), units="days")
+  print(day(num_day))
+  cohort7[row, 'Day'] = day(num_day)
+}
+
+
+
 #calculate the amount of food intake for each day
 cohort7_each_animal_by_day <-
   cohort7 %>%
@@ -131,19 +160,6 @@ cohort7_each_animal_by_day <-
     )
 #Is the amount of food intake per day the same in all animals?
 kruskal.test(sum_weight ~ Animal_ID, data=cohort7_each_animal_by_day)
-
-library(lubridate)
-
-cohort7$Date.Time <- mdy_hms(cohort7$Date.Time)
-
-for (row in rownames(feeding_data)) {
-  if (hour(feeding_data[row,]$Date.Time)>7&hour(feeding_data[row,]$Date.Time)<19){
-    feeding_data[row,'Dark.Light'] <- 'Light'
-  }
-  else
-    feeding_data[row,'Dark.Light'] <- 'Dark'
-}
-feeding_data$Dark.Light <- as.factor(feeding_data$Dark.Light)
 
 
 #calculate the amount of food intake for each animal from the each day statistics
@@ -169,15 +185,18 @@ ggplot(data=cohort7_each_animal, aes(x=Animal_ID, y=mean_food, colour=Animal_ID)
   ggtitle("Cohort7 Food intake per day")+
   xlab("Animal_ID") +
   ylab("Food (g/day)")
+ggsave("./figures/Cohor7_food_intake_per_day.pdf")
 
 food_dark <- cohort7_summary[cohort7_summary$Light_Dark=="Dark",]
 food_light <- cohort7_summary[cohort7_summary$Light_Dark=="Light",]
 dark.shapiro <- shapiro.test(food_dark$sum_weight)
 
-wilcox.test(food_dark$sum_weight, food_light$sum_weight, alternative="greater")
-boxplot(Weight~Light_Dark, data=cohort7)
-boxplot(Duration~Light_Dark, data=cohort7)
-wilcox.test(Weight ~ Light_Dark, data=cohort7, alternative="greater")
+wilcox.test(food_dark$sum_weight, food_light$sum_weight, alternative="greater", conf.int=T)
+
+boxplot(sum_weight~Light_Dark, data=cohort7_summary)
+boxplot(sum_duration~Light_Dark, data=cohort7_summary)
+wilcox.test(sum_weight ~ Light_Dark, data=cohort7_summary, alternative="greater", conf.int=T)
+
 wilcox.test(Duration ~ Light_Dark, data=cohort7, alternative="greater")
 
 #compare the mean food intake across all mice.
@@ -186,7 +205,7 @@ kruskal.test(mean_weight ~ Animal_ID, data=food_light)
 
 ```
 
-There is no difference in the food intake across all animals in each dark and light cycle. The p-value `r wilcox.test(Weight ~ Light_Dark, data=cohort7, alternative="greater")$p.value`
+There is no difference in the food intake across all animals  either in the dark (`r kruskal.test(mean_weight ~ Animal_ID, data=food_dark)$p.value`) or light cycle (`r kruskal.test(mean_weight ~ Animal_ID, data=food_light)$p.value`). It appears that mice consumed more food in the dark than in the light, Wilcoxon's p-value is `wilcox.test(sum_weight ~ Light_Dark, data=cohort7_summary, alternative="greater")$p.value`.
 
 Analysis adjusting for LBM, BW, or fat mass
 -----
