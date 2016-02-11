@@ -117,36 +117,21 @@ Analysis for each animal per day
 ```{r analysis_per_animal}
 library(lubridate)
 cohort7$Date.Time <- mdy_hms(cohort7$Date.Time)
-numday <- as.period(interval(first(cohort7$Date.Time),last(cohort7$Date.Time)), units="days")
-day.stamp <- as.POSIXct(rep(NA, day(numday)), tz="UTC")
-#calculate the time stamp for each next day.
-for (d in 1:day(numday)){
-  day.stamp[d] = first(cohort7$Date.Time) + days(d)
-  mdy_hms(day.stamp)
-}
+#make a Day column
 cohort7$Day <- NULL
 for (row in rownames(cohort7)) {
-  if (cohort7[row,]$Date.Time)< (first(cohort7$Date.Time)+days(1)){cohort7[row, 'Day'] <- '1'
-                                                                   }
-  else if (cohort7[row,]$Date.Time)>(first(cohort7$Date.Time) + days(1)) & cohort7[row,]$Date.Time)< (first(cohort7$Date.Time) + days(2))){
-    cohort7[row,'Day'] <- '2'
-  }
-  else if (cohort7[row,]$Date.Time)>(first(cohort7$Date.Time) + days(2)) & cohort7[row,]$Date.Time)< (first(cohort7$Date.Time) + days(3)))
-    cohort7[row,'Day'] <- '2'
-}
-
-for (row in rownames(cohort7)) {
   num_day <- as.period(interval(first(cohort7$Date.Time),cohort7[row,]$Date.Time), units="days")
-  print(day(num_day))
-  cohort7[row, 'Day'] = day(num_day)
+  #print(day(num_day))
+  cohort7[row, 'Day'] = day(num_day)+1
 }
 
-
+#Remove the measurement on the 4th day as it was not fully measured
+cohort7_filter <- cohort7[!(cohort7$Day==4),]
 
 #calculate the amount of food intake for each day
 cohort7_each_animal_by_day <-
-  cohort7 %>%
-  group_by(Animal_ID, substring(Date.Time,0, 11)) %>%
+  cohort7_filter %>%
+  group_by(Animal_ID, Day) %>%
   summarise(
     sum_weight = sum(Weight), #get the food for each day
     #num_day = length(Animal_ID) -1,
@@ -158,9 +143,6 @@ cohort7_each_animal_by_day <-
     num_feed = length(Weight)
     #food_per_sec = sum_weight/sum_duration
     )
-#Is the amount of food intake per day the same in all animals?
-kruskal.test(sum_weight ~ Animal_ID, data=cohort7_each_animal_by_day)
-
 
 #calculate the amount of food intake for each animal from the each day statistics
 cohort7_each_animal <-
@@ -170,7 +152,7 @@ cohort7_each_animal <-
     cum_food = sum(sum_weight),
     mean_food = mean(sum_weight),
     se_food = se(sum_weight),
-    num_day = length(Animal_ID)-1,
+    num_day = length(Day),
     mean_duration = mean(sum_duration),
     se_duration = se(sum_duration),
     num_feed = sum(num_feed),
@@ -178,6 +160,10 @@ cohort7_each_animal <-
     #weight.shapiro = shapiro.test(sum_weight)$p.value
   )
 
+
+
+#Is the amount of food intake per day the same in all animals?
+kruskal.test(cum_food ~ Animal_ID, data=cohort7_each_animal)
 
 ggplot(data=cohort7_each_animal, aes(x=Animal_ID, y=mean_food, colour=Animal_ID)) +
   geom_bar(position=position_dodge(), aes(fill=Animal_ID),stat="identity") +  
