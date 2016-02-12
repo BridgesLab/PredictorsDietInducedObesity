@@ -1,0 +1,428 @@
+---
+title: "Food_intake"
+author: "Quynh Tran"
+date: "November 30, 2015"
+output: html_document
+---
+
+This script was most recently run on `r date()`. 
+
+```{r read_food_data_corhot7_data, message=FALSE, echo=FALSE, warning=FALSE}
+library(ggplot2)
+library(plyr)
+library(dplyr)
+dir <- "../data/processed/Feeding_data/Cohort7/"
+#data <- read.csv(file=paste(dir,"Feeding_1745.csv", sep=""))
+cohort7 <- data.frame(matrix(ncol = 10, nrow = 0))
+####
+##Make a function that read the food intake from each animal to a dataframe
+##Parameters: directory - the directory contains all the food intake files
+##           start_ID - the smallest animal ID 
+##           stop_ID - the biggest animal ID. We assume that animal_IDs are
+##all consecutive numbers.
+##           eliminate_ID - IDs of non-existing animals
+##           out_data - the data that save the combined food intake
+####
+read.input <- function(directory, start_ID, stop_ID, eliminate_ID, out_data){
+  for (i in start_ID:stop_ID){
+    if (!(i %in% eliminate_ID)){
+      feeding_file <- paste(directory, "Feeding_", i, ".csv", sep="")
+      #print(feeding_file)
+      data <- read.csv(file=feeding_file)
+      names(data)[2] <- "Sample"
+      names(data)[4] <- "Light_Dark"
+      names(data)[7] <- "Duration"
+      names(data)[8] <- "Weight"
+      names(data)[9] <- "Accumulated"
+      names(data)[10] <- "Animal_ID"
+      data$Animal_ID <- i
+      names(out_data) <- names(data)
+      out_data <- rbind(out_data, data)
+    }
+  }
+  return(out_data)
+}
+
+cohort7 <-read.input(dir, 1745, 1769, 1764, cohort7)
+
+cohort7$Animal_ID <- factor(cohort7$Animal_ID)
+cohort7$Light_Dark <- factor(cohort7$Light_Dark)
+#remove negative numbers and those that are more than 0.2 g of food. Mice won't eat more than that each time.
+cohort7 <- cohort7[cohort7$Weight<0.2 & cohort7$Weight>0,]
+#remove any duration that is more than 300 seconds
+cohort7 <- cohort7[cohort7$Duration<300,]
+#remove all the measurement after interval 129. Those after 129 may be from a different experiment.
+cohort7 <- cohort7[cohort7$Interval <= 129,]
+
+library(lubridate)
+cohort7$Date.Time <- mdy_hms(cohort7$Date.Time)
+
+ggplot(data=cohort7[cohort7$Animal_ID=="1767",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)") +
+  ggtitle("Food intake for animal 1767 per day")
+
+#make a Day column
+cohort7$Day <- NULL
+for (row in rownames(cohort7)) {
+  num_day <- as.period(interval(first(cohort7$Date.Time),cohort7[row,]$Date.Time), units="days")
+  #print(day(num_day))
+  cohort7[row, 'Day'] = day(num_day)+1
+}
+
+#Remove the measurement on the 4th day as it was not fully measured
+cohort7_filter <- cohort7[!(cohort7$Day==4),]
+cohort7_filter$Cohort <- '7'
+```
+
+Read data for cohort8
+----------
+```{r read_food_data_corhot8_data, message=FALSE, echo=FALSE, warning=FALSE}
+dir8 <- "../data/processed/Feeding_data/Cohort8/"
+cohort8 <- data.frame(matrix(ncol = 10, nrow = 0))
+cohort8 <- read.input(dir8, 2098, 2128, c(2100,2110), cohort8)
+
+cohort8$Animal_ID <- factor(cohort8$Animal_ID)
+#remove negative numbers and those that are more than 0.2 g of food. Mice won't eat more than that each time.
+cohort8 <- cohort8[cohort8$Weight<0.2 & cohort8$Weight>0,]
+#remove any duration that is more than 300 seconds
+cohort8 <- cohort8[cohort8$Duration<300,]
+cohort8$Date.Time <- mdy_hms(cohort8$Date.Time)
+#make a Day column
+cohort8$Day <- NULL
+first_day <- first(cohort8$Date.Time)
+for (row in rownames(cohort8)) {
+  num_day <- as.period(interval(first_day,cohort8[row,]$Date.Time), units="days")
+  #print(day(num_day))
+  cohort8[row, 'Day'] = day(num_day)+1
+}
+
+#Remove the measurement on the 4th day as it was not fully measured
+cohort8_filter <- cohort8[!(cohort8$Day==6),]
+cohort8_filter$Cohort <- '8'
+
+```
+
+Analysis combining cohort 7 and 8
+--------
+```{r combine_cohort7_8, message=FALSE}
+combined_data <- rbind(cohort7_filter, cohort8_filter)
+combined_data$Day <- as.factor(combined_data$Day)
+combined_data$Interval <- as.factor(combined_data$Interval)
+combined_data$Light_Dark <- as.factor(combined_data$Light_Dark)
+
+ggplot(data=combined_data[combined_data$Animal_ID=="1767",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="2112",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="2105",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="2106",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="2118",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="1757",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="2119",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="1753",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="1760",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+
+ggplot(data=combined_data[combined_data$Animal_ID=="1754",], aes(x=Date.Time, y=Weight, group=Animal_ID, colour=Animal_ID)) +
+  geom_point() + geom_line()+         
+  xlab("Interval") +
+  ylab("Food (g)")
+#remove data from animals 2105 and 2119
+combined_data <- combined_data[! combined_data$Animal_ID %in% c(2105, 2119, 1753, 1754, 1757, 1760),]
+
+se <- function(x) sd(x)/sqrt(length(x))
+
+combined_summary <-
+  combined_data %>%
+  group_by(Cohort, Animal_ID, Light_Dark) %>%
+  summarise(
+    sum_weight = sum(Weight),
+    mean_weight = mean(Weight),
+    se_weight = se(Weight),
+    sum_duration = sum(Duration),
+    mean_duration = mean(Duration),
+    se_duration = se(Duration),
+    num_feed = length(Weight),
+    food_per_sec = sum_weight/sum_duration
+    #weight.shapiro = shapiro.test(Weight)$p.value
+    )
+combined_summary <- combined_summary[!is.na(combined_summary$Light_Dark), ]
+
+
+#Number of feedings for each mouse
+ggplot(data=combined_summary, aes(x=Animal_ID, y=num_feed, colour=Animal_ID)) +
+  geom_point(data=combined_summary, aes(fill=Animal_ID)) +         
+  facet_grid(.~Light_Dark) +
+  ggtitle("Feeding habit")+
+  xlab("Animal_ID") +
+  ylab("Number of feedings")
+ggsave(file="figure/Cohort7_8_Number_of_feeding.pdf")
+
+#Avg Duration per feeding
+ggplot(data=combined_summary, aes(x=Animal_ID, y=mean_duration, colour=Animal_ID)) +
+  geom_bar(position=position_dodge(), aes(fill=Animal_ID),stat="identity") +  
+  geom_errorbar(aes(ymin=mean_duration-se_duration, ymax=mean_duration+se_duration), width=0.25, position=position_dodge(.9)) +
+  facet_grid(.~Light_Dark) +
+  ggtitle("Feeding Duration")+
+  xlab("Animal_ID") +
+  ylab("Avg duration per feeding (s)")
+ggsave(file="figure/Cohort7_8_duration_per_feeding.pdf")
+
+
+ggplot(combined_summary, aes(x=Animal_ID, y=sum_weight, group=Animal_ID, colour=Animal_ID)) + 
+  geom_point()+
+  facet_grid(Light_Dark~.)+
+  ggtitle("Cohort7 total food intake")+
+  xlab("Animal ID")+
+  ylab("Food (g)")
+ggsave("figure/Cohort7_8_total_food_intake_in_each_animal.pdf")
+```
+
+
+Analysis for each animal per day
+-----------
+```{r analysis_per_animal}
+#calculate the amount of food intake for each day
+combined_each_animal_by_day <-
+  combined_data %>%
+  group_by(Cohort, Animal_ID, Day) %>%
+  summarise(
+    sum_weight = sum(Weight), #get the food for each day
+    sum_duration = sum(Duration),
+    mean_duration = mean(Duration),
+    se_duration = se(Duration),
+    num_feed = length(Weight)
+    )
+#Is the amount of food intake per day the same in all animals?
+#NO, each animal consume different amount of food per day
+kruskal.test(sum_weight ~ Animal_ID, data=combined_each_animal_by_day)
+kruskal.test(sum_duration ~ Animal_ID, data=combined_each_animal_by_day)
+
+#calculate the amount of food intake for each animal from the each day statistics
+combined_each_animal <-
+  combined_each_animal_by_day %>%
+  group_by(Cohort, Animal_ID) %>%
+  summarise(
+    cum_food = sum(sum_weight),
+    mean_food = mean(sum_weight),
+    se_food = se(sum_weight),
+    num_day = length(Day),
+    avg_duration = mean(mean_duration),
+    se_duration = mean(se_duration),
+    num_feed = sum(num_feed),
+    food.day = cum_food/num_day
+    #weight.shapiro = shapiro.test(sum_weight)$p.value
+  )
+
+#remove animals with cummulative food intake < 1 g
+sub_data <- combined_each_animal[combined_each_animal$cum_food>1,]
+
+ggplot(data=sub_data, aes(x=Animal_ID, y=mean_food, colour=Animal_ID)) +
+  geom_bar(position=position_dodge(), aes(fill=Animal_ID),stat="identity") +  
+  geom_errorbar(aes(ymin=mean_food-se_food, ymax=mean_food+se_food), width=0.25, position=position_dodge(.9)) +
+  ggtitle("Food intake per day")+
+  xlab("Animal_ID") +
+  ylab("Food (g/day)")
+ggsave("figure/Food_intake_per_day.pdf")
+
+#Number of feedings for each mouse
+ggplot(data=sub_data, aes(x=Animal_ID, y=num_feed, colour=Animal_ID)) +
+  geom_point(data=sub_data, aes(fill=Animal_ID)) +         
+  ggtitle("Feeding habit")+
+  xlab("Animal_ID") +
+  ylab("Number of feedings")
+ggsave("figure/Number_of_feedings.pdf")
+
+#Avg Duration per feeding
+ggplot(data=combined_each_animal, aes(x=Animal_ID, y=avg_duration, colour=Animal_ID)) +
+  geom_bar(position=position_dodge(), aes(fill=Animal_ID),stat="identity") +  
+  geom_errorbar(aes(ymin=avg_duration-se_duration, ymax=avg_duration+se_duration), width=0.25, position=position_dodge(.9)) +
+  #facet_grid(.~Light_Dark) +
+  ggtitle("Feeding habit")+
+  xlab("Animal_ID") +
+  ylab("Avg duration per feeding per day (s/day)")
+ggsave("figure/Cohor7_duration_per_feeding_per_day.pdf")
+
+ggplot(sub_data, aes(x=Animal_ID, y=cum_food, group=Animal_ID, colour=Animal_ID)) + 
+  geom_point()+
+  ggtitle("Total food intake")+
+  xlab("Animal ID")+
+  ylab("Food (g)")
+ggsave("figure/Total_food_intake_in_each_animal.pdf")
+
+food_dark <- combined_summary[combined_summary$Light_Dark=="Dark",]
+food_light <- combined_summary[combined_summary$Light_Dark=="Light",]
+dark.shapiro <- shapiro.test(food_dark$sum_weight)
+
+wilcox.test(food_dark$sum_weight, food_light$sum_weight, alternative="greater", conf.int=T)
+
+boxplot(sum_weight~Light_Dark, data=combined_summary, ylab="Food (g)")
+boxplot(sum_duration~Light_Dark, data=combined_summary, ylab="Duration (s)")
+wilcox.test(sum_weight ~ Light_Dark, data=combined_summary, alternative="greater")
+wilcox.test(sum_duration~Light_Dark, data=combined_summary, alternative="greater")
+
+library(lattice)
+xyplot(sum_weight~Day|Animal_ID, data=combined_each_animal_by_day,  xlab = "Day", ylab = "Food (g)")
+
+```
+
+  The results suggested that mice may consumed a bit more food in the dark and light with a border Wilcoxon's p-value of `r wilcox.test(sum_weight ~ Light_Dark, data=combined_summary, alternative="greater")$p.value`. Mice spent more time eating in the Dark than in the Light, Wilcoxon's p-value = `r wilcox.test(sum_duration~Light_Dark, data=combined_summary, alternative="greater")$p.value`.
+
+Analysis by each cohort
+---------
+```{r }
+#take the average food per day of each animal = the average food intake for each cohort
+data_per_cohort <-
+  sub_data %>%
+  group_by(Cohort) %>%
+  summarise(
+    num_animals = length(Animal_ID),
+    avg_food_per_day = mean(mean_food),
+    se_food_per_day= sqrt(sum(se_food^2)/num_animals),
+    avg_duration_cohort = mean(avg_duration),
+    se_duration_cohort = sqrt(sum(se_duration^2)/num_animals),
+    num_feed = sum(num_feed)
+  )
+
+shapiro.test(sub_data[sub_data$Cohort=='7',]$mean_food)
+wilcox.test(mean_food ~ Cohort, data=sub_data, alternative="two.sided")
+
+ggplot(data=data_per_cohort, aes(x=Cohort, y=avg_food_per_day, colour=Cohort)) +
+  geom_bar(position=position_dodge(), aes(fill=Cohort),stat="identity") +  
+  geom_errorbar(aes(ymin=avg_food_per_day-se_food_per_day, ymax=avg_food_per_day+se_food_per_day), width=0.25, position=position_dodge(.9)) +
+  ggtitle("Food Intake")+
+  xlab("Cohort") +
+  ylab("Daily food intake (g)")
+ggsave("figure/Daily_food_intake_in_each_cohort.pdf")
+
+shapiro.test(sub_data[sub_data$Cohort=='8',]$avg_duration)
+wilcox.test(avg_duration~Cohort, data=sub_data, alternative="two.sided")
+
+ggplot(data=data_per_cohort, aes(x=Cohort, y=avg_duration_cohort, colour=Cohort)) +
+  geom_bar(position=position_dodge(), aes(fill=Cohort),stat="identity") +  
+  geom_errorbar(aes(ymin=avg_duration_cohort-se_duration_cohort, ymax=avg_duration_cohort+se_duration_cohort), width=0.25, position=position_dodge(.9)) +
+  ggtitle("Duration")+
+  xlab("Cohort") +
+  ylab("Duration per feeding (s/day)")
+ggsave("figure/Avg_duration_per_feeding_per_day_in_each_cohort.pdf")
+
+ggplot(data=sub_data, aes(x=Cohort, y=num_feed, colour=Cohort)) +
+  geom_boxplot() +  
+  geom_jitter() +
+  xlab("Cohort") +
+  ylab("Number of feedings")
+
+ggplot(data=sub_data, aes(x=Cohort, y=avg_duration, colour=Cohort)) +
+  geom_boxplot() +  
+  geom_jitter() +
+  xlab("Cohort") +
+  ylab("Duration per feeding per day (s)")
+
+ggplot(data=sub_data, aes(x=Cohort, y=mean_food, colour=Cohort)) +
+  geom_boxplot() +  
+  geom_jitter() +
+  xlab("Cohort") +
+  ylab("Daily food intake (g)")
+```
+
+  The food intake in Cohort 7 is not normally distributed as Shapiro-Wilk's p-value is `r shapiro.test(sub_data[sub_data$Cohort=='7',]$mean_food)$p.value`. The duration per feeding per day in cohort 8 is not normally distributed as tested by Shapiro-Wilk test, `r shapiro.test(sub_data[sub_data$Cohort=='8',]$avg_duration)$p.value`.
+    The amount of daily food intake in cohort 7 and 8 are not different, Wilcoxon p-value is `r wilcox.test(mean_food ~ Cohort, data=sub_data, alternative="two.sided")$p.value`. The average duration per feeding per day are not different between cohort 7 and 8 as tested by Wilcoxon rank sum test (p = `r wilcox.test(avg_duration ~ Cohort, data=sub_data, alternative="two.sided")$p.value`).
+
+
+Analysis adjusting for LBM, BW, or fat mass
+-----
+```{r food_intake_per_LBM}
+body_comp_7_file <- "../data/processed/body_composition_cohort7.csv"
+body_comp_7 <- read.csv(body_comp_7_file)
+
+body_comp_8_file <- "../data/processed/body_composition_cohort8.csv"
+body_comp_8 <- read.csv(body_comp_8_file)
+sub_body_comp_8 <- body_comp_8[, !colnames(body_comp_8)=='Grip.Strength..4.Paw.']
+
+combined_body_comp <- rbind(body_comp_7, sub_body_comp_8)
+food_LBM <- merge(combined_body_comp, sub_data, by.x="animal.MouseID", by.y="Animal_ID")
+sub_food_LBM <- food_LBM[food_LBM$Fasting_stat %in% c('Pre_fasting', 'After_HFD'),]
+
+food_per_LBM <-
+  sub_food_LBM %>%
+  group_by(animal.MouseID, Fasting_stat) %>%
+  summarise(
+    food.LBM = cum_food/Lean,
+    food.BW = cum_food/Weight,
+    food.FM = cum_food/Fat,
+    food.LBM.day = (mean_food/Lean),
+    food.BW.day = (mean_food/Weight),
+    food.FM.day = mean_food/Fat,
+    food.day = food.day
+  )
+
+food_per_LBM$animal.MouseID <- as.factor(food_per_LBM$animal.MouseID)
+food_per_LBM$Fasting_stat <- relevel(as.factor(food_per_LBM$Fasting_stat), ref='Pre_fasting')
+
+ggplot(data=food_per_LBM, aes(x=animal.MouseID, y=food.BW.day, colour=animal.MouseID)) +
+  geom_bar(position=position_dodge(), aes(fill=animal.MouseID),stat="identity") +  
+  facet_grid(.~Fasting_stat)+
+  xlab("Animal_ID") +
+  ylab("Food intake (g/g body weight per day)")
+
+with(food_LBM, plot(Weight,food.day, pch=19, las=1,
+                            col=c('green','red'),
+                            xlab="Fat Mass (g)",
+                            ylim=c(0,max(food.day)),
+                            ylab="Daily Food Intake (g)"))
+
+cor(food_LBM$Lean, food_LBM$food.day, method="kendall")
+cor.test(food_LBM$Lean, food_LBM$food.day, method="kendall")
+
+HFD <- food_LBM[food_LBM$Fasting_stat=="After_HFD",]
+with(HFD, plot(Weight,food.day, pch=19, las=1,
+                            #col=c('green','red','blue'),
+                            xlab="Body Weight (g)",
+                            ylim=c(0,max(food.day)),
+                            ylab="Daily Food Intake (g)"))
+cor(HFD$Weight, HFD$food.day, method="kendall")
+cor.test(HFD$Weight, HFD$food.day, method="kendall")
+```
+
+
+  There is no correlation between the food intake before fasting and the weight after HFD. The correlation is `r cor(HFD$Weight, HFD$food.day, method="kendall")` with the p-value of `r cor.test(food_LBM$Weight, food_LBM$food.day, method="kendall")$p.value`.
+
+Session Information
+---------------------
+```{r sessionInfo, echo=F}
+sessionInfo()
+```
