@@ -8,7 +8,7 @@ output:
     keep_md: true
 ---
 
-```{r global_options, include=FALSE}
+```{r global_options}
 library(knitr)
 opts_chunk$set(fig.path='figures/',
                echo=FALSE, warning=FALSE, message=FALSE,dev=c('png','pdf'))
@@ -20,11 +20,13 @@ Used analysed DESeq results.  This script was most recently run on `r date()`.
 ```{r file-input}
 filename <- "TPM Table.csv"
 deseq.filename.wat <- "DESeq Results for Effects of Diet on WAT - Kalllisto.csv"
+deseq.filename.quad <- "DESeq Results for Effects of Diet on Quadriceps - Kalllisto.csv"
 mapping.filename <- "../sample-mapping.csv"
 annotation.filename <- "ENSEMBL Annotation - Transcripts.csv"
 #read in the file
 normalized.data <- read.csv(filename, row.names='X')
 deseq.data.wat <- read.csv(deseq.filename.wat)
+deseq.data.quad <- read.csv(deseq.filename.quad)
 mapping <- read.csv(mapping.filename)
 mapping$samplename <- paste("sample", mapping$sample.., sep="")
 mapping$Diet <- relevel(mapping$Diet, ref="Control Diet")
@@ -35,7 +37,7 @@ This script uses the DESeq files `r deseq.filename.wat` and the mapping file `r 
 
 # Adipocytes
 
-```{r adipose-barplots}
+```{r adipose-data}
 #get columns for adipose data
 adipose.normalized.data <- normalized.data[,levels(droplevels(subset(mapping, Tissue=="eWAT")$Barcode))]
 #remove decimal from gene name
@@ -69,19 +71,71 @@ goi.long.cal <-
             SE = sd(expression)/sqrt(length(expression)))
 ```
 
+# Quadriceps
+
+```{r quadriceps-data}
+#get columns for quad data
+quad.normalized.data <- normalized.data[,levels(droplevels(subset(mapping, Tissue=="Quadriceps")$Barcode))]
+#remove decimal from gene name
+quad.normalized.data$ensembl_transcript_id <- as.character(lapply(strsplit(rownames(quad.normalized.data), "\\."), "[[", 1))
+
+rpkm.data.quad <- merge(quad.normalized.data, annotation, by='ensembl_transcript_id') 
+rpkm.data.unique.quad <- rpkm.data.quad
+
+rownames(rpkm.data.unique.quad) <- rpkm.data.unique.quad$ensembl_transcript_id
+rpkm.data.unique.quad <- rpkm.data.unique.quad
+
+#set genes for single barplots
+genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1","Irf4")
+transcripts.of.interest <- as.character(droplevels(subset(annotation, external_gene_name %in% genes.of.interest)$ensembl_transcript_id))
+
+#get a table of just the genes of interest
+genes.of.interest.data.quad <- rpkm.data.unique.quad[transcripts.of.interest,]
+#put the data in long format
+genes.of.interest.long.quad <- 
+  genes.of.interest.data.quad %>%
+  select(-gene_biotype, -ensembl_gene_id) %>%
+  gather(SampleID, expression, -external_gene_name, -ensembl_transcript_id)
+goi.long.quad <- droplevels(merge(mapping, genes.of.interest.long.quad, by.x="Barcode", by.y="SampleID"))
+
+goi.long.cal.quad <- 
+  goi.long.quad %>%
+  group_by(external_gene_name, ensembl_transcript_id, Feeding,Diet) %>%
+  summarize(Average = mean(expression),
+            SE = sd(expression)/sqrt(length(expression)))
+```
+
+
 Drew bargraphs for *`r paste(genes.of.interest, collapse=", ")`*.
 
-```{r barplots}
+```{r barplots, echo=FALSE, fig.show='asis', dev='pdf'}
 library(ggplot2)
 for (transcript in goi.long.cal$ensembl_transcript_id[!(is.na(goi.long.cal$ensembl_transcript_id))]) {
-  gene.data <- subset(goi.long.cal, ensembl_transcript_id==transcript)
-  p <- ggplot(gene.data, aes(x=Diet,y=Average,fill=Feeding))
+  gene.data.adipose <- subset(goi.long.cal, ensembl_transcript_id==transcript)
+  gene.data.quad <- subset(goi.long.cal.quad, ensembl_transcript_id==transcript)
+  p <- ggplot(gene.data.adipose, aes(x=Diet,y=Average,fill=Feeding))
+  q <- ggplot(gene.data.quad,  aes(x=Diet,y=Average,fill=Feeding))
   dodge <- position_dodge(width=0.9)
-  p <- p + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) 
-  
-  p + xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(paste(as.character(gene.data$external_gene_name[1]), transcript, sep=" - ")) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+  p + geom_bar(position=dodge, stat="identity") +
+     geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) +
+     xlab("") + ylab("mRNA Expression (RPKM)")+ 
+     theme_bw() + ggtitle(paste(as.character(gene.data.adipose$external_gene_name[1]), transcript, sep=" - ")) + 
+     theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + 
+     theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data.adipose$Diet) + 
+     theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
   ggsave(filename=paste('figures/barplots/Adipose-',
-                        paste(as.character(gene.data$external_gene_name[1]), transcript, sep=" - ")
+                        paste(as.character(gene.data.adipose$external_gene_name[1]), transcript, sep=" - ")
+                        ,'-barplot-kallisto.pdf',sep=""))
+  
+  q + geom_bar(position=dodge, stat="identity") +
+     geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) +
+     xlab("") + ylab("mRNA Expression (RPKM)")+ 
+     theme_bw() + ggtitle(paste(as.character(gene.data.quad$external_gene_name[1]), transcript, sep=" - ")) + 
+     theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + 
+     theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data.quad$Diet) + 
+     theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+  ggsave(filename=paste('figures/barplots/Quadriceps-',
+                        paste(as.character(gene.data.quad$external_gene_name[1]), transcript, sep=" - ")
                         ,'-barplot-kallisto.pdf',sep=""))
 }
 
