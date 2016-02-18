@@ -20,11 +20,13 @@ Used analysed DESeq results.  This script was most recently run on `r date()`.
 ```{r file-input}
 filename <- "Normalized Counts.csv"
 deseq.filename.wat <- "DESeq Results for Effects of Diet on WAT.csv"
+deseq.filename.quad <- "DESeq Results for Effects of Diet on Quadriceps.csv"
 mapping.filename <- "../sample-mapping.csv"
 annotation.filename <- "ENSEMBL Annotation.csv"
 #read in the file
 normalized.data <- read.csv(filename, row.names='X')
 deseq.data.wat <- read.csv(deseq.filename.wat)
+deseq.data.quad <- read.csv(deseq.filename.quad)
 mapping <- read.csv(mapping.filename)
 mapping$samplename <- paste("sample", mapping$sample.., sep="")
 mapping$Diet <- relevel(mapping$Diet, ref="Control Diet")
@@ -51,7 +53,7 @@ rownames(rpkm.data.unique) <- rpkm.data.unique$external_gene_name
 rpkm.data.unique <- rpkm.data.unique[,-1]
 
 #set genes for single barplots
-genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1")
+genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Irf4", "Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1")
 
 #get a table of just the genes of interest
 genes.of.interest.data <- rpkm.data.unique[genes.of.interest,]
@@ -71,21 +73,71 @@ goi.long.cal <-
             SE = sd(expression)/sqrt(length(expression)))
 ```
 
+
+# Quadriceps
+
+```{r quadriceps-barplots}
+#get columns for adipose data
+quad.normalized.data <- normalized.data[,levels(droplevels(subset(mapping, Tissue=="Quadriceps")$SampleID))]
+#remove decimal from gene name
+quad.normalized.data$ensembl_gene_id <- as.character(lapply(strsplit(rownames(quad.normalized.data), "\\."), "[[", 1))
+
+rpkm.data.quad <- merge(quad.normalized.data, annotation, by='ensembl_gene_id') 
+rpkm.data.unique.quad <- rpkm.data.quad[!duplicated(rpkm.data.quad$external_gene_name),]
+
+rownames(rpkm.data.unique.quad) <- rpkm.data.unique.quad$external_gene_name
+rpkm.data.unique.quad <- rpkm.data.unique.quad[,-1]
+
+#set genes for single barplots
+genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Irf4","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1")
+
+#get a table of just the genes of interest
+genes.of.interest.data.quad <- rpkm.data.unique.quad[genes.of.interest,]
+#put the data in long format
+library(tidyr)
+library(dplyr)
+genes.of.interest.long.quad <- 
+  genes.of.interest.data.quad %>%
+  select(-gene_biotype) %>%
+  gather(SampleID, expression, -external_gene_name)
+goi.long.quad <- merge(mapping, genes.of.interest.long.quad, by="SampleID")
+
+goi.long.cal.quad <- 
+  goi.long.quad %>%
+  group_by(external_gene_name, Feeding,Diet) %>%
+  summarize(Average = mean(expression),
+            SE = sd(expression)/sqrt(length(expression)))
+```
+
+
 Drew bargraphs for *`r paste(genes.of.interest, collapse=", ")`*.
 
 ```{r barplots}
 library(ggplot2)
 for (gene in genes.of.interest) {
-  #pdf(sprintf('../figures/%s-barplot.pdf', gene))
   gene.data <- goi.long.cal[goi.long.cal$external_gene_name==gene,]
-  #pdf(paste('../figures/',gene,'-barplot.pdf',sep=""))
-  p <- ggplot(gene.data, aes(x=Diet,y=Average,fill=Feeding))
-  dodge <- position_dodge(width=0.9)
-  p <- p + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) 
+  gene.data.quad <- goi.long.cal.quad[goi.long.cal.quad$external_gene_name==gene,]
   
-  p + xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(gene) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-  ggsave(filename=paste('figures/barplots/Adipose-',gene,' - barplot.pdf',sep=""))
+  p <- ggplot(gene.data, aes(x=Diet,y=Average,fill=Feeding))
+  q <- ggplot(gene.data.quad, aes(x=Diet,y=Average,fill=Feeding))
+  
+  dodge <- position_dodge(width=0.9)
+  p + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) + 
+   xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(gene) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+ggsave(filename=paste('figures/barplots/Adipose-',gene,' - barplot-HTSeq.pdf',sep=""))
+
+  q + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) + 
+   xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(gene) + 
+    theme(panel.grid.minor = element_blank()) + 
+    theme(panel.grid.major = element_blank()) + 
+    theme(panel.border=element_blank()) + 
+    scale_x_discrete(labels=gene.data$Diet) + 
+    theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+ ggsave(filename=paste('figures/barplots/Quadriceps-',gene,' - barplot-HTSeq.pdf',sep=""))
+  
 }
+
+
 
 ```
 
