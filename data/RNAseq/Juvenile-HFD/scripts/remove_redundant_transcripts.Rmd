@@ -1,0 +1,52 @@
+---
+title: "remove_redundant_transcripts"
+author: "Quynh Tran"
+date: "March 3, 2016"
+output: html_document
+---
+This script will go through the analysis from kallisto and keep a transcript with highest mean expression counts for each gene. It will also compare the 
+
+Used analysed DESeq results.  This script was most recently run on `r date()`.
+
+```{r file-input, echo=FALSE, message=FALSE}
+filename <- "TPM Table.csv"
+deseq.filename.kal <- "DESeq Results for Effects of Diet on WAT - Kalllisto.csv"
+deseq.filename.htseq <- "DESeq Results for Effects of Diet on WAT.csv"
+mapping.filename <- "../sample-mapping.csv"
+
+#read in the file
+normalized.data <- read.csv(filename, row.names='X')
+deseq.data.kal <- read.csv(deseq.filename.kal)
+deseq.data.htseq <- read.csv(deseq.filename.htseq)
+
+mapping <- read.csv(mapping.filename)
+mapping$samplename <- paste("sample", mapping$sample.., sep="")
+mapping$Diet <- relevel(mapping$Diet, ref="Control Diet")
+
+```
+
+Remove redundant genes
+
+```{r remove_redundancy, echo=FALSE}
+unique.kal.data <- NULL
+#unique.kal.data <- colnames(deseq.data.kal)
+gene.name <- unique(deseq.data.kal$external_gene_name)
+
+for (i in gene.name[1:10]){
+  sub <- subset(deseq.data.kal, external_gene_name==i)
+  #print(sub)
+  max.mean <- round(max(sub$baseMean),0)
+  print(max.mean)
+  if (max.mean != 0){
+    subset.max <- sub[which(max.mean==round(sub$baseMean,0)),]
+    unique.kal.data <- rbind(unique.kal.data, subset.max)
+  }
+  else{
+    unique.kal.data <-rbind(unique.kal.data, sub)
+  }
+  #print(unique.kal.data)
+}
+write.csv(unique.kal.data, file="Unique DESeq Results for Effects of Diet on WAT - Kalllisto.csv")
+```
+
+Compare 
