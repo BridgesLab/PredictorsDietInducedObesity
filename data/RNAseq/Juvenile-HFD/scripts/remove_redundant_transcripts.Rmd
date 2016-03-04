@@ -4,49 +4,96 @@ author: "Quynh Tran"
 date: "March 3, 2016"
 output: html_document
 ---
-This script will go through the analysis from kallisto and keep a transcript with highest mean expression counts for each gene. It will also compare the 
+This script will go through the deseq results obtained from kallisto counts and keep the transcript with the highest base mean expression counts for each gene. It will also compare the padjusted values obtained from htseq and kallisto counts to see if the conclusions are consistent between the two analyses.
 
 Used analysed DESeq results.  This script was most recently run on `r date()`.
 
 ```{r file-input, echo=FALSE, message=FALSE}
-filename <- "TPM Table.csv"
-deseq.filename.kal <- "DESeq Results for Effects of Diet on WAT - Kalllisto.csv"
-deseq.filename.htseq <- "DESeq Results for Effects of Diet on WAT.csv"
-mapping.filename <- "../sample-mapping.csv"
+deseq.filename.kal <- "DESeq Results for Effects of Feeding on Quadriceps - Kalllisto.csv"
+deseq.filename.htseq <- "DESeq Results for Effects of Feeding on Quadriceps.csv"
 
 #read in the file
-normalized.data <- read.csv(filename, row.names='X')
 deseq.data.kal <- read.csv(deseq.filename.kal)
 deseq.data.htseq <- read.csv(deseq.filename.htseq)
 
-mapping <- read.csv(mapping.filename)
-mapping$samplename <- paste("sample", mapping$sample.., sep="")
-mapping$Diet <- relevel(mapping$Diet, ref="Control Diet")
 
 ```
 
-Remove redundant genes
+Remove redundant transcripts that do not have NA in their base mean counts
+------------------
 
 ```{r remove_redundancy, echo=FALSE}
 unique.kal.data <- NULL
 #unique.kal.data <- colnames(deseq.data.kal)
 gene.name <- unique(deseq.data.kal$external_gene_name)
+unique_file_name = "Unique_Transcript_DESeq_Results_Feeding_Effects_Quadriceps_Kalllisto.csv"
+agreement_stat_filename = "Agreement_stat_Feeding_Effects_Quadriceps.csv"
 
-for (i in gene.name[1:10]){
-  sub <- subset(deseq.data.kal, external_gene_name==i)
+for (g in gene.name){
+  sub <- subset(deseq.data.kal, external_gene_name==g)
   #print(sub)
   max.mean <- round(max(sub$baseMean),0)
-  print(max.mean)
   if (max.mean != 0){
-    subset.max <- sub[which(max.mean==round(sub$baseMean,0)),]
+    subset.max <- sub[which(sub$baseMean==max(sub$baseMean)),]
     unique.kal.data <- rbind(unique.kal.data, subset.max)
-  }
-  else{
-    unique.kal.data <-rbind(unique.kal.data, sub)
+  } else{
+      if (nrow(sub)>1){
+        unique.kal.data <-rbind(unique.kal.data, sub[1,])
+      }else{
+        unique.kal.data <-rbind(unique.kal.data, sub)
+      }
   }
   #print(unique.kal.data)
 }
-write.csv(unique.kal.data, file="Unique DESeq Results for Effects of Diet on WAT - Kalllisto.csv")
+write.csv(unique.kal.data, file=unique_file_name)
+```
+  The output file contains unique gene names for kallisto is `r unique_file_name`. This file contains unique gene names for those that do not have NA values for their base mean counts only.
+  
+Comparison 
+-------
+
+```{r compare_adjP, echo=FALSE}
+#gene.in.htseq <- unique(deseq.data.htseq$external_gene_name)
+#number of agreement
+#unique_file_name = "Unique_Transcript_DESeq_Results_Main_Diet_Effects_WAT_Kalllisto.csv"
+unique.kal.data <- read.csv(unique_file_name)
+gene.name <- unique(unique.kal.data$external_gene_name)
+agree = 0
+disagree = 0
+disagreeNA = 0
+
+for (gene in gene.name){
+  p.htseq <- deseq.data.htseq[which(deseq.data.htseq$external_gene_name==gene), "padj"]
+  p.kallisto <- unique.kal.data[which(unique.kal.data$external_gene_name==gene), "padj"]
+  if (!is.na(p.htseq) & (!is.na(p.kallisto)[1])) { #none of the p-values are NA
+    if ((p.htseq > 0.05 & p.kallisto > 0.05) | (p.htseq < 0.05 & p.kallisto < 0.05)){
+      agree = agree + 1
+    }
+    else{
+      disagree = disagree + 1
+    }
+  } else{
+      if (is.na(p.htseq) & (is.na(p.kallisto)[1])){ #both p-values are NA
+        agree=agree+1
+      }
+      else{ # either value is NA
+        disagreeNA=disagreeNA+1
+      }
+  }
+}
+total = agree+disagree+disagreeNA
+stat_data <- data.frame(agree, disagree, disagreeNA)
+stat_data$agreePercent <- stat_data$agree/total
+stat_data$disagreePercent <- stat_data$disagree/total
+stat_data$disagreeNAPercent <- stat_data$disagreeNA/total
+write.csv(stat_data, file=agreement_stat_filename)
 ```
 
-Compare 
+  The number of agreement in conclusions based on padj between htseq and kallisto based counts is **`r agree` (`r agree/total*100`%)**. The number of disagreement where one of the p-values is NA is **`r disagreeNA` (`r disagreeNA/total*100`%)**. The number of disagreement when one of the p-values <0.05 but the other is >0.05 is **`r disagree` (`r disagree/total*100`%)**.
+  
+Session Information
+---------------------
+
+```{r session-information}
+sessionInfo()
+```
