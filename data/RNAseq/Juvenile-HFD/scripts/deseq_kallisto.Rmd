@@ -28,7 +28,7 @@ annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
 annotation <- read.csv(annotation_file)
 
 #iterate over tsv files to make a table of the estimated counts and of the tpm
-'/for (file in dir(file.path(input_folder))) {
+for (file in dir(file.path(input_folder))) {
   filename <- paste(paste(input_folder, file, sep="/"), "abundance.tsv", sep="/")
   temp <- read.table(filename, header=T)
   if ( !(exists("tpm.counts.table")) ) {
@@ -53,16 +53,16 @@ colnames(est.counts.table) <- dir(file.path(input_folder))
 
 rownames(est.counts.table) <- as.character(lapply(strsplit(as.character(temp$target_id), "\\|"), "[[", 1))
 rownames(tpm.counts.table) <- as.character(lapply(strsplit(as.character(temp$target_id), "\\|"), "[[", 1))
-/'
+
 
 tpm.counts.file <- 'TPM Table.csv'
 est.counts.file <- 'Estimated Counts.csv'
 
-#write.csv(tpm.counts.table, tpm.counts.file)
-#write.csv(est.counts.table, est.counts.file)
+write.csv(tpm.counts.table, tpm.counts.file)
+write.csv(est.counts.table, est.counts.file)
 
-tpm.counts.table <- read.csv(tpm.counts.file) 
-est.counts.table <- read.csv(est.counts.file)
+#tpm.counts.table <- read.csv(tpm.counts.file) 
+#est.counts.table <- read.csv(est.counts.file)
 #reorder counts table to match sample table
 est.counts.table <- est.counts.table[,rownames(sample.table)]
 #make them into integers
