@@ -9,11 +9,15 @@ This script will go through the deseq results obtained from kallisto counts and 
 Used analysed DESeq results.  This script was most recently run on `r date()`.
 
 ```{r file-input, echo=FALSE, message=FALSE}
-deseq.filename.kal <- "DESeq Results for Effects of Diet on Quadriceps - Kalllisto.csv"
-deseq.filename.htseq <- "DESeq Results for Effects of Diet on Quadriceps.csv"
+deseq.filename.kal <- "DESeq Results for Effects of Combined Model on Quadriceps - Kallisto.csv"
+deseq.filename.htseq <- "DESeq Results for Effects of Combined Model on Quad.csv"
 
-unique_file_name = "Unique_Transcript_DESeq_Results_Diet_Effects_Quadriceps_Kalllisto.csv"
+unique_file_name = "Unique_Transcript_DESeq_Results_Combined_Effects_Quadriceps_Kallisto.csv"
 
+deseq.filename.kal1 <- "DESeq Results for Effects of Combined Model on WAT - Kalllisto.csv"
+deseq.filename.htseq1 <- "DESeq Results for Effects of Combined Model on WAT.csv"
+
+unique_file_name1 = "Unique_Transcript_DESeq_Results_Combined_Effects_WAT_Kallisto.csv"
 ```
 
 Remove redundant transcripts that do not have NA in their base mean counts
@@ -49,6 +53,7 @@ remove_redundancy <- function(kal_file, htseq_file, out_file){
 }
 
 remove_redundancy(deseq.filename.kal, deseq.filename.htseq, unique_file_name)
+remove_redundancy(deseq.filename.kal1, deseq.filename.htseq1, unique_file_name1)
 ```
   The output file contains unique gene names for kallisto is `r unique_file_name`. This file contains unique gene names for those that do not have NA values for their base mean counts only.
   
