@@ -28,11 +28,11 @@ annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
 annotation <- read.csv(annotation_file)
 
 #iterate over tsv files to make a table of the estimated counts and of the tpm
-for (file in dir(file.path(input_folder))) {
+'/for (file in dir(file.path(input_folder))) {
   filename <- paste(paste(input_folder, file, sep="/"), "abundance.tsv", sep="/")
   temp <- read.table(filename, header=T)
-  if ( !(exists('tpm.counts.table')) ) {
-    tpm.counts.table <- data.frame(temp$tpm, row.names=temp$target_id)
+  if ( !(exists("tpm.counts.table")) ) {
+     tpm.counts.table <- data.frame(temp$tpm, row.names=temp$target_id)
   }
   else
      tpm.counts.table <- cbind(tpm.counts.table, temp$tpm)
@@ -43,7 +43,7 @@ colnames(tpm.counts.table) <- dir(file.path(input_folder))
 for (file in dir(file.path(input_folder))) {
   filename <- paste(paste(input_folder, file, sep="/"), "abundance.tsv", sep="/")
   temp <- read.table(filename, header=T)
-  if ( !(exists('est.counts.table')) ) {
+  if ( !(exists("est.counts.table")) ) {
     est.counts.table <- data.frame(temp$est_counts, row.names=temp$target_id)
   }
   else
@@ -53,13 +53,16 @@ colnames(est.counts.table) <- dir(file.path(input_folder))
 
 rownames(est.counts.table) <- as.character(lapply(strsplit(as.character(temp$target_id), "\\|"), "[[", 1))
 rownames(tpm.counts.table) <- as.character(lapply(strsplit(as.character(temp$target_id), "\\|"), "[[", 1))
+/'
 
 tpm.counts.file <- 'TPM Table.csv'
 est.counts.file <- 'Estimated Counts.csv'
 
-write.csv(tpm.counts.table, tpm.counts.file)
-write.csv(est.counts.table, est.counts.file)
+#write.csv(tpm.counts.table, tpm.counts.file)
+#write.csv(est.counts.table, est.counts.file)
 
+tpm.counts.table <- read.csv(tpm.counts.file) 
+est.counts.table <- read.csv(est.counts.file)
 #reorder counts table to match sample table
 est.counts.table <- est.counts.table[,rownames(sample.table)]
 #make them into integers
@@ -132,7 +135,7 @@ res.wat.feeding <- results(dds.wat.feeding,
 res.wat.feeding.main.diet <- results(dds.wat.feeding,
                            parallel=T,
                            name='Diet_High.Fat.Diet_vs_Control.Diet')
-res.wat.feeding$log2FoldChange_Diet <- res.wat.feeding.main.diet$Log2FoldChange
+res.wat.feeding$log2FoldChange_Diet <- res.wat.feeding.main.diet$log2FoldChange
 res.wat.feeding$lfcSE_Diet <- res.wat.feeding.main.diet$lfcSE
 res.wat.feeding$pvalue_Diet <- res.wat.feeding.main.diet$pvalue
 res.wat.feeding$padj_Diet <- res.wat.feeding.main.diet$padj
@@ -140,7 +143,7 @@ res.wat.feeding$padj_Diet <- res.wat.feeding.main.diet$padj
 res.wat.feeding.main.feeding <- results(dds.wat.feeding,
                            parallel=T,
                            name='Feeding_Fed_vs_Fasted')
-res.wat.feeding$log2FoldChange_Feeding <- res.wat.feeding.main.feeding$Log2FoldChange
+res.wat.feeding$log2FoldChange_Feeding <- res.wat.feeding.main.feeding$log2FoldChange
 res.wat.feeding$lfcSE_Feeding <- res.wat.feeding.main.feeding$lfcSE
 res.wat.feeding$pvalue_Feeding <- res.wat.feeding.main.feeding$pvalue
 res.wat.feeding$padj_Feeding <- res.wat.feeding.main.feeding$padj
