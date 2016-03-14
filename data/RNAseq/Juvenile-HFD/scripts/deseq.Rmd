@@ -76,7 +76,7 @@ The adipose tissue samples are all eWAT samples
 
 This model used only the adipose tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
 
-```{r wat-overall-kallisto}
+```{r wat-overall}
 dds.wat.feeding <- DESeqDataSetFromHTSeqCount(sampleTable = subset(sample_table, Tissue=="eWAT"),
                                        directory = input_folder, 
                                        design= ~ Feeding + Diet + Feeding:Diet)
@@ -216,6 +216,53 @@ We identified `r table(res.wat$padj < 0.05)['TRUE']` differentially expressed ge
 # Muscle Tissue
 
 The muscle tissue samples are all quadriceps samples
+
+## Quadriceps Overall Model
+
+This model used only the quadricep tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
+
+```{r quad-overall}
+dds.quad.feeding <- DESeqDataSetFromHTSeqCount(sampleTable = subset(sample_table, Tissue=="Quadriceps"),
+                                       directory = input_folder, 
+                                       design= ~ Feeding + Diet + Feeding:Diet)
+
+dds.quad.feeding <- DESeq(dds.quad.feeding, parallel=T)
+res.quad.feeding <- results(dds.quad.feeding,
+                           parallel=T,
+                           name='FeedingFed.DietHigh.Fat.Diet')
+
+res.quad.feeding.main.diet <- results(dds.quad.feeding,
+                           parallel=T,
+                           name='Diet_High.Fat.Diet_vs_Control.Diet')
+res.quad.feeding$log2FoldChange_Diet <- res.quad.feeding.main.diet$log2FoldChange
+res.quad.feeding$lfcSE_Diet <- res.quad.feeding.main.diet$lfcSE
+res.quad.feeding$pvalue_Diet <- res.quad.feeding.main.diet$pvalue
+res.quad.feeding$padj_Diet <- res.quad.feeding.main.diet$padj
+
+res.quad.feeding.main.feeding <- results(dds.quad.feeding,
+                           parallel=T,
+                           name='Feeding_Fed_vs_Fasted')
+res.quad.feeding$log2FoldChange_Feeding <- res.quad.feeding.main.feeding$log2FoldChange
+res.quad.feeding$lfcSE_Feeding <- res.quad.feeding.main.feeding$lfcSE
+res.quad.feeding$pvalue_Feeding <- res.quad.feeding.main.feeding$pvalue
+res.quad.feeding$padj_Feeding <- res.quad.feeding.main.feeding$padj
+
+res.quad.feeding$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.quad.feeding), "\\."), "[[", 1))
+
+annotated.res.quad.feeding <- merge(as.data.frame(res.quad.feeding), 
+                          annotation, 
+                          by='ensembl_gene_id',
+                          all.x=T)
+```
+Using the combined model, we identified `r table(annotated.res.quad.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in quad.  After removing those genes with an interaction, `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.
+
+```{r quad-overall-model-summary}
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
+quad_feeding_results_file <- 'DESeq Results for Effects of Combined Model on Quad.csv'
+write.csv(annotated.res.quad.feeding, quad_feeding_results_file)
+```
 
 ## Effects of Feeding State
 
