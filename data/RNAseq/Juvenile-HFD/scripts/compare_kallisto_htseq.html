@@ -116,9 +116,628 @@ $(document).ready(function () {
 
 
 <p>This script compares the padjusted values obtained from htseq and kallisto counts to see if the conclusions are consistent between the two analyses.</p>
-<p>Used analysed DESeq results. This script was most recently run on Mon Mar 14 18:03:24 2016.</p>
+<p>Used analysed DESeq results. This script was most recently run on Wed Mar 16 14:01:57 2016.</p>
 <div id="comparison" class="section level2">
 <h2>Comparison</h2>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used
+
+## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
+## the condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (is.na(p.htseq) &amp; (is.na(p.kallisto)[1])) {: the condition
+## has length &gt; 1 and only the first element will be used</code></pre>
 <pre><code>## Warning in if ((p.htseq &gt; 0.05 &amp; p.kallisto &gt; 0.05) | (p.htseq &lt; 0.05 &amp; :
 ## the condition has length &gt; 1 and only the first element will be used</code></pre>
 <pre><code>## Warning in if (!is.na(p.htseq) &amp; (!is.na(p.kallisto)[1])) {: the condition

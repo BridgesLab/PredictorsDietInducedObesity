@@ -1,0 +1,74 @@
+---
+title: "get_highest_count_transcript"
+author: "Quynh Tran"
+date: "March 16, 2016"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r read_files, echo=FALSE}
+kal_estimate_file <- 'Estimated Counts.csv'
+sample.table_file <- '../sample-mapping.csv'
+kal_estimate <- read.csv(kal_estimate_file)
+sample.table <- read.csv(sample.table_file)
+sample.table$Barcode <- paste(sample.table$Barcode, "counts.txt", sep="-")
+rownames(sample.table) <- as.character(lapply(strsplit(sample.table$Barcode, "-"), "[[",1))
+
+rownames(kal_estimate) <- kal_estimate$X
+kal_est <- kal_estimate[,-1]
+rownames(kal_est) <- as.character(lapply(strsplit(rownames(kal_estimate), "\\."), "[[", 1))
+
+annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
+annotation <- read.csv(annotation_file)
+
+wat_samples <- subset(sample.table, Tissue=="eWAT")
+quad_samples <- subset(sample.table, Tissue=="Quadriceps")
+
+kal_wat <- kal_est[,colnames(kal_est)%in%rownames(wat_samples)]
+kal_quad <-kal_est[,colnames(kal_est)%in%rownames(quad_samples)]
+
+kal_wat$average <- rowMeans(kal_wat)
+kal_quad$average <- rowMeans(kal_quad)
+
+kal_wat_annot <- merge(kal_wat, annotation, by.x='row.names', by.y='ensembl_transcript_id')
+kal_quad_annot <- merge(kal_quad, annotation, by.x='row.names', by.y='ensembl_transcript_id')
+
+```
+
+You can also embed plots, for example:
+
+```{r get_the_max_count, echo=FALSE}
+out_file_wat <- "Unique_Estimated_Counts_WAT.csv"
+out_file_quad <- "Unique_Estimated_Counts_Quad.csv"
+remove_redundancy <- function(kal_file, out_file){
+
+  unique.kal.data <- NULL
+  #unique.kal.data <- colnames(deseq.data.kal)
+  gene.name <- unique(kal_file$external_gene_name)
+  
+  for (g in gene.name){
+    sub <- subset(kal_file, external_gene_name==g)
+    #print(sub)
+    max.mean <- max(sub$average)
+    print(max.mean)
+    if (max.mean != 0 & nrow(sub)>1){
+      subset.max <- sub[which(sub$average==max(sub$average)),]
+      unique.kal.data <- rbind(unique.kal.data, subset.max)
+    } else{
+        if (max.mean !=0 & nrow(sub)==1){
+          unique.kal.data <-rbind(unique.kal.data, sub[1,])
+        }
+    }
+    print(nrow(unique.kal.data))
+  }
+  write.csv(unique.kal.data, file=out_file)
+}
+
+remove_redundancy(kal_wat_annot, out_file_wat)
+remove_redundancy(kal_quad_annot, out_file_quad)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
