@@ -1,0 +1,173 @@
+---
+title: "DESeq Analysis"
+author: "Quynh Tran"
+date: "August 2, 2015"
+output:
+  html_document:
+    keep_md: true
+---
+
+
+```{r global_options, include=FALSE}
+library(knitr)
+opts_chunk$set(fig.path='figures/',
+               echo=FALSE, warning=FALSE, message=FALSE,dev=c('png','pdf'))
+options(digits=3, scipen=8)
+```
+
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on `r date()`.  This uses the input data from the kallisto runs.
+
+```{r data-unique-kallisto}
+wat_file <- 'Unique_Estimated_Counts_WAT.csv'
+quad_file <- 'Unique_Estimated_Counts_Quad.csv'
+sample.table_file <- '../sample-mapping.csv'
+sample.table <- read.csv(sample.table_file)
+sample.table$Barcode <- paste(sample.table$Barcode, "counts.txt", sep="-")
+rownames(sample.table) <- as.character(lapply(strsplit(sample.table$Barcode, "-"), "[[",1))
+
+annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
+annotation <- read.csv(annotation_file)
+
+wat.data <- read.csv(wat_file)
+quad.data <- read.csv(quad_file)
+
+rownames(wat.data) <- wat.data$Row.names
+wat.data <- wat.data[,-1]
+wat.counts <- wat.data[,grep("IonXpress",colnames(wat.data))]
+
+rownames(quad.data) <- quad.data$Row.names
+quad.data <- quad.data[,-1]
+quad.counts <- quad.data[,grep("IonXpress",colnames(quad.data))]
+
+#make them into integers
+for (col in colnames(wat.counts)) {
+  wat.counts[,col] <- as.integer(wat.counts[,col])
+}
+
+for (col in colnames(quad.counts)) {
+  quad.counts[,col] <- as.integer(quad.counts[,col])
+}
+```
+
+The counts data, derived from kallisto and get_highest_kallisto_count_transcript.Rmd are located in `r wat_file` and `r quad_file`.  The sample mapping file is located in `r sample.table_file`.  The annotations are from the file `r annotation_file`.  The files are written out as `r tpm.counts.file` and `r est.counts.file`.
+
+
+# Adipose Tissue
+
+The adipose tissue samples are all eWAT samples
+
+## Adipose Overall Model
+
+This model used only the adipose tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
+
+```{r wat-overall-kallisto}
+library(DESeq2)
+#subsettted the sample tables and counts tables
+sample.table.wat <- subset(sample.table, Tissue=="eWAT")
+sample.table.quad <- subset(sample.table, Tissue=="Quadriceps")
+
+dds.wat.feeding <- DESeqDataSetFromMatrix(colData = sample.table.wat,
+                                       countData = wat.counts,  
+                                       design= ~ Feeding + Diet + Diet:Feeding)
+
+dds.wat.feeding <- DESeq(dds.wat.feeding, parallel=T)
+res.wat.feeding <- results(dds.wat.feeding,
+                           parallel=T,
+                           name='FeedingFed.DietHigh.Fat.Diet')
+
+res.wat.feeding.main.diet <- results(dds.wat.feeding,
+                           parallel=T,
+                           name='Diet_High.Fat.Diet_vs_Control.Diet')
+res.wat.feeding$log2FoldChange_Diet <- res.wat.feeding.main.diet$log2FoldChange
+res.wat.feeding$lfcSE_Diet <- res.wat.feeding.main.diet$lfcSE
+res.wat.feeding$pvalue_Diet <- res.wat.feeding.main.diet$pvalue
+res.wat.feeding$padj_Diet <- res.wat.feeding.main.diet$padj
+
+res.wat.feeding.main.feeding <- results(dds.wat.feeding,
+                           parallel=T,
+                           name='Feeding_Fed_vs_Fasted')
+res.wat.feeding$log2FoldChange_Feeding <- res.wat.feeding.main.feeding$log2FoldChange
+res.wat.feeding$lfcSE_Feeding <- res.wat.feeding.main.feeding$lfcSE
+res.wat.feeding$pvalue_Feeding <- res.wat.feeding.main.feeding$pvalue
+res.wat.feeding$padj_Feeding <- res.wat.feeding.main.feeding$padj
+
+res.wat.feeding$ensembl_transcript_id <- as.character(lapply(strsplit(rownames(res.wat.feeding), "\\."), "[[", 1))
+
+annotated.res.wat.feeding <- merge(as.data.frame(res.wat.feeding), 
+                          annotation, 
+                          by='ensembl_transcript_id',
+                          all.x=T)
+```
+
+Using the combined model, we identified `r table(annotated.res.wat.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in WAT.  After removing those genes with an interaction, `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.
+
+```{r wat-overall-model-summary}
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
+wat_feeding_results_file <- 'DESeq_Combined_Model_WAT_Unique_Kalllisto.csv'
+write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
+```
+
+```{r heatmap_wat}
+
+```
+
+
+# Muscle Tissue
+
+The muscle tissue samples are all quadriceps samples
+
+## Muscle Overall Model
+
+This model used only the quadricep tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
+
+```{r quad-overall-kallisto}
+dds.quad.feeding <- DESeqDataSetFromMatrix(colData = sample.table.quad,
+                                       countData = est.counts.table.quad,  
+                                       design= ~ Feeding + Diet + Diet:Feeding)
+
+dds.quad.feeding <- DESeq(dds.quad.feeding, parallel=T)
+res.quad.feeding <- results(dds.quad.feeding,
+                           parallel=T,
+                           name='FeedingFed.DietHigh.Fat.Diet')
+
+res.quad.feeding.main.diet <- results(dds.quad.feeding,
+                           parallel=T,
+                           name='Diet_High.Fat.Diet_vs_Control.Diet')
+res.quad.feeding$log2FoldChange_Diet <- res.quad.feeding.main.diet$log2FoldChange
+res.quad.feeding$lfcSE_Diet <- res.quad.feeding.main.diet$lfcSE
+res.quad.feeding$pvalue_Diet <- res.quad.feeding.main.diet$pvalue
+res.quad.feeding$padj_Diet <- res.quad.feeding.main.diet$padj
+
+res.quad.feeding.main.feeding <- results(dds.quad.feeding,
+                           parallel=T,
+                           name='Feeding_Fed_vs_Fasted')
+res.quad.feeding$log2FoldChange_Feeding <- res.quad.feeding.main.feeding$log2FoldChange
+res.quad.feeding$lfcSE_Feeding <- res.quad.feeding.main.feeding$lfcSE
+res.quad.feeding$pvalue_Feeding <- res.quad.feeding.main.feeding$pvalue
+res.quad.feeding$padj_Feeding <- res.quad.feeding.main.feeding$padj
+
+res.quad.feeding$ensembl_transcript_id <- as.character(lapply(strsplit(rownames(res.quad.feeding), "\\."), "[[", 1))
+
+annotated.res.quad.feeding <- merge(as.data.frame(res.quad.feeding), 
+                          annotation, 
+                          by='ensembl_transcript_id',
+                          all.x=T)
+```
+Using the combined model, we identified `r table(annotated.res.quad.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in quad.  After removing those genes with an interaction, `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.
+
+```{r quad-overall-model-summary}
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
+quad_feeding_results_file <- 'DESeq Results for Effects of Combined Model on Quadriceps - Kallisto.csv'
+write.csv(annotated.res.quad.feeding, quad_feeding_results_file)
+```
+
+
+# Session Information
+
+```{r session-info}
+sessionInfo()
+```
