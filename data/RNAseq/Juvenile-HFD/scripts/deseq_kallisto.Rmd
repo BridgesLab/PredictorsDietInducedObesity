@@ -292,11 +292,11 @@ res.quad.feeding$lfcSE_Feeding <- res.quad.feeding.main.feeding$lfcSE
 res.quad.feeding$pvalue_Feeding <- res.quad.feeding.main.feeding$pvalue
 res.quad.feeding$padj_Feeding <- res.quad.feeding.main.feeding$padj
 
-res.quad.feeding$ensembl_gene_id <- as.character(lapply(strsplit(rownames(res.quad.feeding), "\\."), "[[", 1))
+res.quad.feeding$ensembl_transcript_id <- as.character(lapply(strsplit(rownames(res.quad.feeding), "\\."), "[[", 1))
 
 annotated.res.quad.feeding <- merge(as.data.frame(res.quad.feeding), 
                           annotation, 
-                          by='ensembl_gene_id',
+                          by='ensembl_transcript_id',
                           all.x=T)
 ```
 Using the combined model, we identified `r table(annotated.res.quad.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in quad.  After removing those genes with an interaction, `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.

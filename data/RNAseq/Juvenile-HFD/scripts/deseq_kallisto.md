@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Mon Mar 14 12:47:23 2016.  This uses the input data from the kallisto runs.
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Wed Mar 16 10:13:04 2016.  This uses the input data from the kallisto runs.
 
 
 
@@ -165,37 +165,37 @@ Using the combined model, we identified 115 transcripts with a significant inter
 
 Table: Top Hits for Effects of Diet
 
-        ensembl_gene_id       baseMean   log2FoldChange   lfcSE     stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding    X  gene_biotype   external_gene_name   ensembl_transcript_id 
-------  -------------------  ---------  ---------------  ------  -------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ---  -------------  -------------------  ----------------------
-46123   ENSMUST00000171751        38.5            21.94    3.11    7.057    0.000      0                 -21.9         2.44             0           0                    0.695            1.76            0.693          0.915   NA  NA             NA                   NA                    
-43952   ENSMUST00000166592        51.2            20.08    3.44    5.838    0.000      0                 -22.9         2.61             0           0                    0.636            2.04            0.755          0.938   NA  NA             NA                   NA                    
-46214   ENSMUST00000171999        12.2            20.51    3.69    5.559    0.000      0                 -20.6         2.74             0           0                    0.404            2.25            0.858          0.966   NA  NA             NA                   NA                    
-43      ENSMUST00000000284        14.9            -4.31    4.98   -0.865    0.387      1                 -22.6         3.15             0           0                   -0.514            2.84            0.856          0.966   NA  NA             NA                   NA                    
-41174   ENSMUST00000160132        13.7           -21.76    3.64   -5.980    0.000      0                  19.0         2.71             0           0                   21.270            2.88            0.000          0.000   NA  NA             NA                   NA                    
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE     stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding        X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  -------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  -------  ---------------  -------------------  -------------------
+46123   ENSMUST00000171751           38.5            21.94    3.11    7.057    0.000      0                 -21.9         2.44             0           0                    0.695            1.76            0.693          0.915    29498  protein_coding   Rbfox2               ENSMUSG00000033565 
+43952   ENSMUST00000166592           51.2            20.08    3.44    5.838    0.000      0                 -22.9         2.61             0           0                    0.636            2.04            0.755          0.938    27498  protein_coding   Tnpo2                ENSMUSG00000031691 
+46214   ENSMUST00000171999           12.2            20.51    3.69    5.559    0.000      0                 -20.6         2.74             0           0                    0.404            2.25            0.858          0.966    21759  protein_coding   Gcat                 ENSMUSG00000006378 
+43      ENSMUST00000000284           14.9            -4.31    4.98   -0.865    0.387      1                 -22.6         3.15             0           0                   -0.514            2.84            0.856          0.966   103841  protein_coding   Trim25               ENSMUSG00000000275 
+41174   ENSMUST00000160132           13.7           -21.76    3.64   -5.980    0.000      0                  19.0         2.71             0           0                   21.270            2.88            0.000          0.000    63327  protein_coding   Eif4g2               ENSMUSG00000005610 
 
 
 
 Table: Top Hits for Effects of Feeding
 
-        ensembl_gene_id       baseMean   log2FoldChange   lfcSE     stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding    X  gene_biotype   external_gene_name   ensembl_transcript_id 
-------  -------------------  ---------  ---------------  ------  -------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ---  -------------  -------------------  ----------------------
-13650   ENSMUST00000067354        2846            0.553   0.425    1.299    0.194      1                 0.156        0.251         0.535        1.00                    -6.99           0.306                0              0   NA  NA             NA                   NA                    
-3616    ENSMUST00000025279        3766           -0.213   0.131   -1.625    0.104      1                 0.181        0.081         0.026        0.72                    -1.87           0.093                0              0   NA  NA             NA                   NA                    
-22257   ENSMUST00000105875       27633           -0.043   0.251   -0.171    0.864      1                -0.004        0.159         0.981        1.00                    -3.51           0.178                0              0   NA  NA             NA                   NA                    
-29184   ENSMUST00000118936        2787           -0.106   0.149   -0.710    0.477      1                 0.013        0.093         0.891        1.00                    -1.79           0.105                0              0   NA  NA             NA                   NA                    
-20988   ENSMUST00000102745         931           -0.192   0.269   -0.715    0.474      1                 0.204        0.174         0.239        1.00                     2.96           0.190                0              0   NA  NA             NA                   NA                    
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE     stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding        X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  -------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  -------  ---------------  -------------------  -------------------
+13650   ENSMUST00000067354           2846            0.553   0.425    1.299    0.194      1                 0.156        0.251         0.535        1.00                    -6.99           0.306                0              0      142  protein_coding   8430408G22Rik        ENSMUSG00000048489 
+3616    ENSMUST00000025279           3766           -0.213   0.131   -1.625    0.104      1                 0.181        0.081         0.026        0.72                    -1.87           0.093                0              0    68773  protein_coding   Npc1                 ENSMUSG00000024413 
+22257   ENSMUST00000105875          27633           -0.043   0.251   -0.171    0.864      1                -0.004        0.159         0.981        1.00                    -3.51           0.178                0              0    81577  protein_coding   Trim63               ENSMUSG00000028834 
+29184   ENSMUST00000118936           2787           -0.106   0.149   -0.710    0.477      1                 0.013        0.093         0.891        1.00                    -1.79           0.105                0              0   107766  protein_coding   Gucd1                ENSMUSG00000033416 
+20988   ENSMUST00000102745            931           -0.192   0.269   -0.715    0.474      1                 0.204        0.174         0.239        1.00                     2.96           0.190                0              0    49555  protein_coding   Tnfaip2              ENSMUSG00000021281 
 
 
 
 Table: Top Hits for Interaction between Diet and Feeding
 
-        ensembl_gene_id       baseMean   log2FoldChange   lfcSE    stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding    X  gene_biotype   external_gene_name   ensembl_transcript_id 
-------  -------------------  ---------  ---------------  ------  ------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ---  -------------  -------------------  ----------------------
-24491   ENSMUST00000109394       98.45            -23.6    3.30   -7.15        0      0                -0.807         1.51         0.593       1.000                    0.487            1.69            0.773          0.944   NA  NA             NA                   NA                    
-46123   ENSMUST00000171751       38.46             21.9    3.11    7.06        0      0               -21.907         2.44         0.000       0.000                    0.695            1.76            0.693          0.915   NA  NA             NA                   NA                    
-53016   ENSMUST00000194592        2.95            -30.0    4.27   -7.02        0      0                14.058         2.71         0.000       0.000                   16.365            2.86            0.000          0.000   NA  NA             NA                   NA                    
-42991   ENSMUST00000164235       58.90            -24.5    3.60   -6.80        0      0                 1.346         1.76         0.445       1.000                    0.919            1.97            0.641          0.894   NA  NA             NA                   NA                    
-23732   ENSMUST00000108183       15.07            -30.0    4.72   -6.35        0      0                14.336         2.99         0.000       0.001                   16.187            3.21            0.000          0.000   NA  NA             NA                   NA                    
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE    stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding       X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  ------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ------  ---------------  -------------------  -------------------
+24491   ENSMUST00000109394          98.45            -23.6    3.30   -7.15        0      0                -0.807         1.51         0.593       1.000                    0.487            1.69            0.773          0.944   77362  protein_coding   Cbfb                 ENSMUSG00000031885 
+46123   ENSMUST00000171751          38.46             21.9    3.11    7.06        0      0               -21.907         2.44         0.000       0.000                    0.695            1.76            0.693          0.915   29498  protein_coding   Rbfox2               ENSMUSG00000033565 
+53016   ENSMUST00000194592           2.95            -30.0    4.27   -7.02        0      0                14.058         2.71         0.000       0.000                   16.365            2.86            0.000          0.000   57770  protein_coding   Serpinc1             ENSMUSG00000026715 
+42991   ENSMUST00000164235          58.90            -24.5    3.60   -6.80        0      0                 1.346         1.76         0.445       1.000                    0.919            1.97            0.641          0.894   60867  protein_coding   Mapk1ip1l            ENSMUSG00000021840 
+23732   ENSMUST00000108183          15.07            -30.0    4.72   -6.35        0      0                14.336         2.99         0.000       0.001                   16.187            3.21            0.000          0.000   34407  protein_coding   Map3k7               ENSMUSG00000028284 
 
 ## Effects of Feeding State
 

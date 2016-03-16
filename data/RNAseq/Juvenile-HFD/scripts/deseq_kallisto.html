@@ -115,7 +115,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>This script performs the DESeq analyses on the Juvenile HFD studies. This script was most recently run on Mon Mar 14 12:47:23 2016. This uses the input data from the kallisto runs.</p>
+<p>This script performs the DESeq analyses on the Juvenile HFD studies. This script was most recently run on Wed Mar 16 10:13:04 2016. This uses the input data from the kallisto runs.</p>
 <p>The counts data, derived from HTSeq are located in ../kallisto/kallisto_output. The sample mapping file is located in ../sample-mapping.csv. The annotations are from the file ENSEMBL Annotation - Transcripts.csv. The files are written out as TPM Table.csv and Estimated Counts.csv.</p>
 <div id="overall-analysis" class="section level1">
 <h1>Overall Analysis</h1>
@@ -1043,7 +1043,7 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <thead>
 <tr class="header">
 <th align="left"></th>
-<th align="left">ensembl_gene_id</th>
+<th align="left">ensembl_transcript_id</th>
 <th align="right">baseMean</th>
 <th align="right">log2FoldChange</th>
 <th align="right">lfcSE</th>
@@ -1061,7 +1061,7 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <th align="right">X</th>
 <th align="left">gene_biotype</th>
 <th align="left">external_gene_name</th>
-<th align="left">ensembl_transcript_id</th>
+<th align="left">ensembl_gene_id</th>
 </tr>
 </thead>
 <tbody>
@@ -1082,10 +1082,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">1.76</td>
 <td align="right">0.693</td>
 <td align="right">0.915</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">29498</td>
+<td align="left">protein_coding</td>
+<td align="left">Rbfox2</td>
+<td align="left">ENSMUSG00000033565</td>
 </tr>
 <tr class="even">
 <td align="left">43952</td>
@@ -1104,10 +1104,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">2.04</td>
 <td align="right">0.755</td>
 <td align="right">0.938</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">27498</td>
+<td align="left">protein_coding</td>
+<td align="left">Tnpo2</td>
+<td align="left">ENSMUSG00000031691</td>
 </tr>
 <tr class="odd">
 <td align="left">46214</td>
@@ -1126,10 +1126,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">2.25</td>
 <td align="right">0.858</td>
 <td align="right">0.966</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">21759</td>
+<td align="left">protein_coding</td>
+<td align="left">Gcat</td>
+<td align="left">ENSMUSG00000006378</td>
 </tr>
 <tr class="even">
 <td align="left">43</td>
@@ -1148,10 +1148,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">2.84</td>
 <td align="right">0.856</td>
 <td align="right">0.966</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">103841</td>
+<td align="left">protein_coding</td>
+<td align="left">Trim25</td>
+<td align="left">ENSMUSG00000000275</td>
 </tr>
 <tr class="odd">
 <td align="left">41174</td>
@@ -1170,10 +1170,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">2.88</td>
 <td align="right">0.000</td>
 <td align="right">0.000</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">63327</td>
+<td align="left">protein_coding</td>
+<td align="left">Eif4g2</td>
+<td align="left">ENSMUSG00000005610</td>
 </tr>
 </tbody>
 </table>
@@ -1182,7 +1182,7 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <thead>
 <tr class="header">
 <th align="left"></th>
-<th align="left">ensembl_gene_id</th>
+<th align="left">ensembl_transcript_id</th>
 <th align="right">baseMean</th>
 <th align="right">log2FoldChange</th>
 <th align="right">lfcSE</th>
@@ -1200,7 +1200,7 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <th align="right">X</th>
 <th align="left">gene_biotype</th>
 <th align="left">external_gene_name</th>
-<th align="left">ensembl_transcript_id</th>
+<th align="left">ensembl_gene_id</th>
 </tr>
 </thead>
 <tbody>
@@ -1221,10 +1221,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">0.306</td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">142</td>
+<td align="left">protein_coding</td>
+<td align="left">8430408G22Rik</td>
+<td align="left">ENSMUSG00000048489</td>
 </tr>
 <tr class="even">
 <td align="left">3616</td>
@@ -1243,10 +1243,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">0.093</td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">68773</td>
+<td align="left">protein_coding</td>
+<td align="left">Npc1</td>
+<td align="left">ENSMUSG00000024413</td>
 </tr>
 <tr class="odd">
 <td align="left">22257</td>
@@ -1265,10 +1265,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">0.178</td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">81577</td>
+<td align="left">protein_coding</td>
+<td align="left">Trim63</td>
+<td align="left">ENSMUSG00000028834</td>
 </tr>
 <tr class="even">
 <td align="left">29184</td>
@@ -1287,10 +1287,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">0.105</td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">107766</td>
+<td align="left">protein_coding</td>
+<td align="left">Gucd1</td>
+<td align="left">ENSMUSG00000033416</td>
 </tr>
 <tr class="odd">
 <td align="left">20988</td>
@@ -1309,10 +1309,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">0.190</td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">49555</td>
+<td align="left">protein_coding</td>
+<td align="left">Tnfaip2</td>
+<td align="left">ENSMUSG00000021281</td>
 </tr>
 </tbody>
 </table>
@@ -1321,7 +1321,7 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <thead>
 <tr class="header">
 <th align="left"></th>
-<th align="left">ensembl_gene_id</th>
+<th align="left">ensembl_transcript_id</th>
 <th align="right">baseMean</th>
 <th align="right">log2FoldChange</th>
 <th align="right">lfcSE</th>
@@ -1339,7 +1339,7 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <th align="right">X</th>
 <th align="left">gene_biotype</th>
 <th align="left">external_gene_name</th>
-<th align="left">ensembl_transcript_id</th>
+<th align="left">ensembl_gene_id</th>
 </tr>
 </thead>
 <tbody>
@@ -1360,10 +1360,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">1.69</td>
 <td align="right">0.773</td>
 <td align="right">0.944</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">77362</td>
+<td align="left">protein_coding</td>
+<td align="left">Cbfb</td>
+<td align="left">ENSMUSG00000031885</td>
 </tr>
 <tr class="even">
 <td align="left">46123</td>
@@ -1382,10 +1382,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">1.76</td>
 <td align="right">0.693</td>
 <td align="right">0.915</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">29498</td>
+<td align="left">protein_coding</td>
+<td align="left">Rbfox2</td>
+<td align="left">ENSMUSG00000033565</td>
 </tr>
 <tr class="odd">
 <td align="left">53016</td>
@@ -1404,10 +1404,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">2.86</td>
 <td align="right">0.000</td>
 <td align="right">0.000</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">57770</td>
+<td align="left">protein_coding</td>
+<td align="left">Serpinc1</td>
+<td align="left">ENSMUSG00000026715</td>
 </tr>
 <tr class="even">
 <td align="left">42991</td>
@@ -1426,10 +1426,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">1.97</td>
 <td align="right">0.641</td>
 <td align="right">0.894</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">60867</td>
+<td align="left">protein_coding</td>
+<td align="left">Mapk1ip1l</td>
+<td align="left">ENSMUSG00000021840</td>
 </tr>
 <tr class="odd">
 <td align="left">23732</td>
@@ -1448,10 +1448,10 @@ MA Plot for Effects of Diet Status on Adipose Tissue
 <td align="right">3.21</td>
 <td align="right">0.000</td>
 <td align="right">0.000</td>
-<td align="right">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="right">34407</td>
+<td align="left">protein_coding</td>
+<td align="left">Map3k7</td>
+<td align="left">ENSMUSG00000028284</td>
 </tr>
 </tbody>
 </table>
