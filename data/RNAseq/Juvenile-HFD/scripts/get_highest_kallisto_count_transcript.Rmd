@@ -53,7 +53,7 @@ remove_redundancy <- function(kal_file, out_file){
     sub <- subset(kal_file, external_gene_name==g)
     #print(sub)
     max.mean <- max(sub$average)
-    print(max.mean)
+   
     if (max.mean != 0 & nrow(sub)>1){
       subset.max <- sub[which(sub$average==max(sub$average)),]
       unique.kal.data <- rbind(unique.kal.data, subset.max)
