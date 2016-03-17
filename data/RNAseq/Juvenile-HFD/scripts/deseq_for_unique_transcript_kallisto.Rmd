@@ -68,7 +68,7 @@ sample.table.quad <- subset(sample.table, Tissue=="Quadriceps")
 
 dds.wat.feeding <- DESeqDataSetFromMatrix(colData = sample.table.wat,
                                        countData = wat.counts,  
-                                       design= ~ Feeding + Diet + Diet:Feeding)
+                                       design= ~ Feeding+Diet+Feeding:Diet)
 
 dds.wat.feeding <- DESeq(dds.wat.feeding, parallel=T)
 res.wat.feeding <- results(dds.wat.feeding,
@@ -109,7 +109,30 @@ wat_feeding_results_file <- 'DESeq_Combined_Model_WAT_Unique_Kalllisto.csv'
 write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
 ```
 
-```{r heatmap_wat}
+```{r deseq-MA-plot-interaction-WAT, fig.cap="MA Plot for Interaction results in WAT"}
+plotMA(res.wat.feeding, main="DESeq2-WAT", ylim=c(-4,4))
+```
+
+```{r deseq-PCA-plot-overall, fig.cap="PCA Plot for Overall Model"}
+rld.interaction <- rlog(dds.wat.feeding)
+plotPCA(rld.interaction, intgroup=c("Feeding","Diet"))
+distsRL <- dist(t(assay(rld.interaction)))
+
+dds <- estimateSizeFactors(dds.wat.feeding)
+dds <- estimateDispersions(dds)
+vsd <- varianceStabilizingTransformation(dds)
+par(mfrow=c(1,2))
+plot(rank(rowMeans(counts(dds))),
+genefilter::rowVars(log2(counts(dds)+1)), main="log2(x+1) transform")
+plot(rank(rowMeans(assay(vsd))), genefilter::rowVars(assay(vsd)),
+main="VST")
+
+library("pheatmap")
+select <- order(rowMeans(counts(dds,normalized=TRUE)),decreasing=TRUE)[1:20]
+select <- which(res.wat.feeding$padj<0.05)
+df <- as.data.frame(colData(dds)[,c("Feeding","Diet")])
+pheatmap(assay(vsd)[select,], cluster_rows=TRUE, show_rownames=FALSE, cluster_cols=TRUE, annotation_cof=df)
+
 
 ```
 
