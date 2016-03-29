@@ -128,13 +128,20 @@ plot(rank(rowMeans(assay(vsd))), genefilter::rowVars(assay(vsd)),
 main="VST")
 
 library("pheatmap")
-select <- order(rowMeans(counts(dds,normalized=TRUE)),decreasing=TRUE)[1:20]
+#select <- order(rowMeans(counts(dds,normalized=TRUE)),decreasing=TRUE)[1:20]
 select <- which(res.wat.feeding$padj<0.05)
 df <- as.data.frame(colData(dds)[,c("Feeding","Diet")])
 #heatmap of significant interaction genes
 pheatmap(assay(vsd)[select,], cluster_rows=TRUE, show_rownames=FALSE, cluster_cols=TRUE, annotation_cof=df)
 
+library(ComplexHeatmap)
+library(circlize)
+ha_column = HeatmapAnnotation(df = data.frame(Diet = c(rep("Control Diet", 10), rep("HFD", 9)), Feeding=c(rep("Fasted", 2), rep("Fed", 2), "Fasted", "Fed", rep("Fasted", 3), "Fed", "Fasted", "Fed", rep("Fasted", 3), rep("Fed", 2), "Fasted", "Fed")), 
+    col = list(Diet = c("Control Diet" =  "black", "HFD" = "red"), Feeding=c("Fasted"="Green", "Fed"="Purple")))
 
+Heatmap(assay(vsd)[select,], column_title="Significant Genes WAT", top_annotation = ha_column, show_row_names=FALSE, cluster_columns=FALSE)
+
+Heatmap(assay(vsd), column_title="Heatmap all genes WAT", top_annotation = ha_column, show_row_names=FALSE, cluster_columns=FALSE)
 ```
 
 
@@ -148,7 +155,7 @@ This model used only the quadricep tissue data, and tested for changes for the i
 
 ```{r quad-overall-kallisto}
 dds.quad.feeding <- DESeqDataSetFromMatrix(colData = sample.table.quad,
-                                       countData = est.counts.table.quad,  
+                                       countData = quad.counts,  
                                        design= ~ Feeding + Diet + Diet:Feeding)
 
 dds.quad.feeding <- DESeq(dds.quad.feeding, parallel=T)
