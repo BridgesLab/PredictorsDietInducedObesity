@@ -49,7 +49,7 @@ for (col in colnames(quad.counts)) {
 }
 ```
 
-The counts data, derived from kallisto and get_highest_kallisto_count_transcript.Rmd are located in `r wat_file` and `r quad_file`.  The sample mapping file is located in `r sample.table_file`.  The annotations are from the file `r annotation_file`.  The files are written out as `r tpm.counts.file` and `r est.counts.file`.
+The counts data, derived from kallisto and get_highest_kallisto_count_transcript.Rmd are located in `r wat_file` and `r quad_file`.  The sample mapping file is located in `r sample.table_file`.  The annotations are from the file `r annotation_file`.
 
 
 # Adipose Tissue
@@ -131,6 +131,7 @@ library("pheatmap")
 select <- order(rowMeans(counts(dds,normalized=TRUE)),decreasing=TRUE)[1:20]
 select <- which(res.wat.feeding$padj<0.05)
 df <- as.data.frame(colData(dds)[,c("Feeding","Diet")])
+#heatmap of significant interaction genes
 pheatmap(assay(vsd)[select,], cluster_rows=TRUE, show_rownames=FALSE, cluster_cols=TRUE, annotation_cof=df)
 
 
@@ -184,7 +185,7 @@ Using the combined model, we identified `r table(annotated.res.quad.feeding$padj
 kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
 kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
 kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
-quad_feeding_results_file <- 'DESeq Results for Effects of Combined Model on Quadriceps - Kallisto.csv'
+quad_feeding_results_file <- 'DESeq_Combined_Model_Quadricep_Unique_Kalllisto.csv'
 write.csv(annotated.res.quad.feeding, quad_feeding_results_file)
 ```
 
