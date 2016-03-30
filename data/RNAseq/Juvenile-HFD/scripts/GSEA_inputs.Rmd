@@ -43,9 +43,10 @@ Used GSEA version 2.2 downloaded from http://www.broadinstitute.org/gsea/index.j
 
 * Used preranked list, ordered by log2fold change
 * Ran 1000 permutations
-* Compared to MSigDB database version 5.0
+* Compared to MSigDB database version 5.1
 * Looked at gene sets with between 10 and 5000 members
 * Used **weighted** enrichment statistic
+* Seed for permutation is 149
 
 The analysis was done against the following gene sets:
 
