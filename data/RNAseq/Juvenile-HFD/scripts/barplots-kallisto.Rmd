@@ -48,27 +48,42 @@ rpkm.data.unique <- rpkm.data
 
 rownames(rpkm.data.unique) <- rpkm.data.unique$ensembl_transcript_id
 rpkm.data.unique <- rpkm.data.unique
-
-#set genes for single barplots
-genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1","Irf4")
-transcripts.of.interest <- as.character(droplevels(subset(annotation, external_gene_name %in% genes.of.interest)$ensembl_transcript_id))
-
-#get a table of just the genes of interest
-genes.of.interest.data <- rpkm.data.unique[transcripts.of.interest,]
-#put the data in long format
 library(tidyr)
 library(dplyr)
-genes.of.interest.long <- 
-  genes.of.interest.data %>%
-  select(-gene_biotype, -ensembl_gene_id) %>%
-  gather(SampleID, expression, -external_gene_name, -ensembl_transcript_id)
-goi.long <- droplevels(merge(mapping, genes.of.interest.long, by.x="Barcode", by.y="SampleID"))
+#set genes for single barplots
+#genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1","Irf4")
 
-goi.long.cal <- 
-  goi.long %>%
-  group_by(external_gene_name, ensembl_transcript_id, Feeding,Diet) %>%
-  summarize(Average = mean(expression),
-            SE = sd(expression)/sqrt(length(expression)))
+GR_activator <- c("Ncoa1", "Ncoa2", "Ncoa3")
+
+#get transcript names from the gene list
+get_toi <- function(goi){
+  toi <- as.character(droplevels(subset(annotation, external_gene_name %in% goi)$ensembl_transcript_id))
+  return(toi)
+}
+#get data from the transcript of interest
+get_goi_data <- function (data, trans_interest) {
+  goi.data <- data[trans_interest,]
+  return(goi.data)
+}
+
+#put the data in long format
+get_long_format <- function(goi.data.wide){
+    genes.of.interest.long <- 
+      goi.data.wide %>%
+      select(-gene_biotype, -ensembl_gene_id) %>%
+      gather(SampleID, expression, -external_gene_name, -ensembl_transcript_id)
+    goi.long <- droplevels(merge(mapping, genes.of.interest.long, by.x="Barcode", by.y="SampleID"))
+  
+  goi.long.cal <- 
+    goi.long %>%
+    group_by(external_gene_name, ensembl_transcript_id, Feeding,Diet) %>%
+    summarize(Average = mean(expression),
+              SE = sd(expression)/sqrt(length(expression)))
+  return(goi.long.cal)
+}
+transcript_GR_activator <- get_toi(GR_activator)
+goi.dat <- get_goi_data(rpkm.data.unique, transcript_GR_activator)
+goi.long.cal.wat <- get_long_format(goi.dat)
 ```
 
 # Quadriceps
@@ -85,60 +100,49 @@ rpkm.data.unique.quad <- rpkm.data.quad
 rownames(rpkm.data.unique.quad) <- rpkm.data.unique.quad$ensembl_transcript_id
 rpkm.data.unique.quad <- rpkm.data.unique.quad
 
-#set genes for single barplots
-genes.of.interest <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1","Irf4")
-transcripts.of.interest <- as.character(droplevels(subset(annotation, external_gene_name %in% genes.of.interest)$ensembl_transcript_id))
-
 #get a table of just the genes of interest
-genes.of.interest.data.quad <- rpkm.data.unique.quad[transcripts.of.interest,]
+goi.data.quad <- get_goi_data(rpkm.data.unique.quad, transcript_GR_activator)
 #put the data in long format
-genes.of.interest.long.quad <- 
-  genes.of.interest.data.quad %>%
-  select(-gene_biotype, -ensembl_gene_id) %>%
-  gather(SampleID, expression, -external_gene_name, -ensembl_transcript_id)
-goi.long.quad <- droplevels(merge(mapping, genes.of.interest.long.quad, by.x="Barcode", by.y="SampleID"))
-
-goi.long.cal.quad <- 
-  goi.long.quad %>%
-  group_by(external_gene_name, ensembl_transcript_id, Feeding,Diet) %>%
-  summarize(Average = mean(expression),
-            SE = sd(expression)/sqrt(length(expression)))
+goi.long.cal.quad <- get_long_format(goi.data.quad)
 ```
 
 
-Drew bargraphs for *`r paste(genes.of.interest, collapse=", ")`*.
+Drew bargraphs for *`r paste(GR_activator, collapse=", ")`*.
 
 ```{r barplots, echo=FALSE, fig.show='asis', dev='pdf'}
 library(ggplot2)
-for (transcript in goi.long.cal$ensembl_transcript_id[!(is.na(goi.long.cal$ensembl_transcript_id))]) {
-  gene.data.adipose <- subset(goi.long.cal, ensembl_transcript_id==transcript)
-  gene.data.quad <- subset(goi.long.cal.quad, ensembl_transcript_id==transcript)
-  p <- ggplot(gene.data.adipose, aes(x=Diet,y=Average,fill=Feeding))
-  q <- ggplot(gene.data.quad,  aes(x=Diet,y=Average,fill=Feeding))
-  dodge <- position_dodge(width=0.9)
-  p + geom_bar(position=dodge, stat="identity") +
-     geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) +
-     xlab("") + ylab("mRNA Expression (RPKM)")+ 
-     theme_bw() + ggtitle(paste(as.character(gene.data.adipose$external_gene_name[1]), transcript, sep=" - ")) + 
-     theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + 
-     theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data.adipose$Diet) + 
-     theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-  ggsave(filename=paste('figures/barplots/Adipose-',
-                        paste(as.character(gene.data.adipose$external_gene_name[1]), transcript, sep=" - ")
-                        ,'-barplot-kallisto.pdf',sep=""))
-  
-  q + geom_bar(position=dodge, stat="identity") +
-     geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) +
-     xlab("") + ylab("mRNA Expression (RPKM)")+ 
-     theme_bw() + ggtitle(paste(as.character(gene.data.quad$external_gene_name[1]), transcript, sep=" - ")) + 
-     theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + 
-     theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data.quad$Diet) + 
-     theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-  ggsave(filename=paste('figures/barplots/Quadriceps-',
-                        paste(as.character(gene.data.quad$external_gene_name[1]), transcript, sep=" - ")
-                        ,'-barplot-kallisto.pdf',sep=""))
+draw_barplot<- function(goi.long.wat, goi.long.quad){
+  for (transcript in goi.long.wat$ensembl_transcript_id[!(is.na(goi.long.wat$ensembl_transcript_id))]) {
+    gene.data.adipose <- subset(goi.long.wat, ensembl_transcript_id==transcript)
+    gene.data.quad <- subset(goi.long.quad, ensembl_transcript_id==transcript)
+    p <- ggplot(gene.data.adipose, aes(x=Diet,y=Average,fill=Feeding))
+    q <- ggplot(gene.data.quad,  aes(x=Diet,y=Average,fill=Feeding))
+    dodge <- position_dodge(width=0.9)
+    p + geom_bar(position=dodge, stat="identity") +
+       geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) +
+       xlab("") + ylab("mRNA Expression (RPKM)")+ 
+       theme_bw() + ggtitle(paste("eWAT", as.character(gene.data.adipose$external_gene_name[1]), transcript, sep="-")) + 
+       theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + 
+       theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data.adipose$Diet) + 
+       theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+    ggsave(filename=paste('figures/barplots/Adipose-',
+                          paste(as.character(gene.data.adipose$external_gene_name[1]), transcript, sep="-")
+                          ,'-barplot-kallisto.pdf',sep=""))
+    
+    q + geom_bar(position=dodge, stat="identity") +
+       geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) +
+       xlab("") + ylab("mRNA Expression (RPKM)")+ 
+       theme_bw() + ggtitle(paste("Quad", as.character(gene.data.quad$external_gene_name[1]), transcript, sep="-")) + 
+       theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + 
+       theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data.quad$Diet) + 
+       theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
+    ggsave(filename=paste('figures/barplots/Quadriceps-',
+                          paste(as.character(gene.data.quad$external_gene_name[1]), transcript, sep="-")
+                          ,'-barplot-kallisto.pdf',sep=""))
+  }
 }
 
+draw_barplot(goi.long.cal.wat, goi.long.cal.quad)
 ```
 
 Session Information
