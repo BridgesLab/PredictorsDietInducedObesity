@@ -1,11 +1,11 @@
 # Barplot Analysis of Juvenile HFD Study
-Dave Bridges  
+Dave Bridges, Quynh Tran  
 August 13, 2015  
 
 
 
 
-Used analysed DESeq results.  This script was most recently run on Wed Mar 30 15:51:08 2016.
+Used analysed DESeq results.  This script was most recently run on Wed Mar 30 16:59:22 2016.
 
 
 

@@ -1,7 +1,7 @@
 
 ---
 title: "Barplot Analysis of Juvenile HFD Study"
-author: "Dave Bridges"
+author: "Dave Bridges, Quynh Tran"
 date: "August 13, 2015"
 output:
   html_document:
@@ -56,6 +56,8 @@ library(dplyr)
 #set genes for single barplots
 goi <- c("Retn","Pparg","Lep","Hsd11b1","Pnpla2","Tbc1d9b","Irf4","Clk4","Slc1a3","Ap2s1","Rer1","Ywhae","Eif4ebp3","Hsd11b1")
 GR_activator <- c("Ncoa1", "Ncoa2", "Ncoa3")
+#list of genes from the Gillbert et al. paper
+Gillbert_gene <- c("Elovl6", "Fads2", "Nnat", "Insr", "Irs2", "Slc27a2", "Cdk5", "Igfbp5", "Slc2a4")
 
 #get a table of just the genes of interest
 get_goi_data <- function (data, goi) {
@@ -83,6 +85,9 @@ get_long_format <- function(genes.of.interest.data){
 goi.dat <- get_goi_data(rpkm.data.unique, GR_activator)
 goi.long.cal.wat <- get_long_format(goi.dat)
 
+gillbert_dat <- get_goi_data(rpkm.data.unique, Gillbert_gene)
+gillbert.long.wat <- get_long_format(gillbert_dat)
+
 ```
 
 
@@ -105,6 +110,9 @@ goi.data.quad <- get_goi_data(rpkm.data.unique.quad, GR_activator)
 #put the data in long format
 goi.long.cal.quad <- get_long_format(goi.data.quad)
 
+gillbert.dat.quad <- get_goi_data(rpkm.data.unique.quad, Gillbert_gene)
+gillbert.long.quad <- get_long_format(gillbert.dat.quad)
+
 ```
 
 
@@ -123,7 +131,8 @@ draw_barplot<- function(goi.long.wat, goi.long.quad, genes.of.interest){
       dodge <- position_dodge(width=0.9)
       p + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) + 
        xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(paste("eWAT", gene)) + theme(panel.grid.minor = element_blank()) + theme(panel.grid.major = element_blank()) + theme(panel.border=element_blank()) + scale_x_discrete(labels=gene.data$Diet) + theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-    ggsave(filename=paste('figures/barplots/Adipose-',gene,' - barplot-HTSeq.pdf',sep=""))
+    ggsave(filename=paste('figures/barplots/Adipose-',gene,'-barplot-HTSeq.pdf',sep=""))
+  
     
       q + geom_bar(position=dodge, stat="identity") + geom_errorbar(aes(ymin=Average-SE, ymax=Average+SE), position=dodge, width=0.1) + 
        xlab("") + ylab("mRNA Expression (RPKM)")+ theme_bw() + ggtitle(paste("Quadriceps", gene)) + 
@@ -132,13 +141,14 @@ draw_barplot<- function(goi.long.wat, goi.long.quad, genes.of.interest){
         theme(panel.border=element_blank()) + 
         scale_x_discrete(labels=gene.data$Diet) + 
         theme(axis.line = element_line(color = 'black'))+scale_colour_grey(start = 0.5, end = .9)
-     ggsave(filename=paste('figures/barplots/Quadriceps-',gene,' - barplot-HTSeq.pdf',sep=""))
+     ggsave(filename=paste('figures/barplots/Quadriceps-',gene,'-barplot-HTSeq.pdf',sep=""))
+     
     
   }
 }
 
-draw_barplot(goi.long.cal.wat, goi.long.cal.quad, GR_activator)
-
+#draw_barplot(goi.long.cal.wat, goi.long.cal.quad, GR_activator)
+draw_barplot(gillbert.long.wat, gillbert.long.quad , Gillbert_gene)
 ```
 
 Session Information
