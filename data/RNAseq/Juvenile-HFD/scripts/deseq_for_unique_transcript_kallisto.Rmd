@@ -54,10 +54,14 @@ The counts data, derived from kallisto and get_highest_kallisto_count_transcript
 
 ```{r wat_counts_stats, echo=FALSE}
 library(stargazer)
-stargazer(wat.counts, type="text", title="Descriptive statistics", digits=1, out="results/WAT_Descriptive_stats.txt")
-stargazer(quad.counts, type="text", title="Descriptive statistics", digits=1, out="results/QUAD_Descriptive_Stats.txt")
+stargazer(wat.counts, type="text", title="WAT Descriptive statistics", digits=1,  out="results/WAT_Descriptive_stats.txt")
+stargazer(quad.counts, type="text", title="QUAD Descriptive statistics", digits=1, out="results/QUAD_Descriptive_Stats.txt")
+
+kable(t(colSums(wat.counts)), caption="Sum counts of WAT")
+kable(t(colSums(quad.counts)), caption="Sum counts of QUAD")
+
 ```
-# Adipose Tissue
+##Adipose Tissue
 
 The adipose tissue samples are all eWAT samples
 
@@ -119,13 +123,16 @@ plotMA(res.wat.feeding, main="DESeq2-WAT", ylim=c(-4,4))
 ```
 
 ```{r deseq-PCA-plot-WAT, echo=FALSE}
-rld.interaction <- rlog(dds.wat.feeding)
-plotPCA(rld.interaction, intgroup=c("Feeding","Diet"))
-distsRL <- dist(t(assay(rld.interaction)))
-
+library(ggplot2)
 dds <- estimateSizeFactors(dds.wat.feeding)
 dds <- estimateDispersions(dds)
 vsd <- varianceStabilizingTransformation(dds)
+names = colData(vsd)$SampleID
+col_data = paste(colData(vsd)$Feeding, colData(vsd)$Diet)
+p<-plotPCA(vsd, intgroup=c("Feeding","Diet"))
+p <- p + geom_text(aes_string(x = "PC1", y = "PC2", label = names), col="black", hjust=-.1, vjust=-.5)
+print(p)
+
 par(mfrow=c(1,2))
 plot(rank(rowMeans(counts(dds))),
 genefilter::rowVars(log2(counts(dds)+1)), main="log2(x+1) transform")
@@ -206,13 +213,14 @@ write.csv(annotated.res.quad.feeding, quad_feeding_results_file)
 
 
 ```{r deseq-PCA-heatmap-QUAD, echo=FALSE}
-rld.quad <- rlog(dds.quad.feeding)
-plotPCA(rld.quad, intgroup=c("Feeding","Diet"))
-distsRL <- dist(t(assay(rld.quad)))
-
 dds_quad <- estimateSizeFactors(dds.quad.feeding)
 dds_quad <- estimateDispersions(dds_quad)
 vsd_quad <- varianceStabilizingTransformation(dds_quad)
+names = colData(vsd_quad)$SampleID
+col_data = paste(colData(vsd_quad)$Feeding, colData(vsd_quad)$Diet)
+q<-plotPCA(vsd_quad, intgroup=c("Feeding","Diet"))
+q <- q + geom_text(aes_string(x = "PC1", y = "PC2", label = names), col="black", hjust=-.1, vjust=-.5)
+print(q)
 par(mfrow=c(1,2))
 plot(rank(rowMeans(counts(dds_quad))),
 genefilter::rowVars(log2(counts(dds_quad)+1)), main="QUAD log2(x+1) transform")

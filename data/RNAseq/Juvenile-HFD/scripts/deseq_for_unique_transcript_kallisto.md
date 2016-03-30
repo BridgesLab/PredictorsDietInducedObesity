@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Tue Mar 29 18:18:39 2016.  This uses the input data from the kallisto runs.
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Wed Mar 30 14:58:02 2016.  This uses the input data from the kallisto runs.
 
 
 
@@ -15,7 +15,7 @@ The counts data, derived from kallisto and get_highest_kallisto_count_transcript
 
 ```
 ## 
-## Descriptive statistics
+## WAT Descriptive statistics
 ## =======================================================
 ## Statistic           N     Mean   St. Dev. Min    Max   
 ## -------------------------------------------------------
@@ -43,7 +43,7 @@ The counts data, derived from kallisto and get_highest_kallisto_count_transcript
 
 ```
 ## 
-## Descriptive statistics
+## QUAD Descriptive statistics
 ## =======================================================
 ## Statistic           N     Mean   St. Dev. Min    Max   
 ## -------------------------------------------------------
@@ -69,6 +69,22 @@ The counts data, derived from kallisto and get_highest_kallisto_count_transcript
 ## IonXpress_RNA_58  18,464  993.0  16,394.0  0  1,198,470
 ## -------------------------------------------------------
 ```
+
+
+
+Table: Sum counts of WAT
+
+ IonXpress_RNA_026   IonXpress_RNA_027   IonXpress_RNA_028   IonXpress_RNA_029   IonXpress_RNA_030   IonXpress_RNA_031   IonXpress_RNA_032   IonXpress_RNA_033   IonXpress_RNA_034   IonXpress_RNA_035   IonXpress_RNA_036   IonXpress_RNA_037   IonXpress_RNA_038   IonXpress_RNA_039   IonXpress_RNA_040   IonXpress_RNA_041   IonXpress_RNA_042   IonXpress_RNA_043   IonXpress_RNA_044
+------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------
+          23340422            18471646            17049308            21161430            20944002            19131039            18414141            17915008            19363799            18712520            16537715            17952538            15857919            16754140            17884106            17132159            19257253            17405180            17660396
+
+
+
+Table: Sum counts of QUAD
+
+ IonXpress_RNA_045   IonXpress_RNA_046   IonXpress_RNA_059   IonXpress_RNA_060   IonXpress_RNA_061   IonXpress_RNA_062   IonXpress_RNA_063   IonXpress_RNA_064   IonXpress_RNA_47   IonXpress_RNA_48   IonXpress_RNA_49   IonXpress_RNA_50   IonXpress_RNA_51   IonXpress_RNA_52   IonXpress_RNA_53   IonXpress_RNA_54   IonXpress_RNA_55   IonXpress_RNA_56   IonXpress_RNA_57   IonXpress_RNA_58
+------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------
+          18715553            18318996            16448226            18655011            18665685            17705407            19423465            21659001           17586655           18473806           17322340           20240449           17309832           15667925           18272653           16305065           24925414           19074794           18520194           18330614
 # Adipose Tissue
 
 The adipose tissue samples are all eWAT samples
@@ -212,13 +228,13 @@ Table: Top Hits for Effects of Feeding
 ## 
 ## other attached packages:
 ##  [1] circlize_0.3.5             ComplexHeatmap_1.6.0      
-##  [3] pheatmap_1.0.8             DESeq2_1.10.1             
-##  [5] RcppArmadillo_0.6.600.4.0  Rcpp_0.12.4               
-##  [7] SummarizedExperiment_1.0.2 Biobase_2.30.0            
-##  [9] GenomicRanges_1.22.4       GenomeInfoDb_1.6.3        
-## [11] IRanges_2.4.8              S4Vectors_0.8.11          
-## [13] BiocGenerics_0.16.1        stargazer_5.2             
-## [15] knitr_1.12.3              
+##  [3] pheatmap_1.0.8             ggplot2_2.1.0             
+##  [5] DESeq2_1.10.1              RcppArmadillo_0.6.600.4.0 
+##  [7] Rcpp_0.12.4                SummarizedExperiment_1.0.2
+##  [9] Biobase_2.30.0             GenomicRanges_1.22.4      
+## [11] GenomeInfoDb_1.6.3         IRanges_2.4.8             
+## [13] S4Vectors_0.8.11           BiocGenerics_0.16.1       
+## [15] stargazer_5.2              knitr_1.12.3              
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] genefilter_1.52.1    shape_1.4.2          GetoptLong_0.1.2    
@@ -233,10 +249,9 @@ Table: Top Hits for Effects of Feeding
 ## [28] AnnotationDbi_1.32.3 highr_0.5.1          acepack_1.3-3.3     
 ## [31] xtable_1.8-2         scales_0.4.0         formatR_1.3         
 ## [34] Hmisc_3.17-2         annotate_1.48.0      XVector_0.10.0      
-## [37] gridExtra_2.2.1      rjson_0.2.15         ggplot2_2.1.0       
-## [40] digest_0.6.9         stringi_1.0-1        tools_3.2.2         
-## [43] magrittr_1.5         RSQLite_1.0.0        Formula_1.2-1       
-## [46] cluster_2.0.3        futile.options_1.0.0 whisker_0.3-2       
-## [49] dendextend_1.1.8     rmarkdown_0.9.5      rpart_4.1-10        
-## [52] nnet_7.3-12
+## [37] gridExtra_2.2.1      rjson_0.2.15         digest_0.6.9        
+## [40] stringi_1.0-1        tools_3.2.2          magrittr_1.5        
+## [43] RSQLite_1.0.0        Formula_1.2-1        cluster_2.0.3       
+## [46] futile.options_1.0.0 whisker_0.3-2        dendextend_1.1.8    
+## [49] rmarkdown_0.9.5      rpart_4.1-10         nnet_7.3-12
 ```
