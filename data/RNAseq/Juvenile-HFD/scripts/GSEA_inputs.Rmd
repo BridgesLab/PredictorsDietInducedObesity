@@ -1,6 +1,6 @@
 ---
 title: "Making Input Files for GSEA Analyses"
-author: "Dave Bridges"
+author: "Dave Bridges, Quynh Tran"
 date: "August 9, 2015"
 output:
   html_document:
@@ -12,18 +12,18 @@ Making the input files
 
 ```{r Read-data, echo=FALSE}
 
-deseq_file_quads <- "DESeq Results for Effects of Diet on Quadriceps.csv"
+deseq_file_quads <- "results/DESeq_Combined_Model_Quadricep_Unique_Kalllisto.csv"
 deseq.results.quads <- read.csv(deseq_file_quads)
 
 #order by pvalue and get rid of those with NA foldchange
-results.noNA <- deseq.results.quads[which(deseq.results.quads$log2FoldChange != 'NA'),]
-results.noNA <- results.noNA[order(results.noNA$log2FoldChange),c('external_gene_name','log2FoldChange')]
+results.noNA <- deseq.results.quads[which(deseq.results.quads$log2FoldChange_Feeding != 'NA'),]
+results.noNA.ordered <- results.noNA[order(results.noNA$log2FoldChange_Feeding),c('external_gene_name','log2FoldChange_Feeding')]
 #get rid of duplicate genes
-results.noDup <- results.noNA[!duplicated(results.noNA$external_gene_name),]
-result_data_file_quads <- "GSEA_prerank_Quadriceps.rnk"
-write.table(results.noDup, file=result_data_file_quads, sep="\t", quote=FALSE, row.names=FALSE)
+#results.noDup <- results.noNA[!duplicated(results.noNA$external_gene_name),]
+result_data_file_quads <- "results/GSEA_prerank_Quadriceps_feeding_kallisto.rnk"
+write.table(results.noNA.ordered, file=result_data_file_quads, sep="\t", quote=FALSE, row.names=FALSE)
 
-deseq_file_wat <- "DESeq Results for Effects of Diet on WAT.csv"
+deseq_file_wat <- "results/DESeq_Combined_Model_WAT_Unique_Kalllisto.csv"
 deseq.results.wat <- read.csv(deseq_file_wat)
 
 #order by pvalue and get rid of those with NA foldchange
@@ -31,7 +31,7 @@ results.noNA <- deseq.results.wat[which(deseq.results.wat$log2FoldChange != 'NA'
 results.noNA <- results.noNA[order(results.noNA$log2FoldChange),c('external_gene_name','log2FoldChange')]
 #get rid of duplicate genes
 results.noDup <- results.noNA[!duplicated(results.noNA$external_gene_name),]
-result_data_file_wat <- "GSEA_prerank_WAT.rnk"
+result_data_file_wat <- "results/GSEA_prerank_WAT_interaction_kallisto.rnk"
 write.table(results.noDup, file=result_data_file_wat, sep="\t", quote=FALSE, row.names=FALSE)
 ```
 
