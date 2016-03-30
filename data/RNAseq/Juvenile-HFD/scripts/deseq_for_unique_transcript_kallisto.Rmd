@@ -17,7 +17,7 @@ options(digits=3, scipen=8)
 
 This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on `r date()`.  This uses the input data from the kallisto runs.
 
-```{r data-unique-kallisto}
+```{r data-unique-kallisto, echo=FALSE}
 wat_file <- 'Unique_Estimated_Counts_WAT.csv'
 quad_file <- 'Unique_Estimated_Counts_Quad.csv'
 sample.table_file <- '../sample-mapping.csv'
@@ -52,6 +52,11 @@ for (col in colnames(quad.counts)) {
 The counts data, derived from kallisto and get_highest_kallisto_count_transcript.Rmd are located in `r wat_file` and `r quad_file`.  The sample mapping file is located in `r sample.table_file`.  The annotations are from the file `r annotation_file`.
 
 
+```{r wat_counts_stats, echo=FALSE}
+library(stargazer)
+stargazer(wat.counts, type="text", title="Descriptive statistics", digits=1, out="results/WAT_Descriptive_stats.txt")
+stargazer(quad.counts, type="text", title="Descriptive statistics", digits=1, out="results/QUAD_Descriptive_Stats.txt")
+```
 # Adipose Tissue
 
 The adipose tissue samples are all eWAT samples
@@ -60,7 +65,7 @@ The adipose tissue samples are all eWAT samples
 
 This model used only the adipose tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
 
-```{r wat-overall-kallisto}
+```{r wat-overall-kallisto, echo=FALSE}
 library(DESeq2)
 #subsettted the sample tables and counts tables
 sample.table.wat <- subset(sample.table, Tissue=="eWAT")
@@ -99,13 +104,13 @@ annotated.res.wat.feeding <- merge(as.data.frame(res.wat.feeding),
                           all.x=T)
 ```
 
-Using the combined model, we identified `r table(annotated.res.wat.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in WAT.  After removing those genes with an interaction, `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.
+Using the combined model, we identified `r table(annotated.res.wat.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in WAT.  There are `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feeding$padj_Feeding<0.05)['FALSE','TRUE']` genes had a main effect with respect to Feeding State.
 
-```{r wat-overall-model-summary}
+```{r wat-overall-model-summary, echo=FALSE}
 kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
 kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
-kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
-wat_feeding_results_file <- 'DESeq_Combined_Model_WAT_Unique_Kalllisto.csv'
+kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],20), caption="Top Hits for Interaction between Diet and Feeding")
+wat_feeding_results_file <- 'results/DESeq_Combined_Model_WAT_Unique_Kalllisto.csv'
 write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
 ```
 
@@ -113,7 +118,7 @@ write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
 plotMA(res.wat.feeding, main="DESeq2-WAT", ylim=c(-4,4))
 ```
 
-```{r deseq-PCA-plot-overall, fig.cap="PCA Plot for Overall Model"}
+```{r deseq-PCA-plot-WAT, echo=FALSE}
 rld.interaction <- rlog(dds.wat.feeding)
 plotPCA(rld.interaction, intgroup=c("Feeding","Diet"))
 distsRL <- dist(t(assay(rld.interaction)))
@@ -129,19 +134,21 @@ main="VST")
 
 library("pheatmap")
 #select <- order(rowMeans(counts(dds,normalized=TRUE)),decreasing=TRUE)[1:20]
-select <- which(res.wat.feeding$padj<0.05)
+selected_rows <- which(res.wat.feeding$padj<0.05)
 df <- as.data.frame(colData(dds)[,c("Feeding","Diet")])
 #heatmap of significant interaction genes
-pheatmap(assay(vsd)[select,], cluster_rows=TRUE, show_rownames=FALSE, cluster_cols=TRUE, annotation_cof=df)
+pheatmap(assay(vsd)[selected_rows,], cluster_rows=TRUE, show_rownames=FALSE, cluster_cols=TRUE, annotation_cof=df)
 
 library(ComplexHeatmap)
 library(circlize)
-ha_column = HeatmapAnnotation(df = data.frame(Diet = c(rep("Control Diet", 10), rep("HFD", 9)), Feeding=c(rep("Fasted", 2), rep("Fed", 2), "Fasted", "Fed", rep("Fasted", 3), "Fed", "Fasted", "Fed", rep("Fasted", 3), rep("Fed", 2), "Fasted", "Fed")), 
-    col = list(Diet = c("Control Diet" =  "black", "HFD" = "red"), Feeding=c("Fasted"="Green", "Fed"="Purple")))
+#library(RColorBrewer)
+sample.wat.reorder <- sample.table.wat[order(sample.table.wat$Feeding),]
+vsd_data <- assay(vsd)
+ha_column = HeatmapAnnotation(df = data.frame(Feeding=c(rep("Fasted", 11), rep("Fed", 8)), Diet=c(rep("Control", 6), rep("HFD",5), rep("Control", 4), rep("HFD", 4))), 
+    col = list(Diet = c("Control" =  "black", "HFD" = "red"), Feeding=c("Fasted"="Green", "Fed"="Blue")))
 
-Heatmap(assay(vsd)[select,], column_title="Significant Genes WAT", top_annotation = ha_column, show_row_names=FALSE, cluster_columns=FALSE)
+Heatmap(vsd_data[selected_rows, rownames(sample.wat.reorder)], column_title="Significant Genes WAT", top_annotation = ha_column, show_row_names=FALSE, cluster_columns=FALSE)
 
-Heatmap(assay(vsd), column_title="Heatmap all genes WAT", top_annotation = ha_column, show_row_names=FALSE, cluster_columns=FALSE)
 ```
 
 
@@ -153,8 +160,10 @@ The muscle tissue samples are all quadriceps samples
 
 This model used only the quadricep tissue data, and tested for changes for the interaction between feeding state and diet, then for the main effects of each.
 
-```{r quad-overall-kallisto}
-dds.quad.feeding <- DESeqDataSetFromMatrix(colData = sample.table.quad,
+```{r quad-overall-kallisto, echo=FALSE}
+sample.quad.reorder <- sample.table.quad[order(sample.table.quad$Feeding),]
+quad.counts <- quad.counts[,rownames(sample.quad.reorder)]
+dds.quad.feeding <- DESeqDataSetFromMatrix(colData = sample.quad.reorder,
                                        countData = quad.counts,  
                                        design= ~ Feeding + Diet + Diet:Feeding)
 
@@ -186,17 +195,41 @@ annotated.res.quad.feeding <- merge(as.data.frame(res.quad.feeding),
                           by='ensembl_transcript_id',
                           all.x=T)
 ```
-Using the combined model, we identified `r table(annotated.res.quad.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in quad.  After removing those genes with an interaction, `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Diet<0.05)['FALSE','TRUE']` genes had a main effect with respect to Diet and `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Feeding<0.05)['FALSE','TRUE']` transcripts had a main effect with respect to Feeding State.
+  Using the combined model, we identified `r table(annotated.res.quad.feeding$padj<0.05)['TRUE']` transcripts with a significant interaction between feeding and diet in quadriceps.  There are `r table(annotated.res.quad.feeding$padj<0.05, annotated.res.quad.feeding$padj_Feeding<0.05)['FALSE','TRUE']` genes that had a main effect with respect to Feeding State.
 
 ```{r quad-overall-model-summary}
 kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
-kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
-kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj),],5), caption="Top Hits for Interaction between Diet and Feeding")
-quad_feeding_results_file <- 'DESeq_Combined_Model_Quadricep_Unique_Kalllisto.csv'
+kable(head( annotated.res.quad.feeding[order(annotated.res.quad.feeding$padj_Feeding),],20), caption="Top Hits for Effects of Feeding")
+quad_feeding_results_file <- 'results/DESeq_Combined_Model_Quadricep_Unique_Kalllisto.csv'
 write.csv(annotated.res.quad.feeding, quad_feeding_results_file)
 ```
 
 
+```{r deseq-PCA-heatmap-QUAD, echo=FALSE}
+rld.quad <- rlog(dds.quad.feeding)
+plotPCA(rld.quad, intgroup=c("Feeding","Diet"))
+distsRL <- dist(t(assay(rld.quad)))
+
+dds_quad <- estimateSizeFactors(dds.quad.feeding)
+dds_quad <- estimateDispersions(dds_quad)
+vsd_quad <- varianceStabilizingTransformation(dds_quad)
+par(mfrow=c(1,2))
+plot(rank(rowMeans(counts(dds_quad))),
+genefilter::rowVars(log2(counts(dds_quad)+1)), main="QUAD log2(x+1) transform")
+plot(rank(rowMeans(assay(vsd_quad))), genefilter::rowVars(assay(vsd_quad)), main="QUAD VST")
+
+#select <- order(rowMeans(counts(dds,normalized=TRUE)),decreasing=TRUE)[1:20]
+selected_rows <- which(res.quad.feeding$padj_Feeding<0.05)
+df <- as.data.frame(colData(dds_quad)[,c("Feeding","Diet")])
+#heatmap of significant interaction genes
+pheatmap(assay(vsd_quad)[selected_rows,], cluster_rows=TRUE, show_rownames=FALSE, cluster_cols=TRUE, annotation_cof=df)
+
+ha_col_quad = HeatmapAnnotation(df = data.frame(Feeding=c(rep("Fasted", 12), rep("Fed", 8)), Diet=c(rep("Control", 6), rep("HFD",6), rep("Control", 4), rep("HFD", 4))), 
+    col = list(Feeding=c("Fasted"="Green", "Fed"="blue"), Diet = c("Control" =  "black", "HFD" = "red")))
+
+Heatmap(assay(vsd_quad)[selected_rows, rownames(sample.quad.reorder)], column_title="Significant Genes Quadriceps", top_annotation = ha_col_quad, show_row_names=FALSE, cluster_columns=FALSE)
+
+```
 # Session Information
 
 ```{r session-info}
