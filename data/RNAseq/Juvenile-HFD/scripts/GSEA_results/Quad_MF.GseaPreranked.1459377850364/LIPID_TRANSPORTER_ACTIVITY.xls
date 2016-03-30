@@ -1,0 +1,25 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.17803726	Yes	
+row_1	APOA4	APOA4	apolipoprotein A-IV	39	7.204412937164307	0.35750267	Yes	
+row_2	APOM	APOM	apolipoprotein M	172	4.23611307144165	0.45241657	Yes	
+row_3	APOC4	APOC4	apolipoprotein C-IV	188	4.029105186462402	0.5516176	Yes	
+row_4	SFTPA1	SFTPA1	surfactant, pulmonary-associated protein A1	254	3.5243277549743652	0.634202	Yes	
+row_5	APOF	APOF	apolipoprotein F	278	3.230227470397949	0.71284777	Yes	
+row_6	PLSCR1	PLSCR1	phospholipid scramblase 1	793	1.55812406539917	0.7101804	No	
+row_7	PITPNC1	PITPNC1	phosphatidylinositol transfer protein, cytoplasmic 1	1603	0.8617295622825623	0.6663405	No	
+row_8	ATP8B1	ATP8B1	ATPase, Class I, type 8B, member 1	2037	0.6779575943946838	0.64827746	No	
+row_9	PITPNA	PITPNA	phosphatidylinositol transfer protein, alpha	2246	0.6194943189620972	0.6469232	No	
+row_10	GLTP	GLTP	glycolipid transfer protein	2554	0.543621301651001	0.6356851	No	
+row_11	SLCO2A1	SLCO2A1	solute carrier organic anion transporter family, member 2A1	2822	0.48576629161834717	0.6262346	No	
+row_12	CDIPT	CDIPT	CDP-diacylglycerol--inositol 3-phosphatidyltransferase (phosphatidylinositol synthase)	3914	0.30137208104133606	0.545662	No	
+row_13	PCTP	PCTP	phosphatidylcholine transfer protein	3978	0.29280635714530945	0.54787284	No	
+row_14	PITPNM3	PITPNM3	PITPNM family member 3	4085	0.2794590890407562	0.5462794	No	
+row_15	SLC27A4	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4	4850	0.1816292256116867	0.48912334	No	
+row_16	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	5940	0.0625847727060318	0.4027612	No	
+row_17	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.30356577	No	
+row_18	ATP11B	ATP11B	ATPase, Class VI, type 11B	7580	-0.09618587046861649	0.2741528	No	
+row_19	PITPNM1	PITPNM1	phosphatidylinositol transfer protein, membrane-associated 1	8688	-0.2433696836233139	0.19084287	No	
+row_20	APOD	APOD	apolipoprotein D	10350	-0.5563927888870239	0.07060608	No	
+row_21	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	10815	-0.7193978428840637	0.051073045	No	
+row_22	ABCA1	ABCA1	ATP-binding cassette, sub-family A (ABC1), member 1	11533	-1.2307192087173462	0.023856707	No	
+row_23	NPC1	NPC1	Niemann-Pick disease, type C1	11834	-1.8773818016052246	0.04642334	No	

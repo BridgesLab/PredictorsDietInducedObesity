@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DLX3	DLX3	distal-less homeobox 3	729	1.6554040908813477	-0.0065305023	No	
+row_1	BCL6	BCL6	B-cell CLL/lymphoma 6 (zinc finger protein 51)	803	1.543296456336975	0.03643361	No	
+row_2	SDC1	SDC1	syndecan 1	918	1.372103214263916	0.07066179	No	
+row_3	CXCL14	CXCL14	chemokine (C-X-C motif) ligand 14	1165	1.120431900024414	0.08624748	No	
+row_4	WNT9A	WNT9A	wingless-type MMTV integration site family, member 9A	2118	0.6506130695343018	0.029869433	No	
+row_5	SMOX	SMOX	spermine oxidase	2188	0.632736325263977	0.044325028	No	
+row_6	ITGA6	ITGA6	integrin, alpha 6	2249	0.6189343333244324	0.059071332	No	
+row_7	ADNP	ADNP	activity-dependent neuroprotector	2251	0.6185609102249146	0.07857658	No	
+row_8	RCN1	RCN1	reticulocalbin 1, EF-hand calcium binding domain	2831	0.48417213559150696	0.047089256	No	
+row_9	DNAJB4	DNAJB4	DnaJ (Hsp40) homolog, subfamily B, member 4	2959	0.4578136205673218	0.051316194	No	
+row_10	USP54	USP54	ubiquitin specific peptidase 54	3820	0.3131128251552582	-0.008309306	No	
+row_11	NLK	NLK	nemo-like kinase	4196	0.2645638585090637	-0.03025479	No	
+row_12	ZCCHC5	ZCCHC5	zinc finger, CCHC domain containing 5	4476	0.2276500165462494	-0.04560652	No	
+row_13	PHF21A	PHF21A	PHD finger protein 21A	4830	0.18381981551647186	-0.06832976	No	
+row_14	ADCY6	ADCY6	adenylate cyclase 6	5082	0.15431907773017883	-0.08373935	No	
+row_15	JPH1	JPH1	junctophilin 1	5924	0.06439746171236038	-0.14970382	No	
+row_16	NCDN	NCDN	neurochondrin	6460	0.008934455923736095	-0.19268121	No	
+row_17	RAB1B	RAB1B	RAB1B, member RAS oncogene family	6665	-0.015589907765388489	-0.20868309	No	
+row_18	NSD1	NSD1	nuclear receptor binding SET domain protein 1	6694	-0.018242664635181427	-0.21036954	No	
+row_19	ZP3	ZP3	zona pellucida glycoprotein 3 (sperm receptor)	6742	-0.021812941879034042	-0.21347928	No	
+row_20	OTP	OTP	orthopedia homolog (Drosophila)	7622	-0.10125602781772614	-0.28134936	No	
+row_21	BDNF	BDNF	brain-derived neurotrophic factor	7738	-0.11350992321968079	-0.28705412	No	
+row_22	IKZF2	IKZF2	IKAROS family zinc finger 2 (Helios)	8056	-0.15370264649391174	-0.30782002	No	
+row_23	SMYD5	SMYD5	SMYD family member 5	8145	-0.16500668227672577	-0.30971095	No	
+row_24	CCDC6	CCDC6	coiled-coil domain containing 6	8550	-0.22178004682064056	-0.33535612	No	
+row_25	CPEB4	CPEB4	cytoplasmic polyadenylation element binding protein 4	8681	-0.2425079047679901	-0.33818918	No	
+row_26	KHDRBS1	KHDRBS1	KH domain containing, RNA binding, signal transduction associated 1	9052	-0.29782402515411377	-0.3586772	No	
+row_27	UVRAG	UVRAG	UV radiation resistance associated gene	9386	-0.35588598251342773	-0.37433493	No	
+row_28	NRGN	NRGN	neurogranin (protein kinase C substrate, RC3)	9497	-0.37543922662734985	-0.37134168	No	
+row_29	PYGM	PYGM	phosphorylase, glycogen; muscle (McArdle syndrome, glycogen storage disease type V)	9499	-0.3755757510662079	-0.3595303	No	
+row_30	RBM24	RBM24	RNA binding motif protein 24	9554	-0.3828792870044708	-0.3517733	No	
+row_31	RERE	RERE	arginine-glutamic acid dipeptide (RE) repeats	9589	-0.38762328028678894	-0.34224883	No	
+row_32	SYNCRIP	SYNCRIP	synaptotagmin binding, cytoplasmic RNA interacting protein	10329	-0.5522024631500244	-0.3845197	Yes	
+row_33	KLHL5	KLHL5	kelch-like 5 (Drosophila)	10572	-0.6262664198875427	-0.38425782	Yes	
+row_34	SLC7A8	SLC7A8	solute carrier family 7 (cationic amino acid transporter, y+ system), member 8	10655	-0.6539214253425598	-0.3701826	Yes	
+row_35	RANBP9	RANBP9	RAN binding protein 9	11164	-0.8973727822303772	-0.38284528	Yes	
+row_36	MAP4K5	MAP4K5	mitogen-activated protein kinase kinase kinase kinase 5	11171	-0.9016522765159607	-0.35478052	Yes	
+row_37	SLC9A1	SLC9A1	solute carrier family 9 (sodium/hydrogen exchanger), member 1 (antiporter, Na+/H+, amiloride sensitive)	11279	-0.9764559864997864	-0.33251408	Yes	
+row_38	LARP4	LARP4	La ribonucleoprotein domain family, member 4	11334	-1.0246416330337524	-0.30443633	Yes	
+row_39	SCNN1A	SCNN1A	sodium channel, nonvoltage-gated 1 alpha	11558	-1.261955738067627	-0.28250962	Yes	
+row_40	TRIM63	TRIM63	tripartite motif-containing 63	12240	-3.5230648517608643	-0.22602125	Yes	
+row_41	SLAIN1	SLAIN1	SLAIN motif family, member 1	12251	-3.7286791801452637	-0.10876499	Yes	
+row_42	KCNH5	KCNH5	potassium voltage-gated channel, subfamily H (eag-related), member 5	12270	-3.835907220840454	0.0112396395	Yes	

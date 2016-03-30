@@ -1,0 +1,16 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP5O	ATP5O	ATP synthase, H+ transporting, mitochondrial F1 complex, O subunit (oligomycin sensitivity conferring protein)	2325	0.5983002185821533	-0.09613139	No	
+row_1	ATP5D	ATP5D	ATP synthase, H+ transporting, mitochondrial F1 complex, delta subunit	3757	0.3214094340801239	-0.16245694	No	
+row_2	ATP5E	ATP5E	ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit	3843	0.31057456135749817	-0.1218463	No	
+row_3	ATP5G3	ATP5G3	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C3 (subunit 9)	3918	0.30111002922058105	-0.081794776	No	
+row_4	ATP5G1	ATP5G1	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C1 (subunit 9)	4068	0.28119954466819763	-0.0508372	No	
+row_5	ATP5G2	ATP5G2	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C2 (subunit 9)	5319	0.1301494985818863	-0.13179226	No	
+row_6	ATP5A1	ATP5A1	ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1, cardiac muscle	5345	0.12686015665531158	-0.11441989	No	
+row_7	ATP5B	ATP5B	ATP synthase, H+ transporting, mitochondrial F1 complex, beta polypeptide	5847	0.07215040922164917	-0.14381194	No	
+row_8	ATP6AP1	ATP6AP1	ATPase, H+ transporting, lysosomal accessory protein 1	6254	0.031934913247823715	-0.17168616	No	
+row_9	ATP6V1E1	ATP6V1E1	ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1	7298	-0.06464047729969025	-0.24595334	No	
+row_10	ATP5C1	ATP5C1	ATP synthase, H+ transporting, mitochondrial F1 complex, gamma polypeptide 1	7352	-0.07067742198705673	-0.23942691	No	
+row_11	ATP6V1F	ATP6V1F	ATPase, H+ transporting, lysosomal 14kDa, V1 subunit F	7508	-0.08850746601819992	-0.23840447	No	
+row_12	ATP6V1C1	ATP6V1C1	ATPase, H+ transporting, lysosomal 42kDa, V1 subunit C1	8575	-0.2257423847913742	-0.28990442	No	
+row_13	ATP6V1A	ATP6V1A	ATPase, H+ transporting, lysosomal 70kDa, V1 subunit A	10860	-0.7405287623405457	-0.3609898	Yes	
+row_14	ATP6V1B1	ATP6V1B1	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B1 (Renal tubular acidosis with deafness)	12171	-3.179002046585083	0.019201303	Yes	

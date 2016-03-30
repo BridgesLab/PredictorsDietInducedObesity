@@ -1,0 +1,32 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AGXT	AGXT	alanine-glyoxylate aminotransferase (oxalosis I; hyperoxaluria I; glycolicaciduria; serine-pyruvate aminotransferase)	26	7.824927806854248	0.22813675	Yes	
+row_1	CPS1	CPS1	carbamoyl-phosphate synthetase 1, mitochondrial	36	7.274812698364258	0.44146046	Yes	
+row_2	AGXT2	AGXT2	alanine-glyoxylate aminotransferase 2	105	5.314988136291504	0.59235305	Yes	
+row_3	ASS1	ASS1	argininosuccinate synthetase 1	760	1.6188008785247803	0.5871525	Yes	
+row_4	GLS2	GLS2	glutaminase 2 (liver, mitochondrial)	772	1.5986617803573608	0.63330215	Yes	
+row_5	ASL	ASL	argininosuccinate lyase	1645	0.8321989178657532	0.58734655	No	
+row_6	ABAT	ABAT	4-aminobutyrate aminotransferase	1790	0.76725172996521	0.5982892	No	
+row_7	CAD	CAD	carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase	4270	0.25462549924850464	0.4055227	No	
+row_8	GFPT1	GFPT1	glutamine-fructose-6-phosphate transaminase 1	4472	0.22879567742347717	0.3960175	No	
+row_9	GAD2	GAD2	glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)	4489	0.2254961133003235	0.4013599	No	
+row_10	ALDH4A1	ALDH4A1	aldehyde dehydrogenase 4 family, member A1	4752	0.19398735463619232	0.3859028	No	
+row_11	IL4I1	IL4I1	interleukin 4 induced 1	4865	0.17991331219673157	0.3821489	No	
+row_12	DDO	DDO	D-aspartate oxidase	5006	0.16412895917892456	0.37566867	No	
+row_13	ADSL	ADSL	adenylosuccinate lyase	5165	0.14630600810050964	0.36720997	No	
+row_14	PPAT	PPAT	phosphoribosyl pyrophosphate amidotransferase	5283	0.1332191526889801	0.36167827	No	
+row_15	ADSSL1	ADSSL1	adenylosuccinate synthase like 1	5468	0.1116664856672287	0.3501	No	
+row_16	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	5603	0.0984877496957779	0.34217307	No	
+row_17	ACY3	ACY3	aspartoacylase (aminocyclase) 3	5730	0.08551612496376038	0.33451074	No	
+row_18	NIT2	NIT2	nitrilase family, member 2	6198	0.037181027233600616	0.29787955	No	
+row_19	ASPA	ASPA	aspartoacylase (Canavan disease)	6659	-0.014643818140029907	0.26115072	No	
+row_20	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	7139	-0.04446010664105415	0.22376433	No	
+row_21	ALDH5A1	ALDH5A1	aldehyde dehydrogenase 5 family, member A1 (succinate-semialdehyde dehydrogenase)	7575	-0.09590322524309158	0.19144599	No	
+row_22	GLUD1	GLUD1	glutamate dehydrogenase 1	8052	-0.1531260758638382	0.15749928	No	
+row_23	ADSS	ADSS	adenylosuccinate synthase	8058	-0.15426287055015564	0.16163434	No	
+row_24	GPT	GPT	glutamic-pyruvate transaminase (alanine aminotransferase)	8100	-0.15914374589920044	0.16300485	No	
+row_25	GLS	GLS	glutaminase	8191	-0.17114296555519104	0.1607701	No	
+row_26	GFPT2	GFPT2	glutamine-fructose-6-phosphate transaminase 2	8233	-0.17753389477729797	0.16268171	No	
+row_27	GPT2	GPT2	glutamic pyruvate transaminase (alanine aminotransferase) 2	10513	-0.610875129699707	-0.003446277	No	
+row_28	ASNS	ASNS	asparagine synthetase	11503	-1.1942981481552124	-0.048199162	No	
+row_29	GLUL	GLUL	glutamate-ammonia ligase (glutamine synthetase)	11875	-2.00156569480896	-0.019276123	No	
+row_30	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11912	-2.118468761444092	0.040148575	No	

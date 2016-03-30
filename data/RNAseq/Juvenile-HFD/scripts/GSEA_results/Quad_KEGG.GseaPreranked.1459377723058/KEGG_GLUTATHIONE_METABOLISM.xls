@@ -1,0 +1,45 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GPX2	GPX2	glutathione peroxidase 2 (gastrointestinal)	228	3.7542335987091064	0.08677002	Yes	
+row_1	GSTA2	GSTA2	glutathione S-transferase A2	252	3.5243277549743652	0.18367493	Yes	
+row_2	GPX5	GPX5	glutathione peroxidase 5 (epididymal androgen-related protein)	520	2.3005988597869873	0.22655486	Yes	
+row_3	GSTA3	GSTA3	glutathione S-transferase A3	603	1.9810714721679688	0.2754408	Yes	
+row_4	GSTM3	GSTM3	glutathione S-transferase M3 (brain)	612	1.9564499855041504	0.32962093	Yes	
+row_5	ANPEP	ANPEP	alanyl (membrane) aminopeptidase (aminopeptidase N, aminopeptidase M, microsomal aminopeptidase, CD13, p150)	1989	0.6942862868309021	0.23780459	No	
+row_6	GGT6	GGT6	gamma-glutamyltransferase 6 homolog (rat)	2736	0.5041443109512329	0.1916059	No	
+row_7	GSTA4	GSTA4	glutathione S-transferase A4	3220	0.40708428621292114	0.16395521	No	
+row_8	GSS	GSS	glutathione synthetase	3580	0.34886929392814636	0.14470062	No	
+row_9	GSTP1	GSTP1	glutathione S-transferase pi	4887	0.17702314257621765	0.044049308	No	
+row_10	GPX7	GPX7	glutathione peroxidase 7	4897	0.17590312659740448	0.04825097	No	
+row_11	GPX1	GPX1	glutathione peroxidase 1	4932	0.17270490527153015	0.050341334	No	
+row_12	IDH2	IDH2	isocitrate dehydrogenase 2 (NADP+), mitochondrial	5153	0.14750893414020538	0.036684368	No	
+row_13	GSTT1	GSTT1	glutathione S-transferase theta 1	5367	0.12427128851413727	0.022942267	No	
+row_14	MGST3	MGST3	microsomal glutathione S-transferase 3	5716	0.08707037568092346	-0.002759374	No	
+row_15	RRM2	RRM2	ribonucleotide reductase M2 polypeptide	5977	0.05856650695204735	-0.022143513	No	
+row_16	SMS	SMS	spermine synthase	6489	0.005593520123511553	-0.063309744	No	
+row_17	GGT1	GGT1	gamma-glutamyltransferase 1	6906	-0.022026220336556435	-0.09633312	No	
+row_18	PGD	PGD	phosphogluconate dehydrogenase	6944	-0.023512575775384903	-0.09866628	No	
+row_19	GSTM5	GSTM5	glutathione S-transferase M5	7012	-0.030954228714108467	-0.10321691	No	
+row_20	GPX4	GPX4	glutathione peroxidase 4 (phospholipid hydroperoxidase)	7215	-0.05377636104822159	-0.118045	No	
+row_21	RRM1	RRM1	ribonucleotide reductase M1 polypeptide	7221	-0.05423802509903908	-0.11692939	No	
+row_22	GSTK1	GSTK1	glutathione S-transferase kappa 1	7321	-0.06716718524694443	-0.12305293	No	
+row_23	IDH1	IDH1	isocitrate dehydrogenase 1 (NADP+), soluble	7546	-0.09320623427629471	-0.13855512	No	
+row_24	LAP3	LAP3	leucine aminopeptidase 3	7704	-0.1104600802063942	-0.14815572	No	
+row_25	GSTM2	GSTM2	glutathione S-transferase M2 (muscle)	7731	-0.112682044506073	-0.1471005	No	
+row_26	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	8066	-0.15528085827827454	-0.16975848	No	
+row_27	GSTM4	GSTM4	glutathione S-transferase M4	8134	-0.16319110989570618	-0.17060333	No	
+row_28	TXNDC12	TXNDC12	thioredoxin domain containing 12 (endoplasmic reticulum)	8185	-0.169994056224823	-0.16988282	No	
+row_29	GSTA1	GSTA1	glutathione S-transferase A1	8188	-0.17022399604320526	-0.16527423	No	
+row_30	OPLAH	OPLAH	5-oxoprolinase (ATP-hydrolysing)	8567	-0.2242976278066635	-0.18955626	No	
+row_31	GSTM1	GSTM1	glutathione S-transferase M1	8697	-0.24507279694080353	-0.19312024	No	
+row_32	MGST1	MGST1	microsomal glutathione S-transferase 1	8742	-0.25267523527145386	-0.18959747	No	
+row_33	SRM	SRM	spermidine synthase	8827	-0.2628666162490845	-0.18902378	No	
+row_34	GSTO1	GSTO1	glutathione S-transferase omega 1	9065	-0.2999085485935211	-0.19978468	No	
+row_35	RRM2B	RRM2B	ribonucleotide reductase M2 B (TP53 inducible)	9701	-0.407557874917984	-0.23971386	No	
+row_36	GSR	GSR	glutathione reductase	10831	-0.7242686748504639	-0.31071585	No	
+row_37	GSTT2	GSTT2	glutathione S-transferase theta 2	11174	-0.9028565883636475	-0.31307092	No	
+row_38	GCLC	GCLC	glutamate-cysteine ligase, catalytic subunit	11293	-0.9908453226089478	-0.29484603	No	
+row_39	GPX3	GPX3	glutathione peroxidase 3 (plasma)	11363	-1.0518064498901367	-0.2709503	No	
+row_40	GCLM	GCLM	glutamate-cysteine ligase, modifier subunit	11772	-1.6940113306045532	-0.25647143	No	
+row_41	ODC1	ODC1	ornithine decarboxylase 1	11811	-1.810634732246399	-0.20880362	No	
+row_42	GSTO2	GSTO2	glutathione S-transferase omega 2	12064	-2.3105857372283936	-0.16443081	No	
+row_43	MGST2	MGST2	microsomal glutathione S-transferase 2	12398	-6.8602213859558105	8.895835E-4	No	

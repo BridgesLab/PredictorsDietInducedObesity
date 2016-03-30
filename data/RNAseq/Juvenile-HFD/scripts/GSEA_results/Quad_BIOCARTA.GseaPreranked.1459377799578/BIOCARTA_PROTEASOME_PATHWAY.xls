@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UBE2A	UBE2A	ubiquitin-conjugating enzyme E2A (RAD6 homolog)	4241	0.2576359212398529	-0.31212184	No	
+row_1	RPN1	RPN1	ribophorin I	4805	0.18792562186717987	-0.33543932	No	
+row_2	PSMB5	PSMB5	proteasome (prosome, macropain) subunit, beta type, 5	4857	0.18075378239154816	-0.31825507	No	
+row_3	RPN2	RPN2	ribophorin II	4912	0.17467071115970612	-0.30202997	No	
+row_4	PSMA3	PSMA3	proteasome (prosome, macropain) subunit, alpha type, 3	5193	0.14385436475276947	-0.30768758	No	
+row_5	PSMB6	PSMB6	proteasome (prosome, macropain) subunit, beta type, 6	6559	-0.0021504529286175966	-0.4176659	No	
+row_6	PSMB2	PSMB2	proteasome (prosome, macropain) subunit, beta type, 2	7331	-0.06825920939445496	-0.47188395	No	
+row_7	PSMD14	PSMD14	proteasome (prosome, macropain) 26S subunit, non-ATPase, 14	7479	-0.08527436852455139	-0.47370502	No	
+row_8	PSMA4	PSMA4	proteasome (prosome, macropain) subunit, alpha type, 4	7940	-0.13881537318229675	-0.49449256	No	
+row_9	PSMB3	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3	8308	-0.1890774816274643	-0.50184613	Yes	
+row_10	PSMD6	PSMD6	proteasome (prosome, macropain) 26S subunit, non-ATPase, 6	8423	-0.2048654407262802	-0.4869078	Yes	
+row_11	PSMA6	PSMA6	proteasome (prosome, macropain) subunit, alpha type, 6	8535	-0.22016510367393494	-0.46992403	Yes	
+row_12	PSMA2	PSMA2	proteasome (prosome, macropain) subunit, alpha type, 2	8686	-0.24327440559864044	-0.4533662	Yes	
+row_13	PSMB7	PSMB7	proteasome (prosome, macropain) subunit, beta type, 7	8777	-0.2565497159957886	-0.4303984	Yes	
+row_14	PSMD12	PSMD12	proteasome (prosome, macropain) 26S subunit, non-ATPase, 12	8873	-0.2705004811286926	-0.40619025	Yes	
+row_15	PSMC3	PSMC3	proteasome (prosome, macropain) 26S subunit, ATPase, 3	8907	-0.274864137172699	-0.3764609	Yes	
+row_16	PSMB4	PSMB4	proteasome (prosome, macropain) subunit, beta type, 4	9044	-0.29623156785964966	-0.3525312	Yes	
+row_17	PSMA7	PSMA7	proteasome (prosome, macropain) subunit, alpha type, 7	9286	-0.3368023931980133	-0.33229935	Yes	
+row_18	PSMC4	PSMC4	proteasome (prosome, macropain) 26S subunit, ATPase, 4	9318	-0.34370335936546326	-0.29429543	Yes	
+row_19	UBE3A	UBE3A	ubiquitin protein ligase E3A (human papilloma virus E6-associated protein, Angelman syndrome)	9447	-0.3670659065246582	-0.26137143	Yes	
+row_20	PSMB1	PSMB1	proteasome (prosome, macropain) subunit, beta type, 1	9902	-0.44700363278388977	-0.24535276	Yes	
+row_21	PSMD8	PSMD8	proteasome (prosome, macropain) 26S subunit, non-ATPase, 8	10042	-0.47876811027526855	-0.20015237	Yes	
+row_22	PSMC2	PSMC2	proteasome (prosome, macropain) 26S subunit, ATPase, 2	10384	-0.5658285617828369	-0.1610041	Yes	
+row_23	PSMA5	PSMA5	proteasome (prosome, macropain) subunit, alpha type, 5	10398	-0.5714444518089294	-0.09470604	Yes	
+row_24	PSMA1	PSMA1	proteasome (prosome, macropain) subunit, alpha type, 1	10500	-0.6077884435653687	-0.031231165	Yes	
+row_25	PSMC6	PSMC6	proteasome (prosome, macropain) 26S subunit, ATPase, 6	10766	-0.6983518004417419	0.02967314	Yes	
+row_26	PSMD11	PSMD11	proteasome (prosome, macropain) 26S subunit, non-ATPase, 11	11114	-0.8733394742012024	0.10457873	Yes	

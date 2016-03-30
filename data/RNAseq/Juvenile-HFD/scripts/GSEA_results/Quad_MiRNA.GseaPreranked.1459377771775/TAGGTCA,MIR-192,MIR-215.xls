@@ -1,0 +1,35 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DYRK3	DYRK3	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 3	628	1.9086195230484009	0.037931044	No	
+row_1	OLIG3	OLIG3	oligodendrocyte transcription factor 3	1003	1.2809257507324219	0.06722304	No	
+row_2	LRRFIP1	LRRFIP1	leucine rich repeat (in FLII) interacting protein 1	1451	0.9380354285240173	0.07468585	No	
+row_3	MSN	MSN	moesin	2318	0.6000973582267761	0.03259221	No	
+row_4	ACVR2A	ACVR2A	activin A receptor, type IIA	3313	0.39201924204826355	-0.029511327	No	
+row_5	FNDC3B	FNDC3B	fibronectin type III domain containing 3B	3853	0.3098590672016144	-0.05866732	No	
+row_6	CTNNBIP1	CTNNBIP1	catenin, beta interacting protein 1	3866	0.30690181255340576	-0.045378286	No	
+row_7	B4GALT2	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2	4011	0.288929283618927	-0.043590065	No	
+row_8	BLCAP	BLCAP	bladder cancer associated protein	4384	0.2394392490386963	-0.0625239	No	
+row_9	PCDH19	PCDH19	protocadherin 19	4495	0.225040465593338	-0.060956698	No	
+row_10	CCNT2	CCNT2	cyclin T2	5611	0.09796527028083801	-0.14649896	No	
+row_11	ALCAM	ALCAM	activated leukocyte cell adhesion molecule	6647	-0.013524677604436874	-0.22950022	No	
+row_12	PPP1R3D	PPP1R3D	protein phosphatase 1, regulatory subunit 3D	7039	-0.03393658623099327	-0.25951692	No	
+row_13	PKP4	PKP4	plakophilin 4	7384	-0.07394067198038101	-0.28387737	No	
+row_14	TMTC3	TMTC3	transmembrane and tetratricopeptide repeat containing 3	8248	-0.17928306758403778	-0.34527963	No	
+row_15	RICTOR	RICTOR	-	8355	-0.19588126242160797	-0.34474397	No	
+row_16	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	8607	-0.23037198185920715	-0.35432208	No	
+row_17	ARFGEF1	ARFGEF1	ADP-ribosylation factor guanine nucleotide-exchange factor 1(brefeldin A-inhibited)	8731	-0.25124889612197876	-0.35258764	No	
+row_18	DDX6	DDX6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	9210	-0.32440346479415894	-0.37613901	No	
+row_19	RABGAP1	RABGAP1	RAB GTPase activating protein 1	10219	-0.5222134590148926	-0.43332496	Yes	
+row_20	WDR44	WDR44	WD repeat domain 44	10258	-0.5316709280014038	-0.411694	Yes	
+row_21	MECP2	MECP2	methyl CpG binding protein 2 (Rett syndrome)	10316	-0.5494686961174011	-0.3907714	Yes	
+row_22	MTMR4	MTMR4	myotubularin related protein 4	10352	-0.5567403435707092	-0.3677333	Yes	
+row_23	DYRK1A	DYRK1A	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A	10495	-0.6059238314628601	-0.35105592	Yes	
+row_24	DBT	DBT	dihydrolipoamide branched chain transacylase E2	10573	-0.6264773607254028	-0.32817152	Yes	
+row_25	DDX3X	DDX3X	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, X-linked	10726	-0.683659553527832	-0.30869055	Yes	
+row_26	NIPBL	NIPBL	Nipped-B homolog (Drosophila)	10794	-0.7110618948936462	-0.28106833	Yes	
+row_27	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	11130	-0.8800072073936462	-0.26725173	Yes	
+row_28	H3F3B	H3F3B	H3 histone, family 3B (H3.3B)	11181	-0.9054622054100037	-0.22922406	Yes	
+row_29	TCF7	TCF7	transcription factor 7 (T-cell specific, HMG-box)	11266	-0.9673731327056885	-0.19106725	Yes	
+row_30	LARP4	LARP4	La ribonucleoprotein domain family, member 4	11334	-1.0246416330337524	-0.14887613	Yes	
+row_31	NRIP1	NRIP1	nuclear receptor interacting protein 1	11472	-1.1621415615081787	-0.10595288	Yes	
+row_32	MIPOL1	MIPOL1	mirror-image polydactyly 1	11683	-1.4798017740249634	-0.054169655	Yes	
+row_33	GRHL1	GRHL1	grainyhead-like 1 (Drosophila)	12087	-2.4268343448638916	0.026017984	Yes	

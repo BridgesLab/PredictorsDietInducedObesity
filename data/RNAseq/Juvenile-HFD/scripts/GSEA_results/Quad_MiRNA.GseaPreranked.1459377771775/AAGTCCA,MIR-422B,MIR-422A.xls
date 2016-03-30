@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NPAS4	NPAS4	neuronal PAS domain protein 4	568	2.135030746459961	0.013491099	No	
+row_1	FMOD	FMOD	fibromodulin	924	1.3641279935836792	0.022750968	No	
+row_2	WHSC1	WHSC1	Wolf-Hirschhorn syndrome candidate 1	982	1.295214056968689	0.054203924	No	
+row_3	HAS3	HAS3	hyaluronan synthase 3	1000	1.2826462984085083	0.08854344	No	
+row_4	NT5E	NT5E	5'-nucleotidase, ecto (CD73)	1206	1.0943711996078491	0.10242889	No	
+row_5	IQSEC2	IQSEC2	IQ motif and Sec7 domain 2	1740	0.787164032459259	0.08122085	No	
+row_6	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	2825	0.48558926582336426	0.0070326254	No	
+row_7	SRR	SRR	serine racemase	2832	0.483865350484848	0.020020284	No	
+row_8	CSNK1G2	CSNK1G2	casein kinase 1, gamma 2	2951	0.4595879018306732	0.02326972	No	
+row_9	BACE1	BACE1	beta-site APP-cleaving enzyme 1	3131	0.4259730577468872	0.020647483	No	
+row_10	PTPRT	PTPRT	protein tyrosine phosphatase, receptor type, T	3251	0.4021672010421753	0.02221714	No	
+row_11	SPEG	SPEG	SPEG complex locus	3659	0.3377353250980377	-0.0013101539	No	
+row_12	STXBP5	STXBP5	syntaxin binding protein 5 (tomosyn)	3753	0.3218701183795929	1.2737515E-4	No	
+row_13	FNDC3B	FNDC3B	fibronectin type III domain containing 3B	3853	0.3098590672016144	7.449826E-4	No	
+row_14	STIM1	STIM1	stromal interaction molecule 1	3854	0.30984944105148315	0.009372679	No	
+row_15	ALG3	ALG3	asparagine-linked glycosylation 3 homolog (S. cerevisiae, alpha-1,3-mannosyltransferase)	4035	0.2854374945163727	0.0027563442	No	
+row_16	GADL1	GADL1	glutamate decarboxylase-like 1	4366	0.24205683171749115	-0.01720482	No	
+row_17	PHF21A	PHF21A	PHD finger protein 21A	4830	0.18381981551647186	-0.049548972	No	
+row_18	RBBP5	RBBP5	retinoblastoma binding protein 5	5762	0.08245787024497986	-0.12258267	No	
+row_19	YWHAQ	YWHAQ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, theta polypeptide	6013	0.055594462901353836	-0.14126283	No	
+row_20	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	-0.14104623	No	
+row_21	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	6126	0.044834960252046585	-0.14748451	No	
+row_22	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	6146	0.042252425104379654	-0.14784534	No	
+row_23	FRMD5	FRMD5	FERM domain containing 5	6307	0.027081551030278206	-0.1600373	No	
+row_24	NEK4	NEK4	NIMA (never in mitosis gene a)-related kinase 4	6358	0.021413195878267288	-0.16348667	No	
+row_25	NSD1	NSD1	nuclear receptor binding SET domain protein 1	6694	-0.018242664635181427	-0.19008446	No	
+row_26	PLAGL2	PLAGL2	pleiomorphic adenoma gene-like 2	7024	-0.03242102637887001	-0.21580198	No	
+row_27	LRRFIP2	LRRFIP2	leucine rich repeat (in FLII) interacting protein 2	7155	-0.04620233550667763	-0.22503413	No	
+row_28	GSPT1	GSPT1	G1 to S phase transition 1	7204	-0.052532754838466644	-0.22745518	No	
+row_29	BZW1	BZW1	basic leucine zipper and W2 domains 1	8269	-0.18152183294296265	-0.30849186	No	
+row_30	UPF3B	UPF3B	UPF3 regulator of nonsense transcripts homolog B (yeast)	8478	-0.21152447164058685	-0.31943184	No	
+row_31	CALN1	CALN1	calneuron 1	8590	-0.22802378237247467	-0.32206386	No	
+row_32	MORF4L2	MORF4L2	mortality factor 4 like 2	9016	-0.2928500473499298	-0.34829742	No	
+row_33	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	9559	-0.383502334356308	-0.38147354	No	
+row_34	DLG2	DLG2	discs, large homolog 2, chapsyn-110 (Drosophila)	9584	-0.3869418501853943	-0.37264112	No	
+row_35	EDN1	EDN1	endothelin 1	10001	-0.46920669078826904	-0.39323583	Yes	
+row_36	GNAT1	GNAT1	guanine nucleotide binding protein (G protein), alpha transducing activity polypeptide 1	10097	-0.4911735951900482	-0.38724592	Yes	
+row_37	HECTD2	HECTD2	HECT domain containing 2	10341	-0.5545889735221863	-0.39146528	Yes	
+row_38	SOX6	SOX6	SRY (sex determining region Y)-box 6	10370	-0.5613001585006714	-0.37810156	Yes	
+row_39	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	10682	-0.6624016165733337	-0.38482094	Yes	
+row_40	KIF14	KIF14	kinesin family member 14	10802	-0.7142201662063599	-0.37456223	Yes	
+row_41	EN2	EN2	engrailed homolog 2	11137	-0.8826694488525391	-0.37700933	Yes	
+row_42	VCPIP1	VCPIP1	valosin containing protein (p97)/p47 complex interacting protein 1	11369	-1.055182695388794	-0.3663188	Yes	
+row_43	DHX30	DHX30	DEAH (Asp-Glu-Ala-His) box polypeptide 30	11379	-1.0660709142684937	-0.3373625	Yes	
+row_44	SSH2	SSH2	slingshot homolog 2 (Drosophila)	11391	-1.0783525705337524	-0.30822602	Yes	
+row_45	PAPOLB	PAPOLB	poly(A) polymerase beta (testis specific)	11566	-1.2730934619903564	-0.2868558	Yes	
+row_46	ASXL1	ASXL1	additional sex combs like 1 (Drosophila)	11603	-1.3362455368041992	-0.25256115	Yes	
+row_47	SYN2	SYN2	synapsin II	11704	-1.5263615846633911	-0.21815118	Yes	
+row_48	NTRK3	NTRK3	neurotrophic tyrosine kinase, receptor, type 3	12091	-2.4471511840820312	-0.18124305	Yes	
+row_49	ZIC4	ZIC4	Zic family member 4	12184	-3.211339235305786	-0.09926791	Yes	
+row_50	DSCAM	DSCAM	Down syndrome cell adhesion molecule	12305	-4.215956687927246	0.00841505	Yes	

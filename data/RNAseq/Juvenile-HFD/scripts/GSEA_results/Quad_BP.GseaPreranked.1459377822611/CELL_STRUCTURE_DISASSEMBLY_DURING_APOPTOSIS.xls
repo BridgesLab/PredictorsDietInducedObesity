@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	2077	0.6630666851997375	-0.11024795	No	
+row_1	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3549	0.3540751039981842	-0.19831873	No	
+row_2	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	-0.2471073	No	
+row_3	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	4572	0.21665716171264648	-0.24152522	No	
+row_4	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	-0.34146473	No	
+row_5	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.34417236	No	
+row_6	MOAP1	MOAP1	modulator of apoptosis 1	6602	-0.0077617415226995945	-0.39344475	No	
+row_7	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	6613	-0.008939740248024464	-0.3934786	No	
+row_8	TPD52L1	TPD52L1	tumor protein D52-like 1	7187	-0.050458069890737534	-0.4353477	No	
+row_9	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.55380785	No	
+row_10	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11193	-0.917675793170929	-0.65438527	Yes	
+row_11	GZMA	GZMA	granzyme A (granzyme 1, cytotoxic T-lymphocyte-associated serine esterase 3)	11211	-0.9340803027153015	-0.57499015	Yes	
+row_12	CECR2	CECR2	cat eye syndrome chromosome region, candidate 2	11451	-1.141296148300171	-0.49558964	Yes	
+row_13	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	11488	-1.1809436082839966	-0.39638206	Yes	
+row_14	PMAIP1	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	11614	-1.35092294216156	-0.28965786	Yes	
+row_15	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	12284	-4.0908403396606445	0.010085522	Yes	

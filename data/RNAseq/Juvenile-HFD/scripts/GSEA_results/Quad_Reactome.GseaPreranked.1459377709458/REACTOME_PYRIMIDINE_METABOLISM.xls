@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UPP2	UPP2	uridine phosphorylase 2	59	6.436906337738037	0.23458129	Yes	
+row_1	AGXT2	AGXT2	alanine-glyoxylate aminotransferase 2	105	5.314988136291504	0.42857635	Yes	
+row_2	DPYS	DPYS	dihydropyrimidinase	306	2.9509449005126953	0.52215576	Yes	
+row_3	DCTD	DCTD	dCMP deaminase	598	1.997674822807312	0.5729432	Yes	
+row_4	CDA	CDA	cytidine deaminase	925	1.3636173009872437	0.59732884	Yes	
+row_5	UPB1	UPB1	ureidopropionase, beta	986	1.2911978960037231	0.64049584	Yes	
+row_6	NT5E	NT5E	5'-nucleotidase, ecto (CD73)	1206	1.0943711996078491	0.6635082	Yes	
+row_7	NT5C	NT5C	5', 3'-nucleotidase, cytosolic	1389	0.9753767848014832	0.6850829	Yes	
+row_8	UPP1	UPP1	uridine phosphorylase 1	2080	0.6617398858070374	0.6539849	No	
+row_9	NT5M	NT5M	5',3'-nucleotidase, mitochondrial	2593	0.5338801145553589	0.63250256	No	
+row_10	TK1	TK1	thymidine kinase 1, soluble	2693	0.5121372938156128	0.6435532	No	
+row_11	DUT	DUT	dUTP pyrophosphatase	3047	0.4405876100063324	0.631438	No	
+row_12	NT5C1A	NT5C1A	5'-nucleotidase, cytosolic IA	3434	0.3743533194065094	0.61419594	No	
+row_13	DHODH	DHODH	dihydroorotate dehydrogenase	4112	0.27604830265045166	0.5698062	No	
+row_14	CAD	CAD	carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase	4270	0.25462549924850464	0.56659937	No	
+row_15	UCK2	UCK2	uridine-cytidine kinase 2	4552	0.21870817244052887	0.5520466	No	
+row_16	UMPS	UMPS	uridine monophosphate synthetase (orotate phosphoribosyl transferase and orotidine-5'-decarboxylase)	5075	0.15482252836227417	0.51566243	No	
+row_17	TYMS	TYMS	thymidylate synthetase	7112	-0.041773103177547455	0.35284978	No	
+row_18	DCK	DCK	deoxycytidine kinase	7411	-0.07758130878210068	0.33167702	No	
+row_19	NT5C3	NT5C3	5'-nucleotidase, cytosolic III	9350	-0.3484896421432495	0.18818061	No	
+row_20	UCK1	UCK1	uridine-cytidine kinase 1	9644	-0.39534610509872437	0.179227	No	
+row_21	TK2	TK2	thymidine kinase 2, mitochondrial	10393	-0.5698962807655334	0.14003164	No	
+row_22	DPYD	DPYD	dihydropyrimidine dehydrogenase	10508	-0.60885089635849	0.15346742	No	

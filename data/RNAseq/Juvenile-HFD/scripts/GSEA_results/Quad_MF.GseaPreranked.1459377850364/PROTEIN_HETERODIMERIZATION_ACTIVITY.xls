@@ -1,0 +1,71 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	APOB	APOB	apolipoprotein B (including Ag(x) antigen)	1	21.418428421020508	0.25854853	Yes	
+row_1	ABCG8	ABCG8	ATP-binding cassette, sub-family G (WHITE), member 8 (sterolin 2)	32	7.559213161468506	0.34739563	Yes	
+row_2	APOA2	APOA2	apolipoprotein A-II	69	6.170414924621582	0.41898662	Yes	
+row_3	ABCG5	ABCG5	ATP-binding cassette, sub-family G (WHITE), member 5 (sterolin 1)	191	3.990461587905884	0.45736632	Yes	
+row_4	APOC2	APOC2	apolipoprotein C-II	195	3.911592960357666	0.504356	Yes	
+row_5	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	348	2.794860601425171	0.5257866	Yes	
+row_6	TIMELESS	TIMELESS	timeless homolog (Drosophila)	609	1.9598075151443481	0.52838176	Yes	
+row_7	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	758	1.6249667406082153	0.53600985	Yes	
+row_8	ARNT2	ARNT2	aryl-hydrocarbon receptor nuclear translocator 2	828	1.4956469535827637	0.54847836	Yes	
+row_9	TAP1	TAP1	transporter 1, ATP-binding cassette, sub-family B (MDR/TAP)	830	1.4942234754562378	0.5664402	Yes	
+row_10	TYRP1	TYRP1	tyrosinase-related protein 1	963	1.3215874433517456	0.5717016	Yes	
+row_11	ERBB4	ERBB4	v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian)	997	1.2839866876602173	0.5845316	Yes	
+row_12	TGFB2	TGFB2	transforming growth factor, beta 2	1172	1.1153578758239746	0.5838992	Yes	
+row_13	CENPF	CENPF	centromere protein F, 350/400ka (mitosin)	1311	1.0246858596801758	0.5850892	Yes	
+row_14	EREG	EREG	epiregulin	1321	1.0193935632705688	0.5966692	Yes	
+row_15	SCUBE1	SCUBE1	signal peptide, CUB domain, EGF-like 1	1335	1.0114370584487915	0.60782886	Yes	
+row_16	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	1561	0.8808701634407043	0.60023206	No	
+row_17	BARD1	BARD1	BRCA1 associated RING domain 1	1778	0.7713645100593567	0.5920423	No	
+row_18	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	1903	0.7225216031074524	0.5907182	No	
+row_19	BAK1	BAK1	BCL2-antagonist/killer 1	2957	0.457899808883667	0.51091516	No	
+row_20	TARBP2	TARBP2	Tar (HIV-1) RNA binding protein 2	2996	0.4500984847545624	0.51327074	No	
+row_21	TAP2	TAP2	transporter 2, ATP-binding cassette, sub-family B (MDR/TAP)	3065	0.4379918575286865	0.513049	No	
+row_22	ABCG4	ABCG4	ATP-binding cassette, sub-family G (WHITE), member 4	3085	0.4347039461135864	0.5167584	No	
+row_23	PPP2R4	PPP2R4	protein phosphatase 2A, regulatory subunit B' (PR 53)	3368	0.3839314877986908	0.49854186	No	
+row_24	TPD52	TPD52	tumor protein D52	3831	0.31142890453338623	0.46486315	No	
+row_25	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	3964	0.29466891288757324	0.4577244	No	
+row_26	KATNB1	KATNB1	katanin p80 (WD repeat containing) subunit B 1	4266	0.25517624616622925	0.43641347	No	
+row_27	PDSS2	PDSS2	prenyl (decaprenyl) diphosphate synthase, subunit 2	4406	0.23656824231147766	0.42800584	No	
+row_28	BCL2	BCL2	B-cell CLL/lymphoma 2	4461	0.2304641157388687	0.42641273	No	
+row_29	SAE1	SAE1	-	4566	0.2175336629152298	0.4206116	No	
+row_30	SDCBP	SDCBP	syndecan binding protein (syntenin)	5158	0.14701108634471893	0.37449372	No	
+row_31	PDSS1	PDSS1	prenyl (decaprenyl) diphosphate synthase, subunit 1	5526	0.10603436827659607	0.34603342	No	
+row_32	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	5579	0.100570447742939	0.34303388	No	
+row_33	VAPB	VAPB	VAMP (vesicle-associated membrane protein)-associated protein B and C	5746	0.08392640203237534	0.3305951	No	
+row_34	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	0.32023844	No	
+row_35	ERBB2	ERBB2	v-erb-b2 erythroblastic leukemia viral oncogene homolog 2, neuro/glioblastoma derived oncogene homolog (avian)	5942	0.0621274933218956	0.31645054	No	
+row_36	HEXB	HEXB	hexosaminidase B (beta polypeptide)	6276	0.0302252396941185	0.2898301	No	
+row_37	KATNA1	KATNA1	katanin p60 (ATPase-containing) subunit A 1	6695	-0.018246158957481384	0.25617683	No	
+row_38	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.21715069	No	
+row_39	TPD52L1	TPD52L1	tumor protein D52-like 1	7187	-0.050458069890737534	0.21767893	No	
+row_40	SMC2	SMC2	structural maintenance of chromosomes 2	7381	-0.07389659434556961	0.20293105	No	
+row_41	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	7989	-0.14503128826618195	0.15549268	No	
+row_42	HEXA	HEXA	hexosaminidase A (alpha polypeptide)	8158	-0.16648957133293152	0.1438888	No	
+row_43	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	8165	-0.16734953224658966	0.14542334	No	
+row_44	TRPC4AP	TRPC4AP	transient receptor potential cation channel, subfamily C, member 4 associated protein	8268	-0.18143503367900848	0.13934837	No	
+row_45	CEBPG	CEBPG	CCAAT/enhancer binding protein (C/EBP), gamma	8300	-0.18738502264022827	0.13909891	No	
+row_46	RRAGC	RRAGC	Ras-related GTP binding C	8597	-0.22869981825351715	0.11787345	No	
+row_47	SMC1A	SMC1A	structural maintenance of chromosomes 1A	8744	-0.2527730166912079	0.10909427	No	
+row_48	HIF1A	HIF1A	hypoxia-inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)	8753	-0.25403815507888794	0.1115135	No	
+row_49	BIRC5	BIRC5	baculoviral IAP repeat-containing 5 (survivin)	8773	-0.2559492588043213	0.11306441	No	
+row_50	VAPA	VAPA	VAMP (vesicle-associated membrane protein)-associated protein A, 33kDa	9182	-0.31945136189460754	0.0838586	No	
+row_51	CLCN3	CLCN3	chloride channel 3	9310	-0.34181252121925354	0.07769429	No	
+row_52	APOE	APOE	apolipoprotein E	9500	-0.37571972608566284	0.066915095	No	
+row_53	RRAGA	RRAGA	Ras-related GTP binding A	9577	-0.38572558760643005	0.06541393	No	
+row_54	MCL1	MCL1	myeloid cell leukemia sequence 1 (BCL2-related)	9719	-0.41075947880744934	0.058947634	No	
+row_55	SMC3	SMC3	structural maintenance of chromosomes 3	9895	-0.4458543658256531	0.050149843	No	
+row_56	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	9976	-0.4635680913925171	0.04926449	No	
+row_57	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	10051	-0.47991830110549927	0.049062792	No	
+row_58	RAB3GAP2	RAB3GAP2	RAB3 GTPase activating protein subunit 2 (non-catalytic)	10075	-0.4863617718219757	0.053071797	No	
+row_59	PPP2R1B	PPP2R1B	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform	10311	-0.5484695434570312	0.04065086	No	
+row_60	SMC4	SMC4	structural maintenance of chromosomes 4	10318	-0.5495935678482056	0.04680103	No	
+row_61	TOP2B	TOP2B	topoisomerase (DNA) II beta 180kDa	10368	-0.5611132979393005	0.049605697	No	
+row_62	NPM1	NPM1	nucleophosmin (nucleolar phosphoprotein B23, numatrin)	10455	-0.5913041234016418	0.049776547	No	
+row_63	DGKD	DGKD	diacylglycerol kinase, delta 130kDa	10606	-0.637404203414917	0.04531767	No	
+row_64	BNIP3L	BNIP3L	BCL2/adenovirus E1B 19kDa interacting protein 3-like	10646	-0.6504936814308167	0.05001199	No	
+row_65	ERBB3	ERBB3	v-erb-b2 erythroblastic leukemia viral oncogene homolog 3 (avian)	11310	-1.0063363313674927	0.008435878	No	
+row_66	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	11488	-1.1809436082839966	0.008352285	No	
+row_67	PRMT8	PRMT8	protein arginine methyltransferase 8	11624	-1.3690110445022583	0.013943191	No	
+row_68	SDCBP2	SDCBP2	syndecan binding protein (syntenin) 2	11838	-1.889845609664917	0.019502316	No	
+row_69	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	11968	-2.2102227210998535	0.035737153	No	

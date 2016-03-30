@@ -1,0 +1,29 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	44	7.026545524597168	0.23926385	Yes	
+row_1	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	73	6.089431285858154	0.4474359	Yes	
+row_2	FTMT	FTMT	ferritin mitochondrial	214	3.7990341186523438	0.5674129	Yes	
+row_3	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	287	3.1361982822418213	0.6699761	Yes	
+row_4	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	1149	1.1331610679626465	0.6395985	No	
+row_5	CP	CP	ceruloplasmin (ferroxidase)	1794	0.7656941413879395	0.6140477	No	
+row_6	COX10	COX10	COX10 homolog, cytochrome c oxidase assembly protein, heme A: farnesyltransferase (yeast)	2061	0.6697797775268555	0.6157106	No	
+row_7	HMOX2	HMOX2	heme oxygenase (decycling) 2	2129	0.6487696766853333	0.63271916	No	
+row_8	HCCS	HCCS	holocytochrome c synthase (cytochrome c heme-lyase)	3107	0.43131428956985474	0.56871927	No	
+row_9	ALAS1	ALAS1	aminolevulinate, delta-, synthase 1	3256	0.4014478921890259	0.5706394	No	
+row_10	ALAD	ALAD	aminolevulinate, delta-, dehydratase	3935	0.29872065782546997	0.52620536	No	
+row_11	HMBS	HMBS	hydroxymethylbilane synthase	4422	0.23454923927783966	0.4950602	No	
+row_12	MMAB	MMAB	methylmalonic aciduria (cobalamin deficiency) cblB type	4516	0.22241732478141785	0.4952354	No	
+row_13	BLVRB	BLVRB	biliverdin reductase B (flavin reductase (NADPH))	4623	0.21141105890274048	0.49398035	No	
+row_14	GUSB	GUSB	glucuronidase, beta	4648	0.20925100147724152	0.49927318	No	
+row_15	EARS2	EARS2	glutamyl-tRNA synthetase 2 (mitochondrial)(putative)	5097	0.1528281718492508	0.46837294	No	
+row_16	PPOX	PPOX	protoporphyrinogen oxidase	5648	0.09365591406822205	0.4271901	No	
+row_17	BLVRA	BLVRA	biliverdin reductase A	5857	0.0713219940662384	0.41285622	No	
+row_18	UROD	UROD	uroporphyrinogen decarboxylase	5895	0.06746921688318253	0.41219953	No	
+row_19	COX15	COX15	COX15 homolog, cytochrome c oxidase assembly protein (yeast)	6132	0.0437159389257431	0.3946503	No	
+row_20	FTH1	FTH1	ferritin, heavy polypeptide 1	7152	-0.045579202473163605	0.3139285	No	
+row_21	UROS	UROS	uroporphyrinogen III synthase (congenital erythropoietic porphyria)	7348	-0.07016747444868088	0.30060464	No	
+row_22	CPOX	CPOX	coproporphyrinogen oxidase	7386	-0.07427643239498138	0.3001832	No	
+row_23	FECH	FECH	ferrochelatase (protoporphyria)	8401	-0.20269422233104706	0.22529468	No	
+row_24	EPRS	EPRS	glutamyl-prolyl-tRNA synthetase	9707	-0.40853291749954224	0.13401748	No	
+row_25	ALAS2	ALAS2	aminolevulinate, delta-, synthase 2 (sideroblastic/hypochromic anemia)	9986	-0.4667016565799713	0.12769343	No	
+row_26	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	10929	-0.7718539237976074	0.07828832	No	
+row_27	HMOX1	HMOX1	heme oxygenase (decycling) 1	11498	-1.1910486221313477	0.07357452	No	

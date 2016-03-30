@@ -1,0 +1,48 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SATB2	SATB2	SATB family member 2	102	5.39401912689209	0.11330503	No	
+row_1	CREM	CREM	cAMP responsive element modulator	406	2.731508731842041	0.15035158	No	
+row_2	EPHA3	EPHA3	EPH receptor A3	490	2.4279110431671143	0.19835155	No	
+row_3	CPN1	CPN1	carboxypeptidase N, polypeptide 1, 50kD	686	1.7380110025405884	0.22174515	No	
+row_4	RAI1	RAI1	retinoic acid induced 1	935	1.352453589439392	0.23216315	No	
+row_5	FANCI	FANCI	Fanconi anemia, complementation group I	1072	1.2058764696121216	0.24833728	No	
+row_6	ACTR3	ACTR3	ARP3 actin-related protein 3 homolog (yeast)	1953	0.7049890756607056	0.19304423	No	
+row_7	ATP1A1	ATP1A1	ATPase, Na+/K+ transporting, alpha 1 polypeptide	2017	0.685924232006073	0.20340584	No	
+row_8	ADNP	ADNP	activity-dependent neuroprotector	2251	0.6185609102249146	0.1984987	No	
+row_9	SYNGAP1	SYNGAP1	synaptic Ras GTPase activating protein 1 homolog (rat)	3110	0.43077635765075684	0.13880572	No	
+row_10	NCOA1	NCOA1	nuclear receptor coactivator 1	3617	0.3438248634338379	0.10562531	No	
+row_11	NFKBIZ	NFKBIZ	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, zeta	3852	0.3098732531070709	0.093680926	No	
+row_12	PDSS2	PDSS2	prenyl (decaprenyl) diphosphate synthase, subunit 2	4406	0.23656824231147766	0.054281805	No	
+row_13	CPEB3	CPEB3	cytoplasmic polyadenylation element binding protein 3	4428	0.23428691923618317	0.057862896	No	
+row_14	PCDH19	PCDH19	protocadherin 19	4495	0.225040465593338	0.057595726	No	
+row_15	VGLL4	VGLL4	vestigial like 4 (Drosophila)	4508	0.22342073917388916	0.061659925	No	
+row_16	NHLH2	NHLH2	nescient helix loop helix 2	5290	0.13275553286075592	0.0014792326	No	
+row_17	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	5358	0.12526418268680573	-0.0011173068	No	
+row_18	YBX1	YBX1	Y box binding protein 1	5671	0.09117002040147781	-0.024299363	No	
+row_19	CNN3	CNN3	calponin 3, acidic	5689	0.0892065167427063	-0.023664143	No	
+row_20	CHMP7	CHMP7	CHMP family, member 7	5988	0.057993706315755844	-0.046461426	No	
+row_21	LIFR	LIFR	leukemia inhibitory factor receptor alpha	5990	0.05792762711644173	-0.045236897	No	
+row_22	SLC26A9	SLC26A9	solute carrier family 26, member 9	6706	-0.019430212676525116	-0.102632895	No	
+row_23	ZFP91	ZFP91	zinc finger protein 91 homolog (mouse)	7126	-0.043404486030340195	-0.1355462	No	
+row_24	FBXW7	FBXW7	F-box and WD-40 domain protein 7 (archipelago homolog, Drosophila)	7284	-0.06290009617805481	-0.14682792	No	
+row_25	CD83	CD83	CD83 molecule	7556	-0.09386610239744186	-0.16663288	No	
+row_26	STC1	STC1	stanniocalcin 1	7670	-0.1065322682261467	-0.17337233	No	
+row_27	SLC2A1	SLC2A1	solute carrier family 2 (facilitated glucose transporter), member 1	8108	-0.1599923074245453	-0.20511428	No	
+row_28	PFN2	PFN2	profilin 2	8447	-0.20848411321640015	-0.22775568	No	
+row_29	TOPORS	TOPORS	topoisomerase I binding, arginine/serine-rich	9055	-0.2984071671962738	-0.2701291	No	
+row_30	ARHGAP6	ARHGAP6	Rho GTPase activating protein 6	9198	-0.3221573233604431	-0.2743551	No	
+row_31	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	9223	-0.3255457580089569	-0.26896015	No	
+row_32	CAB39	CAB39	calcium binding protein 39	9738	-0.41422614455223083	-0.30120113	No	
+row_33	YTHDF3	YTHDF3	YTH domain family, member 3	9833	-0.43004530668258667	-0.2991133	No	
+row_34	PRPF38A	PRPF38A	PRP38 pre-mRNA processing factor 38 (yeast) domain containing A	10272	-0.535201907157898	-0.32248068	No	
+row_35	ZBTB44	ZBTB44	zinc finger and BTB domain containing 44	10294	-0.5445331335067749	-0.31190813	No	
+row_36	WDR26	WDR26	WD repeat domain 26	10403	-0.5730669498443604	-0.30772966	No	
+row_37	NPM1	NPM1	nucleophosmin (nucleolar phosphoprotein B23, numatrin)	10455	-0.5913041234016418	-0.2985297	No	
+row_38	NRIP1	NRIP1	nuclear receptor interacting protein 1	11472	-1.1621415615081787	-0.35452127	Yes	
+row_39	NAV3	NAV3	neuron navigator 3	11545	-1.2454137802124023	-0.33227944	Yes	
+row_40	MLX	MLX	MAX-like protein X	11562	-1.2646065950393677	-0.3050754	Yes	
+row_41	PDE4D	PDE4D	phosphodiesterase 4D, cAMP-specific (phosphodiesterase E3 dunce homolog, Drosophila)	11565	-1.2709438800811768	-0.2765962	Yes	
+row_42	ZCCHC2	ZCCHC2	zinc finger, CCHC domain containing 2	11578	-1.299098253250122	-0.24829134	Yes	
+row_43	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP), alpha	11802	-1.7871381044387817	-0.22605546	Yes	
+row_44	MIER1	MIER1	mesoderm induction early response 1 homolog (Xenopus laevis)	12238	-3.455533027648926	-0.18336987	Yes	
+row_45	NRXN3	NRXN3	neurexin 3	12293	-4.159889221191406	-0.09399369	Yes	
+row_46	CALCA	CALCA	calcitonin/calcitonin-related polypeptide, alpha	12331	-4.583741664886475	0.0063091773	Yes	

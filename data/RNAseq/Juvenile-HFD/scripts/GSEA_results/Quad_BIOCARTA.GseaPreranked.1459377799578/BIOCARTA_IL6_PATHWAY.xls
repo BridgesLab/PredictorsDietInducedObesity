@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1234	1.0704667568206787	-0.02232286	No	
+row_1	GRB2	GRB2	growth factor receptor-bound protein 2	1386	0.976619303226471	0.03599529	No	
+row_2	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	1508	0.9054524302482605	0.091597095	No	
+row_3	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	2830	0.4846646189689636	0.019960282	No	
+row_4	SRF	SRF	serum response factor (c-fos serum response element-binding transcription factor)	3417	0.3767268657684326	-1.4220024E-4	No	
+row_5	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	3590	0.3476024270057678	0.01106944	No	
+row_6	MAPK3	MAPK3	mitogen-activated protein kinase 3	4021	0.28716179728507996	-0.0029073167	No	
+row_7	TYK2	TYK2	tyrosine kinase 2	4098	0.2774369716644287	0.0109875845	No	
+row_8	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	5316	0.13073398172855377	-0.07780647	No	
+row_9	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5801	0.07814282178878784	-0.111231916	No	
+row_10	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6158	0.04132844880223274	-0.13698341	No	
+row_11	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7279	-0.06226309388875961	-0.22289114	No	
+row_12	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	7457	-0.08302536606788635	-0.23118405	No	
+row_13	CSNK2A1	CSNK2A1	casein kinase 2, alpha 1 polypeptide	7874	-0.13077469170093536	-0.25532103	No	
+row_14	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	9259	-0.3325081765651703	-0.34302783	No	
+row_15	ELK1	ELK1	ELK1, member of ETS oncogene family	9634	-0.39364513754844666	-0.34479696	Yes	
+row_16	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	9689	-0.40492910146713257	-0.3199221	Yes	
+row_17	JUN	JUN	jun oncogene	10432	-0.585570752620697	-0.33753902	Yes	
+row_18	IL6ST	IL6ST	interleukin 6 signal transducer (gp130, oncostatin M receptor)	10787	-0.7086166143417358	-0.31495467	Yes	
+row_19	CEBPB	CEBPB	CCAAT/enhancer binding protein (C/EBP), beta	11502	-1.1942484378814697	-0.2863685	Yes	
+row_20	IL6	IL6	interleukin 6 (interferon, beta 2)	12350	-4.979585647583008	0.0047622668	Yes	

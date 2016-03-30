@@ -1,0 +1,36 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PLG	PLG	plasminogen	10	9.117255210876465	0.1628456	Yes	
+row_1	HNF4A	HNF4A	hepatocyte nuclear factor 4, alpha	16	8.456197738647461	0.3142293	Yes	
+row_2	KNG1	KNG1	kininogen 1	30	7.716160297393799	0.45168298	Yes	
+row_3	F13B	F13B	coagulation factor XIII, B polypeptide	38	7.204971790313721	0.58044577	Yes	
+row_4	PROC	PROC	protein C (inactivator of coagulation factors Va and VIIIa)	97	5.551069736480713	0.6753999	Yes	
+row_5	TMPRSS6	TMPRSS6	transmembrane protease, serine 6	472	2.524747848510742	0.6904966	Yes	
+row_6	THBD	THBD	thrombomodulin	1187	1.1070928573608398	0.6526719	No	
+row_7	TFPI	TFPI	tissue factor pathway inhibitor (lipoprotein-associated coagulation inhibitor)	1247	1.065622329711914	0.667032	No	
+row_8	WAS	WAS	Wiskott-Aldrich syndrome (eczema-thrombocytopenia)	1369	0.9879801273345947	0.6749883	No	
+row_9	GNA12	GNA12	guanine nucleotide binding protein (G protein) alpha 12	1755	0.7773665189743042	0.65783083	No	
+row_10	F2R	F2R	coagulation factor II (thrombin) receptor	2469	0.5600724816322327	0.61026794	No	
+row_11	F2RL3	F2RL3	coagulation factor II (thrombin) receptor-like 3	2546	0.5457865595817566	0.6139233	No	
+row_12	PLAT	PLAT	plasminogen activator, tissue	2651	0.5225674510002136	0.6148993	No	
+row_13	LMAN1	LMAN1	lectin, mannose-binding, 1	2789	0.49259045720100403	0.61267054	No	
+row_14	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	3203	0.41119229793548584	0.5866777	No	
+row_15	AVPR2	AVPR2	arginine vasopressin receptor 2 (nephrogenic diabetes insipidus)	3288	0.39634472131729126	0.5870041	No	
+row_16	GGCX	GGCX	gamma-glutamyl carboxylase	3370	0.3833109140396118	0.58733904	No	
+row_17	HPS4	HPS4	Hermansky-Pudlak syndrome 4	3487	0.3648671805858612	0.5845146	No	
+row_18	PABPC4	PABPC4	poly(A) binding protein, cytoplasmic 4 (inducible form)	3817	0.31369200348854065	0.56355953	No	
+row_19	ITGA2	ITGA2	integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)	4117	0.275451123714447	0.5443422	No	
+row_20	GNAQ	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide	4523	0.2221345752477646	0.51560223	No	
+row_21	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	0.4902895	No	
+row_22	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	5493	0.10961049050092697	0.44256002	No	
+row_23	PROS1	PROS1	protein S (alpha)	5777	0.08059915155172348	0.42113808	No	
+row_24	F2RL2	F2RL2	coagulation factor II (thrombin) receptor-like 2	6060	0.051596108824014664	0.39927635	No	
+row_25	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	6589	-0.005590595304965973	0.35671005	No	
+row_26	GP9	GP9	glycoprotein IX (platelet)	6785	-0.021839583292603493	0.34134448	No	
+row_27	ADORA2A	ADORA2A	adenosine A2a receptor	7944	-0.13930511474609375	0.25026923	No	
+row_28	ENTPD1	ENTPD1	ectonucleoside triphosphate diphosphohydrolase 1	8313	-0.1898578554391861	0.22393979	No	
+row_29	FLI1	FLI1	Friend leukemia virus integration 1	8637	-0.23376049101352692	0.20203476	No	
+row_30	MMRN1	MMRN1	multimerin 1	8640	-0.23440542817115784	0.20608069	No	
+row_31	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	8885	-0.27154016494750977	0.19123763	No	
+row_32	CD36	CD36	CD36 molecule (thrombospondin receptor)	11673	-1.462193489074707	-0.0077282907	No	
+row_33	NFE2	NFE2	nuclear factor (erythroid-derived 2), 45kDa	11707	-1.5294808149337769	0.017059047	No	
+row_34	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	11962	-2.2054407596588135	0.036121197	No	

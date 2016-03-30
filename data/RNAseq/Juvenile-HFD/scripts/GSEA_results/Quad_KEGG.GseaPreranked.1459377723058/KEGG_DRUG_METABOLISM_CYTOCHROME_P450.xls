@@ -1,0 +1,41 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	9	9.190600395202637	0.151093	Yes	
+row_1	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	44	7.026545524597168	0.26441672	Yes	
+row_2	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	73	6.089431285858154	0.3627452	Yes	
+row_3	ADH4	ADH4	alcohol dehydrogenase 4 (class II), pi polypeptide	244	3.5938313007354736	0.40836918	Yes	
+row_4	GSTA2	GSTA2	glutathione S-transferase A2	252	3.5243277549743652	0.46602207	Yes	
+row_5	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	287	3.1361982822418213	0.5150807	Yes	
+row_6	GSTA3	GSTA3	glutathione S-transferase A3	603	1.9810714721679688	0.52234143	Yes	
+row_7	GSTM3	GSTM3	glutathione S-transferase M3 (brain)	612	1.9564499855041504	0.5540135	Yes	
+row_8	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	1149	1.1331610679626465	0.52940166	No	
+row_9	GSTA4	GSTA4	glutathione S-transferase A4	3220	0.40708428621292114	0.368786	No	
+row_10	ALDH3B1	ALDH3B1	aldehyde dehydrogenase 3 family, member B1	3379	0.3818008601665497	0.36232018	No	
+row_11	ALDH1A3	ALDH1A3	aldehyde dehydrogenase 1 family, member A3	4560	0.21797578036785126	0.27052888	No	
+row_12	GSTP1	GSTP1	glutathione S-transferase pi	4887	0.17702314257621765	0.24709906	No	
+row_13	GSTT1	GSTT1	glutathione S-transferase theta 1	5367	0.12427128851413727	0.2104292	No	
+row_14	MGST3	MGST3	microsomal glutathione S-transferase 3	5716	0.08707037568092346	0.18373495	No	
+row_15	FMO5	FMO5	flavin containing monooxygenase 5	5970	0.059262171387672424	0.16426119	No	
+row_16	ADH5	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide	6614	-0.009561387822031975	0.112438545	No	
+row_17	MAOA	MAOA	monoamine oxidase A	6978	-0.027272602543234825	0.083543874	No	
+row_18	GSTM5	GSTM5	glutathione S-transferase M5	7012	-0.030954228714108467	0.08138747	No	
+row_19	ADH7	ADH7	alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide	7047	-0.03487713262438774	0.07921502	No	
+row_20	GSTK1	GSTK1	glutathione S-transferase kappa 1	7321	-0.06716718524694443	0.058255043	No	
+row_21	GSTM2	GSTM2	glutathione S-transferase M2 (muscle)	7731	-0.112682044506073	0.027052585	No	
+row_22	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	8066	-0.15528085827827454	0.0026168798	No	
+row_23	GSTM4	GSTM4	glutathione S-transferase M4	8134	-0.16319110989570618	-1.03677296E-4	No	
+row_24	GSTA1	GSTA1	glutathione S-transferase A1	8188	-0.17022399604320526	-0.001576287	No	
+row_25	MAOB	MAOB	monoamine oxidase B	8608	-0.23096217215061188	-0.03163327	No	
+row_26	GSTM1	GSTM1	glutathione S-transferase M1	8697	-0.24507279694080353	-0.034698866	No	
+row_27	MGST1	MGST1	microsomal glutathione S-transferase 1	8742	-0.25267523527145386	-0.034081887	No	
+row_28	ALDH3A1	ALDH3A1	aldehyde dehydrogenase 3 family, memberA1	8943	-0.28185397386550903	-0.04559406	No	
+row_29	GSTO1	GSTO1	glutathione S-transferase omega 1	9065	-0.2999085485935211	-0.050421566	No	
+row_30	AOX1	AOX1	aldehyde oxidase 1	10928	-0.7716034054756165	-0.18820082	No	
+row_31	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	10929	-0.7718539237976074	-0.17545047	No	
+row_32	GSTT2	GSTT2	glutathione S-transferase theta 2	11174	-0.9028565883636475	-0.18026122	No	
+row_33	FMO4	FMO4	flavin containing monooxygenase 4	11283	-0.9797732830047607	-0.17280705	No	
+row_34	FMO1	FMO1	flavin containing monooxygenase 1	11344	-1.035688877105713	-0.16054882	No	
+row_35	FMO2	FMO2	flavin containing monooxygenase 2 (non-functional)	11741	-1.6194111108779907	-0.16581053	No	
+row_36	ALDH3B2	ALDH3B2	aldehyde dehydrogenase 3 family, member B2	11801	-1.7868638038635254	-0.14106272	No	
+row_37	GSTO2	GSTO2	glutathione S-transferase omega 2	12064	-2.3105857372283936	-0.12407417	No	
+row_38	CYP2E1	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	12070	-2.3292956352233887	-0.08600047	No	
+row_39	MGST2	MGST2	microsomal glutathione S-transferase 2	12398	-6.8602213859558105	8.8938355E-4	No	

@@ -1,0 +1,15 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DDC	DDC	dopa decarboxylase (aromatic L-amino acid decarboxylase)	955	1.3310149908065796	0.02118828	No	
+row_1	AMD1	AMD1	adenosylmethionine decarboxylase 1	1269	1.0541964769363403	0.07373817	No	
+row_2	HDC	HDC	histidine decarboxylase	3067	0.43704259395599365	-0.038974084	No	
+row_3	GGCX	GGCX	gamma-glutamyl carboxylase	3370	0.3833109140396118	-0.035048336	No	
+row_4	MVD	MVD	mevalonate (diphospho) decarboxylase	4664	0.20637249946594238	-0.12412583	No	
+row_5	UMPS	UMPS	uridine monophosphate synthetase (orotate phosphoribosyl transferase and orotidine-5'-decarboxylase)	5075	0.15482252836227417	-0.14577506	No	
+row_6	UROD	UROD	uroporphyrinogen decarboxylase	5895	0.06746921688318253	-0.20686552	No	
+row_7	BCKDHB	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide (maple syrup urine disease)	8317	-0.1912042796611786	-0.38805953	No	
+row_8	BCKDHA	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	9293	-0.33875128626823425	-0.441714	No	
+row_9	ACMSD	ACMSD	aminocarboxymuconate semialdehyde decarboxylase	10520	-0.6130513548851013	-0.49537352	Yes	
+row_10	MLYCD	MLYCD	malonyl-CoA decarboxylase	11540	-1.2398501634597778	-0.48607618	Yes	
+row_11	ODC1	ODC1	ornithine decarboxylase 1	11811	-1.810634732246399	-0.37423208	Yes	
+row_12	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11912	-2.118468761444092	-0.22595564	Yes	
+row_13	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	12243	-3.603898048400879	0.013391488	Yes	

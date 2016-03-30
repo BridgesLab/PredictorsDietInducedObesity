@@ -1,0 +1,37 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	1811	0.7575174570083618	-0.107887946	No	
+row_1	GCK	GCK	glucokinase (hexokinase 4, maturity onset diabetes of the young 2)	2349	0.590799868106842	-0.12128412	No	
+row_2	BCS1L	BCS1L	BCS1-like (yeast)	3312	0.3920741677284241	-0.17911795	No	
+row_3	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	3564	0.3525122404098511	-0.18150157	No	
+row_4	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	3683	0.33428969979286194	-0.1740622	No	
+row_5	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	4064	0.2816559374332428	-0.19046906	No	
+row_6	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	4414	0.23573817312717438	-0.2067024	No	
+row_7	GFPT1	GFPT1	glutamine-fructose-6-phosphate transaminase 1	4472	0.22879567742347717	-0.1996904	No	
+row_8	DYRK2	DYRK2	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 2	4517	0.2223345935344696	-0.19195592	No	
+row_9	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	4772	0.19192181527614594	-0.2027369	No	
+row_10	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	4821	0.1850558966398239	-0.19721872	No	
+row_11	CRAT	CRAT	carnitine acetyltransferase	4977	0.167140394449234	-0.20125747	No	
+row_12	ME3	ME3	malic enzyme 3, NADP(+)-dependent, mitochondrial	5421	0.11837403476238251	-0.23104721	No	
+row_13	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	5595	0.09905427694320679	-0.23999809	No	
+row_14	UQCRC2	UQCRC2	ubiquinol-cytochrome c reductase core protein II	5725	0.0858004093170166	-0.24606617	No	
+row_15	SURF1	SURF1	surfeit 1	5879	0.06907675415277481	-0.25492305	No	
+row_16	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.26020733	No	
+row_17	GYS2	GYS2	glycogen synthase 2 (liver)	6170	0.03967262804508209	-0.27330506	No	
+row_18	NNT	NNT	nicotinamide nucleotide transhydrogenase	6220	0.03604936599731445	-0.27543437	No	
+row_19	NDUFS4	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	6293	0.02848760597407818	-0.2798064	No	
+row_20	OXA1L	OXA1L	oxidase (cytochrome c) assembly 1-like	6477	0.006763630546629429	-0.294252	No	
+row_21	ACO2	ACO2	aconitase 2, mitochondrial	7064	-0.03669688478112221	-0.33974588	No	
+row_22	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	7069	-0.037231747061014175	-0.3381785	No	
+row_23	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	7450	-0.08224567025899887	-0.36471152	No	
+row_24	EPM2A	EPM2A	epilepsy, progressive myoclonus type 2A, Lafora disease (laforin)	7514	-0.08891833573579788	-0.3652875	No	
+row_25	ACADVL	ACADVL	acyl-Coenzyme A dehydrogenase, very long chain	7873	-0.13075721263885498	-0.3875792	No	
+row_26	GFPT2	GFPT2	glutamine-fructose-6-phosphate transaminase 2	8233	-0.17753389477729797	-0.40757632	No	
+row_27	GAA	GAA	glucosidase, alpha; acid (Pompe disease, glycogen storage disease type II)	8318	-0.19130145013332367	-0.40465033	No	
+row_28	PYGB	PYGB	phosphorylase, glycogen; brain	8435	-0.20632930099964142	-0.40354726	No	
+row_29	PYGM	PYGM	phosphorylase, glycogen; muscle (McArdle syndrome, glycogen storage disease type V)	9499	-0.3755757510662079	-0.47038117	No	
+row_30	LEPR	LEPR	leptin receptor	10326	-0.5516574382781982	-0.50912046	No	
+row_31	LEP	LEP	leptin (obesity homolog, mouse)	11315	-1.0110652446746826	-0.53762263	Yes	
+row_32	GSK3B	GSK3B	glycogen synthase kinase 3 beta	11335	-1.0283153057098389	-0.48693943	Yes	
+row_33	ADRB3	ADRB3	adrenergic, beta-3-, receptor	11830	-1.8656692504882812	-0.43212175	Yes	
+row_34	SLC25A14	SLC25A14	solute carrier family 25 (mitochondrial carrier, brain), member 14	12335	-4.65764045715332	-0.23633373	Yes	
+row_35	TREH	TREH	trehalase (brush-border membrane glycoprotein)	12339	-4.770174980163574	0.0056569832	Yes	

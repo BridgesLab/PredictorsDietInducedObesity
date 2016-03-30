@@ -1,0 +1,56 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	239	3.6630778312683105	0.08290845	Yes	
+row_1	HFM1	HFM1	HFM1, ATP-dependent DNA helicase homolog (S. cerevisiae)	358	2.7947497367858887	0.15137161	Yes	
+row_2	AQP4	AQP4	aquaporin 4	709	1.691971778869629	0.17027348	Yes	
+row_3	PTN	PTN	pleiotrophin (heparin binding growth factor 8, neurite growth-promoting factor 1)	782	1.5803353786468506	0.2085601	Yes	
+row_4	GFRA2	GFRA2	GDNF family receptor alpha 2	932	1.3568964004516602	0.23437724	Yes	
+row_5	GPM6B	GPM6B	glycoprotein M6B	953	1.3353506326675415	0.27003404	Yes	
+row_6	NAV2	NAV2	neuron navigator 2	1016	1.2707101106643677	0.30048704	Yes	
+row_7	ACVR1	ACVR1	activin A receptor, type I	1113	1.1686512231826782	0.32533917	Yes	
+row_8	THBD	THBD	thrombomodulin	1187	1.1070928573608398	0.35033453	Yes	
+row_9	CD200	CD200	CD200 molecule	1325	1.0151902437210083	0.3675844	Yes	
+row_10	SYTL2	SYTL2	synaptotagmin-like 2	1507	0.9061509966850281	0.37822917	Yes	
+row_11	SRGAP3	SRGAP3	SLIT-ROBO Rho GTPase activating protein 3	1832	0.7488880157470703	0.37290978	Yes	
+row_12	SETD8	SETD8	SET domain containing (lysine methyltransferase) 8	1945	0.7071552276611328	0.3835845	Yes	
+row_13	LYPD6	LYPD6	LY6/PLAUR domain containing 6	2258	0.6171321868896484	0.37555847	No	
+row_14	ESRRG	ESRRG	estrogen-related receptor gamma	2610	0.5305088758468628	0.3619578	No	
+row_15	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	2825	0.48558926582336426	0.35819185	No	
+row_16	SYNGAP1	SYNGAP1	synaptic Ras GTPase activating protein 1 homolog (rat)	3110	0.43077635765075684	0.34723008	No	
+row_17	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	3311	0.39220383763313293	0.34199047	No	
+row_18	FNDC3B	FNDC3B	fibronectin type III domain containing 3B	3853	0.3098590672016144	0.30685207	No	
+row_19	DCTN5	DCTN5	dynactin 5 (p25)	3868	0.3067033588886261	0.3142804	No	
+row_20	HDGF	HDGF	hepatoma-derived growth factor (high-mobility group protein 1-like)	4182	0.26702848076820374	0.2964005	No	
+row_21	NLK	NLK	nemo-like kinase	4196	0.2645638585090637	0.30273342	No	
+row_22	PCDH19	PCDH19	protocadherin 19	4495	0.225040465593338	0.2848955	No	
+row_23	UNC5C	UNC5C	unc-5 homolog C (C. elegans)	4621	0.21150338649749756	0.28068218	No	
+row_24	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	5659	0.09273262321949005	0.19933712	No	
+row_25	PRDM4	PRDM4	PR domain containing 4	5672	0.09102509170770645	0.20090677	No	
+row_26	UBE2E3	UBE2E3	ubiquitin-conjugating enzyme E2E 3 (UBC4/5 homolog, yeast)	5768	0.08200013637542725	0.19550657	No	
+row_27	EXOC5	EXOC5	exocyst complex component 5	6116	0.04589080810546875	0.16870178	No	
+row_28	IL17RC	IL17RC	interleukin 17 receptor C	6259	0.03150535747408867	0.15808792	No	
+row_29	RIMS2	RIMS2	regulating synaptic membrane exocytosis 2	6869	-0.021989788860082626	0.10940997	No	
+row_30	REM2	REM2	RAS (RAD and GEM) like GTP binding 2	6894	-0.021999351680278778	0.10808154	No	
+row_31	GPR83	GPR83	G protein-coupled receptor 83	6921	-0.022044921293854713	0.1065925	No	
+row_32	BRE	BRE	brain and reproductive organ-expressed (TNFRSF1A modulator)	6992	-0.028368189930915833	0.101718664	No	
+row_33	SLC35F1	SLC35F1	solute carrier family 35, member F1	7075	-0.03787288814783096	0.09613887	No	
+row_34	NCAM1	NCAM1	neural cell adhesion molecule 1	7449	-0.08221577852964401	0.06824368	No	
+row_35	FBXO11	FBXO11	F-box protein 11	7533	-0.09141138941049576	0.06407745	No	
+row_36	POM121	POM121	POM121 membrane glycoprotein (rat)	7721	-0.11169157922267914	0.05205969	No	
+row_37	CHRD	CHRD	chordin	7725	-0.11207365989685059	0.05494535	No	
+row_38	RIMS4	RIMS4	regulating synaptic membrane exocytosis 4	7785	-0.11866212636232376	0.053482343	No	
+row_39	METAP2	METAP2	methionyl aminopeptidase 2	7788	-0.11883554607629776	0.056637697	No	
+row_40	WDR48	WDR48	WD repeat domain 48	8649	-0.23534110188484192	-0.006400326	No	
+row_41	ARFIP2	ARFIP2	ADP-ribosylation factor interacting protein 2 (arfaptin 2)	9142	-0.3130304217338562	-0.037484184	No	
+row_42	PTGER2	PTGER2	prostaglandin E receptor 2 (subtype EP2), 53kDa	9694	-0.40628817677497864	-0.07074019	No	
+row_43	SMG1	SMG1	-	9716	-0.41025984287261963	-0.060987726	No	
+row_44	SLC39A14	SLC39A14	solute carrier family 39 (zinc transporter), member 14	9875	-0.44067999720573425	-0.061474726	No	
+row_45	YY1	YY1	YY1 transcription factor	10222	-0.5227733254432678	-0.07488664	No	
+row_46	EPC2	EPC2	enhancer of polycomb homolog 2 (Drosophila)	10582	-0.629794180393219	-0.08636334	No	
+row_47	DDX3X	DDX3X	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, X-linked	10726	-0.683659553527832	-0.07885361	No	
+row_48	MOSPD1	MOSPD1	motile sperm domain containing 1	10953	-0.7899364233016968	-0.07509515	No	
+row_49	SIX4	SIX4	sine oculis homeobox homolog 4 (Drosophila)	10974	-0.7999246120452881	-0.05438446	No	
+row_50	GTF2B	GTF2B	general transcription factor IIB	10981	-0.802128791809082	-0.032479096	No	
+row_51	ATP2C1	ATP2C1	ATPase, Ca++ transporting, type 2C, member 1	11124	-0.8771143555641174	-0.019488242	No	
+row_52	ERBB2IP	ERBB2IP	erbb2 interacting protein	11486	-1.178091287612915	-0.015821394	No	
+row_53	PICALM	PICALM	phosphatidylinositol binding clathrin assembly protein	11531	-1.228200078010559	0.014901842	No	
+row_54	ELL3	ELL3	elongation factor RNA polymerase II-like 3	11878	-2.009054660797119	0.04297867	No	

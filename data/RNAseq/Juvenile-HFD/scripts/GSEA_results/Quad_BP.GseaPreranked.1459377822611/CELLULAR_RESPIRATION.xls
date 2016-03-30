@@ -1,0 +1,20 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	1811	0.7575174570083618	-0.04718921	No	
+row_1	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	3564	0.3525122404098511	-0.14252847	No	
+row_2	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	3683	0.33428969979286194	-0.108378515	No	
+row_3	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	4064	0.2816559374332428	-0.10224922	No	
+row_4	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	4414	0.23573817312717438	-0.099617004	No	
+row_5	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	4772	0.19192181527614594	-0.10335477	No	
+row_6	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	4821	0.1850558966398239	-0.08305207	No	
+row_7	ME3	ME3	malic enzyme 3, NADP(+)-dependent, mitochondrial	5421	0.11837403476238251	-0.115928724	No	
+row_8	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	5595	0.09905427694320679	-0.11694961	No	
+row_9	UQCRC2	UQCRC2	ubiquinol-cytochrome c reductase core protein II	5725	0.0858004093170166	-0.116151065	No	
+row_10	SURF1	SURF1	surfeit 1	5879	0.06907675415277481	-0.11947426	No	
+row_11	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.12009395	No	
+row_12	NNT	NNT	nicotinamide nucleotide transhydrogenase	6220	0.03604936599731445	-0.1345111	No	
+row_13	NDUFS4	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	6293	0.02848760597407818	-0.13660002	No	
+row_14	OXA1L	OXA1L	oxidase (cytochrome c) assembly 1-like	6477	0.006763630546629429	-0.15048517	No	
+row_15	ACO2	ACO2	aconitase 2, mitochondrial	7064	-0.03669688478112221	-0.19298333	No	
+row_16	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	7069	-0.037231747061014175	-0.18844204	No	
+row_17	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	7450	-0.08224567025899887	-0.20836453	Yes	
+row_18	SLC25A14	SLC25A14	solute carrier family 25 (mitochondrial carrier, brain), member 14	12335	-4.65764045715332	0.005972102	Yes	

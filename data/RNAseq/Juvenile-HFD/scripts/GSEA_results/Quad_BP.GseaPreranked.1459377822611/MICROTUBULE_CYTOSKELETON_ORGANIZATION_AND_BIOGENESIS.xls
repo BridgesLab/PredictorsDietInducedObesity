@@ -1,0 +1,34 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KIF11	KIF11	kinesin family member 11	1535	0.8935545086860657	-0.08097701	No	
+row_1	CLASP1	CLASP1	cytoplasmic linker associated protein 1	1644	0.8328255414962769	-0.04958489	No	
+row_2	NUSAP1	NUSAP1	nucleolar and spindle associated protein 1	2084	0.6600127220153809	-0.053260475	No	
+row_3	MAPT	MAPT	microtubule-associated protein tau	2622	0.5277836918830872	-0.07122357	No	
+row_4	MAPRE1	MAPRE1	microtubule-associated protein, RP/EB family, member 1	2732	0.5052569508552551	-0.055691533	No	
+row_5	TUBG1	TUBG1	tubulin, gamma 1	2923	0.4659632444381714	-0.048596706	No	
+row_6	KIF23	KIF23	kinesin family member 23	2950	0.4597146511077881	-0.028552495	No	
+row_7	STMN1	STMN1	stathmin 1/oncoprotein 18	2974	0.4531068205833435	-0.008584203	No	
+row_8	ARHGEF2	ARHGEF2	rho/rac guanine nucleotide exchange factor (GEF) 2	3223	0.40659230947494507	-0.009035438	No	
+row_9	PRC1	PRC1	protein regulator of cytokinesis 1	3863	0.30737558007240295	-0.04585689	No	
+row_10	KATNB1	KATNB1	katanin p80 (WD repeat containing) subunit B 1	4266	0.25517624616622925	-0.06604441	No	
+row_11	MID1	MID1	midline 1 (Opitz/BBB syndrome)	5437	0.11724333465099335	-0.15492687	No	
+row_12	MARK4	MARK4	MAP/microtubule affinity-regulating kinase 4	5781	0.08033160865306854	-0.1787699	No	
+row_13	RCC1	RCC1	regulator of chromosome condensation 1	5920	0.0648474469780922	-0.18679586	No	
+row_14	RAN	RAN	RAN, member RAS oncogene family	5964	0.05985572189092636	-0.18738674	No	
+row_15	TUBGCP6	TUBGCP6	tubulin, gamma complex associated protein 6	6179	0.03883841633796692	-0.202806	No	
+row_16	MAP1S	MAP1S	microtubule-associated protein 1S	6482	0.006341930478811264	-0.22690059	No	
+row_17	HOOK3	HOOK3	hook homolog 3 (Drosophila)	6709	-0.019643908366560936	-0.244214	No	
+row_18	TUBGCP2	TUBGCP2	tubulin, gamma complex associated protein 2	7086	-0.0390176884829998	-0.27271342	No	
+row_19	TPPP	TPPP	-	7485	-0.08583637326955795	-0.300735	No	
+row_20	UXT	UXT	ubiquitously-expressed transcript	8007	-0.146898090839386	-0.335753	No	
+row_21	APC	APC	adenomatosis polyposis coli	8230	-0.17698173224925995	-0.34516412	No	
+row_22	CLASP2	CLASP2	cytoplasmic linker associated protein 2	8309	-0.18937914073467255	-0.34234357	No	
+row_23	CENPJ	CENPJ	centromere protein J	8428	-0.20560793578624725	-0.34197304	No	
+row_24	SMC1A	SMC1A	structural maintenance of chromosomes 1A	8744	-0.2527730166912079	-0.35524717	No	
+row_25	PAFAH1B1	PAFAH1B1	platelet-activating factor acetylhydrolase, isoform Ib, alpha subunit 45kDa	9105	-0.3080887496471405	-0.36949244	No	
+row_26	MID1IP1	MID1IP1	MID1 interacting protein 1 (gastrulation specific G12 homolog (zebrafish))	9117	-0.31028619408607483	-0.35543442	No	
+row_27	SMC3	SMC3	structural maintenance of chromosomes 3	9895	-0.4458543658256531	-0.39673492	Yes	
+row_28	MAP7	MAP7	microtubule-associated protein 7	10125	-0.4994884729385376	-0.39117616	Yes	
+row_29	TUBGCP5	TUBGCP5	tubulin, gamma complex associated protein 5	10228	-0.5244768857955933	-0.37415272	Yes	
+row_30	CKAP5	CKAP5	cytoskeleton associated protein 5	10416	-0.5787035822868347	-0.36138472	Yes	
+row_31	TTK	TTK	TTK protein kinase	12347	-4.8175249099731445	-0.28525445	Yes	
+row_32	KIF2C	KIF2C	kinesin family member 2C	12384	-6.024028301239014	0.0020199711	Yes	

@@ -1,0 +1,355 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	C8A	C8A	complement component 8, alpha polypeptide	2	21.09100341796875	0.046808977	Yes	
+row_1	FGG	FGG	fibrinogen gamma chain	6	11.209016799926758	0.07152538	Yes	
+row_2	FGB	FGB	fibrinogen beta chain	7	9.303735733032227	0.0922471	Yes	
+row_3	PLG	PLG	plasminogen	10	9.117255210876465	0.11238758	Yes	
+row_4	FGA	FGA	fibrinogen alpha chain	11	8.921409606933594	0.13225776	Yes	
+row_5	MBL2	MBL2	mannose-binding lectin (protein C) 2, soluble (opsonic defect)	21	7.995161533355713	0.14931844	Yes	
+row_6	CPB2	CPB2	carboxypeptidase B2 (plasma, carboxypeptidase U)	31	7.592363357543945	0.165482	Yes	
+row_7	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.18124539	Yes	
+row_8	HPX	HPX	hemopexin	50	6.721401214599609	0.19522025	Yes	
+row_9	LECT2	LECT2	leukocyte cell-derived chemotaxin 2	51	6.673097133636475	0.21008289	Yes	
+row_10	CD5L	CD5L	CD5 molecule-like	60	6.411266803741455	0.22369878	Yes	
+row_11	IGFBP1	IGFBP1	insulin-like growth factor binding protein 1	61	6.4106831550598145	0.23797695	Yes	
+row_12	APOA2	APOA2	apolipoprotein A-II	69	6.170414924621582	0.25113937	Yes	
+row_13	AFM	AFM	afamin	75	5.969829082489014	0.26402092	Yes	
+row_14	APOA5	APOA5	apolipoprotein A-V	84	5.786080360412598	0.27624437	Yes	
+row_15	MATN4	MATN4	matrilin 4	107	5.230639934539795	0.28606948	Yes	
+row_16	ANGPTL3	ANGPTL3	angiopoietin-like 3	125	4.846292495727539	0.29545328	Yes	
+row_17	INHBC	INHBC	inhibin, beta C	127	4.83241605758667	0.30613333	Yes	
+row_18	PLA2G2E	PLA2G2E	phospholipase A2, group IIE	142	4.595670223236084	0.31520778	Yes	
+row_19	APCS	APCS	amyloid P component, serum	150	4.5129876136779785	0.3246787	Yes	
+row_20	MIA	MIA	melanoma inhibitory activity	169	4.298852920532227	0.33276027	Yes	
+row_21	KLK4	KLK4	kallikrein 4 (prostase, enamel matrix, prostate)	215	3.7990341186523438	0.33748907	Yes	
+row_22	LALBA	LALBA	lactalbumin, alpha-	235	3.7540030479431152	0.34427416	Yes	
+row_23	SERPINA7	SERPINA7	serpin peptidase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 7	250	3.524369955062866	0.35096258	Yes	
+row_24	ORM2	ORM2	orosomucoid 2	251	3.524369955062866	0.3588122	Yes	
+row_25	MMP8	MMP8	matrix metallopeptidase 8 (neutrophil collagenase)	261	3.5242154598236084	0.365915	Yes	
+row_26	KIRREL3	KIRREL3	kin of IRRE like 3 (Drosophila)	264	3.493361234664917	0.37352967	Yes	
+row_27	MATN3	MATN3	matrilin 3	300	3.0126280784606934	0.3773364	Yes	
+row_28	CSF3	CSF3	colony stimulating factor 3 (granulocyte)	303	2.9865591526031494	0.38382235	Yes	
+row_29	TNFAIP2	TNFAIP2	tumor necrosis factor, alpha-induced protein 2	305	2.955300807952881	0.39032158	Yes	
+row_30	NDP	NDP	Norrie disease (pseudoglioma)	307	2.9468371868133545	0.39680195	Yes	
+row_31	IL13RA2	IL13RA2	interleukin 13 receptor, alpha 2	344	2.8187942504882812	0.40009406	Yes	
+row_32	CRISP1	CRISP1	cysteine-rich secretory protein 1	428	2.590369701385498	0.3989789	Yes	
+row_33	GPHA2	GPHA2	glycoprotein hormone alpha 2	434	2.5536224842071533	0.40425172	Yes	
+row_34	IL4	IL4	interleukin 4	437	2.5435569286346436	0.40975097	Yes	
+row_35	TFF3	TFF3	trefoil factor 3 (intestinal)	452	2.543480396270752	0.41425467	Yes	
+row_36	TNFRSF11B	TNFRSF11B	tumor necrosis factor receptor superfamily, member 11b (osteoprotegerin)	487	2.4380204677581787	0.41686457	Yes	
+row_37	SEMA3A	SEMA3A	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A	492	2.40492582321167	0.42188916	Yes	
+row_38	DSPP	DSPP	dentin sialophosphoprotein	522	2.2969179153442383	0.4245995	Yes	
+row_39	CHAD	CHAD	chondroadherin	528	2.2783079147338867	0.42925912	Yes	
+row_40	LCAT	LCAT	lecithin-cholesterol acyltransferase	533	2.258538007736206	0.43395767	Yes	
+row_41	TFRC	TFRC	transferrin receptor (p90, CD71)	535	2.251575231552124	0.43888953	Yes	
+row_42	SLIT2	SLIT2	slit homolog 2 (Drosophila)	538	2.244574785232544	0.44372287	Yes	
+row_43	PTHLH	PTHLH	parathyroid hormone-like hormone	547	2.211700677871704	0.4479853	Yes	
+row_44	COL11A1	COL11A1	collagen, type XI, alpha 1	584	2.0647547245025635	0.44959795	Yes	
+row_45	COL15A1	COL15A1	collagen, type XV, alpha 1	591	2.0143823623657227	0.4535868	Yes	
+row_46	SNTG2	SNTG2	syntrophin, gamma 2	604	1.9752014875411987	0.4569907	Yes	
+row_47	SPINT1	SPINT1	serine peptidase inhibitor, Kunitz type 1	608	1.9646388292312622	0.4611176	Yes	
+row_48	CFHR1	CFHR1	complement factor H-related 1	634	1.8904674053192139	0.46325448	Yes	
+row_49	ANGPTL2	ANGPTL2	angiopoietin-like 2	664	1.8005269765853882	0.46485925	Yes	
+row_50	CPN1	CPN1	carboxypeptidase N, polypeptide 1, 50kD	686	1.7380110025405884	0.46698835	Yes	
+row_51	FGL1	FGL1	fibrinogen-like 1	692	1.7241190671920776	0.47041368	Yes	
+row_52	IL7	IL7	interleukin 7	720	1.6788263320922852	0.47191328	Yes	
+row_53	COMP	COMP	cartilage oligomeric matrix protein	762	1.6163772344589233	0.47211257	Yes	
+row_54	PTN	PTN	pleiotrophin (heparin binding growth factor 8, neurite growth-promoting factor 1)	782	1.5803353786468506	0.47405636	Yes	
+row_55	LTBP2	LTBP2	latent transforming growth factor beta binding protein 2	794	1.5577301979064941	0.4766134	Yes	
+row_56	PLA2G4B	PLA2G4B	phospholipase A2, group IVB (cytosolic)	816	1.5187335014343262	0.47825414	Yes	
+row_57	PLA2G10	PLA2G10	phospholipase A2, group X	823	1.5059702396392822	0.48111063	Yes	
+row_58	FBN2	FBN2	fibrillin 2 (congenital contractural arachnodactyly)	835	1.488671898841858	0.48351386	Yes	
+row_59	COL6A3	COL6A3	collagen, type VI, alpha 3	854	1.458691120147705	0.4852697	Yes	
+row_60	SNTG1	SNTG1	syntrophin, gamma 1	857	1.454663634300232	0.4883437	Yes	
+row_61	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	864	1.4466500282287598	0.49106807	Yes	
+row_62	KL	KL	klotho	872	1.43252694606781	0.49367803	Yes	
+row_63	PNOC	PNOC	prepronociceptin	883	1.4238578081130981	0.49601984	Yes	
+row_64	LAMA3	LAMA3	laminin, alpha 3	885	1.4223384857177734	0.4991048	Yes	
+row_65	CCL2	CCL2	chemokine (C-C motif) ligand 2	903	1.3925632238388062	0.5007963	Yes	
+row_66	FMOD	FMOD	fibromodulin	924	1.3641279935836792	0.5021756	Yes	
+row_67	CDA	CDA	cytidine deaminase	925	1.3636173009872437	0.5052127	Yes	
+row_68	PLA2G3	PLA2G3	phospholipase A2, group III	960	1.3252174854278564	0.50534415	Yes	
+row_69	COL5A1	COL5A1	collagen, type V, alpha 1	978	1.2995389699935913	0.5068285	Yes	
+row_70	FGF6	FGF6	fibroblast growth factor 6	1037	1.248460292816162	0.5047982	Yes	
+row_71	RBP4	RBP4	retinol binding protein 4, plasma	1086	1.1945894956588745	0.50347745	Yes	
+row_72	VTN	VTN	vitronectin	1087	1.1930345296859741	0.5061346	Yes	
+row_73	COL1A2	COL1A2	collagen, type I, alpha 2	1096	1.1845953464508057	0.50810945	Yes	
+row_74	COL3A1	COL3A1	collagen, type III, alpha 1 (Ehlers-Danlos syndrome type IV, autosomal dominant)	1102	1.1780333518981934	0.51031846	Yes	
+row_75	LOXL3	LOXL3	lysyl oxidase-like 3	1106	1.1733335256576538	0.5126829	Yes	
+row_76	LUM	LUM	lumican	1116	1.1622220277786255	0.514525	Yes	
+row_77	COL18A1	COL18A1	collagen, type XVIII, alpha 1	1163	1.1207033395767212	0.5132055	Yes	
+row_78	TGFB2	TGFB2	transforming growth factor, beta 2	1172	1.1153578758239746	0.51502615	Yes	
+row_79	THBS4	THBS4	thrombospondin 4	1238	1.0693672895431519	0.51201636	Yes	
+row_80	EMILIN2	EMILIN2	elastin microfibril interfacer 2	1257	1.0603443384170532	0.512885	Yes	
+row_81	ADAMTS13	ADAMTS13	ADAM metallopeptidase with thrombospondin type 1 motif, 13	1288	1.037447214126587	0.51270723	Yes	
+row_82	COL16A1	COL16A1	collagen, type XVI, alpha 1	1320	1.019844889640808	0.51240736	Yes	
+row_83	EREG	EREG	epiregulin	1321	1.0193935632705688	0.5146778	Yes	
+row_84	SCUBE1	SCUBE1	signal peptide, CUB domain, EGF-like 1	1335	1.0114370584487915	0.5158522	Yes	
+row_85	TINAG	TINAG	tubulointerstitial nephritis antigen	1378	0.9829502701759338	0.5145578	Yes	
+row_86	CRLF1	CRLF1	cytokine receptor-like factor 1	1380	0.9801253080368042	0.51665777	Yes	
+row_87	CD248	CD248	CD248 molecule, endosialin	1395	0.9737162590026855	0.51766527	Yes	
+row_88	APLP1	APLP1	amyloid beta (A4) precursor-like protein 1	1402	0.9670565724372864	0.51932144	Yes	
+row_89	EFEMP2	EFEMP2	EGF-containing fibulin-like extracellular matrix protein 2	1405	0.9664240479469299	0.521308	Yes	
+row_90	SERPINF1	SERPINF1	serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 1	1467	0.9310814738273621	0.51832205	No	
+row_91	NID2	NID2	nidogen 2 (osteonidogen)	1502	0.9104914665222168	0.5175298	No	
+row_92	LTBP4	LTBP4	latent transforming growth factor beta binding protein 4	1515	0.9025639891624451	0.5185446	No	
+row_93	FSTL1	FSTL1	follistatin-like 1	1528	0.898490846157074	0.51955044	No	
+row_94	FXYD6	FXYD6	FXYD domain containing ion transport regulator 6	1544	0.8909673690795898	0.5202907	No	
+row_95	CXCL1	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	1577	0.8734739422798157	0.5195818	No	
+row_96	FRZB	FRZB	frizzled-related protein	1600	0.8642712235450745	0.51968193	No	
+row_97	CLEC11A	CLEC11A	C-type lectin domain family 11, member A	1611	0.8541985750198364	0.520755	No	
+row_98	ADM	ADM	adrenomedullin	1709	0.8017891049385071	0.514495	No	
+row_99	ANGPTL1	ANGPTL1	angiopoietin-like 1	1713	0.8006542325019836	0.5160294	No	
+row_100	ACHE	ACHE	acetylcholinesterase (Yt blood group)	1717	0.7988651394844055	0.5175598	No	
+row_101	MGP	MGP	matrix Gla protein	1727	0.794391930103302	0.51858264	No	
+row_102	COL9A1	COL9A1	collagen, type IX, alpha 1	1739	0.7873440384864807	0.51942384	No	
+row_103	COL4A2	COL4A2	collagen, type IV, alpha 2	1773	0.7721883058547974	0.51840645	No	
+row_104	CP	CP	ceruloplasmin (ferroxidase)	1794	0.7656941413879395	0.51845294	No	
+row_105	FGF18	FGF18	fibroblast growth factor 18	1842	0.7449272274971008	0.5162136	No	
+row_106	CAV3	CAV3	caveolin 3	1870	0.7365772724151611	0.51561457	No	
+row_107	COL5A3	COL5A3	collagen, type V, alpha 3	1991	0.6938797235488892	0.50720644	No	
+row_108	COL4A5	COL4A5	collagen, type IV, alpha 5 (Alport syndrome)	1997	0.6920703649520874	0.50833315	No	
+row_109	LAMA4	LAMA4	laminin, alpha 4	2036	0.6779779195785522	0.5066912	No	
+row_110	COL5A2	COL5A2	collagen, type V, alpha 2	2043	0.6761230826377869	0.50769943	No	
+row_111	SCRG1	SCRG1	-	2110	0.6538110375404358	0.5036812	No	
+row_112	PTX3	PTX3	pentraxin-related gene, rapidly induced by IL-1 beta	2112	0.6524582505226135	0.50505143	No	
+row_113	IL18BP	IL18BP	interleukin 18 binding protein	2134	0.6476596593856812	0.50475204	No	
+row_114	GHRL	GHRL	ghrelin/obestatin preprohormone	2137	0.6474481821060181	0.5060282	No	
+row_115	LOXL2	LOXL2	lysyl oxidase-like 2	2156	0.6419379711151123	0.5059649	No	
+row_116	CCL22	CCL22	chemokine (C-C motif) ligand 22	2213	0.6269916892051697	0.50271636	No	
+row_117	ORM1	ORM1	orosomucoid 1	2220	0.6256276965141296	0.5036121	No	
+row_118	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	2255	0.6180675625801086	0.50216854	No	
+row_119	HBEGF	HBEGF	heparin-binding EGF-like growth factor	2279	0.6119511127471924	0.50162375	No	
+row_120	FBN1	FBN1	fibrillin 1	2286	0.6089253425598145	0.5024823	No	
+row_121	COL25A1	COL25A1	collagen, type XXV, alpha 1	2297	0.6065057516098022	0.50300366	No	
+row_122	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	2316	0.6006547212600708	0.50284845	No	
+row_123	KLK13	KLK13	kallikrein 13	2344	0.5925137400627136	0.50192857	No	
+row_124	COL9A2	COL9A2	collagen, type IX, alpha 2	2413	0.5720360279083252	0.4975623	No	
+row_125	IL2	IL2	interleukin 2	2415	0.5718970894813538	0.4987531	No	
+row_126	IL18	IL18	interleukin 18 (interferon-gamma-inducing factor)	2440	0.5670830607414246	0.49802542	No	
+row_127	PLA2G7	PLA2G7	phospholipase A2, group VII (platelet-activating factor acetylhydrolase, plasma)	2493	0.5557370781898499	0.49494997	No	
+row_128	SCG2	SCG2	secretogranin II (chromogranin C)	2511	0.5527637600898743	0.49477103	No	
+row_129	IL9R	IL9R	interleukin 9 receptor	2539	0.5470291376113892	0.49374986	No	
+row_130	LOXL1	LOXL1	lysyl oxidase-like 1	2567	0.5407910346984863	0.49271476	No	
+row_131	SFRP5	SFRP5	secreted frizzled-related protein 5	2579	0.5369417071342468	0.49299827	No	
+row_132	MMP2	MMP2	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)	2587	0.5351596474647522	0.49360958	No	
+row_133	GDNF	GDNF	glial cell derived neurotrophic factor	2648	0.5229794979095459	0.4897976	No	
+row_134	TCN2	TCN2	transcobalamin II; macrocytic anemia	2692	0.5122967958450317	0.48737192	No	
+row_135	TFPI2	TFPI2	tissue factor pathway inhibitor 2	2737	0.5038201808929443	0.48484442	No	
+row_136	WNT5A	WNT5A	wingless-type MMTV integration site family, member 5A	2751	0.5012268424034119	0.48488247	No	
+row_137	IGFALS	IGFALS	insulin-like growth factor binding protein, acid labile subunit	2797	0.49125608801841736	0.48224404	No	
+row_138	SEMA3F	SEMA3F	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3F	2836	0.483439177274704	0.48016882	No	
+row_139	GLA	GLA	galactosidase, alpha	2873	0.47575843334198	0.4782424	No	
+row_140	ECM1	ECM1	extracellular matrix protein 1	2877	0.47514045238494873	0.4790518	No	
+row_141	EGFL7	EGFL7	EGF-like-domain, multiple 7	2918	0.4669538140296936	0.47677398	No	
+row_142	PLA2G5	PLA2G5	phospholipase A2, group V	2927	0.4651308059692383	0.47714636	No	
+row_143	COLQ	COLQ	collagen-like tail subunit (single strand of homotrimer) of asymmetric acetylcholinesterase	2933	0.46332231163978577	0.47776356	No	
+row_144	CKLF	CKLF	chemokine-like factor	2956	0.4582700729370117	0.47695944	No	
+row_145	SLIT1	SLIT1	slit homolog 1 (Drosophila)	3082	0.4352916479110718	0.46756065	No	
+row_146	LAMB2	LAMB2	laminin, beta 2 (laminin S)	3128	0.42673444747924805	0.4647785	No	
+row_147	LGALS3BP	LGALS3BP	lectin, galactoside-binding, soluble, 3 binding protein	3140	0.42407700419425964	0.46481064	No	
+row_148	PAPPA	PAPPA	pregnancy-associated plasma protein A, pappalysin 1	3172	0.41672879457473755	0.46316746	No	
+row_149	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	3185	0.4142287075519562	0.46309468	No	
+row_150	MMP13	MMP13	matrix metallopeptidase 13 (collagenase 3)	3197	0.41201329231262207	0.46309993	No	
+row_151	CTRL	CTRL	chymotrypsin-like	3216	0.40778517723083496	0.46251515	No	
+row_152	LAMB1	LAMB1	laminin, beta 1	3242	0.4041447639465332	0.46134162	No	
+row_153	C1QA	C1QA	complement component 1, q subcomponent, A chain	3250	0.402353972196579	0.46165714	No	
+row_154	GPC1	GPC1	glypican 1	3309	0.39240390062332153	0.45772022	No	
+row_155	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	3311	0.39220383763313293	0.45851082	No	
+row_156	RS1	RS1	retinoschisis (X-linked, juvenile) 1	3373	0.38270625472068787	0.45430347	No	
+row_157	SEMA3E	SEMA3E	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3E	3410	0.3776834309101105	0.4521586	No	
+row_158	TNXB	TNXB	tenascin XB	3413	0.3771667182445526	0.45283276	No	
+row_159	TMPRSS11D	TMPRSS11D	transmembrane protease, serine 11D	3440	0.3726723790168762	0.4515062	No	
+row_160	ANGPT2	ANGPT2	angiopoietin 2	3451	0.37060272693634033	0.45150214	No	
+row_161	EGFL6	EGFL6	EGF-like-domain, multiple 6	3462	0.3687230348587036	0.45149392	No	
+row_162	DGCR6	DGCR6	DiGeorge syndrome critical region gene 6	3540	0.355107843875885	0.44589797	No	
+row_163	CFH	CFH	complement factor H	3646	0.33968624472618103	0.4379452	No	
+row_164	DKK2	DKK2	dickkopf homolog 2 (Xenopus laevis)	3678	0.3349630534648895	0.4361199	No	
+row_165	CCL28	CCL28	chemokine (C-C motif) ligand 28	3690	0.33303314447402954	0.43594924	No	
+row_166	SSPN	SSPN	sarcospan (Kras oncogene-associated gene)	3814	0.3143681585788727	0.42644703	No	
+row_167	MYOC	MYOC	myocilin, trabecular meshwork inducible glucocorticoid response	3904	0.30255651473999023	0.41973868	No	
+row_168	SERPINA5	SERPINA5	serpin peptidase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 5	3938	0.2985435128211975	0.41766638	No	
+row_169	SFN	SFN	stratifin	3940	0.29835814237594604	0.41824794	No	
+row_170	ECM2	ECM2	extracellular matrix protein 2, female organ and adipocyte specific	3984	0.29228371381759644	0.41533226	No	
+row_171	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	3999	0.290547251701355	0.4148181	No	
+row_172	PRELP	PRELP	proline/arginine-rich end leucine-rich repeat protein	4026	0.2868819832801819	0.41330048	No	
+row_173	PLTP	PLTP	phospholipid transfer protein	4044	0.28439614176750183	0.4125238	No	
+row_174	FGL2	FGL2	fibrinogen-like 2	4100	0.27717795968055725	0.4085791	No	
+row_175	INHA	INHA	inhibin, alpha	4131	0.27362555265426636	0.40670016	No	
+row_176	MIF	MIF	macrophage migration inhibitory factor (glycosylation-inhibiting factor)	4138	0.2728954553604126	0.40681028	No	
+row_177	HDGF	HDGF	hepatoma-derived growth factor (high-mobility group protein 1-like)	4182	0.26702848076820374	0.40383834	No	
+row_178	COL8A1	COL8A1	collagen, type VIII, alpha 1	4263	0.2556565999984741	0.39777204	No	
+row_179	FBLN1	FBLN1	fibulin 1	4319	0.24674715101718903	0.39375958	No	
+row_180	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	0.38698676	No	
+row_181	NOG	NOG	noggin	4409	0.2362993359565735	0.38751304	No	
+row_182	IFI30	IFI30	interferon, gamma-inducible protein 30	4455	0.23115216195583344	0.3842953	No	
+row_183	COL7A1	COL7A1	collagen, type VII, alpha 1 (epidermolysis bullosa, dystrophic, dominant and recessive)	4596	0.21479426324367523	0.37316123	No	
+row_184	WNT2B	WNT2B	wingless-type MMTV integration site family, member 2B	4608	0.21349692344665527	0.37272432	No	
+row_185	RAB35	RAB35	RAB35, member RAS oncogene family	4637	0.2105979323387146	0.3708709	No	
+row_186	SDF2	SDF2	stromal cell-derived factor 2	4668	0.20601888000965118	0.36884135	No	
+row_187	PGC	PGC	progastricsin (pepsinogen C)	4818	0.18533450365066528	0.35689515	No	
+row_188	SPG7	SPG7	spastic paraplegia 7, paraplegin (pure and complicated autosomal recessive)	4846	0.18222075700759888	0.35506144	No	
+row_189	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	0.35297167	No	
+row_190	PLA2R1	PLA2R1	phospholipase A2 receptor 1, 180kDa	4888	0.17702126502990723	0.3525365	No	
+row_191	PLA2G2D	PLA2G2D	phospholipase A2, group IID	5008	0.16370560228824615	0.3430305	No	
+row_192	KLK8	KLK8	kallikrein 8 (neuropsin/ovasin)	5018	0.16291633248329163	0.34264684	No	
+row_193	RNPEP	RNPEP	arginyl aminopeptidase (aminopeptidase B)	5076	0.1546311229467392	0.3382633	No	
+row_194	SPN	SPN	sialophorin (leukosialin, CD43)	5115	0.1511273980140686	0.33544794	No	
+row_195	FGF5	FGF5	fibroblast growth factor 5	5164	0.1464126855134964	0.33179262	No	
+row_196	ADAMTS9	ADAMTS9	ADAM metallopeptidase with thrombospondin type 1 motif, 9	5184	0.14435765147209167	0.33053815	No	
+row_197	PDZD2	PDZD2	PDZ domain containing 2	5312	0.1309250295162201	0.3202956	No	
+row_198	TPT1	TPT1	tumor protein, translationally-controlled 1	5338	0.12808766961097717	0.31850722	No	
+row_199	FGF2	FGF2	fibroblast growth factor 2 (basic)	5471	0.11147240549325943	0.30780658	No	
+row_200	FGF12	FGF12	fibroblast growth factor 12	5503	0.10859072953462601	0.3054771	No	
+row_201	SFRP1	SFRP1	secreted frizzled-related protein 1	5514	0.10738116502761841	0.30488682	No	
+row_202	SGCB	SGCB	sarcoglycan, beta (43kDa dystrophin-associated glycoprotein)	5606	0.09818489104509354	0.29755738	No	
+row_203	HTRA1	HTRA1	HtrA serine peptidase 1	5695	0.08868824690580368	0.29045564	No	
+row_204	IMPG2	IMPG2	interphotoreceptor matrix proteoglycan 2	5793	0.07878592610359192	0.28258532	No	
+row_205	C1QB	C1QB	complement component 1, q subcomponent, B chain	5804	0.07798376679420471	0.28192955	No	
+row_206	OPTC	OPTC	opticin	5843	0.07298265397548676	0.27894017	No	
+row_207	APOA1BP	APOA1BP	apolipoprotein A-I binding protein	5864	0.07064257562160492	0.27743858	No	
+row_208	MUC2	MUC2	mucin 2, oligomeric mucus/gel-forming	5878	0.06908909231424332	0.27651414	No	
+row_209	FSTL3	FSTL3	follistatin-like 3 (secreted glycoprotein)	5883	0.06859093904495239	0.27633512	No	
+row_210	CDH13	CDH13	cadherin 13, H-cadherin (heart)	5905	0.06655576825141907	0.2747415	No	
+row_211	PSAP	PSAP	prosaposin (variant Gaucher disease and variant metachromatic leukodystrophy)	5913	0.06552372872829437	0.2743068	No	
+row_212	FBLN5	FBLN5	fibulin 5	5923	0.06444989889860153	0.27370384	No	
+row_213	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	5928	0.06411337852478027	0.27351484	No	
+row_214	ERBB2	ERBB2	v-erb-b2 erythroblastic leukemia viral oncogene homolog 2, neuro/glioblastoma derived oncogene homolog (avian)	5942	0.0621274933218956	0.27257493	No	
+row_215	PCSK5	PCSK5	proprotein convertase subtilisin/kexin type 5	6075	0.05004320666193962	0.26173747	No	
+row_216	DST	DST	dystonin	6226	0.03508767485618591	0.24937369	No	
+row_217	NUCB1	NUCB1	nucleobindin 1	6227	0.035017237067222595	0.24945168	No	
+row_218	SNTB1	SNTB1	syntrophin, beta 1 (dystrophin-associated protein A1, 59kDa, basic component 1)	6273	0.030684243887662888	0.24578744	No	
+row_219	MMP3	MMP3	matrix metallopeptidase 3 (stromelysin 1, progelatinase)	6280	0.029719030484557152	0.24535595	No	
+row_220	NUCB2	NUCB2	nucleobindin 2	6391	0.01803433708846569	0.23627204	No	
+row_221	SGCA	SGCA	sarcoglycan, alpha (50kDa dystrophin-associated glycoprotein)	6456	0.009245949797332287	0.23098406	No	
+row_222	SFRP4	SFRP4	secreted frizzled-related protein 4	6508	0.0035892180167138577	0.2267618	No	
+row_223	IL16	IL16	interleukin 16 (lymphocyte chemoattractant factor)	6521	0.002401915146037936	0.2257718	No	
+row_224	SGCE	SGCE	sarcoglycan, epsilon	6547	-1.1660268501145765E-4	0.22369839	No	
+row_225	SHH	SHH	sonic hedgehog homolog (Drosophila)	6566	-0.002734525129199028	0.22221145	No	
+row_226	HYAL1	HYAL1	hyaluronoglucosaminidase 1	6672	-0.016164999455213547	0.21353811	No	
+row_227	MATN1	MATN1	matrilin 1, cartilage matrix protein	6762	-0.021836379542946815	0.20620452	No	
+row_228	FGF21	FGF21	fibroblast growth factor 21	6826	-0.021932048723101616	0.20102775	No	
+row_229	CARTPT	CARTPT	CART prepropeptide	6840	-0.021969247609376907	0.1999984	No	
+row_230	FGF3	FGF3	fibroblast growth factor 3 (murine mammary tumor virus integration site (v-int-2) oncogene homolog)	6848	-0.021979685872793198	0.19946672	No	
+row_231	PNLIPRP1	PNLIPRP1	pancreatic lipase-related protein 1	6854	-0.021983817219734192	0.19910096	No	
+row_232	DMBT1	DMBT1	deleted in malignant brain tumors 1	6856	-0.021983817219734192	0.19906697	No	
+row_233	MMP10	MMP10	matrix metallopeptidase 10 (stromelysin 2)	6876	-0.021990612149238586	0.19753997	No	
+row_234	MEP1B	MEP1B	meprin A, beta	6885	-0.021994469687342644	0.19692539	No	
+row_235	NPPB	NPPB	natriuretic peptide precursor B	6896	-0.02201477438211441	0.19614495	No	
+row_236	CCL1	CCL1	chemokine (C-C motif) ligand 1	6908	-0.022028760984539986	0.19528161	No	
+row_237	SFTPD	SFTPD	surfactant, pulmonary-associated protein D	6910	-0.022028908133506775	0.19524772	No	
+row_238	PROK2	PROK2	prokineticin 2	6914	-0.022031499072909355	0.19504796	No	
+row_239	PTGDS	PTGDS	prostaglandin D2 synthase 21kDa (brain)	6926	-0.022066831588745117	0.19418469	No	
+row_240	FBLN2	FBLN2	fibulin 2	6976	-0.026698479428887367	0.1901798	No	
+row_241	PRG2	PRG2	proteoglycan 2, bone marrow (natural killer cell activator, eosinophil granule major basic protein)	7005	-0.030058423057198524	0.18792425	No	
+row_242	PCSK9	PCSK9	proprotein convertase subtilisin/kexin type 9	7074	-0.03778716176748276	0.18236805	No	
+row_243	FLT1	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	7077	-0.03812359645962715	0.18228708	No	
+row_244	HAPLN1	HAPLN1	hyaluronan and proteoglycan link protein 1	7106	-0.041287172585725784	0.18005654	No	
+row_245	LBP	LBP	lipopolysaccharide binding protein	7122	-0.04295733943581581	0.17890802	No	
+row_246	YARS	YARS	tyrosyl-tRNA synthetase	7160	-0.04670030623674393	0.17594303	No	
+row_247	ADAMTS5	ADAMTS5	ADAM metallopeptidase with thrombospondin type 1 motif, 5 (aggrecanase-2)	7237	-0.056799016892910004	0.16976562	No	
+row_248	MAGEE1	MAGEE1	melanoma antigen family E, 1	7294	-0.06430934369564056	0.16526386	No	
+row_249	SLIT3	SLIT3	slit homolog 3 (Drosophila)	7385	-0.07424015551805496	0.15796405	No	
+row_250	ATG4C	ATG4C	ATG4 autophagy related 4 homolog C (S. cerevisiae)	7423	-0.07911911606788635	0.15507126	No	
+row_251	PVR	PVR	poliovirus receptor	7466	-0.08420504629611969	0.15177506	No	
+row_252	ATRN	ATRN	attractin	7540	-0.09234832972288132	0.14592566	No	
+row_253	COPA	COPA	coatomer protein complex, subunit alpha	7553	-0.09381124377250671	0.14513925	No	
+row_254	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	7563	-0.09442784637212753	0.14460304	No	
+row_255	LAMA2	LAMA2	laminin, alpha 2 (merosin, congenital muscular dystrophy)	7637	-0.10251245647668839	0.13877629	No	
+row_256	TGFBI	TGFBI	transforming growth factor, beta-induced, 68kDa	7802	-0.12162727862596512	0.125444	No	
+row_257	SGCG	SGCG	sarcoglycan, gamma (35kDa dystrophin-associated glycoprotein)	7818	-0.12330080568790436	0.12447443	No	
+row_258	AGGF1	AGGF1	angiogenic factor with G patch and FHA domains 1	7852	-0.12806813418865204	0.12202244	No	
+row_259	CFP	CFP	complement factor properdin	7896	-0.13386224210262299	0.118753895	No	
+row_260	CABP4	CABP4	calcium binding protein 4	7913	-0.1352394074201584	0.117727965	No	
+row_261	RNH1	RNH1	ribonuclease/angiogenin inhibitor 1	7957	-0.14079882204532623	0.11447487	No	
+row_262	FJX1	FJX1	four jointed box 1 (Drosophila)	8012	-0.1480308622121811	0.11032548	No	
+row_263	EFEMP1	EFEMP1	EGF-containing fibulin-like extracellular matrix protein 1	8099	-0.15912382304668427	0.10354651	No	
+row_264	INHBA	INHBA	inhibin, beta A (activin A, activin AB alpha polypeptide)	8111	-0.1604560762643814	0.10299147	No	
+row_265	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	8127	-0.16209496557712555	0.10210831	No	
+row_266	SNTB2	SNTB2	syntrophin, beta 2 (dystrophin-associated protein A1, 59kDa, basic component 2)	8177	-0.16879582405090332	0.09841989	No	
+row_267	COL13A1	COL13A1	collagen, type XIII, alpha 1	8336	-0.19373905658721924	0.085745886	No	
+row_268	DLK1	DLK1	delta-like 1 homolog (Drosophila)	8514	-0.21698516607284546	0.07154768	No	
+row_269	IL1B	IL1B	interleukin 1, beta	8606	-0.23000827431678772	0.06451186	No	
+row_270	SGCD	SGCD	sarcoglycan, delta (35kDa dystrophin-associated glycoprotein)	8657	-0.2364090085029602	0.060891084	No	
+row_271	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	8834	-0.2638205885887146	0.046880137	No	
+row_272	HABP2	HABP2	hyaluronan binding protein 2	8852	-0.26673218607902527	0.046064127	No	
+row_273	IL15	IL15	interleukin 15	8859	-0.26813244819641113	0.04616365	No	
+row_274	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	8885	-0.27154016494750977	0.044694778	No	
+row_275	RTN3	RTN3	reticulon 3	8947	-0.2822929322719574	0.040263794	No	
+row_276	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	0.0397381	No	
+row_277	SPINT2	SPINT2	serine peptidase inhibitor, Kunitz type, 2	8983	-0.2882665693759918	0.038721215	No	
+row_278	CTF1	CTF1	cardiotrophin 1	9025	-0.29378587007522583	0.035974752	No	
+row_279	DKK3	DKK3	dickkopf homolog 3 (Xenopus laevis)	9091	-0.30613085627555847	0.031265076	No	
+row_280	ANG	ANG	angiogenin, ribonuclease, RNase A family, 5	9112	-0.3089841306209564	0.030294335	No	
+row_281	IL1A	IL1A	interleukin 1, alpha	9263	-0.33320102095603943	0.018594518	No	
+row_282	GSN	GSN	gelsolin (amyloidosis, Finnish type)	9276	-0.335298091173172	0.018345956	No	
+row_283	COL4A4	COL4A4	collagen, type IV, alpha 4	9492	-0.3744264245033264	0.0013464511	No	
+row_284	APOE	APOE	apolipoprotein E	9500	-0.37571972608566284	0.0016026478	No	
+row_285	FGF10	FGF10	fibroblast growth factor 10	9618	-0.39126142859458923	-0.007230628	No	
+row_286	LGALS8	LGALS8	lectin, galactoside-binding, soluble, 8 (galectin 8)	9639	-0.3944600224494934	-0.008010993	No	
+row_287	PRSS8	PRSS8	protease, serine, 8 (prostasin)	9666	-0.4005334675312042	-0.009275509	No	
+row_288	DNASE1	DNASE1	deoxyribonuclease I	9725	-0.4117179214954376	-0.013169394	No	
+row_289	IDE	IDE	insulin-degrading enzyme	9844	-0.4314832091331482	-0.021996032	No	
+row_290	CCL4	CCL4	chemokine (C-C motif) ligand 4	9855	-0.4339330792427063	-0.021859018	No	
+row_291	SMC3	SMC3	structural maintenance of chromosomes 3	9895	-0.4458543658256531	-0.024100894	No	
+row_292	IK	IK	IK cytokine, down-regulator of HLA II	9900	-0.4468218684196472	-0.023437496	No	
+row_293	EBI3	EBI3	Epstein-Barr virus induced gene 3	9944	-0.45854452252388	-0.025982894	No	
+row_294	IMPG1	IMPG1	interphotoreceptor matrix proteoglycan 1	9951	-0.45915302634239197	-0.025457924	No	
+row_295	WFDC12	WFDC12	WAP four-disulfide core domain 12	9992	-0.46750012040138245	-0.027734537	No	
+row_296	EDN1	EDN1	endothelin 1	10001	-0.46920669078826904	-0.027353067	No	
+row_297	IL27	IL27	interleukin 27	10007	-0.47005197405815125	-0.026720878	No	
+row_298	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	10051	-0.47991830110549927	-0.02921867	No	
+row_299	MMP11	MMP11	matrix metallopeptidase 11 (stromelysin 3)	10058	-0.4819168746471405	-0.028642999	No	
+row_300	MFNG	MFNG	manic fringe homolog (Drosophila)	10080	-0.4881627559661865	-0.02929761	No	
+row_301	PCSK2	PCSK2	proprotein convertase subtilisin/kexin type 2	10146	-0.5035427808761597	-0.033567604	No	
+row_302	CTGF	CTGF	connective tissue growth factor	10257	-0.5313775539398193	-0.041508183	No	
+row_303	APOD	APOD	apolipoprotein D	10350	-0.5563927888870239	-0.047900014	No	
+row_304	AMH	AMH	anti-Mullerian hormone	10400	-0.5722936391830444	-0.050689742	No	
+row_305	UTS2	UTS2	urotensin 2	10413	-0.5774775147438049	-0.050398912	No	
+row_306	FGFBP1	FGFBP1	fibroblast growth factor binding protein 1	10515	-0.6111738085746765	-0.057415247	No	
+row_307	LPL	LPL	lipoprotein lipase	10584	-0.6302244067192078	-0.061651926	No	
+row_308	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	10744	-0.6901383996009827	-0.073303275	No	
+row_309	RNASE6	RNASE6	ribonuclease, RNase A family, k6	10801	-0.7139477133750916	-0.076358125	No	
+row_310	INSL3	INSL3	insulin-like 3 (Leydig cell)	10821	-0.7213872075080872	-0.0763274	No	
+row_311	UTP11L	UTP11L	UTP11-like, U3 small nucleolar ribonucleoprotein, (yeast)	10839	-0.7286852598190308	-0.07611452	No	
+row_312	CYTL1	CYTL1	cytokine-like 1	10846	-0.733663022518158	-0.07497815	No	
+row_313	FGF16	FGF16	fibroblast growth factor 16	10879	-0.7515681385993958	-0.075958505	No	
+row_314	COL10A1	COL10A1	collagen, type X, alpha 1(Schmid metaphyseal chondrodysplasia)	10934	-0.7746452689170837	-0.07871228	No	
+row_315	IL1RN	IL1RN	interleukin 1 receptor antagonist	11015	-0.8226383328437805	-0.083515756	No	
+row_316	EFNA5	EFNA5	ephrin-A5	11100	-0.8638418912887573	-0.088559255	No	
+row_317	CCL7	CCL7	chemokine (C-C motif) ligand 7	11173	-0.9028187990188599	-0.09252058	No	
+row_318	A1BG	A1BG	alpha-1-B glycoprotein	11180	-0.9054539203643799	-0.09100159	No	
+row_319	COL9A3	COL9A3	collagen, type IX, alpha 3	11303	-1.0013630390167236	-0.09889075	No	
+row_320	LEP	LEP	leptin (obesity homolog, mouse)	11315	-1.0110652446746826	-0.097551264	No	
+row_321	ACE2	ACE2	angiotensin I converting enzyme (peptidyl-dipeptidase A) 2	11327	-1.0190527439117432	-0.09619399	No	
+row_322	GPX3	GPX3	glutathione peroxidase 3 (plasma)	11363	-1.0518064498901367	-0.096754484	No	
+row_323	KLK10	KLK10	kallikrein 10	11418	-1.115349531173706	-0.09874942	No	
+row_324	ERBB2IP	ERBB2IP	erbb2 interacting protein	11486	-1.178091287612915	-0.10168292	No	
+row_325	DKKL1	DKKL1	dickkopf-like 1 (soggy)	11580	-1.3004045486450195	-0.106500596	No	
+row_326	FIGF	FIGF	c-fos induced growth factor (vascular endothelial growth factor D)	11585	-1.3039008378982544	-0.103928275	No	
+row_327	GDF15	GDF15	growth differentiation factor 15	11594	-1.3224925994873047	-0.10164633	No	
+row_328	DMP1	DMP1	dentin matrix acidic phosphoprotein	11651	-1.4193083047866821	-0.10313017	No	
+row_329	INHBB	INHBB	inhibin, beta B (activin AB beta polypeptide)	11669	-1.4539133310317993	-0.10130203	No	
+row_330	GREM1	GREM1	gremlin 1, cysteine knot superfamily, homolog (Xenopus laevis)	11709	-1.53044855594635	-0.10112824	No	
+row_331	LIPE	LIPE	lipase, hormone-sensitive	11748	-1.649040937423706	-0.10060738	No	
+row_332	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	11877	-2.0062766075134277	-0.10675603	No	
+row_333	PCSK1N	PCSK1N	proprotein convertase subtilisin/kexin type 1 inhibitor	11891	-2.0871024131774902	-0.10318584	No	
+row_334	CXCL2	CXCL2	chemokine (C-X-C motif) ligand 2	11910	-2.118468761444092	-0.09996052	No	
+row_335	CRISP2	CRISP2	cysteine-rich secretory protein 2	11914	-2.118468761444092	-0.09549101	No	
+row_336	OSM	OSM	oncostatin M	11925	-2.1185948848724365	-0.09160183	No	
+row_337	IL5RA	IL5RA	interleukin 5 receptor, alpha	11931	-2.1376328468322754	-0.08725553	No	
+row_338	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	11968	-2.2102227210998535	-0.085318886	No	
+row_339	MEPE	MEPE	matrix, extracellular phosphoglycoprotein with ASARM motif (bone)	11975	-2.2103567123413086	-0.080893554	No	
+row_340	IL17C	IL17C	interleukin 17C	11981	-2.214345693588257	-0.076376386	No	
+row_341	FGF17	FGF17	fibroblast growth factor 17	11995	-2.2246084213256836	-0.07249994	No	
+row_342	SPACA3	SPACA3	sperm acrosome associated 3	12035	-2.2668399810791016	-0.07068603	No	
+row_343	POSTN	POSTN	periostin, osteoblast specific factor	12074	-2.35931658744812	-0.068583205	No	
+row_344	ANGPTL4	ANGPTL4	angiopoietin-like 4	12140	-3.043940305709839	-0.06719511	No	
+row_345	VWC2	VWC2	von Willebrand factor C domain containing 2	12150	-3.121800422668457	-0.060988605	No	
+row_346	TAC1	TAC1	tachykinin, precursor 1 (substance K, substance P, neurokinin 1, neurokinin 2, neuromedin L, neurokinin alpha, neuropeptide K, neuropeptide gamma)	12172	-3.1930956840515137	-0.055618662	No	
+row_347	USH2A	USH2A	Usher syndrome 2A (autosomal recessive, mild)	12209	-3.259450674057007	-0.05134513	No	
+row_348	FGF20	FGF20	fibroblast growth factor 20	12307	-4.222545623779297	-0.049986262	No	
+row_349	CALCA	CALCA	calcitonin/calcitonin-related polypeptide, alpha	12331	-4.583741664886475	-0.041684903	No	
+row_350	KLK5	KLK5	kallikrein 5	12333	-4.603079319000244	-0.031515658	No	
+row_351	IL6	IL6	interleukin 6 (interferon, beta 2)	12350	-4.979585647583008	-0.021752032	No	
+row_352	SPINK5	SPINK5	serine peptidase inhibitor, Kazal type 5	12364	-5.282706260681152	-0.011064442	No	
+row_353	LGALS7	LGALS7	lectin, galactoside-binding, soluble, 7 (galectin 7)	12395	-6.606418132781982	0.001161293	No	

@@ -1,0 +1,34 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	POLE2	POLE2	polymerase (DNA directed), epsilon 2 (p59 subunit)	1057	1.2290066480636597	-0.008467608	No	
+row_1	FEN1	FEN1	flap structure-specific endonuclease 1	2259	0.6171255111694336	-0.06687192	No	
+row_2	POLE4	POLE4	polymerase (DNA-directed), epsilon 4 (p12 subunit)	2761	0.49978238344192505	-0.0760651	No	
+row_3	UNG	UNG	uracil-DNA glycosylase	3524	0.358082115650177	-0.11521587	No	
+row_4	POLD1	POLD1	polymerase (DNA directed), delta 1, catalytic subunit 125kDa	4395	0.23800483345985413	-0.17060903	No	
+row_5	NEIL3	NEIL3	nei endonuclease VIII-like 3 (E. coli)	4578	0.216194748878479	-0.17178047	No	
+row_6	SMUG1	SMUG1	single-strand-selective monofunctional uracil-DNA glycosylase 1	4924	0.17354929447174072	-0.188791	No	
+row_7	MBD4	MBD4	methyl-CpG binding domain protein 4	5004	0.1647276133298874	-0.18486227	No	
+row_8	MPG	MPG	N-methylpurine-DNA glycosylase	5315	0.13076341152191162	-0.20172328	No	
+row_9	PARP1	PARP1	poly (ADP-ribose) polymerase family, member 1	5829	0.07534129917621613	-0.23845494	No	
+row_10	POLE3	POLE3	polymerase (DNA directed), epsilon 3 (p17 subunit)	5874	0.06925217062234879	-0.2376749	No	
+row_11	POLL	POLL	polymerase (DNA directed), lambda	6319	0.025290071964263916	-0.2719648	No	
+row_12	PARP3	PARP3	poly (ADP-ribose) polymerase family, member 3	6334	0.02335161343216896	-0.2716342	No	
+row_13	APEX1	APEX1	APEX nuclease (multifunctional DNA repair enzyme) 1	6530	0.0014718098100274801	-0.28729707	No	
+row_14	NEIL1	NEIL1	nei endonuclease VIII-like 1 (E. coli)	6680	-0.016709577292203903	-0.29828957	No	
+row_15	POLB	POLB	polymerase (DNA directed), beta	7201	-0.05207596346735954	-0.33704314	No	
+row_16	POLD2	POLD2	polymerase (DNA directed), delta 2, regulatory subunit 50kDa	7511	-0.08868991583585739	-0.35645702	No	
+row_17	TDG	TDG	thymine-DNA glycosylase	7710	-0.11130695044994354	-0.36548692	No	
+row_18	XRCC1	XRCC1	X-ray repair complementing defective repair in Chinese hamster cells 1	8812	-0.2603275775909424	-0.43814638	No	
+row_19	POLD4	POLD4	polymerase (DNA-directed), delta 4	9120	-0.31062421202659607	-0.44350615	Yes	
+row_20	LIG1	LIG1	ligase I, DNA, ATP-dependent	9134	-0.3123125731945038	-0.4250065	Yes	
+row_21	NTHL1	NTHL1	nth endonuclease III-like 1 (E. coli)	9166	-0.3163171708583832	-0.4077105	Yes	
+row_22	HMGB1	HMGB1	high-mobility group box 1	9375	-0.3535114824771881	-0.40238693	Yes	
+row_23	LIG3	LIG3	ligase III, DNA, ATP-dependent	9743	-0.4150145351886749	-0.40605983	Yes	
+row_24	PARP2	PARP2	poly (ADP-ribose) polymerase family, member 2	9793	-0.4229109287261963	-0.38354564	Yes	
+row_25	PCNA	PCNA	proliferating cell nuclear antigen	9821	-0.4277551770210266	-0.3589507	Yes	
+row_26	OGG1	OGG1	8-oxoguanine DNA glycosylase	10444	-0.5883230566978455	-0.37237763	Yes	
+row_27	POLD3	POLD3	polymerase (DNA-directed), delta 3, accessory subunit	11177	-0.9043258428573608	-0.37491107	Yes	
+row_28	APEX2	APEX2	APEX nuclease (apurinic/apyrimidinic endonuclease) 2	11278	-0.976452648639679	-0.32186708	Yes	
+row_29	PARP4	PARP4	poly (ADP-ribose) polymerase family, member 4	11295	-0.991973340511322	-0.26106477	Yes	
+row_30	POLE	POLE	polymerase (DNA directed), epsilon	11771	-1.6930698156356812	-0.19346048	Yes	
+row_31	NEIL2	NEIL2	nei like 2 (E. coli)	11826	-1.8625649213790894	-0.08123152	Yes	
+row_32	MUTYH	MUTYH	mutY homolog (E. coli)	11887	-2.0488712787628174	0.04217498	Yes	

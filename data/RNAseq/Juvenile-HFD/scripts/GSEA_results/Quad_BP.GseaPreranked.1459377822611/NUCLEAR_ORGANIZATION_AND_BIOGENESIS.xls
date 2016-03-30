@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	1561	0.8808701634407043	-0.06676402	No	
+row_1	NDUFA13	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	3064	0.4385458528995514	-0.15851967	No	
+row_2	PML	PML	promyelocytic leukemia	3441	0.3725057542324066	-0.163816	No	
+row_3	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3549	0.3540751039981842	-0.14863583	No	
+row_4	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	-0.20200138	No	
+row_5	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	4572	0.21665716171264648	-0.20058604	No	
+row_6	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	-0.30189934	No	
+row_7	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.30572993	No	
+row_8	SYCP3	SYCP3	synaptonemal complex protein 3	6053	0.05235108733177185	-0.3078594	No	
+row_9	ATXN7	ATXN7	ataxin 7	6406	0.01587279886007309	-0.33520854	No	
+row_10	MOAP1	MOAP1	modulator of apoptosis 1	6602	-0.0077617415226995945	-0.35042873	No	
+row_11	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	6613	-0.008939740248024464	-0.35063466	No	
+row_12	TNP1	TNP1	transition protein 1 (during histone to protamine replacement)	6793	-0.021839583292603493	-0.36361617	No	
+row_13	TPD52L1	TPD52L1	tumor protein D52-like 1	7187	-0.050458069890737534	-0.39194873	No	
+row_14	ACIN1	ACIN1	apoptotic chromatin condensation inducer 1	8587	-0.22766976058483124	-0.4895746	No	
+row_15	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.5005721	No	
+row_16	NUMA1	NUMA1	nuclear mitotic apparatus protein 1	10472	-0.5981674194335938	-0.5821552	Yes	
+row_17	DEDD2	DEDD2	death effector domain containing 2	11095	-0.8624387979507446	-0.5743538	Yes	
+row_18	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11193	-0.917675793170929	-0.5204536	Yes	
+row_19	CECR2	CECR2	cat eye syndrome chromosome region, candidate 2	11451	-1.141296148300171	-0.46442735	Yes	
+row_20	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	11488	-1.1809436082839966	-0.3878928	Yes	
+row_21	TSSK6	TSSK6	testis-specific serine kinase 6	12125	-2.7783560752868652	-0.2523399	Yes	
+row_22	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	12284	-4.0908403396606445	0.010091227	Yes	

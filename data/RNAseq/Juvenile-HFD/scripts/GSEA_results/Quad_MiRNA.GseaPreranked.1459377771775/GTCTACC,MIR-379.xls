@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HTR1D	HTR1D	5-hydroxytryptamine (serotonin) receptor 1D	424	2.6412718296051025	0.11646552	No	
+row_1	TNFSF12	TNFSF12	tumor necrosis factor (ligand) superfamily, member 12	2005	0.6898247599601746	0.028317511	No	
+row_2	HBEGF	HBEGF	heparin-binding EGF-like growth factor	2279	0.6119511127471924	0.041198187	No	
+row_3	GLMN	GLMN	glomulin, FKBP associated protein	2738	0.5036733746528625	0.03297277	No	
+row_4	SCRT1	SCRT1	scratch homolog 1, zinc finger protein (Drosophila)	3158	0.41984298825263977	0.023112135	No	
+row_5	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	4729	0.19699013233184814	-0.09234448	No	
+row_6	UBE2E3	UBE2E3	ubiquitin-conjugating enzyme E2E 3 (UBC4/5 homolog, yeast)	5768	0.08200013637542725	-0.17143019	No	
+row_7	EI24	EI24	etoposide induced 2.4 mRNA	6299	0.028167661279439926	-0.2125928	No	
+row_8	CAPZA2	CAPZA2	capping protein (actin filament) muscle Z-line, alpha 2	6687	-0.017470428720116615	-0.24282596	No	
+row_9	ZBTB26	ZBTB26	zinc finger and BTB domain containing 26	7860	-0.12942399084568024	-0.33001962	No	
+row_10	EDEM3	EDEM3	ER degradation enhancer, mannosidase alpha-like 3	7918	-0.1360338032245636	-0.32685882	No	
+row_11	ARHGEF5	ARHGEF5	Rho guanine nucleotide exchange factor (GEF) 5	9076	-0.3023192584514618	-0.40297857	No	
+row_12	SLC20A1	SLC20A1	solute carrier family 20 (phosphate transporter), member 1	10037	-0.4774283766746521	-0.45321125	Yes	
+row_13	PCGF5	PCGF5	polycomb group ring finger 5	10156	-0.5052955150604248	-0.43390706	Yes	
+row_14	GDF6	GDF6	growth differentiation factor 6	10722	-0.6815621852874756	-0.44061875	Yes	
+row_15	TNRC6B	TNRC6B	trinucleotide repeat containing 6B	11053	-0.8411830067634583	-0.41926044	Yes	
+row_16	LIN28B	LIN28B	lin-28 homolog B (C. elegans)	12285	-4.1172566413879395	-0.28371453	Yes	
+row_17	SLC22A2	SLC22A2	solute carrier family 22 (organic cation transporter), member 2	12358	-5.147186279296875	0.0041155736	Yes	

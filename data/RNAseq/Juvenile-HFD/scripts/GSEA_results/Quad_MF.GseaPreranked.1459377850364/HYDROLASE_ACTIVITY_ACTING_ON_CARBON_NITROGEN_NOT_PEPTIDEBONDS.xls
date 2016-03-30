@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ARG1	ARG1	arginase, liver	49	6.735069274902344	0.15712398	Yes	
+row_1	PGLYRP2	PGLYRP2	peptidoglycan recognition protein 2	65	6.243388652801514	0.30523744	Yes	
+row_2	DPYS	DPYS	dihydropyrimidinase	306	2.9509449005126953	0.35641024	Yes	
+row_3	FAAH	FAAH	fatty acid amide hydrolase	369	2.7898924350738525	0.4181242	Yes	
+row_4	DCTD	DCTD	dCMP deaminase	598	1.997674822807312	0.44746748	Yes	
+row_5	PADI4	PADI4	peptidyl arginine deiminase, type IV	714	1.6872392892837524	0.4785231	Yes	
+row_6	PADI3	PADI3	peptidyl arginine deiminase, type III	744	1.6399540901184082	0.5154018	Yes	
+row_7	GLS2	GLS2	glutaminase 2 (liver, mitochondrial)	772	1.5986617803573608	0.5514546	Yes	
+row_8	CDA	CDA	cytidine deaminase	925	1.3636173009872437	0.5717782	Yes	
+row_9	UPB1	UPB1	ureidopropionase, beta	986	1.2911978960037231	0.5978088	Yes	
+row_10	DPYSL3	DPYSL3	dihydropyrimidinase-like 3	1126	1.157064437866211	0.6142433	Yes	
+row_11	CRMP1	CRMP1	collapsin response mediator protein 1	1246	1.066208839416504	0.630122	Yes	
+row_12	GCH1	GCH1	GTP cyclohydrolase 1 (dopa-responsive dystonia)	1981	0.6973409056663513	0.5874492	No	
+row_13	HDAC11	HDAC11	histone deacetylase 11	2115	0.6513972878456116	0.59227455	No	
+row_14	DPYSL2	DPYSL2	dihydropyrimidinase-like 2	2704	0.50971919298172	0.5569199	No	
+row_15	APOBEC2	APOBEC2	apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like 2	3643	0.34014666080474854	0.48920834	No	
+row_16	AMPD1	AMPD1	adenosine monophosphate deaminase 1 (isoform M)	4163	0.26941463351249695	0.45368555	No	
+row_17	PDF	PDF	peptide deformylase (mitochondrial)	4260	0.25577545166015625	0.45204046	No	
+row_18	HDAC2	HDAC2	histone deacetylase 2	4312	0.24788296222686768	0.45384532	No	
+row_19	HDAC6	HDAC6	histone deacetylase 6	4738	0.19588227570056915	0.4241647	No	
+row_20	MTHFD2	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase	4774	0.19171938300132751	0.42592004	No	
+row_21	ADA	ADA	adenosine deaminase	5100	0.15243569016456604	0.4032863	No	
+row_22	SIRT2	SIRT2	sirtuin (silent mating type information regulation 2 homolog) 2 (S. cerevisiae)	5320	0.13007207214832306	0.3886889	No	
+row_23	AGA	AGA	aspartylglucosaminidase	6462	0.008555563166737556	0.29663187	No	
+row_24	HDAC3	HDAC3	histone deacetylase 3	6624	-0.010745559819042683	0.28387037	No	
+row_25	ASPA	ASPA	aspartoacylase (Canavan disease)	6659	-0.014643818140029907	0.28147134	No	
+row_26	HDAC5	HDAC5	histone deacetylase 5	7119	-0.04258492588996887	0.24537498	No	
+row_27	NIT1	NIT1	nitrilase 1	7142	-0.04485659673810005	0.2446689	No	
+row_28	MTHFD1	MTHFD1	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1, methenyltetrahydrofolate cyclohydrolase, formyltetrahydrofolate synthetase	7276	-0.061935413628816605	0.23539582	No	
+row_29	HDAC10	HDAC10	histone deacetylase 10	7583	-0.09643768519163132	0.2129591	No	
+row_30	ADARB2	ADARB2	adenosine deaminase, RNA-specific, B2 (RED2 homolog rat)	7687	-0.10898368060588837	0.20723711	No	
+row_31	ATIC	ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase	7933	-0.1379031389951706	0.19072461	No	
+row_32	APOBEC1	APOBEC1	apolipoprotein B mRNA editing enzyme, catalytic polypeptide 1	8029	-0.1501246690750122	0.1866335	No	
+row_33	HDAC1	HDAC1	histone deacetylase 1	8510	-0.2155747264623642	0.15297654	No	
+row_34	ASRGL1	ASRGL1	asparaginase like 1	8647	-0.23501166701316833	0.14760043	No	
+row_35	ACR	ACR	acrosin	8924	-0.27898019552230835	0.13195549	No	
+row_36	DARS	DARS	aspartyl-tRNA synthetase	9160	-0.31546565890312195	0.120498456	No	
+row_37	ACY1	ACY1	aminoacylase 1	9418	-0.36177757382392883	0.10837017	No	
+row_38	GDA	GDA	guanine deaminase	9501	-0.3757230043411255	0.110725984	No	
+row_39	HDAC8	HDAC8	histone deacetylase 8	9837	-0.43053004145622253	0.093934976	No	
+row_40	ADAT1	ADAT1	adenosine deaminase, tRNA-specific 1	10124	-0.4994870126247406	0.08275541	No	
+row_41	AMPD3	AMPD3	adenosine monophosphate deaminase (isoform E)	11356	-1.0474247932434082	0.008268117	No	
+row_42	ARG2	ARG2	arginase, type II	12179	-3.210905075073242	0.018597791	No	

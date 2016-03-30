@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	1561	0.8808701634407043	-0.046072353	No	
+row_1	NDUFA13	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	3064	0.4385458528995514	-0.12749821	No	
+row_2	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3549	0.3540751039981842	-0.13444155	No	
+row_3	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	-0.18223749	No	
+row_4	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	4572	0.21665716171264648	-0.1757415	No	
+row_5	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	-0.2754005	No	
+row_6	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.2778627	No	
+row_7	MOAP1	MOAP1	modulator of apoptosis 1	6602	-0.0077617415226995945	-0.32710633	No	
+row_8	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	6613	-0.008939740248024464	-0.3271025	No	
+row_9	TPD52L1	TPD52L1	tumor protein D52-like 1	7187	-0.050458069890737534	-0.36876225	No	
+row_10	ACIN1	ACIN1	apoptotic chromatin condensation inducer 1	8587	-0.22766976058483124	-0.46100125	No	
+row_11	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.46530086	No	
+row_12	DEDD2	DEDD2	death effector domain containing 2	11095	-0.8624387979507446	-0.55911916	Yes	
+row_13	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11193	-0.917675793170929	-0.48372242	Yes	
+row_14	CECR2	CECR2	cat eye syndrome chromosome region, candidate 2	11451	-1.141296148300171	-0.40095612	Yes	
+row_15	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	11488	-1.1809436082839966	-0.29676157	Yes	
+row_16	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	12284	-4.0908403396606445	0.010086345	Yes	

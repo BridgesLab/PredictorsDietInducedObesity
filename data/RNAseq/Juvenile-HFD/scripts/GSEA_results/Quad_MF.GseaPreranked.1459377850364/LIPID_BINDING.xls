@@ -1,0 +1,70 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GC	GC	group-specific component (vitamin D binding protein)	33	7.502084255218506	0.07867223	Yes	
+row_1	ALB	ALB	albumin	35	7.460006237030029	0.15948118	Yes	
+row_2	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.23816192	Yes	
+row_3	APOA4	APOA4	apolipoprotein A-IV	39	7.204412937164307	0.31619942	Yes	
+row_4	APOA5	APOA5	apolipoprotein A-V	84	5.786080360412598	0.37537342	Yes	
+row_5	SYT1	SYT1	synaptotagmin I	120	4.919825553894043	0.42588377	Yes	
+row_6	APOC2	APOC2	apolipoprotein C-II	195	3.911592960357666	0.4623015	Yes	
+row_7	RASAL1	RASAL1	RAS protein activator like 1 (GAP1 like)	201	3.897062301635742	0.5041528	Yes	
+row_8	FABP2	FABP2	fatty acid binding protein 2, intestinal	260	3.524224042892456	0.5376667	Yes	
+row_9	APOF	APOF	apolipoprotein F	278	3.230227470397949	0.57131505	Yes	
+row_10	SHBG	SHBG	sex hormone-binding globulin	279	3.189823627471924	0.6059028	Yes	
+row_11	FABP7	FABP7	fatty acid binding protein 7, brain	333	2.870145082473755	0.63272953	Yes	
+row_12	THY1	THY1	Thy-1 cell surface antigen	676	1.7567434310913086	0.6240657	No	
+row_13	RASGRP4	RASGRP4	RAS guanyl releasing protein 4	1747	0.7832511067390442	0.54585576	No	
+row_14	PLEKHA2	PLEKHA2	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 2	1863	0.7379699945449829	0.54453915	No	
+row_15	SCIN	SCIN	scinderin	1887	0.7278644442558289	0.55056775	No	
+row_16	PLEKHA3	PLEKHA3	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 3	2388	0.5806281566619873	0.51634824	No	
+row_17	PREX1	PREX1	-	2421	0.5707117915153503	0.5199436	No	
+row_18	PLA2G7	PLA2G7	phospholipase A2, group VII (platelet-activating factor acetylhydrolase, plasma)	2493	0.5557370781898499	0.52021635	No	
+row_19	GLTP	GLTP	glycolipid transfer protein	2554	0.543621301651001	0.52124906	No	
+row_20	AKR1D1	AKR1D1	aldo-keto reductase family 1, member D1 (delta 4-3-ketosteroid-5-beta-reductase)	2819	0.486787348985672	0.5051353	No	
+row_21	ACOT7	ACOT7	acyl-CoA thioesterase 7	2985	0.4516279101371765	0.4966623	No	
+row_22	FABP5	FABP5	fatty acid binding protein 5 (psoriasis-associated)	3098	0.4326518774032593	0.49227816	No	
+row_23	PIGK	PIGK	phosphatidylinositol glycan anchor biosynthesis, class K	3463	0.3686414659023285	0.46678022	No	
+row_24	NDUFAB1	NDUFAB1	NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1, 8kDa	3826	0.3122978210449219	0.4408334	No	
+row_25	MAL	MAL	mal, T-cell differentiation protein	3981	0.2925775349140167	0.4315271	No	
+row_26	PEBP1	PEBP1	phosphatidylethanolamine binding protein 1	4339	0.24487198889255524	0.40525433	No	
+row_27	SDPR	SDPR	serum deprivation response (phosphatidylserine binding protein)	4379	0.23986876010894775	0.40469506	No	
+row_28	RAB35	RAB35	RAB35, member RAS oncogene family	4637	0.2105979323387146	0.38615373	No	
+row_29	CAV1	CAV1	caveolin 1, caveolae protein, 22kDa	4900	0.1757158637046814	0.366829	No	
+row_30	PAFAH2	PAFAH2	platelet-activating factor acetylhydrolase 2, 40kDa	4931	0.17287498712539673	0.36627257	No	
+row_31	GPAA1	GPAA1	glycosylphosphatidylinositol anchor attachment protein 1 homolog (yeast)	5378	0.12337972223758698	0.3314707	No	
+row_32	HDLBP	HDLBP	high density lipoprotein binding protein (vigilin)	5400	0.1206333115696907	0.3310771	No	
+row_33	PGRMC2	PGRMC2	progesterone receptor membrane component 2	5662	0.0924365445971489	0.3109304	No	
+row_34	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	0.29368374	No	
+row_35	PSAP	PSAP	prosaposin (variant Gaucher disease and variant metachromatic leukodystrophy)	5913	0.06552372872829437	0.29220638	No	
+row_36	ZFYVE16	ZFYVE16	zinc finger, FYVE domain containing 16	6155	0.041680239140987396	0.27312994	No	
+row_37	GRK5	GRK5	G protein-coupled receptor kinase 5	6535	8.93212272785604E-4	0.24242897	No	
+row_38	ADH5	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide	6614	-0.009561387822031975	0.23621225	No	
+row_39	SYP	SYP	synaptophysin	7293	-0.06427069008350372	0.18197034	No	
+row_40	STARD3	STARD3	START domain containing 3	7306	-0.06583555042743683	0.18171184	No	
+row_41	OSBP	OSBP	oxysterol binding protein	7643	-0.10324206948280334	0.15560499	No	
+row_42	PRKCI	PRKCI	protein kinase C, iota	7822	-0.12401329725980759	0.14252621	No	
+row_43	PTAFR	PTAFR	platelet-activating factor receptor	7980	-0.14346154034137726	0.13135996	No	
+row_44	SCP2	SCP2	sterol carrier protein 2	8178	-0.16904085874557495	0.11722985	No	
+row_45	NPC2	NPC2	Niemann-Pick disease, type C2	8256	-0.18007372319698334	0.11294305	No	
+row_46	ALDH1A1	ALDH1A1	aldehyde dehydrogenase 1 family, member A1	8324	-0.19213338196277618	0.109597325	No	
+row_47	TSPO	TSPO	translocator protein (18kDa)	8461	-0.20994320511817932	0.1008536	No	
+row_48	ESR2	ESR2	estrogen receptor 2 (ER beta)	8592	-0.22847558557987213	0.092797	No	
+row_49	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	9259	-0.3325081765651703	0.042435985	No	
+row_50	APOE	APOE	apolipoprotein E	9500	-0.37571972608566284	0.0270626	No	
+row_51	WDFY1	WDFY1	WD repeat and FYVE domain containing 1	9529	-0.3797253966331482	0.02891116	No	
+row_52	SYTL4	SYTL4	synaptotagmin-like 4 (granuphilin-a)	9662	-0.3997806906700134	0.022549989	No	
+row_53	EEA1	EEA1	early endosome antigen 1, 162kD	9681	-0.4032459557056427	0.025463894	No	
+row_54	CPNE3	CPNE3	copine III	9829	-0.42939284443855286	0.018208351	No	
+row_55	PGRMC1	PGRMC1	progesterone receptor membrane component 1	10170	-0.5107219219207764	-0.0038042543	No	
+row_56	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	10634	-0.6470943689346313	-0.03430493	No	
+row_57	PCLO	PCLO	piccolo (presynaptic cytomatrix protein)	10727	-0.683716356754303	-0.034346115	No	
+row_58	RASGRP1	RASGRP1	RAS guanyl releasing protein 1 (calcium and DAG-regulated)	10772	-0.699964165687561	-0.030321648	No	
+row_59	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	10815	-0.7193978428840637	-0.025924398	No	
+row_60	MCTP1	MCTP1	multiple C2 domains, transmembrane 1	11259	-0.9647066593170166	-0.051360544	No	
+row_61	ANXA9	ANXA9	annexin A9	11297	-0.9944881200790405	-0.043575294	No	
+row_62	PLEKHA1	PLEKHA1	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 1	11350	-1.0426887273788452	-0.036482856	No	
+row_63	FABP4	FABP4	fatty acid binding protein 4, adipocyte	11372	-1.0570658445358276	-0.026722576	No	
+row_64	CPNE1	CPNE1	copine I	11468	-1.1595220565795898	-0.02184762	No	
+row_65	PICALM	PICALM	phosphatidylinositol binding clathrin assembly protein	11531	-1.228200078010559	-0.013553964	No	
+row_66	MCTP2	MCTP2	multiple C2 domains, transmembrane 2	11674	-1.4628182649612427	-0.009198763	No	
+row_67	ZFYVE1	ZFYVE1	zinc finger, FYVE domain containing 1	11793	-1.7644765377044678	3.721004E-4	No	
+row_68	DOC2B	DOC2B	double C2-like domains, beta	12330	-4.561575889587402	0.0064014997	No	

@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BRCA1	BRCA1	breast cancer 1, early onset	1088	1.1928967237472534	0.011486241	No	
+row_1	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	2305	0.6040893793106079	-0.03636321	No	
+row_2	CHEK1	CHEK1	CHK1 checkpoint homolog (S. pombe)	4698	0.20119743049144745	-0.2126453	No	
+row_3	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	6154	0.04170607775449753	-0.32658857	No	
+row_4	MAPK8	MAPK8	mitogen-activated protein kinase 8	7845	-0.12662644684314728	-0.45242774	No	
+row_5	MRE11A	MRE11A	MRE11 meiotic recombination 11 homolog A (S. cerevisiae)	7961	-0.14116407930850983	-0.44995883	No	
+row_6	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	8262	-0.18077558279037476	-0.45912206	No	
+row_7	NBN	NBN	nibrin	8462	-0.21014660596847534	-0.4576903	No	
+row_8	RBBP8	RBBP8	retinoblastoma binding protein 8	8490	-0.2127712517976761	-0.44216016	No	
+row_9	CHEK2	CHEK2	CHK2 checkpoint homolog (S. pombe)	8889	-0.2723478376865387	-0.45161015	No	
+row_10	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	9379	-0.35393786430358887	-0.46161282	No	
+row_11	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	9544	-0.3812197744846344	-0.44311824	No	
+row_12	JUN	JUN	jun oncogene	10432	-0.585570752620697	-0.4659596	Yes	
+row_13	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	10581	-0.62895268201828	-0.42555505	Yes	
+row_14	RAD50	RAD50	RAD50 homolog (S. cerevisiae)	10855	-0.7383286356925964	-0.3861343	Yes	
+row_15	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	11812	-1.8128968477249146	-0.3123934	Yes	
+row_16	GADD45A	GADD45A	growth arrest and DNA-damage-inducible, alpha	11862	-1.9692660570144653	-0.1524455	Yes	
+row_17	RAD51	RAD51	RAD51 homolog (RecA homolog, E. coli) (S. cerevisiae)	12077	-2.3610005378723145	0.026791422	Yes	

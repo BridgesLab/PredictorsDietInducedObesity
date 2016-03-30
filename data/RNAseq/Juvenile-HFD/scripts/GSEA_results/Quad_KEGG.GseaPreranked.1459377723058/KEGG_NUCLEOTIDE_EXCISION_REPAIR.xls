@@ -1,0 +1,44 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	POLE2	POLE2	polymerase (DNA directed), epsilon 2 (p59 subunit)	1057	1.2290066480636597	-5.433742E-4	No	
+row_1	POLE4	POLE4	polymerase (DNA-directed), epsilon 4 (p12 subunit)	2761	0.49978238344192505	-0.10371292	No	
+row_2	GTF2H4	GTF2H4	general transcription factor IIH, polypeptide 4, 52kDa	3522	0.35847803950309753	-0.14039546	No	
+row_3	GTF2H3	GTF2H3	general transcription factor IIH, polypeptide 3, 34kDa	3688	0.3332781195640564	-0.13070746	No	
+row_4	POLD1	POLD1	polymerase (DNA directed), delta 1, catalytic subunit 125kDa	4395	0.23800483345985413	-0.17134841	No	
+row_5	RAD23A	RAD23A	RAD23 homolog A (S. cerevisiae)	4456	0.23098866641521454	-0.1602384	No	
+row_6	RBX1	RBX1	ring-box 1	4606	0.2136806696653366	-0.15752098	No	
+row_7	ERCC8	ERCC8	excision repair cross-complementing rodent repair deficiency, complementation group 8	4783	0.19077853858470917	-0.15856934	No	
+row_8	ERCC1	ERCC1	excision repair cross-complementing rodent repair deficiency, complementation group 1 (includes overlapping antisense sequence)	5151	0.14777331054210663	-0.17803375	No	
+row_9	ERCC2	ERCC2	excision repair cross-complementing rodent repair deficiency, complementation group 2 (xeroderma pigmentosum D)	5340	0.12761440873146057	-0.18441717	No	
+row_10	CETN2	CETN2	centrin, EF-hand protein, 2	5379	0.12335269898176193	-0.17896603	No	
+row_11	CCNH	CCNH	cyclin H	5593	0.09908102452754974	-0.18934265	No	
+row_12	RFC2	RFC2	replication factor C (activator 1) 2, 40kDa	5726	0.08576690405607224	-0.1940896	No	
+row_13	POLE3	POLE3	polymerase (DNA directed), epsilon 3 (p17 subunit)	5874	0.06925217062234879	-0.20119067	No	
+row_14	RFC3	RFC3	replication factor C (activator 1) 3, 38kDa	5967	0.059749651700258255	-0.20450103	No	
+row_15	GTF2H5	GTF2H5	general transcription factor IIH, polypeptide 5	6016	0.05541964992880821	-0.20455275	No	
+row_16	MNAT1	MNAT1	menage a trois homolog 1, cyclin H assembly factor (Xenopus laevis)	6163	0.0406770221889019	-0.21354753	No	
+row_17	RPA3	RPA3	replication protein A3, 14kDa	6331	0.02365138567984104	-0.22541687	No	
+row_18	ERCC3	ERCC3	excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)	6522	0.0023399440106004477	-0.24061865	No	
+row_19	RFC4	RFC4	replication factor C (activator 1) 4, 37kDa	6567	-0.0028669266030192375	-0.24397838	No	
+row_20	ERCC6	ERCC6	excision repair cross-complementing rodent repair deficiency, complementation group 6	7492	-0.08653595298528671	-0.3127136	No	
+row_21	POLD2	POLD2	polymerase (DNA directed), delta 2, regulatory subunit 50kDa	7511	-0.08868991583585739	-0.3080405	No	
+row_22	RFC5	RFC5	replication factor C (activator 1) 5, 36.5kDa	7993	-0.1455688774585724	-0.33687532	No	
+row_23	XPA	XPA	xeroderma pigmentosum, complementation group A	8350	-0.19508284330368042	-0.3521811	Yes	
+row_24	GTF2H1	GTF2H1	general transcription factor IIH, polypeptide 1, 62kDa	8438	-0.20660100877285004	-0.34493956	Yes	
+row_25	RPA1	RPA1	replication protein A1, 70kDa	8523	-0.21851257979869843	-0.3366323	Yes	
+row_26	GTF2H2	GTF2H2	general transcription factor IIH, polypeptide 2, 44kDa	8756	-0.25429779291152954	-0.33781958	Yes	
+row_27	RPA2	RPA2	replication protein A2, 32kDa	8900	-0.2742880880832672	-0.33042896	Yes	
+row_28	POLD4	POLD4	polymerase (DNA-directed), delta 4	9120	-0.31062421202659607	-0.32667282	Yes	
+row_29	LIG1	LIG1	ligase I, DNA, ATP-dependent	9134	-0.3123125731945038	-0.30614278	Yes	
+row_30	RFC1	RFC1	replication factor C (activator 1) 1, 145kDa	9201	-0.32264530658721924	-0.28918433	Yes	
+row_31	CUL4A	CUL4A	cullin 4A	9324	-0.3448147773742676	-0.27522212	Yes	
+row_32	DDB1	DDB1	damage-specific DNA binding protein 1, 127kDa	9812	-0.42678168416023254	-0.28510994	Yes	
+row_33	PCNA	PCNA	proliferating cell nuclear antigen	9821	-0.4277551770210266	-0.25619835	Yes	
+row_34	CDK7	CDK7	cyclin-dependent kinase 7 (MO15 homolog, Xenopus laevis, cdk-activating kinase)	9874	-0.44037774205207825	-0.22997239	Yes	
+row_35	RAD23B	RAD23B	RAD23 homolog B (S. cerevisiae)	9918	-0.45111462473869324	-0.20227677	Yes	
+row_36	ERCC4	ERCC4	excision repair cross-complementing rodent repair deficiency, complementation group 4	9934	-0.4562534987926483	-0.17196193	Yes	
+row_37	CUL4B	CUL4B	cullin 4B	10530	-0.6149947047233582	-0.17757688	Yes	
+row_38	ERCC5	ERCC5	me))	10672	-0.6594709753990173	-0.14340785	Yes	
+row_39	XPC	XPC	xeroderma pigmentosum, complementation group C	10737	-0.6879441142082214	-0.10104505	Yes	
+row_40	DDB2	DDB2	damage-specific DNA binding protein 2, 48kDa	11004	-0.8178924918174744	-0.06603643	Yes	
+row_41	POLD3	POLD3	polymerase (DNA-directed), delta 3, accessory subunit	11177	-0.9043258428573608	-0.017454274	Yes	
+row_42	POLE	POLE	polymerase (DNA directed), epsilon	11771	-1.6930698156356812	0.05158894	Yes	

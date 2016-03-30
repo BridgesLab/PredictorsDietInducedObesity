@@ -1,0 +1,54 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GRB7	GRB7	growth factor receptor-bound protein 7	174	4.129969596862793	0.072687246	No	
+row_1	SPRR1A	SPRR1A	small proline-rich protein 1A	669	1.77931547164917	0.07009233	No	
+row_2	BCL3	BCL3	B-cell CLL/lymphoma 3	689	1.731084942817688	0.10492386	No	
+row_3	CHN2	CHN2	chimerin (chimaerin) 2	988	1.2903766632080078	0.10791806	No	
+row_4	SH2D2A	SH2D2A	SH2 domain protein 2A	1109	1.172783374786377	0.122846484	No	
+row_5	TOB1	TOB1	transducer of ERBB2, 1	1268	1.0547586679458618	0.13222009	No	
+row_6	GRB2	GRB2	growth factor receptor-bound protein 2	1386	0.976619303226471	0.14327	No	
+row_7	ARHGAP1	ARHGAP1	Rho GTPase activating protein 1	2242	0.6203609108924866	0.08711188	No	
+row_8	LASP1	LASP1	LIM and SH3 protein 1	2834	0.48353371024131775	0.049443513	No	
+row_9	ANXA1	ANXA1	annexin A1	2851	0.48047780990600586	0.05824327	No	
+row_10	STUB1	STUB1	STIP1 homology and U-box containing protein 1	3515	0.3595241606235504	0.0121428715	No	
+row_11	ARHGAP4	ARHGAP4	Rho GTPase activating protein 4	3608	0.344874769449234	0.011943324	No	
+row_12	GRB14	GRB14	growth factor receptor-bound protein 14	3618	0.3437037765979767	0.018436015	No	
+row_13	SLA	SLA	Src-like-adaptor	3706	0.3293611407279968	0.018315163	No	
+row_14	CNTNAP1	CNTNAP1	contactin associated protein 1	4151	0.27150264382362366	-0.01191177	No	
+row_15	SH3BGR	SH3BGR	SH3 domain binding glutamic acid-rich protein	4218	0.2605454921722412	-0.011778958	No	
+row_16	GRAP	GRAP	GRB2-related adaptor protein	4301	0.24910296499729156	-0.0131813595	No	
+row_17	FKBP4	FKBP4	FK506 binding protein 4, 59kDa	4321	0.2466815710067749	-0.009536309	No	
+row_18	GRB10	GRB10	growth factor receptor-bound protein 10	4767	0.19233408570289612	-0.041507453	No	
+row_19	ARPC4	ARPC4	actin related protein 2/3 complex, subunit 4, 20kDa	5144	0.1482519656419754	-0.068820864	No	
+row_20	EVPL	EVPL	envoplakin	5407	0.12023916840553284	-0.087497264	No	
+row_21	SH3BGRL	SH3BGRL	SH3 domain binding glutamic acid-rich protein like	5602	0.09854214638471603	-0.10112655	No	
+row_22	RUSC1	RUSC1	RUN and SH3 domain containing 1	5807	0.07775659114122391	-0.116001785	No	
+row_23	GATAD2A	GATAD2A	GATA zinc finger domain containing 2A	5850	0.07179783284664154	-0.11789224	No	
+row_24	ST13	ST13	suppression of tumorigenicity 13 (colon carcinoma) (Hsp70 interacting protein)	6413	0.015364152379333973	-0.16304974	No	
+row_25	SH2D3C	SH2D3C	SH2 domain containing 3C	7055	-0.03573521226644516	-0.2141724	No	
+row_26	SNX9	SNX9	sorting nexin 9	7225	-0.05523822456598282	-0.22668833	No	
+row_27	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	7376	-0.07320655882358551	-0.23728918	No	
+row_28	SOCS2	SOCS2	suppressor of cytokine signaling 2	7456	-0.08299703150987625	-0.24193859	No	
+row_29	SHB	SHB	Src homology 2 domain containing adaptor protein B	7537	-0.09182071685791016	-0.24648355	No	
+row_30	SH3BP2	SH3BP2	SH3-domain binding protein 2	7665	-0.10547670722007751	-0.25454512	No	
+row_31	IVL	IVL	involucrin	8322	-0.1919051557779312	-0.3036006	No	
+row_32	SKAP2	SKAP2	src kinase associated phosphoprotein 2	8925	-0.2790601849555969	-0.34645504	No	
+row_33	CRKL	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	8968	-0.28646397590637207	-0.34383547	No	
+row_34	KHDRBS1	KHDRBS1	KH domain containing, RNA binding, signal transduction associated 1	9052	-0.29782402515411377	-0.3442952	No	
+row_35	ARHGAP6	ARHGAP6	Rho GTPase activating protein 6	9198	-0.3221573233604431	-0.3492611	No	
+row_36	ITSN2	ITSN2	intersectin 2	9453	-0.3680868446826935	-0.36208296	No	
+row_37	EPS8	EPS8	epidermal growth factor receptor pathway substrate 8	9517	-0.37831613421440125	-0.35923308	No	
+row_38	LAT	LAT	linker for activation of T cells	9702	-0.4076175391674042	-0.3655596	No	
+row_39	STAM	STAM	signal transducing adaptor molecule (SH3 domain and ITAM motif) 1	9792	-0.4227128028869629	-0.36388105	No	
+row_40	ABI2	ABI2	abl interactor 2	10345	-0.5550062656402588	-0.3968917	Yes	
+row_41	VAV3	VAV3	vav 3 oncogene	10369	-0.5612565875053406	-0.3869613	Yes	
+row_42	SH2B2	SH2B2	SH2B adaptor protein 2	10430	-0.5846187472343445	-0.37953436	Yes	
+row_43	BLNK	BLNK	B-cell linker	10648	-0.6508679986000061	-0.38342088	Yes	
+row_44	CNKSR1	CNKSR1	connector enhancer of kinase suppressor of Ras 1	10721	-0.681213915348053	-0.3749356	Yes	
+row_45	RAD50	RAD50	RAD50 homolog (S. cerevisiae)	10855	-0.7383286356925964	-0.37018687	Yes	
+row_46	GAB1	GAB1	GRB2-associated binding protein 1	11280	-0.9765080809593201	-0.38398352	Yes	
+row_47	CHN1	CHN1	chimerin (chimaerin) 1	11501	-1.192882776260376	-0.3767254	Yes	
+row_48	DSP	DSP	desmoplakin	11750	-1.6524137258529663	-0.36207873	Yes	
+row_49	GRAP2	GRAP2	GRB2-related adaptor protein 2	11856	-1.9482516050338745	-0.32964423	Yes	
+row_50	SKAP1	SKAP1	src kinase associated phosphoprotein 1	12343	-4.779592990875244	-0.2685576	Yes	
+row_51	SLA2	SLA2	Src-like-adaptor 2	12377	-5.620551109313965	-0.15314355	Yes	
+row_52	LOR	LOR	loricrin	12402	-7.408689975738525	5.6664686E-4	Yes	

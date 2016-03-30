@@ -1,0 +1,11 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	170	4.258022308349609	0.5071437	Yes	
+row_1	TRAF2	TRAF2	TNF receptor-associated factor 2	1448	0.9394485354423523	0.5190758	Yes	
+row_2	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	1639	0.8361364006996155	0.6060318	Yes	
+row_3	FADD	FADD	Fas (TNFRSF6)-associated via death domain	2072	0.6652167439460754	0.6525643	Yes	
+row_4	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4375	0.2405851036310196	0.49634814	No	
+row_5	BIRC3	BIRC3	baculoviral IAP repeat-containing 3	4851	0.18149222433567047	0.48024234	No	
+row_6	TRADD	TRADD	TNFRSF1A-associated via death domain	5814	0.07630527764558792	0.41199556	No	
+row_7	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	6684	-0.017080461606383324	0.34400424	No	
+row_8	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	9079	-0.30324727296829224	0.18803379	No	
+row_9	BAG4	BAG4	BCL2-associated athanogene 4	10665	-0.6575547456741333	0.14064516	No	

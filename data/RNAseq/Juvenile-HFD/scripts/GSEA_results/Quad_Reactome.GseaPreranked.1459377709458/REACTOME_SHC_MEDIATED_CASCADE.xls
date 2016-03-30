@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	622	1.9217123985290527	0.018753847	No	
+row_1	KL	KL	klotho	872	1.43252694606781	0.050069273	No	
+row_2	FGF6	FGF6	fibroblast growth factor 6	1037	1.248460292816162	0.08164148	No	
+row_3	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1154	1.130258321762085	0.11284685	No	
+row_4	GRB2	GRB2	growth factor receptor-bound protein 2	1386	0.976619303226471	0.1292501	No	
+row_5	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	1508	0.9054524302482605	0.1519818	No	
+row_6	FGF18	FGF18	fibroblast growth factor 18	1842	0.7449272274971008	0.15183087	No	
+row_7	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	2255	0.6180675625801086	0.14074631	No	
+row_8	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	3800	0.31594130396842957	0.027400633	No	
+row_9	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	4082	0.2797635495662689	0.014750947	No	
+row_10	FGFR4	FGFR4	fibroblast growth factor receptor 4	4796	0.18910253047943115	-0.03603975	No	
+row_11	FGF5	FGF5	fibroblast growth factor 5	5164	0.1464126855134964	-0.06042136	No	
+row_12	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5294	0.1323293149471283	-0.06608862	No	
+row_13	FGF2	FGF2	fibroblast growth factor 2 (basic)	5471	0.11147240549325943	-0.076300114	No	
+row_14	FGF23	FGF23	fibroblast growth factor 23	5505	0.10833296179771423	-0.07507621	No	
+row_15	FGF1	FGF1	fibroblast growth factor 1 (acidic)	5541	0.10432880371809006	-0.07415756	No	
+row_16	FGF3	FGF3	fibroblast growth factor 3 (murine mammary tumor virus integration site (v-int-2) oncogene homolog)	6848	-0.021979685872793198	-0.17883572	No	
+row_17	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7279	-0.06226309388875961	-0.21132569	No	
+row_18	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	9259	-0.3325081765651703	-0.35920545	No	
+row_19	FGF10	FGF10	fibroblast growth factor 10	9618	-0.39126142859458923	-0.37407088	No	
+row_20	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	10823	-0.7216806411743164	-0.4453947	No	
+row_21	FGFR3	FGFR3	fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)	11710	-1.5333927869796753	-0.46189997	Yes	
+row_22	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	11877	-2.0062766075134277	-0.40328583	Yes	
+row_23	FGF17	FGF17	fibroblast growth factor 17	11995	-2.2246084213256836	-0.33287716	Yes	
+row_24	KLB	KLB	klotho beta	12124	-2.7652385234832764	-0.24394971	Yes	
+row_25	FGF22	FGF22	fibroblast growth factor 22	12177	-3.2098991870880127	-0.13292278	Yes	
+row_26	FGF20	FGF20	fibroblast growth factor 20	12307	-4.222545623779297	0.008237083	Yes	

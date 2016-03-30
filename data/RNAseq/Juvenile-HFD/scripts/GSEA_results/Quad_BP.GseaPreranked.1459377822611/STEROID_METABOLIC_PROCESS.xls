@@ -1,0 +1,55 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HSD17B6	HSD17B6	hydroxysteroid (17-beta) dehydrogenase 6	47	6.824741363525391	0.104389966	Yes	
+row_1	NR1I2	NR1I2	nuclear receptor subfamily 1, group I, member 2	53	6.590681076049805	0.2084685	Yes	
+row_2	NR0B2	NR0B2	nuclear receptor subfamily 0, group B, member 2	77	5.964529991149902	0.30116376	Yes	
+row_3	APOF	APOF	apolipoprotein F	278	3.230227470397949	0.33618662	Yes	
+row_4	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	287	3.1361982822418213	0.38525784	Yes	
+row_5	CYP11B2	CYP11B2	cytochrome P450, family 11, subfamily B, polypeptide 2	390	2.753636121749878	0.42065662	Yes	
+row_6	IL4	IL4	interleukin 4	437	2.5435569286346436	0.45725715	Yes	
+row_7	NR1H4	NR1H4	nuclear receptor subfamily 1, group H, member 4	473	2.523742198944092	0.49443385	Yes	
+row_8	BAAT	BAAT	bile acid Coenzyme A: amino acid N-acyltransferase (glycine N-choloyltransferase)	483	2.461395502090454	0.53272635	Yes	
+row_9	CYP7B1	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	623	1.9135870933532715	0.5518132	Yes	
+row_10	DHCR24	DHCR24	24-dehydrocholesterol reductase	640	1.8716386556625366	0.5801897	Yes	
+row_11	ACOX2	ACOX2	acyl-Coenzyme A oxidase 2, branched chain	815	1.5215182304382324	0.5902283	Yes	
+row_12	HSD11B2	HSD11B2	hydroxysteroid (11-beta) dehydrogenase 2	926	1.3625521659851074	0.60292655	Yes	
+row_13	DHCR7	DHCR7	7-dehydrocholesterol reductase	992	1.2886103391647339	0.6180945	Yes	
+row_14	ADM	ADM	adrenomedullin	1709	0.8017891049385071	0.57285786	No	
+row_15	AKR1D1	AKR1D1	aldo-keto reductase family 1, member D1 (delta 4-3-ketosteroid-5-beta-reductase)	2819	0.486787348985672	0.490821	No	
+row_16	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	2989	0.4507313072681427	0.48428896	No	
+row_17	FDPS	FDPS	farnesyl diphosphate synthase (farnesyl pyrophosphate synthetase, dimethylallyltranstransferase, geranyltranstransferase)	3470	0.36745980381965637	0.45126686	No	
+row_18	STUB1	STUB1	STIP1 homology and U-box containing protein 1	3515	0.3595241606235504	0.45340544	No	
+row_19	AKR1B10	AKR1B10	aldo-keto reductase family 1, member B10 (aldose reductase)	3725	0.3274129629135132	0.4416811	No	
+row_20	CYP39A1	CYP39A1	cytochrome P450, family 39, subfamily A, polypeptide 1	3807	0.31508105993270874	0.4401206	No	
+row_21	FDXR	FDXR	ferredoxin reductase	3996	0.29106661677360535	0.42951965	No	
+row_22	WWOX	WWOX	WW domain containing oxidoreductase	4023	0.28697237372398376	0.43196484	No	
+row_23	CLN8	CLN8	ceroid-lipofuscinosis, neuronal 8 (epilepsy, progressive with mental retardation)	4597	0.21461397409439087	0.38899294	No	
+row_24	DHRS9	DHRS9	dehydrogenase/reductase (SDR family) member 9	5119	0.1506788730621338	0.34921592	No	
+row_25	HDLBP	HDLBP	high density lipoprotein binding protein (vigilin)	5400	0.1206333115696907	0.32846728	No	
+row_26	HSD3B7	HSD3B7	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 7	5469	0.11162122339010239	0.32473344	No	
+row_27	ACOX3	ACOX3	acyl-Coenzyme A oxidase 3, pristanoyl	5846	0.07238239794969559	0.29545036	No	
+row_28	GBA2	GBA2	glucosidase, beta (bile acid) 2	5914	0.0655127689242363	0.29106647	No	
+row_29	CYP11A1	CYP11A1	cytochrome P450, family 11, subfamily A, polypeptide 1	6020	0.054913152009248734	0.28343913	No	
+row_30	SOAT1	SOAT1	sterol O-acyltransferase (acyl-Coenzyme A: cholesterol acyltransferase) 1	6144	0.04252633824944496	0.27415863	No	
+row_31	NSDHL	NSDHL	NAD(P) dependent steroid dehydrogenase-like	6297	0.02834554947912693	0.26230627	No	
+row_32	SHH	SHH	sonic hedgehog homolog (Drosophila)	6566	-0.002734525129199028	0.24065976	No	
+row_33	PPARD	PPARD	peroxisome proliferative activated receptor, delta	6592	-0.006434424314647913	0.23873846	No	
+row_34	NR5A1	NR5A1	nuclear receptor subfamily 5, group A, member 1	6797	-0.021867459639906883	0.22257493	No	
+row_35	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.19204326	No	
+row_36	STARD3	STARD3	START domain containing 3	7306	-0.06583555042743683	0.18337508	No	
+row_37	BMP6	BMP6	bone morphogenetic protein 6	7517	-0.08981749415397644	0.16780318	No	
+row_38	CLN6	CLN6	ceroid-lipofuscinosis, neuronal 6, late infantile, variant	7599	-0.09831423312425613	0.16280626	No	
+row_39	CYP46A1	CYP46A1	cytochrome P450, family 46, subfamily A, polypeptide 1	7605	-0.09947432577610016	0.16397858	No	
+row_40	SCARB1	SCARB1	scavenger receptor class B, member 1	8102	-0.1592639684677124	0.12636097	No	
+row_41	SCP2	SCP2	sterol carrier protein 2	8178	-0.16904085874557495	0.12297088	No	
+row_42	TSPO	TSPO	translocator protein (18kDa)	8461	-0.20994320511817932	0.10347623	No	
+row_43	CYP19A1	CYP19A1	cytochrome P450, family 19, subfamily A, polypeptide 1	8699	-0.2456226944923401	0.08818916	No	
+row_44	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	0.07150866	No	
+row_45	CNBP	CNBP	CCHC-type zinc finger, nucleic acid binding protein	9598	-0.3886452615261078	0.026277887	No	
+row_46	NPC1L1	NPC1L1	NPC1 (Niemann-Pick disease, type C1, gene)-like 1	10151	-0.5039510726928711	-0.010407543	No	
+row_47	SOAT2	SOAT2	sterol O-acyltransferase 2	10668	-0.6584542393684387	-0.041730043	No	
+row_48	MBTPS2	MBTPS2	membrane-bound transcription factor peptidase, site 2	10755	-0.6955574750900269	-0.037663434	No	
+row_49	TFCP2L1	TFCP2L1	transcription factor CP2-like 1	11541	-1.2421119213104248	-0.081503905	No	
+row_50	NPC1	NPC1	Niemann-Pick disease, type C1	11834	-1.8773818016052246	-0.0753737	No	
+row_51	CEL	CEL	carboxyl ester lipase (bile salt-stimulated lipase)	11987	-2.2225353717803955	-0.052441183	No	
+row_52	DHRS2	DHRS2	dehydrogenase/reductase (SDR family) member 2	11993	-2.2245850563049316	-0.017579122	No	
+row_53	SULT2B1	SULT2B1	sulfotransferase family, cytosolic, 2B, member 1	12192	-3.227499008178711	0.017562363	No	

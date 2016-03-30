@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	622	1.9217123985290527	0.026258176	No	
+row_1	KL	KL	klotho	872	1.43252694606781	0.06315925	No	
+row_2	FGF6	FGF6	fibroblast growth factor 6	1037	1.248460292816162	0.09959733	No	
+row_3	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1154	1.130258321762085	0.13520661	No	
+row_4	FGF18	FGF18	fibroblast growth factor 18	1842	0.7449272274971008	0.10939448	No	
+row_5	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	2255	0.6180675625801086	0.10073178	No	
+row_6	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	4082	0.2797635495662689	-0.035525378	No	
+row_7	FGFR4	FGFR4	fibroblast growth factor receptor 4	4796	0.18910253047943115	-0.08555213	No	
+row_8	FGF5	FGF5	fibroblast growth factor 5	5164	0.1464126855134964	-0.1093495	No	
+row_9	FGF2	FGF2	fibroblast growth factor 2 (basic)	5471	0.11147240549325943	-0.1296134	No	
+row_10	FGF23	FGF23	fibroblast growth factor 23	5505	0.10833296179771423	-0.12796654	No	
+row_11	FGF1	FGF1	fibroblast growth factor 1 (acidic)	5541	0.10432880371809006	-0.12664042	No	
+row_12	FGF3	FGF3	fibroblast growth factor 3 (murine mammary tumor virus integration site (v-int-2) oncogene homolog)	6848	-0.021979685872793198	-0.23118196	No	
+row_13	FGF10	FGF10	fibroblast growth factor 10	9618	-0.39126142859458923	-0.4391186	No	
+row_14	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	10823	-0.7216806411743164	-0.50758624	No	
+row_15	FGFR3	FGFR3	fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)	11710	-1.5333927869796753	-0.51808834	Yes	
+row_16	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	11877	-2.0062766075134277	-0.45165858	Yes	
+row_17	FGF17	FGF17	fibroblast growth factor 17	11995	-2.2246084213256836	-0.37258634	Yes	
+row_18	KLB	KLB	klotho beta	12124	-2.7652385234832764	-0.2728906	Yes	
+row_19	FGF22	FGF22	fibroblast growth factor 22	12177	-3.2098991870880127	-0.14936754	Yes	
+row_20	FGF20	FGF20	fibroblast growth factor 20	12307	-4.222545623779297	0.008233032	Yes	

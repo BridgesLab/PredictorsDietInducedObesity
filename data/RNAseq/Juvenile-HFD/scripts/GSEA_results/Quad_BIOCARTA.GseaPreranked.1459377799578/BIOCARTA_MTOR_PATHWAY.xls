@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	EIF4E	EIF4E	eukaryotic translation initiation factor 4E	3516	0.3594916760921478	-0.24202915	No	
+row_1	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	3872	0.3060533404350281	-0.23512183	No	
+row_2	FKBP1A	FKBP1A	FK506 binding protein 1A, 12kDa	4510	0.22289913892745972	-0.2606387	No	
+row_3	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	4729	0.19699013233184814	-0.2553458	No	
+row_4	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	5812	0.07719340175390244	-0.33371186	No	
+row_5	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	-0.34492123	No	
+row_6	PDK2	PDK2	pyruvate dehydrogenase kinase, isozyme 2	6036	0.05393688380718231	-0.33905762	No	
+row_7	TSC2	TSC2	tuberous sclerosis 2	6393	0.01783629134297371	-0.36572033	No	
+row_8	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	7283	-0.06283517926931381	-0.4301764	No	
+row_9	MKNK1	MKNK1	MAP kinase interacting serine/threonine kinase 1	7789	-0.11899489909410477	-0.4571118	No	
+row_10	RPS6	RPS6	ribosomal protein S6	7879	-0.13106189668178558	-0.4490669	No	
+row_11	EIF4B	EIF4B	eukaryotic translation initiation factor 4B	9337	-0.3465439975261688	-0.5264047	Yes	
+row_12	EIF4G1	EIF4G1	eukaryotic translation initiation factor 4 gamma, 1	9403	-0.3591785430908203	-0.48991665	Yes	
+row_13	TSC1	TSC1	tuberous sclerosis 1	9410	-0.3609269857406616	-0.44846317	Yes	
+row_14	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	9976	-0.4635680913925171	-0.440204	Yes	
+row_15	EIF4G3	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3	10567	-0.6251817345619202	-0.4151841	Yes	
+row_16	EIF4A2	EIF4A2	eukaryotic translation initiation factor 4A, isoform 2	10752	-0.6936897039413452	-0.34943298	Yes	
+row_17	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	10781	-0.7058727145195007	-0.26967442	Yes	
+row_18	EIF4A1	EIF4A1	eukaryotic translation initiation factor 4A, isoform 1	10791	-0.7103970646858215	-0.18785651	Yes	
+row_19	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	-0.10998508	Yes	
+row_20	EIF4EBP1	EIF4EBP1	eukaryotic translation initiation factor 4E binding protein 1	11851	-1.937156319618225	0.045039974	Yes	

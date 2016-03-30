@@ -1,0 +1,79 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGG	FGG	fibrinogen gamma chain	6	11.209016799926758	0.15162687	Yes	
+row_1	FGB	FGB	fibrinogen beta chain	7	9.303735733032227	0.2778844	Yes	
+row_2	FGA	FGA	fibrinogen alpha chain	11	8.921409606933594	0.39871028	Yes	
+row_3	IBSP	IBSP	integrin-binding sialoprotein (bone sialoprotein, bone sialoprotein II)	440	2.5435361862182617	0.3985212	Yes	
+row_4	COL2A1	COL2A1	collagen, type II, alpha 1 (primary osteoarthritis, spondyloepiphyseal dysplasia, congenital)	573	2.1082663536071777	0.41642785	Yes	
+row_5	TNC	TNC	tenascin C (hexabrachion)	658	1.8236451148986816	0.43436432	Yes	
+row_6	ITGAE	ITGAE	integrin, alpha E (antigen CD103, human mucosal lymphocyte antigen 1; alpha polypeptide)	741	1.6419192552566528	0.44999683	Yes	
+row_7	COL1A1	COL1A1	collagen, type I, alpha 1	745	1.6398643255233765	0.47200754	Yes	
+row_8	ITGB6	ITGB6	integrin, beta 6	765	1.6112552881240845	0.49233258	Yes	
+row_9	RAPGEF4	RAPGEF4	Rap guanine nucleotide exchange factor (GEF) 4	886	1.4187315702438354	0.5018549	Yes	
+row_10	CDH1	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	1013	1.275054693222046	0.5089409	Yes	
+row_11	VTN	VTN	vitronectin	1087	1.1930345296859741	0.51921153	Yes	
+row_12	COL1A2	COL1A2	collagen, type I, alpha 2	1096	1.1845953464508057	0.5346385	Yes	
+row_13	ITGAX	ITGAX	integrin, alpha X (complement component 3 receptor 4 subunit)	1131	1.1528053283691406	0.54752576	Yes	
+row_14	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	1174	1.114362120628357	0.55924255	Yes	
+row_15	GRB2	GRB2	growth factor receptor-bound protein 2	1386	0.976619303226471	0.55538595	Yes	
+row_16	FN1	FN1	fibronectin 1	1484	0.9210814237594604	0.5600199	Yes	
+row_17	ICAM4	ICAM4	intercellular adhesion molecule 4 (Landsteiner-Wiener blood group)	1592	0.8675462007522583	0.56311643	Yes	
+row_18	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	1700	0.8040585517883301	0.56535137	Yes	
+row_19	RASGRP2	RASGRP2	RAS guanyl releasing protein 2 (calcium and DAG-regulated)	1703	0.8035983443260193	0.57609457	Yes	
+row_20	COL4A2	COL4A2	collagen, type IV, alpha 2	1773	0.7721883058547974	0.5809784	Yes	
+row_21	COL4A5	COL4A5	collagen, type IV, alpha 5 (Alport syndrome)	1997	0.6920703649520874	0.5722872	Yes	
+row_22	COL4A1	COL4A1	collagen, type IV, alpha 1	2022	0.683386504650116	0.57961506	Yes	
+row_23	ITGA9	ITGA9	integrin, alpha 9	2056	0.6715654134750366	0.58605266	Yes	
+row_24	ICAM2	ICAM2	intercellular adhesion molecule 2	2101	0.6553279757499695	0.5913779	Yes	
+row_25	CSK	CSK	c-src tyrosine kinase	2285	0.6091603636741638	0.58480513	Yes	
+row_26	FBN1	FBN1	fibrillin 1	2286	0.6089253425598145	0.59306866	Yes	
+row_27	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	2455	0.5633600950241089	0.58709073	No	
+row_28	ITGB7	ITGB7	integrin, beta 7	2977	0.4527781307697296	0.55098736	No	
+row_29	CRK	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	3030	0.444054514169693	0.5527968	No	
+row_30	LAMB2	LAMB2	laminin, beta 2 (laminin S)	3128	0.42673444747924805	0.5507221	No	
+row_31	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	3203	0.41119229793548584	0.5503016	No	
+row_32	LAMB1	LAMB1	laminin, beta 1	3242	0.4041447639465332	0.5527047	No	
+row_33	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	3271	0.39863404631614685	0.5558439	No	
+row_34	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	3311	0.39220383763313293	0.55800384	No	
+row_35	JAM3	JAM3	junctional adhesion molecule 3	3316	0.391357421875	0.5629905	No	
+row_36	JAM2	JAM2	junctional adhesion molecule 2	3453	0.3705211877822876	0.55699044	No	
+row_37	VCAM1	VCAM1	vascular cell adhesion molecule 1	3598	0.346493661403656	0.5500156	No	
+row_38	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	3872	0.3060533404350281	0.5320315	No	
+row_39	SYK	SYK	spleen tyrosine kinase	3928	0.3001922369003296	0.5316453	No	
+row_40	ITGB2	ITGB2	integrin, beta 2 (complement component 3 receptor 3 and 4 subunit)	3994	0.29138174653053284	0.5303287	No	
+row_41	ITGA2	ITGA2	integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)	4117	0.275451123714447	0.5241738	No	
+row_42	TLN1	TLN1	talin 1	4236	0.2580849528312683	0.5181076	No	
+row_43	ITGA11	ITGA11	integrin, alpha 11	4420	0.23464970290660858	0.50645244	No	
+row_44	ITGB8	ITGB8	integrin, beta 8	4494	0.2251265048980713	0.503588	No	
+row_45	ITGA5	ITGA5	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)	4614	0.2122730165719986	0.49681902	No	
+row_46	ITGA8	ITGA8	integrin, alpha 8	4715	0.1991199254989624	0.4914122	No	
+row_47	F11R	F11R	F11 receptor	4743	0.19522574543952942	0.4918721	No	
+row_48	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	0.48351592	No	
+row_49	ITGB4	ITGB4	integrin, beta 4	4882	0.1780533641576767	0.48560786	No	
+row_50	BSG	BSG	basigin (Ok blood group)	5273	0.13425981998443604	0.45580482	No	
+row_51	ICAM1	ICAM1	intercellular adhesion molecule 1 (CD54), human rhinovirus receptor	5298	0.13205581903457642	0.45565075	No	
+row_52	PTK2	PTK2	PTK2 protein tyrosine kinase 2	5456	0.11416096985340118	0.44446886	No	
+row_53	ITGA1	ITGA1	integrin, alpha 1	5577	0.10081446915864944	0.4361062	No	
+row_54	LAMA5	LAMA5	laminin, alpha 5	5995	0.05720306932926178	0.403068	No	
+row_55	PECAM1	PECAM1	platelet/endothelial cell adhesion molecule (CD31 antigen)	6086	0.049050312489271164	0.39643556	No	
+row_56	THBS1	THBS1	thrombospondin 1	6302	0.02789388783276081	0.37937978	No	
+row_57	RAP1A	RAP1A	RAP1A, member of RAS oncogene family	6382	0.01863260194659233	0.37322655	No	
+row_58	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6533	0.0010246370220556855	0.36107698	No	
+row_59	ITGAM	ITGAM	integrin, alpha M (complement component 3 receptor 3 subunit)	6581	-0.004548060707747936	0.35732746	No	
+row_60	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7279	-0.06226309388875961	0.3016528	No	
+row_61	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	7376	-0.07320655882358551	0.29486164	No	
+row_62	LAMA2	LAMA2	laminin, alpha 2 (merosin, congenital muscular dystrophy)	7637	-0.10251245647668839	0.27516943	No	
+row_63	ITGA2B	ITGA2B	integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41)	7855	-0.12858279049396515	0.25931787	No	
+row_64	AMICA1	AMICA1	adhesion molecule, interacts with CXADR antigen 1	8802	-0.25911131501197815	0.18612319	No	
+row_65	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	8834	-0.2638205885887146	0.18718961	No	
+row_66	PTPN1	PTPN1	protein tyrosine phosphatase, non-receptor type 1	9187	-0.3199893832206726	0.16298844	No	
+row_67	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	9259	-0.3325081765651703	0.1617434	No	
+row_68	RAPGEF3	RAPGEF3	Rap guanine nucleotide exchange factor (GEF) 3	9269	-0.3338598310947418	0.16554429	No	
+row_69	ITGB5	ITGB5	integrin, beta 5	9404	-0.35940828919410706	0.15955564	No	
+row_70	COL4A4	COL4A4	collagen, type IV, alpha 4	9492	-0.3744264245033264	0.15758203	No	
+row_71	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	9559	-0.383502334356308	0.15743446	No	
+row_72	APBB1IP	APBB1IP	amyloid beta (A4) precursor protein-binding, family B, member 1 interacting protein	9611	-0.39057448506355286	0.15859923	No	
+row_73	ITGA10	ITGA10	integrin, alpha 10	9960	-0.4606457054615021	0.1366312	No	
+row_74	RASGRP1	RASGRP1	RAS guanyl releasing protein 1 (calcium and DAG-regulated)	10772	-0.699964165687561	0.0803663	No	
+row_75	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	10781	-0.7058727145195007	0.08929671	No	
+row_76	LAMA1	LAMA1	laminin, alpha 1	11466	-1.1582096815109253	0.04954889	No	
+row_77	ITGAL	ITGAL	integrin, alpha L (antigen CD11A (p180), lymphocyte function-associated antigen 1; alpha polypeptide)	11867	-1.977622628211975	0.04395053	No	

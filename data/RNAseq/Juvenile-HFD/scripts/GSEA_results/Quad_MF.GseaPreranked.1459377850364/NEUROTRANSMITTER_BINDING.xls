@@ -1,0 +1,45 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HCRTR2	HCRTR2	hypocretin (orexin) receptor 2	186	4.101891040802002	0.043106835	No	
+row_1	GALR2	GALR2	galanin receptor 2	299	3.0179684162139893	0.07683222	No	
+row_2	SSTR3	SSTR3	somatostatin receptor 3	332	2.8712575435638428	0.1149472	No	
+row_3	NPY6R	NPY6R	neuropeptide Y receptor Y6 (pseudogene)	402	2.753506898880005	0.14840087	No	
+row_4	CHRM3	CHRM3	cholinergic receptor, muscarinic 3	407	2.7229113578796387	0.18667717	No	
+row_5	CHRNB4	CHRNB4	cholinergic receptor, nicotinic, beta 4	509	2.332050323486328	0.21156858	No	
+row_6	MCHR1	MCHR1	melanin-concentrating hormone receptor 1	551	2.20015287399292	0.23944223	No	
+row_7	SSTR4	SSTR4	somatostatin receptor 4	585	2.0642223358154297	0.26603588	No	
+row_8	GABRG2	GABRG2	gamma-aminobutyric acid (GABA) A receptor, gamma 2	1133	1.1517142057418823	0.23812829	No	
+row_9	CHRM1	CHRM1	cholinergic receptor, muscarinic 1	1158	1.1237152814865112	0.2521172	No	
+row_10	TACR1	TACR1	tachykinin receptor 1	1254	1.0614471435546875	0.25948182	No	
+row_11	CHRNA4	CHRNA4	cholinergic receptor, nicotinic, alpha 4	2076	0.663309633731842	0.20249313	No	
+row_12	GABRA4	GABRA4	gamma-aminobutyric acid (GABA) A receptor, alpha 4	3089	0.43388333916664124	0.12680653	No	
+row_13	GABRA2	GABRA2	gamma-aminobutyric acid (GABA) A receptor, alpha 2	3208	0.4097168743610382	0.12307235	No	
+row_14	MRGPRX2	MRGPRX2	MAS-related GPR, member X2	3353	0.38553035259246826	0.11689276	No	
+row_15	CHRNE	CHRNE	cholinergic receptor, nicotinic, epsilon	3526	0.35787469148635864	0.10805686	No	
+row_16	GABRA3	GABRA3	gamma-aminobutyric acid (GABA) A receptor, alpha 3	4250	0.25676268339157104	0.053229943	No	
+row_17	CHRNB1	CHRNB1	cholinergic receptor, nicotinic, beta 1 (muscle)	4616	0.21175633370876312	0.026715368	No	
+row_18	CHRM4	CHRM4	cholinergic receptor, muscarinic 4	5423	0.11822198331356049	-0.036787443	No	
+row_19	CHRNA1	CHRNA1	cholinergic receptor, nicotinic, alpha 1 (muscle)	6354	0.022128665819764137	-0.11167996	No	
+row_20	BRS3	BRS3	bombesin-like receptor 3	6766	-0.02183779515326023	-0.14460668	No	
+row_21	KISS1R	KISS1R	KISS1 receptor	7388	-0.07455418258905411	-0.19376814	No	
+row_22	NMBR	NMBR	neuromedin B receptor	7673	-0.10696203261613846	-0.21521805	No	
+row_23	CCKAR	CCKAR	cholecystokinin A receptor	8326	-0.19222232699394226	-0.26521835	No	
+row_24	TSPO	TSPO	translocator protein (18kDa)	8461	-0.20994320511817932	-0.27307838	No	
+row_25	CHRNA7	CHRNA7	cholinergic receptor, nicotinic, alpha 7	9939	-0.4577030837535858	-0.3860304	No	
+row_26	ADRB2	ADRB2	adrenergic, beta-2-, receptor, surface	10023	-0.4732888638973236	-0.38603306	No	
+row_27	TACR2	TACR2	tachykinin receptor 2	11125	-0.8775700926780701	-0.46262714	Yes	
+row_28	CHRNB2	CHRNB2	cholinergic receptor, nicotinic, beta 2 (neuronal)	11133	-0.8813310265541077	-0.45069954	Yes	
+row_29	ANXA9	ANXA9	annexin A9	11297	-0.9944881200790405	-0.44978306	Yes	
+row_30	DRD1	DRD1	dopamine receptor D1	11400	-1.0895979404449463	-0.4425854	Yes	
+row_31	ADRB3	ADRB3	adrenergic, beta-3-, receptor	11830	-1.8656692504882812	-0.45082974	Yes	
+row_32	CHRNA5	CHRNA5	cholinergic receptor, nicotinic, alpha 5	11889	-2.068436622619629	-0.42619804	Yes	
+row_33	CCKBR	CCKBR	cholecystokinin B receptor	11928	-2.137608051300049	-0.3989684	Yes	
+row_34	CHRM5	CHRM5	cholinergic receptor, muscarinic 5	11935	-2.137701988220215	-0.3691497	Yes	
+row_35	CHRNA3	CHRNA3	cholinergic receptor, nicotinic, alpha 3	12011	-2.2247564792633057	-0.34367678	Yes	
+row_36	DRD4	DRD4	dopamine receptor D4	12022	-2.252922534942627	-0.3125482	Yes	
+row_37	CHRNA2	CHRNA2	cholinergic receptor, nicotinic, alpha 2 (neuronal)	12082	-2.3725993633270264	-0.28368556	Yes	
+row_38	NMUR1	NMUR1	neuromedin U receptor 1	12166	-3.1707561016082764	-0.24544913	Yes	
+row_39	SSTR2	SSTR2	somatostatin receptor 2	12175	-3.2036166191101074	-0.20068184	Yes	
+row_40	CHRM2	CHRM2	cholinergic receptor, muscarinic 2	12204	-3.2485671043395996	-0.15689468	Yes	
+row_41	TACR3	TACR3	tachykinin receptor 3	12247	-3.690737009048462	-0.107971504	Yes	
+row_42	MC2R	MC2R	melanocortin 2 receptor (adrenocorticotropic hormone)	12254	-3.751277208328247	-0.055278905	Yes	
+row_43	GALR1	GALR1	galanin receptor 1	12341	-4.778003692626953	0.005499139	Yes	

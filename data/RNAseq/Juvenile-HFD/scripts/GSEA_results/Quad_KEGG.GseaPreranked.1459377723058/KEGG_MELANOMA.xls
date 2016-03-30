@@ -1,0 +1,70 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGF14	FGF14	fibroblast growth factor 14	276	3.3133749961853027	0.03890192	No	
+row_1	CCND1	CCND1	cyclin D1	378	2.755013942718506	0.081659764	No	
+row_2	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	622	1.9217123985290527	0.097502984	No	
+row_3	E2F1	E2F1	E2F transcription factor 1	726	1.6600655317306519	0.119852476	No	
+row_4	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	818	1.5137478113174438	0.14046884	No	
+row_5	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	958	1.330525517463684	0.15380782	No	
+row_6	CDH1	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	1013	1.275054693222046	0.17300874	No	
+row_7	FGF6	FGF6	fibroblast growth factor 6	1037	1.248460292816162	0.19422984	No	
+row_8	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1154	1.130258321762085	0.20572947	No	
+row_9	FGF11	FGF11	fibroblast growth factor 11	1434	0.949445366859436	0.20067775	No	
+row_10	E2F2	E2F2	E2F transcription factor 2	1439	0.946490466594696	0.21785484	No	
+row_11	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	1508	0.9054524302482605	0.22908713	No	
+row_12	FGF18	FGF18	fibroblast growth factor 18	1842	0.7449272274971008	0.21587808	No	
+row_13	PDGFB	PDGFB	platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)	1858	0.7390260696411133	0.22832768	No	
+row_14	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	1975	0.6982057094573975	0.23183839	No	
+row_15	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	2255	0.6180675625801086	0.22065927	No	
+row_16	PDGFD	PDGFD	platelet derived growth factor D	2338	0.5952792763710022	0.22502185	No	
+row_17	BAD	BAD	BCL2-antagonist of cell death	2828	0.48515546321868896	0.19436866	No	
+row_18	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	3214	0.4086288809776306	0.17072764	No	
+row_19	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	3626	0.3419739007949829	0.14374733	No	
+row_20	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	3800	0.31594130396842957	0.13557097	No	
+row_21	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	3872	0.3060533404350281	0.13547692	No	
+row_22	MAPK3	MAPK3	mitogen-activated protein kinase 3	4021	0.28716179728507996	0.12879418	No	
+row_23	PDGFC	PDGFC	platelet derived growth factor C	4466	0.22979089617729187	0.097065516	No	
+row_24	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	5014	0.1631702333688736	0.05575884	No	
+row_25	CDK4	CDK4	cyclin-dependent kinase 4	5135	0.14947916567325592	0.04879912	No	
+row_26	FGF5	FGF5	fibroblast growth factor 5	5164	0.1464126855134964	0.049237523	No	
+row_27	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	5294	0.1323293149471283	0.041231412	No	
+row_28	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	5316	0.13073398172855377	0.041947123	No	
+row_29	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	5342	0.12741541862487793	0.042277347	No	
+row_30	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	5459	0.11345937848091125	0.03497572	No	
+row_31	FGF2	FGF2	fibroblast growth factor 2 (basic)	5471	0.11147240549325943	0.036145575	No	
+row_32	FGF12	FGF12	fibroblast growth factor 12	5503	0.10859072953462601	0.035641536	No	
+row_33	FGF23	FGF23	fibroblast growth factor 23	5505	0.10833296179771423	0.03756365	No	
+row_34	FGF1	FGF1	fibroblast growth factor 1 (acidic)	5541	0.10432880371809006	0.03665668	No	
+row_35	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	5812	0.07719340175390244	0.016205745	No	
+row_36	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	-3.7438795E-4	No	
+row_37	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	6154	0.04170607775449753	-0.009569993	No	
+row_38	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6158	0.04132844880223274	-0.009048897	No	
+row_39	CDK6	CDK6	cyclin-dependent kinase 6	6304	0.027563707903027534	-0.02028868	No	
+row_40	MAPK1	MAPK1	mitogen-activated protein kinase 1	6361	0.02116192691028118	-0.024435101	No	
+row_41	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	6429	0.013337429612874985	-0.029617542	No	
+row_42	FGF21	FGF21	fibroblast growth factor 21	6826	-0.021932048723101616	-0.061300166	No	
+row_43	FGF3	FGF3	fibroblast growth factor 3 (murine mammary tumor virus integration site (v-int-2) oncogene homolog)	6848	-0.021979685872793198	-0.06259539	No	
+row_44	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	7989	-0.14503128826618195	-0.15228868	No	
+row_45	MITF	MITF	microphthalmia-associated transcription factor	8005	-0.1468583047389984	-0.15078864	No	
+row_46	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	8062	-0.15480883419513702	-0.15246385	No	
+row_47	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	8466	-0.21066585183143616	-0.18122388	No	
+row_48	EGF	EGF	epidermal growth factor (beta-urogastrone)	8588	-0.22774389386177063	-0.18681747	No	
+row_49	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	8843	-0.26518118381500244	-0.2024959	No	
+row_50	E2F3	E2F3	E2F transcription factor 3	9058	-0.2986757457256317	-0.21431376	No	
+row_51	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	9062	-0.299277663230896	-0.20902303	No	
+row_52	FGF10	FGF10	fibroblast growth factor 10	9618	-0.39126142859458923	-0.2467604	No	
+row_53	FGF13	FGF13	fibroblast growth factor 13	10220	-0.522400438785553	-0.28580034	No	
+row_54	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	10725	-0.6831261515617371	-0.31400838	Yes	
+row_55	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	10823	-0.7216806411743164	-0.30852404	Yes	
+row_56	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	10832	-0.7247658967971802	-0.2957709	Yes	
+row_57	FGF16	FGF16	fibroblast growth factor 16	10879	-0.7515681385993958	-0.28560135	Yes	
+row_58	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	-0.27903387	Yes	
+row_59	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	11130	-0.8800072073936462	-0.27467352	Yes	
+row_60	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11193	-0.917675793170929	-0.26272902	Yes	
+row_61	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	11218	-0.938652515411377	-0.24731746	Yes	
+row_62	IGF1R	IGF1R	insulin-like growth factor 1 receptor	11554	-1.2584787607192993	-0.2511927	Yes	
+row_63	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	11812	-1.8128968477249146	-0.23849598	Yes	
+row_64	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	11877	-2.0062766075134277	-0.20658462	Yes	
+row_65	FGF17	FGF17	fibroblast growth factor 17	11995	-2.2246084213256836	-0.1749308	Yes	
+row_66	FGF22	FGF22	fibroblast growth factor 22	12177	-3.2098991870880127	-0.13024428	Yes	
+row_67	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	12268	-3.8291776180267334	-0.06673314	Yes	
+row_68	FGF20	FGF20	fibroblast growth factor 20	12307	-4.222545623779297	0.008265236	Yes	

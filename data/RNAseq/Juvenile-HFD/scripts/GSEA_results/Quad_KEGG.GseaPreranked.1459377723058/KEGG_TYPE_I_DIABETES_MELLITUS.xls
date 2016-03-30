@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	170	4.258022308349609	0.18068184	No	
+row_1	PRF1	PRF1	perforin 1 (pore forming protein)	747	1.6373711824417114	0.20894459	No	
+row_2	CD28	CD28	CD28 molecule	862	1.4508304595947266	0.2659818	No	
+row_3	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	2077	0.6630666851997375	0.19826452	No	
+row_4	IL2	IL2	interleukin 2	2415	0.5718970894813538	0.19717343	No	
+row_5	PTPRN	PTPRN	protein tyrosine phosphatase, receptor type, N	2450	0.5643942952156067	0.22019698	No	
+row_6	CPE	CPE	carboxypeptidase E	4353	0.24310477077960968	0.07777284	No	
+row_7	GAD2	GAD2	glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)	4489	0.2254961133003235	0.0771713	No	
+row_8	ICA1	ICA1	islet cell autoantigen 1, 69kDa	6309	0.026964815333485603	-0.06842139	No	
+row_9	HSPD1	HSPD1	heat shock 60kDa protein 1 (chaperonin)	6671	-0.016036024317145348	-0.09682801	No	
+row_10	IFNG	IFNG	interferon, gamma	6734	-0.021810205653309822	-0.10083669	No	
+row_11	IL1B	IL1B	interleukin 1, beta	8606	-0.23000827431678772	-0.24135654	No	
+row_12	IL1A	IL1A	interleukin 1, alpha	9263	-0.33320102095603943	-0.27909416	No	
+row_13	CD80	CD80	CD80 molecule	9655	-0.3977918028831482	-0.29249287	No	
+row_14	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	10051	-0.47991830110549927	-0.3024649	No	
+row_15	CD86	CD86	CD86 molecule	11104	-0.865747332572937	-0.3478525	Yes	
+row_16	FAS	FAS	Fas (TNF receptor superfamily, member 6)	11482	-1.1761894226074219	-0.3245828	Yes	
+row_17	LTA	LTA	lymphotoxin alpha (TNF superfamily, member 1)	11517	-1.2089029550552368	-0.27213365	Yes	
+row_18	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11912	-2.118468761444092	-0.20721552	Yes	
+row_19	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	11968	-2.2102227210998535	-0.11074531	Yes	
+row_20	PTPRN2	PTPRN2	protein tyrosine phosphatase, receptor type, N polypeptide 2	12174	-3.2035467624664307	0.018968463	Yes	

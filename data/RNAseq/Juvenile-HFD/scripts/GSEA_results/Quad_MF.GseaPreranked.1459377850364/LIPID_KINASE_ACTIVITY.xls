@@ -1,0 +1,11 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	5014	0.1631702333688736	-0.3792445	No	
+row_1	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	5342	0.12741541862487793	-0.38600746	No	
+row_2	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	-0.43305868	No	
+row_3	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	8466	-0.21066585183143616	-0.5970102	No	
+row_4	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	9062	-0.299277663230896	-0.59893805	Yes	
+row_5	CERK	CERK	ceramide kinase	9415	-0.36156749725341797	-0.57168335	Yes	
+row_6	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	9544	-0.3812197744846344	-0.52333987	Yes	
+row_7	PIK3C3	PIK3C3	phosphoinositide-3-kinase, class 3	9955	-0.46008509397506714	-0.48560166	Yes	
+row_8	PIK3C2A	PIK3C2A	phosphoinositide-3-kinase, class 2, alpha polypeptide	10276	-0.5360006093978882	-0.42892274	Yes	
+row_9	SPHK1	SPHK1	sphingosine kinase 1	12282	-3.9044528007507324	0.010241801	Yes	

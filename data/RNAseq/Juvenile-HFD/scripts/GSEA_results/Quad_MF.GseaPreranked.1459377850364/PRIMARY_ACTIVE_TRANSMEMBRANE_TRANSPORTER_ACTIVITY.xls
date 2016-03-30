@@ -1,0 +1,39 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ABCB11	ABCB11	ATP-binding cassette, sub-family B (MDR/TAP), member 11	12	8.810320854187012	0.2139843	Yes	
+row_1	ATP7B	ATP7B	ATPase, Cu++ transporting, beta polypeptide	178	4.116949081420898	0.30109307	Yes	
+row_2	ATP4B	ATP4B	ATPase, H+/K+ exchanging, beta polypeptide	202	3.896998882293701	0.394313	Yes	
+row_3	ABCC6	ABCC6	ATP-binding cassette, sub-family C (CFTR/MRP), member 6	243	3.6182498931884766	0.479358	Yes	
+row_4	ABCC2	ABCC2	ATP-binding cassette, sub-family C (CFTR/MRP), member 2	475	2.511800765991211	0.52196974	Yes	
+row_5	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	648	1.8518184423446655	0.55324805	Yes	
+row_6	SEC61B	SEC61B	Sec61 beta subunit	969	1.3144443035125732	0.559453	Yes	
+row_7	ATP1A4	ATP1A4	ATPase, Na+/K+ transporting, alpha 4 polypeptide	1064	1.218740701675415	0.58159	Yes	
+row_8	ATP1A1	ATP1A1	ATPase, Na+/K+ transporting, alpha 1 polypeptide	2017	0.685924232006073	0.52137727	No	
+row_9	ATP1B1	ATP1B1	ATPase, Na+/K+ transporting, beta 1 polypeptide	2034	0.6791394352912903	0.53665364	No	
+row_10	ATP8B1	ATP8B1	ATPase, Class I, type 8B, member 1	2037	0.6779575943946838	0.5530328	No	
+row_11	ATP1B2	ATP1B2	ATPase, Na+/K+ transporting, beta 2 polypeptide	2623	0.52760910987854	0.5186212	No	
+row_12	ATP1A3	ATP1A3	ATPase, Na+/K+ transporting, alpha 3 polypeptide	2843	0.48198390007019043	0.5126794	No	
+row_13	FXYD2	FXYD2	FXYD domain containing ion transport regulator 2	3007	0.44874653220176697	0.51045305	No	
+row_14	ATP2B4	ATP2B4	ATPase, Ca++ transporting, plasma membrane 4	3864	0.30726316571235657	0.44876114	No	
+row_15	ATP2B3	ATP2B3	ATPase, Ca++ transporting, plasma membrane 3	4469	0.22911015152931213	0.40553105	No	
+row_16	ABCD4	ABCD4	ATP-binding cassette, sub-family D (ALD), member 4	4934	0.17237359285354614	0.3722326	No	
+row_17	ATP2A3	ATP2A3	ATPase, Ca++ transporting, ubiquitous	5580	0.10053925961256027	0.3225517	No	
+row_18	TAPBP	TAPBP	TAP binding protein (tapasin)	6085	0.049085333943367004	0.28301212	No	
+row_19	ABCC1	ABCC1	ATP-binding cassette, sub-family C (CFTR/MRP), member 1	6122	0.04550228267908096	0.2812125	No	
+row_20	ATP6V0C	ATP6V0C	ATPase, H+ transporting, lysosomal 16kDa, V0 subunit c	6493	0.005287570413202047	0.25143528	No	
+row_21	ATP1B3	ATP1B3	ATPase, Na+/K+ transporting, beta 3 polypeptide	7148	-0.045146841555833817	0.19967546	No	
+row_22	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.19798015	No	
+row_23	ATP11B	ATP11B	ATPase, Class VI, type 11B	7580	-0.09618587046861649	0.16848078	No	
+row_24	ABCF1	ABCF1	ATP-binding cassette, sub-family F (GCN20), member 1	7616	-0.10067995637655258	0.16810821	No	
+row_25	ATP2B1	ATP2B1	ATPase, Ca++ transporting, plasma membrane 1	7719	-0.11165320873260498	0.1625879	No	
+row_26	ATP2A1	ATP2A1	ATPase, Ca++ transporting, cardiac muscle, fast twitch 1	7858	-0.12924344837665558	0.15458697	No	
+row_27	ABCA3	ABCA3	ATP-binding cassette, sub-family A (ABC1), member 3	7920	-0.13636478781700134	0.1529835	No	
+row_28	ABCG2	ABCG2	ATP-binding cassette, sub-family G (WHITE), member 2	8182	-0.1692643016576767	0.13601719	No	
+row_29	ATP6V1B2	ATP6V1B2	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B2	8349	-0.19497062265872955	0.1273567	No	
+row_30	ABCD3	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3	8402	-0.20306366682052612	0.128108	No	
+row_31	ATP6V1C1	ATP6V1C1	ATPase, H+ transporting, lysosomal 42kDa, V1 subunit C1	8575	-0.2257423847913742	0.11971331	No	
+row_32	ATP1A2	ATP1A2	ATPase, Na+/K+ transporting, alpha 2 (+) polypeptide	8851	-0.2665713131427765	0.103989504	No	
+row_33	ABCB7	ABCB7	ATP-binding cassette, sub-family B (MDR/TAP), member 7	9437	-0.3652294874191284	0.06561618	No	
+row_34	ATP2C1	ATP2C1	ATPase, Ca++ transporting, type 2C, member 1	11124	-0.8771143555641174	-0.04925944	No	
+row_35	ATP7A	ATP7A	ATPase, Cu++ transporting, alpha polypeptide (Menkes syndrome)	11761	-1.6813887357711792	-0.05964331	No	
+row_36	ATP4A	ATP4A	ATPase, H+/K+ exchanging, alpha polypeptide	11998	-2.224672555923462	-0.024441073	No	
+row_37	ABCC3	ABCC3	ATP-binding cassette, sub-family C (CFTR/MRP), member 3	12076	-2.3600473403930664	0.026915638	No	

@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGG	FGG	fibrinogen gamma chain	6	11.209016799926758	0.18029238	Yes	
+row_1	FGB	FGB	fibrinogen beta chain	7	9.303735733032227	0.3303411	Yes	
+row_2	FGA	FGA	fibrinogen alpha chain	11	8.921409606933594	0.4739816	Yes	
+row_3	KNG1	KNG1	kininogen 1	30	7.716160297393799	0.59697324	Yes	
+row_4	F13B	F13B	coagulation factor XIII, B polypeptide	38	7.204971790313721	0.71260846	Yes	
+row_5	PROC	PROC	protein C (inactivator of coagulation factors Va and VIIIa)	97	5.551069736480713	0.79745305	Yes	
+row_6	KLKB1	KLKB1	kallikrein B, plasma (Fletcher factor) 1	304	2.975388526916504	0.82881045	Yes	
+row_7	GP1BB	GP1BB	glycoprotein Ib (platelet), beta polypeptide	1021	1.2686306238174438	0.7914728	No	
+row_8	SERPINC1	SERPINC1	serpin peptidase inhibitor, clade C (antithrombin), member 1	1060	1.224102258682251	0.80814743	No	
+row_9	THBD	THBD	thrombomodulin	1187	1.1070928573608398	0.81583124	No	
+row_10	TFPI	TFPI	tissue factor pathway inhibitor (lipoprotein-associated coagulation inhibitor)	1247	1.065622329711914	0.8282547	No	
+row_11	SERPING1	SERPING1	serpin peptidase inhibitor, clade G (C1 inhibitor), member 1, (angioedema, hereditary)	4370	0.24103786051273346	0.580124	No	
+row_12	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	0.5421645	No	
+row_13	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	5493	0.10961049050092697	0.49428743	No	
+row_14	PRCP	PRCP	prolylcarboxypeptidase (angiotensinase C)	5553	0.10293997079133987	0.49118495	No	
+row_15	PROS1	PROS1	protein S (alpha)	5777	0.08059915155172348	0.47448355	No	
+row_16	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	6589	-0.005590595304965973	0.40910715	No	
+row_17	GP9	GP9	glycoprotein IX (platelet)	6785	-0.021839583292603493	0.39371833	No	
+row_18	GP5	GP5	glycoprotein V (platelet)	6917	-0.02203429490327835	0.38349894	No	
+row_19	C1QBP	C1QBP	complement component 1, q subcomponent binding protein	8411	-0.20387068390846252	0.26626706	No	
+row_20	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	8885	-0.27154016494750977	0.2324643	No	
+row_21	A2M	A2M	alpha-2-macroglobulin	12188	-3.21952223777771	0.017839823	No	

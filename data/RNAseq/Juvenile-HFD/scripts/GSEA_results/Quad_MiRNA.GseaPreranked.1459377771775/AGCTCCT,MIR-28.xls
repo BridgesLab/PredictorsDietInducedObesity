@@ -1,0 +1,67 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RHO	RHO	rhodopsin (opsin 2, rod pigment) (retinitis pigmentosa 4, autosomal dominant)	696	1.7183359861373901	-0.014261868	Yes	
+row_1	SARM1	SARM1	sterile alpha and TIR motif containing 1	749	1.6355431079864502	0.021617845	Yes	
+row_2	LIF	LIF	leukemia inhibitory factor (cholinergic differentiation factor)	785	1.5730817317962646	0.05734362	Yes	
+row_3	CNTFR	CNTFR	ciliary neurotrophic factor receptor	915	1.3791428804397583	0.08070031	Yes	
+row_4	SDC1	SDC1	syndecan 1	918	1.372103214263916	0.11417284	Yes	
+row_5	RNF165	RNF165	ring finger protein 165	1047	1.2373130321502686	0.13413385	Yes	
+row_6	HOXA1	HOXA1	homeobox A1	1082	1.196990728378296	0.16072147	Yes	
+row_7	CSF1	CSF1	colony stimulating factor 1 (macrophage)	1091	1.1902029514312744	0.18924898	Yes	
+row_8	EPHB1	EPHB1	EPH receptor B1	1100	1.1799662113189697	0.21752556	Yes	
+row_9	SMAD3	SMAD3	SMAD, mothers against DPP homolog 3 (Drosophila)	1104	1.1742784976959229	0.24606776	Yes	
+row_10	CABP7	CABP7	calcium binding protein 7	1267	1.0554276704788208	0.25881582	Yes	
+row_11	DPF1	DPF1	D4, zinc and double PHD fingers family 1	1331	1.0123515129089355	0.27852803	Yes	
+row_12	MAT2A	MAT2A	methionine adenosyltransferase II, alpha	1449	0.9381860494613647	0.29204762	Yes	
+row_13	IKZF4	IKZF4	IKAROS family zinc finger 4 (Eos)	1482	0.9213151931762695	0.31203958	Yes	
+row_14	NNAT	NNAT	neuronatin	1554	0.8848090171813965	0.32797724	Yes	
+row_15	ACHE	ACHE	acetylcholinesterase (Yt blood group)	1717	0.7988651394844055	0.33443615	Yes	
+row_16	IQSEC2	IQSEC2	IQ motif and Sec7 domain 2	1740	0.787164032459259	0.35194975	Yes	
+row_17	CAPN6	CAPN6	calpain 6	1769	0.7731356620788574	0.36863342	Yes	
+row_18	LBH	LBH	-	1857	0.7399210333824158	0.37972325	Yes	
+row_19	NR4A3	NR4A3	nuclear receptor subfamily 4, group A, member 3	1883	0.7294618487358093	0.39557937	Yes	
+row_20	BCAM	BCAM	basal cell adhesion molecule (Lutheran blood group)	1971	0.698706328868866	0.4056589	Yes	
+row_21	TNFSF12	TNFSF12	tumor necrosis factor (ligand) superfamily, member 12	2005	0.6898247599601746	0.4198953	Yes	
+row_22	PDZD4	PDZD4	PDZ domain containing 4	2816	0.48735755681991577	0.36622304	No	
+row_23	AMIGO1	AMIGO1	adhesion molecule with Ig-like domain 1	2852	0.48036590218544006	0.37516293	No	
+row_24	TLN2	TLN2	talin 2	3039	0.44263756275177	0.3709453	No	
+row_25	SRF	SRF	serum response factor (c-fos serum response element-binding transcription factor)	3417	0.3767268657684326	0.3496389	No	
+row_26	MTSS1	MTSS1	metastasis suppressor 1	3528	0.35707566142082214	0.34948075	No	
+row_27	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	3800	0.31594130396842957	0.33527148	No	
+row_28	LUZP1	LUZP1	leucine zipper protein 1	3894	0.3036177158355713	0.33518007	No	
+row_29	UNC5A	UNC5A	unc-5 homolog A (C. elegans)	4367	0.24182899296283722	0.30287087	No	
+row_30	N4BP1	N4BP1	-	4430	0.23426318168640137	0.3035907	No	
+row_31	NDE1	NDE1	nudE nuclear distribution gene E homolog 1 (A. nidulans)	4630	0.2107662707567215	0.29263604	No	
+row_32	OTUB1	OTUB1	OTU domain, ubiquitin aldehyde binding 1	4943	0.17134757339954376	0.27156088	No	
+row_33	LRRC14	LRRC14	leucine rich repeat containing 14	5073	0.15509220957756042	0.26491225	No	
+row_34	LSM12	LSM12	LSM12 homolog (S. cerevisiae)	5462	0.11323674023151398	0.23625576	No	
+row_35	GPM6A	GPM6A	glycoprotein M6A	5564	0.10166290402412415	0.23056573	No	
+row_36	CLK3	CLK3	CDC-like kinase 3	5851	0.07173405587673187	0.20915501	No	
+row_37	VAMP2	VAMP2	vesicle-associated membrane protein 2 (synaptobrevin 2)	6688	-0.01753215119242668	0.14185956	No	
+row_38	CSNK1G1	CSNK1G1	casein kinase 1, gamma 1	6712	-0.020300358533859253	0.14049394	No	
+row_39	SETDB1	SETDB1	SET domain, bifurcated 1	7057	-0.03591812774538994	0.113506615	No	
+row_40	CRIM1	CRIM1	cysteine rich transmembrane BMP regulator 1 (chordin-like)	7577	-0.0960502028465271	0.07381639	No	
+row_41	MAX	MAX	MYC associated factor X	7584	-0.09645998477935791	0.07569486	No	
+row_42	ARID1A	ARID1A	AT rich interactive domain 1A (SWI- like)	7679	-0.10803723335266113	0.07072815	No	
+row_43	MAP3K3	MAP3K3	mitogen-activated protein kinase kinase kinase 3	8198	-0.17169518768787384	0.032973237	No	
+row_44	MEF2D	MEF2D	MADS box transcription enhancer factor 2, polypeptide D (myocyte enhancer factor 2D)	8406	-0.2033981829881668	0.021189883	No	
+row_45	MORF4L2	MORF4L2	mortality factor 4 like 2	9016	-0.2928500473499298	-0.020967152	No	
+row_46	ZC3H12B	ZC3H12B	zinc finger CCCH-type containing 12B	9100	-0.3077022135257721	-0.02014832	No	
+row_47	PTPRF	PTPRF	protein tyrosine phosphatase, receptor type, F	9137	-0.312579482793808	-0.015402415	No	
+row_48	SEH1L	SEH1L	SEH1-like (S. cerevisiae)	9246	-0.3291720151901245	-0.016082566	No	
+row_49	ATXN1	ATXN1	ataxin 1	9275	-0.33525654673576355	-0.010132687	No	
+row_50	USP9X	USP9X	ubiquitin specific peptidase 9, X-linked	9409	-0.36090952157974243	-0.01206013	No	
+row_51	NDRG2	NDRG2	NDRG family member 2	9487	-0.3737754225730896	-0.009135571	No	
+row_52	SSRP1	SSRP1	structure specific recognition protein 1	9489	-0.3739527463912964	-4.982949E-5	No	
+row_53	HTRA2	HTRA2	HtrA serine peptidase 2	9521	-0.3790724575519562	0.006731082	No	
+row_54	RAP1B	RAP1B	RAP1B, member of RAS oncogene family	9559	-0.383502334356308	0.013134519	No	
+row_55	CDC42SE1	CDC42SE1	CDC42 small effector 1	9776	-0.4198727309703827	0.0059285355	No	
+row_56	BIVM	BIVM	basic, immunoglobulin-like variable motif containing	10010	-0.47032445669174194	-0.0014179057	No	
+row_57	AMPH	AMPH	amphiphysin (Stiff-Man syndrome with breast cancer 128kDa autoantigen)	10128	-0.49977585673332214	0.0013548774	No	
+row_58	TRIT1	TRIT1	tRNA isopentenyltransferase 1	10441	-0.5876176953315735	-0.009516209	No	
+row_59	TRPS1	TRPS1	trichorhinophalangeal syndrome I	10442	-0.5876651406288147	0.0048893043	No	
+row_60	DYRK1A	DYRK1A	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A	10495	-0.6059238314628601	0.015529823	No	
+row_61	TXNL1	TXNL1	thioredoxin-like 1	10652	-0.6536940932273865	0.018916195	No	
+row_62	YPEL3	YPEL3	yippee-like 3 (Drosophila)	11042	-0.8358336091041565	0.00789181	No	
+row_63	EN2	EN2	engrailed homolog 2	11137	-0.8826694488525391	0.021913767	No	
+row_64	SSH2	SSH2	slingshot homolog 2 (Drosophila)	11391	-1.0783525705337524	0.027851779	No	
+row_65	RCVRN	RCVRN	recoverin	12012	-2.224790334701538	0.03216153	No	

@@ -1,0 +1,32 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIPOX	PIPOX	pipecolic acid oxidase	22	7.938144683837891	0.14118776	Yes	
+row_1	AGXT	AGXT	alanine-glyoxylate aminotransferase (oxalosis I; hyperoxaluria I; glycolicaciduria; serine-pyruvate aminotransferase)	26	7.824927806854248	0.28187135	Yes	
+row_2	BHMT	BHMT	betaine-homocysteine methyltransferase	56	6.4860639572143555	0.39634183	Yes	
+row_3	DMGDH	DMGDH	dimethylglycine dehydrogenase	66	6.240154266357422	0.5079992	Yes	
+row_4	AGXT2	AGXT2	alanine-glyoxylate aminotransferase 2	105	5.314988136291504	0.6006517	Yes	
+row_5	DAO	DAO	D-amino-acid oxidase	146	4.513000965118408	0.67869896	Yes	
+row_6	CBS	CBS	cystathionine-beta-synthase	519	2.302927255630493	0.6901235	Yes	
+row_7	GLDC	GLDC	glycine dehydrogenase (decarboxylating)	627	1.9107372760772705	0.71589196	Yes	
+row_8	SARDH	SARDH	sarcosine dehydrogenase	962	1.3216040134429932	0.7127127	No	
+row_9	SDS	SDS	serine dehydratase	1452	0.9371581673622131	0.69008845	No	
+row_10	GATM	GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase)	1657	0.828079879283905	0.6885225	No	
+row_11	GAMT	GAMT	guanidinoacetate N-methyltransferase	1882	0.7302756309509277	0.6835795	No	
+row_12	PSPH	PSPH	phosphoserine phosphatase	2191	0.6317817568778992	0.67007697	No	
+row_13	SRR	SRR	serine racemase	2832	0.483865350484848	0.6270909	No	
+row_14	ALAS1	ALAS1	aminolevulinate, delta-, synthase 1	3256	0.4014478921890259	0.6001501	No	
+row_15	GCAT	GCAT	glycine C-acetyltransferase (2-amino-3-ketobutyrate coenzyme A ligase)	4032	0.28593891859054565	0.54269385	No	
+row_16	AOC2	AOC2	amine oxidase, copper containing 2 (retina-specific)	5551	0.10307250916957855	0.42192313	No	
+row_17	AMT	AMT	aminomethyltransferase	5615	0.09763695299625397	0.4185923	No	
+row_18	SHMT2	SHMT2	serine hydroxymethyltransferase 2 (mitochondrial)	5693	0.08897116035223007	0.41397443	No	
+row_19	MAOA	MAOA	monoamine oxidase A	6978	-0.027272602543234825	0.31074157	No	
+row_20	SHMT1	SHMT1	serine hydroxymethyltransferase 1 (soluble)	7494	-0.08686185628175735	0.27070323	No	
+row_21	GNMT	GNMT	glycine N-methyltransferase	7722	-0.11176778376102448	0.25437865	No	
+row_22	PSAT1	PSAT1	phosphoserine aminotransferase 1	7833	-0.12562651932239532	0.24775515	No	
+row_23	MAOB	MAOB	monoamine oxidase B	8608	-0.23096217215061188	0.18938951	No	
+row_24	DLD	DLD	dihydrolipoamide dehydrogenase	8954	-0.2840580344200134	0.16663557	No	
+row_25	ALAS2	ALAS2	aminolevulinate, delta-, synthase 2 (sideroblastic/hypochromic anemia)	9986	-0.4667016565799713	0.0917546	No	
+row_26	GLYCTK	GLYCTK	-	10949	-0.7879378795623779	0.02823301	No	
+row_27	AOC3	AOC3	amine oxidase, copper containing 3 (vascular adhesion protein 1)	11108	-0.8707011938095093	0.031150676	No	
+row_28	CTH	CTH	cystathionase (cystathionine gamma-lyase)	11453	-1.143449306488037	0.023955053	No	
+row_29	PHGDH	PHGDH	phosphoglycerate dehydrogenase	11454	-1.1439992189407349	0.044558328	No	
+row_30	CHDH	CHDH	choline dehydrogenase	11808	-1.8049896955490112	0.048549928	No	

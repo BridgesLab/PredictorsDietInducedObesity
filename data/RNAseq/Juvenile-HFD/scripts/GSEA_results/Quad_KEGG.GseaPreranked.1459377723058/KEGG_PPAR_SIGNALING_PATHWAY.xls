@@ -1,0 +1,61 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.072958656	Yes	
+row_1	FABP1	FABP1	fatty acid binding protein 1, liver	46	6.9173688888549805	0.14464366	Yes	
+row_2	APOA2	APOA2	apolipoprotein A-II	69	6.170414924621582	0.2073844	Yes	
+row_3	APOA5	APOA5	apolipoprotein A-V	84	5.786080360412598	0.26675403	Yes	
+row_4	APOC3	APOC3	apolipoprotein C-III	85	5.779256820678711	0.32718593	Yes	
+row_5	CYP8B1	CYP8B1	cytochrome P450, family 8, subfamily B, polypeptide 1	189	4.012782096862793	0.36080626	Yes	
+row_6	SLC27A6	SLC27A6	solute carrier family 27 (fatty acid transporter), member 6	210	3.835026264190674	0.3992885	Yes	
+row_7	GK2	GK2	glycerol kinase 2	259	3.5242366790771484	0.43225372	Yes	
+row_8	FABP2	FABP2	fatty acid binding protein 2, intestinal	260	3.524224042892456	0.46910545	Yes	
+row_9	SLC27A5	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5	302	2.9911201000213623	0.4970628	Yes	
+row_10	FABP7	FABP7	fatty acid binding protein 7, brain	333	2.870145082473755	0.52464586	Yes	
+row_11	ACOX2	ACOX2	acyl-Coenzyme A oxidase 2, branched chain	815	1.5215182304382324	0.50160855	No	
+row_12	SLC27A2	SLC27A2	solute carrier family 27 (fatty acid transporter), member 2	821	1.5111130475997925	0.51700497	No	
+row_13	FADS2	FADS2	fatty acid desaturase 2	1099	1.1810539960861206	0.5069257	No	
+row_14	RXRG	RXRG	retinoid X receptor, gamma	1388	0.9760990142822266	0.49381262	No	
+row_15	ACSL3	ACSL3	acyl-CoA synthetase long-chain family member 3	1518	0.9014978408813477	0.49279398	No	
+row_16	CYP7A1	CYP7A1	cytochrome P450, family 7, subfamily A, polypeptide 1	1619	0.8491696119308472	0.49357632	No	
+row_17	OLR1	OLR1	oxidised low density lipoprotein (lectin-like) receptor 1	2290	0.6077763438224792	0.44568062	No	
+row_18	ACSL5	ACSL5	acyl-CoA synthetase long-chain family member 5	2497	0.5553070306777954	0.43480715	No	
+row_19	ILK	ILK	integrin-linked kinase	2574	0.5389910340309143	0.43428937	No	
+row_20	CPT1C	CPT1C	carnitine palmitoyltransferase 1C	3054	0.439762145280838	0.40010238	No	
+row_21	FABP5	FABP5	fatty acid binding protein 5 (psoriasis-associated)	3098	0.4326518774032593	0.4011447	No	
+row_22	PLTP	PLTP	phospholipid transfer protein	4044	0.28439614176750183	0.32760033	No	
+row_23	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	4346	0.2436063587665558	0.3057752	No	
+row_24	SLC27A4	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4	4850	0.1816292256116867	0.2669457	No	
+row_25	RXRA	RXRA	retinoid X receptor, alpha	4980	0.16703827679157257	0.258247	No	
+row_26	DBI	DBI	diazepam binding inhibitor (GABA receptor modulator, acyl-Coenzyme A binding protein)	5228	0.13884446024894714	0.23969886	No	
+row_27	ACSL4	ACSL4	acyl-CoA synthetase long-chain family member 4	5660	0.09257976710796356	0.20576815	No	
+row_28	ACSL6	ACSL6	acyl-CoA synthetase long-chain family member 6	5760	0.08260814845561981	0.19861576	No	
+row_29	ACOX3	ACOX3	acyl-Coenzyme A oxidase 3, pristanoyl	5846	0.07238239794969559	0.19249006	No	
+row_30	ME1	ME1	malic enzyme 1, NADP(+)-dependent, cytosolic	5863	0.07082577794790268	0.1919351	No	
+row_31	PPARD	PPARD	peroxisome proliferative activated receptor, delta	6592	-0.006434424314647913	0.13305502	No	
+row_32	AQP7	AQP7	aquaporin 7	7507	-0.08842762559652328	0.05997159	No	
+row_33	FABP3	FABP3	fatty acid binding protein 3, muscle and heart (mammary-derived growth inhibitor)	7712	-0.11134214699268341	0.04461764	No	
+row_34	ACADM	ACADM	acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain	7931	-0.13751880824565887	0.02840381	No	
+row_35	NR1H3	NR1H3	nuclear receptor subfamily 1, group H, member 3	8156	-0.16643773019313812	0.012006546	No	
+row_36	SCP2	SCP2	sterol carrier protein 2	8178	-0.16904085874557495	0.012073749	No	
+row_37	RXRB	RXRB	retinoid X receptor, beta	8388	-0.20176860690116882	-0.0027394958	No	
+row_38	HMGCS2	HMGCS2	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 2 (mitochondrial)	8721	-0.24985437095165253	-0.027009437	No	
+row_39	CPT2	CPT2	carnitine palmitoyltransferase II	8759	-0.2546279728412628	-0.027342822	No	
+row_40	CPT1B	CPT1B	carnitine palmitoyltransferase 1B (muscle)	8948	-0.2823519706726074	-0.039613027	No	
+row_41	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	9606	-0.3894740641117096	-0.0887388	No	
+row_42	SORBS1	SORBS1	sorbin and SH3 domain containing 1	10144	-0.5028786063194275	-0.12696213	No	
+row_43	CPT1A	CPT1A	carnitine palmitoyltransferase 1A (liver)	10264	-0.5333055853843689	-0.13102114	No	
+row_44	LPL	LPL	lipoprotein lipase	10584	-0.6302244067192078	-0.15026104	No	
+row_45	PPARG	PPARG	peroxisome proliferative activated receptor, gamma	10750	-0.6927083134651184	-0.15637794	No	
+row_46	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	10781	-0.7058727145195007	-0.15142599	No	
+row_47	ACADL	ACADL	acyl-Coenzyme A dehydrogenase, long chain	10806	-0.7147950530052185	-0.14589493	No	
+row_48	ACOX1	ACOX1	acyl-Coenzyme A oxidase 1, palmitoyl	10968	-0.7975496649742126	-0.15059163	No	
+row_49	CYP27A1	CYP27A1	cytochrome P450, family 27, subfamily A, polypeptide 1	11086	-0.8590583801269531	-0.15108241	No	
+row_50	ACSL1	ACSL1	acyl-CoA synthetase long-chain family member 1	11094	-0.8623557090759277	-0.14263183	No	
+row_51	FABP4	FABP4	fatty acid binding protein 4, adipocyte	11372	-1.0570658445358276	-0.15400757	No	
+row_52	SLC27A1	SLC27A1	solute carrier family 27 (fatty acid transporter), member 1	11510	-1.2012035846710205	-0.15254007	No	
+row_53	CD36	CD36	CD36 molecule (thrombospondin receptor)	11673	-1.462193489074707	-0.15036777	No	
+row_54	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	11681	-1.4742631912231445	-0.13551866	No	
+row_55	UBC	UBC	ubiquitin C	11846	-1.9204689264297485	-0.12871626	No	
+row_56	ADIPOQ	ADIPOQ	adiponectin, C1Q and collagen domain containing	11958	-2.169184684753418	-0.11502163	No	
+row_57	ANGPTL4	ANGPTL4	angiopoietin-like 4	12140	-3.043940305709839	-0.09784796	No	
+row_58	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	12243	-3.603898048400879	-0.06842223	No	
+row_59	UCP1	UCP1	uncoupling protein 1 (mitochondrial, proton carrier)	12405	-7.821064472198486	3.2378276E-4	No	

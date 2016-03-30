@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CHD2	CHD2	chromodomain helicase DNA binding protein 2	1338	1.007965087890625	-0.060974818	No	
+row_1	RUVBL2	RUVBL2	RuvB-like 2 (E. coli)	1521	0.9002587199211121	-0.03350713	No	
+row_2	XRCC5	XRCC5	X-ray repair complementing defective repair in Chinese hamster cells 5 (double-strand-break rejoining; Ku autoantigen, 80kDa)	1731	0.7932858467102051	-0.013235838	No	
+row_3	SMARCA1	SMARCA1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 1	2396	0.5759721994400024	-0.0399454	No	
+row_4	DDX25	DDX25	DEAD (Asp-Glu-Ala-Asp) box polypeptide 25	2521	0.5507913827896118	-0.0241633	No	
+row_5	CHD3	CHD3	chromodomain helicase DNA binding protein 3	3144	0.42372071743011475	-0.054610774	No	
+row_6	ERCC8	ERCC8	excision repair cross-complementing rodent repair deficiency, complementation group 8	4783	0.19077853858470917	-0.17814146	No	
+row_7	UPF1	UPF1	UPF1 regulator of nonsense transcripts homolog (yeast)	5284	0.1332101672887802	-0.21233587	No	
+row_8	ERCC2	ERCC2	excision repair cross-complementing rodent repair deficiency, complementation group 2 (xeroderma pigmentosum D)	5340	0.12761440873146057	-0.21080382	No	
+row_9	DHX16	DHX16	DEAH (Asp-Glu-Ala-His) box polypeptide 16	5356	0.12580400705337524	-0.20612168	No	
+row_10	XRCC6	XRCC6	X-ray repair complementing defective repair in Chinese hamster cells 6 (Ku autoantigen, 70kDa)	5515	0.10722915083169937	-0.21387486	No	
+row_11	SMARCA4	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	5554	0.10278304666280746	-0.21213157	No	
+row_12	SUPV3L1	SUPV3L1	suppressor of var1, 3-like 1 (S. cerevisiae)	5626	0.0962255522608757	-0.2133644	No	
+row_13	DDX23	DDX23	DEAD (Asp-Glu-Ala-Asp) box polypeptide 23	5854	0.07152516394853592	-0.22837096	No	
+row_14	RECQL4	RECQL4	RecQ protein-like 4	6021	0.054851923137903214	-0.23922557	No	
+row_15	CHD4	CHD4	chromodomain helicase DNA binding protein 4	6076	0.049962759017944336	-0.24125144	No	
+row_16	ERCC3	ERCC3	excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)	6522	0.0023399440106004477	-0.27713045	No	
+row_17	WRN	WRN	Werner syndrome	6591	-0.005886605009436607	-0.282354	No	
+row_18	SMARCAL1	SMARCAL1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a-like 1	7044	-0.03454919904470444	-0.3172898	No	
+row_19	DDX54	DDX54	DEAD (Asp-Glu-Ala-Asp) box polypeptide 54	7338	-0.06916619092226028	-0.33774456	No	
+row_20	ERCC6	ERCC6	excision repair cross-complementing rodent repair deficiency, complementation group 6	7492	-0.08653595298528671	-0.34606308	No	
+row_21	RUVBL1	RUVBL1	RuvB-like 1 (E. coli)	7493	-0.08680625259876251	-0.34199527	No	
+row_22	DDX17	DDX17	DEAD (Asp-Glu-Ala-Asp) box polypeptide 17	7733	-0.11285383999347687	-0.35603562	No	
+row_23	DDX1	DDX1	DEAD (Asp-Glu-Ala-Asp) box polypeptide 1	7889	-0.1325087696313858	-0.36236158	No	
+row_24	SETX	SETX	senataxin	7997	-0.14606811106204987	-0.3641702	No	
+row_25	DHX9	DHX9	DEAH (Asp-Glu-Ala-His) box polypeptide 9	8434	-0.20625323057174683	-0.38976586	No	
+row_26	DHX8	DHX8	DEAH (Asp-Glu-Ala-His) box polypeptide 8	8917	-0.27747559547424316	-0.4157442	Yes	
+row_27	DHX38	DHX38	DEAH (Asp-Glu-Ala-His) box polypeptide 38	9018	-0.2929522395133972	-0.41010362	Yes	
+row_28	DDX6	DDX6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	9210	-0.32440346479415894	-0.4103487	Yes	
+row_29	ATRX	ATRX	alpha thalassemia/mental retardation syndrome X-linked (RAD54 homolog, S. cerevisiae)	9245	-0.3290337026119232	-0.3976797	Yes	
+row_30	DHX15	DHX15	DEAH (Asp-Glu-Ala-His) box polypeptide 15	9345	-0.3477665185928345	-0.3893896	Yes	
+row_31	SKIV2L	SKIV2L	superkiller viralicidic activity 2-like (S. cerevisiae)	9457	-0.36835357546806335	-0.3811053	Yes	
+row_32	RECQL	RECQL	RecQ protein-like (DNA helicase Q1-like)	9704	-0.407876193523407	-0.38188684	Yes	
+row_33	SMARCA2	SMARCA2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2	10008	-0.4701412618160248	-0.3843604	Yes	
+row_34	DDX10	DDX10	DEAD (Asp-Glu-Ala-Asp) box polypeptide 10	10458	-0.5914268493652344	-0.39295796	Yes	
+row_35	DDX21	DDX21	DEAD (Asp-Glu-Ala-Asp) box polypeptide 21	10603	-0.6368227005004883	-0.37476185	Yes	
+row_36	SMARCA5	SMARCA5	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5	10608	-0.6381787657737732	-0.34517992	Yes	
+row_37	DDX3X	DDX3X	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, X-linked	10726	-0.683659553527832	-0.32260543	Yes	
+row_38	DDX18	DDX18	DEAD (Asp-Glu-Ala-Asp) box polypeptide 18	10818	-0.7202320694923401	-0.2962144	Yes	
+row_39	CHD1	CHD1	chromodomain helicase DNA binding protein 1	10861	-0.740990936756134	-0.2648878	Yes	
+row_40	DDX56	DDX56	DEAD (Asp-Glu-Ala-Asp) box polypeptide 56	10897	-0.7596476078033447	-0.23212086	Yes	
+row_41	DDX20	DDX20	DEAD (Asp-Glu-Ala-Asp) box polypeptide 20	11205	-0.9271641373634338	-0.21350154	Yes	
+row_42	IGHMBP2	IGHMBP2	immunoglobulin mu binding protein 2	11207	-0.9291114211082458	-0.17004372	Yes	
+row_43	RAD54B	RAD54B	RAD54 homolog B (S. cerevisiae)	12101	-2.531224250793457	-0.123649046	Yes	
+row_44	DDX43	DDX43	DEAD (Asp-Glu-Ala-Asp) box polypeptide 43	12163	-3.168487310409546	0.019894846	Yes	

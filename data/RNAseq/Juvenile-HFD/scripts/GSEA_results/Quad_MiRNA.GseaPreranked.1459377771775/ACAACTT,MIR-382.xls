@@ -1,0 +1,65 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SYT1	SYT1	synaptotagmin I	120	4.919825553894043	0.10144563	Yes	
+row_1	SORCS3	SORCS3	sortilin-related VPS10 domain containing receptor 3	227	3.7542879581451416	0.17768945	Yes	
+row_2	CHST9	CHST9	carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 9	255	3.5243277549743652	0.25513607	Yes	
+row_3	EDA	EDA	ectodysplasin A	290	3.1147191524505615	0.32276043	Yes	
+row_4	BCORL1	BCORL1	BCL6 co-repressor-like 1	858	1.4538354873657227	0.3096846	No	
+row_5	ACVR1	ACVR1	activin A receptor, type I	1113	1.1686512231826782	0.31551725	No	
+row_6	SETD8	SETD8	SET domain containing (lysine methyltransferase) 8	1945	0.7071552276611328	0.26418644	No	
+row_7	LPPR2	LPPR2	-	2138	0.6469763517379761	0.26325354	No	
+row_8	SRGAP2	SRGAP2	SLIT-ROBO Rho GTPase activating protein 2	2931	0.4636145830154419	0.20957877	No	
+row_9	COLQ	COLQ	collagen-like tail subunit (single strand of homotrimer) of asymmetric acetylcholinesterase	2933	0.46332231163978577	0.21996671	No	
+row_10	P2RX7	P2RX7	purinergic receptor P2X, ligand-gated ion channel, 7	2966	0.4553658068180084	0.22766395	No	
+row_11	HPS4	HPS4	Hermansky-Pudlak syndrome 4	3487	0.3648671805858612	0.19378936	No	
+row_12	PDE5A	PDE5A	phosphodiesterase 5A, cGMP-specific	3803	0.31550493836402893	0.17540398	No	
+row_13	MTUS1	MTUS1	mitochondrial tumor suppressor 1	3861	0.307777464389801	0.17774145	No	
+row_14	ICK	ICK	intestinal cell (MAK-like) kinase	3920	0.3009856045246124	0.17984445	No	
+row_15	NFIA	NFIA	nuclear factor I/A	4500	0.22420424222946167	0.13801266	No	
+row_16	SEC24C	SEC24C	SEC24 related gene family, member C (S. cerevisiae)	4574	0.21656158566474915	0.13699311	No	
+row_17	HS3ST3B1	HS3ST3B1	heparan sulfate (glucosamine) 3-O-sulfotransferase 3B1	4814	0.18642263114452362	0.1218469	No	
+row_18	MMP16	MMP16	matrix metallopeptidase 16 (membrane-inserted)	5037	0.15978658199310303	0.1074758	No	
+row_19	UBE2H	UBE2H	ubiquitin-conjugating enzyme E2H (UBC8 homolog, yeast)	5053	0.15736961364746094	0.10981666	No	
+row_20	PRPS2	PRPS2	phosphoribosyl pyrophosphate synthetase 2	5210	0.14171051979064941	0.100383	No	
+row_21	HSPA14	HSPA14	heat shock 70kDa protein 14	5583	0.10029283910989761	0.07251794	No	
+row_22	YBX1	YBX1	Y box binding protein 1	5671	0.09117002040147781	0.06753114	No	
+row_23	MBNL2	MBNL2	muscleblind-like 2 (Drosophila)	5953	0.06096821278333664	0.046148334	No	
+row_24	BTBD7	BTBD7	BTB (POZ) domain containing 7	6970	-0.026180576533079147	-0.03555397	No	
+row_25	TOP1	TOP1	topoisomerase (DNA) I	7207	-0.05272308364510536	-0.053478174	No	
+row_26	VEZF1	VEZF1	vascular endothelial zinc finger 1	7211	-0.05322503671050072	-0.052518528	No	
+row_27	CAMTA1	CAMTA1	calmodulin binding transcription activator 1	7263	-0.0600229948759079	-0.055293176	No	
+row_28	BCL11B	BCL11B	B-cell CLL/lymphoma 11B (zinc finger protein)	7653	-0.10416367650032043	-0.08444774	No	
+row_29	STC1	STC1	stanniocalcin 1	7670	-0.1065322682261467	-0.08333657	No	
+row_30	ATP2B1	ATP2B1	ATPase, Ca++ transporting, plasma membrane 1	7719	-0.11165320873260498	-0.08470162	No	
+row_31	BDNF	BDNF	brain-derived neurotrophic factor	7738	-0.11350992321968079	-0.08359478	No	
+row_32	VEZT	VEZT	vezatin, adherens junctions transmembrane protein	7938	-0.13857336342334747	-0.09658224	No	
+row_33	SPCS2	SPCS2	signal peptidase complex subunit 2 homolog (S. cerevisiae)	8130	-0.16231757402420044	-0.10838521	No	
+row_34	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	8148	-0.1655270755290985	-0.10602203	No	
+row_35	ZFP106	ZFP106	zinc finger protein 106 homolog (mouse)	8274	-0.18196456134319305	-0.1120352	No	
+row_36	EEF1A1	EEF1A1	eukaryotic translation elongation factor 1 alpha 1	8449	-0.20861445367336273	-0.121415116	No	
+row_37	MBNL1	MBNL1	muscleblind-like (Drosophila)	8568	-0.22432106733322144	-0.12590425	No	
+row_38	ZCCHC14	ZCCHC14	zinc finger, CCHC domain containing 14	8581	-0.2263065129518509	-0.12176273	No	
+row_39	ARFGEF1	ARFGEF1	ADP-ribosylation factor guanine nucleotide-exchange factor 1(brefeldin A-inhibited)	8731	-0.25124889612197876	-0.12815435	No	
+row_40	ARIH2	ARIH2	ariadne homolog 2 (Drosophila)	8735	-0.25170958042144775	-0.12270987	No	
+row_41	LHX8	LHX8	LIM homeobox 8	8737	-0.2519357204437256	-0.11709828	No	
+row_42	CLTC	CLTC	clathrin, heavy chain (Hc)	8820	-0.2615390717983246	-0.11783053	No	
+row_43	HSPA2	HSPA2	heat shock 70kDa protein 2	9056	-0.2984408438205719	-0.13012165	No	
+row_44	DACH1	DACH1	dachshund homolog 1 (Drosophila)	9289	-0.3375362753868103	-0.1412864	No	
+row_45	DHX15	DHX15	DEAH (Asp-Glu-Ala-His) box polypeptide 15	9345	-0.3477665185928345	-0.13788337	No	
+row_46	NDRG2	NDRG2	NDRG family member 2	9487	-0.3737754225730896	-0.14085847	No	
+row_47	GMFB	GMFB	glia maturation factor, beta	9643	-0.3952760696411133	-0.14448172	No	
+row_48	HIATL1	HIATL1	hippocampus abundant transcript-like 1	9841	-0.43102309107780457	-0.15069917	No	
+row_49	ARID1B	ARID1B	AT rich interactive domain 1B (SWI1-like)	10310	-0.5480464696884155	-0.17622286	No	
+row_50	SMARCAD1	SMARCAD1	SWI/SNF-related, matrix-associated actin-dependent regulator of chromatin, subfamily a, containing DEAD/H box 1	10548	-0.6217043399810791	-0.18137172	No	
+row_51	EIF4G3	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3	10567	-0.6251817345619202	-0.16870345	No	
+row_52	EPC2	EPC2	enhancer of polycomb homolog 2 (Drosophila)	10582	-0.629794180393219	-0.15560699	No	
+row_53	LIN9	LIN9	lin-9 homolog (C. elegans)	10713	-0.6762295961380005	-0.15085703	No	
+row_54	DDX3X	DDX3X	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, X-linked	10726	-0.683659553527832	-0.13638146	No	
+row_55	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	10781	-0.7058727145195007	-0.124805875	No	
+row_56	MATR3	MATR3	matrin 3	10945	-0.7837299108505249	-0.120299846	No	
+row_57	DDX3Y	DDX3Y	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, Y-linked	11007	-0.8188871741294861	-0.10673764	No	
+row_58	EN2	EN2	engrailed homolog 2	11137	-0.8826694488525391	-0.09724212	No	
+row_59	AMOTL2	AMOTL2	angiomotin like 2	11477	-1.1713449954986572	-0.09823341	No	
+row_60	BACH1	BACH1	BTB and CNC homology 1, basic leucine zipper transcription factor 1	11532	-1.228705883026123	-0.074844204	No	
+row_61	RPE	RPE	ribulose-5-phosphate-3-epimerase	11747	-1.6436673402786255	-0.055038452	No	
+row_62	NEGR1	NEGR1	neuronal growth regulator 1	11773	-1.6943187713623047	-0.018779607	No	
+row_63	SLC17A6	SLC17A6	solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 6	12147	-3.1074163913726807	0.021221459	No	

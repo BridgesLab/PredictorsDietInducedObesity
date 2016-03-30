@@ -1,0 +1,117 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	POLE2	POLE2	polymerase (DNA directed), epsilon 2 (p59 subunit)	1057	1.2290066480636597	-0.06513766	No	
+row_1	BRCA1	BRCA1	breast cancer 1, early onset	1088	1.1928967237472534	-0.04735093	No	
+row_2	POLA1	POLA1	polymerase (DNA directed), alpha 1	1282	1.047695517539978	-0.045284748	No	
+row_3	EXO1	EXO1	exonuclease 1	1355	0.9961264133453369	-0.034250785	No	
+row_4	RUVBL2	RUVBL2	RuvB-like 2 (E. coli)	1521	0.9002587199211121	-0.032407034	No	
+row_5	LIG4	LIG4	ligase IV, DNA, ATP-dependent	1899	0.7230669856071472	-0.05081196	No	
+row_6	FEN1	FEN1	flap structure-specific endonuclease 1	2259	0.6171255111694336	-0.06954911	No	
+row_7	ABL1	ABL1	v-abl Abelson murine leukemia viral oncogene homolog 1	2305	0.6040893793106079	-0.0629664	No	
+row_8	UBE2V1	UBE2V1	ubiquitin-conjugating enzyme E2 variant 1	2395	0.5762200951576233	-0.060435224	No	
+row_9	XRCC6BP1	XRCC6BP1	XRCC6 binding protein 1	2696	0.5115862488746643	-0.07616283	No	
+row_10	RAD9A	RAD9A	RAD9 homolog A (S. pombe)	2971	0.454333633184433	-0.09074637	No	
+row_11	NHEJ1	NHEJ1	nonhomologous end-joining factor 1	3299	0.3936154544353485	-0.11067051	No	
+row_12	GTF2H4	GTF2H4	general transcription factor IIH, polypeptide 4, 52kDa	3522	0.35847803950309753	-0.122649685	No	
+row_13	UNG	UNG	uracil-DNA glycosylase	3524	0.358082115650177	-0.11665933	No	
+row_14	PMS2	PMS2	PMS2 postmeiotic segregation increased 2 (S. cerevisiae)	3786	0.31762975454330444	-0.13250342	No	
+row_15	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	3821	0.3130261301994324	-0.12996127	No	
+row_16	MSH2	MSH2	mutS homolog 2, colon cancer, nonpolyposis type 1 (E. coli)	4123	0.27416279911994934	-0.14979601	No	
+row_17	PRKCG	PRKCG	protein kinase C, gamma	4200	0.26411619782447815	-0.1514995	No	
+row_18	UBE2A	UBE2A	ubiquitin-conjugating enzyme E2A (RAD6 homolog)	4241	0.2576359212398529	-0.15038459	No	
+row_19	POLD1	POLD1	polymerase (DNA directed), delta 1, catalytic subunit 125kDa	4395	0.23800483345985413	-0.15879405	No	
+row_20	FANCC	FANCC	Fanconi anemia, complementation group C	4429	0.2342703640460968	-0.15750594	No	
+row_21	RAD23A	RAD23A	RAD23 homolog A (S. cerevisiae)	4456	0.23098866641521454	-0.15570413	No	
+row_22	HUS1	HUS1	HUS1 checkpoint homolog (S. pombe)	4524	0.2219688594341278	-0.15739019	No	
+row_23	POLH	POLH	polymerase (DNA directed), eta	4529	0.22169281542301178	-0.1539565	No	
+row_24	APTX	APTX	aprataxin	4540	0.22050943970680237	-0.15103091	No	
+row_25	FANCG	FANCG	Fanconi anemia, complementation group G	4730	0.19665676355361938	-0.16306971	No	
+row_26	ERCC8	ERCC8	excision repair cross-complementing rodent repair deficiency, complementation group 8	4783	0.19077853858470917	-0.16406456	No	
+row_27	RAD1	RAD1	RAD1 homolog (S. pombe)	4899	0.17577201128005981	-0.17043829	No	
+row_28	SMUG1	SMUG1	single-strand-selective monofunctional uracil-DNA glycosylase 1	4924	0.17354929447174072	-0.16944773	No	
+row_29	POLQ	POLQ	polymerase (DNA directed), theta	4963	0.16895045340061188	-0.16967392	No	
+row_30	RAD51C	RAD51C	RAD51 homolog C (S. cerevisiae)	5089	0.15346954762935638	-0.17723922	No	
+row_31	ERCC1	ERCC1	excision repair cross-complementing rodent repair deficiency, complementation group 1 (includes overlapping antisense sequence)	5151	0.14777331054210663	-0.17969532	No	
+row_32	UPF1	UPF1	UPF1 regulator of nonsense transcripts homolog (yeast)	5284	0.1332101672887802	-0.18817353	No	
+row_33	MPG	MPG	N-methylpurine-DNA glycosylase	5315	0.13076341152191162	-0.18839651	No	
+row_34	ERCC2	ERCC2	excision repair cross-complementing rodent repair deficiency, complementation group 2 (xeroderma pigmentosum D)	5340	0.12761440873146057	-0.18818483	No	
+row_35	XRCC6	XRCC6	X-ray repair complementing defective repair in Chinese hamster cells 6 (Ku autoantigen, 70kDa)	5515	0.10722915083169937	-0.20051987	No	
+row_36	PARP1	PARP1	poly (ADP-ribose) polymerase family, member 1	5829	0.07534129917621613	-0.22470196	No	
+row_37	MLH1	MLH1	mutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli)	5944	0.06198296323418617	-0.23292378	No	
+row_38	RFC3	RFC3	replication factor C (activator 1) 3, 38kDa	5967	0.059749651700258255	-0.23370014	No	
+row_39	RECQL4	RECQL4	RecQ protein-like 4	6021	0.054851923137903214	-0.23708111	No	
+row_40	MNAT1	MNAT1	menage a trois homolog 1, cyclin H assembly factor (Xenopus laevis)	6163	0.0406770221889019	-0.2478604	No	
+row_41	POLL	POLL	polymerase (DNA directed), lambda	6319	0.025290071964263916	-0.26003936	No	
+row_42	PARP3	PARP3	poly (ADP-ribose) polymerase family, member 3	6334	0.02335161343216896	-0.26078215	No	
+row_43	ERCC3	ERCC3	excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)	6522	0.0023399440106004477	-0.27595314	No	
+row_44	APEX1	APEX1	APEX nuclease (multifunctional DNA repair enzyme) 1	6530	0.0014718098100274801	-0.27649757	No	
+row_45	XRCC3	XRCC3	X-ray repair complementing defective repair in Chinese hamster cells 3	6620	-0.010242925956845284	-0.2835632	No	
+row_46	TNP1	TNP1	transition protein 1 (during histone to protamine replacement)	6793	-0.021839583292603493	-0.29718345	No	
+row_47	CSNK1E	CSNK1E	casein kinase 1, epsilon	6945	-0.023622427135705948	-0.3090653	No	
+row_48	PNKP	PNKP	polynucleotide kinase 3'-phosphatase	7067	-0.03701184317469597	-0.31827995	No	
+row_49	RECQL5	RECQL5	RecQ protein-like 5	7290	-0.06395027041435242	-0.33525318	No	
+row_50	VCP	VCP	valosin-containing protein	7315	-0.06667114794254303	-0.33607486	No	
+row_51	RAD17	RAD17	RAD17 homolog (S. pombe)	7369	-0.0725536197423935	-0.33915567	No	
+row_52	CDKN2D	CDKN2D	cyclin-dependent kinase inhibitor 2D (p19, inhibits CDK4)	7486	-0.08605588227510452	-0.347132	No	
+row_53	ERCC6	ERCC6	excision repair cross-complementing rodent repair deficiency, complementation group 6	7492	-0.08653595298528671	-0.3460714	No	
+row_54	SUMO1	SUMO1	SMT3 suppressor of mif two 3 homolog 1 (S. cerevisiae)	7703	-0.11036811769008636	-0.36128148	No	
+row_55	TDG	TDG	thymine-DNA glycosylase	7710	-0.11130695044994354	-0.35988218	No	
+row_56	WRNIP1	WRNIP1	Werner helicase interacting protein 1	7851	-0.12786802649497986	-0.3691017	No	
+row_57	MRE11A	MRE11A	MRE11 meiotic recombination 11 homolog A (S. cerevisiae)	7961	-0.14116407930850983	-0.3755742	No	
+row_58	SETX	SETX	senataxin	7997	-0.14606811106204987	-0.37594438	No	
+row_59	CSNK1D	CSNK1D	casein kinase 1, delta	8203	-0.17238308489322662	-0.3896962	No	
+row_60	CEBPG	CEBPG	CCAAT/enhancer binding protein (C/EBP), gamma	8300	-0.18738502264022827	-0.39432758	No	
+row_61	XRCC4	XRCC4	X-ray repair complementing defective repair in Chinese hamster cells 4	8316	-0.1905798614025116	-0.39231616	No	
+row_62	GTF2H1	GTF2H1	general transcription factor IIH, polypeptide 1, 62kDa	8438	-0.20660100877285004	-0.3986552	No	
+row_63	NBN	NBN	nibrin	8462	-0.21014660596847534	-0.39696276	No	
+row_64	RBBP8	RBBP8	retinoblastoma binding protein 8	8490	-0.2127712517976761	-0.39555117	No	
+row_65	RPA1	RPA1	replication protein A1, 70kDa	8523	-0.21851257979869843	-0.39444894	No	
+row_66	XRCC2	XRCC2	X-ray repair complementing defective repair in Chinese hamster cells 2	8707	-0.24657697975635529	-0.40515324	No	
+row_67	SMC1A	SMC1A	structural maintenance of chromosomes 1A	8744	-0.2527730166912079	-0.40379545	No	
+row_68	ASF1A	ASF1A	ASF1 anti-silencing function 1 homolog A (S. cerevisiae)	8931	-0.2803046703338623	-0.41417187	No	
+row_69	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.4117736	No	
+row_70	CIB1	CIB1	calcium and integrin binding 1 (calmyrin)	9074	-0.3012525141239166	-0.4156943	Yes	
+row_71	LIG1	LIG1	ligase I, DNA, ATP-dependent	9134	-0.3123125731945038	-0.41519776	Yes	
+row_72	NTHL1	NTHL1	nth endonuclease III-like 1 (E. coli)	9166	-0.3163171708583832	-0.41235578	Yes	
+row_73	ATRX	ATRX	alpha thalassemia/mental retardation syndrome X-linked (RAD54 homolog, S. cerevisiae)	9245	-0.3290337026119232	-0.4131212	Yes	
+row_74	RAD21	RAD21	RAD21 homolog (S. pombe)	9307	-0.34158453345298767	-0.41229102	Yes	
+row_75	HMGB1	HMGB1	high-mobility group box 1	9375	-0.3535114824771881	-0.41174662	Yes	
+row_76	UBE2B	UBE2B	ubiquitin-conjugating enzyme E2B (RAD6 homolog)	9380	-0.3544301688671112	-0.40606222	Yes	
+row_77	UVRAG	UVRAG	UV radiation resistance associated gene	9386	-0.35588598251342773	-0.40043446	Yes	
+row_78	POLG	POLG	polymerase (DNA directed), gamma	9430	-0.36377620697021484	-0.39776385	Yes	
+row_79	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	9544	-0.3812197744846344	-0.4004913	Yes	
+row_80	FANCA	FANCA	Fanconi anemia, complementation group A	9545	-0.3819243907928467	-0.3940153	Yes	
+row_81	RECQL	RECQL	RecQ protein-like (DNA helicase Q1-like)	9704	-0.407876193523407	-0.3999511	Yes	
+row_82	LIG3	LIG3	ligase III, DNA, ATP-dependent	9743	-0.4150145351886749	-0.396005	Yes	
+row_83	BRCA2	BRCA2	breast cancer 2, early onset	9763	-0.4184163808822632	-0.39045572	Yes	
+row_84	DDB1	DDB1	damage-specific DNA binding protein 1, 127kDa	9812	-0.42678168416023254	-0.3871235	Yes	
+row_85	RAD23B	RAD23B	RAD23 homolog B (S. cerevisiae)	9918	-0.45111462473869324	-0.38801506	Yes	
+row_86	ERCC4	ERCC4	excision repair cross-complementing rodent repair deficiency, complementation group 4	9934	-0.4562534987926483	-0.38149887	Yes	
+row_87	ATXN3	ATXN3	ataxin 3	10090	-0.49002596735954285	-0.38579768	Yes	
+row_88	ATR	ATR	ataxia telangiectasia and Rad3 related	10091	-0.49026158452033997	-0.37748474	Yes	
+row_89	MSH6	MSH6	mutS homolog 6 (E. coli)	10102	-0.4920516610145569	-0.36995482	Yes	
+row_90	UBE2V2	UBE2V2	ubiquitin-conjugating enzyme E2 variant 2	10142	-0.5028249025344849	-0.36460114	Yes	
+row_91	RPAIN	RPAIN	RPA interacting protein	10152	-0.504326581954956	-0.35678175	Yes	
+row_92	OGG1	OGG1	8-oxoguanine DNA glycosylase	10444	-0.5883230566978455	-0.37047613	Yes	
+row_93	ERCC5	ERCC5	me))	10672	-0.6594709753990173	-0.37775832	Yes	
+row_94	ALKBH1	ALKBH1	alkB, alkylation repair homolog 1 (E. coli)	10700	-0.671247124671936	-0.36857274	Yes	
+row_95	XPC	XPC	xeroderma pigmentosum, complementation group C	10737	-0.6879441142082214	-0.3598361	Yes	
+row_96	XAB2	XAB2	XPA binding protein 2	10792	-0.7104739546775818	-0.35218158	Yes	
+row_97	RAD54L	RAD54L	RAD54-like (S. cerevisiae)	10829	-0.7235655784606934	-0.34284094	Yes	
+row_98	RAD50	RAD50	RAD50 homolog (S. cerevisiae)	10855	-0.7383286356925964	-0.33235523	Yes	
+row_99	DDB2	DDB2	damage-specific DNA binding protein 2, 48kDa	11004	-0.8178924918174744	-0.3305253	Yes	
+row_100	IGHMBP2	IGHMBP2	immunoglobulin mu binding protein 2	11207	-0.9291114211082458	-0.33120194	Yes	
+row_101	MSH3	MSH3	mutS homolog 3 (E. coli)	11388	-1.0761122703552246	-0.3275965	Yes	
+row_102	POLI	POLI	polymerase (DNA directed) iota	11417	-1.1100002527236938	-0.31105268	Yes	
+row_103	PMS1	PMS1	PMS1 postmeiotic segregation increased 1 (S. cerevisiae)	11483	-1.1768968105316162	-0.29638416	Yes	
+row_104	BLM	BLM	Bloom syndrome	11521	-1.2112200260162354	-0.27885613	Yes	
+row_105	MSH5	MSH5	mutS homolog 5 (E. coli)	11529	-1.2209112644195557	-0.25872353	Yes	
+row_106	BTG2	BTG2	BTG family, member 2	11597	-1.3289220333099365	-0.24163993	Yes	
+row_107	RAD52	RAD52	RAD52 homolog (S. cerevisiae)	11718	-1.556610107421875	-0.22500665	Yes	
+row_108	POLE	POLE	polymerase (DNA directed), epsilon	11771	-1.6930698156356812	-0.2005284	Yes	
+row_109	HMGB2	HMGB2	high-mobility group box 2	11816	-1.8314096927642822	-0.1730537	Yes	
+row_110	GADD45G	GADD45G	growth arrest and DNA-damage-inducible, gamma	11821	-1.8447349071502686	-0.14209944	Yes	
+row_111	GADD45A	GADD45A	growth arrest and DNA-damage-inducible, alpha	11862	-1.9692660570144653	-0.111961864	Yes	
+row_112	MUTYH	MUTYH	mutY homolog (E. coli)	11887	-2.0488712787628174	-0.07917304	Yes	
+row_113	TREX2	TREX2	three prime repair exonuclease 2	12030	-2.266773223876953	-0.05228762	Yes	
+row_114	RAD51	RAD51	RAD51 homolog (RecA homolog, E. coli) (S. cerevisiae)	12077	-2.3610005378723145	-0.015995778	Yes	
+row_115	RAD54B	RAD54B	RAD54 homolog B (S. cerevisiae)	12101	-2.531224250793457	0.025053238	Yes	

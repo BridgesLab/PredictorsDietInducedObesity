@@ -1,0 +1,23 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1459377799578
+param	collapse	true
+param	plot_top_x	30
+param	rnk	/Users/Quynh/NextGenSeq/ObesityProjects/PredictorsDietInducedObesity/data/RNAseq/Juvenile-HFD/scripts/results/GSEA_prerank_Quadriceps_feeding_kallisto.rnk
+param	norm	meandiv
+param	scoring_scheme	weighted
+param	make_sets	true
+param	mode	Max_probe
+param	gmx	gseaftp.broadinstitute.org://pub/gsea/gene_sets/c2.cp.biocarta.v5.1.symbols.gmt
+param	gui	false
+param	chip	gseaftp.broadinstitute.org://pub/gsea/annotations/GENE_SYMBOL.chip
+param	rpt_label	Quad_BIOCARTA
+param	help	false
+param	out	/Users/Quynh/gsea_home/output/mar30
+param	include_only_symbols	true
+param	set_min	10
+param	nperm	1000
+param	rnd_seed	149
+param	zip_report	false
+param	set_max	5000
+
+file	/Users/Quynh/gsea_home/output/mar30/Quad_BIOCARTA.GseaPreranked.1459377799578/index.html

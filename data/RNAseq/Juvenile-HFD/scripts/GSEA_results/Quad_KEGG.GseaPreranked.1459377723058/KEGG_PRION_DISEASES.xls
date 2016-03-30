@@ -1,0 +1,31 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	C8A	C8A	complement component 8, alpha polypeptide	2	21.09100341796875	0.4596954	Yes	
+row_1	C8B	C8B	complement component 8, beta polypeptide	17	8.419347763061523	0.6421355	Yes	
+row_2	EGR1	EGR1	early growth response 1	510	2.3320114612579346	0.6532399	Yes	
+row_3	NCAM2	NCAM2	neural cell adhesion molecule 2	521	2.2980003356933594	0.7025365	Yes	
+row_4	HSPA1A	HSPA1A	heat shock 70kDa protein 1A	1198	1.100490927696228	0.67192686	No	
+row_5	C8G	C8G	complement component 8, gamma polypeptide	2254	0.6181806921958923	0.60018724	No	
+row_6	C1QA	C1QA	complement component 1, q subcomponent, A chain	3250	0.402353972196579	0.52858835	No	
+row_7	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	3311	0.39220383763313293	0.53229326	No	
+row_8	FYN	FYN	FYN oncogene related to SRC, FGR, YES	3331	0.3883477747440338	0.5392258	No	
+row_9	C1QC	C1QC	complement component 1, q subcomponent, C chain	3513	0.36009979248046875	0.53245693	No	
+row_10	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	3626	0.3419739007949829	0.53086627	No	
+row_11	HSPA5	HSPA5	heat shock 70kDa protein 5 (glucose-regulated protein, 78kDa)	3631	0.34123730659484863	0.5379833	No	
+row_12	MAPK3	MAPK3	mitogen-activated protein kinase 3	4021	0.28716179728507996	0.5128228	No	
+row_13	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	4057	0.282869428396225	0.5161632	No	
+row_14	STIP1	STIP1	stress-induced-phosphoprotein 1 (Hsp70/Hsp90-organizing protein)	4567	0.2174825817346573	0.47979036	No	
+row_15	CCL5	CCL5	chemokine (C-C motif) ligand 5	4955	0.17020973563194275	0.45224142	No	
+row_16	NOTCH1	NOTCH1	Notch homolog 1, translocation-associated (Drosophila)	5563	0.10185626894235611	0.40543154	No	
+row_17	PRNP	PRNP	prion protein (p27-30) (Creutzfeldt-Jakob disease, Gerstmann-Strausler-Scheinker syndrome, fatal familial insomnia)	5618	0.09724393486976624	0.40318993	No	
+row_18	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	5659	0.09273262321949005	0.40198082	No	
+row_19	C1QB	C1QB	complement component 1, q subcomponent, B chain	5804	0.07798376679420471	0.39204946	No	
+row_20	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	0.38707975	No	
+row_21	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6158	0.04132844880223274	0.36600992	No	
+row_22	MAPK1	MAPK1	mitogen-activated protein kinase 1	6361	0.02116192691028118	0.3501547	No	
+row_23	PRKX	PRKX	protein kinase, X-linked	6677	-0.01653672382235527	0.32507098	No	
+row_24	NCAM1	NCAM1	neural cell adhesion molecule 1	7449	-0.08221577852964401	0.2645857	No	
+row_25	IL1B	IL1B	interleukin 1, beta	8606	-0.23000827431678772	0.17622426	No	
+row_26	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	0.1537707	No	
+row_27	IL1A	IL1A	interleukin 1, alpha	9263	-0.33320102095603943	0.136803	No	
+row_28	ELK1	ELK1	ELK1, member of ETS oncogene family	9634	-0.39364513754844666	0.115498915	No	
+row_29	IL6	IL6	interleukin 6 (interferon, beta 2)	12350	-4.979585647583008	0.004765796	No	

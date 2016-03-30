@@ -1,0 +1,45 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIPOX	PIPOX	pipecolic acid oxidase	22	7.938144683837891	0.16853745	Yes	
+row_1	AGXT	AGXT	alanine-glyoxylate aminotransferase (oxalosis I; hyperoxaluria I; glycolicaciduria; serine-pyruvate aminotransferase)	26	7.824927806854248	0.33618224	Yes	
+row_2	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	239	3.6630778312683105	0.39763147	Yes	
+row_3	HAO2	HAO2	hydroxyacid oxidase 2 (long chain)	355	2.7947497367858887	0.4482944	Yes	
+row_4	SLC27A2	SLC27A2	solute carrier family 27 (fatty acid transporter), member 2	821	1.5111130475997925	0.4431129	Yes	
+row_5	PEX26	PEX26	peroxisome biogenesis factor 26	838	1.4868090152740479	0.4737192	Yes	
+row_6	PMVK	PMVK	phosphomevalonate kinase	3146	0.4230485260486603	0.29623598	No	
+row_7	ACOT8	ACOT8	acyl-CoA thioesterase 8	3217	0.407665491104126	0.29932195	No	
+row_8	PEX1	PEX1	peroxisome biogenesis factor 1	3554	0.3534418046474457	0.27973393	No	
+row_9	HACL1	HACL1	2-hydroxyacyl-CoA lyase 1	4162	0.26950713992118835	0.23643012	No	
+row_10	ABCD2	ABCD2	ATP-binding cassette, sub-family D (ALD), member 2	4278	0.2530438005924225	0.23255959	No	
+row_11	AMACR	AMACR	alpha-methylacyl-CoA racemase	4330	0.24563167989253998	0.23370552	No	
+row_12	PEX7	PEX7	peroxisomal biogenesis factor 7	4394	0.2381235510110855	0.23371996	No	
+row_13	FIS1	FIS1	fission 1 (mitochondrial outer membrane) homolog (S. cerevisiae)	4504	0.2238507717847824	0.22970828	No	
+row_14	PEX10	PEX10	peroxisome biogenesis factor 10	5257	0.13577716052532196	0.17180955	No	
+row_15	PRDX5	PRDX5	peroxiredoxin 5	5408	0.12016391009092331	0.16225769	No	
+row_16	IDI1	IDI1	isopentenyl-diphosphate delta isomerase 1	5708	0.08770763128995895	0.13996029	No	
+row_17	GNPAT	GNPAT	glyceronephosphate O-acyltransferase	5790	0.07906088978052139	0.13510635	No	
+row_18	ACOX3	ACOX3	acyl-Coenzyme A oxidase 3, pristanoyl	5846	0.07238239794969559	0.13221169	No	
+row_19	PEX14	PEX14	peroxisomal biogenesis factor 14	5856	0.07136473804712296	0.13301504	No	
+row_20	PHYH	PHYH	phytanoyl-CoA 2-hydroxylase	5979	0.058502428233623505	0.124404475	No	
+row_21	PEX19	PEX19	peroxisomal biogenesis factor 19	7072	-0.03763826936483383	0.036905374	No	
+row_22	PEX6	PEX6	peroxisomal biogenesis factor 6	7292	-0.06419791281223297	0.020572921	No	
+row_23	PEX12	PEX12	peroxisomal biogenesis factor 12	7363	-0.07179252058267593	0.01645258	No	
+row_24	ISOC1	ISOC1	isochorismatase domain containing 1	7487	-0.08619488030672073	0.008355303	No	
+row_25	CROT	CROT	carnitine O-octanoyltransferase	7560	-0.09419843554496765	0.0045539574	No	
+row_26	PEX11B	PEX11B	peroxisomal biogenesis factor 11B	7922	-0.1368095874786377	-0.02170368	No	
+row_27	SCP2	SCP2	sterol carrier protein 2	8178	-0.16904085874557495	-0.038697887	No	
+row_28	ABCD3	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3	8402	-0.20306366682052612	-0.05237438	No	
+row_29	ECH1	ECH1	enoyl Coenzyme A hydratase 1, peroxisomal	8666	-0.23881284892559052	-0.068518534	No	
+row_30	PEX11A	PEX11A	peroxisomal biogenesis factor 11A	8805	-0.25922882556915283	-0.0741163	No	
+row_31	PEX16	PEX16	peroxisomal biogenesis factor 16	9641	-0.39522266387939453	-0.13316047	No	
+row_32	PXMP4	PXMP4	peroxisomal membrane protein 4, 24kDa	9661	-0.399689257144928	-0.12612142	No	
+row_33	IDE	IDE	insulin-degrading enzyme	9844	-0.4314832091331482	-0.13158153	No	
+row_34	AGPS	AGPS	alkylglycerone phosphate synthase	9862	-0.4353654980659485	-0.1236153	No	
+row_35	PEX3	PEX3	peroxisomal biogenesis factor 3	10096	-0.49081847071647644	-0.13192655	No	
+row_36	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	10815	-0.7193978428840637	-0.17455398	No	
+row_37	ACAD11	ACAD11	acyl-Coenzyme A dehydrogenase family, member 11	10898	-0.7601000070571899	-0.16487676	No	
+row_38	SLC25A17	SLC25A17	solute carrier family 25 (mitochondrial carrier; peroxisomal membrane protein, 34kDa), member 17	11009	-0.8200867176055908	-0.15617679	No	
+row_39	PEX13	PEX13	peroxisome biogenesis factor 13	11011	-0.821395218372345	-0.13863425	No	
+row_40	PNPLA8	PNPLA8	patatin-like phospholipase domain containing 8	11414	-1.1070064306259155	-0.14739141	No	
+row_41	MLYCD	MLYCD	malonyl-CoA decarboxylase	11540	-1.2398501634597778	-0.13089822	No	
+row_42	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	11681	-1.4742631912231445	-0.110588595	No	
+row_43	ACOT4	ACOT4	acyl-CoA thioesterase 4	12406	-7.894441604614258	2.4261844E-4	No	

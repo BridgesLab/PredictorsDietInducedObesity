@@ -1,0 +1,37 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	9	9.190600395202637	0.24142148	Yes	
+row_1	TDO2	TDO2	tryptophan 2,3-dioxygenase	67	6.220677852630615	0.40071398	Yes	
+row_2	AADAT	AADAT	aminoadipate aminotransferase	433	2.5581140518188477	0.43861642	Yes	
+row_3	HAAO	HAAO	3-hydroxyanthranilate 3,4-dioxygenase	493	2.4044547080993652	0.49719957	Yes	
+row_4	TPH2	TPH2	tryptophan hydroxylase 2	666	1.7961024045944214	0.5306222	Yes	
+row_5	DDC	DDC	dopa decarboxylase (aromatic L-amino acid decarboxylase)	955	1.3310149908065796	0.5424164	Yes	
+row_6	AANAT	AANAT	arylalkylamine N-acetyltransferase	1853	0.7413921356201172	0.48945948	No	
+row_7	AFMID	AFMID	arylformamidase	2306	0.6036735773086548	0.46883652	No	
+row_8	TPH1	TPH1	tryptophan hydroxylase 1 (tryptophan 5-monooxygenase)	2479	0.5578562021255493	0.4696345	No	
+row_9	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	2845	0.481888085603714	0.45283368	No	
+row_10	OGDHL	OGDHL	oxoglutarate dehydrogenase-like	3033	0.44323351979255676	0.4493994	No	
+row_11	WARS	WARS	tryptophanyl-tRNA synthetase	3083	0.4348558187484741	0.45689684	No	
+row_12	CYP1A1	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	4746	0.19451910257339478	0.32770804	No	
+row_13	WARS2	WARS2	tryptophanyl tRNA synthetase 2 (mitochondrial)	4864	0.17999881505966187	0.32299522	No	
+row_14	IL4I1	IL4I1	interleukin 4 induced 1	4865	0.17991331219673157	0.32773548	No	
+row_15	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	5041	0.15925189852714539	0.3177888	No	
+row_16	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	0.22103448	No	
+row_17	OGDH	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)	6363	0.020509639754891396	0.21252361	No	
+row_18	KMO	KMO	kynurenine 3-monooxygenase (kynurenine 3-hydroxylase)	6452	0.009748944081366062	0.20566879	No	
+row_19	KYNU	KYNU	kynureninase (L-kynurenine hydrolase)	6561	-0.002260143868625164	0.19700035	No	
+row_20	MAOA	MAOA	monoamine oxidase A	6978	-0.027272602543234825	0.16410005	No	
+row_21	HADH	HADH	hydroxyacyl-Coenzyme A dehydrogenase	7109	-0.04154691472649574	0.1546888	No	
+row_22	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	7307	-0.06612909585237503	0.14051065	No	
+row_23	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	8304	-0.18848995864391327	0.06498553	No	
+row_24	MAOB	MAOB	monoamine oxidase B	8608	-0.23096217215061188	0.04658396	No	
+row_25	HADHA	HADHA	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit	8675	-0.24184919893741608	0.047622304	No	
+row_26	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	8769	-0.2555623948574066	0.04683996	No	
+row_27	GCDH	GCDH	glutaryl-Coenzyme A dehydrogenase	9183	-0.3197159171104431	0.02188722	No	
+row_28	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	10230	-0.5247142910957336	-0.04881999	No	
+row_29	ACMSD	ACMSD	aminocarboxymuconate semialdehyde decarboxylase	10520	-0.6130513548851013	-0.056023076	No	
+row_30	AOX1	AOX1	aldehyde oxidase 1	10928	-0.7716034054756165	-0.06858485	No	
+row_31	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	11068	-0.8480257391929626	-0.057474773	No	
+row_32	CYP1B1	CYP1B1	cytochrome P450, family 1, subfamily B, polypeptide 1	11663	-1.438443899154663	-0.06757934	No	
+row_33	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	11681	-1.4742631912231445	-0.030110124	No	
+row_34	CAT	CAT	catalase	11725	-1.57370126247406	0.00787785	No	
+row_35	INMT	INMT	indolethylamine N-methyltransferase	11806	-1.7959473133087158	0.048731297	No	

@@ -1,0 +1,30 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ABAT	ABAT	4-aminobutyrate aminotransferase	1790	0.76725172996521	-0.08519191	No	
+row_1	LDHAL6B	LDHAL6B	lactate dehydrogenase A-like 6B	2247	0.6193186640739441	-0.07408794	No	
+row_2	LDHA	LDHA	lactate dehydrogenase A	2569	0.5397952198982239	-0.058235195	No	
+row_3	LDHB	LDHB	lactate dehydrogenase B	2842	0.48248061537742615	-0.042860862	No	
+row_4	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	2845	0.481888085603714	-0.0057247803	No	
+row_5	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	5041	0.15925189852714539	-0.17068663	No	
+row_6	ACSS2	ACSS2	acyl-CoA synthetase short-chain family member 2	6054	0.05229620262980461	-0.24837711	No	
+row_7	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	-0.26157212	No	
+row_8	SUCLG1	SUCLG1	succinate-CoA ligase, GDP-forming, alpha subunit	6268	0.03091305121779442	-0.26055256	No	
+row_9	PCCA	PCCA	propionyl Coenzyme A carboxylase, alpha polypeptide	6397	0.017407726496458054	-0.26954362	No	
+row_10	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	7307	-0.06612909585237503	-0.33784425	No	
+row_11	SUCLG2	SUCLG2	succinate-CoA ligase, GDP-forming, beta subunit	7373	-0.0728641152381897	-0.33745465	No	
+row_12	MCEE	MCEE	methylmalonyl CoA epimerase	7659	-0.10464745759963989	-0.35237417	No	
+row_13	ACADM	ACADM	acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain	7931	-0.13751880824565887	-0.36361873	No	
+row_14	SUCLA2	SUCLA2	succinate-CoA ligase, ADP-forming, beta subunit	7956	-0.14061811566352844	-0.3546735	No	
+row_15	PCCB	PCCB	propionyl Coenzyme A carboxylase, beta polypeptide	7987	-0.14478524029254913	-0.34589034	No	
+row_16	HIBCH	HIBCH	3-hydroxyisobutyryl-Coenzyme A hydrolase	8219	-0.17516103386878967	-0.3509907	No	
+row_17	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	8304	-0.18848995864391327	-0.34318638	No	
+row_18	HADHA	HADHA	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit	8675	-0.24184919893741608	-0.354352	No	
+row_19	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	8769	-0.2555623948574066	-0.34208325	No	
+row_20	MUT	MUT	methylmalonyl Coenzyme A mutase	10167	-0.5095129609107971	-0.4154817	Yes	
+row_21	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	10230	-0.5247142910957336	-0.37987703	Yes	
+row_22	ACACB	ACACB	acetyl-Coenzyme A carboxylase beta	10619	-0.6432592868804932	-0.3614278	Yes	
+row_23	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	10634	-0.6470943689346313	-0.31247416	Yes	
+row_24	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	10682	-0.6624016165733337	-0.26500112	Yes	
+row_25	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	11068	-0.8480257391929626	-0.23046088	Yes	
+row_26	MLYCD	MLYCD	malonyl-CoA decarboxylase	11540	-1.2398501634597778	-0.17253998	Yes	
+row_27	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	11681	-1.4742631912231445	-0.069741234	Yes	
+row_28	ACSS1	ACSS1	acyl-CoA synthetase short-chain family member 1	11753	-1.6597163677215576	0.052984428	Yes	

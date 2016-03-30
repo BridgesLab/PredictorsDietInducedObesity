@@ -1,0 +1,29 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PAH	PAH	phenylalanine hydroxylase	48	6.766748905181885	0.20639957	Yes	
+row_1	CYP8B1	CYP8B1	cytochrome P450, family 8, subfamily B, polypeptide 1	189	4.012782096862793	0.3197897	Yes	
+row_2	CYP11B2	CYP11B2	cytochrome P450, family 11, subfamily B, polypeptide 2	390	2.753636121749878	0.38920626	Yes	
+row_3	CYP17A1	CYP17A1	cytochrome P450, family 17, subfamily A, polypeptide 1	415	2.670085906982422	0.47024065	Yes	
+row_4	CYP7B1	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	623	1.9135870933532715	0.5129874	Yes	
+row_5	CYP26A1	CYP26A1	cytochrome P450, family 26, subfamily A, polypeptide 1	646	1.8572711944580078	0.5689252	Yes	
+row_6	FADS1	FADS1	fatty acid desaturase 1	1222	1.081069827079773	0.55608094	Yes	
+row_7	P4HA1	P4HA1	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha polypeptide I	1500	0.911072313785553	0.56202126	Yes	
+row_8	PLOD2	PLOD2	procollagen-lysine, 2-oxoglutarate 5-dioxygenase 2	1572	0.8763515949249268	0.5835197	Yes	
+row_9	NOS3	NOS3	nitric oxide synthase 3 (endothelial cell)	1789	0.7672808170318604	0.5899182	Yes	
+row_10	TYR	TYR	tyrosinase (oculocutaneous albinism IA)	1903	0.7225216031074524	0.60324436	Yes	
+row_11	HMOX2	HMOX2	heme oxygenase (decycling) 2	2129	0.6487696766853333	0.6052333	Yes	
+row_12	P4HA2	P4HA2	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha polypeptide II	2403	0.5744998455047607	0.6010377	Yes	
+row_13	NOS1	NOS1	nitric oxide synthase 1 (neuronal)	2461	0.5621771216392517	0.6139038	Yes	
+row_14	EGLN2	EGLN2	egl nine homolog 2 (C. elegans)	3183	0.41461437940597534	0.5685583	No	
+row_15	ASPH	ASPH	aspartate beta-hydroxylase	3272	0.39849281311035156	0.5738343	No	
+row_16	PLOD3	PLOD3	procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3	3364	0.3842419385910034	0.5784252	No	
+row_17	BBOX1	BBOX1	butyrobetaine (gamma), 2-oxoglutarate dioxygenase (gamma-butyrobetaine hydroxylase) 1	3728	0.3266652822494507	0.55925953	No	
+row_18	CYP39A1	CYP39A1	cytochrome P450, family 39, subfamily A, polypeptide 1	3807	0.31508105993270874	0.56275123	No	
+row_19	EGLN1	EGLN1	egl nine homolog 1 (C. elegans)	4481	0.22726628184318542	0.5154604	No	
+row_20	DOHH	DOHH	deoxyhypusine hydroxylase/monooxygenase	5328	0.128865584731102	0.4511399	No	
+row_21	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	5370	0.12418033927679062	0.45168754	No	
+row_22	CYP11B1	CYP11B1	cytochrome P450, family 11, subfamily B, polypeptide 1	5714	0.08731812238693237	0.42669943	No	
+row_23	KMO	KMO	kynurenine 3-monooxygenase (kynurenine 3-hydroxylase)	6452	0.009748944081366062	0.3674805	No	
+row_24	PTGS1	PTGS1	prostaglandin-endoperoxide synthase 1 (prostaglandin G/H synthase and cyclooxygenase)	7286	-0.0633462443947792	0.3021739	No	
+row_25	CYP19A1	CYP19A1	cytochrome P450, family 19, subfamily A, polypeptide 1	8699	-0.2456226944923401	0.1957701	No	
+row_26	HMOX1	HMOX1	heme oxygenase (decycling) 1	11498	-1.1910486221313477	0.006808662	No	
+row_27	TH	TH	tyrosine hydroxylase	11950	-2.1459484100341797	0.03706999	No	

@@ -1,0 +1,51 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FBP1	FBP1	fructose-1,6-bisphosphatase 1	54	6.530265808105469	0.14484492	Yes	
+row_1	G6PC	G6PC	glucose-6-phosphatase, catalytic subunit	118	4.960663318634033	0.25309694	Yes	
+row_2	ALDOB	ALDOB	aldolase B, fructose-bisphosphate	158	4.45428466796875	0.35172012	Yes	
+row_3	PKLR	PKLR	pyruvate kinase, liver and RBC	177	4.11843204498291	0.4443683	Yes	
+row_4	ADH4	ADH4	alcohol dehydrogenase 4 (class II), pi polypeptide	244	3.5938313007354736	0.52114606	Yes	
+row_5	HK1	HK1	hexokinase 1	1683	0.8127183318138123	0.42337328	No	
+row_6	PGAM2	PGAM2	phosphoglycerate mutase 2 (muscle)	1923	0.715728223323822	0.42039078	No	
+row_7	HK2	HK2	hexokinase 2	2104	0.6550671458244324	0.4207957	No	
+row_8	LDHAL6B	LDHAL6B	lactate dehydrogenase A-like 6B	2247	0.6193186640739441	0.4234582	No	
+row_9	GCK	GCK	glucokinase (hexokinase 4, maturity onset diabetes of the young 2)	2349	0.590799868106842	0.42878622	No	
+row_10	LDHA	LDHA	lactate dehydrogenase A	2569	0.5397952198982239	0.42340186	No	
+row_11	PFKP	PFKP	phosphofructokinase, platelet	2684	0.5133110880851746	0.4259075	No	
+row_12	LDHB	LDHB	lactate dehydrogenase B	2842	0.48248061537742615	0.4242297	No	
+row_13	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	2845	0.481888085603714	0.43507886	No	
+row_14	ALDH3B1	ALDH3B1	aldehyde dehydrogenase 3 family, member B1	3379	0.3818008601665497	0.40067986	No	
+row_15	TPI1	TPI1	triosephosphate isomerase 1	4183	0.2669053077697754	0.3418109	No	
+row_16	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	4291	0.25116315484046936	0.33889294	No	
+row_17	DLAT	DLAT	dihydrolipoamide S-acetyltransferase (E2 component of pyruvate dehydrogenase complex)	4485	0.22584472596645355	0.3284385	No	
+row_18	ALDH1A3	ALDH1A3	aldehyde dehydrogenase 1 family, member A3	4560	0.21797578036785126	0.3274321	No	
+row_19	PGM1	PGM1	phosphoglucomutase 1	4896	0.17608030140399933	0.3043519	No	
+row_20	PGM2	PGM2	phosphoglucomutase 2	5023	0.16175761818885803	0.29785383	No	
+row_21	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	5041	0.15925189852714539	0.30011725	No	
+row_22	ENO3	ENO3	enolase 3 (beta, muscle)	5060	0.156315416097641	0.30223268	No	
+row_23	GAPDH	GAPDH	glyceraldehyde-3-phosphate dehydrogenase	5071	0.15526193380355835	0.3049713	No	
+row_24	PFKL	PFKL	phosphofructokinase, liver	5099	0.15253974497318268	0.3062723	No	
+row_25	BPGM	BPGM	2,3-bisphosphoglycerate mutase	5138	0.14875292778015137	0.30659682	No	
+row_26	PGAM1	PGAM1	phosphoglycerate mutase 1 (brain)	5575	0.10089259594678879	0.27362707	No	
+row_27	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	5595	0.09905427694320679	0.2743532	No	
+row_28	ENO1	ENO1	enolase 1, (alpha)	5703	0.08806374669075012	0.26770848	No	
+row_29	ACSS2	ACSS2	acyl-CoA synthetase short-chain family member 2	6054	0.05229620262980461	0.24058627	No	
+row_30	AKR1A1	AKR1A1	aldo-keto reductase family 1, member A1 (aldehyde reductase)	6238	0.03421945124864578	0.22656235	No	
+row_31	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	0.22642665	No	
+row_32	ADH5	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide	6614	-0.009561387822031975	0.19727619	No	
+row_33	ADH7	ADH7	alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide	7047	-0.03487713262438774	0.16312166	No	
+row_34	GALM	GALM	galactose mutarotase (aldose 1-epimerase)	7136	-0.04425101354718208	0.15701304	No	
+row_35	PDHA1	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	7172	-0.04777975752949715	0.15527306	No	
+row_36	PGK1	PGK1	phosphoglycerate kinase 1	7305	-0.06570237874984741	0.14609472	No	
+row_37	ENO2	ENO2	enolase 2 (gamma, neuronal)	8113	-0.16066479682922363	0.08447459	No	
+row_38	HK3	HK3	hexokinase 3 (white cell)	8748	-0.2534582316875458	0.038971514	No	
+row_39	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	8769	-0.2555623948574066	0.043192886	No	
+row_40	ALDH3A1	ALDH3A1	aldehyde dehydrogenase 3 family, memberA1	8943	-0.28185397386550903	0.03563637	No	
+row_41	DLD	DLD	dihydrolipoamide dehydrogenase	8954	-0.2840580344200134	0.041317914	No	
+row_42	ALDOC	ALDOC	aldolase C, fructose-bisphosphate	9012	-0.2924146354198456	0.04338782	No	
+row_43	PFKM	PFKM	phosphofructokinase, muscle	9322	-0.344791442155838	0.02626616	No	
+row_44	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	9606	-0.3894740641117096	0.01226904	No	
+row_45	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	11068	-0.8480257391929626	-0.086557806	No	
+row_46	FBP2	FBP2	fructose-1,6-bisphosphatase 2	11679	-1.4717538356781006	-0.102281585	No	
+row_47	ACSS1	ACSS1	acyl-CoA synthetase short-chain family member 1	11753	-1.6597163677215576	-0.07026391	No	
+row_48	ALDH3B2	ALDH3B2	aldehyde dehydrogenase 3 family, member B2	11801	-1.7868638038635254	-0.0332374	No	
+row_49	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	12243	-3.603898048400879	0.013430559	No	

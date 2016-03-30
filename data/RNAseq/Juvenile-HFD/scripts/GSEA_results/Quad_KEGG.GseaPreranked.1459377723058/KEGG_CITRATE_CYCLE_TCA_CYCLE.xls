@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	OGDHL	OGDHL	oxoglutarate dehydrogenase-like	3033	0.44323351979255676	-0.18771818	No	
+row_1	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	3564	0.3525122404098511	-0.18501508	No	
+row_2	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	3683	0.33428969979286194	-0.1513928	No	
+row_3	MDH2	MDH2	malate dehydrogenase 2, NAD (mitochondrial)	4202	0.26361578702926636	-0.15919575	No	
+row_4	IDH3A	IDH3A	isocitrate dehydrogenase 3 (NAD+) alpha	4286	0.2516810894012451	-0.13341047	No	
+row_5	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	4414	0.23573817312717438	-0.11323643	No	
+row_6	DLAT	DLAT	dihydrolipoamide S-acetyltransferase (E2 component of pyruvate dehydrogenase complex)	4485	0.22584472596645355	-0.08973639	No	
+row_7	MDH1	MDH1	malate dehydrogenase 1, NAD (soluble)	4741	0.19550497829914093	-0.08509256	No	
+row_8	IDH2	IDH2	isocitrate dehydrogenase 2 (NADP+), mitochondrial	5153	0.14750893414020538	-0.09924217	No	
+row_9	CS	CS	citrate synthase	5428	0.11788123846054077	-0.10615269	No	
+row_10	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	5595	0.09905427694320679	-0.106771834	No	
+row_11	DLST	DLST	dihydrolipoamide S-succinyltransferase (E2 component of 2-oxo-glutarate complex)	5649	0.09361520409584045	-0.098967664	No	
+row_12	IDH3G	IDH3G	isocitrate dehydrogenase 3 (NAD+) gamma	5664	0.0920853316783905	-0.0882115	No	
+row_13	IDH3B	IDH3B	isocitrate dehydrogenase 3 (NAD+) beta	6111	0.04615545645356178	-0.11827069	No	
+row_14	SUCLG1	SUCLG1	succinate-CoA ligase, GDP-forming, alpha subunit	6268	0.03091305121779442	-0.12687822	No	
+row_15	OGDH	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)	6363	0.020509639754891396	-0.13182181	No	
+row_16	ACO1	ACO1	aconitase 1, soluble	6619	-0.010103774257004261	-0.15111032	No	
+row_17	ACO2	ACO2	aconitase 2, mitochondrial	7064	-0.03669688478112221	-0.18222894	No	
+row_18	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	7069	-0.037231747061014175	-0.17774594	No	
+row_19	PDHA1	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	7172	-0.04777975752949715	-0.17981544	No	
+row_20	SUCLG2	SUCLG2	succinate-CoA ligase, GDP-forming, beta subunit	7373	-0.0728641152381897	-0.18656102	No	
+row_21	ACLY	ACLY	ATP citrate lyase	7438	-0.08081509172916412	-0.18129745	No	
+row_22	IDH1	IDH1	isocitrate dehydrogenase 1 (NADP+), soluble	7546	-0.09320623427629471	-0.17790689	No	
+row_23	SUCLA2	SUCLA2	succinate-CoA ligase, ADP-forming, beta subunit	7956	-0.14061811566352844	-0.19278449	No	
+row_24	DLD	DLD	dihydrolipoamide dehydrogenase	8954	-0.2840580344200134	-0.23663072	No	
+row_25	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	9606	-0.3894740641117096	-0.2389279	Yes	
+row_26	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	12243	-3.603898048400879	0.013405424	Yes	

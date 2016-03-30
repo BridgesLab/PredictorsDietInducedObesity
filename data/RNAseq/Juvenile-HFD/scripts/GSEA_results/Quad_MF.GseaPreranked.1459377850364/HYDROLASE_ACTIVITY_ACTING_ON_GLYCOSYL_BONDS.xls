@@ -1,0 +1,39 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KL	KL	klotho	872	1.43252694606781	-0.01720671	No	
+row_1	NEU4	NEU4	sialidase 4	2204	0.629551887512207	-0.101375595	No	
+row_2	MANBA	MANBA	mannosidase, beta A, lysosomal	2467	0.5605140328407288	-0.10170719	No	
+row_3	GLA	GLA	galactosidase, alpha	2873	0.47575843334198	-0.11674916	No	
+row_4	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	3169	0.41734835505485535	-0.12507233	No	
+row_5	HYAL2	HYAL2	hyaluronoglucosaminidase 2	3270	0.3989037275314331	-0.11832005	No	
+row_6	ADPRH	ADPRH	ADP-ribosylarginine hydrolase	3792	0.31722548604011536	-0.1486338	No	
+row_7	MAN1B1	MAN1B1	mannosidase, alpha, class 1B, member 1	4307	0.2485516369342804	-0.1809357	No	
+row_8	GUSB	GUSB	glucuronidase, beta	4648	0.20925100147724152	-0.20063515	No	
+row_9	HPSE	HPSE	heparanase	4775	0.19152449071407318	-0.20369674	No	
+row_10	SMUG1	SMUG1	single-strand-selective monofunctional uracil-DNA glycosylase 1	4924	0.17354929447174072	-0.20920502	No	
+row_11	FUCA1	FUCA1	fucosidase, alpha-L- 1, tissue	5101	0.1523013859987259	-0.21776666	No	
+row_12	GLB1	GLB1	galactosidase, beta 1	5391	0.12202747911214828	-0.23658772	No	
+row_13	GBA2	GBA2	glucosidase, beta (bile acid) 2	5914	0.0655127689242363	-0.27634338	No	
+row_14	HEXB	HEXB	hexosaminidase B (beta polypeptide)	6276	0.0302252396941185	-0.3043981	No	
+row_15	APEX1	APEX1	APEX nuclease (multifunctional DNA repair enzyme) 1	6530	0.0014718098100274801	-0.32479277	No	
+row_16	NAGLU	NAGLU	N-acetylglucosaminidase, alpha- (Sanfilippo disease IIIB)	6657	-0.014395537786185741	-0.3344417	No	
+row_17	HYAL1	HYAL1	hyaluronoglucosaminidase 1	6672	-0.016164999455213547	-0.3349721	No	
+row_18	IDUA	IDUA	iduronidase, alpha-L-	7018	-0.031933367252349854	-0.36167008	No	
+row_19	PARG	PARG	poly (ADP-ribose) glycohydrolase	7371	-0.0727475956082344	-0.38741595	No	
+row_20	TDG	TDG	thymine-DNA glycosylase	7710	-0.11130695044994354	-0.41059625	No	
+row_21	NEU1	NEU1	sialidase 1 (lysosomal sialidase)	8347	-0.19483612477779388	-0.4547568	No	
+row_22	MAN2A1	MAN2A1	mannosidase, alpha, class 2A, member 1	8366	-0.1974858045578003	-0.4488673	No	
+row_23	NAGA	NAGA	N-acetylgalactosaminidase, alpha-	8828	-0.2628719210624695	-0.47635275	No	
+row_24	MAN2B1	MAN2B1	mannosidase, alpha, class 2B, member 1	8980	-0.28806158900260925	-0.47784486	No	
+row_25	NTHL1	NTHL1	nth endonuclease III-like 1 (E. coli)	9166	-0.3163171708583832	-0.48103428	No	
+row_26	MAN1A2	MAN1A2	mannosidase, alpha, class 1A, member 2	9969	-0.4623539447784424	-0.52866334	Yes	
+row_27	MSH6	MSH6	mutS homolog 6 (E. coli)	10102	-0.4920516610145569	-0.5210334	Yes	
+row_28	NAGPA	NAGPA	N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase	10273	-0.5356206893920898	-0.5148546	Yes	
+row_29	LCT	LCT	lactase	10359	-0.5582170486450195	-0.5009652	Yes	
+row_30	OGG1	OGG1	8-oxoguanine DNA glycosylase	10444	-0.5883230566978455	-0.48587522	Yes	
+row_31	MSH3	MSH3	mutS homolog 3 (E. coli)	11388	-1.0761122703552246	-0.5220756	Yes	
+row_32	MGEA5	MGEA5	meningioma expressed antigen 5 (hyaluronidase)	11465	-1.1572943925857544	-0.48517925	Yes	
+row_33	MUTYH	MUTYH	mutY homolog (E. coli)	11887	-2.0488712787628174	-0.4430111	Yes	
+row_34	HPSE2	HPSE2	heparanase 2	11937	-2.137701988220215	-0.3674715	Yes	
+row_35	SPACA3	SPACA3	sperm acrosome associated 3	12035	-2.2668399810791016	-0.29100904	Yes	
+row_36	CHIT1	CHIT1	chitinase 1 (chitotriosidase)	12281	-3.863351345062256	-0.16713554	Yes	
+row_37	TREH	TREH	trehalase (brush-border membrane glycoprotein)	12339	-4.770174980163574	0.005657924	Yes	

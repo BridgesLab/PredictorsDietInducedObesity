@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	419	2.6598904132843018	0.13932124	No	
+row_1	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	1508	0.9054524302482605	0.11042814	No	
+row_2	MYLK	MYLK	myosin, light chain kinase	2887	0.47267377376556396	0.029951435	No	
+row_3	MAPK3	MAPK3	mitogen-activated protein kinase 3	4021	0.28716179728507996	-0.042822473	No	
+row_4	TLN1	TLN1	talin 1	4236	0.2580849528312683	-0.043298468	No	
+row_5	ACTA1	ACTA1	actin, alpha 1, skeletal muscle	4373	0.24066101014614105	-0.038611762	No	
+row_6	PTK2	PTK2	PTK2 protein tyrosine kinase 2	5456	0.11416096985340118	-0.118530035	No	
+row_7	ITGA1	ITGA1	integrin, alpha 1	5577	0.10081446915864944	-0.12165503	No	
+row_8	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	5659	0.09273262321949005	-0.12215767	No	
+row_9	CAPNS1	CAPNS1	calpain, small subunit 1	5802	0.07811476290225983	-0.12853637	No	
+row_10	PXN	PXN	paxillin	5866	0.07058538496494293	-0.12902756	No	
+row_11	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	5886	0.06836159527301788	-0.12611139	No	
+row_12	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	6126	0.044834960252046585	-0.14248726	No	
+row_13	MAPK1	MAPK1	mitogen-activated protein kinase 1	6361	0.02116192691028118	-0.16000049	No	
+row_14	CAPN2	CAPN2	calpain 2, (m/II) large subunit	6390	0.01807921752333641	-0.16108404	No	
+row_15	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6533	0.0010246370220556855	-0.17248097	No	
+row_16	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	7989	-0.14503128826618195	-0.28050193	No	
+row_17	EGF	EGF	epidermal growth factor (beta-urogastrone)	8588	-0.22774389386177063	-0.31395325	No	
+row_18	CXCR3	CXCR3	chemokine (C-X-C motif) receptor 3	9436	-0.36495041847229004	-0.35857475	Yes	
+row_19	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	9551	-0.38264384865760803	-0.34286952	Yes	
+row_20	CAPN1	CAPN1	calpain 1, (mu/I) large subunit	9603	-0.3892049789428711	-0.32165122	Yes	
+row_21	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	12290	-4.138568878173828	-0.26908904	Yes	
+row_22	CAPNS2	CAPNS2	calpain, small subunit 2	12315	-4.280097007751465	0.0075886976	Yes	

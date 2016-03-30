@@ -1,0 +1,68 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	LHX4	LHX4	LIM homeobox 4	136	4.704691410064697	0.093627475	Yes	
+row_1	NRXN1	NRXN1	neurexin 1	223	3.7822389602661133	0.17078783	Yes	
+row_2	JPH4	JPH4	junctophilin 4	268	3.4183011054992676	0.2432559	Yes	
+row_3	FAAH	FAAH	fatty acid amide hydrolase	369	2.7898924350738525	0.29720935	Yes	
+row_4	PDCD1LG2	PDCD1LG2	programmed cell death 1 ligand 2	784	1.5744563341140747	0.2986885	Yes	
+row_5	NNAT	NNAT	neuronatin	1554	0.8848090171813965	0.25606668	No	
+row_6	FIGN	FIGN	fidgetin	2111	0.6537699103355408	0.22556263	No	
+row_7	PHF6	PHF6	PHD finger protein 6	2143	0.6444774866104126	0.23738612	No	
+row_8	ADNP	ADNP	activity-dependent neuroprotector	2251	0.6185609102249146	0.24247581	No	
+row_9	NCOR2	NCOR2	nuclear receptor co-repressor 2	2626	0.5270244479179382	0.22389777	No	
+row_10	KCND1	KCND1	potassium voltage-gated channel, Shal-related subfamily, member 1	2740	0.503592848777771	0.22594413	No	
+row_11	AKAP1	AKAP1	A kinase (PRKA) anchor protein 1	3087	0.43417057394981384	0.20756926	No	
+row_12	SLITRK5	SLITRK5	SLIT and NTRK-like family, member 5	3343	0.38703420758247375	0.19551852	No	
+row_13	HMGA1	HMGA1	high mobility group AT-hook 1	3399	0.3784021735191345	0.19947931	No	
+row_14	PLXDC2	PLXDC2	plexin domain containing 2	3430	0.37490054965019226	0.20538765	No	
+row_15	UNG	UNG	uracil-DNA glycosylase	3524	0.358082115650177	0.20581779	No	
+row_16	H3F3A	H3F3A	H3 histone, family 3A	4129	0.2737966477870941	0.1629732	No	
+row_17	PCDH19	PCDH19	protocadherin 19	4495	0.225040465593338	0.13840732	No	
+row_18	PPP1R9B	PPP1R9B	protein phosphatase 1, regulatory subunit 9B, spinophilin	4681	0.20313259959220886	0.12793732	No	
+row_19	CREB5	CREB5	cAMP responsive element binding protein 5	4731	0.19664177298545837	0.12834133	No	
+row_20	OTX1	OTX1	orthodenticle homolog 1 (Drosophila)	4937	0.17201164364814758	0.115558766	No	
+row_21	APH1A	APH1A	anterior pharynx defective 1 homolog A (C. elegans)	4987	0.1662844568490982	0.11528755	No	
+row_22	TCF7L1	TCF7L1	transcription factor 7-like 1 (T-cell specific, HMG-box)	5021	0.16247104108333588	0.11622779	No	
+row_23	LSM12	LSM12	LSM12 homolog (S. cerevisiae)	5462	0.11323674023151398	0.08309876	No	
+row_24	DUSP13	DUSP13	dual specificity phosphatase 13	5697	0.08819857239723206	0.06610244	No	
+row_25	RPUSD3	RPUSD3	RNA pseudouridylate synthase domain containing 3	5766	0.08231128007173538	0.062424082	No	
+row_26	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	5812	0.07719340175390244	0.060495295	No	
+row_27	CAPN3	CAPN3	calpain 3, (p94)	5966	0.05977631360292435	0.0494292	No	
+row_28	POGZ	POGZ	pogo transposable element with ZNF domain	6010	0.05580771341919899	0.04718677	No	
+row_29	FUT8	FUT8	fucosyltransferase 8 (alpha (1,6) fucosyltransferase)	6233	0.034456536173820496	0.029967278	No	
+row_30	STOML1	STOML1	stomatin (EPB72)-like 1	6317	0.025516323745250702	0.023810374	No	
+row_31	PBX1	PBX1	pre-B-cell leukemia transcription factor 1	6421	0.014137118123471737	0.015780013	No	
+row_32	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	6629	-0.011394606903195381	-7.371778E-4	No	
+row_33	PURA	PURA	purine-rich element binding protein A	6668	-0.01587599888443947	-0.003462718	No	
+row_34	VCP	VCP	valosin-containing protein	7315	-0.06667114794254303	-0.05431712	No	
+row_35	ATG16L1	ATG16L1	ATG16 autophagy related 16-like 1 (S. cerevisiae)	7566	-0.09465913474559784	-0.07246602	No	
+row_36	ARID1A	ARID1A	AT rich interactive domain 1A (SWI- like)	7679	-0.10803723335266113	-0.07913694	No	
+row_37	CDCP1	CDCP1	CUB domain containing protein 1	7691	-0.10937540233135223	-0.07759531	No	
+row_38	SUMO1	SUMO1	SMT3 suppressor of mif two 3 homolog 1 (S. cerevisiae)	7703	-0.11036811769008636	-0.076031595	No	
+row_39	PUM2	PUM2	pumilio homolog 2 (Drosophila)	7783	-0.11844994127750397	-0.07979732	No	
+row_40	SLC2A1	SLC2A1	solute carrier family 2 (facilitated glucose transporter), member 1	8108	-0.1599923074245453	-0.102488324	No	
+row_41	CNR1	CNR1	cannabinoid receptor 1 (brain)	8296	-0.186680868268013	-0.1134863	No	
+row_42	PHF12	PHF12	PHD finger protein 12	8618	-0.2321280688047409	-0.13432974	No	
+row_43	SAR1A	SAR1A	SAR1 gene homolog A (S. cerevisiae)	8684	-0.24275195598602295	-0.13419639	No	
+row_44	ABCF2	ABCF2	ATP-binding cassette, sub-family F (GCN20), member 2	8857	-0.2677413523197174	-0.14217608	No	
+row_45	PIAS4	PIAS4	protein inhibitor of activated STAT, 4	8903	-0.27458813786506653	-0.13971424	No	
+row_46	TOPORS	TOPORS	topoisomerase I binding, arginine/serine-rich	9055	-0.2984071671962738	-0.14531046	No	
+row_47	TSHZ1	TSHZ1	teashirt family zinc finger 1	9098	-0.30756044387817383	-0.14187217	No	
+row_48	AP3B1	AP3B1	adaptor-related protein complex 3, beta 1 subunit	9361	-0.3497530221939087	-0.15531926	No	
+row_49	ERC2	ERC2	ELKS/RAB6-interacting/CAST family member 2	9369	-0.35032540559768677	-0.14809413	No	
+row_50	HERC4	HERC4	hect domain and RLD 4	9564	-0.3841685652732849	-0.15526654	No	
+row_51	BCL7A	BCL7A	B-cell CLL/lymphoma 7A	9633	-0.39332276582717896	-0.1520271	No	
+row_52	LETMD1	LETMD1	LETM1 domain containing 1	9684	-0.40363624691963196	-0.14709996	No	
+row_53	SLC25A27	SLC25A27	solute carrier family 25, member 27	10157	-0.5057519674301147	-0.17409088	No	
+row_54	CPNE8	CPNE8	copine VIII	10450	-0.5892204642295837	-0.18464205	No	
+row_55	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	10725	-0.6831261515617371	-0.19164619	No	
+row_56	TNRC6B	TNRC6B	trinucleotide repeat containing 6B	11053	-0.8411830067634583	-0.1994286	No	
+row_57	BSN	BSN	bassoon (presynaptic cytomatrix protein)	11066	-0.8471672534942627	-0.18155739	No	
+row_58	TCEA1	TCEA1	transcription elongation factor A (SII), 1	11165	-0.8976598381996155	-0.16953057	No	
+row_59	MSR1	MSR1	macrophage scavenger receptor 1	11194	-0.9188652038574219	-0.15136085	No	
+row_60	DAZAP1	DAZAP1	DAZ associated protein 1	11274	-0.9750691056251526	-0.1360729	No	
+row_61	SMOC1	SMOC1	SPARC related modular calcium binding 1	11292	-0.9888191819190979	-0.11545602	No	
+row_62	KCNH4	KCNH4	potassium voltage-gated channel, subfamily H (eag-related), member 4	11365	-1.0539748668670654	-0.09784586	No	
+row_63	NRIP1	NRIP1	nuclear receptor interacting protein 1	11472	-1.1621415615081787	-0.080584355	No	
+row_64	NR2C2	NR2C2	nuclear receptor subfamily 2, group C, member 2	11536	-1.2356503009796143	-0.058204047	No	
+row_65	RAD54B	RAD54B	RAD54 homolog B (S. cerevisiae)	12101	-2.531224250793457	-0.04759626	No	
+row_66	AIM1L	AIM1L	absent in melanoma 1-like	12207	-3.258068084716797	0.016365698	No	

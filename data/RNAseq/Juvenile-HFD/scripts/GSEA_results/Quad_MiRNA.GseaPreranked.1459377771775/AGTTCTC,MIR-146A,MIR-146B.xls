@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SYT1	SYT1	synaptotagmin I	120	4.919825553894043	0.15863143	Yes	
+row_1	NPAS4	NPAS4	neuronal PAS domain protein 4	568	2.135030746459961	0.19552524	Yes	
+row_2	CASK	CASK	calcium/calmodulin-dependent serine protein kinase (MAGUK family)	582	2.068878173828125	0.26526314	Yes	
+row_3	RARB	RARB	retinoic acid receptor, beta	678	1.7542381286621094	0.31760198	Yes	
+row_4	BCORL1	BCORL1	BCL6 co-repressor-like 1	858	1.4538354873657227	0.3528671	Yes	
+row_5	LRRC15	LRRC15	leucine rich repeat containing 15	954	1.3352340459823608	0.3908691	Yes	
+row_6	CD79B	CD79B	CD79b molecule, immunoglobulin-associated beta	1284	1.0465532541275024	0.40006456	Yes	
+row_7	PTGFRN	PTGFRN	prostaglandin F2 receptor negative regulator	1695	0.8062843084335327	0.39448655	Yes	
+row_8	NRP2	NRP2	neuropilin 2	1714	0.8004242181777954	0.42041808	Yes	
+row_9	KLF7	KLF7	Kruppel-like factor 7 (ubiquitous)	2798	0.49090147018432617	0.34960777	No	
+row_10	VASN	VASN	vasorin	3059	0.43926766514778137	0.34360573	No	
+row_11	STRBP	STRBP	spermatid perinuclear RNA binding protein	3607	0.34516093134880066	0.31116736	No	
+row_12	DTNA	DTNA	dystrobrevin, alpha	3839	0.31072092056274414	0.3031128	No	
+row_13	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	4391	0.23855727910995483	0.2667033	No	
+row_14	DLGAP1	DLGAP1	discs, large (Drosophila) homolog-associated protein 1	4531	0.2214760035276413	0.2630373	No	
+row_15	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	4729	0.19699013233184814	0.25384164	No	
+row_16	MMP16	MMP16	matrix metallopeptidase 16 (membrane-inserted)	5037	0.15978658199310303	0.2344748	No	
+row_17	KCTD15	KCTD15	potassium channel tetramerisation domain containing 15	5386	0.12236171960830688	0.21051078	No	
+row_18	TM6SF2	TM6SF2	transmembrane 6 superfamily member 2	5399	0.12077575922012329	0.21367256	No	
+row_19	PCDH1	PCDH1	protocadherin 1 (cadherin-like 1)	5783	0.07982447743415833	0.18542184	No	
+row_20	HIC2	HIC2	hypermethylated in cancer 2	6405	0.016124047338962555	0.13573895	No	
+row_21	SNX22	SNX22	sorting nexin 22	7010	-0.030631262809038162	0.08792764	No	
+row_22	JAZF1	JAZF1	JAZF zinc finger 1	7099	-0.04074907675385475	0.082203336	No	
+row_23	ELAVL1	ELAVL1	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 1 (Hu antigen R)	7175	-0.04828474670648575	0.07778849	No	
+row_24	HMBOX1	HMBOX1	homeobox containing 1	7418	-0.07881882041692734	0.06090926	No	
+row_25	STX3	STX3	syntaxin 3	7647	-0.10358989238739014	0.046010114	No	
+row_26	STC1	STC1	stanniocalcin 1	7670	-0.1065322682261467	0.047875613	No	
+row_27	ZFX	ZFX	zinc finger protein, X-linked	7692	-0.10947270691394806	0.04992262	No	
+row_28	RNF31	RNF31	ring finger protein 31	8116	-0.1607494205236435	0.021205118	No	
+row_29	POLR3H	POLR3H	polymerase (RNA) III (DNA directed) polypeptide H (22.9kD)	8384	-0.20125190913677216	0.006492783	No	
+row_30	NUMB	NUMB	numb homolog (Drosophila)	8561	-0.22329753637313843	-1.0396315E-4	No	
+row_31	CCDC117	CCDC117	coiled-coil domain containing 117	8878	-0.27117273211479187	-0.016387621	No	
+row_32	TRAF6	TRAF6	TNF receptor-associated factor 6	9174	-0.31875815987586975	-0.029344324	No	
+row_33	ARHGAP6	ARHGAP6	Rho GTPase activating protein 6	9198	-0.3221573233604431	-0.020181809	No	
+row_34	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	9284	-0.3364120125770569	-0.015546919	No	
+row_35	PSMD3	PSMD3	proteasome (prosome, macropain) 26S subunit, non-ATPase, 3	9673	-0.4022107422351837	-0.03317123	No	
+row_36	IVNS1ABP	IVNS1ABP	influenza virus NS1A binding protein	9733	-0.41347816586494446	-0.023796197	No	
+row_37	SMAD4	SMAD4	SMAD, mothers against DPP homolog 4 (Drosophila)	9758	-0.41749289631843567	-0.011452537	No	
+row_38	RUNX1T1	RUNX1T1	runt-related transcription factor 1; translocated to, 1 (cyclin D-related)	10002	-0.46973273158073425	-0.015036999	No	
+row_39	BIVM	BIVM	basic, immunoglobulin-like variable motif containing	10010	-0.47032445669174194	4.895471E-4	No	
+row_40	PHF20L1	PHF20L1	PHD finger protein 20-like 1	10319	-0.549954891204834	-0.005608052	No	
+row_41	THRB	THRB	thyroid hormone receptor, beta (erythroblastic leukemia viral (v-erb-a) oncogene homolog 2, avian)	10434	-0.5858998894691467	0.00521751	No	
+row_42	NOVA1	NOVA1	neuro-oncological ventral antigen 1	10639	-0.6488046646118164	0.010915071	No	
+row_43	HIPK1	HIPK1	homeodomain interacting protein kinase 1	10649	-0.6510611772537231	0.032463986	No	
+row_44	PTPRA	PTPRA	protein tyrosine phosphatase, receptor type, A	10731	-0.6855779886245728	0.04936964	No	
+row_45	SEC23IP	SEC23IP	SEC23 interacting protein	10927	-0.7708709239959717	0.059971903	No	
+row_46	USP3	USP3	ubiquitin specific peptidase 3	10956	-0.7912217974662781	0.084779635	No	
+row_47	PRX	PRX	periaxin	11240	-0.9550125598907471	0.094563976	No	

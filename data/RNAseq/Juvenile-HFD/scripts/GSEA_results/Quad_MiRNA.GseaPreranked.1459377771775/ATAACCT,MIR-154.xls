@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CHST9	CHST9	carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 9	255	3.5243277549743652	0.12884575	Yes	
+row_1	AQP9	AQP9	aquaporin 9	860	1.4525597095489502	0.14159217	Yes	
+row_2	MAF	MAF	v-maf musculoaponeurotic fibrosarcoma oncogene homolog (avian)	980	1.296444058418274	0.18695056	Yes	
+row_3	HMGA2	HMGA2	high mobility group AT-hook 2	987	1.2910429239273071	0.2412208	Yes	
+row_4	BRCA1	BRCA1	breast cancer 1, early onset	1088	1.1928967237472534	0.28372452	Yes	
+row_5	PKNOX2	PKNOX2	PBX/knotted 1 homeobox 2	1920	0.7160702347755432	0.24687229	Yes	
+row_6	TCF12	TCF12	transcription factor 12 (HTF4, helix-loop-helix transcription factors 4)	2167	0.6386508941650391	0.25405902	Yes	
+row_7	ADNP	ADNP	activity-dependent neuroprotector	2251	0.6185609102249146	0.27357924	Yes	
+row_8	SALL1	SALL1	sal-like 1 (Drosophila)	2652	0.5224717855453491	0.26338103	Yes	
+row_9	WNT5A	WNT5A	wingless-type MMTV integration site family, member 5A	2751	0.5012268424034119	0.2767115	Yes	
+row_10	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	2953	0.45929673314094543	0.27993163	Yes	
+row_11	PPM1E	PPM1E	protein phosphatase 1E (PP2C domain containing)	3006	0.44892844557762146	0.2947651	Yes	
+row_12	PAPPA	PAPPA	pregnancy-associated plasma protein A, pappalysin 1	3172	0.41672879457473755	0.29909202	Yes	
+row_13	TRIB2	TRIB2	tribbles homolog 2 (Drosophila)	3519	0.3589544892311096	0.28632697	Yes	
+row_14	FBXL16	FBXL16	F-box and leucine-rich repeat protein 16	3552	0.353962242603302	0.2987506	Yes	
+row_15	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	3601	0.34631064534187317	0.30955544	Yes	
+row_16	HDHD2	HDHD2	haloacid dehalogenase-like hydrolase domain containing 2	3615	0.3439232409000397	0.32309029	Yes	
+row_17	MTUS1	MTUS1	mitochondrial tumor suppressor 1	3861	0.307777464389801	0.3163249	No	
+row_18	UBE2A	UBE2A	ubiquitin-conjugating enzyme E2A (RAD6 homolog)	4241	0.2576359212398529	0.29659328	No	
+row_19	CNOT4	CNOT4	CCR4-NOT transcription complex, subunit 4	4299	0.24923564493656158	0.3025529	No	
+row_20	PPP1CC	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isoform	4784	0.1906556487083435	0.27148676	No	
+row_21	DOCK1	DOCK1	dedicator of cytokinesis 1	5601	0.0986112430691719	0.2096603	No	
+row_22	RNF11	RNF11	ring finger protein 11	5769	0.08199227601289749	0.19962862	No	
+row_23	PHF20	PHF20	PHD finger protein 20	6072	0.050268881022930145	0.17733091	No	
+row_24	FGFR1OP2	FGFR1OP2	FGFR1 oncogene partner 2	6142	0.04277827590703964	0.1735636	No	
+row_25	SOCS5	SOCS5	suppressor of cytokine signaling 5	6290	0.02863195911049843	0.16288666	No	
+row_26	UBE2D3	UBE2D3	ubiquitin-conjugating enzyme E2D 3 (UBC4/5 homolog, yeast)	6528	0.001784879481419921	0.1437907	No	
+row_27	CUL2	CUL2	cullin 2	6539	5.341233336366713E-4	0.14300443	No	
+row_28	PLAGL2	PLAGL2	pleiomorphic adenoma gene-like 2	7024	-0.03242102637887001	0.105227225	No	
+row_29	FNIP1	FNIP1	folliculin interacting protein 1	7562	-0.09435798972845078	0.06578956	No	
+row_30	VPS4B	VPS4B	vacuolar protein sorting 4 homolog B (S. cerevisiae)	7634	-0.10242249816656113	0.064390086	No	
+row_31	ATP2B1	ATP2B1	ATPase, Ca++ transporting, plasma membrane 1	7719	-0.11165320873260498	0.062330496	No	
+row_32	CTDSPL2	CTDSPL2	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase like 2	7810	-0.12236028164625168	0.06023965	No	
+row_33	CATSPER2	CATSPER2	cation channel, sperm associated 2	7872	-0.13073177635669708	0.06084976	No	
+row_34	RAB5B	RAB5B	RAB5B, member RAS oncogene family	8041	-0.15180599689483643	0.053698108	No	
+row_35	KPNA1	KPNA1	karyopherin alpha 1 (importin alpha 5)	8890	-0.27244141697883606	-0.003344443	No	
+row_36	COPS2	COPS2	COP9 constitutive photomorphogenic homolog subunit 2 (Arabidopsis)	9353	-0.34859025478363037	-0.025932657	No	
+row_37	E2F5	E2F5	E2F transcription factor 5, p130-binding	9507	-0.3768770694732666	-0.02232522	No	
+row_38	CIC	CIC	capicua homolog (Drosophila)	9626	-0.3924095332622528	-0.015227763	No	
+row_39	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	9757	-0.4173050820827484	-0.008045156	No	
+row_40	PCNA	PCNA	proliferating cell nuclear antigen	9821	-0.4277551770210266	0.0050004963	No	
+row_41	EVI5	EVI5	ecotropic viral integration site 5	9856	-0.43424227833747864	0.020667177	No	
+row_42	MAP4	MAP4	microtubule-associated protein 4	9884	-0.4433368444442749	0.037285827	No	
+row_43	SCARA5	SCARA5	scavenger receptor class A, member 5 (putative)	9919	-0.4514187276363373	0.05368099	No	
+row_44	WAC	WAC	WW domain containing adaptor with coiled-coil	9923	-0.4530319273471832	0.07265226	No	
+row_45	DYRK1A	DYRK1A	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A	10495	-0.6059238314628601	0.05216071	No	
+row_46	MARCH7	MARCH7	membrane-associated ring finger (C3HC4) 7	11326	-1.018833875656128	0.028230164	No	
+row_47	OSBPL8	OSBPL8	oxysterol binding protein-like 8	11635	-1.3981033563613892	0.062611334	No	

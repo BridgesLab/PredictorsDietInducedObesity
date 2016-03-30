@@ -1,0 +1,11 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGG	FGG	fibrinogen gamma chain	6	11.209016799926758	0.24927622	Yes	
+row_1	FGB	FGB	fibrinogen beta chain	7	9.303735733032227	0.4565827	Yes	
+row_2	FGA	FGA	fibrinogen alpha chain	11	8.921409606933594	0.65512824	Yes	
+row_3	F13B	F13B	coagulation factor XIII, B polypeptide	38	7.204971790313721	0.8135731	Yes	
+row_4	PROC	PROC	protein C (inactivator of coagulation factors Va and VIIIa)	97	5.551069736480713	0.93258506	Yes	
+row_5	SERPINC1	SERPINC1	serpin peptidase inhibitor, clade C (antithrombin), member 1	1060	1.224102258682251	0.88227993	No	
+row_6	THBD	THBD	thrombomodulin	1187	1.1070928573608398	0.896787	No	
+row_7	PROS1	PROS1	protein S (alpha)	5777	0.08059915155172348	0.5285022	No	
+row_8	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	6589	-0.005590595304965973	0.46322358	No	
+row_9	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	8885	-0.27154016494750977	0.2841934	No	

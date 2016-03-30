@@ -1,0 +1,29 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	2077	0.6630666851997375	-0.121332005	No	
+row_1	HMGA1	HMGA1	high mobility group AT-hook 1	3399	0.3784021735191345	-0.20153278	No	
+row_2	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3549	0.3540751039981842	-0.18878283	No	
+row_3	MAZ	MAZ	MYC-associated zinc finger protein (purine-binding transcription factor)	3739	0.32462215423583984	-0.18132491	No	
+row_4	HRSP12	HRSP12	heat-responsive protein 12	3741	0.32452449202537537	-0.15869051	No	
+row_5	IRAK3	IRAK3	interleukin-1 receptor-associated kinase 3	3882	0.3049960732460022	-0.14864899	No	
+row_6	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	-0.17450419	No	
+row_7	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	4572	0.21665716171264648	-0.17250349	No	
+row_8	UPF1	UPF1	UPF1 regulator of nonsense transcripts homolog (yeast)	5284	0.1332101672887802	-0.22060148	No	
+row_9	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	-0.26426813	No	
+row_10	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.267943	No	
+row_11	SET	SET	SET translocation (myeloid leukemia-associated)	6219	0.03608343377709389	-0.28447723	No	
+row_12	MOAP1	MOAP1	modulator of apoptosis 1	6602	-0.0077617415226995945	-0.3147852	No	
+row_13	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	6613	-0.008939740248024464	-0.3149671	No	
+row_14	TNP1	TNP1	transition protein 1 (during histone to protamine replacement)	6793	-0.021839583292603493	-0.3278949	No	
+row_15	TPD52L1	TPD52L1	tumor protein D52-like 1	7187	-0.050458069890737534	-0.35610268	No	
+row_16	SMARCE1	SMARCE1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1	7453	-0.08269894123077393	-0.3717162	No	
+row_17	TTF2	TTF2	transcription termination factor, RNA polymerase II	7830	-0.1254023164510727	-0.3933053	No	
+row_18	ETF1	ETF1	eukaryotic translation termination factor 1	8795	-0.25788307189941406	-0.45310965	No	
+row_19	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.44654277	No	
+row_20	MTIF3	MTIF3	-	9435	-0.3645968437194824	-0.45914257	No	
+row_21	MTRF1	MTRF1	mitochondrial translational release factor 1	9449	-0.3672763705253601	-0.4344849	No	
+row_22	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11193	-0.917675793170929	-0.51102084	Yes	
+row_23	GZMA	GZMA	granzyme A (granzyme 1, cytotoxic T-lymphocyte-associated serine esterase 3)	11211	-0.9340803027153015	-0.44701266	Yes	
+row_24	CECR2	CECR2	cat eye syndrome chromosome region, candidate 2	11451	-1.141296148300171	-0.3864296	Yes	
+row_25	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	11488	-1.1809436082839966	-0.30667666	Yes	
+row_26	PMAIP1	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	11614	-1.35092294216156	-0.22221382	Yes	
+row_27	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	12284	-4.0908403396606445	0.010095364	Yes	

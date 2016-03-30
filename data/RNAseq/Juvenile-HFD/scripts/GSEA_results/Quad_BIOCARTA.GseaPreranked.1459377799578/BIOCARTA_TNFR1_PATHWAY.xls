@@ -1,0 +1,30 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	170	4.258022308349609	0.2446328	Yes	
+row_1	MADD	MADD	MAP-kinase activating death domain	652	1.8470447063446045	0.31785586	Yes	
+row_2	LMNB2	LMNB2	lamin B2	813	1.5257095098495483	0.39750814	Yes	
+row_3	TRAF2	TRAF2	TNF receptor-associated factor 2	1448	0.9394485354423523	0.40330344	Yes	
+row_4	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	1639	0.8361364006996155	0.4386915	Yes	
+row_5	FADD	FADD	Fas (TNFRSF6)-associated via death domain	2072	0.6652167439460754	0.4441626	Yes	
+row_6	ARHGDIB	ARHGDIB	Rho GDP dissociation inhibitor (GDI) beta	2426	0.5693653225898743	0.4501985	Yes	
+row_7	SPTAN1	SPTAN1	spectrin, alpha, non-erythrocytic 1 (alpha-fodrin)	2697	0.5115615725517273	0.45943084	Yes	
+row_8	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	3549	0.3540751039981842	0.41218066	No	
+row_9	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	3652	0.33873996138572693	0.4244959	No	
+row_10	CRADD	CRADD	CASP2 and RIPK1 domain containing adaptor with death domain	4525	0.2219441533088684	0.36753228	No	
+row_11	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	4572	0.21665716171264648	0.37696302	No	
+row_12	TRADD	TRADD	TNFRSF1A-associated via death domain	5814	0.07630527764558792	0.28135875	No	
+row_13	PARP1	PARP1	poly (ADP-ribose) polymerase family, member 1	5829	0.07534129917621613	0.28479946	No	
+row_14	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	5987	0.05806233733892441	0.27564177	No	
+row_15	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	6197	0.037230268120765686	0.2610201	No	
+row_16	LMNA	LMNA	lamin A/C	6201	0.0370958186686039	0.26302865	No	
+row_17	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	6346	0.02262190170586109	0.25277054	No	
+row_18	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	6613	-0.008939740248024464	0.23182844	No	
+row_19	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	6684	-0.017080461606383324	0.22721101	No	
+row_20	MAPK8	MAPK8	mitogen-activated protein kinase 8	7845	-0.12662644684314728	0.14120236	No	
+row_21	PAK2	PAK2	p21 (CDKN1A)-activated kinase 2	8033	-0.15109093487262726	0.13526629	No	
+row_22	LMNB1	LMNB1	lamin B1	8934	-0.2805795669555664	0.07959896	No	
+row_23	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	9079	-0.30324727296829224	0.08636834	No	
+row_24	CASP2	CASP2	caspase 2, apoptosis-related cysteine peptidase (neural precursor cell expressed, developmentally down-regulated 2)	9362	-0.34985822439193726	0.0848198	No	
+row_25	PRKDC	PRKDC	protein kinase, DNA-activated, catalytic polypeptide	10254	-0.5296047925949097	0.044989463	No	
+row_26	JUN	JUN	jun oncogene	10432	-0.585570752620697	0.06622397	No	
+row_27	BAG4	BAG4	BCL2-associated athanogene 4	10665	-0.6575547456741333	0.087383956	No	
+row_28	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	11130	-0.8800072073936462	0.10330327	No	

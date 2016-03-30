@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SPTBN4	SPTBN4	spectrin, beta, non-erythrocytic 4	588	2.0396618843078613	-0.027595093	No	
+row_1	BFSP2	BFSP2	beaded filament structural protein 2, phakinin	637	1.878807783126831	-0.0130925225	No	
+row_2	ANK1	ANK1	ankyrin 1, erythrocytic	1044	1.2411246299743652	-0.033782493	No	
+row_3	ACTB	ACTB	actin, beta	1829	0.7497496008872986	-0.08985082	No	
+row_4	MSN	MSN	moesin	2318	0.6000973582267761	-0.12344499	No	
+row_5	ACTL7A	ACTL7A	actin-like 7A	2348	0.591975748538971	-0.11999772	No	
+row_6	MAPT	MAPT	microtubule-associated protein tau	2622	0.5277836918830872	-0.1369117	No	
+row_7	SPTAN1	SPTAN1	spectrin, alpha, non-erythrocytic 1 (alpha-fodrin)	2697	0.5115615725517273	-0.1378906	No	
+row_8	TUBG1	TUBG1	tubulin, gamma 1	2923	0.4659632444381714	-0.15152758	No	
+row_9	ARPC1B	ARPC1B	actin related protein 2/3 complex, subunit 1B, 41kDa	3035	0.4431290328502655	-0.15616843	No	
+row_10	TUBE1	TUBE1	tubulin, epsilon 1	3147	0.4228135645389557	-0.16100807	No	
+row_11	SPTBN2	SPTBN2	spectrin, beta, non-erythrocytic 2	3426	0.3753412365913391	-0.17981811	No	
+row_12	VIM	VIM	vimentin	3450	0.37113136053085327	-0.1780466	No	
+row_13	ARPC3	ARPC3	actin related protein 2/3 complex, subunit 3, 21kDa	3934	0.2988068759441376	-0.21418458	No	
+row_14	ARPC2	ARPC2	actin related protein 2/3 complex, subunit 2, 34kDa	4062	0.28239282965660095	-0.22169225	No	
+row_15	KRT19	KRT19	keratin 19	4201	0.2636404037475586	-0.23027301	No	
+row_16	SPTBN1	SPTBN1	spectrin, beta, non-erythrocytic 1	4324	0.24640855193138123	-0.23772842	No	
+row_17	ACTA1	ACTA1	actin, alpha 1, skeletal muscle	4373	0.24066101014614105	-0.23925543	No	
+row_18	ADD3	ADD3	adducin 3 (gamma)	4959	0.1694728434085846	-0.28490806	No	
+row_19	ARPC4	ARPC4	actin related protein 2/3 complex, subunit 4, 20kDa	5144	0.1482519656419754	-0.2983381	No	
+row_20	DST	DST	dystonin	6226	0.03508767485618591	-0.38541892	No	
+row_21	NEFL	NEFL	neurofilament, light polypeptide 68kDa	6859	-0.021989788860082626	-0.43631577	No	
+row_22	DES	DES	desmin	7288	-0.06365403532981873	-0.47030672	No	
+row_23	HIP1	HIP1	huntingtin interacting protein 1	7446	-0.08177152276039124	-0.48220372	No	
+row_24	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	7563	-0.09442784637212753	-0.49066103	No	
+row_25	ARPC5	ARPC5	actin related protein 2/3 complex, subunit 5, 16kDa	7955	-0.14058583974838257	-0.52090687	No	
+row_26	CCDC6	CCDC6	coiled-coil domain containing 6	8550	-0.22178004682064056	-0.56677556	No	
+row_27	SPTA1	SPTA1	spectrin, alpha, erythrocytic 1 (elliptocytosis 2)	8692	-0.24346651136875153	-0.5757963	No	
+row_28	CD2AP	CD2AP	CD2-associated protein	10015	-0.4717273712158203	-0.67809504	No	
+row_29	PPL	PPL	periplakin	10292	-0.5444245338439941	-0.69508886	No	
+row_30	SORBS2	SORBS2	sorbin and SH3 domain containing 2	10621	-0.6434747576713562	-0.7153188	No	
+row_31	VILL	VILL	villin-like	11253	-0.9602448344230652	-0.7569538	No	
+row_32	BFSP1	BFSP1	beaded filament structural protein 1, filensin	11271	-0.9734043478965759	-0.7488037	No	
+row_33	SORBS3	SORBS3	sorbin and SH3 domain containing 3	11655	-1.4260309934616089	-0.7658242	Yes	
+row_34	DSP	DSP	desmoplakin	11750	-1.6524137258529663	-0.7572571	Yes	
+row_35	BICD1	BICD1	bicaudal D homolog 1 (Drosophila)	12131	-2.8628902435302734	-0.7599751	Yes	
+row_36	KRT9	KRT9	keratin 9 (epidermolytic palmoplantar keratoderma)	12162	-3.1684787273406982	-0.7313971	Yes	
+row_37	KRT17	KRT17	keratin 17	12236	-3.4354248046875	-0.70368457	Yes	
+row_38	GFAP	GFAP	glial fibrillary acidic protein	12327	-4.547934532165527	-0.66646075	Yes	
+row_39	KRT2	KRT2	keratin 2 (epidermal ichthyosis bullosa of Siemens)	12381	-5.79730224609375	-0.61401933	Yes	
+row_40	KRT1	KRT1	keratin 1 (epidermolytic hyperkeratosis)	12397	-6.80812931060791	-0.5486136	Yes	
+row_41	LOR	LOR	loricrin	12402	-7.408689975738525	-0.47644162	Yes	
+row_42	KRT14	KRT14	keratin 14 (epidermolysis bullosa simplex, Dowling-Meara, Koebner)	12404	-7.532858848571777	-0.402812	Yes	
+row_43	KRT15	KRT15	keratin 15	12407	-20.046566009521484	-0.20681424	Yes	
+row_44	KRT5	KRT5	keratin 5 (epidermolysis bullosa simplex, Dowling-Meara/Kobner/Weber-Cockayne types)	12409	-21.14369010925293	-4.201138E-8	Yes	

@@ -1,0 +1,448 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ASGR1	ASGR1	asialoglycoprotein receptor 1	24	7.894051551818848	0.017193647	No	
+row_1	PGLYRP2	PGLYRP2	peptidoglycan recognition protein 2	65	6.243388652801514	0.029035114	No	
+row_2	SLAMF1	SLAMF1	signaling lymphocytic activation molecule family member 1	109	5.178510665893555	0.038035817	No	
+row_3	KLRC2	KLRC2	killer cell lectin-like receptor subfamily C, member 2	129	4.801379203796387	0.048125457	No	
+row_4	GCGR	GCGR	glucagon receptor	131	4.775632858276367	0.05965711	No	
+row_5	HCRTR2	HCRTR2	hypocretin (orexin) receptor 2	186	4.101891040802002	0.06511977	No	
+row_6	EFNA3	EFNA3	ephrin-A3	190	3.9985790252685547	0.074594304	No	
+row_7	HTR5A	HTR5A	5-hydroxytryptamine (serotonin) receptor 5A	193	3.934170961380005	0.083995774	No	
+row_8	PTPRZ1	PTPRZ1	protein tyrosine phosphatase, receptor-type, Z polypeptide 1	222	3.790748119354248	0.090875044	No	
+row_9	NRXN1	NRXN1	neurexin 1	223	3.7822389602661133	0.100074165	No	
+row_10	GALR2	GALR2	galanin receptor 2	299	3.0179684162139893	0.10114511	No	
+row_11	GHSR	GHSR	growth hormone secretagogue receptor	315	2.8849587440490723	0.10690801	No	
+row_12	SSTR3	SSTR3	somatostatin receptor 3	332	2.8712575435638428	0.112554	No	
+row_13	IL13RA2	IL13RA2	interleukin 13 receptor, alpha 2	344	2.8187942504882812	0.11849034	No	
+row_14	ASGR2	ASGR2	asialoglycoprotein receptor 2	346	2.8092284202575684	0.12523933	No	
+row_15	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	348	2.794860601425171	0.13195337	No	
+row_16	PAX8	PAX8	paired box gene 8	359	2.7947497367858887	0.13791482	No	
+row_17	RET	RET	ret proto-oncogene (multiple endocrine neoplasia and medullary thyroid carcinoma 1, Hirschsprung disease)	376	2.7600536346435547	0.14329034	No	
+row_18	NPY6R	NPY6R	neuropeptide Y receptor Y6 (pseudogene)	402	2.753506898880005	0.14789762	No	
+row_19	CHRM3	CHRM3	cholinergic receptor, muscarinic 3	407	2.7229113578796387	0.15418589	No	
+row_20	GRIA1	GRIA1	glutamate receptor, ionotropic, AMPA 1	420	2.6579830646514893	0.15964751	No	
+row_21	HTR1D	HTR1D	5-hydroxytryptamine (serotonin) receptor 1D	424	2.6412718296051025	0.16582082	No	
+row_22	FPR1	FPR1	formyl peptide receptor 1	464	2.5434067249298096	0.16874681	No	
+row_23	GUCY2F	GUCY2F	guanylate cyclase 2F, retinal	485	2.4406497478485107	0.17301111	No	
+row_24	TNFRSF11B	TNFRSF11B	tumor necrosis factor receptor superfamily, member 11b (osteoprotegerin)	487	2.4380204677581787	0.17885725	No	
+row_25	CHRNB4	CHRNB4	cholinergic receptor, nicotinic, beta 4	509	2.332050323486328	0.18277383	No	
+row_26	MCHR1	MCHR1	melanin-concentrating hormone receptor 1	551	2.20015287399292	0.18469779	No	
+row_27	NR2E1	NR2E1	nuclear receptor subfamily 2, group E, member 1	562	2.1484930515289307	0.18908742	No	
+row_28	SSTR4	SSTR4	somatostatin receptor 4	585	2.0642223358154297	0.192269	No	
+row_29	FZD3	FZD3	frizzled homolog 3 (Drosophila)	596	2.005380868911743	0.19631055	No	
+row_30	IL27RA	IL27RA	interleukin 27 receptor, alpha	610	1.9583745002746582	0.19998701	No	
+row_31	CLDN3	CLDN3	claudin 3	625	1.9110376834869385	0.20346475	No	
+row_32	RARB	RARB	retinoic acid receptor, beta	678	1.7542381286621094	0.20338465	No	
+row_33	PTPRS	PTPRS	protein tyrosine phosphatase, receptor type, S	683	1.7473162412643433	0.20730008	No	
+row_34	BDKRB1	BDKRB1	bradykinin receptor B1	783	1.5751760005950928	0.20285569	No	
+row_35	SCARF1	SCARF1	scavenger receptor class F, member 1	832	1.4906901121139526	0.20246896	No	
+row_36	CD28	CD28	CD28 molecule	862	1.4508304595947266	0.20357352	No	
+row_37	EFNA4	EFNA4	ephrin-A4	879	1.4278843402862549	0.20570895	No	
+row_38	NR1I3	NR1I3	nuclear receptor subfamily 1, group I, member 3	884	1.4231754541397095	0.20883602	No	
+row_39	ADRA1B	ADRA1B	adrenergic, alpha-1B-, receptor	893	1.4085601568222046	0.21159318	No	
+row_40	TAS1R1	TAS1R1	taste receptor, type 1, member 1	904	1.3912701606750488	0.2141411	No	
+row_41	CNTFR	CNTFR	ciliary neurotrophic factor receptor	915	1.3791428804397583	0.21665953	No	
+row_42	GFRA2	GFRA2	GDNF family receptor alpha 2	932	1.3568964004516602	0.2186223	No	
+row_43	ERBB4	ERBB4	v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian)	997	1.2839866876602173	0.21639536	No	
+row_44	RARA	RARA	retinoic acid receptor, alpha	1079	1.1988695859909058	0.21254037	No	
+row_45	CCR5	CCR5	chemokine (C-C motif) receptor 5	1083	1.196811318397522	0.21520047	No	
+row_46	ACVR1	ACVR1	activin A receptor, type I	1113	1.1686512231826782	0.21561871	No	
+row_47	ITGAX	ITGAX	integrin, alpha X (complement component 3 receptor 4 subunit)	1131	1.1528053283691406	0.21700151	No	
+row_48	GABRG2	GABRG2	gamma-aminobutyric acid (GABA) A receptor, gamma 2	1133	1.1517142057418823	0.2197191	No	
+row_49	PLXNA1	PLXNA1	plexin A1	1134	1.1512718200683594	0.22251922	No	
+row_50	CHRM1	CHRM1	cholinergic receptor, muscarinic 1	1158	1.1237152814865112	0.22332971	No	
+row_51	CRHR2	CRHR2	corticotropin releasing hormone receptor 2	1160	1.1229146718978882	0.22597726	No	
+row_52	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	1197	1.1008034944534302	0.22564535	No	
+row_53	PGLYRP1	PGLYRP1	peptidoglycan recognition protein 1	1202	1.098007321357727	0.22798154	No	
+row_54	FZD9	FZD9	frizzled homolog 9 (Drosophila)	1210	1.0896118879318237	0.23004656	No	
+row_55	GPR135	GPR135	G protein-coupled receptor 135	1240	1.0685348510742188	0.23022129	No	
+row_56	TACR1	TACR1	tachykinin receptor 1	1254	1.0614471435546875	0.23171625	No	
+row_57	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	1276	1.0514219999313354	0.23251809	No	
+row_58	HTR2A	HTR2A	5-hydroxytryptamine (serotonin) receptor 2A	1289	1.0371125936508179	0.23403746	No	
+row_59	GRIN2C	GRIN2C	glutamate receptor, ionotropic, N-methyl D-aspartate 2C	1319	1.0207831859588623	0.23409605	No	
+row_60	CSF2RA	CSF2RA	colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage)	1350	0.9994544386863708	0.23401918	No	
+row_61	CRLF1	CRLF1	cytokine receptor-like factor 1	1380	0.9801253080368042	0.2339789	No	
+row_62	RXRG	RXRG	retinoid X receptor, gamma	1388	0.9760990142822266	0.23576781	No	
+row_63	PVRL1	PVRL1	poliovirus receptor-related 1 (herpesvirus entry mediator C; nectin)	1391	0.9745917916297913	0.23797102	No	
+row_64	GABRD	GABRD	gamma-aminobutyric acid (GABA) A receptor, delta	1403	0.9668920040130615	0.23940319	No	
+row_65	GRM1	GRM1	glutamate receptor, metabotropic 1	1435	0.9490383863449097	0.23912011	No	
+row_66	EPHA5	EPHA5	EPH receptor A5	1444	0.9430510997772217	0.24074505	No	
+row_67	KDR	KDR	kinase insert domain receptor (a type III receptor tyrosine kinase)	1472	0.9285851120948792	0.24074659	No	
+row_68	MC3R	MC3R	melanocortin 3 receptor	1474	0.9279249310493469	0.24291989	No	
+row_69	IGSF1	IGSF1	immunoglobulin superfamily, member 1	1486	0.9203662276268005	0.2442389	No	
+row_70	CXCL16	CXCL16	chemokine (C-X-C motif) ligand 16	1512	0.9034014940261841	0.24434637	No	
+row_71	GNRHR	GNRHR	gonadotropin-releasing hormone receptor	1517	0.901744544506073	0.24620521	No	
+row_72	P2RY1	P2RY1	purinergic receptor P2Y, G-protein coupled, 1	1559	0.8827210068702698	0.24492492	No	
+row_73	ACVRL1	ACVRL1	activin A receptor type II-like 1	1571	0.8771445751190186	0.2461388	No	
+row_74	IL10RA	IL10RA	interleukin 10 receptor, alpha	1585	0.8700981736183167	0.24716836	No	
+row_75	AGER	AGER	advanced glycosylation end product-specific receptor	1653	0.8296355605125427	0.24358559	No	
+row_76	NRP2	NRP2	neuropilin 2	1714	0.8004242181777954	0.24051692	No	
+row_77	P2RY2	P2RY2	purinergic receptor P2Y, G-protein coupled, 2	1760	0.7764834761619568	0.23864387	No	
+row_78	FLT4	FLT4	fms-related tyrosine kinase 4	1781	0.7702247500419617	0.23884538	No	
+row_79	CXCR4	CXCR4	chemokine (C-X-C motif) receptor 4	1851	0.7427656650543213	0.23488414	No	
+row_80	NR4A3	NR4A3	nuclear receptor subfamily 4, group A, member 3	1883	0.7294618487358093	0.23406701	No	
+row_81	CRY1	CRY1	cryptochrome 1 (photolyase-like)	1908	0.7208061218261719	0.23381396	No	
+row_82	RRBP1	RRBP1	ribosome binding protein 1 homolog 180kDa (dog)	1926	0.7134872674942017	0.23412825	No	
+row_83	BCAM	BCAM	basal cell adhesion molecule (Lutheran blood group)	1971	0.698706328868866	0.23214963	No	
+row_84	PGR	PGR	progesterone receptor	1985	0.696567952632904	0.23275714	No	
+row_85	ANPEP	ANPEP	alanyl (membrane) aminopeptidase (aminopeptidase N, aminopeptidase M, microsomal aminopeptidase, CD13, p150)	1989	0.6942862868309021	0.234195	No	
+row_86	CLDN4	CLDN4	claudin 4	2062	0.6687973141670227	0.22980309	No	
+row_87	CHRNA4	CHRNA4	cholinergic receptor, nicotinic, alpha 4	2076	0.663309633731842	0.23032969	No	
+row_88	EPHB6	EPHB6	EPH receptor B6	2085	0.6598894000053406	0.23126593	No	
+row_89	NRP1	NRP1	neuropilin 1	2142	0.6447107791900635	0.2281529	No	
+row_90	KLRK1	KLRK1	killer cell lectin-like receptor subfamily K, member 1	2145	0.6438541412353516	0.22955169	No	
+row_91	TBXA2R	TBXA2R	thromboxane A2 receptor	2223	0.6252089738845825	0.22463581	No	
+row_92	ADRA2B	ADRA2B	adrenergic, alpha-2B-, receptor	2231	0.6237958669662476	0.22556786	No	
+row_93	NR1D1	NR1D1	nuclear receptor subfamily 1, group D, member 1	2244	0.6202470660209656	0.22607332	No	
+row_94	XCR1	XCR1	chemokine (C motif) receptor 1	2294	0.6070257425308228	0.22345376	No	
+row_95	KLRC1	KLRC1	killer cell lectin-like receptor subfamily C, member 1	2314	0.6007747650146484	0.22332673	No	
+row_96	NR2F6	NR2F6	nuclear receptor subfamily 2, group F, member 6	2317	0.6005624532699585	0.22462022	No	
+row_97	PTPRN	PTPRN	protein tyrosine phosphatase, receptor type, N	2450	0.5643942952156067	0.21495892	No	
+row_98	AVPR1A	AVPR1A	arginine vasopressin receptor 1A	2451	0.5643010139465332	0.2163314	No	
+row_99	F2R	F2R	coagulation factor II (thrombin) receptor	2469	0.5600724816322327	0.21627256	No	
+row_100	DDR2	DDR2	discoidin domain receptor family, member 2	2481	0.5572733879089355	0.21670845	No	
+row_101	IL3RA	IL3RA	interleukin 3 receptor, alpha (low affinity)	2492	0.556069552898407	0.21722502	No	
+row_102	COLEC12	COLEC12	collectin sub-family member 12	2531	0.5490043759346008	0.21538384	No	
+row_103	IL9R	IL9R	interleukin 9 receptor	2539	0.5470291376113892	0.21612918	No	
+row_104	F2RL3	F2RL3	coagulation factor II (thrombin) receptor-like 3	2546	0.5457865595817566	0.21695508	No	
+row_105	GUCY1B3	GUCY1B3	guanylate cyclase 1, soluble, beta 3	2558	0.5421268343925476	0.21735413	No	
+row_106	PTPRJ	PTPRJ	protein tyrosine phosphatase, receptor type, J	2566	0.5407959818840027	0.21808432	No	
+row_107	HRH2	HRH2	histamine receptor H2	2687	0.5129705667495728	0.20930104	No	
+row_108	PTPRD	PTPRD	protein tyrosine phosphatase, receptor type, D	2695	0.5118427872657776	0.2099608	No	
+row_109	PDGFRL	PDGFRL	platelet-derived growth factor receptor-like	2724	0.5069867372512817	0.20885333	No	
+row_110	FZD2	FZD2	frizzled homolog 2 (Drosophila)	2781	0.4946230351924896	0.20537525	No	
+row_111	EFNB3	EFNB3	ephrin-B3	2815	0.4874499440193176	0.20380232	No	
+row_112	RTN4RL1	RTN4RL1	reticulon 4 receptor-like 1	2861	0.47853052616119385	0.2012046	No	
+row_113	DDR1	DDR1	discoidin domain receptor family, member 1	2924	0.4658503830432892	0.19715498	No	
+row_114	PTGER4	PTGER4	prostaglandin E receptor 4 (subtype EP4)	2960	0.4577282965183258	0.19534259	No	
+row_115	P2RX7	P2RX7	purinergic receptor P2X, ligand-gated ion channel, 7	2966	0.4553658068180084	0.19603217	No	
+row_116	TNFRSF11A	TNFRSF11A	tumor necrosis factor receptor superfamily, member 11a, NFKB activator	2979	0.4525595009326935	0.19612978	No	
+row_117	PTPRK	PTPRK	protein tyrosine phosphatase, receptor type, K	3003	0.44899505376815796	0.19529922	No	
+row_118	GABRA4	GABRA4	gamma-aminobutyric acid (GABA) A receptor, alpha 4	3089	0.43388333916664124	0.18924928	No	
+row_119	LGALS3BP	LGALS3BP	lectin, galactoside-binding, soluble, 3 binding protein	3140	0.42407700419425964	0.18610115	No	
+row_120	PTPRC	PTPRC	protein tyrosine phosphatase, receptor type, C	3161	0.4196869432926178	0.18545009	No	
+row_121	FZD10	FZD10	frizzled homolog 10 (Drosophila)	3163	0.419155478477478	0.18638596	No	
+row_122	CYSLTR1	CYSLTR1	cysteinyl leukotriene receptor 1	3164	0.4184468388557434	0.18740371	No	
+row_123	SMO	SMO	smoothened homolog (Drosophila)	3166	0.4179101586341858	0.18833655	No	
+row_124	MR1	MR1	major histocompatibility complex, class I-related	3202	0.411249577999115	0.1864111	No	
+row_125	P2RX5	P2RX5	purinergic receptor P2X, ligand-gated ion channel, 5	3205	0.410689115524292	0.18724279	No	
+row_126	GABRA2	GABRA2	gamma-aminobutyric acid (GABA) A receptor, alpha 2	3208	0.4097168743610382	0.18807212	No	
+row_127	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	3214	0.4086288809776306	0.18864803	No	
+row_128	LY75	LY75	lymphocyte antigen 75	3221	0.4066338539123535	0.18913549	No	
+row_129	IL10RB	IL10RB	interleukin 10 receptor, beta	3237	0.4048396646976471	0.18886627	No	
+row_130	PTPRT	PTPRT	protein tyrosine phosphatase, receptor type, T	3251	0.4021672010421753	0.18875773	No	
+row_131	IL12RB2	IL12RB2	interleukin 12 receptor, beta 2	3268	0.399015873670578	0.18839076	No	
+row_132	AVPR2	AVPR2	arginine vasopressin receptor 2 (nephrogenic diabetes insipidus)	3288	0.39634472131729126	0.18776652	No	
+row_133	ACVR2A	ACVR2A	activin A receptor, type IIA	3313	0.39201924204826355	0.1867138	No	
+row_134	TNFRSF9	TNFRSF9	tumor necrosis factor receptor superfamily, member 9	3334	0.38777124881744385	0.1859851	No	
+row_135	STAB1	STAB1	stabilin 1	3340	0.3874407410621643	0.18650949	No	
+row_136	PTGER1	PTGER1	prostaglandin E receptor 1 (subtype EP1), 42kDa	3406	0.37792477011680603	0.18199524	No	
+row_137	TNFRSF4	TNFRSF4	tumor necrosis factor receptor superfamily, member 4	3436	0.3737276494503021	0.18048008	No	
+row_138	RARG	RARG	retinoic acid receptor, gamma	3525	0.3579203188419342	0.1739946	No	
+row_139	CHRNE	CHRNE	cholinergic receptor, nicotinic, epsilon	3526	0.35787469148635864	0.17486502	No	
+row_140	F2RL1	F2RL1	coagulation factor II (thrombin) receptor-like 1	3543	0.3549712896347046	0.17439091	No	
+row_141	ADRA1A	ADRA1A	adrenergic, alpha-1A-, receptor	3574	0.3502548635005951	0.17273508	No	
+row_142	GRIN2B	GRIN2B	glutamate receptor, ionotropic, N-methyl D-aspartate 2B	3596	0.34673675894737244	0.171823	No	
+row_143	SCARA3	SCARA3	scavenger receptor class A, member 3	3642	0.34014949202537537	0.1688887	No	
+row_144	TAS1R3	TAS1R3	taste receptor, type 1, member 3	3650	0.338839054107666	0.16912769	No	
+row_145	THRA	THRA	thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian)	3653	0.33836880326271057	0.16978347	No	
+row_146	TIE1	TIE1	tyrosine kinase with immunoglobulin-like and EGF-like domains 1	3714	0.3287228047847748	0.16556753	No	
+row_147	TGFBR2	TGFBR2	transforming growth factor, beta receptor II (70/80kDa)	3718	0.32809770107269287	0.16611475	No	
+row_148	XPR1	XPR1	xenotropic and polytropic retrovirus receptor	3742	0.3244234621524811	0.16498122	No	
+row_149	RTN4RL2	RTN4RL2	reticulon 4 receptor-like 2	3750	0.32260337471961975	0.16518071	No	
+row_150	AR	AR	androgen receptor (dihydrotestosterone receptor; testicular feminization; spinal and bulbar muscular atrophy; Kennedy disease)	3764	0.320547878742218	0.16487366	No	
+row_151	IL2RA	IL2RA	interleukin 2 receptor, alpha	3774	0.31959477066993713	0.16489866	No	
+row_152	OXTR	OXTR	oxytocin receptor	3779	0.31930795311927795	0.16534092	No	
+row_153	ADRA2C	ADRA2C	adrenergic, alpha-2C-, receptor	3784	0.3179980218410492	0.16577998	No	
+row_154	ADRA2A	ADRA2A	adrenergic, alpha-2A-, receptor	3858	0.30902302265167236	0.16042943	No	
+row_155	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	3878	0.30560293793678284	0.15958449	No	
+row_156	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	3890	0.3041616976261139	0.15940477	No	
+row_157	PRKCE	PRKCE	protein kinase C, epsilon	3921	0.30082908272743225	0.1576287	No	
+row_158	AXL	AXL	AXL receptor tyrosine kinase	3933	0.29889345169067383	0.15743616	No	
+row_159	GRK1	GRK1	G protein-coupled receptor kinase 1	3983	0.29232868552207947	0.1540512	No	
+row_160	GABBR1	GABBR1	gamma-aminobutyric acid (GABA) B receptor, 1	4050	0.2838679850101471	0.14922461	No	
+row_161	MCC	MCC	mutated in colorectal cancers	4075	0.28055694699287415	0.1479008	No	
+row_162	CD160	CD160	CD160 molecule	4076	0.2802894711494446	0.14858252	No	
+row_163	CNTNAP1	CNTNAP1	contactin associated protein 1	4151	0.27150264382362366	0.14305712	No	
+row_164	PRKCG	PRKCG	protein kinase C, gamma	4200	0.26411619782447815	0.13968714	No	
+row_165	TEK	TEK	TEK tyrosine kinase, endothelial (venous malformations, multiple cutaneous and mucosal)	4247	0.2569986581802368	0.13646701	No	
+row_166	GABRA3	GABRA3	gamma-aminobutyric acid (GABA) A receptor, alpha 3	4250	0.25676268339157104	0.13692433	No	
+row_167	IL15RA	IL15RA	interleukin 15 receptor, alpha	4328	0.24576234817504883	0.13108554	No	
+row_168	GRIK5	GRIK5	glutamate receptor, ionotropic, kainate 5	4344	0.24416066706180573	0.13042553	No	
+row_169	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4375	0.2405851036310196	0.12850295	No	
+row_170	PLXNB1	PLXNB1	plexin B1	4387	0.2389664500951767	0.12816466	No	
+row_171	AMHR2	AMHR2	anti-Mullerian hormone receptor, type II	4396	0.23787720501422882	0.1280745	No	
+row_172	ITPR1	ITPR1	inositol 1,4,5-triphosphate receptor, type 1	4454	0.2311835139989853	0.12387208	No	
+row_173	FKBP1A	FKBP1A	FK506 binding protein 1A, 12kDa	4510	0.22289913892745972	0.119816706	No	
+row_174	IGF2R	IGF2R	insulin-like growth factor 2 receptor	4569	0.21729163825511932	0.11549692	No	
+row_175	CHRNB1	CHRNB1	cholinergic receptor, nicotinic, beta 1 (muscle)	4616	0.21175633370876312	0.11216676	No	
+row_176	UNC5C	UNC5C	unc-5 homolog C (C. elegans)	4621	0.21150338649749756	0.11234681	No	
+row_177	CALCRL	CALCRL	calcitonin receptor-like	4672	0.20553995668888092	0.10866717	No	
+row_178	GUCY2D	GUCY2D	guanylate cyclase 2D, membrane (retina-specific)	4718	0.19839255511760712	0.105388105	No	
+row_179	ROBO4	ROBO4	roundabout homolog 4, magic roundabout (Drosophila)	4751	0.1942072957754135	0.103185534	No	
+row_180	FGFR4	FGFR4	fibroblast growth factor receptor 4	4796	0.18910253047943115	0.099967465	No	
+row_181	UNC13B	UNC13B	unc-13 homolog B (C. elegans)	4855	0.18122230470180511	0.09555995	No	
+row_182	SEMA4D	SEMA4D	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4D	4876	0.17900443077087402	0.0943235	No	
+row_183	PLA2R1	PLA2R1	phospholipase A2 receptor 1, 180kDa	4888	0.17702126502990723	0.09383454	No	
+row_184	TRHR	TRHR	thyrotropin-releasing hormone receptor	4947	0.1708926409482956	0.08940191	No	
+row_185	TNFRSF13B	TNFRSF13B	tumor necrosis factor receptor superfamily, member 13B	4962	0.1690869778394699	0.08864288	No	
+row_186	RXRA	RXRA	retinoid X receptor, alpha	4980	0.16703827679157257	0.087628104	No	
+row_187	IGSF6	IGSF6	immunoglobulin superfamily, member 6	4990	0.16612838208675385	0.08727984	No	
+row_188	GFRA1	GFRA1	GDNF family receptor alpha 1	5032	0.16025526821613312	0.08424237	No	
+row_189	IL1R1	IL1R1	interleukin 1 receptor, type I	5055	0.15712545812129974	0.08278553	No	
+row_190	SPN	SPN	sialophorin (leukosialin, CD43)	5115	0.1511273980140686	0.07822123	No	
+row_191	LRP8	LRP8	low density lipoprotein receptor-related protein 8, apolipoprotein e receptor	5152	0.14751194417476654	0.075570725	No	
+row_192	VDR	VDR	vitamin D (1,25- dihydroxyvitamin D3) receptor	5203	0.1425984650850296	0.071738	No	
+row_193	TYRO3	TYRO3	TYRO3 protein tyrosine kinase	5214	0.14082543551921844	0.071244605	No	
+row_194	TLR2	TLR2	toll-like receptor 2	5261	0.1354520171880722	0.06772886	No	
+row_195	GRIK3	GRIK3	glutamate receptor, ionotropic, kainate 3	5285	0.1331583708524704	0.06613013	No	
+row_196	CLEC2D	CLEC2D	C-type lectin domain family 2, member D	5297	0.13217879831790924	0.06553211	No	
+row_197	ICAM1	ICAM1	intercellular adhesion molecule 1 (CD54), human rhinovirus receptor	5298	0.13205581903457642	0.0658533	No	
+row_198	EBP	EBP	emopamil binding protein (sterol isomerase)	5323	0.12960845232009888	0.064162344	No	
+row_199	TRIM27	TRIM27	tripartite motif-containing 27	5333	0.1285436600446701	0.06372267	No	
+row_200	VIPR1	VIPR1	vasoactive intestinal peptide receptor 1	5336	0.12836001813411713	0.06386768	No	
+row_201	SORL1	SORL1	sortilin-related receptor, L(DLR class) A repeats-containing	5359	0.12518036365509033	0.06233314	No	
+row_202	CHRM4	CHRM4	cholinergic receptor, muscarinic 4	5423	0.11822198331356049	0.05735444	No	
+row_203	MARCO	MARCO	macrophage receptor with collagenous structure	5426	0.11799027025699615	0.057474233	No	
+row_204	OPCML	OPCML	opioid binding protein/cell adhesion molecule-like	5445	0.11581946164369583	0.056251287	No	
+row_205	LRPAP1	LRPAP1	low density lipoprotein receptor-related protein associated protein 1	5447	0.1156989261507988	0.0564491	No	
+row_206	CELSR3	CELSR3	cadherin, EGF LAG seven-pass G-type receptor 3 (flamingo homolog, Drosophila)	5452	0.11476951092481613	0.056393877	No	
+row_207	GHR	GHR	growth hormone receptor	5463	0.1132112666964531	0.055833317	No	
+row_208	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	5493	0.10961049050092697	0.05367577	No	
+row_209	HTR7	HTR7	5-hydroxytryptamine (serotonin) receptor 7 (adenylate cyclase-coupled)	5495	0.10947621613740921	0.053858444	No	
+row_210	NPR3	NPR3	natriuretic peptide receptor C/guanylate cyclase C (atrionatriuretic peptide receptor C)	5501	0.10885532200336456	0.053705245	No	
+row_211	RPSA	RPSA	ribosomal protein SA	5519	0.10698894411325455	0.052544415	No	
+row_212	NFAM1	NFAM1	NFAT activating protein with ITAM motif 1	5643	0.09418873488903046	0.042491797	No	
+row_213	TNFRSF18	TNFRSF18	tumor necrosis factor receptor superfamily, member 18	5654	0.09311990439891815	0.041882373	No	
+row_214	PGRMC2	PGRMC2	progesterone receptor membrane component 2	5662	0.0924365445971489	0.04152206	No	
+row_215	MC5R	MC5R	melanocortin 5 receptor	5753	0.08293936401605606	0.034200586	No	
+row_216	NR2C1	NR2C1	nuclear receptor subfamily 2, group C, member 1	5771	0.08168860524892807	0.03297822	No	
+row_217	PTPRB	PTPRB	protein tyrosine phosphatase, receptor type, B	5775	0.081182099878788	0.032924898	No	
+row_218	MRC1	MRC1	mannose receptor, C type 1	5788	0.07926858961582184	0.0321146	No	
+row_219	TOMM22	TOMM22	translocase of outer mitochondrial membrane 22 homolog (yeast)	5887	0.06835135817527771	0.02408892	No	
+row_220	CNR2	CNR2	cannabinoid receptor 2 (macrophage)	5926	0.06421716511249542	0.021068646	No	
+row_221	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	5940	0.0625847727060318	0.02013418	No	
+row_222	PTK7	PTK7	PTK7 protein tyrosine kinase 7	5943	0.06211933121085167	0.020118084	No	
+row_223	C5AR1	C5AR1	complement component 5a receptor 1	5955	0.06081414222717285	0.019346494	No	
+row_224	TRAM1	TRAM1	translocation associated membrane protein 1	5973	0.058997951447963715	0.01806894	No	
+row_225	LY96	LY96	lymphocyte antigen 96	5984	0.05815695971250534	0.017374478	No	
+row_226	LIFR	LIFR	leukemia inhibitory factor receptor alpha	5990	0.05792762711644173	0.017097414	No	
+row_227	GABRB3	GABRB3	gamma-aminobutyric acid (GABA) A receptor, beta 3	6001	0.05660409480333328	0.016399175	No	
+row_228	NPBWR1	NPBWR1	neuropeptides B/W receptor 1	6014	0.05558270215988159	0.01553127	No	
+row_229	CMKLR1	CMKLR1	chemokine-like receptor 1	6042	0.053380437195301056	0.013404142	No	
+row_230	TNPO3	TNPO3	transportin 3	6052	0.052435100078582764	0.012779354	No	
+row_231	F2RL2	F2RL2	coagulation factor II (thrombin) receptor-like 2	6060	0.051596108824014664	0.012319708	No	
+row_232	PTPRE	PTPRE	protein tyrosine phosphatase, receptor type, E	6068	0.05049289017915726	0.011857379	No	
+row_233	LILRB4	LILRB4	leukocyte immunoglobulin-like receptor, subfamily B (with TM and ITIM domains), member 4	6094	0.047606226056814194	0.00988339	No	
+row_234	ADCYAP1R1	ADCYAP1R1	adenylate cyclase activating polypeptide 1 (pituitary) receptor type I	6127	0.044799383729696274	0.0073174355	No	
+row_235	CD33	CD33	CD33 molecule	6200	0.03711318597197533	0.0013891445	No	
+row_236	CLEC1A	CLEC1A	C-type lectin domain family 1, member A	6239	0.03410220146179199	-0.0017043734	No	
+row_237	CUL5	CUL5	cullin 5	6284	0.02920999564230442	-0.0053113364	No	
+row_238	FKBP3	FKBP3	FK506 binding protein 3, 25kDa	6311	0.02623884007334709	-0.007420887	No	
+row_239	LANCL1	LANCL1	LanC lantibiotic synthetase component C-like 1 (bacterial)	6336	0.023137366399168968	-0.009370798	No	
+row_240	CHRNA1	CHRNA1	cholinergic receptor, nicotinic, alpha 1 (muscle)	6354	0.022128665819764137	-0.010738025	No	
+row_241	MAS1	MAS1	MAS1 oncogene	6367	0.01986292563378811	-0.011692808	No	
+row_242	AMFR	AMFR	autocrine motility factor receptor	6515	0.0028329056221991777	-0.023973806	No	
+row_243	PPARD	PPARD	peroxisome proliferative activated receptor, delta	6592	-0.006434424314647913	-0.030311078	No	
+row_244	NR3C1	NR3C1	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)	6621	-0.010293138213455677	-0.03262659	No	
+row_245	GUCY1A3	GUCY1A3	guanylate cyclase 1, soluble, alpha 3	6639	-0.012516021728515625	-0.0340172	No	
+row_246	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	6684	-0.017080461606383324	-0.037653666	No	
+row_247	GABBR2	GABBR2	gamma-aminobutyric acid (GABA) B receptor, 2	6691	-0.017748795449733734	-0.03811204	No	
+row_248	MC4R	MC4R	melanocortin 4 receptor	6746	-0.021836379542946815	-0.04257285	No	
+row_249	BRS3	BRS3	bombesin-like receptor 3	6766	-0.02183779515326023	-0.044107966	No	
+row_250	CCR6	CCR6	chemokine (C-C motif) receptor 6	6794	-0.021839583292603493	-0.046311807	No	
+row_251	TAS1R2	TAS1R2	taste receptor, type 1, member 2	6811	-0.021909590810537338	-0.047595978	No	
+row_252	HTR4	HTR4	5-hydroxytryptamine (serotonin) receptor 4	6832	-0.02194952964782715	-0.04921441	No	
+row_253	NTRK1	NTRK1	neurotrophic tyrosine kinase, receptor, type 1	6842	-0.021975703537464142	-0.049913283	No	
+row_254	DMBT1	DMBT1	deleted in malignant brain tumors 1	6856	-0.021983817219734192	-0.0509465	No	
+row_255	HTR1F	HTR1F	5-hydroxytryptamine (serotonin) receptor 1F	6860	-0.021989788860082626	-0.051143788	No	
+row_256	ALK	ALK	anaplastic lymphoma kinase (Ki-1)	6895	-0.02200060896575451	-0.053932376	No	
+row_257	LTK	LTK	leukocyte tyrosine kinase	6912	-0.022031499072909355	-0.05521625	No	
+row_258	RYK	RYK	RYK receptor-like tyrosine kinase	6958	-0.02464425377547741	-0.058917906	No	
+row_259	FLT1	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	7077	-0.03812359645962715	-0.06868893	No	
+row_260	FCGRT	FCGRT	Fc fragment of IgG, receptor, transporter, alpha	7080	-0.03833611682057381	-0.06876287	No	
+row_261	PRKCZ	PRKCZ	protein kinase C, zeta	7158	-0.04662911966443062	-0.075085975	No	
+row_262	AVPR1B	AVPR1B	arginine vasopressin receptor 1B	7264	-0.060068290680646896	-0.08371694	No	
+row_263	KISS1R	KISS1R	KISS1 receptor	7388	-0.07455418258905411	-0.09381731	No	
+row_264	NPR2	NPR2	natriuretic peptide receptor B/guanylate cyclase B (atrionatriuretic peptide receptor B)	7415	-0.07846175134181976	-0.09579985	No	
+row_265	PVR	PVR	poliovirus receptor	7466	-0.08420504629611969	-0.0997746	No	
+row_266	ATRN	ATRN	attractin	7540	-0.09234832972288132	-0.10565214	No	
+row_267	CRIM1	CRIM1	cysteine rich transmembrane BMP regulator 1 (chordin-like)	7577	-0.0960502028465271	-0.1084278	No	
+row_268	NMBR	NMBR	neuromedin B receptor	7673	-0.10696203261613846	-0.116108805	No	
+row_269	TNFRSF25	TNFRSF25	tumor necrosis factor receptor superfamily, member 25	7699	-0.11020101606845856	-0.11793055	No	
+row_270	RNF139	RNF139	ring finger protein 139	7728	-0.11252189427614212	-0.11999743	No	
+row_271	IFNAR1	IFNAR1	interferon (alpha, beta and omega) receptor 1	7770	-0.11618556082248688	-0.12314207	No	
+row_272	MST1R	MST1R	macrophage stimulating 1 receptor (c-met-related tyrosine kinase)	7820	-0.12384120374917984	-0.12693684	No	
+row_273	PRKCI	PRKCI	protein kinase C, iota	7822	-0.12401329725980759	-0.1267188	No	
+row_274	HRH1	HRH1	histamine receptor H1	7831	-0.12547415494918823	-0.12708235	No	
+row_275	PTAFR	PTAFR	platelet-activating factor receptor	7980	-0.14346154034137726	-0.1391049	No	
+row_276	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	7989	-0.14503128826618195	-0.13942088	No	
+row_277	C3AR1	C3AR1	complement component 3a receptor 1	8073	-0.15587729215621948	-0.14597982	No	
+row_278	GPR17	GPR17	G protein-coupled receptor 17	8076	-0.1560715138912201	-0.1457674	No	
+row_279	PRKCH	PRKCH	protein kinase C, eta	8078	-0.15626877546310425	-0.14547093	No	
+row_280	PTPRM	PTPRM	protein tyrosine phosphatase, receptor type, M	8101	-0.15918810665607452	-0.14692275	No	
+row_281	SCARB1	SCARB1	scavenger receptor class B, member 1	8102	-0.1592639684677124	-0.1465354	No	
+row_282	CD4	CD4	CD4 molecule	8121	-0.1614733338356018	-0.1476473	No	
+row_283	LRP6	LRP6	low density lipoprotein receptor-related protein 6	8174	-0.16831238567829132	-0.15158467	No	
+row_284	FZD8	FZD8	frizzled homolog 8 (Drosophila)	8295	-0.1865278035402298	-0.16116193	No	
+row_285	CNR1	CNR1	cannabinoid receptor 1 (brain)	8296	-0.186680868268013	-0.16070788	No	
+row_286	CCKAR	CCKAR	cholecystokinin A receptor	8326	-0.19222232699394226	-0.1626645	No	
+row_287	MED12	MED12	mediator of RNA polymerase II transcription, subunit 12 homolog (S. cerevisiae)	8369	-0.19824567437171936	-0.16569316	No	
+row_288	RXRB	RXRB	retinoid X receptor, beta	8388	-0.20176860690116882	-0.16670705	No	
+row_289	CLEC7A	CLEC7A	C-type lectin domain family 7, member A	8398	-0.20232756435871124	-0.16696727	No	
+row_290	TNFRSF14	TNFRSF14	tumor necrosis factor receptor superfamily, member 14 (herpesvirus entry mediator)	8437	-0.2065497189760208	-0.16964138	No	
+row_291	TSPO	TSPO	translocator protein (18kDa)	8461	-0.20994320511817932	-0.17105335	No	
+row_292	BDKRB2	BDKRB2	bradykinin receptor B2	8470	-0.21096287667751312	-0.17120896	No	
+row_293	TMEM11	TMEM11	transmembrane protein 11	8520	-0.21823538839817047	-0.17477414	No	
+row_294	BTN1A1	BTN1A1	butyrophilin, subfamily 1, member A1	8549	-0.221779927611351	-0.17657529	No	
+row_295	ABCC9	ABCC9	ATP-binding cassette, sub-family C (CFTR/MRP), member 9	8559	-0.22284647822380066	-0.1767856	No	
+row_296	ESR2	ESR2	estrogen receptor 2 (ER beta)	8592	-0.22847558557987213	-0.17890482	No	
+row_297	NR3C2	NR3C2	nuclear receptor subfamily 3, group C, member 2	8634	-0.2335405945777893	-0.18176404	No	
+row_298	PTPRG	PTPRG	protein tyrosine phosphatase, receptor type, G	8708	-0.24678157269954681	-0.18726596	No	
+row_299	ROR1	ROR1	receptor tyrosine kinase-like orphan receptor 1	8786	-0.2571047842502594	-0.19307715	No	
+row_300	ZP2	ZP2	zona pellucida glycoprotein 2 (sperm receptor)	8799	-0.2585371434688568	-0.19345143	No	
+row_301	GRM2	GRM2	glutamate receptor, metabotropic 2	8840	-0.26479974389076233	-0.19615103	No	
+row_302	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	8843	-0.26518118381500244	-0.19567324	No	
+row_303	ADRA1D	ADRA1D	adrenergic, alpha-1D-, receptor	8861	-0.26833024621009827	-0.19644167	No	
+row_304	AHR	AHR	aryl hydrocarbon receptor	8908	-0.2749197781085968	-0.19961819	No	
+row_305	SCTR	SCTR	secretin receptor	8990	-0.2890348732471466	-0.20568608	No	
+row_306	ACVR2B	ACVR2B	activin A receptor, type IIB	9029	-0.29430463910102844	-0.20814674	No	
+row_307	GABRB1	GABRB1	gamma-aminobutyric acid (GABA) A receptor, beta 1	9096	-0.30702605843544006	-0.212917	No	
+row_308	ROBO1	ROBO1	roundabout, axon guidance receptor, homolog 1 (Drosophila)	9104	-0.308088481426239	-0.2127528	No	
+row_309	PVRL2	PVRL2	poliovirus receptor-related 2 (herpesvirus entry mediator B)	9127	-0.3114587068557739	-0.21383429	No	
+row_310	PTPRF	PTPRF	protein tyrosine phosphatase, receptor type, F	9137	-0.312579482793808	-0.21382636	No	
+row_311	FZD6	FZD6	frizzled homolog 6 (Drosophila)	9153	-0.3143748939037323	-0.2143156	No	
+row_312	M6PR	M6PR	mannose-6-phosphate receptor (cation dependent)	9217	-0.32519078254699707	-0.21879092	No	
+row_313	FOLR1	FOLR1	folate receptor 1 (adult)	9270	-0.3342779278755188	-0.22232462	No	
+row_314	DNER	DNER	-	9281	-0.3362787961959839	-0.22234264	No	
+row_315	TREM2	TREM2	triggering receptor expressed on myeloid cells 2	9365	-0.35008105635643005	-0.22842923	No	
+row_316	VIPR2	VIPR2	vasoactive intestinal peptide receptor 2	9368	-0.350205659866333	-0.22774465	No	
+row_317	IFNGR1	IFNGR1	interferon gamma receptor 1	9388	-0.3560524582862854	-0.2284669	No	
+row_318	MED4	MED4	mediator of RNA polymerase II transcription, subunit 4 homolog (S. cerevisiae)	9405	-0.3599829077720642	-0.2289288	No	
+row_319	PTPRO	PTPRO	protein tyrosine phosphatase, receptor type, O	9431	-0.363805890083313	-0.23013373	No	
+row_320	BRD8	BRD8	bromodomain containing 8	9466	-0.36991196870803833	-0.23207614	No	
+row_321	MERTK	MERTK	c-mer proto-oncogene tyrosine kinase	9493	-0.3745090663433075	-0.23333862	No	
+row_322	PTCH1	PTCH1	patched homolog 1 (Drosophila)	9495	-0.3753151297569275	-0.23250937	No	
+row_323	GRPR	GRPR	gastrin-releasing peptide receptor	9526	-0.37936684489250183	-0.23409441	No	
+row_324	CSF3R	CSF3R	colony stimulating factor 3 receptor (granulocyte)	9565	-0.38436639308929443	-0.23633602	No	
+row_325	FLT3	FLT3	fms-related tyrosine kinase 3	9675	-0.4023333489894867	-0.2444689	No	
+row_326	PTGER2	PTGER2	prostaglandin E receptor 2 (subtype EP2), 53kDa	9694	-0.40628817677497864	-0.24498537	No	
+row_327	CSF2RB	CSF2RB	colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)	9706	-0.4082740247249603	-0.24491188	No	
+row_328	CD244	CD244	CD244 molecule, natural killer cell receptor 2B4	9727	-0.4123929440975189	-0.24558067	No	
+row_329	SEC63	SEC63	SEC63 homolog (S. cerevisiae)	9737	-0.41418978571891785	-0.24532561	No	
+row_330	ABCC8	ABCC8	ATP-binding cassette, sub-family C (CFTR/MRP), member 8	9739	-0.4143107235431671	-0.24440151	No	
+row_331	OSMR	OSMR	oncostatin M receptor	9750	-0.4158133268356323	-0.2442261	No	
+row_332	PRKD1	PRKD1	protein kinase D1	9773	-0.4195324778556824	-0.24504471	No	
+row_333	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	9807	-0.4263763427734375	-0.2467662	No	
+row_334	PROCR	PROCR	protein C receptor, endothelial (EPCR)	9814	-0.4268578290939331	-0.24622953	No	
+row_335	THRAP3	THRAP3	thyroid hormone receptor associated protein 3	9868	-0.437582403421402	-0.24959558	No	
+row_336	CD46	CD46	CD46 molecule, complement regulatory protein	9879	-0.4418267607688904	-0.24935688	No	
+row_337	TNFRSF17	TNFRSF17	tumor necrosis factor receptor superfamily, member 17	9933	-0.45575615763664246	-0.25267872	No	
+row_338	SLC20A2	SLC20A2	solute carrier family 20 (phosphate transporter), member 2	9938	-0.4576665163040161	-0.25189996	No	
+row_339	CHRNA7	CHRNA7	cholinergic receptor, nicotinic, alpha 7	9939	-0.4577030837535858	-0.25078672	No	
+row_340	ROR2	ROR2	receptor tyrosine kinase-like orphan receptor 2	9988	-0.46701478958129883	-0.25366324	No	
+row_341	ADRB2	ADRB2	adrenergic, beta-2-, receptor, surface	10023	-0.4732888638973236	-0.2553542	No	
+row_342	SLC20A1	SLC20A1	solute carrier family 20 (phosphate transporter), member 1	10037	-0.4774283766746521	-0.2552797	No	
+row_343	GRM5	GRM5	glutamate receptor, metabotropic 5	10044	-0.4791197180747986	-0.25461593	No	
+row_344	CXADR	CXADR	coxsackie virus and adenovirus receptor	10065	-0.48280638456344604	-0.25511348	No	
+row_345	CD14	CD14	CD14 molecule	10122	-0.4981972873210907	-0.25858286	No	
+row_346	FZD7	FZD7	frizzled homolog 7 (Drosophila)	10183	-0.5136669278144836	-0.26234898	No	
+row_347	PRKD3	PRKD3	protein kinase D3	10229	-0.5244963765144348	-0.2648349	No	
+row_348	FZD5	FZD5	frizzled homolog 5 (Drosophila)	10274	-0.5356650352478027	-0.2672101	No	
+row_349	PTGFR	PTGFR	prostaglandin F receptor (FP)	10317	-0.5494786500930786	-0.26938447	No	
+row_350	MMD	MMD	monocyte to macrophage differentiation-associated	10335	-0.5531936883926392	-0.26946005	No	
+row_351	THRB	THRB	thyroid hormone receptor, beta (erythroblastic leukemia viral (v-erb-a) oncogene homolog 2, avian)	10434	-0.5858998894691467	-0.27622697	No	
+row_352	CSF1R	CSF1R	colony stimulating factor 1 receptor, formerly McDonough feline sarcoma viral (v-fms) oncogene homolog	10435	-0.5859919190406799	-0.2748017	No	
+row_353	GRIK4	GRIK4	glutamate receptor, ionotropic, kainate 4	10477	-0.5997106432914734	-0.27677032	No	
+row_354	PTGER3	PTGER3	prostaglandin E receptor 3 (subtype EP3)	10507	-0.6085569262504578	-0.27771434	No	
+row_355	SLC1A5	SLC1A5	solute carrier family 1 (neutral amino acid transporter), member 5	10592	-0.6326616406440735	-0.28319725	No	
+row_356	INTS6	INTS6	integrator complex subunit 6	10644	-0.6500592827796936	-0.2858793	No	
+row_357	HTR1B	HTR1B	5-hydroxytryptamine (serotonin) receptor 1B	10712	-0.6759902238845825	-0.28983578	No	
+row_358	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	10725	-0.6831261515617371	-0.2891774	No	
+row_359	PTPRA	PTPRA	protein tyrosine phosphatase, receptor type, A	10731	-0.6855779886245728	-0.2879279	No	
+row_360	IL7R	IL7R	interleukin 7 receptor	10732	-0.6856477856636047	-0.28626028	No	
+row_361	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	10744	-0.6901383996009827	-0.2855012	No	
+row_362	INSR	INSR	insulin receptor	10753	-0.6938633322715759	-0.28448233	No	
+row_363	IL6ST	IL6ST	interleukin 6 signal transducer (gp130, oncostatin M receptor)	10787	-0.7086166143417358	-0.28551736	No	
+row_364	MUSK	MUSK	muscle, skeletal, receptor tyrosine kinase	10790	-0.7103589773178101	-0.2839568	No	
+row_365	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	10823	-0.7216806411743164	-0.28487647	No	
+row_366	KLRD1	KLRD1	killer cell lectin-like receptor subfamily D, member 1	11041	-0.8352686166763306	-0.3009842	No	
+row_367	ADRB1	ADRB1	adrenergic, beta-1-, receptor	11060	-0.8431042432785034	-0.30043823	No	
+row_368	GABRA1	GABRA1	gamma-aminobutyric acid (GABA) A receptor, alpha 1	11063	-0.8439151644706726	-0.29855287	No	
+row_369	TACR2	TACR2	tachykinin receptor 2	11125	-0.8775700926780701	-0.3015175	Yes	
+row_370	CHRNB2	CHRNB2	cholinergic receptor, nicotinic, beta 2 (neuronal)	11133	-0.8813310265541077	-0.29995906	Yes	
+row_371	ACVR1B	ACVR1B	activin A receptor, type IB	11176	-0.9036280512809753	-0.3012721	Yes	
+row_372	MSR1	MSR1	macrophage scavenger receptor 1	11194	-0.9188652038574219	-0.30045828	Yes	
+row_373	TGFBR1	TGFBR1	transforming growth factor, beta receptor I (activin A receptor type II-like kinase, 53kDa)	11202	-0.9256813526153564	-0.298792	Yes	
+row_374	VLDLR	VLDLR	very low density lipoprotein receptor	11244	-0.9566635489463806	-0.29989246	Yes	
+row_375	STAB2	STAB2	stabilin 2	11269	-0.9707993865013123	-0.29953745	Yes	
+row_376	ANXA9	ANXA9	annexin A9	11297	-0.9944881200790405	-0.29937562	Yes	
+row_377	GABRR2	GABRR2	gamma-aminobutyric acid (GABA) receptor, rho 2	11305	-1.003413200378418	-0.29752028	Yes	
+row_378	CD7	CD7	CD7 molecule	11307	-1.004537582397461	-0.29516065	Yes	
+row_379	ERBB3	ERBB3	v-erb-b2 erythroblastic leukemia viral oncogene homolog 3 (avian)	11310	-1.0063363313674927	-0.29288024	Yes	
+row_380	GABRE	GABRE	gamma-aminobutyric acid (GABA) A receptor, epsilon	11316	-1.0123158693313599	-0.29083604	Yes	
+row_381	GABRQ	GABRQ	gamma-aminobutyric acid (GABA) receptor, theta	11331	-1.0214309692382812	-0.289522	Yes	
+row_382	PTPRR	PTPRR	protein tyrosine phosphatase, receptor type, R	11333	-1.024336338043213	-0.2871142	Yes	
+row_383	HPGD	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	11354	-1.0466655492782593	-0.28624034	Yes	
+row_384	DRD1	DRD1	dopamine receptor D1	11400	-1.0895979404449463	-0.28735182	Yes	
+row_385	PTPRU	PTPRU	protein tyrosine phosphatase, receptor type, U	11421	-1.1164546012878418	-0.28630823	Yes	
+row_386	EPHB2	EPHB2	EPH receptor B2	11430	-1.1195420026779175	-0.284254	Yes	
+row_387	TSHR	TSHR	thyroid stimulating hormone receptor	11457	-1.1487432718276978	-0.2836334	Yes	
+row_388	GRIA2	GRIA2	glutamate receptor, ionotropic, AMPA 2	11508	-1.1992007493972778	-0.28489628	Yes	
+row_389	IL22RA2	IL22RA2	interleukin 22 receptor, alpha 2	11523	-1.2152187824249268	-0.28311092	Yes	
+row_390	GLP2R	GLP2R	glucagon-like peptide 2 receptor	11526	-1.218331217765808	-0.2803149	Yes	
+row_391	ABCA1	ABCA1	ATP-binding cassette, sub-family A (ABC1), member 1	11533	-1.2307192087173462	-0.2778231	Yes	
+row_392	IGF1R	IGF1R	insulin-like growth factor 1 receptor	11554	-1.2584787607192993	-0.27643406	Yes	
+row_393	OPN1MW	OPN1MW	opsin 1 (cone pigments), medium-wave-sensitive (color blindness, deutan)	11572	-1.2885982990264893	-0.274721	Yes	
+row_394	EPOR	EPOR	erythropoietin receptor	11579	-1.299269199371338	-0.27206245	Yes	
+row_395	ROS1	ROS1	v-ros UR2 sarcoma virus oncogene homolog 1 (avian)	11664	-1.4387837648391724	-0.27558473	Yes	
+row_396	HTR3B	HTR3B	5-hydroxytryptamine (serotonin) receptor 3B	11723	-1.5678049325942993	-0.2766198	Yes	
+row_397	FZD4	FZD4	frizzled homolog 4 (Drosophila)	11730	-1.586041808128357	-0.27326378	Yes	
+row_398	IL2RB	IL2RB	interleukin 2 receptor, beta	11783	-1.7244772911071777	-0.27341628	Yes	
+row_399	HTR1A	HTR1A	5-hydroxytryptamine (serotonin) receptor 1A	11786	-1.7374205589294434	-0.2693577	Yes	
+row_400	ACVR1C	ACVR1C	activin A receptor, type IC	11813	-1.819054365158081	-0.2671068	Yes	
+row_401	ADRB3	ADRB3	adrenergic, beta-3-, receptor	11830	-1.8656692504882812	-0.2639066	Yes	
+row_402	CXCR6	CXCR6	chemokine (C-X-C motif) receptor 6	11849	-1.926663875579834	-0.26072523	Yes	
+row_403	EDA2R	EDA2R	ectodysplasin A2 receptor	11850	-1.9288215637207031	-0.25603396	Yes	
+row_404	HTR2B	HTR2B	5-hydroxytryptamine (serotonin) receptor 2B	11855	-1.9476234912872314	-0.25163132	Yes	
+row_405	TREM1	TREM1	triggering receptor expressed on myeloid cells 1	11858	-1.9486443996429443	-0.24705905	Yes	
+row_406	P2RX1	P2RX1	purinergic receptor P2X, ligand-gated ion channel, 1	11860	-1.9598894119262695	-0.2423758	Yes	
+row_407	GRIN2A	GRIN2A	glutamate receptor, ionotropic, N-methyl D-aspartate 2A	11861	-1.9634344577789307	-0.23760036	Yes	
+row_408	GRIK2	GRIK2	glutamate receptor, ionotropic, kainate 2	11864	-1.975620150566101	-0.23296246	Yes	
+row_409	IL31RA	IL31RA	interleukin 31 receptor A	11872	-1.9896843433380127	-0.22870831	Yes	
+row_410	CHRNA5	CHRNA5	cholinergic receptor, nicotinic, alpha 5	11889	-2.068436622619629	-0.22501494	Yes	
+row_411	OPRM1	OPRM1	opioid receptor, mu 1	11924	-2.1185758113861084	-0.22270425	Yes	
+row_412	CUBN	CUBN	cubilin (intrinsic factor-cobalamin receptor)	11927	-2.1261208057403564	-0.2177003	Yes	
+row_413	CCKBR	CCKBR	cholecystokinin B receptor	11928	-2.137608051300049	-0.21250123	Yes	
+row_414	IL5RA	IL5RA	interleukin 5 receptor, alpha	11931	-2.1376328468322754	-0.20746928	Yes	
+row_415	GPR143	GPR143	G protein-coupled receptor 143	11934	-2.137701988220215	-0.20243718	Yes	
+row_416	CHRM5	CHRM5	cholinergic receptor, muscarinic 5	11935	-2.137701988220215	-0.19723788	Yes	
+row_417	CD300C	CD300C	CD300c molecule	12010	-2.224752187728882	-0.19801259	Yes	
+row_418	CHRNA3	CHRNA3	cholinergic receptor, nicotinic, alpha 3	12011	-2.2247564792633057	-0.19260156	Yes	
+row_419	DRD4	DRD4	dopamine receptor D4	12022	-2.252922534942627	-0.18795794	Yes	
+row_420	GRM4	GRM4	glutamate receptor, metabotropic 4	12024	-2.253019332885742	-0.18256176	Yes	
+row_421	PGLYRP4	PGLYRP4	peptidoglycan recognition protein 4	12038	-2.2668399810791016	-0.17813505	Yes	
+row_422	IL22RA1	IL22RA1	interleukin 22 receptor, alpha 1	12044	-2.2668399810791016	-0.17303963	Yes	
+row_423	GRM8	GRM8	glutamate receptor, metabotropic 8	12069	-2.325758695602417	-0.16938913	Yes	
+row_424	TNFRSF8	TNFRSF8	tumor necrosis factor receptor superfamily, member 8	12075	-2.359976291656494	-0.16406716	Yes	
+row_425	IL12RB1	IL12RB1	interleukin 12 receptor, beta 1	12079	-2.3652141094207764	-0.15856528	Yes	
+row_426	CHRNA2	CHRNA2	cholinergic receptor, nicotinic, alpha 2 (neuronal)	12082	-2.3725993633270264	-0.15296187	Yes	
+row_427	OPRD1	OPRD1	opioid receptor, delta 1	12122	-2.7545673847198486	-0.14952227	Yes	
+row_428	GABRR1	GABRR1	gamma-aminobutyric acid (GABA) receptor, rho 1	12127	-2.8027660846710205	-0.14303978	Yes	
+row_429	NMUR1	NMUR1	neuromedin U receptor 1	12166	-3.1707561016082764	-0.13850436	Yes	
+row_430	AGTR2	AGTR2	angiotensin II receptor, type 2	12169	-3.179002046585083	-0.1309396	Yes	
+row_431	PTPRN2	PTPRN2	protein tyrosine phosphatase, receptor type, N polypeptide 2	12174	-3.2035467624664307	-0.12348234	Yes	
+row_432	SSTR2	SSTR2	somatostatin receptor 2	12175	-3.2036166191101074	-0.11569053	Yes	
+row_433	CLEC1B	CLEC1B	C-type lectin domain family 1, member B	12195	-3.2275636196136475	-0.10942871	Yes	
+row_434	KLRG1	KLRG1	killer cell lectin-like receptor subfamily G, member 1	12200	-3.242309808731079	-0.10187717	Yes	
+row_435	CHRM2	CHRM2	cholinergic receptor, muscarinic 2	12204	-3.2485671043395996	-0.09422681	Yes	
+row_436	GABRB2	GABRB2	gamma-aminobutyric acid (GABA) A receptor, beta 2	12205	-3.2544007301330566	-0.08631148	Yes	
+row_437	GRM6	GRM6	glutamate receptor, metabotropic 6	12212	-3.275062084197998	-0.07884745	Yes	
+row_438	TACR3	TACR3	tachykinin receptor 3	12247	-3.690737009048462	-0.07271298	Yes	
+row_439	OPN4	OPN4	opsin 4 (melanopsin)	12253	-3.7456490993499756	-0.064020805	Yes	
+row_440	MC2R	MC2R	melanocortin 2 receptor (adrenocorticotropic hormone)	12254	-3.751277208328247	-0.054896984	Yes	
+row_441	CD69	CD69	CD69 molecule	12262	-3.7946271896362305	-0.046252865	Yes	
+row_442	GPA33	GPA33	glycoprotein A33 (transmembrane)	12288	-4.12394905090332	-0.038312417	Yes	
+row_443	NRXN3	NRXN3	neurexin 3	12293	-4.159889221191406	-0.02852914	Yes	
+row_444	PTPRH	PTPRH	protein tyrosine phosphatase, receptor type, H	12309	-4.229206562042236	-0.01949677	Yes	
+row_445	GALR1	GALR1	galanin receptor 1	12341	-4.778003692626953	-0.01046708	Yes	
+row_446	TACSTD2	TACSTD2	tumor-associated calcium signal transducer 2	12394	-6.606353282928467	0.0012540907	Yes	

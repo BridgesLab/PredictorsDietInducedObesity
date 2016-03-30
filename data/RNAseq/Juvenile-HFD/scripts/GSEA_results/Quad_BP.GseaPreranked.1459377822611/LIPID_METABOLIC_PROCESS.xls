@@ -1,0 +1,266 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HNF4A	HNF4A	hepatocyte nuclear factor 4, alpha	16	8.456197738647461	0.032321315	Yes	
+row_1	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.05956966	Yes	
+row_2	APOA4	APOA4	apolipoprotein A-IV	39	7.204412937164307	0.088146456	Yes	
+row_3	HSD17B6	HSD17B6	hydroxysteroid (17-beta) dehydrogenase 6	47	6.824741363525391	0.11471889	Yes	
+row_4	NR1I2	NR1I2	nuclear receptor subfamily 1, group I, member 2	53	6.590681076049805	0.14052491	Yes	
+row_5	NR0B2	NR0B2	nuclear receptor subfamily 0, group B, member 2	77	5.964529991149902	0.162358	Yes	
+row_6	APOA5	APOA5	apolipoprotein A-V	84	5.786080360412598	0.18488099	Yes	
+row_7	APOC3	APOC3	apolipoprotein C-III	85	5.779256820678711	0.20787086	Yes	
+row_8	ANGPTL3	ANGPTL3	angiopoietin-like 3	125	4.846292495727539	0.2239382	Yes	
+row_9	PLA2G2E	PLA2G2E	phospholipase A2, group IIE	142	4.595670223236084	0.24090235	Yes	
+row_10	APOM	APOM	apolipoprotein M	172	4.23611307144165	0.2553658	Yes	
+row_11	APOC4	APOC4	apolipoprotein C-IV	188	4.029105186462402	0.27015847	Yes	
+row_12	APOC2	APOC2	apolipoprotein C-II	195	3.911592960357666	0.28522474	Yes	
+row_13	SLC27A6	SLC27A6	solute carrier family 27 (fatty acid transporter), member 6	210	3.835026264190674	0.29932773	Yes	
+row_14	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	239	3.6630778312683105	0.31159398	Yes	
+row_15	APOF	APOF	apolipoprotein F	278	3.230227470397949	0.32131496	Yes	
+row_16	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	287	3.1361982822418213	0.33313203	Yes	
+row_17	ACOT12	ACOT12	acyl-CoA thioesterase 12	291	3.078575849533081	0.34513158	Yes	
+row_18	TTPA	TTPA	tocopherol (alpha) transfer protein (ataxia (Friedreich-like) with vitamin E deficiency)	296	3.0286269187927246	0.3568501	Yes	
+row_19	SLC27A5	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5	302	2.9911201000213623	0.36833706	Yes	
+row_20	ALDH8A1	ALDH8A1	aldehyde dehydrogenase 8 family, member A1	342	2.8290388584136963	0.3763798	Yes	
+row_21	HAO2	HAO2	hydroxyacid oxidase 2 (long chain)	355	2.7947497367858887	0.3865092	Yes	
+row_22	FAAH	FAAH	fatty acid amide hydrolase	369	2.7898924350738525	0.396537	Yes	
+row_23	CYP11B2	CYP11B2	cytochrome P450, family 11, subfamily B, polypeptide 2	390	2.753636121749878	0.4058442	Yes	
+row_24	IL4	IL4	interleukin 4	437	2.5435569286346436	0.41217488	Yes	
+row_25	NR1H4	NR1H4	nuclear receptor subfamily 1, group H, member 4	473	2.523742198944092	0.41933247	Yes	
+row_26	BAAT	BAAT	bile acid Coenzyme A: amino acid N-acyltransferase (glycine N-choloyltransferase)	483	2.461395502090454	0.42838287	Yes	
+row_27	LCAT	LCAT	lecithin-cholesterol acyltransferase	533	2.258538007736206	0.43333274	Yes	
+row_28	PLCB2	PLCB2	phospholipase C, beta 2	589	2.033925771713257	0.43689507	Yes	
+row_29	CYP7B1	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	623	1.9135870933532715	0.44179016	Yes	
+row_30	DHCR24	DHCR24	24-dehydrocholesterol reductase	640	1.8716386556625366	0.44791812	Yes	
+row_31	ACOX2	ACOX2	acyl-Coenzyme A oxidase 2, branched chain	815	1.5215182304382324	0.43964383	Yes	
+row_32	PLA2G4B	PLA2G4B	phospholipase A2, group IVB (cytosolic)	816	1.5187335014343262	0.44568536	Yes	
+row_33	SLC27A2	SLC27A2	solute carrier family 27 (fatty acid transporter), member 2	821	1.5111130475997925	0.4513672	Yes	
+row_34	B3GNT5	B3GNT5	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5	861	1.4517223834991455	0.45393094	Yes	
+row_35	HSD11B2	HSD11B2	hydroxysteroid (11-beta) dehydrogenase 2	926	1.3625521659851074	0.4540815	Yes	
+row_36	PLA2G3	PLA2G3	phospholipase A2, group III	960	1.3252174854278564	0.45663607	Yes	
+row_37	DHCR7	DHCR7	7-dehydrocholesterol reductase	992	1.2886103391647339	0.45920965	Yes	
+row_38	GBGT1	GBGT1	globoside alpha-1,3-N-acetylgalactosaminyltransferase 1	1014	1.2731144428253174	0.462545	Yes	
+row_39	BRCA1	BRCA1	breast cancer 1, early onset	1088	1.1928967237472534	0.46127963	Yes	
+row_40	FADS2	FADS2	fatty acid desaturase 2	1099	1.1810539960861206	0.46515447	Yes	
+row_41	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	1197	1.1008034944534302	0.46154663	Yes	
+row_42	PNPLA3	PNPLA3	patatin-like phospholipase domain containing 3	1212	1.0866397619247437	0.46471655	Yes	
+row_43	FADS1	FADS1	fatty acid desaturase 1	1222	1.081069827079773	0.468276	Yes	
+row_44	ALOX12	ALOX12	arachidonate 12-lipoxygenase	1239	1.0689067840576172	0.4712107	Yes	
+row_45	ST8SIA5	ST8SIA5	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 5	1393	0.9742240309715271	0.46248838	No	
+row_46	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	1437	0.9478082656860352	0.46271822	No	
+row_47	PIGO	PIGO	phosphatidylinositol glycan anchor biosynthesis, class O	1461	0.9337068796157837	0.4645387	No	
+row_48	PLA2G6	PLA2G6	phospholipase A2, group VI (cytosolic, calcium-independent)	1629	0.8393508791923523	0.45412713	No	
+row_49	ADM	ADM	adrenomedullin	1709	0.8017891049385071	0.45081192	No	
+row_50	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	1811	0.7575174570083618	0.44550914	No	
+row_51	APOC1	APOC1	apolipoprotein C-I	1886	0.7280266284942627	0.44231218	No	
+row_52	CH25H	CH25H	cholesterol 25-hydroxylase	1888	0.7275424599647522	0.445124	No	
+row_53	RDH12	RDH12	retinol dehydrogenase 12 (all-trans/9-cis/11-cis)	1960	0.7029277682304382	0.4420742	No	
+row_54	B4GALNT1	B4GALNT1	beta-1,4-N-acetyl-galactosaminyl transferase 1	2196	0.6314840316772461	0.42523673	No	
+row_55	AOAH	AOAH	acyloxyacyl hydrolase (neutrophil)	2401	0.5746661424636841	0.4107257	No	
+row_56	SERINC2	SERINC2	serine incorporator 2	2621	0.5278471112251282	0.3947934	No	
+row_57	PIGV	PIGV	phosphatidylinositol glycan anchor biosynthesis, class V	2640	0.5248408913612366	0.3953991	No	
+row_58	AKR1D1	AKR1D1	aldo-keto reductase family 1, member D1 (delta 4-3-ketosteroid-5-beta-reductase)	2819	0.486787348985672	0.3826793	No	
+row_59	ANXA1	ANXA1	annexin A1	2851	0.48047780990600586	0.38203815	No	
+row_60	GLA	GLA	galactosidase, alpha	2873	0.47575843334198	0.3822016	No	
+row_61	PGS1	PGS1	phosphatidylglycerophosphate synthase 1	2907	0.4691818952560425	0.38135085	No	
+row_62	GLYAT	GLYAT	glycine-N-acyltransferase	2925	0.4657428562641144	0.3818038	No	
+row_63	PLA2G5	PLA2G5	phospholipase A2, group V	2927	0.4651308059692383	0.38357177	No	
+row_64	BDH2	BDH2	3-hydroxybutyrate dehydrogenase, type 2	2963	0.4567938446998596	0.38250706	No	
+row_65	ACOT7	ACOT7	acyl-CoA thioesterase 7	2985	0.4516279101371765	0.38257453	No	
+row_66	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	2989	0.4507313072681427	0.38412052	No	
+row_67	LARGE	LARGE	like-glycosyltransferase	3005	0.44895315170288086	0.38467136	No	
+row_68	FABP5	FABP5	fatty acid binding protein 5 (psoriasis-associated)	3098	0.4326518774032593	0.37881732	No	
+row_69	PIGH	PIGH	phosphatidylinositol glycan anchor biosynthesis, class H	3130	0.4260745048522949	0.37795976	No	
+row_70	PIGZ	PIGZ	phosphatidylinositol glycan anchor biosynthesis, class Z	3133	0.42590269446372986	0.37948933	No	
+row_71	PMVK	PMVK	phosphomevalonate kinase	3146	0.4230485260486603	0.38018414	No	
+row_72	ACOT8	ACOT8	acyl-CoA thioesterase 8	3217	0.407665491104126	0.37604216	No	
+row_73	CD81	CD81	CD81 molecule	3281	0.3973287045955658	0.3724354	No	
+row_74	PLCE1	PLCE1	phospholipase C, epsilon 1	3298	0.3942658603191376	0.3726864	No	
+row_75	CD74	CD74	CD74 molecule, major histocompatibility complex, class II invariant chain	3310	0.3923504054546356	0.3733414	No	
+row_76	ALDH3B1	ALDH3B1	aldehyde dehydrogenase 3 family, member B1	3379	0.3818008601665497	0.3692612	No	
+row_77	CPNE7	CPNE7	copine VII	3386	0.38018912076950073	0.37027958	No	
+row_78	B4GALT4	B4GALT4	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 4	3442	0.3724726140499115	0.36723265	No	
+row_79	DEGS1	DEGS1	degenerative spermatocyte homolog 1, lipid desaturase (Drosophila)	3445	0.37209776043891907	0.36854818	No	
+row_80	PIGK	PIGK	phosphatidylinositol glycan anchor biosynthesis, class K	3463	0.3686414659023285	0.36861488	No	
+row_81	FDPS	FDPS	farnesyl diphosphate synthase (farnesyl pyrophosphate synthetase, dimethylallyltranstransferase, geranyltranstransferase)	3470	0.36745980381965637	0.3695826	No	
+row_82	STUB1	STUB1	STIP1 homology and U-box containing protein 1	3515	0.3595241606235504	0.36738992	No	
+row_83	PEMT	PEMT	phosphatidylethanolamine N-methyltransferase	3578	0.34934115409851074	0.3636746	No	
+row_84	AKR1B10	AKR1B10	aldo-keto reductase family 1, member B10 (aldose reductase)	3725	0.3274129629135132	0.35295564	No	
+row_85	PTGES	PTGES	prostaglandin E synthase	3754	0.3218581974506378	0.35193053	No	
+row_86	CYP39A1	CYP39A1	cytochrome P450, family 39, subfamily A, polypeptide 1	3807	0.31508105993270874	0.34890231	No	
+row_87	CLN3	CLN3	ceroid-lipofuscinosis, neuronal 3, juvenile (Batten, Spielmeyer-Vogt disease)	3939	0.29848647117614746	0.33930334	No	
+row_88	FDXR	FDXR	ferredoxin reductase	3996	0.29106661677360535	0.33585027	No	
+row_89	CORIN	CORIN	corin, serine peptidase	4008	0.28964078426361084	0.33609673	No	
+row_90	WWOX	WWOX	WW domain containing oxidoreductase	4023	0.28697237372398376	0.33608556	No	
+row_91	PLTP	PLTP	phospholipid transfer protein	4044	0.28439614176750183	0.33557013	No	
+row_92	PITPNM3	PITPNM3	PITPNM family member 3	4085	0.2794590890407562	0.33338827	No	
+row_93	MIF	MIF	macrophage migration inhibitory factor (glycosylation-inhibiting factor)	4138	0.2728954553604126	0.33019227	No	
+row_94	HACL1	HACL1	2-hydroxyacyl-CoA lyase 1	4162	0.26950713992118835	0.3293706	No	
+row_95	SREBF1	SREBF1	sterol regulatory element binding transcription factor 1	4238	0.2578789293766022	0.32422104	No	
+row_96	ABCD2	ABCD2	ATP-binding cassette, sub-family D (ALD), member 2	4278	0.2530438005924225	0.32201645	No	
+row_97	PRDX6	PRDX6	peroxiredoxin 6	4304	0.24865953624248505	0.32094714	No	
+row_98	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	4346	0.2436063587665558	0.31854033	No	
+row_99	PIGS	PIGS	phosphatidylinositol glycan anchor biosynthesis, class S	4356	0.24280065298080444	0.31876516	No	
+row_100	PEX7	PEX7	peroxisomal biogenesis factor 7	4394	0.2381235510110855	0.3166659	No	
+row_101	PDSS2	PDSS2	prenyl (decaprenyl) diphosphate synthase, subunit 2	4406	0.23656824231147766	0.31670123	No	
+row_102	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	0.31755918	No	
+row_103	PPAP2A	PPAP2A	phosphatidic acid phosphatase type 2A	4433	0.23380416631698608	0.31651315	No	
+row_104	MVK	MVK	mevalonate kinase (mevalonic aciduria)	4445	0.2325512021780014	0.31653252	No	
+row_105	ST6GALNAC6	ST6GALNAC6	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 6	4483	0.2263631820678711	0.31438646	No	
+row_106	ALDH1A3	ALDH1A3	aldehyde dehydrogenase 1 family, member A3	4560	0.21797578036785126	0.30899584	No	
+row_107	CLN8	CLN8	ceroid-lipofuscinosis, neuronal 8 (epilepsy, progressive with mental retardation)	4597	0.21461397409439087	0.3068854	No	
+row_108	CEPT1	CEPT1	choline/ethanolamine phosphotransferase 1	4739	0.19578921794891357	0.29605454	No	
+row_109	CDS1	CDS1	CDP-diacylglycerol synthase (phosphatidate cytidylyltransferase) 1	4792	0.189310684800148	0.292526	No	
+row_110	AGPAT6	AGPAT6	1-acylglycerol-3-phosphate O-acyltransferase 6 (lysophosphatidic acid acyltransferase, zeta)	4817	0.18569952249526978	0.2912886	No	
+row_111	SLC27A4	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4	4850	0.1816292256116867	0.2893763	No	
+row_112	PCYT2	PCYT2	phosphate cytidylyltransferase 2, ethanolamine	4913	0.1744234263896942	0.28496516	No	
+row_113	PLA2G2D	PLA2G2D	phospholipase A2, group IID	5008	0.16370560228824615	0.2778766	No	
+row_114	ABCB4	ABCB4	ATP-binding cassette, sub-family B (MDR/TAP), member 4	5040	0.1593494415283203	0.27595797	No	
+row_115	DHRS9	DHRS9	dehydrogenase/reductase (SDR family) member 9	5119	0.1506788730621338	0.270135	No	
+row_116	TAZ	TAZ	tafazzin (cardiomyopathy, dilated 3A (X-linked); endocardial fibroelastosis 2; Barth syndrome)	5129	0.14979858696460724	0.26998985	No	
+row_117	EDF1	EDF1	endothelial differentiation-related factor 1	5272	0.13434916734695435	0.25883222	No	
+row_118	ADIPOR1	ADIPOR1	adiponectin receptor 1	5311	0.13097596168518066	0.2562244	No	
+row_119	LRP5	LRP5	low density lipoprotein receptor-related protein 5	5329	0.12873484194278717	0.25533673	No	
+row_120	GPAA1	GPAA1	glycosylphosphatidylinositol anchor attachment protein 1 homolog (yeast)	5378	0.12337972223758698	0.2518753	No	
+row_121	ST6GALNAC4	ST6GALNAC4	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 4	5398	0.120838962495327	0.25079158	No	
+row_122	HDLBP	HDLBP	high density lipoprotein binding protein (vigilin)	5400	0.1206333115696907	0.2511891	No	
+row_123	ACP6	ACP6	acid phosphatase 6, lysophosphatidic	5419	0.11850275099277496	0.25017843	No	
+row_124	ST8SIA1	ST8SIA1	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 1	5420	0.1183880940079689	0.25064936	No	
+row_125	HSD3B7	HSD3B7	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 7	5469	0.11162122339010239	0.24714115	No	
+row_126	PDSS1	PDSS1	prenyl (decaprenyl) diphosphate synthase, subunit 1	5526	0.10603436827659607	0.242952	No	
+row_127	IDI1	IDI1	isopentenyl-diphosphate delta isomerase 1	5708	0.08770763128995895	0.22839765	No	
+row_128	MGST3	MGST3	microsomal glutathione S-transferase 3	5716	0.08707037568092346	0.22816765	No	
+row_129	IMPA1	IMPA1	inositol(myo)-1(or 4)-monophosphatase 1	5739	0.08446434140205383	0.2266922	No	
+row_130	GNPAT	GNPAT	glyceronephosphate O-acyltransferase	5790	0.07906088978052139	0.2228898	No	
+row_131	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	5812	0.07719340175390244	0.22146776	No	
+row_132	ACOX3	ACOX3	acyl-Coenzyme A oxidase 3, pristanoyl	5846	0.07238239794969559	0.21903853	No	
+row_133	LRP2	LRP2	low density lipoprotein-related protein 2	5860	0.07126728445291519	0.21825163	No	
+row_134	PSAP	PSAP	prosaposin (variant Gaucher disease and variant metachromatic leukodystrophy)	5913	0.06552372872829437	0.21423069	No	
+row_135	GBA2	GBA2	glucosidase, beta (bile acid) 2	5914	0.0655127689242363	0.2144913	No	
+row_136	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	5940	0.0625847727060318	0.2126818	No	
+row_137	PHYH	PHYH	phytanoyl-CoA 2-hydroxylase	5979	0.058502428233623505	0.20978566	No	
+row_138	ETNK1	ETNK1	ethanolamine kinase 1	5998	0.05703514441847801	0.20853046	No	
+row_139	CYP11A1	CYP11A1	cytochrome P450, family 11, subfamily A, polypeptide 1	6020	0.054913152009248734	0.20701979	No	
+row_140	PIGT	PIGT	phosphatidylinositol glycan anchor biosynthesis, class T	6117	0.04581472650170326	0.19929756	No	
+row_141	SOAT1	SOAT1	sterol O-acyltransferase (acyl-Coenzyme A: cholesterol acyltransferase) 1	6144	0.04252633824944496	0.19732593	No	
+row_142	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	0.1888117	No	
+row_143	NSDHL	NSDHL	NAD(P) dependent steroid dehydrogenase-like	6297	0.02834554947912693	0.1851369	No	
+row_144	MGLL	MGLL	monoglyceride lipase	6324	0.024791294708848	0.18309473	No	
+row_145	SMPD3	SMPD3	sphingomyelin phosphodiesterase 3, neutral membrane (neutral sphingomyelinase II)	6389	0.01814316213130951	0.17789723	No	
+row_146	PCYT1B	PCYT1B	phosphate cytidylyltransferase 1, choline, beta	6395	0.01779055967926979	0.17755632	No	
+row_147	PIGF	PIGF	phosphatidylinositol glycan anchor biosynthesis, class F	6414	0.015170945785939693	0.17613457	No	
+row_148	DGKE	DGKE	diacylglycerol kinase, epsilon 64kDa	6466	0.008210109546780586	0.17196797	No	
+row_149	SHH	SHH	sonic hedgehog homolog (Drosophila)	6566	-0.002734525129199028	0.16382734	No	
+row_150	PPARD	PPARD	peroxisome proliferative activated receptor, delta	6592	-0.006434424314647913	0.16179448	No	
+row_151	PLCD1	PLCD1	phospholipase C, delta 1	6595	-0.00743773952126503	0.16165939	No	
+row_152	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	6684	-0.017080461606383324	0.15448156	No	
+row_153	PDE3A	PDE3A	phosphodiesterase 3A, cGMP-inhibited	6690	-0.017663313075900078	0.15414013	No	
+row_154	NR5A1	NR5A1	nuclear receptor subfamily 5, group A, member 1	6797	-0.021867459639906883	0.14549924	No	
+row_155	PTGDS	PTGDS	prostaglandin D2 synthase 21kDa (brain)	6926	-0.022066831588745117	0.13504772	No	
+row_156	NR2F2	NR2F2	nuclear receptor subfamily 2, group F, member 2	6966	-0.025914985686540604	0.1319396	No	
+row_157	ST3GAL6	ST3GAL6	ST3 beta-galactoside alpha-2,3-sialyltransferase 6	7032	-0.033323466777801514	0.12672018	No	
+row_158	MCAT	MCAT	malonyl CoA:ACP acyltransferase (mitochondrial)	7163	-0.04726133123040199	0.11620418	No	
+row_159	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.11467309	No	
+row_160	PLA1A	PLA1A	phospholipase A1 member A	7206	-0.05257473140954971	0.113235466	No	
+row_161	GPX4	GPX4	glutathione peroxidase 4 (phospholipid hydroperoxidase)	7215	-0.05377636104822159	0.11279068	No	
+row_162	ACAD8	ACAD8	acyl-Coenzyme A dehydrogenase family, member 8	7220	-0.05420247092843056	0.11267695	No	
+row_163	DPM3	DPM3	dolichyl-phosphate mannosyltransferase polypeptide 3	7257	-0.059090755879879	0.10994782	No	
+row_164	PTGS1	PTGS1	prostaglandin-endoperoxide synthase 1 (prostaglandin G/H synthase and cyclooxygenase)	7286	-0.0633462443947792	0.10789434	No	
+row_165	STARD3	STARD3	START domain containing 3	7306	-0.06583555042743683	0.106591806	No	
+row_166	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	7307	-0.06612909585237503	0.10685486	No	
+row_167	AGPAT1	AGPAT1	1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha)	7357	-0.07125570625066757	0.10310374	No	
+row_168	DPM2	DPM2	dolichyl-phosphate mannosyltransferase polypeptide 2, regulatory subunit	7407	-0.07672455161809921	0.09937437	No	
+row_169	PIP5K1A	PIP5K1A	phosphatidylinositol-4-phosphate 5-kinase, type I, alpha	7465	-0.0841468945145607	0.09501582	No	
+row_170	BMP6	BMP6	bone morphogenetic protein 6	7517	-0.08981749415397644	0.09117385	No	
+row_171	SERINC5	SERINC5	serine incorporator 5	7531	-0.09121261537075043	0.09046629	No	
+row_172	ACADS	ACADS	acyl-Coenzyme A dehydrogenase, C-2 to C-3 short chain	7550	-0.0935257226228714	0.08935624	No	
+row_173	CROT	CROT	carnitine O-octanoyltransferase	7560	-0.09419843554496765	0.08898992	No	
+row_174	ALDH5A1	ALDH5A1	aldehyde dehydrogenase 5 family, member A1 (succinate-semialdehyde dehydrogenase)	7575	-0.09590322524309158	0.08821869	No	
+row_175	CLN6	CLN6	ceroid-lipofuscinosis, neuronal 6, late infantile, variant	7599	-0.09831423312425613	0.086715996	No	
+row_176	CYP46A1	CYP46A1	cytochrome P450, family 46, subfamily A, polypeptide 1	7605	-0.09947432577610016	0.086700015	No	
+row_177	PIGB	PIGB	phosphatidylinositol glycan anchor biosynthesis, class B	7686	-0.10891609638929367	0.08054621	No	
+row_178	TPP1	TPP1	tripeptidyl peptidase I	7709	-0.11124110221862793	0.07917728	No	
+row_179	ACOT9	ACOT9	acyl-CoA thioesterase 9	7749	-0.11411521583795547	0.07642003	No	
+row_180	ALOX12B	ALOX12B	arachidonate 12-lipoxygenase, 12R type	7793	-0.11940190941095352	0.07335446	No	
+row_181	RDH11	RDH11	retinol dehydrogenase 11 (all-trans/9-cis/11-cis)	7809	-0.1222987025976181	0.07260589	No	
+row_182	MTTP	MTTP	microsomal triglyceride transfer protein	7853	-0.12823481857776642	0.06957546	No	
+row_183	HADHB	HADHB	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), beta subunit	7856	-0.1287238597869873	0.06992284	No	
+row_184	ACADVL	ACADVL	acyl-Coenzyme A dehydrogenase, very long chain	7873	-0.13075721263885498	0.06912558	No	
+row_185	PIGC	PIGC	phosphatidylinositol glycan anchor biosynthesis, class C	7903	-0.1345580518245697	0.067273036	No	
+row_186	ACADM	ACADM	acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain	7931	-0.13751880824565887	0.06559695	No	
+row_187	CPNE6	CPNE6	copine VI (neuronal)	7960	-0.1411169022321701	0.06385284	No	
+row_188	RARRES2	RARRES2	retinoic acid receptor responder (tazarotene induced) 2	7968	-0.14188899099826813	0.0638409	No	
+row_189	APOBEC1	APOBEC1	apolipoprotein B mRNA editing enzyme, catalytic polypeptide 1	8029	-0.1501246690750122	0.059497792	No	
+row_190	SCARB1	SCARB1	scavenger receptor class B, member 1	8102	-0.1592639684677124	0.054202978	No	
+row_191	SCP2	SCP2	sterol carrier protein 2	8178	-0.16904085874557495	0.048700042	No	
+row_192	NPC2	NPC2	Niemann-Pick disease, type C2	8256	-0.18007372319698334	0.043076318	No	
+row_193	ASAH1	ASAH1	N-acylsphingosine amidohydrolase (acid ceramidase) 1	8321	-0.19188447296619415	0.038569976	No	
+row_194	SMPD4	SMPD4	sphingomyelin phosphodiesterase 4, neutral membrane (neutral sphingomyelinase-3)	8415	-0.2042504847049713	0.03172501	No	
+row_195	SPTLC1	SPTLC1	serine palmitoyltransferase, long chain base subunit 1	8452	-0.20890840888023376	0.029591864	No	
+row_196	TSPO	TSPO	translocator protein (18kDa)	8461	-0.20994320511817932	0.02976831	No	
+row_197	RDH16	RDH16	retinol dehydrogenase 16 (all-trans)	8518	-0.21796096861362457	0.026024409	No	
+row_198	LTA4H	LTA4H	leukotriene A4 hydrolase	8553	-0.22200728952884674	0.024108047	No	
+row_199	ECH1	ECH1	enoyl Coenzyme A hydratase 1, peroxisomal	8666	-0.23881284892559052	0.015836142	No	
+row_200	CYP19A1	CYP19A1	cytochrome P450, family 19, subfamily A, polypeptide 1	8699	-0.2456226944923401	0.014178398	No	
+row_201	ADIPOR2	ADIPOR2	adiponectin receptor 2	8898	-0.27378904819488525	-0.0010354748	No	
+row_202	CPT1B	CPT1B	carnitine palmitoyltransferase 1B (muscle)	8948	-0.2823519706726074	-0.0039468617	No	
+row_203	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.0038821213	No	
+row_204	ANG	ANG	angiogenin, ribonuclease, RNase A family, 5	9112	-0.3089841306209564	-0.014921406	No	
+row_205	THRSP	THRSP	thyroid hormone responsive (SPOT14 homolog, rat)	9156	-0.31518375873565674	-0.017208157	No	
+row_206	PIGG	PIGG	phosphatidylinositol glycan anchor biosynthesis, class G	9193	-0.3216145932674408	-0.018892959	No	
+row_207	SMPD2	SMPD2	sphingomyelin phosphodiesterase 2, neutral membrane (neutral sphingomyelinase)	9243	-0.32886624336242676	-0.021619312	No	
+row_208	ASAH2	ASAH2	N-acylsphingosine amidohydrolase (non-lysosomal ceramidase) 2	9296	-0.3395751416683197	-0.02455008	No	
+row_209	CERK	CERK	ceramide kinase	9415	-0.36156749725341797	-0.032827698	No	
+row_210	NSMAF	NSMAF	neutral sphingomyelinase (N-SMase) activation associated factor	9469	-0.3705698251724243	-0.03571751	No	
+row_211	OXSM	OXSM	3-oxoacyl-ACP synthase, mitochondrial	9575	-0.38544654846191406	-0.042829737	No	
+row_212	CNBP	CNBP	CCHC-type zinc finger, nucleic acid binding protein	9598	-0.3886452615261078	-0.043095153	No	
+row_213	SMG1	SMG1	-	9716	-0.41025984287261963	-0.051096734	No	
+row_214	DHRS3	DHRS3	dehydrogenase/reductase (SDR family) member 3	9726	-0.41237637400627136	-0.050197348	No	
+row_215	CPNE3	CPNE3	copine III	9829	-0.42939284443855286	-0.056887742	No	
+row_216	CHPT1	CHPT1	choline phosphotransferase 1	9832	-0.42958149313926697	-0.055343542	No	
+row_217	PIGA	PIGA	phosphatidylinositol glycan anchor biosynthesis, class A (paroxysmal nocturnal hemoglobinuria)	9854	-0.43389004468917847	-0.055346638	No	
+row_218	AGPS	AGPS	alkylglycerone phosphate synthase	9862	-0.4353654980659485	-0.054191124	No	
+row_219	CHKA	CHKA	choline kinase alpha	9915	-0.4509119391441345	-0.056678995	No	
+row_220	SERINC1	SERINC1	serine incorporator 1	9980	-0.4650804400444031	-0.060098562	No	
+row_221	NPC1L1	NPC1L1	NPC1 (Niemann-Pick disease, type C1, gene)-like 1	10151	-0.5039510726928711	-0.07209138	No	
+row_222	NEU3	NEU3	sialidase 3 (membrane sialidase)	10171	-0.5113382339477539	-0.07162171	No	
+row_223	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	10230	-0.5247142910957336	-0.07431002	No	
+row_224	CPT1A	CPT1A	carnitine palmitoyltransferase 1A (liver)	10264	-0.5333055853843689	-0.0749057	No	
+row_225	ACADSB	ACADSB	acyl-Coenzyme A dehydrogenase, short/branched chain	10270	-0.5346872210502625	-0.073190406	No	
+row_226	PIK3C2A	PIK3C2A	phosphoinositide-3-kinase, class 2, alpha polypeptide	10276	-0.5360006093978882	-0.07146989	No	
+row_227	PTGES3	PTGES3	prostaglandin E synthase 3 (cytosolic)	10306	-0.5474593639373779	-0.07167991	No	
+row_228	APOD	APOD	apolipoprotein D	10350	-0.5563927888870239	-0.07300714	No	
+row_229	UGCG	UGCG	UDP-glucose ceramide glucosyltransferase	10460	-0.5920289754867554	-0.07962693	No	
+row_230	DPM1	DPM1	dolichyl-phosphate mannosyltransferase polypeptide 1, catalytic subunit	10491	-0.6053798794746399	-0.079688884	No	
+row_231	PLAA	PLAA	phospholipase A2-activating protein	10497	-0.6070006489753723	-0.07768593	No	
+row_232	DGAT1	DGAT1	diacylglycerol O-acyltransferase homolog 1 (mouse)	10534	-0.6175130605697632	-0.07819365	No	
+row_233	LPL	LPL	lipoprotein lipase	10584	-0.6302244067192078	-0.0797212	No	
+row_234	LIPT1	LIPT1	lipoyltransferase 1	10613	-0.64091956615448	-0.0794771	No	
+row_235	SOAT2	SOAT2	sterol O-acyltransferase 2	10668	-0.6584542393684387	-0.08130404	No	
+row_236	OCRL	OCRL	oculocerebrorenal syndrome of Lowe	10670	-0.6586511135101318	-0.07876627	No	
+row_237	PPARG	PPARG	peroxisome proliferative activated receptor, gamma	10750	-0.6927083134651184	-0.08251541	No	
+row_238	MBTPS2	MBTPS2	membrane-bound transcription factor peptidase, site 2	10755	-0.6955574750900269	-0.08007784	No	
+row_239	AGPAT2	AGPAT2	1-acylglycerol-3-phosphate O-acyltransferase 2 (lysophosphatidic acid acyltransferase, beta)	10895	-0.758119523525238	-0.088507086	No	
+row_240	ALG1	ALG1	asparagine-linked glycosylation 1 homolog (S. cerevisiae, beta-1,4-mannosyltransferase)	10947	-0.7860313057899475	-0.089579515	No	
+row_241	ACOX1	ACOX1	acyl-Coenzyme A oxidase 1, palmitoyl	10968	-0.7975496649742126	-0.08805363	No	
+row_242	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	-0.08593301	No	
+row_243	RETSAT	RETSAT	retinol saturase (all-trans-retinol 13,14-reductase)	11024	-0.8271801471710205	-0.08601836	No	
+row_244	SGPL1	SGPL1	sphingosine-1-phosphate lyase 1	11027	-0.828688383102417	-0.08288652	No	
+row_245	HPGD	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	11354	-1.0466655492782593	-0.105565205	No	
+row_246	ST8SIA3	ST8SIA3	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 3	11375	-1.0599217414855957	-0.10299561	No	
+row_247	DGAT2	DGAT2	diacylglycerol O-acyltransferase homolog 2 (mouse)	11382	-1.0694187879562378	-0.0992355	No	
+row_248	PNPLA8	PNPLA8	patatin-like phospholipase domain containing 8	11414	-1.1070064306259155	-0.09738432	No	
+row_249	CPNE1	CPNE1	copine I	11468	-1.1595220565795898	-0.09713568	No	
+row_250	MLYCD	MLYCD	malonyl-CoA decarboxylase	11540	-1.2398501634597778	-0.09804959	No	
+row_251	TFCP2L1	TFCP2L1	transcription factor CP2-like 1	11541	-1.2421119213104248	-0.09310847	No	
+row_252	ALDH3B2	ALDH3B2	aldehyde dehydrogenase 3 family, member B2	11801	-1.7868638038635254	-0.10732598	No	
+row_253	UCP3	UCP3	uncoupling protein 3 (mitochondrial, proton carrier)	11807	-1.8007320165634155	-0.10057436	No	
+row_254	NPC1	NPC1	Niemann-Pick disease, type C1	11834	-1.8773818016052246	-0.09524694	No	
+row_255	PLA2G4C	PLA2G4C	phospholipase A2, group IVC (cytosolic, calcium-independent)	11848	-1.9228458404541016	-0.088668264	No	
+row_256	DGKK	DGKK	diacylglycerol kinase, kappa	11922	-2.118551254272461	-0.08625138	No	
+row_257	CEL	CEL	carboxyl ester lipase (bile salt-stimulated lipase)	11987	-2.2225353717803955	-0.08267979	No	
+row_258	DHRS2	DHRS2	dehydrogenase/reductase (SDR family) member 2	11993	-2.2245850563049316	-0.07424209	No	
+row_259	SULT2B1	SULT2B1	sulfotransferase family, cytosolic, 2B, member 1	12192	-3.227499008178711	-0.07770612	No	
+row_260	ACOT2	ACOT2	acyl-CoA thioesterase 2	12237	-3.4469594955444336	-0.067617014	No	
+row_261	SPHK1	SPHK1	sphingosine kinase 1	12282	-3.9044528007507324	-0.055708002	No	
+row_262	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	12284	-4.0908403396606445	-0.03951699	No	
+row_263	ACOT1	ACOT1	acyl-CoA thioesterase 1	12332	-4.5854620933532715	-0.025145939	No	
+row_264	ACOT4	ACOT4	acyl-CoA thioesterase 4	12406	-7.894441604614258	2.474234E-4	No	

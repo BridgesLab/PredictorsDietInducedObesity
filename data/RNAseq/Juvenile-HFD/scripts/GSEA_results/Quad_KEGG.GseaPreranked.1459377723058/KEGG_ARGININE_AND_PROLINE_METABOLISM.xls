@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CPS1	CPS1	carbamoyl-phosphate synthetase 1, mitochondrial	36	7.274812698364258	0.11442394	Yes	
+row_1	ARG1	ARG1	arginase, liver	49	6.735069274902344	0.22208373	Yes	
+row_2	NAGS	NAGS	N-acetylglutamate synthase	98	5.506740093231201	0.30701956	Yes	
+row_3	DAO	DAO	D-amino-acid oxidase	146	4.513000965118408	0.37600818	Yes	
+row_4	OTC	OTC	ornithine carbamoyltransferase	152	4.50824499130249	0.4483176	Yes	
+row_5	AGMAT	AGMAT	agmatine ureohydrolase (agmatinase)	423	2.64682936668396	0.4691674	Yes	
+row_6	PRODH2	PRODH2	proline dehydrogenase (oxidase) 2	543	2.2316250801086426	0.4955352	Yes	
+row_7	ASS1	ASS1	argininosuccinate synthetase 1	760	1.6188008785247803	0.5041721	Yes	
+row_8	GLS2	GLS2	glutaminase 2 (liver, mitochondrial)	772	1.5986617803573608	0.5290672	Yes	
+row_9	P4HA3	P4HA3	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha polypeptide III	1203	1.096735954284668	0.51197255	Yes	
+row_10	ALDH18A1	ALDH18A1	aldehyde dehydrogenase 18 family, member A1	1255	1.061042308807373	0.52496064	Yes	
+row_11	AMD1	AMD1	adenosylmethionine decarboxylase 1	1269	1.0541964769363403	0.5409123	Yes	
+row_12	CKB	CKB	creatine kinase, brain	1398	0.9711554646492004	0.5462218	Yes	
+row_13	P4HA1	P4HA1	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha polypeptide I	1500	0.911072313785553	0.55274636	Yes	
+row_14	ASL	ASL	argininosuccinate lyase	1645	0.8321989178657532	0.55452037	Yes	
+row_15	GATM	GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase)	1657	0.828079879283905	0.56698674	Yes	
+row_16	NOS3	NOS3	nitric oxide synthase 3 (endothelial cell)	1789	0.7672808170318604	0.5687653	Yes	
+row_17	GAMT	GAMT	guanidinoacetate N-methyltransferase	1882	0.7302756309509277	0.57310176	Yes	
+row_18	PYCR1	PYCR1	pyrroline-5-carboxylate reductase 1	2064	0.6684919595718384	0.5692423	No	
+row_19	P4HA2	P4HA2	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha polypeptide II	2403	0.5744998455047607	0.5511666	No	
+row_20	NOS1	NOS1	nitric oxide synthase 1 (neuronal)	2461	0.5621771216392517	0.5556231	No	
+row_21	CKMT2	CKMT2	creatine kinase, mitochondrial 2 (sarcomeric)	2794	0.49169206619262695	0.53669715	No	
+row_22	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	2845	0.481888085603714	0.54042494	No	
+row_23	PYCRL	PYCRL	pyrroline-5-carboxylate reductase-like	3681	0.33450859785079956	0.47827452	No	
+row_24	CKM	CKM	creatine kinase, muscle	4642	0.21016405522823334	0.40400696	No	
+row_25	ALDH4A1	ALDH4A1	aldehyde dehydrogenase 4 family, member A1	4752	0.19398735463619232	0.39831847	No	
+row_26	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	5041	0.15925189852714539	0.37758985	No	
+row_27	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	5603	0.0984877496957779	0.33379737	No	
+row_28	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	0.28207287	No	
+row_29	PYCR2	PYCR2	pyrroline-5-carboxylate reductase family, member 2	6329	0.024060586467385292	0.27615127	No	
+row_30	SMS	SMS	spermine synthase	6489	0.005593520123511553	0.2633795	No	
+row_31	MAOA	MAOA	monoamine oxidase A	6978	-0.027272602543234825	0.22434357	No	
+row_32	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	7139	-0.04446010664105415	0.21211779	No	
+row_33	LAP3	LAP3	leucine aminopeptidase 3	7704	-0.1104600802063942	0.16827573	No	
+row_34	GLUD1	GLUD1	glutamate dehydrogenase 1	8052	-0.1531260758638382	0.14267561	No	
+row_35	GLS	GLS	glutaminase	8191	-0.17114296555519104	0.13427275	No	
+row_36	MAOB	MAOB	monoamine oxidase B	8608	-0.23096217215061188	0.104346454	No	
+row_37	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	8769	-0.2555623948574066	0.09552555	No	
+row_38	SRM	SRM	spermidine synthase	8827	-0.2628666162490845	0.09515444	No	
+row_39	OAT	OAT	ornithine aminotransferase (gyrate atrophy)	9327	-0.3456591069698334	0.060363974	No	
+row_40	ACY1	ACY1	aminoacylase 1	9418	-0.36177757382392883	0.05891874	No	
+row_41	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	11068	-0.8480257391929626	-0.060796026	No	
+row_42	SAT1	SAT1	spermidine/spermine N1-acetyltransferase 1	11206	-0.928226113319397	-0.056906935	No	
+row_43	SAT2	SAT2	spermidine/spermine N1-acetyltransferase 2	11313	-1.0076947212219238	-0.049228404	No	
+row_44	PRODH	PRODH	proline dehydrogenase (oxidase) 1	11695	-1.505825400352478	-0.05576107	No	
+row_45	ODC1	ODC1	ornithine decarboxylase 1	11811	-1.810634732246399	-0.035859887	No	
+row_46	GLUL	GLUL	glutamate-ammonia ligase (glutamine synthetase)	11875	-2.00156569480896	-0.0086727245	No	
+row_47	ARG2	ARG2	arginase, type II	12179	-3.210905075073242	0.018605646	No	

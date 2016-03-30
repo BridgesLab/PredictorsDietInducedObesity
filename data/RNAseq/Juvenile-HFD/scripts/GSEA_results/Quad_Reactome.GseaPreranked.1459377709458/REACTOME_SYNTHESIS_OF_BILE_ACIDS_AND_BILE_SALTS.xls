@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ABCB11	ABCB11	ATP-binding cassette, sub-family B (MDR/TAP), member 11	12	8.810320854187012	0.3113181	Yes	
+row_1	CYP8B1	CYP8B1	cytochrome P450, family 8, subfamily B, polypeptide 1	189	4.012782096862793	0.43935058	Yes	
+row_2	SLC27A5	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5	302	2.9911201000213623	0.5363343	Yes	
+row_3	BAAT	BAAT	bile acid Coenzyme A: amino acid N-acyltransferase (glycine N-choloyltransferase)	483	2.461395502090454	0.60905427	Yes	
+row_4	CYP7B1	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	623	1.9135870933532715	0.66566545	Yes	
+row_5	ACOX2	ACOX2	acyl-Coenzyme A oxidase 2, branched chain	815	1.5215182304382324	0.7041833	Yes	
+row_6	SLC27A2	SLC27A2	solute carrier family 27 (fatty acid transporter), member 2	821	1.5111130475997925	0.757342	Yes	
+row_7	CYP7A1	CYP7A1	cytochrome P450, family 7, subfamily A, polypeptide 1	1619	0.8491696119308472	0.7231256	No	
+row_8	CH25H	CH25H	cholesterol 25-hydroxylase	1888	0.7275424599647522	0.7272869	No	
+row_9	AKR1D1	AKR1D1	aldo-keto reductase family 1, member D1 (delta 4-3-ketosteroid-5-beta-reductase)	2819	0.486787348985672	0.66949284	No	
+row_10	ACOT8	ACOT8	acyl-CoA thioesterase 8	3217	0.407665491104126	0.651906	No	
+row_11	CYP39A1	CYP39A1	cytochrome P450, family 39, subfamily A, polypeptide 1	3807	0.31508105993270874	0.61554354	No	
+row_12	AMACR	AMACR	alpha-methylacyl-CoA racemase	4330	0.24563167989253998	0.58212614	No	
+row_13	HSD3B7	HSD3B7	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 7	5469	0.11162122339010239	0.49424917	No	
+row_14	CYP46A1	CYP46A1	cytochrome P450, family 46, subfamily A, polypeptide 1	7605	-0.09947432577610016	0.3254865	No	
+row_15	SCP2	SCP2	sterol carrier protein 2	8178	-0.16904085874557495	0.28531945	No	
+row_16	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	10815	-0.7193978428840637	0.09810099	No	
+row_17	CYP27A1	CYP27A1	cytochrome P450, family 27, subfamily A, polypeptide 1	11086	-0.8590583801269531	0.10676251	No	

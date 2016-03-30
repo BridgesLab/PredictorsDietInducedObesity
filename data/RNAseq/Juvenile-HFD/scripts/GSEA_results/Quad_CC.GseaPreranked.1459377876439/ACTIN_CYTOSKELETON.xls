@@ -1,0 +1,121 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MYO3A	MYO3A	myosin IIIA	147	4.513000965118408	0.04852111	Yes	
+row_1	MYH7	MYH7	myosin, heavy chain 7, cardiac muscle, beta	334	2.869187116622925	0.071838945	Yes	
+row_2	TNNC1	TNNC1	troponin C type 1 (slow)	337	2.8499302864074707	0.10987023	Yes	
+row_3	ESPN	ESPN	espin	506	2.3435873985290527	0.12760873	Yes	
+row_4	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	523	2.2940452098846436	0.15705106	Yes	
+row_5	TPM3	TPM3	tropomyosin 3	556	2.1726155281066895	0.18356413	Yes	
+row_6	CASK	CASK	calcium/calmodulin-dependent serine protein kinase (MAGUK family)	582	2.068878173828125	0.20925651	Yes	
+row_7	SPTBN4	SPTBN4	spectrin, beta, non-erythrocytic 4	588	2.0396618843078613	0.2361847	Yes	
+row_8	SMTN	SMTN	smoothelin	594	2.008324384689331	0.2626929	Yes	
+row_9	SEPT9	SEPT9	septin 9	950	1.3362820148468018	0.25171614	Yes	
+row_10	CDH1	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	1013	1.275054693222046	0.26375932	Yes	
+row_11	WASF1	WASF1	WAS protein family, member 1	1139	1.1416131258010864	0.26888806	Yes	
+row_12	MYL6B	MYL6B	myosin, light chain 6B, alkali, smooth muscle and non-muscle	1195	1.1026281118392944	0.27919	Yes	
+row_13	HAP1	HAP1	huntingtin-associated protein 1 (neuroan 1)	1196	1.1015729904174805	0.293953	Yes	
+row_14	TPM4	TPM4	tropomyosin 4	1211	1.08720064163208	0.30738425	Yes	
+row_15	MYH10	MYH10	myosin, heavy chain 10, non-muscle	1237	1.070104718208313	0.31969133	Yes	
+row_16	VASP	VASP	vasodilator-stimulated phosphoprotein	1265	1.056345820426941	0.3316513	Yes	
+row_17	FSCN1	FSCN1	fascin homolog 1, actin-bundling protein (Strongylocentrotus purpuratus)	1296	1.0343255996704102	0.34307203	Yes	
+row_18	WAS	WAS	Wiskott-Aldrich syndrome (eczema-thrombocytopenia)	1369	0.9879801273345947	0.35045427	Yes	
+row_19	MYL4	MYL4	myosin, light chain 4, alkali; atrial, embryonic	1504	0.9100280404090881	0.35174707	Yes	
+row_20	PALLD	PALLD	palladin, cytoskeletal associated protein	1567	0.8785412311553955	0.35847628	Yes	
+row_21	LSP1	LSP1	lymphocyte-specific protein 1	1637	0.8368551135063171	0.36407727	Yes	
+row_22	SHROOM2	SHROOM2	shroom family member 2	1643	0.8328341245651245	0.37483186	Yes	
+row_23	MYL9	MYL9	myosin, light chain 9, regulatory	1680	0.8152154684066772	0.38282797	Yes	
+row_24	MYO9B	MYO9B	myosin IXB	1830	0.7493357062339783	0.3807467	Yes	
+row_25	TNNI3	TNNI3	troponin I type 3 (cardiac)	1891	0.7260627150535583	0.38559517	Yes	
+row_26	ACTR3	ACTR3	ARP3 actin-related protein 3 homolog (yeast)	1953	0.7049890756607056	0.39007986	Yes	
+row_27	KPTN	KPTN	kaptin (actin binding protein)	2146	0.6429083943367004	0.38307348	Yes	
+row_28	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	2161	0.6399893164634705	0.39051133	Yes	
+row_29	IQGAP2	IQGAP2	IQ motif containing GTPase activating protein 2	2245	0.6199058294296265	0.39206567	Yes	
+row_30	TNNT2	TNNT2	troponin T type 2 (cardiac)	2277	0.6129890084266663	0.39775842	Yes	
+row_31	MARCKS	MARCKS	myristoylated alanine-rich protein kinase C substrate	2282	0.6105237007141113	0.40561503	Yes	
+row_32	ACTN2	ACTN2	actinin, alpha 2	2392	0.5789265632629395	0.40450466	Yes	
+row_33	DYNLL2	DYNLL2	dynein, light chain, LC8-type 2	2595	0.5336894392967224	0.3952209	Yes	
+row_34	SPTAN1	SPTAN1	spectrin, alpha, non-erythrocytic 1 (alpha-fodrin)	2697	0.5115615725517273	0.39385864	Yes	
+row_35	LASP1	LASP1	LIM and SH3 protein 1	2834	0.48353371024131775	0.38927293	Yes	
+row_36	CAPG	CAPG	capping protein (actin filament), gelsolin-like	2882	0.474187433719635	0.39180362	Yes	
+row_37	TPM1	TPM1	tropomyosin 1 (alpha)	2921	0.4663088619709015	0.39496103	Yes	
+row_38	MYH9	MYH9	myosin, heavy chain 9, non-muscle	2973	0.45370736718177795	0.39689177	Yes	
+row_39	CAPZA1	CAPZA1	capping protein (actin filament) muscle Z-line, alpha 1	3008	0.44782018661499023	0.40012687	Yes	
+row_40	MYLPF	MYLPF	-	3012	0.4469994008541107	0.40587333	Yes	
+row_41	ARPC1B	ARPC1B	actin related protein 2/3 complex, subunit 1B, 41kDa	3035	0.4431290328502655	0.41002196	Yes	
+row_42	MYL6	MYL6	myosin, light chain 6, alkali, smooth muscle and non-muscle	3058	0.4392751157283783	0.41411895	Yes	
+row_43	LIMA1	LIMA1	LIM domain and actin binding 1	3091	0.4337657392024994	0.41732842	Yes	
+row_44	BIN1	BIN1	bridging integrator 1	3105	0.43141117691993713	0.4220523	Yes	
+row_45	ACTC1	ACTC1	actin, alpha, cardiac muscle 1	3178	0.4153338372707367	0.42176008	No	
+row_46	CORO1A	CORO1A	coronin, actin binding protein, 1A	3275	0.39815476536750793	0.41928482	No	
+row_47	FLNB	FLNB	filamin B, beta (actin binding protein 278)	3416	0.37703177332878113	0.4129463	No	
+row_48	SPTBN2	SPTBN2	spectrin, beta, non-erythrocytic 2	3426	0.3753412365913391	0.41724423	No	
+row_49	MTSS1	MTSS1	metastasis suppressor 1	3528	0.35707566142082214	0.4138116	No	
+row_50	STK38L	STK38L	serine/threonine kinase 38 like	3613	0.3442896902561188	0.41159084	No	
+row_51	TPM2	TPM2	tropomyosin 2 (beta)	3635	0.34082692861557007	0.4144498	No	
+row_52	CDC42EP3	CDC42EP3	CDC42 effector protein (Rho GTPase binding) 3	3658	0.3379397392272949	0.41718873	No	
+row_53	CORO1C	CORO1C	coronin, actin binding protein, 1C	3778	0.31948867440223694	0.41178778	No	
+row_54	ARPC3	ARPC3	actin related protein 2/3 complex, subunit 3, 21kDa	3934	0.2988068759441376	0.40318042	No	
+row_55	ARPC2	ARPC2	actin related protein 2/3 complex, subunit 2, 34kDa	4062	0.28239282965660095	0.39663136	No	
+row_56	SEPT11	SEPT11	septin 11	4191	0.2656594514846802	0.3897767	No	
+row_57	AMOT	AMOT	angiomotin	4233	0.25849103927612305	0.3899049	No	
+row_58	SPTBN1	SPTBN1	spectrin, beta, non-erythrocytic 1	4324	0.24640855193138123	0.38588417	No	
+row_59	ACTA1	ACTA1	actin, alpha 1, skeletal muscle	4373	0.24066101014614105	0.3852038	No	
+row_60	CAPZB	CAPZB	capping protein (actin filament) muscle Z-line, beta	4632	0.21075868606567383	0.36703566	No	
+row_61	ABLIM2	ABLIM2	actin binding LIM protein family, member 2	4658	0.20733457803726196	0.36778015	No	
+row_62	FLNA	FLNA	filamin A, alpha (actin binding protein 280)	4669	0.20589393377304077	0.3697258	No	
+row_63	KALRN	KALRN	kalirin, RhoGEF kinase	4684	0.20261432230472565	0.37130204	No	
+row_64	MYO6	MYO6	myosin VI	5052	0.15753202140331268	0.34355158	No	
+row_65	KLHL20	KLHL20	kelch-like 20 (Drosophila)	5059	0.1566055864095688	0.34516215	No	
+row_66	ARPC4	ARPC4	actin related protein 2/3 complex, subunit 4, 20kDa	5144	0.1482519656419754	0.34031418	No	
+row_67	DAG1	DAG1	dystroglycan 1 (dystrophin-associated glycoprotein 1)	5292	0.13248609006404877	0.33012876	No	
+row_68	MYO1C	MYO1C	myosin IC	5436	0.1173120066523552	0.32006547	No	
+row_69	SHROOM4	SHROOM4	shroom family member 4	5849	0.0719740018248558	0.28750688	No	
+row_70	PKD2	PKD2	polycystic kidney disease 2 (autosomal dominant)	5908	0.06633930653333664	0.28367665	No	
+row_71	AVIL	AVIL	advillin	5917	0.0652432069182396	0.28390008	No	
+row_72	GYS2	GYS2	glycogen synthase 2 (liver)	6170	0.03967262804508209	0.26392728	No	
+row_73	CLIC5	CLIC5	chloride intracellular channel 5	6263	0.031246228143572807	0.2568603	No	
+row_74	IPP	IPP	intracisternal A particle-promoted polypeptide	6282	0.029399259015917778	0.25578967	No	
+row_75	BMF	BMF	Bcl2 modifying factor	6436	0.01187113020569086	0.24349962	No	
+row_76	ABRA	ABRA	actin-binding Rho activating protein	6523	0.0022956375032663345	0.23653282	No	
+row_77	LLGL1	LLGL1	lethal giant larvae homolog 1 (Drosophila)	6609	-0.008621261455118656	0.22973217	No	
+row_78	ACTR1A	ACTR1A	ARP1 actin-related protein 1 homolog A, centractin alpha (yeast)	6626	-0.010960499756038189	0.2285772	No	
+row_79	DCTN3	DCTN3	dynactin 3 (p22)	6650	-0.013884570449590683	0.22689183	No	
+row_80	USH1G	USH1G	Usher syndrome 1G (autosomal recessive)	6653	-0.01403835229575634	0.22691724	No	
+row_81	CAPZA2	CAPZA2	capping protein (actin filament) muscle Z-line, alpha 2	6687	-0.017470428720116615	0.22446626	No	
+row_82	ARPC1A	ARPC1A	actin related protein 2/3 complex, subunit 1A, 41kDa	6974	-0.02632613480091095	0.20154813	No	
+row_83	IQGAP1	IQGAP1	IQ motif containing GTPase activating protein 1	7143	-0.044870104640722275	0.18847981	No	
+row_84	DCTN2	DCTN2	dynactin 2 (p50)	7365	-0.07201191782951355	0.17146279	No	
+row_85	SYNPO	SYNPO	synaptopodin	7469	-0.08433132618665695	0.16421218	No	
+row_86	ACTR1B	ACTR1B	ARP1 actin-related protein 1 homolog B, centractin beta (yeast)	7543	-0.09284145385026932	0.15951663	No	
+row_87	SEPT7	SEPT7	septin 7	7617	-0.10081890225410461	0.15492798	No	
+row_88	ACTN3	ACTN3	actinin, alpha 3	7648	-0.10367715358734131	0.15387644	No	
+row_89	FYB	FYB	FYN binding protein (FYB-120/130)	7790	-0.11899557709693909	0.14399844	No	
+row_90	WASF2	WASF2	WAS protein family, member 2	7863	-0.12959493696689606	0.13987681	No	
+row_91	ARPC5	ARPC5	actin related protein 2/3 complex, subunit 5, 16kDa	7955	-0.14058583974838257	0.13435651	No	
+row_92	DAPK1	DAPK1	death-associated protein kinase 1	8034	-0.15125784277915955	0.13003701	No	
+row_93	CLIC4	CLIC4	chloride intracellular channel 4	8392	-0.20203807950019836	0.10369667	No	
+row_94	SLC9A3R1	SLC9A3R1	solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 1	8524	-0.21856574714183807	0.09596675	No	
+row_95	SPTB	SPTB	spectrin, beta, erythrocytic (includes spherocytosis, clinical type I)	8628	-0.2330239862203598	0.09070888	No	
+row_96	ACTR2	ACTR2	ARP2 actin-related protein 2 homolog (yeast)	8672	-0.24091677367687225	0.090438806	No	
+row_97	SPTA1	SPTA1	spectrin, alpha, erythrocytic 1 (elliptocytosis 2)	8692	-0.24346651136875153	0.09215571	No	
+row_98	ANLN	ANLN	anillin, actin binding protein	8959	-0.2846280634403229	0.074326605	No	
+row_99	WIPF1	WIPF1	WAS/WASL interacting protein family, member 1	9078	-0.3031887710094452	0.06878856	No	
+row_100	CTTNBP2NL	CTTNBP2NL	CTTNBP2 N-terminal like	9116	-0.3096436560153961	0.069927745	No	
+row_101	GSN	GSN	gelsolin (amyloidosis, Finnish type)	9276	-0.335298091173172	0.06148397	No	
+row_102	TSC1	TSC1	tuberous sclerosis 1	9410	-0.3609269857406616	0.055499215	No	
+row_103	MYOT	MYOT	myotilin	9555	-0.38292205333709717	0.048914194	No	
+row_104	MYOM1	MYOM1	myomesin 1 (skelemin) 185kDa	9798	-0.4237523674964905	0.034902405	No	
+row_105	KLHL2	KLHL2	kelch-like 2, Mayven (Drosophila)	9850	-0.4330572783946991	0.036556408	No	
+row_106	MYO1A	MYO1A	myosin IA	9860	-0.4350670576095581	0.041654762	No	
+row_107	MYO18B	MYO18B	myosin XVIIIB	9883	-0.4431217312812805	0.04580329	No	
+row_108	CD2AP	CD2AP	CD2-associated protein	10015	-0.4717273712158203	0.041466184	No	
+row_109	AMPH	AMPH	amphiphysin (Stiff-Man syndrome with breast cancer 128kDa autoantigen)	10128	-0.49977585673332214	0.039050948	No	
+row_110	SORBS1	SORBS1	sorbin and SH3 domain containing 1	10144	-0.5028786063194275	0.04456989	No	
+row_111	WASL	WASL	Wiskott-Aldrich syndrome-like	10459	-0.5916944146156311	0.026950397	No	
+row_112	PDLIM5	PDLIM5	PDZ and LIM domain 5	10598	-0.6347976922988892	0.024229147	No	
+row_113	SORBS2	SORBS2	sorbin and SH3 domain containing 2	10621	-0.6434747576713562	0.031062754	No	
+row_114	NEB	NEB	nebulin	10741	-0.6895235180854797	0.030620899	No	
+row_115	ABLIM1	ABLIM1	actin binding LIM protein 1	11127	-0.8789679408073425	0.011074314	No	
+row_116	VILL	VILL	villin-like	11253	-0.9602448344230652	0.013772394	No	
+row_117	FSCN2	FSCN2	fascin homolog 2, actin-bundling protein, retinal (Strongylocentrotus purpuratus)	11589	-1.3156808614730835	0.004146869	No	
+row_118	GAS2	GAS2	growth arrest-specific 2	11982	-2.214754343032837	0.0019325749	No	
+row_119	SHROOM1	SHROOM1	shroom family member 1	12090	-2.4421980381011963	0.025956005	No	

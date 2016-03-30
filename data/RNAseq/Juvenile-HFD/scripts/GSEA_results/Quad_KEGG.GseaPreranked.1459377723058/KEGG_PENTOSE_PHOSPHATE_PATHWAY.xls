@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FBP1	FBP1	fructose-1,6-bisphosphatase 1	54	6.530265808105469	0.30128932	Yes	
+row_1	ALDOB	ALDOB	aldolase B, fructose-bisphosphate	158	4.45428466796875	0.5014567	Yes	
+row_2	PRPS1L1	PRPS1L1	phosphoribosyl pyrophosphate synthetase 1-like 1	364	2.7946760654449463	0.61571175	Yes	
+row_3	PFKP	PFKP	phosphofructokinase, platelet	2684	0.5133110880851746	0.4525248	No	
+row_4	RPIA	RPIA	ribose 5-phosphate isomerase A (ribose 5-phosphate epimerase)	3062	0.43864163756370544	0.44262028	No	
+row_5	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	4291	0.25116315484046936	0.35523975	No	
+row_6	PGM1	PGM1	phosphoglucomutase 1	4896	0.17608030140399933	0.3147204	No	
+row_7	PGM2	PGM2	phosphoglucomutase 2	5023	0.16175761818885803	0.31211948	No	
+row_8	PFKL	PFKL	phosphofructokinase, liver	5099	0.15253974497318268	0.31320438	No	
+row_9	PRPS2	PRPS2	phosphoribosyl pyrophosphate synthetase 2	5210	0.14171051979064941	0.31095684	No	
+row_10	RBKS	RBKS	ribokinase	5681	0.09002583473920822	0.2772275	No	
+row_11	TALDO1	TALDO1	transaldolase 1	5717	0.08696046471595764	0.27847213	No	
+row_12	DERA	DERA	2-deoxyribose-5-phosphate aldolase homolog (C. elegans)	6008	0.05585115775465965	0.2576746	No	
+row_13	PGLS	PGLS	6-phosphogluconolactonase	6454	0.009606290608644485	0.22219945	No	
+row_14	H6PD	H6PD	hexose-6-phosphate dehydrogenase (glucose 1-dehydrogenase)	6708	-0.01962752640247345	0.20269349	No	
+row_15	TKTL1	TKTL1	transketolase-like 1	6786	-0.021839583292603493	0.1974995	No	
+row_16	PGD	PGD	phosphogluconate dehydrogenase	6944	-0.023512575775384903	0.18592542	No	
+row_17	PRPS1	PRPS1	phosphoribosyl pyrophosphate synthetase 1	8208	-0.17328357696533203	0.09207421	No	
+row_18	ALDOC	ALDOC	aldolase C, fructose-bisphosphate	9012	-0.2924146354198456	0.040934633	No	
+row_19	PFKM	PFKM	phosphofructokinase, muscle	9322	-0.344791442155838	0.03212707	No	
+row_20	FBP2	FBP2	fructose-1,6-bisphosphatase 2	11679	-1.4717538356781006	-0.08918698	No	
+row_21	TKT	TKT	transketolase (Wernicke-Korsakoff syndrome)	11699	-1.5174999237060547	-0.019694347	No	
+row_22	RPE	RPE	ribulose-5-phosphate-3-epimerase	11747	-1.6436673402786255	0.053443104	No	

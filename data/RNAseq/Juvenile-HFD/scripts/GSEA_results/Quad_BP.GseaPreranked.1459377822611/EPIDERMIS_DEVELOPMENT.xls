@@ -1,0 +1,56 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	POU2F3	POU2F3	POU domain, class 2, transcription factor 3	377	2.7586851119995117	-0.007345475	No	
+row_1	KRT16	KRT16	keratin 16 (focal non-epidermolytic palmoplantar keratoderma)	457	2.543480396270752	0.007621469	No	
+row_2	PTHLH	PTHLH	parathyroid hormone-like hormone	547	2.211700677871704	0.018992612	No	
+row_3	CRABP2	CRABP2	cellular retinoic acid binding protein 2	558	2.1602377891540527	0.036325723	No	
+row_4	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	622	1.9217123985290527	0.047365844	No	
+row_5	DHCR24	DHCR24	24-dehydrocholesterol reductase	640	1.8716386556625366	0.061708614	No	
+row_6	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	648	1.8518184423446655	0.07669432	No	
+row_7	SPRR1A	SPRR1A	small proline-rich protein 1A	669	1.77931547164917	0.090018906	No	
+row_8	COL1A1	COL1A1	collagen, type I, alpha 1	745	1.6398643255233765	0.0977207	No	
+row_9	LAMA3	LAMA3	laminin, alpha 3	885	1.4223384857177734	0.09841553	No	
+row_10	EMP1	EMP1	epithelial membrane protein 1	899	1.3984819650650024	0.10910831	No	
+row_11	TGFB2	TGFB2	transforming growth factor, beta 2	1172	1.1153578758239746	0.096460134	No	
+row_12	WAS	WAS	Wiskott-Aldrich syndrome (eczema-thrombocytopenia)	1369	0.9879801273345947	0.08889354	No	
+row_13	PTCH2	PTCH2	patched homolog 2 (Drosophila)	1772	0.7723138928413391	0.062842295	No	
+row_14	LAMB3	LAMB3	laminin, beta 3	1775	0.7717475891113281	0.06916185	No	
+row_15	COL5A2	COL5A2	collagen, type V, alpha 2	2043	0.6761230826377869	0.053229503	No	
+row_16	SCEL	SCEL	sciellin	2233	0.6232243776321411	0.04316613	No	
+row_17	PLOD1	PLOD1	procollagen-lysine 1, 2-oxoglutarate 5-dioxygenase 1	2673	0.5167384743690491	0.011973724	No	
+row_18	GJB5	GJB5	gap junction protein, beta 5 (connexin 31.1)	2841	0.48270127177238464	0.0025108384	No	
+row_19	FABP5	FABP5	fatty acid binding protein 5 (psoriasis-associated)	3098	0.4326518774032593	-0.0145759415	No	
+row_20	LAMC2	LAMC2	laminin, gamma 2	3356	0.3852488696575165	-0.032141767	No	
+row_21	FLOT2	FLOT2	flotillin 2	3660	0.3375679552555084	-0.053831227	No	
+row_22	DCT	DCT	dopachrome tautomerase (dopachrome delta-isomerase, tyrosine-related protein 2)	4055	0.28292208909988403	-0.08334506	No	
+row_23	NME2	NME2	non-metastatic cells 2, protein (NM23B) expressed in	4084	0.27958932518959045	-0.083263256	No	
+row_24	COL7A1	COL7A1	collagen, type VII, alpha 1 (epidermolysis bullosa, dystrophic, dominant and recessive)	4596	0.21479426324367523	-0.1228191	No	
+row_25	BTD	BTD	biotinidase	5050	0.157997727394104	-0.1581575	No	
+row_26	ERCC2	ERCC2	excision repair cross-complementing rodent repair deficiency, complementation group 2 (xeroderma pigmentosum D)	5340	0.12761440873146057	-0.18047708	No	
+row_27	EVPL	EVPL	envoplakin	5407	0.12023916840553284	-0.18480922	No	
+row_28	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	-0.25268254	No	
+row_29	ERCC3	ERCC3	excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)	6522	0.0023399440106004477	-0.27459732	No	
+row_30	PPARD	PPARD	peroxisome proliferative activated receptor, delta	6592	-0.006434424314647913	-0.28012806	No	
+row_31	TGM5	TGM5	transglutaminase 5	6798	-0.02186748757958412	-0.2965369	No	
+row_32	KRT10	KRT10	keratin 10 (epidermolytic hyperkeratosis; keratosis palmaris et plantaris)	7753	-0.11417583376169205	-0.3727937	No	
+row_33	GLI1	GLI1	glioma-associated oncogene homolog 1 (zinc finger protein)	7756	-0.11484000831842422	-0.3719911	No	
+row_34	ALOX12B	ALOX12B	arachidonate 12-lipoxygenase, 12R type	7793	-0.11940190941095352	-0.3739021	No	
+row_35	TGM3	TGM3	transglutaminase 3 (E polypeptide, protein-glutamine-gamma-glutamyltransferase)	8739	-0.2522445619106293	-0.44827092	No	
+row_36	CDSN	CDSN	corneodesmosin	9349	-0.3484657108783722	-0.49463615	No	
+row_37	FST	FST	follistatin	9587	-0.3875817358493805	-0.5105636	No	
+row_38	FOXN1	FOXN1	forkhead box N1	9610	-0.3905141055583954	-0.5090646	No	
+row_39	CTGF	CTGF	connective tissue growth factor	10257	-0.5313775539398193	-0.5568884	No	
+row_40	UGCG	UGCG	UDP-glucose ceramide glucosyltransferase	10460	-0.5920289754867554	-0.568266	No	
+row_41	ATP2C1	ATP2C1	ATPase, Ca++ transporting, type 2C, member 1	11124	-0.8771143555641174	-0.6145621	No	
+row_42	KLK7	KLK7	kallikrein 7 (chymotryptic, stratum corneum)	11675	-1.4652806520462036	-0.6467725	Yes	
+row_43	DSP	DSP	desmoplakin	11750	-1.6524137258529663	-0.6388844	Yes	
+row_44	KRT83	KRT83	keratin 83	11972	-2.2102925777435303	-0.638209	Yes	
+row_45	COL17A1	COL17A1	collagen, type XVII, alpha 1	12060	-2.2888588905334473	-0.626028	Yes	
+row_46	KRT9	KRT9	keratin 9 (epidermolytic palmoplantar keratoderma)	12162	-3.1684787273406982	-0.6075927	Yes	
+row_47	KRT17	KRT17	keratin 17	12236	-3.4354248046875	-0.58464926	Yes	
+row_48	KLK5	KLK5	kallikrein 5	12333	-4.603079319000244	-0.553761	Yes	
+row_49	SPINK5	SPINK5	serine peptidase inhibitor, Kazal type 5	12364	-5.282706260681152	-0.511823	Yes	
+row_50	KRT2	KRT2	keratin 2 (epidermal ichthyosis bullosa of Siemens)	12381	-5.79730224609375	-0.46443003	Yes	
+row_51	KRT1	KRT1	keratin 1 (epidermolytic hyperkeratosis)	12397	-6.80812931060791	-0.40846688	Yes	
+row_52	KRT14	KRT14	keratin 14 (epidermolysis bullosa simplex, Dowling-Meara, Koebner)	12404	-7.532858848571777	-0.3456887	Yes	
+row_53	KRT15	KRT15	keratin 15	12407	-20.046566009521484	-0.17749189	Yes	
+row_54	KRT5	KRT5	keratin 5 (epidermolysis bullosa simplex, Dowling-Meara/Kobner/Weber-Cockayne types)	12409	-21.14369010925293	-8.759889E-8	Yes	

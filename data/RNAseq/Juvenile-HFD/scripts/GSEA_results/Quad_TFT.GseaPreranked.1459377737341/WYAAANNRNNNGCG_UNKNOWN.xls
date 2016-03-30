@@ -1,0 +1,49 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NEUROD1	NEUROD1	neurogenic differentiation 1	397	2.7535624504089355	0.041992255	No	
+row_1	BARHL2	BARHL2	BarH-like 2 (Drosophila)	764	1.6114583015441895	0.055754673	No	
+row_2	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	930	1.357496738433838	0.07894172	No	
+row_3	PHF21B	PHF21B	PHD finger protein 21B	1241	1.0684256553649902	0.08261947	No	
+row_4	NDUFA4L2	NDUFA4L2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4-like 2	1377	0.9834485650062561	0.098166525	No	
+row_5	VASH1	VASH1	vasohibin 1	1384	0.9769102334976196	0.12397281	No	
+row_6	PPFIA2	PPFIA2	protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 2	1620	0.8487887978553772	0.12780645	No	
+row_7	ETV6	ETV6	ets variant gene 6 (TEL oncogene)	1628	0.8411052823066711	0.14987692	No	
+row_8	ELK3	ELK3	ELK3, ETS-domain protein (SRF accessory protein 2)	2666	0.5186731219291687	0.0799499	No	
+row_9	MESDC1	MESDC1	mesoderm development candidate 1	2711	0.5088735818862915	0.09008595	No	
+row_10	EFNB3	EFNB3	ephrin-B3	2815	0.4874499440193176	0.09487274	No	
+row_11	ST8SIA2	ST8SIA2	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2	3010	0.44739800691604614	0.09122034	No	
+row_12	HYAL2	HYAL2	hyaluronoglucosaminidase 2	3270	0.3989037275314331	0.08100476	No	
+row_13	CDKN2C	CDKN2C	cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)	3532	0.3562639057636261	0.06947982	No	
+row_14	CSTF3	CSTF3	cleavage stimulation factor, 3' pre-RNA, subunit 3, 77kDa	3837	0.31082066893577576	0.05325347	No	
+row_15	E2F8	E2F8	E2F transcription factor 8	4315	0.24752649664878845	0.02132918	No	
+row_16	GIT1	GIT1	G protein-coupled receptor kinase interactor 1	4432	0.23382951319217682	0.018238654	No	
+row_17	SMAD6	SMAD6	SMAD, mothers against DPP homolog 6 (Drosophila)	4602	0.21395283937454224	0.010325854	No	
+row_18	C1QTNF7	C1QTNF7	C1q and tumor necrosis factor related protein 7	4641	0.21030578017234802	0.012911891	No	
+row_19	RCOR2	RCOR2	REST corepressor 2	4914	0.17436495423316956	-0.004398326	No	
+row_20	BMI1	BMI1	B lymphoma Mo-MLV insertion region (mouse)	5304	0.1314859688282013	-0.032327034	No	
+row_21	DUSP6	DUSP6	dual specificity phosphatase 6	6162	0.04093153402209282	-0.10055079	No	
+row_22	MGLL	MGLL	monoglyceride lipase	6324	0.024791294708848	-0.112907365	No	
+row_23	ERF	ERF	Ets2 repressor factor	6531	0.0012559160823002458	-0.12953754	No	
+row_24	HOXA5	HOXA5	homeobox A5	6544	2.3725000573904254E-5	-0.1305076	No	
+row_25	TMEM56	TMEM56	transmembrane protein 56	6689	-0.017548220232129097	-0.14168394	No	
+row_26	PPP2R5E	PPP2R5E	protein phosphatase 2, regulatory subunit B (B56), epsilon isoform	7209	-0.05292953923344612	-0.18224293	No	
+row_27	SOCS2	SOCS2	suppressor of cytokine signaling 2	7456	-0.08299703150987625	-0.19990893	No	
+row_28	PHOSPHO1	PHOSPHO1	phosphatase, orphan 1	7713	-0.11134715378284454	-0.21762085	No	
+row_29	PHC2	PHC2	polyhomeotic homolog 2 (Drosophila)	7766	-0.11535666137933731	-0.21872269	No	
+row_30	CTCF	CTCF	CCCTC-binding factor (zinc finger protein)	7844	-0.1265876293182373	-0.2215446	No	
+row_31	LMO4	LMO4	LIM domain only 4	8128	-0.16215486824512482	-0.24007325	No	
+row_32	DCP1A	DCP1A	DCP1 decapping enzyme homolog A (S. cerevisiae)	8338	-0.19378726184368134	-0.25176448	No	
+row_33	ROR1	ROR1	receptor tyrosine kinase-like orphan receptor 1	8786	-0.2571047842502594	-0.2810042	No	
+row_34	HOXD3	HOXD3	homeobox D3	9389	-0.35612398386001587	-0.32011744	No	
+row_35	RHOB	RHOB	ras homolog gene family, member B	9553	-0.3828156292438507	-0.32300025	No	
+row_36	SLC43A2	SLC43A2	solute carrier family 43, member 2	9556	-0.38303229212760925	-0.3128535	No	
+row_37	STK35	STK35	serine/threonine kinase 35	9745	-0.41504010558128357	-0.31689137	No	
+row_38	SMC3	SMC3	structural maintenance of chromosomes 3	9895	-0.4458543658256531	-0.31694514	No	
+row_39	RFX1	RFX1	regulatory factor X, 1 (influences HLA class II expression)	10503	-0.6081005334854126	-0.34968138	No	
+row_40	PCF11	PCF11	PCF11, cleavage and polyadenylation factor subunit, homolog (S. cerevisiae)	10822	-0.7214763760566711	-0.35598823	No	
+row_41	GABRA1	GABRA1	gamma-aminobutyric acid (GABA) A receptor, alpha 1	11063	-0.8439151644706726	-0.35269022	No	
+row_42	PHOX2A	PHOX2A	paired-like (aristaless) homeobox 2a	11652	-1.4219844341278076	-0.3619854	Yes	
+row_43	ULK1	ULK1	unc-51-like kinase 1 (C. elegans)	11717	-1.5548431873321533	-0.32531694	Yes	
+row_44	LGR5	LGR5	leucine-rich repeat-containing G protein-coupled receptor 5	11755	-1.6671355962753296	-0.28344226	Yes	
+row_45	GABRB2	GABRB2	gamma-aminobutyric acid (GABA) A receptor, beta 2	12205	-3.2544007301330566	-0.23217735	Yes	
+row_46	RFX4	RFX4	regulatory factor X, 4 (influences HLA class II expression)	12249	-3.710850715637207	-0.13578539	Yes	
+row_47	NOL4	NOL4	nucleolar protein 4	12375	-5.523244380950928	0.002750408	Yes	

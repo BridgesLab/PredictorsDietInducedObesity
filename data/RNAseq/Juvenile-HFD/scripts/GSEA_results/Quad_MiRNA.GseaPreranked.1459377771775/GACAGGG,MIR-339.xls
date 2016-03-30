@@ -1,0 +1,48 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NRXN1	NRXN1	neurexin 1	223	3.7822389602661133	0.12024647	Yes	
+row_1	ACPT	ACPT	acid phosphatase, testicular	746	1.6384302377700806	0.1379271	Yes	
+row_2	EMX2	EMX2	empty spiracles homolog 2 (Drosophila)	788	1.5641568899154663	0.19179861	Yes	
+row_3	BCL6	BCL6	B-cell CLL/lymphoma 6 (zinc finger protein 51)	803	1.543296456336975	0.24709137	Yes	
+row_4	PODXL	PODXL	podocalyxin-like	938	1.3475524187088013	0.28552106	Yes	
+row_5	HAP1	HAP1	huntingtin-associated protein 1 (neuroan 1)	1196	1.1015729904174805	0.30500832	Yes	
+row_6	EMILIN2	EMILIN2	elastin microfibril interfacer 2	1257	1.0603443384170532	0.3389229	Yes	
+row_7	CNNM4	CNNM4	cyclin M4	1401	0.9685903191566467	0.3627692	Yes	
+row_8	NNAT	NNAT	neuronatin	1554	0.8848090171813965	0.38282433	Yes	
+row_9	SLC4A10	SLC4A10	solute carrier family 4, sodium bicarbonate transporter-like, member 10	1593	0.8675376176834106	0.41146907	Yes	
+row_10	EPHA4	EPHA4	EPH receptor A4	1658	0.8278026580810547	0.436558	Yes	
+row_11	PLEKHH3	PLEKHH3	pleckstrin homology domain containing, family H (with MyTH4 domain) member 3	2498	0.5552906394004822	0.38899645	No	
+row_12	MAPRE1	MAPRE1	microtubule-associated protein, RP/EB family, member 1	2732	0.5052569508552551	0.38862285	No	
+row_13	SYNGAP1	SYNGAP1	synaptic Ras GTPase activating protein 1 homolog (rat)	3110	0.43077635765075684	0.37387842	No	
+row_14	PAPPA	PAPPA	pregnancy-associated plasma protein A, pappalysin 1	3172	0.41672879457473755	0.38418058	No	
+row_15	FHL1	FHL1	four and a half LIM domains 1	3371	0.3832997679710388	0.38217902	No	
+row_16	THRA	THRA	thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian)	3653	0.33836880326271057	0.37182117	No	
+row_17	USF2	USF2	upstream transcription factor 2, c-fos interacting	3885	0.30462631583213806	0.36427397	No	
+row_18	BLCAP	BLCAP	bladder cancer associated protein	4384	0.2394392490386963	0.33274674	No	
+row_19	UNC5C	UNC5C	unc-5 homolog C (C. elegans)	4621	0.21150338649749756	0.3213904	No	
+row_20	ABLIM2	ABLIM2	actin binding LIM protein family, member 2	4658	0.20733457803726196	0.32605892	No	
+row_21	ARHGAP29	ARHGAP29	Rho GTPase activating protein 29	5105	0.15225493907928467	0.2955502	No	
+row_22	TRPC3	TRPC3	transient receptor potential cation channel, subfamily C, member 3	5282	0.1332414597272873	0.28618568	No	
+row_23	MYO1C	MYO1C	myosin IC	5436	0.1173120066523552	0.27809915	No	
+row_24	ATXN2L	ATXN2L	ataxin 2-like	5497	0.1091689020395279	0.27723733	No	
+row_25	VAT1	VAT1	vesicle amine transport protein 1 homolog (T californica)	6192	0.037590380758047104	0.22247645	No	
+row_26	NFASC	NFASC	neurofascin homolog (chicken)	6221	0.03564872592687607	0.221515	No	
+row_27	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	6346	0.02262190170586109	0.21231216	No	
+row_28	DNAJC7	DNAJC7	DnaJ (Hsp40) homolog, subfamily C, member 7	6939	-0.022967921569943428	0.16526708	No	
+row_29	FLT1	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	7077	-0.03812359645962715	0.15557948	No	
+row_30	VCP	VCP	valosin-containing protein	7315	-0.06667114794254303	0.13884698	No	
+row_31	PURB	PURB	purine-rich element binding protein B	7429	-0.07975484430789948	0.13262275	No	
+row_32	KCNMA1	KCNMA1	potassium large conductance calcium-activated channel, subfamily M, alpha member 1	8453	-0.20906338095664978	0.057519507	No	
+row_33	CNOT6	CNOT6	CCR4-NOT transcription complex, subunit 6	8465	-0.2106117457151413	0.06433003	No	
+row_34	SLC9A3R1	SLC9A3R1	solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 1	8524	-0.21856574714183807	0.06762969	No	
+row_35	SGCD	SGCD	sarcoglycan, delta (35kDa dystrophin-associated glycoprotein)	8657	-0.2364090085029602	0.065596126	No	
+row_36	USP8	USP8	ubiquitin specific peptidase 8	8920	-0.2780415415763855	0.054569464	No	
+row_37	POMT2	POMT2	protein-O-mannosyltransferase 2	8949	-0.2825823724269867	0.06263626	No	
+row_38	PAFAH1B1	PAFAH1B1	platelet-activating factor acetylhydrolase, isoform Ib, alpha subunit 45kDa	9105	-0.3080887496471405	0.06136303	No	
+row_39	UBE3A	UBE3A	ubiquitin protein ligase E3A (human papilloma virus E6-associated protein, Angelman syndrome)	9447	-0.3670659065246582	0.04720119	No	
+row_40	WDR81	WDR81	WD repeat domain 81	10078	-0.4876779019832611	0.0140729025	No	
+row_41	KLF11	KLF11	Kruppel-like factor 11	10107	-0.49347350001335144	0.02985019	No	
+row_42	RASSF1	RASSF1	Ras association (RalGDS/AF-6) domain family 1	10223	-0.5233390927314758	0.03968228	No	
+row_43	CTDSPL	CTDSPL	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like	10419	-0.5813342332839966	0.045163836	No	
+row_44	ANKZF1	ANKZF1	ankyrin repeat and zinc finger domain containing 1	10482	-0.600764274597168	0.062113687	No	
+row_45	NOVA1	NOVA1	neuro-oncological ventral antigen 1	10639	-0.6488046646118164	0.07321663	No	
+row_46	ARRDC3	ARRDC3	arrestin domain containing 3	11843	-1.9110734462738037	0.045781784	No	

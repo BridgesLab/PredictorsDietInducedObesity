@@ -1,0 +1,118 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CBLC	CBLC	Cas-Br-M (murine) ecotropic retroviral transforming sequence c	247	3.5311501026153564	0.015258992	No	
+row_1	CISH	CISH	cytokine inducible SH2-containing protein	269	3.4139883518218994	0.047729477	No	
+row_2	CSF3	CSF3	colony stimulating factor 3 (granulocyte)	303	2.9865591526031494	0.07494464	No	
+row_3	IL13RA2	IL13RA2	interleukin 13 receptor, alpha 2	344	2.8187942504882812	0.0999108	No	
+row_4	CCND1	CCND1	cyclin D1	378	2.755013942718506	0.12480787	No	
+row_5	IL4	IL4	interleukin 4	437	2.5435569286346436	0.14555429	No	
+row_6	IFNA2	IFNA2	interferon, alpha 2	553	2.191885232925415	0.15814319	No	
+row_7	SOCS1	SOCS1	suppressor of cytokine signaling 1	567	2.1355509757995605	0.17846552	No	
+row_8	IL7	IL7	interleukin 7	720	1.6788263320922852	0.18290813	No	
+row_9	SOCS3	SOCS3	suppressor of cytokine signaling 3	735	1.6483293771743774	0.19827135	No	
+row_10	LIF	LIF	leukemia inhibitory factor (cholinergic differentiation factor)	785	1.5730817317962646	0.21003407	No	
+row_11	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	864	1.4466500282287598	0.21817198	No	
+row_12	CNTFR	CNTFR	ciliary neurotrophic factor receptor	915	1.3791428804397583	0.22791177	No	
+row_13	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	958	1.330525517463684	0.2378156	No	
+row_14	SPRY4	SPRY4	sprouty homolog 4 (Drosophila)	1190	1.1049952507019043	0.23008695	No	
+row_15	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	1276	1.0514219999313354	0.23369865	No	
+row_16	CSF2RA	CSF2RA	colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage)	1350	0.9994544386863708	0.23776624	No	
+row_17	GRB2	GRB2	growth factor receptor-bound protein 2	1386	0.976619303226471	0.24469641	No	
+row_18	IL10RA	IL10RA	interleukin 10 receptor, alpha	1585	0.8700981736183167	0.23730057	No	
+row_19	STAT2	STAT2	signal transducer and activator of transcription 2, 113kDa	1594	0.8674319982528687	0.245334	No	
+row_20	CCND2	CCND2	cyclin D2	1784	0.7689453363418579	0.2376576	No	
+row_21	CRLF2	CRLF2	cytokine receptor-like factor 2	2003	0.6904529333114624	0.22683634	No	
+row_22	IL11	IL11	interleukin 11	2386	0.5812846422195435	0.20158121	No	
+row_23	IL2	IL2	interleukin 2	2415	0.5718970894813538	0.20502898	No	
+row_24	IL3RA	IL3RA	interleukin 3 receptor, alpha (low affinity)	2492	0.556069552898407	0.20441362	No	
+row_25	IL9R	IL9R	interleukin 9 receptor	2539	0.5470291376113892	0.20614819	No	
+row_26	SPRY1	SPRY1	sprouty homolog 1, antagonist of FGF signaling (Drosophila)	2588	0.5351226925849915	0.20760085	No	
+row_27	STAT5A	STAT5A	signal transducer and activator of transcription 5A	2624	0.5274804830551147	0.21003452	No	
+row_28	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	2824	0.4856417179107666	0.19870839	No	
+row_29	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	2830	0.4846646189689636	0.20315382	No	
+row_30	CCND3	CCND3	cyclin D3	2874	0.4756315350532532	0.20441763	No	
+row_31	SPRY2	SPRY2	sprouty homolog 2 (Drosophila)	3097	0.4328932464122772	0.19069244	No	
+row_32	IL13RA1	IL13RA1	interleukin 13 receptor, alpha 1	3142	0.4239540696144104	0.19135754	No	
+row_33	IL10RB	IL10RB	interleukin 10 receptor, beta	3237	0.4048396646976471	0.18776391	No	
+row_34	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3244	0.40362825989723206	0.19131671	No	
+row_35	IL12RB2	IL12RB2	interleukin 12 receptor, beta 2	3268	0.399015873670578	0.19344044	No	
+row_36	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	3590	0.3476024270057678	0.17080799	No	
+row_37	SOCS7	SOCS7	suppressor of cytokine signaling 7	3727	0.32679125666618347	0.16301642	No	
+row_38	IL2RA	IL2RA	interleukin 2 receptor, alpha	3774	0.31959477066993713	0.16247405	No	
+row_39	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	3872	0.3060533404350281	0.1576474	No	
+row_40	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	3878	0.30560293793678284	0.16030017	No	
+row_41	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	4041	0.2846459150314331	0.14997163	No	
+row_42	TYK2	TYK2	tyrosine kinase 2	4098	0.2774369716644287	0.14819373	No	
+row_43	IL15RA	IL15RA	interleukin 15 receptor, alpha	4328	0.24576234817504883	0.13202567	No	
+row_44	IL23R	IL23R	interleukin 23 receptor	4341	0.24459552764892578	0.13349825	No	
+row_45	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	5014	0.1631702333688736	0.08046655	No	
+row_46	SPRED1	SPRED1	sprouty-related, EVH1 domain containing 1	5267	0.13460327684879303	0.061314646	No	
+row_47	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	5342	0.12741541862487793	0.056570567	No	
+row_48	PIAS2	PIAS2	protein inhibitor of activated STAT, 2	5387	0.1223151683807373	0.05421584	No	
+row_49	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	5459	0.11345937848091125	0.04957608	No	
+row_50	GHR	GHR	growth hormone receptor	5463	0.1132112666964531	0.050465442	No	
+row_51	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5801	0.07814282178878784	0.023833787	No	
+row_52	LIFR	LIFR	leukemia inhibitory factor receptor alpha	5990	0.05792762711644173	0.009120467	No	
+row_53	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	0.0064912727	No	
+row_54	CLCF1	CLCF1	cardiotrophin-like cytokine factor 1	6248	0.033154647797346115	-0.0108291255	No	
+row_55	SOCS5	SOCS5	suppressor of cytokine signaling 5	6290	0.02863195911049843	-0.01387771	No	
+row_56	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	6629	-0.011394606903195381	-0.041258957	No	
+row_57	IFNG	IFNG	interferon, gamma	6734	-0.021810205653309822	-0.049500704	No	
+row_58	IL10	IL10	interleukin 10	6760	-0.021836379542946815	-0.05131577	No	
+row_59	PRLR	PRLR	prolactin receptor	7102	-0.040802501142024994	-0.078646645	No	
+row_60	BCL2L1	BCL2L1	BCL2-like 1	7103	-0.04082588851451874	-0.07823792	No	
+row_61	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7279	-0.06226309388875961	-0.091850325	No	
+row_62	SPRED2	SPRED2	sprouty-related, EVH1 domain containing 2	7366	-0.07220234721899033	-0.09812333	No	
+row_63	SOCS2	SOCS2	suppressor of cytokine signaling 2	7456	-0.08299703150987625	-0.1045323	No	
+row_64	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	7457	-0.08302536606788635	-0.10370111	No	
+row_65	IFNAR1	IFNAR1	interferon (alpha, beta and omega) receptor 1	7770	-0.11618556082248688	-0.12791823	No	
+row_66	STAM2	STAM2	signal transducing adaptor molecule (SH3 domain and ITAM motif) 2	7990	-0.1453038603067398	-0.14427854	No	
+row_67	IL21R	IL21R	interleukin 21 receptor	8036	-0.15138401091098785	-0.1464236	No	
+row_68	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	8062	-0.15480883419513702	-0.14690742	No	
+row_69	SOCS4	SOCS4	suppressor of cytokine signaling 4	8133	-0.1630282700061798	-0.15096958	No	
+row_70	IL20RB	IL20RB	interleukin 20 receptor beta	8136	-0.16340872645378113	-0.14949633	No	
+row_71	PIM1	PIM1	pim-1 oncogene	8166	-0.16735926270484924	-0.1501799	No	
+row_72	EP300	EP300	E1A binding protein p300	8303	-0.1882457286119461	-0.1593585	No	
+row_73	PIAS3	PIAS3	protein inhibitor of activated STAT, 3	8386	-0.20157867670059204	-0.16401088	No	
+row_74	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	8466	-0.21066585183143616	-0.16832824	No	
+row_75	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	8607	-0.23037198185920715	-0.1774105	No	
+row_76	IL15	IL15	interleukin 15	8859	-0.26813244819641113	-0.19514424	No	
+row_77	PIAS4	PIAS4	protein inhibitor of activated STAT, 4	8903	-0.27458813786506653	-0.19589315	No	
+row_78	CTF1	CTF1	cardiotrophin 1	9025	-0.29378587007522583	-0.20279495	No	
+row_79	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	9062	-0.299277663230896	-0.20272726	No	
+row_80	IL19	IL19	interleukin 19	9138	-0.3126319646835327	-0.20569842	No	
+row_81	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	9223	-0.3255457580089569	-0.2092724	No	
+row_82	IFNGR1	IFNGR1	interferon gamma receptor 1	9388	-0.3560524582862854	-0.21904874	No	
+row_83	CSF3R	CSF3R	colony stimulating factor 3 receptor (granulocyte)	9565	-0.38436639308929443	-0.22951779	No	
+row_84	CSF2	CSF2	colony stimulating factor 2 (granulocyte-macrophage)	9631	-0.3929575979709625	-0.2308713	No	
+row_85	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	9689	-0.40492910146713257	-0.23145418	No	
+row_86	CSF2RB	CSF2RB	colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)	9706	-0.4082740247249603	-0.22866835	No	
+row_87	IL21	IL21	interleukin 21	9747	-0.41526734828948975	-0.22776483	No	
+row_88	OSMR	OSMR	oncostatin M receptor	9750	-0.4158133268356323	-0.22376466	No	
+row_89	STAM	STAM	signal transducing adaptor molecule (SH3 domain and ITAM motif) 1	9792	-0.4227128028869629	-0.22286794	No	
+row_90	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	10051	-0.47991830110549927	-0.23905085	No	
+row_91	PIAS1	PIAS1	protein inhibitor of activated STAT, 1	10282	-0.5410407185554504	-0.2523441	No	
+row_92	LEPR	LEPR	leptin receptor	10326	-0.5516574382781982	-0.25031918	No	
+row_93	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	10705	-0.6735532283782959	-0.27432516	Yes	
+row_94	IL7R	IL7R	interleukin 7 receptor	10732	-0.6856477856636047	-0.26957592	Yes	
+row_95	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	10744	-0.6901383996009827	-0.2635615	Yes	
+row_96	TSLP	TSLP	-	10767	-0.6986342668533325	-0.2583568	Yes	
+row_97	IL6ST	IL6ST	interleukin 6 signal transducer (gp130, oncostatin M receptor)	10787	-0.7086166143417358	-0.25280818	Yes	
+row_98	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	10832	-0.7247658967971802	-0.24913153	Yes	
+row_99	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	-0.25322142	Yes	
+row_100	CNTF	CNTF	ciliary neurotrophic factor	11236	-0.9527890682220459	-0.2642635	Yes	
+row_101	LEP	LEP	leptin (obesity homolog, mouse)	11315	-1.0110652446746826	-0.26048642	Yes	
+row_102	STAT5B	STAT5B	signal transducer and activator of transcription 5B	11393	-1.0788631439208984	-0.25594923	Yes	
+row_103	IL22RA2	IL22RA2	interleukin 22 receptor, alpha 2	11523	-1.2152187824249268	-0.25427696	Yes	
+row_104	EPOR	EPOR	erythropoietin receptor	11579	-1.299269199371338	-0.24574356	Yes	
+row_105	CBLB	CBLB	Cas-Br-M (murine) ecotropic retroviral transforming sequence b	11628	-1.3761019706726074	-0.23587152	Yes	
+row_106	IL2RB	IL2RB	interleukin 2 receptor, beta	11783	-1.7244772911071777	-0.23113456	Yes	
+row_107	TPO	TPO	thyroid peroxidase	11899	-2.1183981895446777	-0.21928138	Yes	
+row_108	OSM	OSM	oncostatin M	11925	-2.1185948848724365	-0.20010497	Yes	
+row_109	IL5RA	IL5RA	interleukin 5 receptor, alpha	11931	-2.1376328468322754	-0.17911102	Yes	
+row_110	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	11968	-2.2102227210998535	-0.15991211	Yes	
+row_111	IL22RA1	IL22RA1	interleukin 22 receptor, alpha 1	12044	-2.2668399810791016	-0.14331892	Yes	
+row_112	IL23A	IL23A	interleukin 23, alpha subunit p19	12055	-2.2669200897216797	-0.12143737	Yes	
+row_113	IL12RB1	IL12RB1	interleukin 12 receptor, beta 1	12079	-2.3652141094207764	-0.09962927	Yes	
+row_114	STAT4	STAT4	signal transducer and activator of transcription 4	12256	-3.765684127807617	-0.07624662	Yes	
+row_115	IL20RA	IL20RA	interleukin 20 receptor, alpha	12280	-3.863351345062256	-0.039440084	Yes	
+row_116	IL6	IL6	interleukin 6 (interferon, beta 2)	12350	-4.979585647583008	0.0047995443	Yes	

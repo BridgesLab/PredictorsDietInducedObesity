@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HNF4A	HNF4A	hepatocyte nuclear factor 4, alpha	16	8.456197738647461	0.23001488	Yes	
+row_1	PKLR	PKLR	pyruvate kinase, liver and RBC	177	4.11843204498291	0.3297536	Yes	
+row_2	FOXA2	FOXA2	forkhead box A2	249	3.524411678314209	0.4204276	Yes	
+row_3	SLC2A2	SLC2A2	solute carrier family 2 (facilitated glucose transporter), member 2	297	3.0228960514068604	0.4993206	Yes	
+row_4	NEUROD1	NEUROD1	neurogenic differentiation 1	397	2.7535624504089355	0.56664914	Yes	
+row_5	NKX6-1	NKX6-1	NK6 transcription factor related, locus 1 (Drosophila)	580	2.0780768394470215	0.6088013	Yes	
+row_6	ONECUT1	ONECUT1	one cut domain, family member 1	624	1.9126523733139038	0.65764815	Yes	
+row_7	HNF4G	HNF4G	hepatocyte nuclear factor 4, gamma	756	1.625758171081543	0.69154435	Yes	
+row_8	NR5A2	NR5A2	nuclear receptor subfamily 5, group A, member 2	763	1.6129363775253296	0.7351795	Yes	
+row_9	MAFA	MAFA	v-maf musculoaponeurotic fibrosarcoma oncogene homolog A (avian)	779	1.584556221961975	0.77731186	Yes	
+row_10	HES1	HES1	hairy and enhancer of split 1, (Drosophila)	1130	1.1541941165924072	0.7806322	Yes	
+row_11	NKX2-2	NKX2-2	NK2 transcription factor related, locus 2 (Drosophila)	1421	0.95870041847229	0.7834481	Yes	
+row_12	GCK	GCK	glucokinase (hexokinase 4, maturity onset diabetes of the young 2)	2349	0.590799868106842	0.7247841	No	
+row_13	FOXA3	FOXA3	forkhead box A3	3148	0.4227287173271179	0.6719352	No	
+row_14	PAX6	PAX6	paired box gene 6 (aniridia, keratitis)	3227	0.40645700693130493	0.6767573	No	
+row_15	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	3872	0.3060533404350281	0.6331473	No	
+row_16	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	8062	-0.15480883419513702	0.29925933	No	
+row_17	ONECUT3	ONECUT3	one cut domain, family member 3	8905	-0.27462825179100037	0.23880787	No	
+row_18	FGF10	FGF10	fibroblast growth factor 10	9618	-0.39126142859458923	0.19203989	No	
+row_19	INSM1	INSM1	insulinoma-associated 1	10071	-0.4845547676086426	0.16881016	No	
+row_20	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	10832	-0.7247658967971802	0.12729028	No	

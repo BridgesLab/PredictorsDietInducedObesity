@@ -1,0 +1,38 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NR1H4	NR1H4	nuclear receptor subfamily 1, group H, member 4	473	2.523742198944092	0.071739435	No	
+row_1	ESR1	ESR1	estrogen receptor 1	1963	0.7023550868034363	-0.017999297	No	
+row_2	PGR	PGR	progesterone receptor	1985	0.696567952632904	0.010655239	No	
+row_3	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	2361	0.5875943303108215	0.005950749	No	
+row_4	GLRX	GLRX	glutaredoxin (thioltransferase)	2583	0.5362341403961182	0.01145478	No	
+row_5	NCOA1	NCOA1	nuclear receptor coactivator 1	3617	0.3438248634338379	-0.057051867	No	
+row_6	GTF2H3	GTF2H3	general transcription factor IIH, polypeptide 3, 34kDa	3688	0.3332781195640564	-0.04818731	No	
+row_7	NCOA3	NCOA3	nuclear receptor coactivator 3	3709	0.32925543189048767	-0.03545698	No	
+row_8	APTX	APTX	aprataxin	4540	0.22050943970680237	-0.0929302	No	
+row_9	EIF5A	EIF5A	eukaryotic translation initiation factor 5A	4742	0.19543218612670898	-0.10065962	No	
+row_10	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	-0.10369125	No	
+row_11	SDCBP	SDCBP	syndecan binding protein (syntenin)	5158	0.14701108634471893	-0.1199154	No	
+row_12	ERCC2	ERCC2	excision repair cross-complementing rodent repair deficiency, complementation group 2 (xeroderma pigmentosum D)	5340	0.12761440873146057	-0.12898345	No	
+row_13	SMARCA4	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	5554	0.10278304666280746	-0.14171976	No	
+row_14	PARP1	PARP1	poly (ADP-ribose) polymerase family, member 1	5829	0.07534129917621613	-0.16058187	No	
+row_15	PEX14	PEX14	peroxisomal biogenesis factor 14	5856	0.07136473804712296	-0.15957363	No	
+row_16	MNAT1	MNAT1	menage a trois homolog 1, cyclin H assembly factor (Xenopus laevis)	6163	0.0406770221889019	-0.18253246	No	
+row_17	ERCC3	ERCC3	excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)	6522	0.0023399440106004477	-0.21136448	No	
+row_18	SMARCE1	SMARCE1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1	7453	-0.08269894123077393	-0.28292465	No	
+row_19	ERCC6	ERCC6	excision repair cross-complementing rodent repair deficiency, complementation group 6	7492	-0.08653595298528671	-0.28222522	No	
+row_20	SMARCC1	SMARCC1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1	7720	-0.1116863414645195	-0.29570505	No	
+row_21	CSNK2A1	CSNK2A1	casein kinase 2, alpha 1 polypeptide	7874	-0.13077469170093536	-0.3023724	No	
+row_22	NBN	NBN	nibrin	8462	-0.21014660596847534	-0.34065762	No	
+row_23	GTF2H2	GTF2H2	general transcription factor IIH, polypeptide 2, 44kDa	8756	-0.25429779291152954	-0.35325763	No	
+row_24	HAX1	HAX1	HCLS1 associated protein X-1	9068	-0.30056867003440857	-0.3652962	No	
+row_25	DCTN4	DCTN4	dynactin 4 (p62)	9312	-0.3419410288333893	-0.37003624	No	
+row_26	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	9379	-0.35393786430358887	-0.3599482	No	
+row_27	TSC1	TSC1	tuberous sclerosis 1	9410	-0.3609269857406616	-0.34664604	No	
+row_28	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	9544	-0.3812197744846344	-0.34078425	No	
+row_29	CSNK2A2	CSNK2A2	casein kinase 2, alpha prime polypeptide	9729	-0.412538081407547	-0.33767968	No	
+row_30	ERCC4	ERCC4	excision repair cross-complementing rodent repair deficiency, complementation group 4	9934	-0.4562534987926483	-0.33428672	No	
+row_31	ERCC5	ERCC5	me))	10672	-0.6594709753990173	-0.36511657	No	
+row_32	DAXX	DAXX	death-associated protein 6	11551	-1.252777338027954	-0.38148984	Yes	
+row_33	ZWINT	ZWINT	ZW10 interactor	11650	-1.4168412685394287	-0.32767382	Yes	
+row_34	NFE2	NFE2	nuclear factor (erythroid-derived 2), 45kDa	11707	-1.5294808149337769	-0.26555526	Yes	
+row_35	KCNIP2	KCNIP2	Kv channel interacting protein 2	11797	-1.7722749710083008	-0.19552442	Yes	
+row_36	SLA2	SLA2	Src-like-adaptor 2	12377	-5.620551109313965	0.0025862386	Yes	

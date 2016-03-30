@@ -1,0 +1,25 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ARG1	ARG1	arginase, liver	49	6.735069274902344	0.24327724	Yes	
+row_1	HPD	HPD	4-hydroxyphenylpyruvate dioxygenase	74	5.994947910308838	0.46140423	Yes	
+row_2	HGD	HGD	homogentisate 1,2-dioxygenase (homogentisate oxidase)	160	4.447311878204346	0.61779517	Yes	
+row_3	GLDC	GLDC	glycine dehydrogenase (decarboxylating)	627	1.9107372760772705	0.65031207	Yes	
+row_4	DDAH1	DDAH1	dimethylarginine dimethylaminohydrolase 1	1011	1.2781392335891724	0.6663084	Yes	
+row_5	ASL	ASL	argininosuccinate lyase	1645	0.8321989178657532	0.645751	Yes	
+row_6	DDAH2	DDAH2	dimethylarginine dimethylaminohydrolase 2	1669	0.8219977617263794	0.6740682	Yes	
+row_7	BCKDK	BCKDK	branched chain ketoacid dehydrogenase kinase	4482	0.22651663422584534	0.45535275	No	
+row_8	GAD2	GAD2	glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)	4489	0.2254961133003235	0.46314594	No	
+row_9	ALDH4A1	ALDH4A1	aldehyde dehydrogenase 4 family, member A1	4752	0.19398735463619232	0.449114	No	
+row_10	DDO	DDO	D-aspartate oxidase	5006	0.16412895917892456	0.4347126	No	
+row_11	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	5603	0.0984877496957779	0.39020908	No	
+row_12	AMT	AMT	aminomethyltransferase	5615	0.09763695299625397	0.39290506	No	
+row_13	ASPA	ASPA	aspartoacylase (Canavan disease)	6659	-0.014643818140029907	0.30923465	No	
+row_14	MCCC2	MCCC2	methylcrotonoyl-Coenzyme A carboxylase 2 (beta)	6952	-0.02424442395567894	0.2865496	No	
+row_15	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	7139	-0.04446010664105415	0.27316472	No	
+row_16	GCSH	GCSH	glycine cleavage system protein H (aminomethyl carrier)	7246	-0.05797002092003822	0.26673463	No	
+row_17	GLUD1	GLUD1	glutamate dehydrogenase 1	8052	-0.1531260758638382	0.20736292	No	
+row_18	GSTZ1	GSTZ1	glutathione transferase zeta 1 (maleylacetoacetate isomerase)	8066	-0.15528085827827454	0.21201344	No	
+row_19	BCKDHB	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide (maple syrup urine disease)	8317	-0.1912042796611786	0.19884816	No	
+row_20	ASRGL1	ASRGL1	asparaginase like 1	8647	-0.23501166701316833	0.18091281	No	
+row_21	BCKDHA	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	9293	-0.33875128626823425	0.14127289	No	
+row_22	FAH	FAH	fumarylacetoacetate hydrolase (fumarylacetoacetase)	11136	-0.8819385170936584	0.024931097	No	
+row_23	GAD1	GAD1	glutamate decarboxylase 1 (brain, 67kDa)	11912	-2.118468761444092	0.04012595	No	

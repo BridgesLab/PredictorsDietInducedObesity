@@ -1,0 +1,16 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SOCS3	SOCS3	suppressor of cytokine signaling 3	735	1.6483293771743774	0.05974832	No	
+row_1	IL10RA	IL10RA	interleukin 10 receptor, alpha	1585	0.8700981736183167	0.0540936	No	
+row_2	STAT2	STAT2	signal transducer and activator of transcription 2, 113kDa	1594	0.8674319982528687	0.116096266	No	
+row_3	STAT5A	STAT5A	signal transducer and activator of transcription 5A	2624	0.5274804830551147	0.07117486	No	
+row_4	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3244	0.40362825989723206	0.0503864	No	
+row_5	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	3590	0.3476024270057678	0.0476573	No	
+row_6	TYK2	TYK2	tyrosine kinase 2	4098	0.2774369716644287	0.026790895	No	
+row_7	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5801	0.07814282178878784	-0.10487887	No	
+row_8	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	6629	-0.011394606903195381	-0.17077638	No	
+row_9	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	7457	-0.08302536606788635	-0.23150054	No	
+row_10	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	9689	-0.40492910146713257	-0.3822475	No	
+row_11	STAT5B	STAT5B	signal transducer and activator of transcription 5B	11393	-1.0788631439208984	-0.44172344	Yes	
+row_12	IL22RA2	IL22RA2	interleukin 22 receptor, alpha 2	11523	-1.2152187824249268	-0.36436477	Yes	
+row_13	IL22RA1	IL22RA1	interleukin 22 receptor, alpha 1	12044	-2.2668399810791016	-0.24260037	Yes	
+row_14	STAT4	STAT4	signal transducer and activator of transcription 4	12256	-3.765684127807617	0.012343657	Yes	

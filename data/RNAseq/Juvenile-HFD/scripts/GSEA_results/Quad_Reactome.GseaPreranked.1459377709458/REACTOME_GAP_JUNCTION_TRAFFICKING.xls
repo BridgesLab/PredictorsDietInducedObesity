@@ -1,0 +1,20 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GJB1	GJB1	gap junction protein, beta 1, 32kDa (connexin 32, Charcot-Marie-Tooth neuropathy, X-linked)	4	20.596811294555664	0.5983076	Yes	
+row_1	GJB3	GJB3	gap junction protein, beta 3, 31kDa (connexin 31)	241	3.643036127090454	0.6851436	Yes	
+row_2	GJA3	GJA3	gap junction protein, alpha 3, 46kDa (connexin 46)	347	2.795403242111206	0.7579159	Yes	
+row_3	GJB2	GJB2	gap junction protein, beta 2, 26kDa (connexin 26)	790	1.5633615255355835	0.7676828	Yes	
+row_4	GJA5	GJA5	gap junction protein, alpha 5, 40kDa (connexin 40)	1806	0.7603098750114441	0.7078663	No	
+row_5	DNM1	DNM1	dynamin 1	2590	0.5341593623161316	0.6602002	No	
+row_6	GJB5	GJB5	gap junction protein, beta 5 (connexin 31.1)	2841	0.48270127177238464	0.6540536	No	
+row_7	GJA4	GJA4	gap junction protein, alpha 4, 37kDa (connexin 37)	2856	0.47929805517196655	0.6668542	No	
+row_8	GJC1	GJC1	gap junction protein, chi 1, 31.9kDa (connexin 31.9)	3383	0.38083863258361816	0.6354728	No	
+row_9	DNM2	DNM2	dynamin 2	3536	0.35546502470970154	0.6335371	No	
+row_10	MYO6	MYO6	myosin VI	5052	0.15753202140331268	0.51584953	No	
+row_11	AP2M1	AP2M1	adaptor-related protein complex 2, mu 1 subunit	5143	0.14826427400112152	0.5128954	No	
+row_12	GJA8	GJA8	gap junction protein, alpha 8, 50kDa (connexin 50)	6335	0.02317635715007782	0.41745085	No	
+row_13	CLTB	CLTB	clathrin, light chain (Lcb)	7711	-0.11132904142141342	0.30971888	No	
+row_14	GJA1	GJA1	gap junction protein, alpha 1, 43kDa (connexin 43)	7963	-0.14133678376674652	0.2935701	No	
+row_15	CLTA	CLTA	clathrin, light chain (Lca)	8798	-0.25841474533081055	0.23377381	No	
+row_16	CLTC	CLTC	clathrin, heavy chain (Hc)	8820	-0.2615390717983246	0.23968045	No	
+row_17	DAB2	DAB2	disabled homolog 2, mitogen-responsive phosphoprotein (Drosophila)	9910	-0.44924333691596985	0.16485101	No	
+row_18	GJB6	GJB6	gap junction protein, beta 6 (connexin 30)	11561	-1.264334797859192	0.06843676	No	

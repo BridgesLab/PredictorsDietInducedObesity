@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	APOB	APOB	apolipoprotein B (including Ag(x) antigen)	1	21.418428421020508	0.26083976	Yes	
+row_1	ALB	ALB	albumin	35	7.460006237030029	0.34905323	Yes	
+row_2	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.43745968	Yes	
+row_3	LIPC	LIPC	lipase, hepatic	41	7.1958441734313965	0.5248776	Yes	
+row_4	APOA2	APOA2	apolipoprotein A-II	69	6.170414924621582	0.5978657	Yes	
+row_5	APOA5	APOA5	apolipoprotein A-V	84	5.786080360412598	0.6672216	Yes	
+row_6	APOC3	APOC3	apolipoprotein C-III	85	5.779256820678711	0.7376248	Yes	
+row_7	APOC2	APOC2	apolipoprotein C-II	195	3.911592960357666	0.77647436	Yes	
+row_8	LCAT	LCAT	lecithin-cholesterol acyltransferase	533	2.258538007736206	0.7767755	Yes	
+row_9	SDC1	SDC1	syndecan 1	918	1.372103214263916	0.76248276	No	
+row_10	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	1197	1.1008034944534302	0.7534445	No	
+row_11	HSPG2	HSPG2	heparan sulfate proteoglycan 2 (perlecan)	1994	0.6930330991744995	0.69761056	No	
+row_12	BMP1	BMP1	bone morphogenetic protein 1	2315	0.600709855556488	0.67908865	No	
+row_13	PLTP	PLTP	phospholipid transfer protein	4044	0.28439614176750183	0.5430183	No	
+row_14	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	5370	0.12418033927679062	0.43753818	No	
+row_15	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.29166523	No	
+row_16	MTTP	MTTP	microsomal triglyceride transfer protein	7853	-0.12823481857776642	0.23936757	No	
+row_17	SCARB1	SCARB1	scavenger receptor class B, member 1	8102	-0.1592639684677124	0.2212819	No	
+row_18	LDLRAP1	LDLRAP1	low density lipoprotein receptor adaptor protein 1	8243	-0.17898355424404144	0.21215738	No	
+row_19	SAR1B	SAR1B	SAR1 gene homolog B (S. cerevisiae)	9328	-0.34566131234169006	0.12883595	No	
+row_20	APOE	APOE	apolipoprotein E	9500	-0.37571972608566284	0.11960484	No	
+row_21	LPL	LPL	lipoprotein lipase	10584	-0.6302244067192078	0.03983072	No	
+row_22	ABCA1	ABCA1	ATP-binding cassette, sub-family A (ABC1), member 1	11533	-1.2307192087173462	-0.021726983	No	
+row_23	CUBN	CUBN	cubilin (intrinsic factor-cobalamin receptor)	11927	-2.1261208057403564	-0.027560957	No	
+row_24	AMN	AMN	amnionless homolog (mouse)	11994	-2.2245864868164062	-0.0057903784	No	
+row_25	A2M	A2M	alpha-2-macroglobulin	12188	-3.21952223777771	0.017845396	No	

@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HOMER2	HOMER2	homer homolog 2 (Drosophila)	940	1.3454698324203491	-0.011222713	No	
+row_1	CDK5R1	CDK5R1	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	1001	1.2825363874435425	0.045534097	No	
+row_2	GRIN2C	GRIN2C	glutamate receptor, ionotropic, N-methyl D-aspartate 2C	1319	1.0207831859588623	0.06898354	No	
+row_3	HOMER1	HOMER1	homer homolog 1 (Drosophila)	3108	0.4311041533946991	-0.05457467	No	
+row_4	GRIN2B	GRIN2B	glutamate receptor, ionotropic, N-methyl D-aspartate 2B	3596	0.34673675894737244	-0.07721475	No	
+row_5	HOMER3	HOMER3	homer homolog 3 (Drosophila)	4861	0.18039314448833466	-0.17053562	No	
+row_6	GRIK3	GRIK3	glutamate receptor, ionotropic, kainate 3	5285	0.1331583708524704	-0.1982697	No	
+row_7	GRID2	GRID2	glutamate receptor, ionotropic, delta 2	6043	0.05335015431046486	-0.25678533	No	
+row_8	GRM5	GRM5	glutamate receptor, metabotropic 5	10044	-0.4791197180747986	-0.55651087	No	
+row_9	GRIK4	GRIK4	glutamate receptor, ionotropic, kainate 4	10477	-0.5997106432914734	-0.5625635	No	
+row_10	GRIA3	GRIA3	glutamate receptor, ionotrophic, AMPA 3	11745	-1.642707109451294	-0.58589417	Yes	
+row_11	GRIN2A	GRIN2A	glutamate receptor, ionotropic, N-methyl D-aspartate 2A	11861	-1.9634344577789307	-0.5008727	Yes	
+row_12	GRIK2	GRIK2	glutamate receptor, ionotropic, kainate 2	11864	-1.975620150566101	-0.40614867	Yes	
+row_13	GRM4	GRM4	glutamate receptor, metabotropic 4	12024	-2.253019332885742	-0.31076908	Yes	
+row_14	GRM6	GRM6	glutamate receptor, metabotropic 6	12212	-3.275062084197998	-0.16856185	Yes	
+row_15	GRIA4	GRIA4	glutamate receptor, ionotrophic, AMPA 4	12271	-3.8389153480529785	0.011134508	Yes	

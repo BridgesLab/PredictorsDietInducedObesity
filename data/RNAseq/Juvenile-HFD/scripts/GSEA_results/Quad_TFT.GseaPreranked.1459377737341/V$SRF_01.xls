@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNNC1	TNNC1	troponin C type 1 (slow)	337	2.8499302864074707	0.053521294	Yes	
+row_1	EGR1	EGR1	early growth response 1	510	2.3320114612579346	0.10570732	Yes	
+row_2	FOSB	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	539	2.244511842727661	0.16705911	Yes	
+row_3	NPAS4	NPAS4	neuronal PAS domain protein 4	568	2.135030746459961	0.22530788	Yes	
+row_4	EGR3	EGR3	early growth response 3	577	2.0892446041107178	0.28387642	Yes	
+row_5	TNMD	TNMD	tenomodulin	731	1.652811050415039	0.31834844	Yes	
+row_6	CNN2	CNN2	calponin 2	833	1.4905526638031006	0.35242698	Yes	
+row_7	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1234	1.0704667568206787	0.35041788	Yes	
+row_8	CD248	CD248	CD248 molecule, endosialin	1395	0.9737162590026855	0.36507618	Yes	
+row_9	IER2	IER2	immediate early response 2	1742	0.7866644859313965	0.35939044	Yes	
+row_10	ACTR3	ACTR3	ARP3 actin-related protein 3 homolog (yeast)	1953	0.7049890756607056	0.36238852	Yes	
+row_11	MRVI1	MRVI1	murine retrovirus integration site 1 homolog	2039	0.6770269870758057	0.3747033	Yes	
+row_12	TGFB1I1	TGFB1I1	transforming growth factor beta 1 induced transcript 1	2221	0.6255711913108826	0.3777958	Yes	
+row_13	CALD1	CALD1	caldesmon 1	2328	0.5975584387779236	0.3861598	Yes	
+row_14	CFL1	CFL1	cofilin 1 (non-muscle)	2380	0.5829011797904968	0.39855644	Yes	
+row_15	EGR2	EGR2	early growth response 2 (Krox-20 homolog, Drosophila)	2483	0.5567870140075684	0.40608838	Yes	
+row_16	ACTN1	ACTN1	actinin, alpha 1	2706	0.5095420479774475	0.40257645	Yes	
+row_17	PRM1	PRM1	protamine 1	2719	0.5081471800804138	0.41600838	Yes	
+row_18	PFN1	PFN1	profilin 1	2759	0.5002450346946716	0.42703277	Yes	
+row_19	MUS81	MUS81	MUS81 endonuclease homolog (S. cerevisiae)	2894	0.4708743393421173	0.42954174	Yes	
+row_20	TPM1	TPM1	tropomyosin 1 (alpha)	2921	0.4663088619709015	0.44065562	Yes	
+row_21	MYL6	MYL6	myosin, light chain 6, alkali, smooth muscle and non-muscle	3058	0.4392751157283783	0.44210723	Yes	
+row_22	ITGB1BP2	ITGB1BP2	integrin beta 1 binding protein (melusin) 2	3102	0.4316432476043701	0.45086375	Yes	
+row_23	WDR1	WDR1	WD repeat domain 1	3188	0.413682758808136	0.45571452	Yes	
+row_24	KCNMB1	KCNMB1	potassium large conductance calcium-activated channel, subfamily M, beta member 1	3675	0.33639633655548096	0.42594454	No	
+row_25	SLC25A4	SLC25A4	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 4	3991	0.29188674688339233	0.40874234	No	
+row_26	MYH11	MYH11	myosin, heavy chain 11, smooth muscle	4474	0.228252574801445	0.37623072	No	
+row_27	ANXA6	ANXA6	annexin A6	4475	0.22792118787765503	0.3826907	No	
+row_28	FLNA	FLNA	filamin A, alpha (actin binding protein 280)	4669	0.20589393377304077	0.37291777	No	
+row_29	PLCB3	PLCB3	phospholipase C, beta 3 (phosphatidylinositol-specific)	4940	0.1714605689048767	0.35594165	No	
+row_30	CAP1	CAP1	CAP, adenylate cyclase-associated protein 1 (yeast)	5094	0.15300071239471436	0.34790453	No	
+row_31	TAZ	TAZ	tafazzin (cardiomyopathy, dilated 3A (X-linked); endocardial fibroelastosis 2; Barth syndrome)	5129	0.14979858696460724	0.34940058	No	
+row_32	SCOC	SCOC	short coiled-coil protein	5958	0.0604591965675354	0.284151	No	
+row_33	ASB2	ASB2	ankyrin repeat and SOCS box-containing 2	6182	0.038276467472314835	0.26720107	No	
+row_34	THBS1	THBS1	thrombospondin 1	6302	0.02789388783276081	0.25836772	No	
+row_35	FOSL1	FOSL1	FOS-like antigen 1	6932	-0.02214786782860756	0.20812608	No	
+row_36	HOXB4	HOXB4	homeobox B4	7762	-0.1150735542178154	0.14434353	No	
+row_37	VCL	VCL	vinculin	8257	-0.18032744526863098	0.10950308	No	
+row_38	SETD2	SETD2	SET domain containing 2	8515	-0.2171301543712616	0.094872735	No	
+row_39	DIXDC1	DIXDC1	DIX domain containing 1	10689	-0.6654724478721619	-0.062003735	No	
+row_40	GPR20	GPR20	G protein-coupled receptor 20	11058	-0.842854917049408	-0.0678761	No	
+row_41	ACTG2	ACTG2	actin, gamma 2, smooth muscle, enteric	11254	-0.9603870511054993	-0.05642615	No	
+row_42	JUNB	JUNB	jun B proto-oncogene	11329	-1.0200570821762085	-0.03349928	No	
+row_43	IL17B	IL17B	interleukin 17B	11618	-1.3563529253005981	-0.018347684	No	
+row_44	SUSD1	SUSD1	sushi domain containing 1	12135	-2.9015133380889893	0.022159286	No	

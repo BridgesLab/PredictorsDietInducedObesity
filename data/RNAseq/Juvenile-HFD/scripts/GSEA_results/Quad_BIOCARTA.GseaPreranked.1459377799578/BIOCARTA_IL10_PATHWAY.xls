@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	170	4.258022308349609	0.20855217	No	
+row_1	IL10RA	IL10RA	interleukin 10 receptor, alpha	1585	0.8700981736183167	0.1398748	No	
+row_2	STAT2	STAT2	signal transducer and activator of transcription 2, 113kDa	1594	0.8674319982528687	0.1845094	No	
+row_3	STAT5A	STAT5A	signal transducer and activator of transcription 5A	2624	0.5274804830551147	0.12901324	No	
+row_4	IL10RB	IL10RB	interleukin 10 receptor, beta	3237	0.4048396646976471	0.10076323	No	
+row_5	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	3244	0.40362825989723206	0.12134856	No	
+row_6	BLVRB	BLVRB	biliverdin reductase B (flavin reductase (NADPH))	4623	0.21141105890274048	0.021192456	No	
+row_7	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5801	0.07814282178878784	-0.06970144	No	
+row_8	BLVRA	BLVRA	biliverdin reductase A	5857	0.0713219940662384	-0.070416406	No	
+row_9	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	6629	-0.011394606903195381	-0.13203415	No	
+row_10	IL10	IL10	interleukin 10	6760	-0.021836379542946815	-0.14138408	No	
+row_11	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	7457	-0.08302536606788635	-0.19321087	No	
+row_12	IL1A	IL1A	interleukin 1, alpha	9263	-0.33320102095603943	-0.32146445	No	
+row_13	STAT5B	STAT5B	signal transducer and activator of transcription 5B	11393	-1.0788631439208984	-0.4369381	Yes	
+row_14	HMOX1	HMOX1	heme oxygenase (decycling) 1	11498	-1.1910486221313477	-0.38315699	Yes	
+row_15	STAT4	STAT4	signal transducer and activator of transcription 4	12256	-3.765684127807617	-0.2476704	Yes	
+row_16	IL6	IL6	interleukin 6 (interferon, beta 2)	12350	-4.979585647583008	0.0047607147	Yes	

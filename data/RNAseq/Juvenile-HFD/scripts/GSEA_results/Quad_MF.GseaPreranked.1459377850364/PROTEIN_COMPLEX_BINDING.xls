@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AMBP	AMBP	alpha-1-microglobulin/bikunin precursor	0	21.682601928710938	0.36719683	Yes	
+row_1	ANGPTL3	ANGPTL3	angiopoietin-like 3	125	4.846292495727539	0.43923604	Yes	
+row_2	ADAMTS8	ADAMTS8	ADAM metallopeptidase with thrombospondin type 1 motif, 8	208	3.8439581394195557	0.497699	Yes	
+row_3	ADAM2	ADAM2	ADAM metallopeptidase domain 2 (fertilin beta)	443	2.543534994125366	0.5218404	Yes	
+row_4	THY1	THY1	Thy-1 cell surface antigen	676	1.7567434310913086	0.5328193	Yes	
+row_5	PEX26	PEX26	peroxisome biogenesis factor 26	838	1.4868090152740479	0.5449716	Yes	
+row_6	EDIL3	EDIL3	EGF-like repeats and discoidin I-like domains 3	873	1.4322468042373657	0.56647575	Yes	
+row_7	ADAM11	ADAM11	ADAM metallopeptidase domain 11	1008	1.2791920900344849	0.57729673	Yes	
+row_8	ADAMTS13	ADAMTS13	ADAM metallopeptidase with thrombospondin type 1 motif, 13	1288	1.037447214126587	0.5722913	Yes	
+row_9	COL16A1	COL16A1	collagen, type XVI, alpha 1	1320	1.019844889640808	0.5870542	Yes	
+row_10	ICAM4	ICAM4	intercellular adhesion molecule 4 (Landsteiner-Wiener blood group)	1592	0.8675462007522583	0.57981884	Yes	
+row_11	ADAM23	ADAM23	ADAM metallopeptidase domain 23	1697	0.8053761124610901	0.585043	Yes	
+row_12	IRS1	IRS1	insulin receptor substrate 1	1754	0.7775578498840332	0.5936799	Yes	
+row_13	CAV3	CAV3	caveolin 3	1870	0.7365772724151611	0.59684896	Yes	
+row_14	ICAM2	ICAM2	intercellular adhesion molecule 2	2101	0.6553279757499695	0.5893371	No	
+row_15	ACTN2	ACTN2	actinin, alpha 2	2392	0.5789265632629395	0.57567656	No	
+row_16	ACTN1	ACTN1	actinin, alpha 1	2706	0.5095420479774475	0.55898005	No	
+row_17	TNXB	TNXB	tenascin XB	3413	0.3771667182445526	0.508243	No	
+row_18	EGFL6	EGFL6	EGF-like-domain, multiple 6	3462	0.3687230348587036	0.5106036	No	
+row_19	PEX1	PEX1	peroxisome biogenesis factor 1	3554	0.3534418046474457	0.5092261	No	
+row_20	ACTN4	ACTN4	actinin, alpha 4	3557	0.3532908260822296	0.5150473	No	
+row_21	PMS2	PMS2	PMS2 postmeiotic segregation increased 2 (S. cerevisiae)	3786	0.31762975454330444	0.5019783	No	
+row_22	SYK	SYK	spleen tyrosine kinase	3928	0.3001922369003296	0.4956534	No	
+row_23	ECM2	ECM2	extracellular matrix protein 2, female organ and adipocyte specific	3984	0.29228371381759644	0.49615303	No	
+row_24	MSH2	MSH2	mutS homolog 2, colon cancer, nonpolyposis type 1 (E. coli)	4123	0.27416279911994934	0.48963004	No	
+row_25	DOCK2	DOCK2	dedicator of cytokinesis 2	4587	0.21564944088459015	0.45581952	No	
+row_26	ERCC8	ERCC8	excision repair cross-complementing rodent repair deficiency, complementation group 8	4783	0.19077853858470917	0.44327238	No	
+row_27	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	0.43877843	No	
+row_28	TRADD	TRADD	TNFRSF1A-associated via death domain	5814	0.07630527764558792	0.36433637	No	
+row_29	FBLN5	FBLN5	fibulin 5	5923	0.06444989889860153	0.35668927	No	
+row_30	MLH1	MLH1	mutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli)	5944	0.06198296323418617	0.3561207	No	
+row_31	DST	DST	dystonin	6226	0.03508767485618591	0.33397844	No	
+row_32	TREX1	TREX1	three prime repair exonuclease 1	6376	0.01909535378217697	0.32224584	No	
+row_33	ADAMTS5	ADAMTS5	ADAM metallopeptidase with thrombospondin type 1 motif, 5 (aggrecanase-2)	7237	-0.056799016892910004	0.25362283	No	
+row_34	PEX6	PEX6	peroxisomal biogenesis factor 6	7292	-0.06419791281223297	0.25034073	No	
+row_35	ERCC6	ERCC6	excision repair cross-complementing rodent repair deficiency, complementation group 6	7492	-0.08653595298528671	0.2357046	No	
+row_36	ADAM9	ADAM9	ADAM metallopeptidase domain 9 (meltrin gamma)	7558	-0.09398625046014786	0.23203693	No	
+row_37	ACTN3	ACTN3	actinin, alpha 3	7648	-0.10367715358734131	0.22659148	No	
+row_38	TGFBI	TGFBI	transforming growth factor, beta-induced, 68kDa	7802	-0.12162727862596512	0.21627161	No	
+row_39	COL4A3	COL4A3	collagen, type IV, alpha 3 (Goodpasture antigen)	8834	-0.2638205885887146	0.13731845	No	
+row_40	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	9259	-0.3325081765651703	0.108642526	No	
+row_41	PCNA	PCNA	proliferating cell nuclear antigen	9821	-0.4277551770210266	0.07049458	No	
+row_42	ATR	ATR	ataxia telangiectasia and Rad3 related	10091	-0.49026158452033997	0.057031687	No	
+row_43	MSH6	MSH6	mutS homolog 6 (E. coli)	10102	-0.4920516610145569	0.0645555	No	
+row_44	SORBS1	SORBS1	sorbin and SH3 domain containing 1	10144	-0.5028786063194275	0.06975438	No	
+row_45	RPAIN	RPAIN	RPA interacting protein	10152	-0.504326581954956	0.0777288	No	
+row_46	INSL3	INSL3	insulin-like 3 (Leydig cell)	10821	-0.7213872075080872	0.03589588	No	
+row_47	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	0.036534633	No	
+row_48	ERBB2IP	ERBB2IP	erbb2 interacting protein	11486	-1.178091287612915	0.015786631	No	
+row_49	DMP1	DMP1	dentin matrix acidic phosphoprotein	11651	-1.4193083047866821	0.02655306	No	
+row_50	MUTYH	MUTYH	mutY homolog (E. coli)	11887	-2.0488712787628174	0.0422364	No	

@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CD3G	CD3G	CD3g molecule, gamma (CD3-TCR complex)	348	2.794860601425171	0.12889975	No	
+row_1	CD3E	CD3E	CD3e molecule, epsilon (CD3-TCR complex)	758	1.6249667406082153	0.18716878	No	
+row_2	CCR5	CCR5	chemokine (C-C motif) receptor 5	1083	1.196811318397522	0.22824794	No	
+row_3	CD2	CD2	CD2 molecule	1346	1.00336754322052	0.26346442	No	
+row_4	CD247	CD247	CD247 molecule	2443	0.5661619305610657	0.20683394	No	
+row_5	IL12RB2	IL12RB2	interleukin 12 receptor, beta 2	3268	0.399015873670578	0.16276152	No	
+row_6	TYK2	TYK2	tyrosine kinase 2	4098	0.2774369716644287	0.11145702	No	
+row_7	IFNG	IFNG	interferon, gamma	6734	-0.021810205653309822	-0.09992084	No	
+row_8	CD4	CD4	CD4 molecule	8121	-0.1614733338356018	-0.20267974	No	
+row_9	CD3D	CD3D	CD3d molecule, delta (CD3-TCR complex)	8165	-0.16734953224658966	-0.1967497	No	
+row_10	CXCR3	CXCR3	chemokine (C-X-C motif) receptor 3	9436	-0.36495041847229004	-0.2787206	No	
+row_11	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	9689	-0.40492910146713257	-0.27630952	No	
+row_12	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	10051	-0.47991830110549927	-0.27848113	No	
+row_13	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	11968	-2.2102227210998535	-0.30893135	Yes	
+row_14	IL12RB1	IL12RB1	interleukin 12 receptor, beta 1	12079	-2.3652141094207764	-0.18496056	Yes	
+row_15	STAT4	STAT4	signal transducer and activator of transcription 4	12256	-3.765684127807617	0.0123447385	Yes	

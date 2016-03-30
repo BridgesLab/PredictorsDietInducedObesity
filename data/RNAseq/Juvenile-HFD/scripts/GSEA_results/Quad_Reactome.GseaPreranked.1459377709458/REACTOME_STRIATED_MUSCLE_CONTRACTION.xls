@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNNC1	TNNC1	troponin C type 1 (slow)	337	2.8499302864074707	0.093663216	Yes	
+row_1	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	419	2.6598904132843018	0.19993952	Yes	
+row_2	TNNT1	TNNT1	troponin T type 1 (skeletal, slow)	482	2.470496416091919	0.29971716	Yes	
+row_3	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	523	2.2940452098846436	0.39378735	Yes	
+row_4	TPM3	TPM3	tropomyosin 3	556	2.1726155281066895	0.48335326	Yes	
+row_5	TNNI1	TNNI1	troponin I type 1 (skeletal, slow)	576	2.101438045501709	0.57095003	Yes	
+row_6	TPM4	TPM4	tropomyosin 4	1211	1.08720064163208	0.5658637	Yes	
+row_7	MYL4	MYL4	myosin, light chain 4, alkali; atrial, embryonic	1504	0.9100280404090881	0.58088124	Yes	
+row_8	TNNI3	TNNI3	troponin I type 3 (cardiac)	1891	0.7260627150535583	0.58050495	Yes	
+row_9	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	2161	0.6399893164634705	0.58592635	Yes	
+row_10	TNNT2	TNNT2	troponin T type 2 (cardiac)	2277	0.6129890084266663	0.60263896	Yes	
+row_11	ACTN2	ACTN2	actinin, alpha 2	2392	0.5789265632629395	0.6179876	Yes	
+row_12	MYH3	MYH3	myosin, heavy chain 3, skeletal muscle, embryonic	2849	0.4809516370296478	0.60156214	Yes	
+row_13	TPM1	TPM1	tropomyosin 1 (alpha)	2921	0.4663088619709015	0.61560667	Yes	
+row_14	TNNC2	TNNC2	troponin C type 2 (fast)	3117	0.42978593707084656	0.61808836	Yes	
+row_15	VIM	VIM	vimentin	3450	0.37113136053085327	0.6070187	No	
+row_16	TPM2	TPM2	tropomyosin 2 (beta)	3635	0.34082692861557007	0.6066156	No	
+row_17	TNNI2	TNNI2	troponin I type 2 (skeletal, fast)	4277	0.2532741129398346	0.56559354	No	
+row_18	MYL1	MYL1	myosin, light chain 1, alkali; skeletal, fast	4553	0.21861159801483154	0.55265796	No	
+row_19	TMOD1	TMOD1	tropomodulin 1	5705	0.08788397908210754	0.46343547	No	
+row_20	MYBPC1	MYBPC1	myosin binding protein C, slow type	7111	-0.041613489389419556	0.35173845	No	
+row_21	DES	DES	desmin	7288	-0.06365403532981873	0.34022528	No	
+row_22	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	7563	-0.09442784637212753	0.32210326	No	
+row_23	MYBPC2	MYBPC2	myosin binding protein C, fast type	7708	-0.1112317144870758	0.31519225	No	
+row_24	MYH8	MYH8	myosin, heavy chain 8, skeletal muscle, perinatal	8984	-0.2883491516113281	0.22445863	No	
+row_25	TCAP	TCAP	titin-cap (telethonin)	10275	-0.535742461681366	0.14300673	No	
+row_26	NEB	NEB	nebulin	10741	-0.6895235180854797	0.13470094	No	

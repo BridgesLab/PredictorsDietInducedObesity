@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	957	1.330644965171814	0.07031511	Yes	
+row_1	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	1811	0.7575174570083618	0.08546613	Yes	
+row_2	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	2009	0.6880992650985718	0.14587322	Yes	
+row_3	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	2361	0.5875943303108215	0.182703	Yes	
+row_4	ESRRA	ESRRA	estrogen-related receptor alpha	2427	0.5691441297531128	0.24057356	Yes	
+row_5	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	2499	0.5551133155822754	0.29640374	Yes	
+row_6	CAMK1G	CAMK1G	calcium/calmodulin-dependent protein kinase IG	2543	0.5461066365242004	0.35349536	Yes	
+row_7	CAMK1	CAMK1	calcium/calmodulin-dependent protein kinase I	2733	0.5052037239074707	0.3942653	Yes	
+row_8	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	2745	0.5022323131561279	0.44907442	Yes	
+row_9	CAMK4	CAMK4	calcium/calmodulin-dependent protein kinase IV	2891	0.47139039635658264	0.48964632	Yes	
+row_10	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	2989	0.4507313072681427	0.5318018	Yes	
+row_11	MEF2C	MEF2C	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	3181	0.41511285305023193	0.5624193	Yes	
+row_12	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	3601	0.34631064534187317	0.5670018	Yes	
+row_13	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	4346	0.2436063587665558	0.5339594	No	
+row_14	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	5751	0.08335459232330322	0.42986786	No	
+row_15	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	6146	0.042252425104379654	0.40274864	No	
+row_16	SLC2A4	SLC2A4	solute carrier family 2 (facilitated glucose transporter), member 4	6370	0.0197787843644619	0.3869408	No	
+row_17	HDAC5	HDAC5	histone deacetylase 5	7119	-0.04258492588996887	0.3312824	No	
+row_18	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	7448	-0.08212537318468094	0.3139128	No	
+row_19	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	8148	-0.1655270755290985	0.27584404	No	
+row_20	MEF2D	MEF2D	MADS box transcription enhancer factor 2, polypeptide D (myocyte enhancer factor 2D)	8406	-0.2033981829881668	0.27765483	No	
+row_21	MEF2A	MEF2A	MADS box transcription enhancer factor 2, polypeptide A (myocyte enhancer factor 2A)	9710	-0.4093790650367737	0.21787214	No	

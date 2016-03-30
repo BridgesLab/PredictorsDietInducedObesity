@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	B3GALT5	B3GALT5	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 5	271	3.3532001972198486	0.18295386	No	
+row_1	B3GNT5	B3GNT5	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5	861	1.4517223834991455	0.22408924	No	
+row_2	FUT2	FUT2	fucosyltransferase 2 (secretor status included)	2560	0.5419892072677612	0.12013924	No	
+row_3	B4GALT4	B4GALT4	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 4	3442	0.3724726140499115	0.071780026	No	
+row_4	B4GALT2	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2	4011	0.288929283618927	0.043581963	No	
+row_5	B3GNT3	B3GNT3	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 3	4067	0.2812448740005493	0.056322206	No	
+row_6	ST3GAL3	ST3GAL3	ST3 beta-galactoside alpha-2,3-sialyltransferase 3	4254	0.25644877552986145	0.0569739	No	
+row_7	FUT4	FUT4	fucosyltransferase 4 (alpha (1,3) fucosyltransferase, myeloid-specific)	4848	0.18168459832668304	0.020206947	No	
+row_8	ST3GAL4	ST3GAL4	ST3 beta-galactoside alpha-2,3-sialyltransferase 4	5175	0.14530688524246216	0.0027692593	No	
+row_9	FUT9	FUT9	fucosyltransferase 9 (alpha (1,3) fucosyltransferase)	5233	0.13850893080234528	0.0066291336	No	
+row_10	ST8SIA1	ST8SIA1	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 1	5420	0.1183880940079689	-0.0011525229	No	
+row_11	B4GALT3	B4GALT3	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 3	6633	-0.011760047636926174	-0.09826289	No	
+row_12	ST3GAL6	ST3GAL6	ST3 beta-galactoside alpha-2,3-sialyltransferase 6	7032	-0.033323466777801514	-0.12835263	No	
+row_13	GCNT2	GCNT2	glucosaminyl (N-acetyl) transferase 2, I-branching enzyme (I blood group)	7992	-0.14544177055358887	-0.19687578	No	
+row_14	B4GALT1	B4GALT1	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1	9108	-0.308368444442749	-0.26803848	No	
+row_15	B3GALT1	B3GALT1	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 1	9970	-0.46238973736763	-0.30929083	No	
+row_16	FUT1	FUT1	fucosyltransferase 1 (galactoside 2-alpha-L-fucosyltransferase, H blood group)	10569	-0.6256393790245056	-0.31934267	No	
+row_17	B3GNT2	B3GNT2	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 2	11497	-1.1905944347381592	-0.3214404	Yes	
+row_18	B3GALT2	B3GALT2	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 2	11568	-1.282418966293335	-0.24875483	Yes	
+row_19	B3GNT4	B3GNT4	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 4	11637	-1.4018120765686035	-0.16861476	Yes	
+row_20	FUT7	FUT7	fucosyltransferase 7 (alpha (1,3) fucosyltransferase)	12260	-3.779157876968384	0.012026893	Yes	

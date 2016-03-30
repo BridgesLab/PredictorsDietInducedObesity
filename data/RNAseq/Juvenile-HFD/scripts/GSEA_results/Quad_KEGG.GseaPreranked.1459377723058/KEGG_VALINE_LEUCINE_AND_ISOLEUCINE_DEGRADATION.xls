@@ -1,0 +1,42 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ABAT	ABAT	4-aminobutyrate aminotransferase	1790	0.76725172996521	-0.08264916	No	
+row_1	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	2845	0.481888085603714	-0.12887944	No	
+row_2	BCAT1	BCAT1	branched chain aminotransferase 1, cytosolic	3055	0.439663827419281	-0.110209554	No	
+row_3	OXCT1	OXCT1	3-oxoacid CoA transferase 1	3661	0.337560772895813	-0.1318149	No	
+row_4	BCAT2	BCAT2	branched chain aminotransferase 2, mitochondrial	4237	0.25794944167137146	-0.15743504	No	
+row_5	HMGCL	HMGCL	3-hydroxymethyl-3-methylglutaryl-Coenzyme A lyase (hydroxymethylglutaricaciduria)	4448	0.23170647025108337	-0.15566888	No	
+row_6	IL4I1	IL4I1	interleukin 4 induced 1	4865	0.17991331219673157	-0.17474711	No	
+row_7	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	5041	0.15925189852714539	-0.17601258	No	
+row_8	HMGCS1	HMGCS1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1 (soluble)	5763	0.08245491981506348	-0.22763321	No	
+row_9	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	6250	0.033010050654411316	-0.2642546	No	
+row_10	PCCA	PCCA	propionyl Coenzyme A carboxylase, alpha polypeptide	6397	0.017407726496458054	-0.2746501	No	
+row_11	ACAA2	ACAA2	acetyl-Coenzyme A acyltransferase 2 (mitochondrial 3-oxoacyl-Coenzyme A thiolase)	6518	0.0026225089095532894	-0.2841396	No	
+row_12	MCCC2	MCCC2	methylcrotonoyl-Coenzyme A carboxylase 2 (beta)	6952	-0.02424442395567894	-0.31718522	No	
+row_13	HADH	HADH	hydroxyacyl-Coenzyme A dehydrogenase	7109	-0.04154691472649574	-0.3264364	No	
+row_14	ACAD8	ACAD8	acyl-Coenzyme A dehydrogenase family, member 8	7220	-0.05420247092843056	-0.33094487	No	
+row_15	MCCC1	MCCC1	methylcrotonoyl-Coenzyme A carboxylase 1 (alpha)	7232	-0.0566292405128479	-0.3272531	No	
+row_16	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	7307	-0.06612909585237503	-0.32788625	No	
+row_17	IVD	IVD	isovaleryl Coenzyme A dehydrogenase	7414	-0.07834140211343765	-0.33011857	No	
+row_18	ACADS	ACADS	acyl-Coenzyme A dehydrogenase, C-2 to C-3 short chain	7550	-0.0935257226228714	-0.3334671	No	
+row_19	MCEE	MCEE	methylmalonyl CoA epimerase	7659	-0.10464745759963989	-0.33373305	No	
+row_20	HADHB	HADHB	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), beta subunit	7856	-0.1287238597869873	-0.3391659	Yes	
+row_21	ACADM	ACADM	acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain	7931	-0.13751880824565887	-0.3340239	Yes	
+row_22	PCCB	PCCB	propionyl Coenzyme A carboxylase, beta polypeptide	7987	-0.14478524029254913	-0.326758	Yes	
+row_23	HIBCH	HIBCH	3-hydroxyisobutyryl-Coenzyme A hydrolase	8219	-0.17516103386878967	-0.3312639	Yes	
+row_24	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	8304	-0.18848995864391327	-0.322807	Yes	
+row_25	BCKDHB	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide (maple syrup urine disease)	8317	-0.1912042796611786	-0.30830956	Yes	
+row_26	HIBADH	HIBADH	3-hydroxyisobutyrate dehydrogenase	8492	-0.21288219094276428	-0.3051557	Yes	
+row_27	HADHA	HADHA	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit	8675	-0.24184919893741608	-0.3003053	Yes	
+row_28	HMGCS2	HMGCS2	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 2 (mitochondrial)	8721	-0.24985437095165253	-0.28373128	Yes	
+row_29	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	8769	-0.2555623948574066	-0.26685715	Yes	
+row_30	DLD	DLD	dihydrolipoamide dehydrogenase	8954	-0.2840580344200134	-0.25875396	Yes	
+row_31	BCKDHA	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	9293	-0.33875128626823425	-0.25867677	Yes	
+row_32	AUH	AUH	AU RNA binding protein/enoyl-Coenzyme A hydratase	9445	-0.36641064286231995	-0.2412436	Yes	
+row_33	MUT	MUT	methylmalonyl Coenzyme A mutase	10167	-0.5095129609107971	-0.25831702	Yes	
+row_34	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	10230	-0.5247142910957336	-0.22088234	Yes	
+row_35	ACADSB	ACADSB	acyl-Coenzyme A dehydrogenase, short/branched chain	10270	-0.5346872210502625	-0.18078142	Yes	
+row_36	DBT	DBT	dihydrolipoamide branched chain transacylase E2	10573	-0.6264773607254028	-0.15451789	Yes	
+row_37	ALDH6A1	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	10634	-0.6470943689346313	-0.10702148	Yes	
+row_38	AOX1	AOX1	aldehyde oxidase 1	10928	-0.7716034054756165	-0.06829023	Yes	
+row_39	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	11068	-0.8480257391929626	-0.010926257	Yes	
+row_40	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	11681	-1.4742631912231445	0.05885696	Yes	

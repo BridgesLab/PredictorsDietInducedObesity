@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KCNK7	KCNK7	potassium channel, subfamily K, member 7	822	1.510241150856018	-0.0070183915	No	
+row_1	HMGA2	HMGA2	high mobility group AT-hook 2	987	1.2910429239273071	0.03056905	No	
+row_2	NHS	NHS	Nance-Horan syndrome (congenital cataracts and dental anomalies)	1808	0.7592174410820007	-0.005872055	No	
+row_3	GAL3ST3	GAL3ST3	galactose-3-O-sulfotransferase 3	2631	0.5265927314758301	-0.0516386	No	
+row_4	PAPPA	PAPPA	pregnancy-associated plasma protein A, pappalysin 1	3172	0.41672879457473755	-0.07891556	No	
+row_5	SMURF1	SMURF1	SMAD specific E3 ubiquitin protein ligase 1	3245	0.4034987986087799	-0.06884653	No	
+row_6	GNB2	GNB2	guanine nucleotide binding protein (G protein), beta polypeptide 2	3338	0.387454092502594	-0.061027803	No	
+row_7	PAPOLA	PAPOLA	poly(A) polymerase alpha	3523	0.35824260115623474	-0.061803747	No	
+row_8	OXR1	OXR1	oxidation resistance 1	4181	0.267123818397522	-0.10444077	No	
+row_9	SLC6A6	SLC6A6	solute carrier family 6 (neurotransmitter transporter, taurine), member 6	4217	0.2606966197490692	-0.09700328	No	
+row_10	FBXL19	FBXL19	F-box and leucine-rich repeat protein 19	4418	0.2348916083574295	-0.1039329	No	
+row_11	TRMU	TRMU	tRNA 5-methylaminomethyl-2-thiouridylate methyltransferase	4996	0.16551433503627777	-0.14409953	No	
+row_12	SCN4B	SCN4B	sodium channel, voltage-gated, type IV, beta	5042	0.1592472642660141	-0.1414675	No	
+row_13	SLC35A4	SLC35A4	solute carrier family 35, member A4	5680	0.0901329517364502	-0.18945834	No	
+row_14	DUSP13	DUSP13	dual specificity phosphatase 13	5697	0.08819857239723206	-0.1872786	No	
+row_15	TNKS2	TNKS2	tankyrase, TRF1-interacting ankyrin-related ADP-ribose polymerase 2	5800	0.07814498245716095	-0.19245338	No	
+row_16	PCBP2	PCBP2	poly(rC) binding protein 2	5957	0.060486841946840286	-0.20269306	No	
+row_17	PSME3	PSME3	proteasome (prosome, macropain) activator subunit 3 (PA28 gamma; Ki)	6212	0.036374643445014954	-0.221812	No	
+row_18	SMARCD1	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1	6287	0.028669385239481926	-0.22667019	No	
+row_19	HIC2	HIC2	hypermethylated in cancer 2	6405	0.016124047338962555	-0.23550181	No	
+row_20	RAB1B	RAB1B	RAB1B, member RAS oncogene family	6665	-0.015589907765388489	-0.2558441	No	
+row_21	PRKX	PRKX	protein kinase, X-linked	6677	-0.01653672382235527	-0.25608268	No	
+row_22	RASAL2	RASAL2	RAS protein activator like 2	6710	-0.01993231661617756	-0.2578867	No	
+row_23	FAM76A	FAM76A	family with sequence similarity 76, member A	7222	-0.05447116121649742	-0.29708737	No	
+row_24	CAMTA1	CAMTA1	calmodulin binding transcription activator 1	7263	-0.0600229948759079	-0.29795942	No	
+row_25	PCBP1	PCBP1	poly(rC) binding protein 1	7301	-0.06507819890975952	-0.2983896	No	
+row_26	PPME1	PPME1	protein phosphatase methylesterase 1	7477	-0.08511429280042648	-0.3091965	No	
+row_27	CD63	CD63	CD63 molecule	7516	-0.08922282606363297	-0.3087565	No	
+row_28	DDX17	DDX17	DEAD (Asp-Glu-Ala-Asp) box polypeptide 17	7733	-0.11285383999347687	-0.32178807	No	
+row_29	SETD2	SETD2	SET domain containing 2	8515	-0.2171301543712616	-0.37642762	No	
+row_30	LUC7L	LUC7L	LUC7-like (S. cerevisiae)	8791	-0.25740036368370056	-0.38853902	No	
+row_31	ETF1	ETF1	eukaryotic translation termination factor 1	8795	-0.25788307189941406	-0.37862316	No	
+row_32	GTDC1	GTDC1	glycosyltransferase-like domain containing 1	9060	-0.29902270436286926	-0.38820493	No	
+row_33	ERC2	ERC2	ELKS/RAB6-interacting/CAST family member 2	9369	-0.35032540559768677	-0.3993259	Yes	
+row_34	AHCTF1	AHCTF1	AT hook containing transcription factor 1	9408	-0.3607851266860962	-0.38818845	Yes	
+row_35	SMG1	SMG1	-	9716	-0.41025984287261963	-0.39686757	Yes	
+row_36	OGT	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase)	9757	-0.4173050820827484	-0.3836655	Yes	
+row_37	SLC39A14	SLC39A14	solute carrier family 39 (zinc transporter), member 14	9875	-0.44067999720573425	-0.3757729	Yes	
+row_38	SCRT2	SCRT2	scratch homolog 2, zinc finger protein (Drosophila)	10330	-0.5529659986495972	-0.39072466	Yes	
+row_39	NUFIP2	NUFIP2	nuclear fragile X mental retardation protein interacting protein 2	10451	-0.5898488163948059	-0.3771987	Yes	
+row_40	NPM1	NPM1	nucleophosmin (nucleolar phosphoprotein B23, numatrin)	10455	-0.5913041234016418	-0.35414863	Yes	
+row_41	PAXIP1	PAXIP1	PAX interacting (with transcription-activation domain) protein 1	10601	-0.6362584829330444	-0.34081727	Yes	
+row_42	PATZ1	PATZ1	POZ (BTB) and AT hook containing zinc finger 1	10636	-0.6480281949043274	-0.318041	Yes	
+row_43	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	10682	-0.6624016165733337	-0.29558858	Yes	
+row_44	TGFBR1	TGFBR1	transforming growth factor, beta receptor I (activin A receptor type II-like kinase, 53kDa)	11202	-0.9256813526153564	-0.30111757	Yes	
+row_45	TAF5	TAF5	TAF5 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 100kDa	11413	-1.106318473815918	-0.27452883	Yes	
+row_46	NRIP1	NRIP1	nuclear receptor interacting protein 1	11472	-1.1621415615081787	-0.23344235	Yes	
+row_47	NR2C2	NR2C2	nuclear receptor subfamily 2, group C, member 2	11536	-1.2356503009796143	-0.18986477	Yes	
+row_48	MSI1	MSI1	musashi homolog 1 (Drosophila)	11814	-1.824965476989746	-0.14038803	Yes	
+row_49	SLC1A3	SLC1A3	solute carrier family 1 (glial high affinity glutamate transporter), member 3	11842	-1.9020509719848633	-0.06764655	Yes	
+row_50	SOX11	SOX11	SRY (sex determining region Y)-box 11	12133	-2.8798348903656006	0.022332031	Yes	

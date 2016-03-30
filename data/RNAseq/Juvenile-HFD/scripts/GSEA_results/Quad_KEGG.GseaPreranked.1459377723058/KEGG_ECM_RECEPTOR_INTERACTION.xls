@@ -1,0 +1,81 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IBSP	IBSP	integrin-binding sialoprotein (bone sialoprotein, bone sialoprotein II)	440	2.5435361862182617	0.008318717	Yes	
+row_1	CHAD	CHAD	chondroadherin	528	2.2783079147338867	0.040678255	Yes	
+row_2	COL2A1	COL2A1	collagen, type II, alpha 1 (primary osteoarthritis, spondyloepiphyseal dysplasia, congenital)	573	2.1082663536071777	0.07358345	Yes	
+row_3	COL11A1	COL11A1	collagen, type XI, alpha 1	584	2.0647547245025635	0.10849338	Yes	
+row_4	TNC	TNC	tenascin C (hexabrachion)	658	1.8236451148986816	0.13412254	Yes	
+row_5	CD44	CD44	CD44 molecule (Indian blood group)	687	1.737947702407837	0.16191874	Yes	
+row_6	COL1A1	COL1A1	collagen, type I, alpha 1	745	1.6398643255233765	0.18566608	Yes	
+row_7	COMP	COMP	cartilage oligomeric matrix protein	762	1.6163772344589233	0.21233231	Yes	
+row_8	ITGB6	ITGB6	integrin, beta 6	765	1.6112552881240845	0.24004537	Yes	
+row_9	COL6A2	COL6A2	collagen, type VI, alpha 2	787	1.5687531232833862	0.26548216	Yes	
+row_10	COL6A3	COL6A3	collagen, type VI, alpha 3	854	1.458691120147705	0.28536522	Yes	
+row_11	LAMA3	LAMA3	laminin, alpha 3	885	1.4223384857177734	0.30753908	Yes	
+row_12	SDC1	SDC1	syndecan 1	918	1.372103214263916	0.32868162	Yes	
+row_13	COL5A1	COL5A1	collagen, type V, alpha 1	978	1.2995389699935913	0.346379	Yes	
+row_14	GP1BB	GP1BB	glycoprotein Ib (platelet), beta polypeptide	1021	1.2686306238174438	0.36492044	Yes	
+row_15	COL11A2	COL11A2	collagen, type XI, alpha 2	1042	1.245155930519104	0.38483998	Yes	
+row_16	VTN	VTN	vitronectin	1087	1.1930345296859741	0.40191135	Yes	
+row_17	COL1A2	COL1A2	collagen, type I, alpha 2	1096	1.1845953464508057	0.42175642	Yes	
+row_18	COL3A1	COL3A1	collagen, type III, alpha 1 (Ehlers-Danlos syndrome type IV, autosomal dominant)	1102	1.1780333518981934	0.4417313	Yes	
+row_19	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	1174	1.114362120628357	0.4552518	Yes	
+row_20	THBS4	THBS4	thrombospondin 4	1238	1.0693672895431519	0.46864274	Yes	
+row_21	COL6A1	COL6A1	collagen, type VI, alpha 1	1292	1.036813735961914	0.48228154	Yes	
+row_22	ITGA4	ITGA4	integrin, alpha 4 (antigen CD49D, alpha 4 subunit of VLA-4 receptor)	1360	0.9933750629425049	0.49403334	Yes	
+row_23	FN1	FN1	fibronectin 1	1484	0.9210814237594604	0.4999927	Yes	
+row_24	SV2B	SV2B	synaptic vesicle glycoprotein 2B	1667	0.8229176998138428	0.4994687	Yes	
+row_25	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	1700	0.8040585517883301	0.5107839	Yes	
+row_26	COL4A2	COL4A2	collagen, type IV, alpha 2	1773	0.7721883058547974	0.5183036	Yes	
+row_27	LAMB3	LAMB3	laminin, beta 3	1775	0.7717475891113281	0.531574	Yes	
+row_28	SV2C	SV2C	synaptic vesicle glycoprotein 2C	1932	0.712241530418396	0.5312439	Yes	
+row_29	COL5A3	COL5A3	collagen, type V, alpha 3	1991	0.6938797235488892	0.5385443	Yes	
+row_30	HSPG2	HSPG2	heparan sulfate proteoglycan 2 (perlecan)	1994	0.6930330991744995	0.5503718	Yes	
+row_31	COL4A1	COL4A1	collagen, type IV, alpha 1	2022	0.683386504650116	0.5600049	Yes	
+row_32	LAMA4	LAMA4	laminin, alpha 4	2036	0.6779779195785522	0.5706798	Yes	
+row_33	COL5A2	COL5A2	collagen, type V, alpha 2	2043	0.6761230826377869	0.58189034	Yes	
+row_34	ITGA9	ITGA9	integrin, alpha 9	2056	0.6715654134750366	0.5925354	Yes	
+row_35	ITGA6	ITGA6	integrin, alpha 6	2249	0.6189343333244324	0.5876714	Yes	
+row_36	SV2A	SV2A	synaptic vesicle glycoprotein 2A	2265	0.6157615184783936	0.5971077	Yes	
+row_37	ITGA7	ITGA7	integrin, alpha 7	2642	0.5241334438323975	0.5756807	No	
+row_38	SDC3	SDC3	syndecan 3 (N-syndecan)	2858	0.479077011346817	0.5665317	No	
+row_39	ITGB7	ITGB7	integrin, beta 7	2977	0.4527781307697296	0.5647948	No	
+row_40	LAMB2	LAMB2	laminin, beta 2 (laminin S)	3128	0.42673444747924805	0.560012	No	
+row_41	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	3203	0.41119229793548584	0.56112415	No	
+row_42	LAMB1	LAMB1	laminin, beta 1	3242	0.4041447639465332	0.5650341	No	
+row_43	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	3271	0.39863404631614685	0.5696597	No	
+row_44	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	3311	0.39220383763313293	0.57328194	No	
+row_45	LAMC2	LAMC2	laminin, gamma 2	3356	0.3852488696575165	0.57637835	No	
+row_46	TNXB	TNXB	tenascin XB	3413	0.3771667182445526	0.5783617	No	
+row_47	SDC2	SDC2	syndecan 2 (heparan sulfate proteoglycan 1, cell surface-associated, fibroglycan)	3976	0.2929054796695709	0.5378491	No	
+row_48	ITGA2	ITGA2	integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)	4117	0.275451123714447	0.53126013	No	
+row_49	THBS3	THBS3	thrombospondin 3	4188	0.26617467403411865	0.53018785	No	
+row_50	RELN	RELN	reelin	4210	0.26229414343833923	0.53302246	No	
+row_51	ITGA11	ITGA11	integrin, alpha 11	4420	0.23464970290660858	0.5201314	No	
+row_52	ITGB8	ITGB8	integrin, beta 8	4494	0.2251265048980713	0.5181057	No	
+row_53	ITGA5	ITGA5	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)	4614	0.2122730165719986	0.5121268	No	
+row_54	ITGA8	ITGA8	integrin, alpha 8	4715	0.1991199254989624	0.50746137	No	
+row_55	LAMC3	LAMC3	laminin, gamma 3	4717	0.19878731667995453	0.5108194	No	
+row_56	SDC4	SDC4	syndecan 4 (amphiglycan, ryudocan)	4834	0.1832503378391266	0.5045817	No	
+row_57	VWF	VWF	von Willebrand factor	4877	0.17897191643714905	0.5042716	No	
+row_58	ITGB4	ITGB4	integrin, beta 4	4882	0.1780533641576767	0.5070276	No	
+row_59	THBS2	THBS2	thrombospondin 2	5093	0.15305614471435547	0.4926439	No	
+row_60	DAG1	DAG1	dystroglycan 1 (dystrophin-associated glycoprotein 1)	5292	0.13248609006404877	0.47887757	No	
+row_61	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	5493	0.10961049050092697	0.46455327	No	
+row_62	ITGA1	ITGA1	integrin, alpha 1	5577	0.10081446915864944	0.45956585	No	
+row_63	CD47	CD47	CD47 molecule	5972	0.05908835306763649	0.4286335	No	
+row_64	LAMA5	LAMA5	laminin, alpha 5	5995	0.05720306932926178	0.42783886	No	
+row_65	THBS1	THBS1	thrombospondin 1	6302	0.02789388783276081	0.40350392	No	
+row_66	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	6533	0.0010246370220556855	0.38486797	No	
+row_67	GP9	GP9	glycoprotein IX (platelet)	6785	-0.021839583292603493	0.36488894	No	
+row_68	GP5	GP5	glycoprotein V (platelet)	6917	-0.02203429490327835	0.35464564	No	
+row_69	LAMA2	LAMA2	laminin, alpha 2 (merosin, congenital muscular dystrophy)	7637	-0.10251245647668839	0.29810607	No	
+row_70	ITGA2B	ITGA2B	integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41)	7855	-0.12858279049396515	0.28273126	No	
+row_71	HMMR	HMMR	hyaluronan-mediated motility receptor (RHAMM)	8020	-0.14862488210201263	0.27200162	No	
+row_72	COL4A6	COL4A6	collagen, type IV, alpha 6	8083	-0.1567380726337433	0.26968485	No	
+row_73	TNR	TNR	tenascin R (restrictin, janusin)	8725	-0.2508092224597931	0.22203691	No	
+row_74	ITGB5	ITGB5	integrin, beta 5	9404	-0.35940828919410706	0.17326696	No	
+row_75	COL4A4	COL4A4	collagen, type IV, alpha 4	9492	-0.3744264245033264	0.17268871	No	
+row_76	ITGA10	ITGA10	integrin, alpha 10	9960	-0.4606457054615021	0.14278294	No	
+row_77	TNN	TNN	tenascin N	10463	-0.5931104421615601	0.11233024	No	
+row_78	LAMA1	LAMA1	laminin, alpha 1	11466	-1.1582096815109253	0.051102452	No	
+row_79	CD36	CD36	CD36 molecule (thrombospondin receptor)	11673	-1.462193489074707	0.059691675	No	

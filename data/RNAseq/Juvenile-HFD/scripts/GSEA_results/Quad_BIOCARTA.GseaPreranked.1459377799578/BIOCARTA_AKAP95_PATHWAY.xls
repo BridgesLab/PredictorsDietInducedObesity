@@ -1,0 +1,11 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PPP1CA	PPP1CA	protein phosphatase 1, catalytic subunit, alpha isoform	4768	0.1923041194677353	-0.3530361	No	
+row_1	PRKAG1	PRKAG1	protein kinase, AMP-activated, gamma 1 non-catalytic subunit	5271	0.13443373143672943	-0.37151328	No	
+row_2	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	5659	0.09273262321949005	-0.38754267	No	
+row_3	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	6126	0.044834960252046585	-0.4177839	No	
+row_4	AKAP8	AKAP8	A kinase (PRKA) anchor protein 8	7505	-0.08812884986400604	-0.51448625	No	
+row_5	CCNB1	CCNB1	cyclin B1	7603	-0.0991070494055748	-0.5060851	No	
+row_6	NCAPD2	NCAPD2	non-SMC condensin I complex, subunit D2	9319	-0.3437362313270569	-0.5881222	Yes	
+row_7	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	9976	-0.4635680913925171	-0.56513965	Yes	
+row_8	DDX5	DDX5	DEAD (Asp-Glu-Ala-Asp) box polypeptide 5	10172	-0.5113471150398254	-0.49715832	Yes	
+row_9	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	12290	-4.138568878173828	0.009596636	Yes	

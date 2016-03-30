@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ISG20	ISG20	interferon stimulated exonuclease gene 20kDa	2018	0.685148298740387	-0.10746225	No	
+row_1	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	3821	0.3130261301994324	-0.22759202	No	
+row_2	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	4408	0.2363741546869278	-0.25577086	No	
+row_3	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	4572	0.21665716171264648	-0.25140148	No	
+row_4	ERCC1	ERCC1	excision repair cross-complementing rodent repair deficiency, complementation group 1 (includes overlapping antisense sequence)	5151	0.14777331054210663	-0.28610185	No	
+row_5	ERCC2	ERCC2	excision repair cross-complementing rodent repair deficiency, complementation group 2 (xeroderma pigmentosum D)	5340	0.12761440873146057	-0.2909534	No	
+row_6	BAX	BAX	BCL2-associated X protein	5885	0.06844453513622284	-0.3293266	No	
+row_7	CYCS	CYCS	cytochrome c, somatic	5982	0.0582658126950264	-0.33236206	No	
+row_8	ERCC3	ERCC3	excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)	6522	0.0023399440106004477	-0.3756791	No	
+row_9	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	6613	-0.008939740248024464	-0.38222045	No	
+row_10	TPD52L1	TPD52L1	tumor protein D52-like 1	7187	-0.050458069890737534	-0.42438942	No	
+row_11	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	8962	-0.2853545844554901	-0.54449755	No	
+row_12	NTHL1	NTHL1	nth endonuclease III-like 1 (E. coli)	9166	-0.3163171708583832	-0.535295	No	
+row_13	ERCC4	ERCC4	excision repair cross-complementing rodent repair deficiency, complementation group 4	9934	-0.4562534987926483	-0.5602967	Yes	
+row_14	UBE2V2	UBE2V2	ubiquitin-conjugating enzyme E2 variant 2	10142	-0.5028249025344849	-0.53632975	Yes	
+row_15	ERCC5	ERCC5	me))	10672	-0.6594709753990173	-0.52568185	Yes	
+row_16	XRN2	XRN2	5'-3' exoribonuclease 2	11159	-0.8958817720413208	-0.492439	Yes	
+row_17	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11193	-0.917675793170929	-0.42086846	Yes	
+row_18	CECR2	CECR2	cat eye syndrome chromosome region, candidate 2	11451	-1.141296148300171	-0.34928897	Yes	
+row_19	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	11488	-1.1809436082839966	-0.25666386	Yes	
+row_20	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	12284	-4.0908403396606445	0.010089569	Yes	

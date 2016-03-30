@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UGT2A3	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	44	7.026545524597168	0.19245449	Yes	
+row_1	UPP2	UPP2	uridine phosphorylase 2	59	6.436906337738037	0.37088332	Yes	
+row_2	UGT1A5	UGT1A5	UDP glucuronosyltransferase 1 family, polypeptide A5	73	6.089431285858154	0.5397	Yes	
+row_3	UGT1A1	UGT1A1	UDP glucuronosyltransferase 1 family, polypeptide A1	287	3.1361982822418213	0.6099855	Yes	
+row_4	DPYS	DPYS	dihydropyrimidinase	306	2.9509449005126953	0.6908494	Yes	
+row_5	CDA	CDA	cytidine deaminase	925	1.3636173009872437	0.6789848	Yes	
+row_6	UPB1	UPB1	ureidopropionase, beta	986	1.2911978960037231	0.71015817	Yes	
+row_7	UGT1A9	UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A9	1149	1.1331610679626465	0.72868663	Yes	
+row_8	UPP1	UPP1	uridine phosphorylase 1	2080	0.6617398858070374	0.67204916	No	
+row_9	TK1	TK1	thymidine kinase 1, soluble	2693	0.5121372938156128	0.63691676	No	
+row_10	UCK2	UCK2	uridine-cytidine kinase 2	4552	0.21870817244052887	0.49298537	No	
+row_11	GUSB	GUSB	glucuronidase, beta	4648	0.20925100147724152	0.4911513	No	
+row_12	UMPS	UMPS	uridine monophosphate synthetase (orotate phosphoribosyl transferase and orotidine-5'-decarboxylase)	5075	0.15482252836227417	0.4610709	No	
+row_13	TPMT	TPMT	thiopurine S-methyltransferase	6356	0.021585309877991676	0.35831383	No	
+row_14	ITPA	ITPA	inosine triphosphatase (nucleoside triphosphate pyrophosphatase)	6648	-0.013693928718566895	0.33519778	No	
+row_15	IMPDH1	IMPDH1	IMP (inosine monophosphate) dehydrogenase 1	7120	-0.04277738928794861	0.2983581	No	
+row_16	NAT1	NAT1	N-acetyltransferase 1 (arylamine N-acetyltransferase)	7442	-0.08102275431156158	0.27469772	No	
+row_17	GMPS	GMPS	guanine monphosphate synthetase	9129	-0.3116413354873657	0.14724763	No	
+row_18	NAT2	NAT2	N-acetyltransferase 2 (arylamine N-acetyltransferase)	9562	-0.38408350944519043	0.123078026	No	
+row_19	UCK1	UCK1	uridine-cytidine kinase 1	9644	-0.39534610509872437	0.12756562	No	
+row_20	IMPDH2	IMPDH2	IMP (inosine monophosphate) dehydrogenase 2	9809	-0.4264996349811554	0.12622005	No	
+row_21	UCKL1	UCKL1	uridine-cytidine kinase 1-like 1	10055	-0.48089176416397095	0.11985107	No	
+row_22	XDH	XDH	xanthine dehydrogenase	10347	-0.5555499792098999	0.111850224	No	
+row_23	TK2	TK2	thymidine kinase 2, mitochondrial	10393	-0.5698962807655334	0.124113925	No	
+row_24	DPYD	DPYD	dihydropyrimidine dehydrogenase	10508	-0.60885089635849	0.13189256	No	
+row_25	UGT1A8	UGT1A8	UDP glucuronosyltransferase 1 family, polypeptide A8	10929	-0.7718539237976074	0.119508915	No	

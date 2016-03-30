@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	APOB	APOB	apolipoprotein B (including Ag(x) antigen)	1	21.418428421020508	0.2132211	Yes	
+row_1	ABCG8	ABCG8	ATP-binding cassette, sub-family G (WHITE), member 8 (sterolin 2)	32	7.559213161468506	0.2860768	Yes	
+row_2	ALB	ALB	albumin	35	7.460006237030029	0.3602079	Yes	
+row_3	APOA1	APOA1	apolipoprotein A-I	37	7.263733386993408	0.43246514	Yes	
+row_4	LIPC	LIPC	lipase, hepatic	41	7.1958441734313965	0.5038847	Yes	
+row_5	APOA2	APOA2	apolipoprotein A-II	69	6.170414924621582	0.5631521	Yes	
+row_6	APOA5	APOA5	apolipoprotein A-V	84	5.786080360412598	0.61964285	Yes	
+row_7	APOC3	APOC3	apolipoprotein C-III	85	5.779256820678711	0.67719734	Yes	
+row_8	ABCG5	ABCG5	ATP-binding cassette, sub-family G (WHITE), member 5 (sterolin 1)	191	3.990461587905884	0.70844996	Yes	
+row_9	APOC2	APOC2	apolipoprotein C-II	195	3.911592960357666	0.7471623	Yes	
+row_10	CLPS	CLPS	colipase, pancreatic	381	2.753699779510498	0.7596315	Yes	
+row_11	LCAT	LCAT	lecithin-cholesterol acyltransferase	533	2.258538007736206	0.76991785	Yes	
+row_12	SDC1	SDC1	syndecan 1	918	1.372103214263916	0.752542	No	
+row_13	LDLR	LDLR	low density lipoprotein receptor (familial hypercholesterolemia)	1197	1.1008034944534302	0.74103284	No	
+row_14	HSPG2	HSPG2	heparan sulfate proteoglycan 2 (perlecan)	1994	0.6930330991744995	0.6835906	No	
+row_15	BMP1	BMP1	bone morphogenetic protein 1	2315	0.600709855556488	0.663706	No	
+row_16	PLTP	PLTP	phospholipid transfer protein	4044	0.28439614176750183	0.5268567	No	
+row_17	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	4057	0.282869428396225	0.52870375	No	
+row_18	PPP1CA	PPP1CA	protein phosphatase 1, catalytic subunit, alpha isoform	4768	0.1923041194677353	0.47322658	No	
+row_19	PPP1CC	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isoform	4784	0.1906556487083435	0.47391278	No	
+row_20	CAV1	CAV1	caveolin 1, caveolae protein, 22kDa	4900	0.1757158637046814	0.46636674	No	
+row_21	P4HB	P4HB	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), beta polypeptide	5370	0.12418033927679062	0.42969218	No	
+row_22	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	5659	0.09273262321949005	0.40733546	No	
+row_23	MGLL	MGLL	monoglyceride lipase	6324	0.024791294708848	0.35390842	No	
+row_24	ABHD5	ABHD5	abhydrolase domain containing 5	6558	-0.001891064690425992	0.33509287	No	
+row_25	ABCG1	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1	7185	-0.049778010696172714	0.2849864	No	
+row_26	MTTP	MTTP	microsomal triglyceride transfer protein	7853	-0.12823481857776642	0.23234704	No	
+row_27	SCARB1	SCARB1	scavenger receptor class B, member 1	8102	-0.1592639684677124	0.21388625	No	
+row_28	LDLRAP1	LDLRAP1	low density lipoprotein receptor adaptor protein 1	8243	-0.17898355424404144	0.20435192	No	
+row_29	SAR1B	SAR1B	SAR1 gene homolog B (S. cerevisiae)	9328	-0.34566131234169006	0.120170005	No	
+row_30	PPP1CB	PPP1CB	protein phosphatase 1, catalytic subunit, beta isoform	9383	-0.3552706837654114	0.119343035	No	
+row_31	APOE	APOE	apolipoprotein E	9500	-0.37571972608566284	0.11370798	No	
+row_32	LPL	LPL	lipoprotein lipase	10584	-0.6302244067192078	0.03244082	No	
+row_33	FABP4	FABP4	fatty acid binding protein 4, adipocyte	11372	-1.0570658445358276	-0.020648591	No	
+row_34	ABCA1	ABCA1	ATP-binding cassette, sub-family A (ABC1), member 1	11533	-1.2307192087173462	-0.021325573	No	
+row_35	LIPE	LIPE	lipase, hormone-sensitive	11748	-1.649040937423706	-0.022201618	No	
+row_36	CUBN	CUBN	cubilin (intrinsic factor-cobalamin receptor)	11927	-2.1261208057403564	-0.015416484	No	
+row_37	AMN	AMN	amnionless homolog (mouse)	11994	-2.2245864868164062	0.0014026796	No	
+row_38	A2M	A2M	alpha-2-macroglobulin	12188	-3.21952223777771	0.017864272	No	

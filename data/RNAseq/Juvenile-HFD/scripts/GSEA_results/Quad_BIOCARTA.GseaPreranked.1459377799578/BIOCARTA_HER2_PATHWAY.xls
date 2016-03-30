@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ERBB4	ERBB4	v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian)	997	1.2839866876602173	0.016344687	No	
+row_1	GRB2	GRB2	growth factor receptor-bound protein 2	1386	0.976619303226471	0.058668777	No	
+row_2	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	1508	0.9054524302482605	0.117177896	No	
+row_3	ESR1	ESR1	estrogen receptor 1	1963	0.7023550868034363	0.13349372	No	
+row_4	GRIP1	GRIP1	glutamate receptor interacting protein 1	3911	0.3018591105937958	-9.000682E-4	No	
+row_5	MAPK3	MAPK3	mitogen-activated protein kinase 3	4021	0.28716179728507996	0.011955304	No	
+row_6	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	5316	0.13073398172855377	-0.082634166	No	
+row_7	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	5801	0.07814282178878784	-0.1158087	No	
+row_8	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	-0.1301197	No	
+row_9	CARM1	CARM1	coactivator-associated arginine methyltransferase 1	6138	0.04318602755665779	-0.13549994	No	
+row_10	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	6158	0.04132844880223274	-0.13391718	No	
+row_11	MAPK1	MAPK1	mitogen-activated protein kinase 1	6361	0.02116192691028118	-0.14862625	No	
+row_12	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	7279	-0.06226309388875961	-0.21794856	No	
+row_13	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	7989	-0.14503128826618195	-0.26424062	No	
+row_14	EP300	EP300	E1A binding protein p300	8303	-0.1882457286119461	-0.27531028	No	
+row_15	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	8466	-0.21066585183143616	-0.27250108	No	
+row_16	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	9259	-0.3325081765651703	-0.31135592	No	
+row_17	IL6ST	IL6ST	interleukin 6 signal transducer (gp130, oncostatin M receptor)	10787	-0.7086166143417358	-0.381177	Yes	
+row_18	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	-0.3363484	Yes	
+row_19	ERBB3	ERBB3	v-erb-b2 erythroblastic leukemia viral oncogene homolog 3 (avian)	11310	-1.0063363313674927	-0.28685978	Yes	
+row_20	IL6	IL6	interleukin 6 (interferon, beta 2)	12350	-4.979585647583008	0.004762258	Yes	

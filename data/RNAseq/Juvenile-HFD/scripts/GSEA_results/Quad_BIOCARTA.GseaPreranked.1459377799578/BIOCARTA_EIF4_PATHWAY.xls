@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IRS1	IRS1	insulin receptor substrate 1	1754	0.7775578498840332	-0.055201802	No	
+row_1	EIF4E	EIF4E	eukaryotic translation initiation factor 4E	3516	0.3594916760921478	-0.1574159	No	
+row_2	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	3872	0.3060533404350281	-0.15207008	No	
+row_3	MAPK3	MAPK3	mitogen-activated protein kinase 3	4021	0.28716179728507996	-0.13211338	No	
+row_4	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	4729	0.19699013233184814	-0.1672991	No	
+row_5	MAPK14	MAPK14	mitogen-activated protein kinase 14	4800	0.18838843703269958	-0.15201974	No	
+row_6	GHR	GHR	growth hormone receptor	5463	0.1132112666964531	-0.19288076	No	
+row_7	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	5812	0.07719340175390244	-0.21239626	No	
+row_8	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	6030	0.05427245795726776	-0.22388352	No	
+row_9	PDK2	PDK2	pyruvate dehydrogenase kinase, isozyme 2	6036	0.05393688380718231	-0.21829474	No	
+row_10	MAPK1	MAPK1	mitogen-activated protein kinase 1	6361	0.02116192691028118	-0.24209799	No	
+row_11	PABPC1	PABPC1	poly(A) binding protein, cytoplasmic 1	7132	-0.043732743710279465	-0.29939622	No	
+row_12	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	7283	-0.06283517926931381	-0.3045237	No	
+row_13	MKNK1	MKNK1	MAP kinase interacting serine/threonine kinase 1	7789	-0.11899489909410477	-0.3320686	No	
+row_14	EIF4G1	EIF4G1	eukaryotic translation initiation factor 4 gamma, 1	9403	-0.3591785430908203	-0.42237043	No	
+row_15	PRKCA	PRKCA	protein kinase C, alpha	10160	-0.5062577128410339	-0.4271519	Yes	
+row_16	EIF4G3	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3	10567	-0.6251817345619202	-0.39046773	Yes	
+row_17	EIF4A2	EIF4A2	eukaryotic translation initiation factor 4A, isoform 2	10752	-0.6936897039413452	-0.32825175	Yes	
+row_18	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	10781	-0.7058727145195007	-0.2520894	Yes	
+row_19	EIF4A1	EIF4A1	eukaryotic translation initiation factor 4A, isoform 1	10791	-0.7103970646858215	-0.17389067	Yes	
+row_20	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	10982	-0.8021678924560547	-0.100107074	Yes	
+row_21	EIF4EBP1	EIF4EBP1	eukaryotic translation initiation factor 4E binding protein 1	11851	-1.937156319618225	0.045043573	Yes	
