@@ -5,36 +5,36 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Thu Apr 14 10:40:14 2016.  This uses the input data from the kallisto runs.
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Tue Apr 19 06:17:09 2016.  This uses the input data from the kallisto runs.
 
 
 
 The counts data, derived from kallisto and get_highest_kallisto_count_transcript.Rmd are located in Unique_Estimated_Counts_WAT.csv and Unique_Estimated_Counts_Quad.csv.  The sample mapping file is located in ../sample-mapping.csv.  The annotations are from the file ENSEMBL Annotation - Transcripts.csv.
 
 
-Table: Total counts for each eWAT samples
+Table: Total counts and max count for each eWAT samples
 
-                     Total_counts
-------------------  -------------
-IonXpress_RNA_026        23340422
-IonXpress_RNA_027        18471646
-IonXpress_RNA_028        17049308
-IonXpress_RNA_029        21161430
-IonXpress_RNA_030        20944002
-IonXpress_RNA_031        19131039
-IonXpress_RNA_032        18414141
-IonXpress_RNA_033        17915008
-IonXpress_RNA_034        19363799
-IonXpress_RNA_035        18712520
-IonXpress_RNA_036        16537715
-IonXpress_RNA_037        17952538
-IonXpress_RNA_038        15857919
-IonXpress_RNA_039        16754140
-IonXpress_RNA_040        17884106
-IonXpress_RNA_041        17132159
-IonXpress_RNA_042        19257253
-IonXpress_RNA_043        17405180
-IonXpress_RNA_044        17660396
+                     Mean_counts   Max_counts   Total_counts  Mark 
+------------------  ------------  -----------  -------------  -----
+IonXpress_RNA_026           1136       759414       23340422  *    
+IonXpress_RNA_027            899       481821       18471646  *    
+IonXpress_RNA_028            830       433831       17049308       
+IonXpress_RNA_029           1030       414986       21161430       
+IonXpress_RNA_030           1019       579504       20944002  *    
+IonXpress_RNA_031            931       388145       19131039       
+IonXpress_RNA_032            896       356727       18414141       
+IonXpress_RNA_033            872       438052       17915008       
+IonXpress_RNA_034            942       510524       19363799       
+IonXpress_RNA_035            911       412945       18712520       
+IonXpress_RNA_036            805       251213       16537715       
+IonXpress_RNA_037            874       321656       17952538       
+IonXpress_RNA_038            772       533584       15857919       
+IonXpress_RNA_039            815       389594       16754140       
+IonXpress_RNA_040            870      1453430       17884106  *    
+IonXpress_RNA_041            834       541135       17132159  *    
+IonXpress_RNA_042            937       476103       19257253  *    
+IonXpress_RNA_043            847       384315       17405180       
+IonXpress_RNA_044            860       374466       17660396       
 
 
 ```
@@ -119,32 +119,32 @@ This model used only the adipose tissue data, and tested for changes for the int
 
 
 
-Using the combined model, we identified 2320 transcripts with a significant interaction between feeding and diet in WAT. Of which, 2026 genes are up-regulated while 294 genes are downregulated . 
+Using the combined model, we identified 1815 transcripts with a significant interaction between feeding and diet in WAT. Of which, 1347 genes are up-regulated while 468 genes are downregulated . 
 
-There are 21 genes had a main effect with respect to Diet and 389 genes had a main effect with respect to Feeding State.
+There are 123 genes had a main effect with respect to Diet and 87 genes had a main effect with respect to Feeding State.
 
 
 Table: Top Hits for Effects of Diet
 
-        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE   stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding       X  gene_biotype     external_gene_name   ensembl_gene_id    
-------  ----------------------  ---------  ---------------  ------  -----  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ------  ---------------  -------------------  -------------------
-4447    ENSMUST00000031729          230.4             25.7    4.13   6.21        0      0                 -24.4         3.46             0           0                    -4.17            2.06            0.043          0.189   79968  protein_coding   Tfr2                 ENSMUSG00000029716 
-3615    ENSMUST00000028681         1138.1             26.3    4.78   5.51        0      0                 -26.6         3.86             0           0                    -2.99            2.58            0.246          0.472   93614  protein_coding   F2                   ENSMUSG00000027249 
-1171    ENSMUST00000017590          272.5             27.2    4.29   6.34        0      0                 -24.1         3.56             0           0                    -3.44            2.19            0.116          0.318   58911  protein_coding   C1qtnf1              ENSMUSG00000017446 
-10588   ENSMUST00000073772           51.4             20.7    3.94   5.24        0      0                 -22.5         3.34             0           0                    -2.74            1.88            0.146          0.360    8467  protein_coding   Ugt1a9               ENSMUSG00000090175 
-18667   ENSMUST00000170392           71.8             22.9    4.02   5.70        0      0                 -22.8         3.40             0           0                    -3.05            1.96            0.121          0.325   68291  protein_coding   Pglyrp2              ENSMUSG00000079563 
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE    stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding       X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  ------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ------  ---------------  -------------------  -------------------
+18749   ENSMUST00000171091           24.1            -28.6    3.85   -7.43        0      0                  21.8         2.71             0           0                     20.4            2.81                0              0   47405  protein_coding   Iqcf6                ENSMUSG00000091129 
+13052   ENSMUST00000098345           22.4            -26.9    3.91   -6.89        0      0                  21.9         2.83             0           0                     19.7            2.94                0              0   97853  protein_coding   Prss44               ENSMUSG00000032493 
+4635    ENSMUST00000032541           19.7            -25.9    3.87   -6.69        0      0                  21.7         2.85             0           0                     20.0            2.96                0              0   57144  protein_coding   2900092C05Rik        ENSMUSG00000030385 
+20051   ENSMUST00000189413           18.8            -21.2    3.91   -5.42        0      0                  21.5         2.91             0           0                     19.4            3.03                0              0   61035  protein_coding   Kif14                ENSMUSG00000041498 
+551     ENSMUST00000005352           35.5            -21.4    4.73   -4.53        0      0                  22.1         3.38             0           0                     20.5            3.54                0              0   29556  protein_coding   Corin                ENSMUSG00000005220 
 
 
 
 Table: Top Hits for Effects of Feeding
 
-        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE   stat   pvalue    padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding        X  gene_biotype     external_gene_name   ensembl_gene_id    
-------  ----------------------  ---------  ---------------  ------  -----  -------  ------  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  -------  ---------------  -------------------  -------------------
-14369   ENSMUST00000106526            198            23.68    4.62   5.12    0.000   0.000                 -3.98        2.842         0.161       0.477                   -24.91           3.452                0              0    19656  protein_coding   Acsm3                ENSMUSG00000030935 
-17521   ENSMUST00000159440            102            25.75    4.65   5.54    0.000   0.000                 -5.27        2.871         0.066       0.323                   -23.92           3.462                0              0   107068  protein_coding   Gls2                 ENSMUSG00000044005 
-4214    ENSMUST00000030848            568             6.03    1.42   4.24    0.000   0.002                 -3.14        0.999         0.002       0.069                    -6.32           0.925                0              0    60166  protein_coding   Rbp7                 ENSMUSG00000028996 
-5610    ENSMUST00000036765            507             3.40    1.11   3.07    0.002   0.024                 -2.91        0.781         0.000       0.027                    -4.52           0.716                0              0    23817  protein_coding   Eif4ebp3             ENSMUSG00000090264 
-12106   ENSMUST00000089860           3624             5.31    1.19   4.45    0.000   0.002                 -2.92        0.844         0.001       0.048                    -4.83           0.771                0              0    77490  protein_coding   Fam13a               ENSMUSG00000037709 
+        ensembl_transcript_id    baseMean   log2FoldChange   lfcSE    stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding       X  gene_biotype     external_gene_name   ensembl_gene_id    
+------  ----------------------  ---------  ---------------  ------  ------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  ------  ---------------  -------------------  -------------------
+18749   ENSMUST00000171091           24.1           -28.57    3.85   -7.43        0      0                 21.84        2.714         0.000       0.000                     20.4           2.812                0              0   47405  protein_coding   Iqcf6                ENSMUSG00000091129 
+14369   ENSMUST00000106526          212.8            21.15    4.59    4.61        0      0                 -1.39        2.589         0.591       0.823                    -24.9           3.580                0              0   19656  protein_coding   Acsm3                ENSMUSG00000030935 
+4214    ENSMUST00000030848          498.1             6.05    1.33    4.54        0      0                 -3.19        0.861         0.000       0.014                     -6.3           0.931                0              0   60166  protein_coding   Rbp7                 ENSMUSG00000028996 
+4635    ENSMUST00000032541           19.7           -25.89    3.87   -6.69        0      0                 21.66        2.847         0.000       0.000                     20.0           2.959                0              0   57144  protein_coding   2900092C05Rik        ENSMUSG00000030385 
+13052   ENSMUST00000098345           22.4           -26.95    3.91   -6.89        0      0                 21.89        2.830         0.000       0.000                     19.7           2.941                0              0   97853  protein_coding   Prss44               ENSMUSG00000032493 
 
 
 
@@ -152,26 +152,28 @@ Table: Top Hits for Interaction between Diet and Feeding
 
         ensembl_transcript_id    baseMean   log2FoldChange   lfcSE    stat   pvalue   padj   log2FoldChange_Diet   lfcSE_Diet   pvalue_Diet   padj_Diet   log2FoldChange_Feeding   lfcSE_Feeding   pvalue_Feeding   padj_Feeding        X  gene_biotype     external_gene_name   ensembl_gene_id    
 ------  ----------------------  ---------  ---------------  ------  ------  -------  -----  --------------------  -----------  ------------  ----------  -----------------------  --------------  ---------------  -------------  -------  ---------------  -------------------  -------------------
-1171    ENSMUST00000017590          272.5            27.18   4.289    6.34        0      0                -24.15        3.558         0.000       0.000                   -3.440           2.186            0.116          0.318    58911  protein_coding   C1qtnf1              ENSMUSG00000017446 
-4447    ENSMUST00000031729          230.4            25.66   4.134    6.21        0      0                -24.42        3.465         0.000       0.000                   -4.165           2.059            0.043          0.189    79968  protein_coding   Tfr2                 ENSMUSG00000029716 
-15701   ENSMUST00000113779           32.9            30.00   4.872    6.16        0      0                -15.14        3.568         0.000       0.006                  -15.748           3.167            0.000          0.000    68936  protein_coding   Eda                  ENSMUSG00000059327 
-18667   ENSMUST00000170392           71.8            22.90   4.021    5.70        0      0                -22.80        3.396         0.000       0.000                   -3.046           1.963            0.121          0.325    68291  protein_coding   Pglyrp2              ENSMUSG00000079563 
-19712   ENSMUST00000181860           21.8            30.00   5.356    5.60        0      0                -15.31        3.899         0.000       0.015                  -15.922           3.477            0.000          0.001    27704  protein_coding   Car1                 ENSMUSG00000027556 
-15905   ENSMUST00000114890           28.4            -3.96   0.711   -5.57        0      0                  1.70        0.476         0.000       0.038                    0.969           0.441            0.028          0.152    96012  protein_coding   Gm17604              ENSMUSG00000079600 
-17521   ENSMUST00000159440          101.7            25.75   4.648    5.54        0      0                 -5.27        2.871         0.066       0.323                  -23.919           3.462            0.000          0.000   107068  protein_coding   Gls2                 ENSMUSG00000044005 
-3615    ENSMUST00000028681         1138.1            26.34   4.783    5.51        0      0                -26.61        3.861         0.000       0.000                   -2.987           2.577            0.246          0.472    93614  protein_coding   F2                   ENSMUSG00000027249 
-8712    ENSMUST00000057685           33.0            21.59   3.980    5.42        0      0                -21.77        3.367         0.000       0.000                   -2.985           1.927            0.121          0.326    97725  protein_coding   Gltpd2               ENSMUSG00000046811 
-4722    ENSMUST00000032958          396.8             6.89   1.311    5.25        0      0                 -3.06        0.924         0.001       0.057                   -4.615           0.849            0.000          0.000    73745  protein_coding   Ucp3                 ENSMUSG00000032942 
-10588   ENSMUST00000073772           51.4            20.65   3.939    5.24        0      0                -22.45        3.341         0.000       0.000                   -2.738           1.884            0.146          0.360     8467  protein_coding   Ugt1a9               ENSMUSG00000090175 
-7933    ENSMUST00000051846           71.2            22.53   4.355    5.17        0      0                -22.15        3.598         0.000       0.000                   -0.850           2.240            0.704          0.820    55717  protein_coding   Cyp2c70              ENSMUSG00000060613 
-6623    ENSMUST00000043077         6862.8             6.37   1.246    5.11        0      0                 -2.79        0.881         0.002       0.068                   -1.629           0.804            0.043          0.188      905  protein_coding   Thrsp                ENSMUSG00000035686 
-12825   ENSMUST00000096269           19.8            21.18   4.136    5.12        0      0                -20.38        3.464         0.000       0.000                   -1.045           2.063            0.612          0.759    83849  protein_coding   Slc22a30             ENSMUSG00000052562 
-14369   ENSMUST00000106526          198.2            23.68   4.623    5.12        0      0                 -3.98        2.842         0.161       0.477                  -24.905           3.452            0.000          0.000    19656  protein_coding   Acsm3                ENSMUSG00000030935 
-14453   ENSMUST00000107016           57.5           -30.00   5.868   -5.11        0      0                 13.31        4.047         0.001       0.059                   17.392           3.766            0.000          0.001    70874  protein_coding   Hsd3b1               ENSMUSG00000027871 
-17626   ENSMUST00000160929          835.5             6.30   1.237    5.09        0      0                 -3.72        0.876         0.000       0.006                   -3.038           0.798            0.000          0.009    54030  protein_coding   Hsd11b1              ENSMUSG00000016194 
-11449   ENSMUST00000081619        10999.7             6.95   1.373    5.06        0      0                 -3.51        0.971         0.000       0.034                   -3.710           0.886            0.000          0.004   102065  protein_coding   Sh3pxd2a             ENSMUSG00000053617 
-17204   ENSMUST00000146411          158.6            23.76   4.712    5.04        0      0                -23.97        3.815         0.000       0.000                   -3.447           2.522            0.172          0.392    94079  protein_coding   Asgr1                ENSMUSG00000020884 
-18355   ENSMUST00000167643           34.3            24.68   4.908    5.03        0      0                 -3.97        3.084         0.198       0.517                  -22.191           3.606            0.000          0.000    15941  protein_coding   Sco2                 ENSMUSG00000091780 
+18749   ENSMUST00000171091          24.06           -28.57    3.85   -7.43        0      0                 21.84        2.714         0.000       0.000                    20.39           2.812            0.000          0.000    47405  protein_coding   Iqcf6                ENSMUSG00000091129 
+13052   ENSMUST00000098345          22.36           -26.95    3.91   -6.89        0      0                 21.89        2.830         0.000       0.000                    19.73           2.941            0.000          0.000    97853  protein_coding   Prss44               ENSMUSG00000032493 
+4635    ENSMUST00000032541          19.70           -25.89    3.87   -6.69        0      0                 21.66        2.847         0.000       0.000                    19.95           2.959            0.000          0.000    57144  protein_coding   2900092C05Rik        ENSMUSG00000030385 
+15701   ENSMUST00000113779          28.05            30.00    4.47    6.71        0      0                -15.40        2.942         0.000       0.000                   -15.47           3.211            0.000          0.001    68936  protein_coding   Eda                  ENSMUSG00000059327 
+12282   ENSMUST00000091701           7.33           -24.92    3.97   -6.27        0      0                  4.59        2.173         0.035       0.202                     3.98           2.305            0.084          0.389     2786  protein_coding   Hist1h3a             ENSMUSG00000069265 
+20060   ENSMUST00000189511          17.97           -27.18    4.35   -6.24        0      0                  6.45        2.470         0.009       0.097                     4.77           2.623            0.069          0.362    62988  protein_coding   Gm28269              ENSMUSG00000101818 
+8043    ENSMUST00000052690         115.75           -29.90    4.84   -6.17        0      0                  6.26        2.787         0.025       0.169                     5.08           2.970            0.088          0.395    37342  protein_coding   Prss54               ENSMUSG00000048400 
+19482   ENSMUST00000179408          35.28           -26.63    4.32   -6.17        0      0                  5.48        2.398         0.022       0.159                     3.12           2.556            0.222          0.564    24889  protein_coding   Rbm31y               ENSMUSG00000095365 
+6702    ENSMUST00000043553          13.54           -25.04    4.08   -6.13        0      0                  4.90        2.231         0.028       0.181                     2.90           2.379            0.222          0.565    85188  protein_coding   1700063H04Rik        ENSMUSG00000040657 
+19712   ENSMUST00000181860          18.50            30.00    4.97    6.04        0      0                -15.59        3.262         0.000       0.001                   -15.66           3.544            0.000          0.002    27704  protein_coding   Car1                 ENSMUSG00000027556 
+15439   ENSMUST00000112397          10.86           -26.93    4.62   -5.83        0      0                  6.78        2.726         0.013       0.120                     5.25           2.885            0.069          0.361   105396  protein_coding   Csrnp3               ENSMUSG00000044647 
+45      ENSMUST00000000342         223.31             6.46    1.15    5.62        0      0                 -3.56        0.749         0.000       0.001                    -3.64           0.796            0.000          0.002    97241  protein_coding   Ccl11                ENSMUSG00000020676 
+4722    ENSMUST00000032958         350.73             6.69    1.19    5.63        0      0                 -2.88        0.769         0.000       0.014                    -4.60           0.826            0.000          0.000    73745  protein_coding   Ucp3                 ENSMUSG00000032942 
+10455   ENSMUST00000072518          30.44           -28.40    5.04   -5.63        0      0                  6.33        2.959         0.033       0.197                     5.68           3.148            0.071          0.366    44944  protein_coding   Tgif2lx2             ENSMUSG00000100194 
+17339   ENSMUST00000150989         153.10           -29.58    5.32   -5.56        0      0                  6.31        3.130         0.044       0.229                     4.12           3.336            0.216          0.561    37875  protein_coding   Fbxw10               ENSMUSG00000090173 
+8366    ENSMUST00000055071       10363.93             7.35    1.33    5.54        0      0                 -3.88        0.864         0.000       0.004                    -3.88           0.921            0.000          0.004    54339  protein_coding   Ifi27l2a             ENSMUSG00000079017 
+15125   ENSMUST00000110473          25.07           -29.30    5.32   -5.50        0      0                  7.91        3.227         0.014       0.127                     6.78           3.420            0.047          0.308    86414  protein_coding   Hist1h2bp            ENSMUSG00000069308 
+8532    ENSMUST00000056355         613.44             6.06    1.11    5.48        0      0                 -2.92        0.719         0.000       0.008                    -3.80           0.768            0.000          0.000    30545  protein_coding   Nat8l                ENSMUSG00000048142 
+218     ENSMUST00000001854        1099.36             7.08    1.30    5.43        0      0                 -3.81        0.848         0.000       0.004                    -3.11           0.903            0.001          0.029    19471  protein_coding   Slc7a10              ENSMUSG00000030495 
+11454   ENSMUST00000081657          12.74           -26.86    4.96   -5.41        0      0                 20.94        3.394         0.000       0.000                    19.63           3.555            0.000          0.000   108597  protein_coding   Gm4763               ENSMUSG00000058717 
+
+![](figures/detect_outliers-1.png)![](figures/detect_outliers-2.png)![](figures/detect_outliers-3.png)![](figures/detect_outliers-4.png)![](figures/detect_outliers-5.png)
 
 <div class="figure">
 <img src="figures/deseq-MA-plot-interaction-WAT-1.png" alt="MA Plot for Interaction results in WAT"  />
@@ -236,7 +238,7 @@ Table: Top Hits for Effects of Feeding
 
 
 ```
-## R version 3.2.2 (2015-08-14)
+## R version 3.2.4 (2016-03-10)
 ## Platform: x86_64-apple-darwin13.4.0 (64-bit)
 ## Running under: OS X 10.10.5 (Yosemite)
 ## 
@@ -262,18 +264,19 @@ Table: Top Hits for Effects of Feeding
 ##  [1] locfit_1.5-9.1       lattice_0.20-33      digest_0.6.9        
 ##  [4] plyr_1.8.3           futile.options_1.0.0 acepack_1.3-3.3     
 ##  [7] RSQLite_1.0.0        evaluate_0.8.3       highr_0.5.1         
-## [10] GlobalOptions_0.0.9  zlibbioc_1.16.0      annotate_1.48.0     
+## [10] GlobalOptions_0.0.10 zlibbioc_1.16.0      annotate_1.48.0     
 ## [13] whisker_0.3-2        GetoptLong_0.1.2     rpart_4.1-10        
-## [16] rmarkdown_0.9.5      labeling_0.3         splines_3.2.2       
-## [19] BiocParallel_1.4.3   geneplotter_1.48.0   stringr_1.0.0       
-## [22] foreign_0.8-66       munsell_0.4.3        shape_1.4.2         
-## [25] htmltools_0.3.5      nnet_7.3-12          gridExtra_2.2.1     
-## [28] Hmisc_3.17-3         dendextend_1.1.8     XML_3.98-1.4        
-## [31] xtable_1.8-2         gtable_0.2.0         DBI_0.3.1           
-## [34] magrittr_1.5         formatR_1.3          scales_0.4.0        
-## [37] stringi_1.0-1        XVector_0.10.0       genefilter_1.52.1   
-## [40] latticeExtra_0.6-28  futile.logger_1.4.1  Formula_1.2-1       
-## [43] rjson_0.2.15         lambda.r_1.1.7       RColorBrewer_1.1-2  
-## [46] tools_3.2.2          survival_2.38-3      yaml_2.1.13         
-## [49] AnnotationDbi_1.32.3 colorspace_1.2-6     cluster_2.0.3
+## [16] Matrix_1.2-5         rmarkdown_0.9.5      labeling_0.3        
+## [19] splines_3.2.4        BiocParallel_1.4.3   geneplotter_1.48.0  
+## [22] stringr_1.0.0        foreign_0.8-66       munsell_0.4.3       
+## [25] shape_1.4.2          htmltools_0.3.5      nnet_7.3-12         
+## [28] gridExtra_2.2.1      Hmisc_3.17-3         dendextend_1.1.8    
+## [31] XML_3.98-1.4         xtable_1.8-2         gtable_0.2.0        
+## [34] DBI_0.3.1            magrittr_1.5         formatR_1.3         
+## [37] scales_0.4.0         stringi_1.0-1        XVector_0.10.0      
+## [40] genefilter_1.52.1    latticeExtra_0.6-28  futile.logger_1.4.1 
+## [43] Formula_1.2-1        rjson_0.2.15         lambda.r_1.1.7      
+## [46] RColorBrewer_1.1-2   tools_3.2.4          survival_2.39-2     
+## [49] yaml_2.1.13          AnnotationDbi_1.32.3 colorspace_1.2-6    
+## [52] cluster_2.0.3
 ```

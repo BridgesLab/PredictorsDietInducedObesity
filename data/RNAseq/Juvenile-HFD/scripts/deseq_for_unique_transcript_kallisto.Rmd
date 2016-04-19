@@ -26,6 +26,7 @@ sample.table$Barcode <- paste(sample.table$Barcode, "counts.txt", sep="-")
 rownames(sample.table) <- as.character(lapply(strsplit(sample.table$Barcode, "-"), "[[",1))
 
 wat_outliers <- c("IonXpress_RNA_036", "IonXpress_RNA_040")
+poss_outliers <- c("IonXpress_RNA_026", "IonXpress_RNA_027", "IonXpress_RNA_042", "IonXpress_RNA_030", "IonXpress_RNA_041", "IonXpress_RNA_040")
 
 annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
 annotation <- read.csv(annotation_file)
@@ -55,9 +56,16 @@ The counts data, derived from kallisto and get_highest_kallisto_count_transcript
 
 ```{r columns_counts, echo=FALSE}
 library(reshape2)
+colMax <- function(data) sapply(data, max, na.rm = TRUE)
 col_counts_wat <- colSums(wat.counts)
+col_max_wat <- colMax(wat.counts)
+col_mean_wat <- colMeans(wat.counts)
 l <- melt(col_counts_wat, value.name="Total_counts", variable.name="Samples")
-kable(l, caption="Total counts for each eWAT samples")
+m <- melt(col_max_wat, value.name="Max_counts", variable.name="Samples")
+mean <- melt(col_mean_wat, value.name="Mean_counts", variable.name="Samples")
+c <- cbind(mean,m,l)
+c$Mark <- ifelse(rownames(c)%in%poss_outliers, "*", "")
+kable(c, caption="Total counts and max count for each eWAT samples")
 
 ```
 
@@ -83,11 +91,11 @@ wat.counts.noOutliers <- wat.counts[, !colnames(wat.counts)%in%wat_outliers]
 library(DESeq2)
 #subsettted the sample tables and counts tables
 sample.table.wat <- subset(sample.table, Tissue=="eWAT")
-sample.table.wat <- sample.table.wat[!rownames(sample.table.wat)%in%wat_outliers,]
+#sample.table.wat <- sample.table.wat[!rownames(sample.table.wat)%in%wat_outliers,]
 sample.table.quad <- subset(sample.table, Tissue=="Quadriceps")
 
 dds.wat.feeding <- DESeqDataSetFromMatrix(colData = sample.table.wat,
-                                       countData = wat.counts.noOutliers,  
+                                       countData = wat.counts,  
                                        design= ~ Feeding+Diet+Feeding:Diet)
 
 dds.wat.feeding <- DESeq(dds.wat.feeding, parallel=T)
@@ -126,9 +134,51 @@ There are `r table(annotated.res.wat.feeding$padj<0.05, annotated.res.wat.feedin
 ```{r wat-overall-model-summary, echo=FALSE}
 kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Diet),],5), caption="Top Hits for Effects of Diet")
 kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj_Feeding),],5), caption="Top Hits for Effects of Feeding")
-kable(head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],20), caption="Top Hits for Interaction between Diet and Feeding")
+top20 <- head( annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],20)
+
+kable(top20, caption="Top Hits for Interaction between Diet and Feeding")
 wat_feeding_results_file <- 'results/DESeq_Combined_Model_WAT_Unique_Kalllisto.csv'
 write.csv(annotated.res.wat.feeding, wat_feeding_results_file)
+```
+
+```{r detect_outliers, echo=FALSE}
+top50 <- head(annotated.res.wat.feeding[order(annotated.res.wat.feeding$padj),],100)
+top50_counts <- wat.counts[rownames(wat.counts)%in%top50$ensembl_transcript_id,]
+top50_counts$Max <- apply(top50_counts,1,max)
+top50_counts$ID <- rownames(top50_counts)
+t<-melt(top50_counts, value.name="Counts", variable.name="Samples", id.vars=c("ID","Max"))
+t_merge <- merge(t, sample.table.wat, by.x="Samples", by.y="row.names")
+t_merge[,c("Samples","ID","SampleID","Feeding", "Diet", "Tissue")] <- lapply(t_merge[,c("Samples","ID","SampleID","Feeding", "Diet", "Tissue")], as.factor)
+t2 <- subset(t_merge, Max<400) 
+t3 <- subset(t_merge, Max>400 & Max<1000)
+t4 <- subset(t_merge, Max>1000 & Max<4000)
+t5 <- subset(t_merge, Max>4000 & Max<10000)
+t6 <- subset(t_merge, Max>10000)
+library(ggplot2)
+ggplot(t2, aes(ID, Counts), fill=Diet) +
+  geom_boxplot(aes(fill=Diet)) + facet_grid(.~Feeding, scale="free", space="free")+
+  geom_text(aes(label=substr(Samples,15,17)),size=3, position = position_jitter(w = 0.4))+ ggtitle("Less than 400 counts") +
+  coord_flip()
+                  
+ggplot(t3, aes(ID, Counts), fill=Diet) +
+  geom_boxplot(aes(fill=Diet)) + facet_grid(~Feeding, scale="free", space="free")+ 
+  geom_text(aes(label=substr(Samples,15,17)),size=3, angle=-90, position = position_jitter(w = 0.4))+ ggtitle("400 < counts <1000") +
+  coord_flip()
+
+ggplot(t4, aes(ID, Counts), fill=Diet) +
+  geom_boxplot(aes(fill=Diet)) + facet_grid(~Feeding, scale="free", space="free")+ 
+  geom_text(aes(label=substr(Samples,15,17)),size=3, angle=-90, position = position_jitter(w = 0.4))+ ggtitle("1000 < counts <4000") +
+  coord_flip()
+
+ggplot(t5, aes(ID, Counts), fill=Diet) +
+  geom_boxplot(aes(fill=Diet)) + facet_grid(~Feeding, scale="free", space="free")+ 
+  geom_text(aes(label=substr(Samples,15,17)),size=3, angle=-90, position = position_jitter(w = 0.4))+ ggtitle("4000 < counts <10000") +
+  coord_flip()
+
+ggplot(t6, aes(ID, Counts), fill=Diet) +
+  geom_boxplot(aes(fill=Diet)) + facet_grid(~Feeding, scale="free", space="free")+ 
+  geom_text(aes(label=substr(Samples,15,17)),size=3, angle=-90, position = position_jitter(w = 0.4))+ ggtitle("counts > 10,000") +
+  coord_flip()
 ```
 
 ```{r deseq-MA-plot-interaction-WAT, fig.cap="MA Plot for Interaction results in WAT"}
