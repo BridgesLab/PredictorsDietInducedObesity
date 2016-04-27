@@ -219,6 +219,49 @@ ha_column = HeatmapAnnotation(df = data.frame(Feeding=c(rep("Fasted", 11), rep("
 
 Heatmap(vsd_data[selected_rows, rownames(sample.wat.reorder)], column_title="Significant Genes WAT", top_annotation = ha_column, show_row_names=FALSE, cluster_columns=FALSE)
 
+top_genes1 <- head(wat.counts[order(wat.counts$IonXpress_RNA_026, decreasing=TRUE),])
+top_genes2 <- head(wat.counts[order(wat.counts$IonXpress_RNA_027, decreasing=TRUE),])
+top_genes3 <- head(wat.counts[order(wat.counts$IonXpress_RNA_028, decreasing=TRUE),])
+top_genes4 <- head(wat.counts[order(wat.counts$IonXpress_RNA_029, decreasing=TRUE),])
+top_genes5 <- head(wat.counts[order(wat.counts$IonXpress_RNA_030, decreasing=TRUE),])
+top_genes6 <- head(wat.counts[order(wat.counts$IonXpress_RNA_031, decreasing=TRUE),])
+top_genes7 <- head(wat.counts[order(wat.counts$IonXpress_RNA_032, decreasing=TRUE),])
+top_genes8 <- head(wat.counts[order(wat.counts$IonXpress_RNA_033, decreasing=TRUE),])
+top_genes9 <- head(wat.counts[order(wat.counts$IonXpress_RNA_034, decreasing=TRUE),])
+top_genes10 <- head(wat.counts[order(wat.counts$IonXpress_RNA_035, decreasing=TRUE),])
+top_genes11 <- head(wat.counts[order(wat.counts$IonXpress_RNA_036, decreasing=TRUE),])
+top_genes12 <- head(wat.counts[order(wat.counts$IonXpress_RNA_037, decreasing=TRUE),])
+top_genes13 <- head(wat.counts[order(wat.counts$IonXpress_RNA_038, decreasing=TRUE),])
+top_genes14 <- head(wat.counts[order(wat.counts$IonXpress_RNA_039, decreasing=TRUE),])
+top_genes15 <- head(wat.counts[order(wat.counts$IonXpress_RNA_040, decreasing=TRUE),])
+top_genes16 <- head(wat.counts[order(wat.counts$IonXpress_RNA_041, decreasing=TRUE),])
+top_genes17 <- head(wat.counts[order(wat.counts$IonXpress_RNA_042, decreasing=TRUE),])
+top_genes18 <- head(wat.counts[order(wat.counts$IonXpress_RNA_043, decreasing=TRUE),])
+top_genes19 <- head(wat.counts[order(wat.counts$IonXpress_RNA_044, decreasing=TRUE),])
+
+top_exp <- top_genes1
+rownames(top_exp) <- c(1,2,3,4,5,6)
+top_exp$IonXpress_RNA_026 <- sort(rownames(top_genes1))
+top_exp$IonXpress_RNA_027 <- sort(rownames(top_genes2))
+top_exp$IonXpress_RNA_028 <- sort(rownames(top_genes3))
+top_exp$IonXpress_RNA_029 <- sort(rownames(top_genes4))
+top_exp$IonXpress_RNA_030 <- sort(rownames(top_genes5))
+top_exp$IonXpress_RNA_031 <- sort(rownames(top_genes6))
+top_exp$IonXpress_RNA_032 <- sort(rownames(top_genes7))
+top_exp$IonXpress_RNA_033 <- sort(rownames(top_genes8))
+top_exp$IonXpress_RNA_034 <- sort(rownames(top_genes9))
+top_exp$IonXpress_RNA_035 <- rownames(top_genes10)
+top_exp$IonXpress_RNA_036 <- rownames(top_genes11)
+top_exp$IonXpress_RNA_037 <- rownames(top_genes12)
+top_exp$IonXpress_RNA_038 <- rownames(top_genes13)
+top_exp$IonXpress_RNA_039 <- rownames(top_genes14)
+top_exp$IonXpress_RNA_040 <- rownames(top_genes15)
+top_exp$IonXpress_RNA_041 <- rownames(top_genes16)
+top_exp$IonXpress_RNA_042 <- rownames(top_genes17)
+top_exp$IonXpress_RNA_043 <- rownames(top_genes18)
+top_exp$IonXpress_RNA_044 <- rownames(top_genes19)
+
+
 ```
 
 
