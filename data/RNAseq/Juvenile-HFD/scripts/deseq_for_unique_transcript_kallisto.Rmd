@@ -74,9 +74,6 @@ library(stargazer)
 stargazer(wat.counts, type="text", title="WAT Descriptive statistics", digits=1,  out="results/WAT_Descriptive_stats.txt")
 stargazer(quad.counts, type="text", title="QUAD Descriptive statistics", digits=1, out="results/QUAD_Descriptive_Stats.txt")
 
-kable(t(colSums(wat.counts)), caption="Sum counts of WAT")
-kable(t(colSums(quad.counts)), caption="Sum counts of QUAD")
-
 ```
 ##Adipose Tissue
 
@@ -185,6 +182,7 @@ ggplot(t6, aes(ID, Counts), fill=Diet) +
 plotMA(res.wat.feeding, main="DESeq2-WAT", ylim=c(-4,4))
 ```
 
+  The 6 samples that look like outliers in the PCA: 026, 027, 030, 040, 041, and 042
 ```{r deseq-PCA-plot-WAT, echo=FALSE}
 library(ggplot2)
 dds <- estimateSizeFactors(dds.wat.feeding)
@@ -260,8 +258,30 @@ top_exp$IonXpress_RNA_041 <- rownames(top_genes16)
 top_exp$IonXpress_RNA_042 <- rownames(top_genes17)
 top_exp$IonXpress_RNA_043 <- rownames(top_genes18)
 top_exp$IonXpress_RNA_044 <- rownames(top_genes19)
+top_exp_long <- reshape(top_exp, varying = colnames(top_exp), v.names = "Genes", timevar = "Sample", 
+             times = colnames(top_exp), new.row.names = 1:114, direction = "long")
 
-
+colClasses = c("character", "character")
+col.names = c("Gene", "Samples")
+table_g <- read.table(text = "",
+                 colClasses = colClasses,
+                 col.names = col.names)
+j=0
+for (g in unique(top_exp_long$Genes)){
+  sample=""
+  j = j+1
+  for (i in 1:nrow(top_exp_long)){
+    if (g == top_exp_long$Genes[i]){
+      sample <- paste(top_exp_long$Sample[i], sample, sep=", ")
+    }
+    if (i == nrow(top_exp_long)){
+        newrow <- data.frame(Gene=g, Samples=sample)
+        table_g <- rbind(table_g, newrow)
+      }
+  }
+}
+kable(table_g, caption="Top_expressed_genes")
+write.csv(table_g, file="top_expressed_genes.csv")
 ```
 
 

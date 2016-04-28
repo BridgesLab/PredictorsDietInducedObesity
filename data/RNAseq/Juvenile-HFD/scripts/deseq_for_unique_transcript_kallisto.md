@@ -5,7 +5,7 @@ August 2, 2015
 
 
 
-This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Tue Apr 19 06:17:09 2016.  This uses the input data from the kallisto runs.
+This script performs the DESeq analyses on the Juvenile HFD studies.  This script was most recently run on Thu Apr 28 13:12:15 2016.  This uses the input data from the kallisto runs.
 
 
 
@@ -93,22 +93,6 @@ IonXpress_RNA_044            860       374466       17660396
 ## IonXpress_RNA_58  18,464  993.0  16,394.0  0  1,198,470
 ## -------------------------------------------------------
 ```
-
-
-
-Table: Sum counts of WAT
-
- IonXpress_RNA_026   IonXpress_RNA_027   IonXpress_RNA_028   IonXpress_RNA_029   IonXpress_RNA_030   IonXpress_RNA_031   IonXpress_RNA_032   IonXpress_RNA_033   IonXpress_RNA_034   IonXpress_RNA_035   IonXpress_RNA_036   IonXpress_RNA_037   IonXpress_RNA_038   IonXpress_RNA_039   IonXpress_RNA_040   IonXpress_RNA_041   IonXpress_RNA_042   IonXpress_RNA_043   IonXpress_RNA_044
-------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------
-          23340422            18471646            17049308            21161430            20944002            19131039            18414141            17915008            19363799            18712520            16537715            17952538            15857919            16754140            17884106            17132159            19257253            17405180            17660396
-
-
-
-Table: Sum counts of QUAD
-
- IonXpress_RNA_045   IonXpress_RNA_046   IonXpress_RNA_059   IonXpress_RNA_060   IonXpress_RNA_061   IonXpress_RNA_062   IonXpress_RNA_063   IonXpress_RNA_064   IonXpress_RNA_47   IonXpress_RNA_48   IonXpress_RNA_49   IonXpress_RNA_50   IonXpress_RNA_51   IonXpress_RNA_52   IonXpress_RNA_53   IonXpress_RNA_54   IonXpress_RNA_55   IonXpress_RNA_56   IonXpress_RNA_57   IonXpress_RNA_58
-------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  ------------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------  -----------------
-          18715553            18318996            16448226            18655011            18665685            17705407            19423465            21659001           17586655           18473806           17322340           20240449           17309832           15667925           18272653           16305065           24925414           19074794           18520194           18330614
 ##Adipose Tissue
 
 The adipose tissue samples are all eWAT samples
@@ -180,7 +164,34 @@ Table: Top Hits for Interaction between Diet and Feeding
 <p class="caption">MA Plot for Interaction results in WAT</p>
 </div>
 
+  The 6 samples that look like outliers in the PCA: 026, 027, 030, 040, 041, and 042
 ![](figures/deseq-PCA-plot-WAT-1.png)![](figures/deseq-PCA-plot-WAT-2.png)![](figures/deseq-PCA-plot-WAT-3.png)![](figures/deseq-PCA-plot-WAT-4.png)
+
+Table: Top_expressed_genes
+
+Gene                 Samples                                                                                                                                                                                                                                                                                                                                                                  
+-------------------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ENSMUST00000029076   IonXpress_RNA_042, IonXpress_RNA_041, IonXpress_RNA_032, IonXpress_RNA_030, IonXpress_RNA_027, IonXpress_RNA_026,                                                                                                                                                                                                                                                        
+ENSMUST00000031314   IonXpress_RNA_040, IonXpress_RNA_026,                                                                                                                                                                                                                                                                                                                                    
+ENSMUST00000061653   IonXpress_RNA_042, IonXpress_RNA_041, IonXpress_RNA_032, IonXpress_RNA_030, IonXpress_RNA_027, IonXpress_RNA_026,                                                                                                                                                                                                                                                        
+ENSMUST00000082402   IonXpress_RNA_044, IonXpress_RNA_043, IonXpress_RNA_042, IonXpress_RNA_041, IonXpress_RNA_040, IonXpress_RNA_039, IonXpress_RNA_038, IonXpress_RNA_037, IonXpress_RNA_036, IonXpress_RNA_035, IonXpress_RNA_034, IonXpress_RNA_033, IonXpress_RNA_032, IonXpress_RNA_031, IonXpress_RNA_030, IonXpress_RNA_029, IonXpress_RNA_028, IonXpress_RNA_027, IonXpress_RNA_026, 
+ENSMUST00000082405   IonXpress_RNA_026,                                                                                                                                                                                                                                                                                                                                                       
+ENSMUST00000082408   IonXpress_RNA_040, IonXpress_RNA_026,                                                                                                                                                                                                                                                                                                                                    
+ENSMUST00000028239   IonXpress_RNA_042, IonXpress_RNA_041, IonXpress_RNA_030, IonXpress_RNA_027,                                                                                                                                                                                                                                                                                              
+ENSMUST00000038863   IonXpress_RNA_044, IonXpress_RNA_043, IonXpress_RNA_042, IonXpress_RNA_041, IonXpress_RNA_039, IonXpress_RNA_038, IonXpress_RNA_037, IonXpress_RNA_036, IonXpress_RNA_035, IonXpress_RNA_034, IonXpress_RNA_033, IonXpress_RNA_032, IonXpress_RNA_031, IonXpress_RNA_029, IonXpress_RNA_028, IonXpress_RNA_027,                                                          
+ENSMUST00000041331   IonXpress_RNA_042, IonXpress_RNA_041, IonXpress_RNA_030, IonXpress_RNA_027,                                                                                                                                                                                                                                                                                              
+ENSMUST00000004456   IonXpress_RNA_044, IonXpress_RNA_043, IonXpress_RNA_038, IonXpress_RNA_037, IonXpress_RNA_036, IonXpress_RNA_035, IonXpress_RNA_034, IonXpress_RNA_033, IonXpress_RNA_032, IonXpress_RNA_031, IonXpress_RNA_029, IonXpress_RNA_028,                                                                                                                                      
+ENSMUST00000022616   IonXpress_RNA_044, IonXpress_RNA_043, IonXpress_RNA_039, IonXpress_RNA_038, IonXpress_RNA_037, IonXpress_RNA_036, IonXpress_RNA_035, IonXpress_RNA_034, IonXpress_RNA_033, IonXpress_RNA_031, IonXpress_RNA_029, IonXpress_RNA_028,                                                                                                                                      
+ENSMUST00000022704   IonXpress_RNA_043, IonXpress_RNA_039, IonXpress_RNA_038, IonXpress_RNA_037, IonXpress_RNA_034, IonXpress_RNA_033, IonXpress_RNA_029, IonXpress_RNA_028,                                                                                                                                                                                                                  
+ENSMUST00000042235   IonXpress_RNA_036, IonXpress_RNA_028,                                                                                                                                                                                                                                                                                                                                    
+ENSMUST00000022640   IonXpress_RNA_044, IonXpress_RNA_043, IonXpress_RNA_035, IonXpress_RNA_034, IonXpress_RNA_033, IonXpress_RNA_031, IonXpress_RNA_029,                                                                                                                                                                                                                                     
+ENSMUST00000029041   IonXpress_RNA_030,                                                                                                                                                                                                                                                                                                                                                       
+ENSMUST00000006523   IonXpress_RNA_044, IonXpress_RNA_038, IonXpress_RNA_037, IonXpress_RNA_036, IonXpress_RNA_035, IonXpress_RNA_032, IonXpress_RNA_031,                                                                                                                                                                                                                                     
+ENSMUST00000028306   IonXpress_RNA_039,                                                                                                                                                                                                                                                                                                                                                       
+ENSMUST00000064214   IonXpress_RNA_039,                                                                                                                                                                                                                                                                                                                                                       
+ENSMUST00000034588   IonXpress_RNA_040,                                                                                                                                                                                                                                                                                                                                                       
+ENSMUST00000174355   IonXpress_RNA_040,                                                                                                                                                                                                                                                                                                                                                       
+ENSMUST00000079697   IonXpress_RNA_040,                                                                                                                                                                                                                                                                                                                                                       
 
 
 # Muscle Tissue
@@ -238,7 +249,7 @@ Table: Top Hits for Effects of Feeding
 
 
 ```
-## R version 3.2.4 (2016-03-10)
+## R version 3.2.2 (2015-08-14)
 ## Platform: x86_64-apple-darwin13.4.0 (64-bit)
 ## Running under: OS X 10.10.5 (Yosemite)
 ## 
@@ -264,19 +275,18 @@ Table: Top Hits for Effects of Feeding
 ##  [1] locfit_1.5-9.1       lattice_0.20-33      digest_0.6.9        
 ##  [4] plyr_1.8.3           futile.options_1.0.0 acepack_1.3-3.3     
 ##  [7] RSQLite_1.0.0        evaluate_0.8.3       highr_0.5.1         
-## [10] GlobalOptions_0.0.10 zlibbioc_1.16.0      annotate_1.48.0     
+## [10] GlobalOptions_0.0.9  zlibbioc_1.16.0      annotate_1.48.0     
 ## [13] whisker_0.3-2        GetoptLong_0.1.2     rpart_4.1-10        
-## [16] Matrix_1.2-5         rmarkdown_0.9.5      labeling_0.3        
-## [19] splines_3.2.4        BiocParallel_1.4.3   geneplotter_1.48.0  
-## [22] stringr_1.0.0        foreign_0.8-66       munsell_0.4.3       
-## [25] shape_1.4.2          htmltools_0.3.5      nnet_7.3-12         
-## [28] gridExtra_2.2.1      Hmisc_3.17-3         dendextend_1.1.8    
-## [31] XML_3.98-1.4         xtable_1.8-2         gtable_0.2.0        
-## [34] DBI_0.3.1            magrittr_1.5         formatR_1.3         
-## [37] scales_0.4.0         stringi_1.0-1        XVector_0.10.0      
-## [40] genefilter_1.52.1    latticeExtra_0.6-28  futile.logger_1.4.1 
-## [43] Formula_1.2-1        rjson_0.2.15         lambda.r_1.1.7      
-## [46] RColorBrewer_1.1-2   tools_3.2.4          survival_2.39-2     
-## [49] yaml_2.1.13          AnnotationDbi_1.32.3 colorspace_1.2-6    
-## [52] cluster_2.0.3
+## [16] rmarkdown_0.9.5      labeling_0.3         splines_3.2.2       
+## [19] BiocParallel_1.4.3   geneplotter_1.48.0   stringr_1.0.0       
+## [22] foreign_0.8-66       munsell_0.4.3        shape_1.4.2         
+## [25] htmltools_0.3.5      nnet_7.3-12          gridExtra_2.2.1     
+## [28] Hmisc_3.17-3         dendextend_1.1.8     XML_3.98-1.4        
+## [31] xtable_1.8-2         gtable_0.2.0         DBI_0.3.1           
+## [34] magrittr_1.5         formatR_1.3          scales_0.4.0        
+## [37] stringi_1.0-1        XVector_0.10.0       genefilter_1.52.1   
+## [40] latticeExtra_0.6-28  futile.logger_1.4.1  Formula_1.2-1       
+## [43] rjson_0.2.15         lambda.r_1.1.7       RColorBrewer_1.1-2  
+## [46] tools_3.2.2          survival_2.38-3      yaml_2.1.13         
+## [49] AnnotationDbi_1.32.3 colorspace_1.2-6     cluster_2.0.3
 ```
