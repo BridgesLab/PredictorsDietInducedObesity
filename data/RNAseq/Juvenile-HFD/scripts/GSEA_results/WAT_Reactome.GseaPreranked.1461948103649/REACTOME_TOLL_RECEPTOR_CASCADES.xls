@@ -1,0 +1,103 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TLR4	TLR4	toll-like receptor 4	350	4.672327041625977	0.017764818	Yes	
+row_1	BTK	BTK	Bruton agammaglobulinemia tyrosine kinase	605	3.8090028762817383	0.034688454	Yes	
+row_2	CD14	CD14	CD14 molecule	659	3.6335301399230957	0.06558339	Yes	
+row_3	TLR7	TLR7	toll-like receptor 7	855	3.1875457763671875	0.0811141	Yes	
+row_4	MEF2C	MEF2C	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	898	3.056178569793701	0.1073009	Yes	
+row_5	CTSK	CTSK	cathepsin K (pycnodysostosis)	1040	2.7906928062438965	0.123214096	Yes	
+row_6	TLR8	TLR8	toll-like receptor 8	1081	2.715723991394043	0.14627498	Yes	
+row_7	LY86	LY86	lymphocyte antigen 86	1302	2.359565258026123	0.15187639	Yes	
+row_8	UNC93B1	UNC93B1	unc-93 homolog B1 (C. elegans)	1324	2.3192036151885986	0.17259562	Yes	
+row_9	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1373	2.2552542686462402	0.19059448	Yes	
+row_10	DUSP3	DUSP3	dual specificity phosphatase 3 (vaccinia virus phosphatase VH1-related)	1406	2.1968047618865967	0.2092767	Yes	
+row_11	TLR1	TLR1	toll-like receptor 1	1471	2.086601495742798	0.22440307	Yes	
+row_12	CTSB	CTSB	cathepsin B	1475	2.0793066024780273	0.2442125	Yes	
+row_13	PPP2R1B	PPP2R1B	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform	1540	2.007734537124634	0.25857863	Yes	
+row_14	IRAK2	IRAK2	interleukin-1 receptor-associated kinase 2	1564	1.979629635810852	0.27586874	Yes	
+row_15	MAPKAPK3	MAPKAPK3	mitogen-activated protein kinase-activated protein kinase 3	1570	1.9720895290374756	0.2944888	Yes	
+row_16	TLR2	TLR2	toll-like receptor 2	1738	1.7883684635162354	0.29871422	Yes	
+row_17	RPS6KA3	RPS6KA3	ribosomal protein S6 kinase, 90kDa, polypeptide 3	1767	1.7471964359283447	0.3133742	Yes	
+row_18	CD180	CD180	CD180 molecule	1921	1.5791462659835815	0.31667376	Yes	
+row_19	RIPK2	RIPK2	receptor-interacting serine-threonine kinase 2	1952	1.5423097610473633	0.32920292	Yes	
+row_20	PELI3	PELI3	pellino homolog 3 (Drosophila)	1987	1.4977484941482544	0.34099084	Yes	
+row_21	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.34902287	Yes	
+row_22	TICAM2	TICAM2	toll-like receptor adaptor molecule 2	2085	1.4206750392913818	0.36100295	Yes	
+row_23	ELK1	ELK1	ELK1, member of ETS oncogene family	2211	1.301913857460022	0.36381206	Yes	
+row_24	TLR9	TLR9	toll-like receptor 9	2281	1.2357103824615479	0.37034675	Yes	
+row_25	IRAK3	IRAK3	interleukin-1 receptor-associated kinase 3	2285	1.233887791633606	0.38200685	Yes	
+row_26	CTSS	CTSS	cathepsin S	2302	1.2235043048858643	0.3925539	Yes	
+row_27	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.40287015	Yes	
+row_28	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.40886983	Yes	
+row_29	DNM1	DNM1	dynamin 1	2524	1.0290634632110596	0.40819168	Yes	
+row_30	PPP2R5D	PPP2R5D	protein phosphatase 2, regulatory subunit B (B56), delta isoform	2702	0.9043288826942444	0.40311626	Yes	
+row_31	SAA1	SAA1	serum amyloid A1	2720	0.894721269607544	0.4104161	Yes	
+row_32	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	2770	0.860894501209259	0.41489628	Yes	
+row_33	TLR3	TLR3	toll-like receptor 3	2779	0.8558698296546936	0.42252293	Yes	
+row_34	HMGB1	HMGB1	high-mobility group box 1	2992	0.7338926196098328	0.4130773	No	
+row_35	DUSP4	DUSP4	dual specificity phosphatase 4	3020	0.7182353734970093	0.41789666	No	
+row_36	TLR6	TLR6	toll-like receptor 6	3116	0.6721018552780151	0.41697252	No	
+row_37	RPS6KA5	RPS6KA5	ribosomal protein S6 kinase, 90kDa, polypeptide 5	3376	0.5431713461875916	0.402026	No	
+row_38	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.39887628	No	
+row_39	MAPKAPK2	MAPKAPK2	mitogen-activated protein kinase-activated protein kinase 2	3509	0.48497509956359863	0.40129134	No	
+row_40	NFKB2	NFKB2	nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100)	3630	0.4381757378578186	0.39616418	No	
+row_41	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	0.39873976	No	
+row_42	MAPK7	MAPK7	mitogen-activated protein kinase 7	3748	0.384484201669693	0.39496523	No	
+row_43	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.39527497	No	
+row_44	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	3845	0.3569004237651825	0.39458528	No	
+row_45	TIRAP	TIRAP	toll-interleukin 1 receptor (TIR) domain containing adaptor protein	3910	0.33216267824172974	0.39279997	No	
+row_46	TRAF6	TRAF6	TNF receptor-associated factor 6	3975	0.3088788688182831	0.39079022	No	
+row_47	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.38349983	No	
+row_48	MAPK14	MAPK14	mitogen-activated protein kinase 14	4260	0.21614307165145874	0.37342715	No	
+row_49	LBP	LBP	lipopolysaccharide binding protein	4538	0.1337529420852661	0.35313147	No	
+row_50	IKBKE	IKBKE	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase epsilon	4551	0.12833958864212036	0.3534335	No	
+row_51	DNM2	DNM2	dynamin 2	4650	0.10531022399663925	0.34681204	No	
+row_52	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.34397605	No	
+row_53	AGER	AGER	advanced glycosylation end product-specific receptor	4829	0.05721119046211243	0.3344753	No	
+row_54	EEA1	EEA1	early endosome antigen 1, 162kD	4928	0.03472507745027542	0.32717347	No	
+row_55	DUSP6	DUSP6	dual specificity phosphatase 6	5134	-0.01980936899781227	0.31138998	No	
+row_56	MAP2K3	MAP2K3	mitogen-activated protein kinase kinase 3	5248	-0.047210559248924255	0.30303964	No	
+row_57	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.29680756	No	
+row_58	TBK1	TBK1	TANK-binding kinase 1	5346	-0.06748054176568985	0.29683462	No	
+row_59	DUSP7	DUSP7	dual specificity phosphatase 7	5645	-0.1370440423488617	0.27493426	No	
+row_60	IRAK4	IRAK4	interleukin-1 receptor-associated kinase 4	5701	-0.1485220044851303	0.2720801	No	
+row_61	PIK3C3	PIK3C3	phosphoinositide-3-kinase, class 3	5880	-0.1871822476387024	0.2600139	No	
+row_62	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	5888	-0.18900857865810394	0.26129037	No	
+row_63	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	5926	-0.19703328609466553	0.26030645	No	
+row_64	PIK3R4	PIK3R4	phosphoinositide-3-kinase, regulatory subunit 4, p150	6073	-0.22649484872817993	0.2511128	No	
+row_65	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	0.25329652	No	
+row_66	IRF3	IRF3	interferon regulatory factor 3	6295	-0.2729640007019043	0.23878443	No	
+row_67	ATF2	ATF2	activating transcription factor 2	6400	-0.29928991198539734	0.23356529	No	
+row_68	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.23150983	No	
+row_69	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.22638011	No	
+row_70	TRAF3	TRAF3	TNF receptor-associated factor 3	6580	-0.3421044945716858	0.22936608	No	
+row_71	MAP2K7	MAP2K7	mitogen-activated protein kinase kinase 7	6668	-0.3615269958972931	0.22607157	No	
+row_72	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	7082	-0.4550958275794983	0.19827574	No	
+row_73	PELI2	PELI2	pellino homolog 2 (Drosophila)	7186	-0.481807678937912	0.19489388	No	
+row_74	S100B	S100B	S100 calcium binding protein B	7312	-0.5137258768081665	0.19010536	No	
+row_75	PPP2CB	PPP2CB	protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform	7413	-0.5356752872467041	0.18747652	No	
+row_76	TLR5	TLR5	toll-like receptor 5	7418	-0.5365536212921143	0.19233686	No	
+row_77	LGMN	LGMN	legumain	7426	-0.5379965305328369	0.19697733	No	
+row_78	RPS27A	RPS27A	ribosomal protein S27a	7602	-0.5871198773384094	0.18900007	No	
+row_79	IRF7	IRF7	interferon regulatory factor 7	7630	-0.5948766469955444	0.19263035	No	
+row_80	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	7748	-0.6243744492530823	0.1895318	No	
+row_81	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.19228564	No	
+row_82	ECSIT	ECSIT	ECSIT homolog (Drosophila)	7856	-0.6482243537902832	0.1936249	No	
+row_83	ATF1	ATF1	activating transcription factor 1	7919	-0.6656676530838013	0.1952102	No	
+row_84	UBA52	UBA52	ubiquitin A-52 residue ribosomal protein fusion product 1	8100	-0.7101795673370361	0.18802954	No	
+row_85	TICAM1	TICAM1	toll-like receptor adaptor molecule 1	8142	-0.7256242036819458	0.19182922	No	
+row_86	PELI1	PELI1	pellino homolog 1 (Drosophila)	8196	-0.7422642111778259	0.19485418	No	
+row_87	MAPK11	MAPK11	mitogen-activated protein kinase 11	8377	-0.8003036975860596	0.18854228	No	
+row_88	MEF2A	MEF2A	MADS box transcription enhancer factor 2, polypeptide A (myocyte enhancer factor 2A)	8419	-0.8119949102401733	0.1931745	No	
+row_89	MYD88	MYD88	myeloid differentiation primary response gene (88)	8557	-0.8557984232902527	0.19074824	No	
+row_90	MAPK9	MAPK9	mitogen-activated protein kinase 9	8706	-0.9113094210624695	0.18799992	No	
+row_91	UBE2N	UBE2N	ubiquitin-conjugating enzyme E2N (UBC13 homolog, yeast)	8824	-0.9547851085662842	0.18808632	No	
+row_92	SIGIRR	SIGIRR	single immunoglobulin and toll-interleukin 1 receptor (TIR) domain	8864	-0.9699026346206665	0.19439653	No	
+row_93	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	9006	-1.0296059846878052	0.19333397	No	
+row_94	MAP2K6	MAP2K6	mitogen-activated protein kinase kinase 6	9227	-1.1136590242385864	0.18692563	No	
+row_95	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.19056518	No	
+row_96	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	9420	-1.1979033946990967	0.19470942	No	
+row_97	RPS6KA2	RPS6KA2	ribosomal protein S6 kinase, 90kDa, polypeptide 2	9485	-1.2267284393310547	0.20154715	No	
+row_98	NFKBIB	NFKBIB	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, beta	9647	-1.3089299201965332	0.20161863	No	
+row_99	HSP90B1	HSP90B1	heat shock protein 90kDa beta (Grp94), member 1	9734	-1.3509374856948853	0.20793933	No	
+row_100	LY96	LY96	lymphocyte antigen 96	10155	-1.5727384090423584	0.1903714	No	
+row_101	MAPK10	MAPK10	mitogen-activated protein kinase 10	11245	-2.707796096801758	0.13161348	No	

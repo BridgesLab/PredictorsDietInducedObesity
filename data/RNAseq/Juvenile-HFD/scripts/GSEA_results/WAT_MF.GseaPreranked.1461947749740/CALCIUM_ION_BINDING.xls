@@ -1,0 +1,89 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	S100A8	S100A8	S100 calcium binding protein A8	5	11.405043601989746	0.051925145	Yes	
+row_1	S100A9	S100A9	S100 calcium binding protein A9	30	8.175704956054688	0.08755854	Yes	
+row_2	ATP2A1	ATP2A1	ATPase, Ca++ transporting, cardiac muscle, fast twitch 1	38	7.736367702484131	0.12249998	Yes	
+row_3	CABP4	CABP4	calcium binding protein 4	97	6.4839324951171875	0.14772676	Yes	
+row_4	DMP1	DMP1	dentin matrix acidic phosphoprotein	132	6.015102386474609	0.1726712	Yes	
+row_5	GSN	GSN	gelsolin (amyloidosis, Finnish type)	234	5.3113298416137695	0.18917224	Yes	
+row_6	THBD	THBD	thrombomodulin	379	4.545618057250977	0.1988139	Yes	
+row_7	CABP2	CABP2	calcium binding protein 2	396	4.499311447143555	0.21820658	Yes	
+row_8	S100A4	S100A4	S100 calcium binding protein A4	482	4.1647162437438965	0.2306936	Yes	
+row_9	SPARC	SPARC	secreted protein, acidic, cysteine-rich (osteonectin)	499	4.117643356323242	0.24833557	Yes	
+row_10	PITPNM3	PITPNM3	PITPNM family member 3	526	4.0392560958862305	0.26483962	Yes	
+row_11	FBLN2	FBLN2	fibulin 2	550	3.962090253829956	0.2812232	Yes	
+row_12	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.2969493	Yes	
+row_13	MCTP1	MCTP1	multiple C2 domains, transmembrane 1	599	3.8274691104888916	0.3129489	Yes	
+row_14	S100A13	S100A13	S100 calcium binding protein A13	606	3.8077523708343506	0.32994783	Yes	
+row_15	FBN1	FBN1	fibrillin 1	666	3.625312089920044	0.34198445	Yes	
+row_16	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	805	3.2951436042785645	0.3463573	Yes	
+row_17	HRC	HRC	histidine rich calcium binding protein	1116	2.6584198474884033	0.3344212	Yes	
+row_18	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	1120	2.6500442028045654	0.34634328	Yes	
+row_19	ASPH	ASPH	aspartate beta-hydroxylase	1171	2.5476746559143066	0.35413736	Yes	
+row_20	PLEK	PLEK	pleckstrin	1238	2.450705051422119	0.36024123	Yes	
+row_21	DSPP	DSPP	dentin sialophosphoprotein	1369	2.256638526916504	0.36047322	Yes	
+row_22	BNIP2	BNIP2	BCL2/adenovirus E1B 19kDa interacting protein 2	1546	2.0001015663146973	0.35594788	Yes	
+row_23	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	1590	1.9462100267410278	0.36152798	Yes	
+row_24	PKD2	PKD2	polycystic kidney disease 2 (autosomal dominant)	1806	1.7044423818588257	0.35261074	Yes	
+row_25	RASGRP1	RASGRP1	RAS guanyl releasing protein 1 (calcium and DAG-regulated)	1884	1.6240766048431396	0.35406667	Yes	
+row_26	S100A1	S100A1	S100 calcium binding protein A1	1909	1.594808578491211	0.35951382	Yes	
+row_27	CDK5R1	CDK5R1	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	1941	1.5580180883407593	0.36424735	Yes	
+row_28	LTBP4	LTBP4	latent transforming growth factor beta binding protein 4	1948	1.5456736087799072	0.37087026	Yes	
+row_29	CAPN9	CAPN9	calpain 9	1949	1.5456278324127197	0.37795997	Yes	
+row_30	CABP5	CABP5	calcium binding protein 5	2005	1.47909414768219	0.38046333	Yes	
+row_31	ANXA1	ANXA1	annexin A1	2120	1.3814241886138916	0.3779262	Yes	
+row_32	DUOX2	DUOX2	dual oxidase 2	2229	1.2832696437835693	0.37540585	Yes	
+row_33	FLG	FLG	filaggrin	2261	1.2596865892410278	0.37877095	Yes	
+row_34	STIM1	STIM1	stromal interaction molecule 1	2305	1.2211295366287231	0.38102514	Yes	
+row_35	FKBP9	FKBP9	FK506 binding protein 9, 63 kDa	2357	1.181078553199768	0.38247287	Yes	
+row_36	CABP1	CABP1	calcium binding protein 1 (calbrain)	2914	0.7813153862953186	0.34277815	No	
+row_37	THBS3	THBS3	thrombospondin 3	2967	0.749724268913269	0.34216946	No	
+row_38	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	3167	0.6400119066238403	0.32961515	No	
+row_39	CAMKK2	CAMKK2	calcium/calmodulin-dependent protein kinase kinase 2, beta	3310	0.5713959336280823	0.32118297	No	
+row_40	CALU	CALU	calumenin	3502	0.4894927740097046	0.30856094	No	
+row_41	LRPAP1	LRPAP1	low density lipoprotein receptor-related protein associated protein 1	3643	0.43133679032325745	0.299642	No	
+row_42	PEF1	PEF1	penta-EF-hand domain containing 1	5619	-0.13124459981918335	0.1465116	No	
+row_43	LETM1	LETM1	leucine zipper-EF-hand containing transmembrane protein 1	5903	-0.1922636181116104	0.12536502	No	
+row_44	HPCAL1	HPCAL1	hippocalcin-like 1	6094	-0.23226574063301086	0.11164097	No	
+row_45	MAN1B1	MAN1B1	mannosidase, alpha, class 1B, member 1	6332	-0.283093124628067	0.094491616	No	
+row_46	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.08649118	No	
+row_47	TPT1	TPT1	tumor protein, translationally-controlled 1	7543	-0.5710644125938416	0.004421592	No	
+row_48	GCA	GCA	grancalcin, EF-hand calcium binding protein	7896	-0.6598607301712036	-0.019951053	No	
+row_49	SPOCK2	SPOCK2	sparc/osteonectin, cwcv and kazal-like domains proteoglycan (testican) 2	8287	-0.7700561881065369	-0.046776127	No	
+row_50	PDCD6	PDCD6	programmed cell death 6	8518	-0.8444196581840515	-0.06080583	No	
+row_51	RCN2	RCN2	reticulocalbin 2, EF-hand calcium binding domain	8684	-0.9015325903892517	-0.069514014	No	
+row_52	SLC25A12	SLC25A12	solute carrier family 25 (mitochondrial carrier, Aralar), member 12	8843	-0.9626955389976501	-0.07739677	No	
+row_53	SCUBE1	SCUBE1	signal peptide, CUB domain, EGF-like 1	9127	-1.076735496520996	-0.094486326	No	
+row_54	RCN1	RCN1	reticulocalbin 1, EF-hand calcium binding domain	9131	-1.077897310256958	-0.089775585	No	
+row_55	PCLO	PCLO	piccolo (presynaptic cytomatrix protein)	9261	-1.1273548603057861	-0.09464572	No	
+row_56	CANX	CANX	calnexin	9280	-1.134771704673767	-0.090841696	No	
+row_57	ADAMTS13	ADAMTS13	ADAM metallopeptidase with thrombospondin type 1 motif, 13	9614	-1.2889469861984253	-0.110849805	No	
+row_58	REPS2	REPS2	RALBP1 associated Eps domain containing 2	9619	-1.2899649143218994	-0.10524416	No	
+row_59	MCTP2	MCTP2	multiple C2 domains, transmembrane 2	9650	-1.3118733167648315	-0.101561844	No	
+row_60	KCNIP3	KCNIP3	Kv channel interacting protein 3, calsenilin	9701	-1.3374918699264526	-0.099318795	No	
+row_61	HSP90B1	HSP90B1	heat shock protein 90kDa beta (Grp94), member 1	9734	-1.3509374856948853	-0.09561297	No	
+row_62	S100G	S100G	S100 calcium binding protein G	9764	-1.3630651235580444	-0.091618	No	
+row_63	CIB1	CIB1	calcium and integrin binding 1 (calmyrin)	9789	-1.3725248575210571	-0.08719044	No	
+row_64	DNASE1L3	DNASE1L3	deoxyribonuclease I-like 3	9795	-1.374658465385437	-0.081274144	No	
+row_65	TESC	TESC	tescalcin	9851	-1.3964802026748657	-0.07914972	No	
+row_66	CALR	CALR	calreticulin	9899	-1.4285088777542114	-0.076255664	No	
+row_67	NUCB2	NUCB2	nucleobindin 2	10127	-1.5582122802734375	-0.086777724	No	
+row_68	TPD52	TPD52	tumor protein D52	10169	-1.5822585821151733	-0.08271139	No	
+row_69	TCHH	TCHH	trichohyalin	10216	-1.612758994102478	-0.078894354	No	
+row_70	DNASE1L2	DNASE1L2	deoxyribonuclease I-like 2	10233	-1.6242389678955078	-0.07268948	No	
+row_71	CDH24	CDH24	cadherin-like 24	10341	-1.706732153892517	-0.07318958	No	
+row_72	CPNE6	CPNE6	copine VI (neuronal)	10481	-1.802994728088379	-0.07573899	No	
+row_73	CALML3	CALML3	calmodulin-like 3	10518	-1.84446120262146	-0.07008075	No	
+row_74	TGM3	TGM3	transglutaminase 3 (E polypeptide, protein-glutamine-gamma-glutamyltransferase)	10625	-1.9367610216140747	-0.06944788	No	
+row_75	CALB1	CALB1	calbindin 1, 28kDa	10852	-2.1823434829711914	-0.07702924	No	
+row_76	SLC25A13	SLC25A13	solute carrier family 25, member 13 (citrin)	10861	-2.1919212341308594	-0.067597724	No	
+row_77	SCIN	SCIN	scinderin	10877	-2.2068583965301514	-0.05864257	No	
+row_78	GPD2	GPD2	glycerol-3-phosphate dehydrogenase 2 (mitochondrial)	10930	-2.2655625343322754	-0.05229819	No	
+row_79	ITIH1	ITIH1	inter-alpha (globulin) inhibitor H1	11113	-2.5307796001434326	-0.054856367	No	
+row_80	KCNIP2	KCNIP2	Kv channel interacting protein 2	11557	-3.2368106842041016	-0.074492045	No	
+row_81	RGN	RGN	regucalcin (senescence marker protein-30)	11661	-3.425804376602173	-0.06679549	No	
+row_82	CSN2	CSN2	casein beta	11825	-3.9474759101867676	-0.06137641	No	
+row_83	HPCAL4	HPCAL4	hippocalcin like 4	11838	-3.982870578765869	-0.04404126	No	
+row_84	THBS4	THBS4	thrombospondin 4	11949	-4.382364273071289	-0.0325019	No	
+row_85	ANXA10	ANXA10	annexin A10	12158	-5.4212493896484375	-0.02382546	No	
+row_86	COMP	COMP	cartilage oligomeric matrix protein	12457	-7.743791103363037	-0.011501168	No	
+row_87	CETN1	CETN1	centrin, EF-hand protein, 1	12713	-10.584945678710938	0.017202435	No	

@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	256	5.138542175292969	0.06156414	No	
+row_1	THBD	THBD	thrombomodulin	379	4.545618057250977	0.124114126	No	
+row_2	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	419	4.396982669830322	0.19073752	No	
+row_3	TFPI	TFPI	tissue factor pathway inhibitor (lipoprotein-associated coagulation inhibitor)	628	3.7402777671813965	0.23387179	No	
+row_4	VWF	VWF	von Willebrand factor	1837	1.6683598756790161	0.16674773	No	
+row_5	PROS1	PROS1	protein S (alpha)	2083	1.422296404838562	0.17030229	No	
+row_6	PRCP	PRCP	prolylcarboxypeptidase (angiotensinase C)	2206	1.3059196472167969	0.18153885	No	
+row_7	SERPING1	SERPING1	serpin peptidase inhibitor, clade G (C1 inhibitor), member 1, (angioedema, hereditary)	5088	-0.010079894214868546	-0.041409988	No	
+row_8	C1QBP	C1QBP	complement component 1, q subcomponent binding protein	5345	-0.0672866478562355	-0.06016922	No	
+row_9	GP1BA	GP1BA	glycoprotein Ib (platelet), alpha polypeptide	6858	-0.4041588306427002	-0.17085907	No	
+row_10	GP1BB	GP1BB	glycoprotein Ib (platelet), beta polypeptide	7516	-0.5639245510101318	-0.21280605	No	
+row_11	GP9	GP9	glycoprotein IX (platelet)	9258	-1.1264530420303345	-0.32978958	No	
+row_12	F13B	F13B	coagulation factor XIII, B polypeptide	10143	-1.565778136253357	-0.37344742	No	
+row_13	GP5	GP5	glycoprotein V (platelet)	11147	-2.585214138031006	-0.410174	Yes	
+row_14	KLKB1	KLKB1	kallikrein B, plasma (Fletcher factor) 1	11301	-2.790919303894043	-0.3778173	Yes	
+row_15	KNG1	KNG1	kininogen 1	11424	-3.0258750915527344	-0.33933845	Yes	
+row_16	FGB	FGB	fibrinogen beta chain	11546	-3.222031354904175	-0.29767525	Yes	
+row_17	SERPINC1	SERPINC1	serpin peptidase inhibitor, clade C (antithrombin), member 1	11562	-3.2441675662994385	-0.24745265	Yes	
+row_18	FGA	FGA	fibrinogen alpha chain	11606	-3.2897675037384033	-0.19867615	Yes	
+row_19	FGG	FGG	fibrinogen gamma chain	11647	-3.396440029144287	-0.14797777	Yes	
+row_20	PROC	PROC	protein C (inactivator of coagulation factors Va and VIIIa)	11692	-3.526773452758789	-0.09552479	Yes	
+row_21	A2M	A2M	alpha-2-macroglobulin	12828	-12.098617553710938	0.008208724	Yes	

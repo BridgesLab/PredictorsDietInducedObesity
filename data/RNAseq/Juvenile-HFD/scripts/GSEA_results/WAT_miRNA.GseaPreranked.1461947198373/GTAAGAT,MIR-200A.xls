@@ -1,0 +1,40 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DLC1	DLC1	deleted in liver cancer 1	321	4.798523902893066	0.07103554	Yes	
+row_1	NOVA1	NOVA1	neuro-oncological ventral antigen 1	521	4.055266380310059	0.13667296	Yes	
+row_2	SP100	SP100	SP100 nuclear antigen	739	3.4520115852355957	0.18885498	Yes	
+row_3	KCNS3	KCNS3	potassium voltage-gated channel, delayed-rectifier, subfamily S, member 3	1064	2.743495464324951	0.21857594	Yes	
+row_4	FGF13	FGF13	fibroblast growth factor 13	1268	2.404677152633667	0.25090638	Yes	
+row_5	NFIA	NFIA	nuclear factor I/A	1685	1.8565616607666016	0.2557627	Yes	
+row_6	PPAP2B	PPAP2B	phosphatidic acid phosphatase type 2B	1865	1.6468087434768677	0.27480367	Yes	
+row_7	FZD1	FZD1	frizzled homolog 1 (Drosophila)	1902	1.6010427474975586	0.30401847	Yes	
+row_8	CHD7	CHD7	chromodomain helicase DNA binding protein 7	2213	1.294838309288025	0.30586502	Yes	
+row_9	KLF9	KLF9	Kruppel-like factor 9	2413	1.1332570314407349	0.31308874	Yes	
+row_10	SP3	SP3	Sp3 transcription factor	2661	0.9352160096168518	0.31263137	No	
+row_11	HMGB1	HMGB1	high-mobility group box 1	2992	0.7338926196098328	0.30171323	No	
+row_12	SHPRH	SHPRH	SNF2 histone linker PHD RING helicase	3569	0.4641840159893036	0.2663277	No	
+row_13	ARMC1	ARMC1	armadillo repeat containing 1	3718	0.3960663080215454	0.262769	No	
+row_14	GAN	GAN	giant axonal neuropathy (gigaxonin)	3758	0.38261112570762634	0.26739356	No	
+row_15	PAX6	PAX6	paired box gene 6 (aniridia, keratitis)	3874	0.3469362258911133	0.26541165	No	
+row_16	AMMECR1	AMMECR1	Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region, gene 1	4262	0.21584033966064453	0.2397172	No	
+row_17	SUZ12	SUZ12	suppressor of zeste 12 homolog (Drosophila)	4305	0.20030610263347626	0.24046467	No	
+row_18	UBE3A	UBE3A	ubiquitin protein ligase E3A (human papilloma virus E6-associated protein, Angelman syndrome)	4468	0.15045511722564697	0.23091038	No	
+row_19	PURB	PURB	purine-rich element binding protein B	4608	0.11576869338750839	0.22244617	No	
+row_20	GLTSCR1	GLTSCR1	glioma tumor suppressor candidate region gene 1	4627	0.10988552123308182	0.22324711	No	
+row_21	PAFAH1B1	PAFAH1B1	platelet-activating factor acetylhydrolase, isoform Ib, alpha subunit 45kDa	4948	0.029774369671940804	0.19902843	No	
+row_22	HCN4	HCN4	hyperpolarization activated cyclic nucleotide-gated potassium channel 4	5011	0.009957747533917427	0.1944198	No	
+row_23	PAPOLG	PAPOLG	poly(A) polymerase gamma	5052	-0.0013399567687883973	0.19134484	No	
+row_24	DYRK1A	DYRK1A	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A	5096	-0.012249205261468887	0.18825535	No	
+row_25	UBQLN2	UBQLN2	ubiquilin 2	5565	-0.11814186722040176	0.1543268	No	
+row_26	IPO7	IPO7	importin 7	6227	-0.2602241635322571	0.10827272	No	
+row_27	HTR2C	HTR2C	5-hydroxytryptamine (serotonin) receptor 2C	7185	-0.4815426766872406	0.043690152	No	
+row_28	RANBP3	RANBP3	RAN binding protein 3	7624	-0.5921657085418701	0.021564078	No	
+row_29	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.030891698	No	
+row_30	FLRT3	FLRT3	fibronectin leucine rich transmembrane protein 3	7755	-0.6259825825691223	0.036116593	No	
+row_31	FURIN	FURIN	furin (paired basic amino acid cleaving enzyme)	7875	-0.6537939310073853	0.039958876	No	
+row_32	TMSB4X	TMSB4X	thymosin, beta 4, X-linked	7921	-0.6658092141151428	0.04977957	No	
+row_33	PCGF5	PCGF5	polycomb group ring finger 5	7935	-0.667499840259552	0.062115453	No	
+row_34	WHSC1	WHSC1	Wolf-Hirschhorn syndrome candidate 1	8896	-0.9813855290412903	0.0072925775	No	
+row_35	SLC39A14	SLC39A14	solute carrier family 39 (zinc transporter), member 14	9326	-1.154340147972107	-0.0028972123	No	
+row_36	NHS	NHS	Nance-Horan syndrome (congenital cataracts and dental anomalies)	10449	-1.779770016670227	-0.05432167	No	
+row_37	FOXD1	FOXD1	forkhead box D1	11569	-3.262620449066162	-0.07586993	No	
+row_38	POU4F2	POU4F2	POU domain, class 4, transcription factor 2	12589	-9.086073875427246	0.026752425	No	

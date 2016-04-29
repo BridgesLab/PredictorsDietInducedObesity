@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	2003	1.4810236692428589	0.004768415	Yes	
+row_1	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.09989232	Yes	
+row_2	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	2692	0.9107204675674438	0.17466111	Yes	
+row_3	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.26195255	Yes	
+row_4	SMPD1	SMPD1	sphingomyelin phosphodiesterase 1, acid lysosomal (acid sphingomyelinase)	2919	0.7762341499328613	0.3340516	Yes	
+row_5	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.36200735	Yes	
+row_6	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.40498048	Yes	
+row_7	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.4507631	Yes	
+row_8	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.47198817	Yes	
+row_9	NSMAF	NSMAF	neutral sphingomyelinase (N-SMase) activation associated factor	4488	0.14694392681121826	0.43395528	No	
+row_10	TRAF2	TRAF2	TNF receptor-associated factor 2	4591	0.11890102177858353	0.43889183	No	
+row_11	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.44073364	No	
+row_12	FADD	FADD	Fas (TNFRSF6)-associated via death domain	4768	0.07654271274805069	0.44373056	No	
+row_13	TRADD	TRADD	TNFRSF1A-associated via death domain	4813	0.06214272603392601	0.4470315	No	
+row_14	CYCS	CYCS	cytochrome c, somatic	4919	0.03802182152867317	0.4430051	No	
+row_15	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.41771618	No	
+row_16	BAX	BAX	BCL2-associated X protein	5578	-0.12088820338249207	0.41218117	No	
+row_17	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.42108956	No	
+row_18	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	0.41356337	No	
+row_19	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	7082	-0.4550958275794983	0.384712	No	
+row_20	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.39817247	No	

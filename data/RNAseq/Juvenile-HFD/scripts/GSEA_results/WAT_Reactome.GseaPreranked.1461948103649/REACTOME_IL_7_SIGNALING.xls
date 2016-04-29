@@ -1,0 +1,12 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL2RG	IL2RG	interleukin 2 receptor, gamma (severe combined immunodeficiency)	622	3.761697769165039	0.1838964	Yes	
+row_1	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.32533118	Yes	
+row_2	JAK3	JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	1220	2.4794421195983887	0.46387294	Yes	
+row_3	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	1534	2.0107243061065674	0.5636772	Yes	
+row_4	IL7R	IL7R	interleukin 7 receptor	2399	1.146806001663208	0.5675605	Yes	
+row_5	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.6243584	Yes	
+row_6	IL7	IL7	interleukin 7	2937	0.7677170038223267	0.6382081	Yes	
+row_7	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.63511926	No	
+row_8	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3822	0.363411009311676	0.6252691	No	
+row_9	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.41671544	No	
+row_10	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.33139884	No	

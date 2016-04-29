@@ -1,0 +1,55 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GSN	GSN	gelsolin (amyloidosis, Finnish type)	234	5.3113298416137695	0.10540922	Yes	
+row_1	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.09527822	Yes	
+row_2	TRAF1	TRAF1	TNF receptor-associated factor 1	1318	2.3330838680267334	0.13620767	Yes	
+row_3	ARHGDIB	ARHGDIB	Rho GDP dissociation inhibitor (GDI) beta	1488	2.0650081634521484	0.17113288	Yes	
+row_4	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	2003	1.4810236692428589	0.16568722	Yes	
+row_5	SPTAN1	SPTAN1	spectrin, alpha, non-erythrocytic 1 (alpha-fodrin)	2217	1.2927312850952148	0.17922844	Yes	
+row_6	APAF1	APAF1	apoptotic peptidase activating factor	2258	1.2632818222045898	0.2055151	Yes	
+row_7	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.22887708	Yes	
+row_8	CFLAR	CFLAR	CASP8 and FADD-like apoptosis regulator	2355	1.1834384202957153	0.25377187	Yes	
+row_9	BID	BID	BH3 interacting domain death agonist	2375	1.1657052040100098	0.2794186	Yes	
+row_10	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	2692	0.9107204675674438	0.2760755	Yes	
+row_11	LMNA	LMNA	lamin A/C	2705	0.9017143845558167	0.29612356	Yes	
+row_12	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.31143743	Yes	
+row_13	FAS	FAS	Fas (TNF receptor superfamily, member 6)	3022	0.7178462743759155	0.30842018	Yes	
+row_14	PAK2	PAK2	p21 (CDKN1A)-activated kinase 2	3096	0.68260657787323	0.31863472	Yes	
+row_15	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	3110	0.6760115027427673	0.33335382	Yes	
+row_16	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	3118	0.6703222393989563	0.34840637	Yes	
+row_17	BAG4	BAG4	BCL2-associated athanogene 4	3175	0.6373806595802307	0.35888842	Yes	
+row_18	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.3674328	Yes	
+row_19	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	3347	0.5545215010643005	0.37257114	Yes	
+row_20	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.37398332	Yes	
+row_21	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.37982887	Yes	
+row_22	MAP3K5	MAP3K5	mitogen-activated protein kinase kinase kinase 5	3605	0.4482995867729187	0.38575643	Yes	
+row_23	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4095	0.2736040949821472	0.35415933	No	
+row_24	CASP7	CASP7	caspase 7, apoptosis-related cysteine peptidase	4151	0.2550143897533417	0.35582274	No	
+row_25	NUMA1	NUMA1	nuclear mitotic apparatus protein 1	4405	0.16881698369979858	0.34010917	No	
+row_26	TRAF2	TRAF2	TNF receptor-associated factor 2	4591	0.11890102177858353	0.32851332	No	
+row_27	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.32238933	No	
+row_28	FADD	FADD	Fas (TNFRSF6)-associated via death domain	4768	0.07654271274805069	0.3188911	No	
+row_29	TRADD	TRADD	TNFRSF1A-associated via death domain	4813	0.06214272603392601	0.31692106	No	
+row_30	CYCS	CYCS	cytochrome c, somatic	4919	0.03802182152867317	0.30965415	No	
+row_31	CASP6	CASP6	caspase 6, apoptosis-related cysteine peptidase	5342	-0.06697218865156174	0.27845094	No	
+row_32	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.25106153	No	
+row_33	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	5898	-0.19108980894088745	0.24355191	No	
+row_34	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	0.23523687	No	
+row_35	PRKDC	PRKDC	protein kinase, DNA-activated, catalytic polypeptide	6242	-0.2629593014717102	0.22839016	No	
+row_36	BIRC2	BIRC2	baculoviral IAP repeat-containing 2	6272	-0.26817137002944946	0.23237815	No	
+row_37	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.22465912	No	
+row_38	CASP2	CASP2	caspase 2, apoptosis-related cysteine peptidase (neural precursor cell expressed, developmentally down-regulated 2)	6471	-0.31398245692253113	0.23165382	No	
+row_39	DAXX	DAXX	death-associated protein 6	6543	-0.33370962738990784	0.23390605	No	
+row_40	MAP2K7	MAP2K7	mitogen-activated protein kinase kinase 7	6668	-0.3615269958972931	0.2326909	No	
+row_41	ACTG1	ACTG1	actin, gamma 1	6833	-0.40043869614601135	0.22927573	No	
+row_42	BIRC3	BIRC3	baculoviral IAP repeat-containing 3	6856	-0.40400493144989014	0.23696753	No	
+row_43	PSEN2	PSEN2	presenilin 2 (Alzheimer disease 4)	7015	-0.441901296377182	0.23498285	No	
+row_44	LMNB1	LMNB1	lamin B1	7052	-0.4480796754360199	0.24261324	No	
+row_45	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.19997643	No	
+row_46	CRADD	CRADD	CASP2 and RIPK1 domain containing adaptor with death domain	7848	-0.64560866355896	0.21072756	No	
+row_47	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	8030	-0.6928877234458923	0.21279685	No	
+row_48	PARP1	PARP1	poly (ADP-ribose) polymerase family, member 1	8467	-0.8281581997871399	0.19821681	No	
+row_49	PSEN1	PSEN1	presenilin 1 (Alzheimer disease 3)	8509	-0.8410472273826599	0.21460196	No	
+row_50	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.21100411	No	
+row_51	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	9152	-1.0870416164398193	0.21253973	No	
+row_52	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	0.17287669	No	
+row_53	LMNB2	LMNB2	lamin B2	10603	-1.9158741235733032	0.18096432	No	

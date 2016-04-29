@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TGFBR3	TGFBR3	transforming growth factor, beta receptor III (betaglycan, 300kDa)	518	4.06516695022583	0.101211466	Yes	
+row_1	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.15900522	Yes	
+row_2	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.23436442	Yes	
+row_3	TGFBR2	TGFBR2	transforming growth factor, beta receptor II (70/80kDa)	1270	2.399854898452759	0.31167647	Yes	
+row_4	TGFB3	TGFB3	transforming growth factor, beta 3	1407	2.196622371673584	0.37750947	Yes	
+row_5	CD79B	CD79B	CD79b molecule, immunoglobulin-associated beta	1428	2.160759449005127	0.4510782	Yes	
+row_6	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	2135	1.3669613599777222	0.44393042	Yes	
+row_7	CD79A	CD79A	CD79a molecule, immunoglobulin-associated alpha	2398	1.1468926668167114	0.46351334	Yes	
+row_8	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.49574324	Yes	
+row_9	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	2768	0.8617117404937744	0.50254697	Yes	
+row_10	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.5294098	Yes	
+row_11	SMAD5	SMAD5	SMAD, mothers against DPP homolog 5 (Drosophila)	2892	0.7928604483604431	0.55000395	Yes	
+row_12	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	0.5062175	No	
+row_13	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.44871503	No	
+row_14	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	4795	0.06617257744073868	0.42538437	No	
+row_15	SMAD4	SMAD4	SMAD, mothers against DPP homolog 4 (Drosophila)	5461	-0.09522564709186554	0.37720034	No	
+row_16	TGFBR1	TGFBR1	transforming growth factor, beta receptor I (activin A receptor type II-like kinase, 53kDa)	5952	-0.2036437839269638	0.34633657	No	
+row_17	SMAD1	SMAD1	SMAD, mothers against DPP homolog 1 (Drosophila)	6912	-0.41560107469558716	0.28652418	No	
+row_18	TGFB2	TGFB2	transforming growth factor, beta 2	7236	-0.4911147356033325	0.27858588	No	
+row_19	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.18755378	No	
+row_20	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	0.09052203	No	

@@ -1,0 +1,29 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PCK1	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	585	3.868313789367676	0.037949357	No	
+row_1	PFKFB1	PFKFB1	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1	1293	2.3754255771636963	0.034308914	No	
+row_2	ENO2	ENO2	enolase 2 (gamma, neuronal)	2394	1.1527695655822754	-0.026100364	No	
+row_3	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	2509	1.0459669828414917	-0.012416138	No	
+row_4	SLC25A1	SLC25A1	solute carrier family 25 (mitochondrial carrier; citrate transporter), member 1	2522	1.029339075088501	0.008812824	No	
+row_5	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	-7.228517E-4	No	
+row_6	MDH2	MDH2	malate dehydrogenase 2, NAD (mitochondrial)	3201	0.6235964894294739	-0.012866146	No	
+row_7	PCK2	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	4363	0.18275302648544312	-0.09888319	No	
+row_8	PGAM1	PGAM1	phosphoglycerate mutase 1 (brain)	4630	0.10937589406967163	-0.11713761	No	
+row_9	ENO3	ENO3	enolase 3 (beta, muscle)	4655	0.10431777685880661	-0.11675141	No	
+row_10	MDH1	MDH1	malate dehydrogenase 1, NAD (soluble)	4755	0.0795341208577156	-0.12270953	No	
+row_11	FBP2	FBP2	fructose-1,6-bisphosphatase 2	5574	-0.11985782533884048	-0.1835058	No	
+row_12	ENO1	ENO1	enolase 1, (alpha)	5881	-0.18735896050930023	-0.20318057	No	
+row_13	GAPDH	GAPDH	glyceraldehyde-3-phosphate dehydrogenase	6274	-0.2684512436389923	-0.2277727	No	
+row_14	SLC25A10	SLC25A10	solute carrier family 25 (mitochondrial carrier; dicarboxylate transporter), member 10	6566	-0.33825984597206116	-0.24303685	No	
+row_15	TPI1	TPI1	triosephosphate isomerase 1	6677	-0.36399412155151367	-0.24372362	No	
+row_16	PGK1	PGK1	phosphoglycerate kinase 1	6814	-0.3944386839866638	-0.24576941	No	
+row_17	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	-0.25381908	No	
+row_18	SLC25A11	SLC25A11	solute carrier family 25 (mitochondrial carrier; oxoglutarate carrier), member 11	7664	-0.603247880935669	-0.28886884	No	
+row_19	SLC25A12	SLC25A12	solute carrier family 25 (mitochondrial carrier, Aralar), member 12	8843	-0.9626955389976501	-0.3594131	No	
+row_20	ALDOC	ALDOC	aldolase C, fructose-bisphosphate	9433	-1.2049599885940552	-0.37910795	No	
+row_21	GOT2	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial (aspartate aminotransferase 2)	10792	-2.1156108379364014	-0.43877918	Yes	
+row_22	SLC25A13	SLC25A13	solute carrier family 25, member 13 (citrin)	10861	-2.1919212341308594	-0.39686194	Yes	
+row_23	GOT1	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)	11089	-2.4897208213806152	-0.3608528	Yes	
+row_24	ALDOB	ALDOB	aldolase B, fructose-bisphosphate	11131	-2.567553758621216	-0.30875736	Yes	
+row_25	FBP1	FBP1	fructose-1,6-bisphosphatase 1	11980	-4.503158092498779	-0.27751818	Yes	
+row_26	GAPDHS	GAPDHS	glyceraldehyde-3-phosphate dehydrogenase, spermatogenic	12483	-8.013971328735352	-0.14389423	Yes	
+row_27	PGAM2	PGAM2	phosphoglycerate mutase 2 (muscle)	12511	-8.303903579711914	0.032772902	Yes	

@@ -1,0 +1,21 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GHR	GHR	growth hormone receptor	345	4.686674118041992	0.17238466	Yes	
+row_1	IRS1	IRS1	insulin receptor substrate 1	900	3.054851531982422	0.25926402	Yes	
+row_2	IRS2	IRS2	insulin receptor substrate 2	1596	1.938812017440796	0.28781462	Yes	
+row_3	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	1780	1.7319632768630981	0.34722173	Yes	
+row_4	SOCS1	SOCS1	suppressor of cytokine signaling 1	2296	1.2260102033615112	0.35942858	Yes	
+row_5	SOCS3	SOCS3	suppressor of cytokine signaling 3	2371	1.1727453470230103	0.403519	Yes	
+row_6	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	2382	1.1586858034133911	0.45196763	Yes	
+row_7	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.5007649	Yes	
+row_8	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.5364683	Yes	
+row_9	SOCS2	SOCS2	suppressor of cytokine signaling 2	2727	0.8873097896575928	0.556896	Yes	
+row_10	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.52726007	No	
+row_11	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.54362786	No	
+row_12	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5346391	No	
+row_13	ADAM17	ADAM17	ADAM metallopeptidase domain 17 (tumor necrosis factor, alpha, converting enzyme)	4235	0.2223391830921173	0.50978327	No	
+row_14	SH2B1	SH2B1	SH2B adaptor protein 1	5192	-0.03410888835787773	0.43720984	No	
+row_15	CISH	CISH	cytokine inducible SH2-containing protein	5235	-0.04415084049105644	0.43583342	No	
+row_16	PTPN1	PTPN1	protein tyrosine phosphatase, non-receptor type 1	6721	-0.3735677897930145	0.33672062	No	
+row_17	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	7272	-0.501181960105896	0.31542554	No	
+row_18	PRLR	PRLR	prolactin receptor	9781	-1.3703155517578125	0.17944604	No	
+row_19	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	10070	-1.520922064781189	0.22175771	No	

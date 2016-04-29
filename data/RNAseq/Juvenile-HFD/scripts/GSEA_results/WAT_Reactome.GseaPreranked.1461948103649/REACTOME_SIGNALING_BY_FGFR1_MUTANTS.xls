@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	653	3.6605374813079834	0.05034323	Yes	
+row_1	FGF23	FGF23	fibroblast growth factor 23	856	3.1803576946258545	0.12238602	Yes	
+row_2	FGF2	FGF2	fibroblast growth factor 2 (basic)	882	3.118696451187134	0.20644106	Yes	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.27222726	Yes	
+row_4	GAB2	GAB2	GRB2-associated binding protein 2	1233	2.46030855178833	0.32464856	Yes	
+row_5	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	1638	1.9070321321487427	0.34593272	Yes	
+row_6	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1639	1.9070321321487427	0.3985153	Yes	
+row_7	FGF17	FGF17	fibroblast growth factor 17	1933	1.5683836936950684	0.41906127	Yes	
+row_8	FGF1	FGF1	fibroblast growth factor 1 (acidic)	2179	1.3324229717254639	0.4368197	Yes	
+row_9	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	2382	1.1586858034133911	0.45311895	Yes	
+row_10	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.4727753	Yes	
+row_11	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.47303772	Yes	
+row_12	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	3212	0.6187931895256042	0.45833644	No	
+row_13	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.4582771	No	
+row_14	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.46713173	No	
+row_15	PLCG1	PLCG1	phospholipase C, gamma 1	3890	0.33916980028152466	0.4440232	No	
+row_16	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.40509796	No	
+row_17	CPSF6	CPSF6	cleavage and polyadenylation specific factor 6, 68kDa	4722	0.0882016122341156	0.38645774	No	
+row_18	FGF20	FGF20	fibroblast growth factor 20	4906	0.040922436863183975	0.37340885	No	
+row_19	TRIM24	TRIM24	tripartite motif-containing 24	6354	-0.29018133878707886	0.269309	No	
+row_20	BCR	BCR	breakpoint cluster region	6500	-0.32264021039009094	0.26697183	No	
+row_21	MYO18A	MYO18A	myosin XVIIIA	7762	-0.6276571154594421	0.18658686	No	
+row_22	FGFR1OP2	FGFR1OP2	FGFR1 oncogene partner 2	8474	-0.8305663466453552	0.15440595	No	
+row_23	ZMYM2	ZMYM2	zinc finger, MYM-type 2	9122	-1.0735102891921997	0.1338819	No	
+row_24	FGF5	FGF5	fibroblast growth factor 5	9272	-1.131861686706543	0.1535475	No	
+row_25	FGFR1OP	FGFR1OP	FGFR1 oncogene partner	9928	-1.4416627883911133	0.14255473	No	
+row_26	FGF6	FGF6	fibroblast growth factor 6	11594	-3.273010730743408	0.103811696	No	

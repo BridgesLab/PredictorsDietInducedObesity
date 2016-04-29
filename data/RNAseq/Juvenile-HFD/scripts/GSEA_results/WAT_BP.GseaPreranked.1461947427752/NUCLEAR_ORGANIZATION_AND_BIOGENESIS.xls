@@ -1,0 +1,27 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BNIP3	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	885	3.1104812622070312	-0.016746974	No	
+row_1	CIDEA	CIDEA	cell death-inducing DFFA-like effector a	2966	0.7501841187477112	-0.16537939	No	
+row_2	DFFA	DFFA	DNA fragmentation factor, 45kDa, alpha polypeptide	3110	0.6760115027427673	-0.16519693	No	
+row_3	ATXN7	ATXN7	ataxin 7	3516	0.4827747642993927	-0.18852903	No	
+row_4	NUMA1	NUMA1	nuclear mitotic apparatus protein 1	4405	0.16881698369979858	-0.25450635	No	
+row_5	PML	PML	promyelocytic leukemia	4877	0.04629367217421532	-0.29022142	No	
+row_6	CYCS	CYCS	cytochrome c, somatic	4919	0.03802182152867317	-0.2927642	No	
+row_7	FOXL2	FOXL2	forkhead box L2	5382	-0.07704755663871765	-0.32726982	No	
+row_8	BAX	BAX	BCL2-associated X protein	5578	-0.12088820338249207	-0.34036198	No	
+row_9	NDUFA13	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	5738	-0.15627627074718475	-0.35007596	No	
+row_10	CECR2	CECR2	cat eye syndrome chromosome region, candidate 2	5806	-0.172311469912529	-0.352396	No	
+row_11	DFFB	DFFB	DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)	5898	-0.19108980894088745	-0.35626248	No	
+row_12	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	5967	-0.20598283410072327	-0.35809913	No	
+row_13	ACIN1	ACIN1	apoptotic chromatin condensation inducer 1	6829	-0.3993293046951294	-0.41814536	No	
+row_14	PPT1	PPT1	palmitoyl-protein thioesterase 1 (ceroid-lipofuscinosis, neuronal 1, infantile)	8168	-0.7332921624183655	-0.50957984	No	
+row_15	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	9152	-1.0870416164398193	-0.56762195	No	
+row_16	DEDD2	DEDD2	death effector domain containing 2	9295	-1.1405686140060425	-0.5596241	No	
+row_17	TPD52L1	TPD52L1	tumor protein D52-like 1	9761	-1.3620455265045166	-0.5729585	No	
+row_18	SYCP3	SYCP3	synaptonemal complex protein 3	10140	-1.5641123056411743	-0.57618773	No	
+row_19	MOAP1	MOAP1	modulator of apoptosis 1	11100	-2.509110450744629	-0.6086839	Yes	
+row_20	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	11760	-3.699307918548584	-0.59811586	Yes	
+row_21	CDKN2A	CDKN2A	cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4)	11765	-3.7107529640197754	-0.53661746	Yes	
+row_22	TSSK6	TSSK6	testis-specific serine kinase 6	12187	-5.620593547821045	-0.4756107	Yes	
+row_23	H1FNT	H1FNT	H1 histone family, member N, testis-specific	12614	-9.425934791564941	-0.3516075	Yes	
+row_24	TNP1	TNP1	transition protein 1 (during histone to protamine replacement)	12753	-11.041930198669434	-0.17837742	Yes	
+row_25	WBP2NL	WBP2NL	WBP2 N-terminal like	12794	-11.546287536621094	0.010845121	Yes	

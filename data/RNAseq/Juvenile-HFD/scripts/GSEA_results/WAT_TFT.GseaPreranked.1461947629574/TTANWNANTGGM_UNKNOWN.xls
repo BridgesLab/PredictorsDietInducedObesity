@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KLF14	KLF14	Kruppel-like factor 14	17	9.234391212463379	0.07834362	No	
+row_1	CHODL	CHODL	chondrolectin	80	6.712475299835205	0.13143852	No	
+row_2	ANGPT1	ANGPT1	angiopoietin 1	531	4.032510280609131	0.13129908	No	
+row_3	CCDC109B	CCDC109B	coiled-coil domain containing 109B	776	3.369318962097168	0.14142725	No	
+row_4	ABLIM1	ABLIM1	actin binding LIM protein 1	1156	2.5765905380249023	0.1342386	No	
+row_5	TBX4	TBX4	T-box 4	1258	2.41886043548584	0.1472664	No	
+row_6	IGSF1	IGSF1	immunoglobulin superfamily, member 1	1286	2.378913640975952	0.16569316	No	
+row_7	EGLN1	EGLN1	egl nine homolog 1 (C. elegans)	2117	1.3859580755233765	0.11322853	No	
+row_8	STAG2	STAG2	stromal antigen 2	2306	1.2211058139801025	0.10917101	No	
+row_9	FOXP1	FOXP1	forkhead box P1	2539	1.0186718702316284	0.09995204	No	
+row_10	PENK	PENK	proenkephalin	3124	0.6647329926490784	0.060359012	No	
+row_11	LIF	LIF	leukemia inhibitory factor (cholinergic differentiation factor)	3151	0.6486998796463013	0.063937195	No	
+row_12	PBX2	PBX2	pre-B-cell leukemia transcription factor 2	3428	0.5216825008392334	0.047015723	No	
+row_13	ADAMTS6	ADAMTS6	ADAM metallopeptidase with thrombospondin type 1 motif, 6	3475	0.4990870952606201	0.04775092	No	
+row_14	TPM3	TPM3	tropomyosin 3	3790	0.3719484210014343	0.026588324	No	
+row_15	EOMES	EOMES	eomesodermin homolog (Xenopus laevis)	4122	0.2629315257072449	0.0031657992	No	
+row_16	TMEM62	TMEM62	transmembrane protein 62	4353	0.1850636750459671	-0.013089295	No	
+row_17	ANKRD32	ANKRD32	ankyrin repeat domain 32	4606	0.11611670255661011	-0.031646725	No	
+row_18	OLFML3	OLFML3	olfactomedin-like 3	4667	0.1018005907535553	-0.03542545	No	
+row_19	CSNK1A1	CSNK1A1	casein kinase 1, alpha 1	5195	-0.03512275964021683	-0.076025896	No	
+row_20	ACVR2A	ACVR2A	activin A receptor, type IIA	5371	-0.0736079141497612	-0.088973634	No	
+row_21	RPL27A	RPL27A	ribosomal protein L27a	5799	-0.17130902409553528	-0.12063767	No	
+row_22	ZBTB25	ZBTB25	zinc finger and BTB domain containing 25	5941	-0.20044566690921783	-0.12985228	No	
+row_23	CPNE1	CPNE1	copine I	6418	-0.3029733896255493	-0.16418363	No	
+row_24	IKZF2	IKZF2	IKAROS family zinc finger 2 (Helios)	7452	-0.5468248724937439	-0.23964326	No	
+row_25	JAKMIP2	JAKMIP2	janus kinase and microtubule interacting protein 2	7806	-0.6359332799911499	-0.26155552	No	
+row_26	BMI1	BMI1	B lymphoma Mo-MLV insertion region (mouse)	8092	-0.7082182765007019	-0.27756634	No	
+row_27	OSBPL6	OSBPL6	oxysterol binding protein-like 6	8250	-0.7579989433288574	-0.2832129	No	
+row_28	COL12A1	COL12A1	collagen, type XII, alpha 1	8409	-0.8085510730743408	-0.28850096	No	
+row_29	PRDM1	PRDM1	PR domain containing 1, with ZNF domain	8458	-0.8250284194946289	-0.2851092	No	
+row_30	EML4	EML4	echinoderm microtubule associated protein like 4	8537	-0.8498113751411438	-0.28383207	No	
+row_31	RUNX1T1	RUNX1T1	runt-related transcription factor 1; translocated to, 1 (cyclin D-related)	8680	-0.9005721807479858	-0.28708446	No	
+row_32	DLG3	DLG3	discs, large homolog 3 (neuroendocrine-dlg, Drosophila)	8748	-0.9263496994972229	-0.28429326	No	
+row_33	NHLH2	NHLH2	nescient helix loop helix 2	8914	-0.9868919253349304	-0.28858617	No	
+row_34	ESRRG	ESRRG	estrogen-related receptor gamma	9383	-1.1810345649719238	-0.31472176	No	
+row_35	MPPED2	MPPED2	metallophosphoesterase domain containing 2	9838	-1.3938690423965454	-0.33793464	No	
+row_36	BAZ1A	BAZ1A	bromodomain adjacent to zinc finger domain, 1A	10208	-1.6074343919754028	-0.35270783	Yes	
+row_37	CLU	CLU	clusterin	10221	-1.6158547401428223	-0.3396996	Yes	
+row_38	PPP2R5C	PPP2R5C	protein phosphatase 2, regulatory subunit B (B56), gamma isoform	10311	-1.6829924583435059	-0.33208856	Yes	
+row_39	ANKS1B	ANKS1B	ankyrin repeat and sterile alpha motif domain containing 1B	10459	-1.7865846157073975	-0.3280856	Yes	
+row_40	CUZD1	CUZD1	CUB and zona pellucida-like domains 1	10992	-2.357795238494873	-0.34903693	Yes	
+row_41	SLITRK1	SLITRK1	SLIT and NTRK-like family, member 1	11176	-2.623633623123169	-0.34060708	Yes	
+row_42	PDZRN4	PDZRN4	PDZ domain containing RING finger 4	11330	-2.850656032562256	-0.32789028	Yes	
+row_43	PRDM13	PRDM13	PR domain containing 13	11363	-2.90871524810791	-0.3052811	Yes	
+row_44	VAX1	VAX1	ventral anterior homeobox 1	11581	-3.273010730743408	-0.29388815	Yes	
+row_45	SOX14	SOX14	SRY (sex determining region Y)-box 14	11593	-3.273010730743408	-0.26650637	Yes	
+row_46	FOXF2	FOXF2	forkhead box F2	12081	-4.9958720207214355	-0.2612069	Yes	
+row_47	TBX19	TBX19	T-box 19	12143	-5.322849273681641	-0.22002237	Yes	
+row_48	ASB4	ASB4	ankyrin repeat and SOCS box-containing 4	12381	-7.087233543395996	-0.17727725	Yes	
+row_49	AGBL2	AGBL2	ATP/GTP binding protein-like 2	12415	-7.396494388580322	-0.11603061	Yes	
+row_50	CKMT2	CKMT2	creatine kinase, mitochondrial 2 (sarcomeric)	12892	-18.110519409179688	0.0032598746	Yes	

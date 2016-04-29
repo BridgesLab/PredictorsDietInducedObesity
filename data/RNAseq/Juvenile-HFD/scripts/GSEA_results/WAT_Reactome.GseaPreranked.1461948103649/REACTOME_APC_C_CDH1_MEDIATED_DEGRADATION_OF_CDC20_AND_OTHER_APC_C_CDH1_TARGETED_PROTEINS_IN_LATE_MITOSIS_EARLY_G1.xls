@@ -1,0 +1,65 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PSMB10	PSMB10	proteasome (prosome, macropain) subunit, beta type, 10	1561	1.9841903448104858	-0.08746962	No	
+row_1	PSMB9	PSMB9	proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2)	1776	1.7359989881515503	-0.07451458	No	
+row_2	PSMB8	PSMB8	proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7)	1981	1.5036492347717285	-0.06474185	No	
+row_3	PSME1	PSME1	proteasome (prosome, macropain) activator subunit 1 (PA28 alpha)	3597	0.4532274603843689	-0.1824947	No	
+row_4	PSMD11	PSMD11	proteasome (prosome, macropain) 26S subunit, non-ATPase, 11	3712	0.3974362909793854	-0.18457948	No	
+row_5	CDC16	CDC16	CDC16 cell division cycle 16 homolog (S. cerevisiae)	3725	0.39346978068351746	-0.17880704	No	
+row_6	PSMA1	PSMA1	proteasome (prosome, macropain) subunit, alpha type, 1	3767	0.377675324678421	-0.17555687	No	
+row_7	ANAPC1	ANAPC1	anaphase promoting complex subunit 1	3997	0.30479001998901367	-0.18815516	No	
+row_8	ANAPC5	ANAPC5	anaphase promoting complex subunit 5	4000	0.3035910129547119	-0.18313733	No	
+row_9	PSME2	PSME2	proteasome (prosome, macropain) activator subunit 2 (PA28 beta)	4054	0.2850080728530884	-0.18239856	No	
+row_10	UBE2D1	UBE2D1	ubiquitin-conjugating enzyme E2D 1 (UBC4/5 homolog, yeast)	4264	0.2147204726934433	-0.19497776	No	
+row_11	PSMA4	PSMA4	proteasome (prosome, macropain) subunit, alpha type, 4	4340	0.18977253139019012	-0.19757107	No	
+row_12	ANAPC4	ANAPC4	anaphase promoting complex subunit 4	4487	0.14733533561229706	-0.20640379	No	
+row_13	CDC23	CDC23	CDC23 (cell division cycle 23, yeast, homolog)	4501	0.14257481694221497	-0.20498432	No	
+row_14	PSMC1	PSMC1	proteasome (prosome, macropain) 26S subunit, ATPase, 1	4803	0.06489700824022293	-0.22726439	No	
+row_15	PSMD14	PSMD14	proteasome (prosome, macropain) 26S subunit, non-ATPase, 14	4844	0.053405359387397766	-0.22946212	No	
+row_16	CDC26	CDC26	cell division cycle 26	4881	0.04558661952614784	-0.2314823	No	
+row_17	PSMD7	PSMD7	proteasome (prosome, macropain) 26S subunit, non-ATPase, 7 (Mov34 homolog)	4887	0.044010456651449203	-0.23112082	No	
+row_18	ANAPC2	ANAPC2	anaphase promoting complex subunit 2	4894	0.04316529631614685	-0.23085146	No	
+row_19	PSMD1	PSMD1	proteasome (prosome, macropain) 26S subunit, non-ATPase, 1	5009	0.011202113702893257	-0.23951769	No	
+row_20	PTTG1	PTTG1	pituitary tumor-transforming 1	5021	0.0066863661631941795	-0.24025838	No	
+row_21	PSMB1	PSMB1	proteasome (prosome, macropain) subunit, beta type, 1	5204	-0.03723230957984924	-0.25376427	No	
+row_22	CDC27	CDC27	cell division cycle 27	5309	-0.05974048376083374	-0.26082647	No	
+row_23	PSMA3	PSMA3	proteasome (prosome, macropain) subunit, alpha type, 3	5338	-0.0656391978263855	-0.2618834	No	
+row_24	PSMB7	PSMB7	proteasome (prosome, macropain) subunit, beta type, 7	5344	-0.06720861792564392	-0.26112664	No	
+row_25	PSMC6	PSMC6	proteasome (prosome, macropain) 26S subunit, ATPase, 6	5378	-0.07607711106538773	-0.26239416	No	
+row_26	PSMC5	PSMC5	proteasome (prosome, macropain) 26S subunit, ATPase, 5	5442	-0.0922018364071846	-0.26571777	No	
+row_27	PSMD13	PSMD13	proteasome (prosome, macropain) 26S subunit, non-ATPase, 13	5719	-0.15279896557331085	-0.2845576	No	
+row_28	PSMB2	PSMB2	proteasome (prosome, macropain) subunit, beta type, 2	5905	-0.19230426847934723	-0.29565412	No	
+row_29	PSMD12	PSMD12	proteasome (prosome, macropain) 26S subunit, non-ATPase, 12	5997	-0.21375319361686707	-0.29908192	No	
+row_30	PSMB6	PSMB6	proteasome (prosome, macropain) subunit, beta type, 6	6082	-0.2282112091779709	-0.3017195	No	
+row_31	PSMD4	PSMD4	proteasome (prosome, macropain) 26S subunit, non-ATPase, 4	6098	-0.23266087472438812	-0.29892033	No	
+row_32	PSMB3	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3	6129	-0.2404187172651291	-0.2971544	No	
+row_33	PSMA2	PSMA2	proteasome (prosome, macropain) subunit, alpha type, 2	6139	-0.24239276349544525	-0.29372326	No	
+row_34	PSMD3	PSMD3	proteasome (prosome, macropain) 26S subunit, non-ATPase, 3	6147	-0.24369755387306213	-0.29011446	No	
+row_35	PSMD5	PSMD5	proteasome (prosome, macropain) 26S subunit, non-ATPase, 5	6231	-0.26138806343078613	-0.292109	No	
+row_36	ANAPC7	ANAPC7	anaphase promoting complex subunit 7	6307	-0.2754993736743927	-0.29324153	No	
+row_37	ANAPC11	ANAPC11	APC11 anaphase promoting complex subunit 11 homolog (yeast)	6308	-0.27605971693992615	-0.28853744	No	
+row_38	PSMD2	PSMD2	proteasome (prosome, macropain) 26S subunit, non-ATPase, 2	6828	-0.39926043152809143	-0.32205722	No	
+row_39	PSMD8	PSMD8	proteasome (prosome, macropain) 26S subunit, non-ATPase, 8	6894	-0.4120769500732422	-0.3200855	No	
+row_40	PSMD6	PSMD6	proteasome (prosome, macropain) 26S subunit, non-ATPase, 6	7102	-0.4604589641094208	-0.3283219	No	
+row_41	UBE2E1	UBE2E1	ubiquitin-conjugating enzyme E2E 1 (UBC4/5 homolog, yeast)	7115	-0.4643363952636719	-0.3213419	No	
+row_42	PSMA6	PSMA6	proteasome (prosome, macropain) subunit, alpha type, 6	7196	-0.4847906827926636	-0.31929657	No	
+row_43	PSMB5	PSMB5	proteasome (prosome, macropain) subunit, beta type, 5	7280	-0.5027681589126587	-0.31717795	No	
+row_44	PSMB4	PSMB4	proteasome (prosome, macropain) subunit, beta type, 4	7423	-0.5378345847129822	-0.31904575	No	
+row_45	PSMA5	PSMA5	proteasome (prosome, macropain) subunit, alpha type, 5	7520	-0.5648921728134155	-0.3168786	No	
+row_46	RPS27A	RPS27A	ribosomal protein S27a	7602	-0.5871198773384094	-0.3131672	No	
+row_47	PSMC4	PSMC4	proteasome (prosome, macropain) 26S subunit, ATPase, 4	7898	-0.6608774662017822	-0.32482556	No	
+row_48	UBA52	UBA52	ubiquitin A-52 residue ribosomal protein fusion product 1	8100	-0.7101795673370361	-0.32834053	No	
+row_49	PSMD9	PSMD9	proteasome (prosome, macropain) 26S subunit, non-ATPase, 9	8236	-0.7536478042602539	-0.325987	No	
+row_50	PSMA7	PSMA7	proteasome (prosome, macropain) subunit, alpha type, 7	8473	-0.8301423192024231	-0.3301771	No	
+row_51	ANAPC10	ANAPC10	anaphase promoting complex subunit 10	8523	-0.8453293442726135	-0.31957963	No	
+row_52	PSMC2	PSMC2	proteasome (prosome, macropain) 26S subunit, ATPase, 2	8600	-0.8706843256950378	-0.31064785	No	
+row_53	PSMD10	PSMD10	proteasome (prosome, macropain) 26S subunit, non-ATPase, 10	8719	-0.9162333607673645	-0.30420303	No	
+row_54	UBE2C	UBE2C	ubiquitin-conjugating enzyme E2C	9092	-1.0645991563796997	-0.31496435	No	
+row_55	PSMC3	PSMC3	proteasome (prosome, macropain) 26S subunit, ATPase, 3	9463	-1.2167043685913086	-0.3229784	No	
+row_56	AURKB	AURKB	aurora kinase B	9830	-1.3884869813919067	-0.3277545	No	
+row_57	PSME4	PSME4	proteasome (prosome, macropain) activator subunit 4	10303	-1.6737011671066284	-0.33590606	No	
+row_58	PSMF1	PSMF1	proteasome (prosome, macropain) inhibitor subunit 1 (PI31)	10895	-2.223524808883667	-0.3439342	No	
+row_59	SKP2	SKP2	S-phase kinase-associated protein 2 (p45)	11979	-4.501242160797119	-0.35137528	Yes	
+row_60	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.27427578	Yes	
+row_61	CDC20	CDC20	CDC20 cell division cycle 20 homolog (S. cerevisiae)	12119	-5.185330390930176	-0.18708272	Yes	
+row_62	AURKA	AURKA	aurora kinase A	12195	-5.706864356994629	-0.09566431	Yes	
+row_63	PSMA8	PSMA8	proteasome (prosome, macropain) subunit, alpha type, 8	12580	-8.978972434997559	0.027503636	Yes	

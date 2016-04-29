@@ -1,0 +1,99 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.03243906	Yes	
+row_1	FGF10	FGF10	fibroblast growth factor 10	208	5.491081714630127	0.07052981	Yes	
+row_2	KLB	KLB	klotho beta	210	5.476083278656006	0.11224529	Yes	
+row_3	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	446	4.294555187225342	0.12671481	Yes	
+row_4	ADCY4	ADCY4	adenylate cyclase 4	485	4.150942802429199	0.15543453	Yes	
+row_5	ADCY5	ADCY5	adenylate cyclase 5	524	4.0463151931762695	0.18335575	Yes	
+row_6	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	653	3.6605374813079834	0.20132174	Yes	
+row_7	FGF23	FGF23	fibroblast growth factor 23	856	3.1803576946258545	0.2098584	Yes	
+row_8	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.23246612	Yes	
+row_9	FGF2	FGF2	fibroblast growth factor 2 (basic)	882	3.118696451187134	0.25572264	Yes	
+row_10	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.27167213	Yes	
+row_11	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.29334795	Yes	
+row_12	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	1009	2.849985122680664	0.31252828	Yes	
+row_13	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.3321622	Yes	
+row_14	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.34984815	Yes	
+row_15	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	1146	2.598780393600464	0.3641511	Yes	
+row_16	ADCY3	ADCY3	adenylate cyclase 3	1162	2.560685396194458	0.3825257	Yes	
+row_17	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.37007043	Yes	
+row_18	PRKCE	PRKCE	protein kinase C, epsilon	1592	1.9417451620101929	0.3794368	Yes	
+row_19	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	1638	1.9070321321487427	0.39048573	Yes	
+row_20	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1639	1.9070321321487427	0.40504017	Yes	
+row_21	FGF17	FGF17	fibroblast growth factor 17	1933	1.5683836936950684	0.3941854	No	
+row_22	IL17RD	IL17RD	interleukin 17 receptor D	1986	1.4977794885635376	0.40156564	No	
+row_23	FGF1	FGF1	fibroblast growth factor 1 (acidic)	2179	1.3324229717254639	0.3967779	No	
+row_24	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.3894749	No	
+row_25	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.39149147	No	
+row_26	ADCY6	ADCY6	adenylate cyclase 6	2772	0.8604217171669006	0.37445456	No	
+row_27	FGF18	FGF18	fibroblast growth factor 18	2789	0.8506987690925598	0.37970066	No	
+row_28	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.3852851	No	
+row_29	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.38613862	No	
+row_30	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	3212	0.6187931895256042	0.3642974	No	
+row_31	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	3247	0.5995216369628906	0.36622435	No	
+row_32	SPRY2	SPRY2	sprouty homolog 2 (Drosophila)	3296	0.5767359733581543	0.3668868	No	
+row_33	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.36788544	No	
+row_34	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	0.34693176	No	
+row_35	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.33950102	No	
+row_36	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.3418701	No	
+row_37	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	3845	0.3569004237651825	0.34046528	No	
+row_38	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.34276825	No	
+row_39	PLCG1	PLCG1	phospholipase C, gamma 1	3890	0.33916980028152466	0.3423966	No	
+row_40	ADRBK1	ADRBK1	adrenergic, beta, receptor kinase 1	3946	0.318541944026947	0.3405432	No	
+row_41	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.33045408	No	
+row_42	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.32833007	No	
+row_43	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.31054127	No	
+row_44	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.30895948	No	
+row_45	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.30944964	No	
+row_46	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.30959994	No	
+row_47	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.30140716	No	
+row_48	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.29245153	No	
+row_49	FGF20	FGF20	fibroblast growth factor 20	4906	0.040922436863183975	0.2772618	No	
+row_50	ADCY9	ADCY9	adenylate cyclase 9	4967	0.02304287999868393	0.27276367	No	
+row_51	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.2685188	No	
+row_52	MKNK1	MKNK1	MAP kinase interacting serine/threonine kinase 1	5269	-0.050695836544036865	0.24982026	No	
+row_53	TSC2	TSC2	tuberous sclerosis 2	5294	-0.05614300072193146	0.24837916	No	
+row_54	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.24560238	No	
+row_55	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.22159193	No	
+row_56	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.21640608	No	
+row_57	AKT1S1	AKT1S1	AKT1 substrate 1 (proline-rich)	5795	-0.1695411056280136	0.21372712	No	
+row_58	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	0.18816838	No	
+row_59	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.17720863	No	
+row_60	RICTOR	RICTOR	-	6436	-0.3057534098625183	0.17034996	No	
+row_61	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.17138518	No	
+row_62	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.17291115	No	
+row_63	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.16999616	No	
+row_64	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.16736403	No	
+row_65	GSK3A	GSK3A	glycogen synthase kinase 3 alpha	6658	-0.3594367802143097	0.16613436	No	
+row_66	FRS2	FRS2	fibroblast growth factor receptor substrate 2	6862	-0.40513482689857483	0.15341267	No	
+row_67	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.14279956	No	
+row_68	KL	KL	klotho	7254	-0.4949262738227844	0.13021787	No	
+row_69	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	7321	-0.5153549313545227	0.12900966	No	
+row_70	PPP2CB	PPP2CB	protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform	7413	-0.5356752872467041	0.12600905	No	
+row_71	RPS27A	RPS27A	ribosomal protein S27a	7602	-0.5871198773384094	0.115844764	No	
+row_72	FGFR3	FGFR3	fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)	7657	-0.6021212339401245	0.11623356	No	
+row_73	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.120674916	No	
+row_74	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	8045	-0.6963041424751282	0.096075565	No	
+row_75	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	8094	-0.7090162634849548	0.09774758	No	
+row_76	UBA52	UBA52	ubiquitin A-52 residue ribosomal protein fusion product 1	8100	-0.7101795673370361	0.10277816	No	
+row_77	GAB1	GAB1	GRB2-associated binding protein 1	8172	-0.7347733974456787	0.10285505	No	
+row_78	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.09481617	No	
+row_79	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	0.097921826	No	
+row_80	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.09039919	No	
+row_81	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	8692	-0.905367910861969	0.08835046	No	
+row_82	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	0.09270996	No	
+row_83	FRS3	FRS3	fibroblast growth factor receptor substrate 3	8822	-0.9545025825500488	0.092672125	No	
+row_84	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.09830921	No	
+row_85	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	8907	-0.9845682382583618	0.10107153	No	
+row_86	ADCY7	ADCY7	adenylate cyclase 7	9067	-1.0541902780532837	0.09673102	No	
+row_87	FGF5	FGF5	fibroblast growth factor 5	9272	-1.131861686706543	0.08947781	No	
+row_88	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.094309404	No	
+row_89	ADCY8	ADCY8	adenylate cyclase 8 (brain)	9894	-1.4257359504699707	0.060865603	No	
+row_90	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	9933	-1.4432371854782104	0.06892017	No	
+row_91	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	0.06541659	No	
+row_92	FGFR4	FGFR4	fibroblast growth factor receptor 4	10504	-1.8241814374923706	0.050437883	No	
+row_93	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	0.04610418	No	
+row_94	ADCY2	ADCY2	adenylate cyclase 2 (brain)	11099	-2.508901357650757	0.039311435	No	
+row_95	FGF22	FGF22	fibroblast growth factor 22	11588	-3.273010730743408	0.026275886	No	
+row_96	FGF6	FGF6	fibroblast growth factor 6	11594	-3.273010730743408	0.050865952	No	
+row_97	CAMK4	CAMK4	calcium/calmodulin-dependent protein kinase IV	12373	-7.002352714538574	0.043701727	No	

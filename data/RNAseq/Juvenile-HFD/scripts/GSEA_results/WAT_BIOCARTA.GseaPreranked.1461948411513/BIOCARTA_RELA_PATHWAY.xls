@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.21720983	Yes	
+row_1	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	2003	1.4810236692428589	0.32502037	Yes	
+row_2	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.4425623	Yes	
+row_3	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.4114619	Yes	
+row_4	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.46179098	Yes	
+row_5	TRAF6	TRAF6	TNF receptor-associated factor 6	3975	0.3088788688182831	0.46498117	Yes	
+row_6	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4095	0.2736040949821472	0.48794183	Yes	
+row_7	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.4522981	No	
+row_8	FADD	FADD	Fas (TNFRSF6)-associated via death domain	4768	0.07654271274805069	0.45603484	No	
+row_9	TRADD	TRADD	TNFRSF1A-associated via death domain	4813	0.06214272603392601	0.45993608	No	
+row_10	HDAC3	HDAC3	histone deacetylase 3	4841	0.05441005900502205	0.46424398	No	
+row_11	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	5270	-0.051160458475351334	0.4371302	No	
+row_12	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	5926	-0.19703328609466553	0.40959796	No	
+row_13	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.4045892	No	
+row_14	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.4363144	No	
+row_15	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	0.44709355	No	

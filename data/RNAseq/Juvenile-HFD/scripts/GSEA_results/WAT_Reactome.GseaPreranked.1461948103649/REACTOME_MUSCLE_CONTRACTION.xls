@@ -1,0 +1,46 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MYL1	MYL1	myosin, light chain 1, alkali; skeletal, fast	90	6.579993724822998	0.062752835	Yes	
+row_1	TNNC2	TNNC2	troponin C type 2 (fast)	91	6.574105262756348	0.13242541	Yes	
+row_2	TNNI2	TNNI2	troponin I type 2 (skeletal, fast)	231	5.331854820251465	0.17814904	Yes	
+row_3	VIM	VIM	vimentin	309	4.8616814613342285	0.22369967	Yes	
+row_4	MYBPC2	MYBPC2	myosin binding protein C, fast type	353	4.656154632568359	0.26970983	Yes	
+row_5	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	401	4.485644340515137	0.3136026	Yes	
+row_6	SORBS1	SORBS1	sorbin and SH3 domain containing 1	431	4.35695743560791	0.35752797	Yes	
+row_7	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.38739192	Yes	
+row_8	TCAP	TCAP	titin-cap (telethonin)	640	3.6933796405792236	0.42180213	Yes	
+row_9	NEB	NEB	nebulin	831	3.2423746585845947	0.44142482	Yes	
+row_10	CALD1	CALD1	caldesmon 1	1799	1.7110272645950317	0.38453895	No	
+row_11	MYH8	MYH8	myosin, heavy chain 8, skeletal muscle, perinatal	1858	1.6530399322509766	0.3975583	No	
+row_12	ITGA1	ITGA1	integrin, alpha 1	1861	1.6487354040145874	0.4148765	No	
+row_13	TPM4	TPM4	tropomyosin 4	1969	1.5158218145370483	0.4226402	No	
+row_14	ITGB5	ITGB5	integrin, beta 5	2106	1.400062084197998	0.4269273	No	
+row_15	MYBPC1	MYBPC1	myosin binding protein C, slow type	2568	1.003463864326477	0.4017979	No	
+row_16	TLN1	TLN1	talin 1	2636	0.9600453972816467	0.40677464	No	
+row_17	MYL6	MYL6	myosin, light chain 6, alkali, smooth muscle and non-muscle	2652	0.9433591365814209	0.4156087	No	
+row_18	MYL6B	MYL6B	myosin, light chain 6B, alkali, smooth muscle and non-muscle	2965	0.7502015233039856	0.39935458	No	
+row_19	MYL4	MYL4	myosin, light chain 4, alkali; atrial, embryonic	2982	0.7406972646713257	0.4059632	No	
+row_20	VCL	VCL	vinculin	3059	0.699763298034668	0.4074833	No	
+row_21	DES	DES	desmin	3091	0.6845545768737793	0.41233325	No	
+row_22	TNNC1	TNNC1	troponin C type 1 (slow)	3107	0.6778305172920227	0.41835323	No	
+row_23	LMOD1	LMOD1	leiomodin 1 (smooth muscle)	3153	0.6479853987693787	0.42172953	No	
+row_24	TNNI1	TNNI1	troponin I type 1 (skeletal, slow)	3164	0.6413509845733643	0.4277508	No	
+row_25	TPM2	TPM2	tropomyosin 2 (beta)	3785	0.37337782979011536	0.38360858	No	
+row_26	TPM3	TPM3	tropomyosin 3	3790	0.3719484210014343	0.38724017	No	
+row_27	TNNT1	TNNT1	troponin T type 1 (skeletal, slow)	4057	0.28433138132095337	0.36961737	No	
+row_28	SORBS3	SORBS3	sorbin and SH3 domain containing 3	4282	0.20813466608524323	0.35444537	No	
+row_29	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	4564	0.12503086030483246	0.3339706	No	
+row_30	MYL9	MYL9	myosin, light chain 9, regulatory	5800	-0.17160744965076447	0.23997861	No	
+row_31	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	0.21564414	No	
+row_32	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.19525889	No	
+row_33	ACTA2	ACTA2	actin, alpha 2, smooth muscle, aorta	6851	-0.4035893678665161	0.16881466	No	
+row_34	ACTN2	ACTN2	actinin, alpha 2	7366	-0.5260145664215088	0.1345135	No	
+row_35	MYLK	MYLK	myosin, light chain kinase	7465	-0.5491385459899902	0.1327305	No	
+row_36	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	0.06926812	No	
+row_37	TMOD1	TMOD1	tropomodulin 1	8901	-0.9828869104385376	0.040429555	No	
+row_38	MYH11	MYH11	myosin, heavy chain 11, smooth muscle	8902	-0.9831362366676331	0.050848864	No	
+row_39	TPM1	TPM1	tropomyosin 1 (alpha)	9053	-1.0482808351516724	0.050321653	No	
+row_40	ACTG2	ACTG2	actin, gamma 2, smooth muscle, enteric	9865	-1.4070937633514404	0.0023170882	No	
+row_41	TNNT2	TNNT2	troponin T type 2 (cardiac)	9905	-1.4304900169372559	0.014451868	No	
+row_42	TNNI3	TNNI3	troponin I type 3 (cardiac)	11167	-2.6064982414245605	-0.05575215	No	
+row_43	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	12330	-6.7235260009765625	-0.0746434	No	
+row_44	MYH3	MYH3	myosin, heavy chain 3, skeletal muscle, embryonic	12786	-11.457197189331055	0.011481669	No	

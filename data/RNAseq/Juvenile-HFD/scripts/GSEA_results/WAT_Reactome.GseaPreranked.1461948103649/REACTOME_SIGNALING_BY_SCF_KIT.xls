@@ -1,0 +1,68 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CMA1	CMA1	chymase 1, mast cell	50	7.413748741149902	0.08848177	Yes	
+row_1	SH2B2	SH2B2	SH2B adaptor protein 2	372	4.571502208709717	0.12049219	Yes	
+row_2	GRAP	GRAP	GRB2-related adaptor protein	539	3.995391845703125	0.15737027	Yes	
+row_3	GRB10	GRB10	growth factor receptor-bound protein 10	663	3.6297640800476074	0.19303465	Yes	
+row_4	FES	FES	feline sarcoma oncogene	774	3.3803248405456543	0.22660156	Yes	
+row_5	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.25797614	Yes	
+row_6	MMP9	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	960	2.956447124481201	0.2882048	Yes	
+row_7	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.32440817	Yes	
+row_8	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.35425565	Yes	
+row_9	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.38510555	Yes	
+row_10	YWHAB	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	1146	2.598780393600464	0.411966	Yes	
+row_11	GAB2	GAB2	GRB2-associated binding protein 2	1233	2.46030855178833	0.4359356	Yes	
+row_12	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.43882573	Yes	
+row_13	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	1780	1.7319632768630981	0.4403544	Yes	
+row_14	SOCS1	SOCS1	suppressor of cytokine signaling 1	2296	1.2260102033615112	0.41560742	Yes	
+row_15	VAV1	VAV1	vav 1 oncogene	2297	1.2255312204360962	0.43087623	Yes	
+row_16	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	2382	1.1586858034133911	0.4387844	Yes	
+row_17	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.45287552	Yes	
+row_18	GRAP2	GRAP2	GRB2-related adaptor protein 2	2424	1.1255486011505127	0.46410102	Yes	
+row_19	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.47422487	Yes	
+row_20	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.48466513	Yes	
+row_21	FYN	FYN	FYN oncogene related to SRC, FGR, YES	2505	1.0475741624832153	0.49763906	Yes	
+row_22	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.4852292	No	
+row_23	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	3247	0.5995216369628906	0.45811668	No	
+row_24	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.45801625	No	
+row_25	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.45970193	No	
+row_26	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.46241292	No	
+row_27	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.46736816	No	
+row_28	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.44713074	No	
+row_29	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.42633045	No	
+row_30	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.4254348	No	
+row_31	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	4215	0.23167863488197327	0.42381397	No	
+row_32	SOCS6	SOCS6	suppressor of cytokine signaling 6	4226	0.22555749118328094	0.42584705	No	
+row_33	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	4402	0.169899120926857	0.4143642	No	
+row_34	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.4135624	No	
+row_35	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.41480765	No	
+row_36	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.41569597	No	
+row_37	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.39803877	No	
+row_38	FER	FER	fer (fps/fes related) tyrosine kinase (phosphoprotein NCP94)	4771	0.07549577206373215	0.3940058	No	
+row_39	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.37456477	No	
+row_40	TSC2	TSC2	tuberous sclerosis 2	5294	-0.05614300072193146	0.35428196	No	
+row_41	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.35182616	No	
+row_42	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.32855496	No	
+row_43	LCK	LCK	lymphocyte-specific protein tyrosine kinase	5685	-0.1461292952299118	0.3285105	No	
+row_44	SH2B3	SH2B3	SH2B adaptor protein 3	5702	-0.14856281876564026	0.32911804	No	
+row_45	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.32797164	No	
+row_46	AKT1S1	AKT1S1	AKT1 substrate 1 (proline-rich)	5795	-0.1695411056280136	0.32612062	No	
+row_47	KIT	KIT	v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog	6222	-0.2596489489078522	0.2962502	No	
+row_48	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.2924182	No	
+row_49	RICTOR	RICTOR	-	6436	-0.3057534098625183	0.28705752	No	
+row_50	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.28869382	No	
+row_51	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.28224245	No	
+row_52	GSK3A	GSK3A	glycogen synthase kinase 3 alpha	6658	-0.3594367802143097	0.2827573	No	
+row_53	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.27384272	No	
+row_54	JAK2	JAK2	Janus kinase 2 (a protein tyrosine kinase)	7272	-0.501181960105896	0.24643756	No	
+row_55	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.22386765	No	
+row_56	TEC	TEC	tec protein tyrosine kinase	8031	-0.6930485963821411	0.2037488	No	
+row_57	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.17221048	No	
+row_58	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	8651	-0.8898688554763794	0.17754659	No	
+row_59	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	0.18315864	No	
+row_60	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.18606636	No	
+row_61	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	9324	-1.1536307334899902	0.16329296	No	
+row_62	CBL	CBL	Cas-Br-M (murine) ecotropic retroviral transforming sequence	9933	-1.4432371854782104	0.13402516	No	
+row_63	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	10070	-1.520922064781189	0.14240536	No	
+row_64	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	0.11446235	No	
+row_65	CHEK1	CHEK1	CHK1 checkpoint homolog (S. pombe)	10782	-2.1063451766967773	0.13946177	No	
+row_66	GRB7	GRB7	growth factor receptor-bound protein 7	10894	-2.2230608463287354	0.15853268	No	

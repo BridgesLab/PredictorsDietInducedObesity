@@ -1,0 +1,47 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGF10	FGF10	fibroblast growth factor 10	208	5.491081714630127	0.06807767	Yes	
+row_1	KLB	KLB	klotho beta	210	5.476083278656006	0.15198551	Yes	
+row_2	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	653	3.6605374813079834	0.17383353	Yes	
+row_3	FGF23	FGF23	fibroblast growth factor 23	856	3.1803576946258545	0.20693767	Yes	
+row_4	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.25371101	Yes	
+row_5	FGF2	FGF2	fibroblast growth factor 2 (basic)	882	3.118696451187134	0.30099866	Yes	
+row_6	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	1009	2.849985122680664	0.33493245	Yes	
+row_7	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.37620357	Yes	
+row_8	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.41490245	Yes	
+row_9	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.4113122	Yes	
+row_10	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	1638	1.9070321321487427	0.43155998	Yes	
+row_11	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1639	1.9070321321487427	0.4608077	Yes	
+row_12	FGF17	FGF17	fibroblast growth factor 17	1933	1.5683836936950684	0.4621291	Yes	
+row_13	FGF1	FGF1	fibroblast growth factor 1 (acidic)	2179	1.3324229717254639	0.4635557	Yes	
+row_14	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.45778686	No	
+row_15	FGF18	FGF18	fibroblast growth factor 18	2789	0.8506987690925598	0.44600645	No	
+row_16	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.45809713	No	
+row_17	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	3212	0.6187931895256042	0.43577734	No	
+row_18	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	3247	0.5995216369628906	0.44233418	No	
+row_19	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.38014475	No	
+row_20	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.3799822	No	
+row_21	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.36055994	No	
+row_22	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.36225554	No	
+row_23	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.363584	No	
+row_24	FGF20	FGF20	fibroblast growth factor 20	4906	0.040922436863183975	0.32991883	No	
+row_25	TSC2	TSC2	tuberous sclerosis 2	5294	-0.05614300072193146	0.30075428	No	
+row_26	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.2745924	No	
+row_27	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.27064568	No	
+row_28	AKT1S1	AKT1S1	AKT1 substrate 1 (proline-rich)	5795	-0.1695411056280136	0.26928905	No	
+row_29	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.23314212	No	
+row_30	RICTOR	RICTOR	-	6436	-0.3057534098625183	0.2286763	No	
+row_31	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.23121479	No	
+row_32	GSK3A	GSK3A	glycogen synthase kinase 3 alpha	6658	-0.3594367802143097	0.22190855	No	
+row_33	FRS2	FRS2	fibroblast growth factor receptor substrate 2	6862	-0.40513482689857483	0.21237215	No	
+row_34	KL	KL	klotho	7254	-0.4949262738227844	0.18962678	No	
+row_35	FGFR3	FGFR3	fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)	7657	-0.6021212339401245	0.167672	No	
+row_36	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.176755	No	
+row_37	GAB1	GAB1	GRB2-associated binding protein 1	8172	-0.7347733974456787	0.14837784	No	
+row_38	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	8692	-0.905367910861969	0.121996365	No	
+row_39	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	0.13344151	No	
+row_40	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.13913588	No	
+row_41	FGF5	FGF5	fibroblast growth factor 5	9272	-1.131861686706543	0.123443544	No	
+row_42	FGFR4	FGFR4	fibroblast growth factor receptor 4	10504	-1.8241814374923706	0.055912804	No	
+row_43	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	0.067732945	No	
+row_44	FGF22	FGF22	fibroblast growth factor 22	11588	-3.273010730743408	0.054155048	No	
+row_45	FGF6	FGF6	fibroblast growth factor 6	11594	-3.273010730743408	0.10396454	No	

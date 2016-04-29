@@ -1,0 +1,72 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	THBS1	THBS1	thrombospondin 1	109	6.297066688537598	0.034847252	Yes	
+row_1	CD36	CD36	CD36 molecule (thrombospondin receptor)	111	6.253612995147705	0.07779109	Yes	
+row_2	CFD	CFD	complement factor D (adipsin)	152	5.911004066467285	0.11534624	Yes	
+row_3	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	213	5.468478202819824	0.14830232	Yes	
+row_4	F13A1	F13A1	coagulation factor XIII, A1 polypeptide	256	5.138542175292969	0.18038785	Yes	
+row_5	PECAM1	PECAM1	platelet/endothelial cell adhesion molecule (CD31 antigen)	375	4.567662239074707	0.20263809	Yes	
+row_6	SCG3	SCG3	secretogranin III	408	4.444845676422119	0.23072873	Yes	
+row_7	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	419	4.396982669830322	0.2602003	Yes	
+row_8	SPARC	SPARC	secreted protein, acidic, cysteine-rich (osteonectin)	499	4.117643356323242	0.28238636	Yes	
+row_9	VEGFB	VEGFB	vascular endothelial growth factor B	587	3.862657308578491	0.30219635	Yes	
+row_10	FIGF	FIGF	c-fos induced growth factor (vascular endothelial growth factor D)	820	3.2682435512542725	0.3066453	Yes	
+row_11	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.3155786	Yes	
+row_12	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.33505705	Yes	
+row_13	PDGFB	PDGFB	platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)	1126	2.641366720199585	0.3415678	Yes	
+row_14	PLEK	PLEK	pleckstrin	1238	2.450705051422119	0.34979865	Yes	
+row_15	MMRN1	MMRN1	multimerin 1	1333	2.3070995807647705	0.35836306	Yes	
+row_16	TGFB3	TGFB3	transforming growth factor, beta 3	1407	2.196622371673584	0.36779994	Yes	
+row_17	VEGFC	VEGFC	vascular endothelial growth factor C	1417	2.174621343612671	0.38206056	Yes	
+row_18	PPBP	PPBP	pro-platelet basic protein (chemokine (C-X-C motif) ligand 7)	1487	2.06624174118042	0.3909114	Yes	
+row_19	HGF	HGF	hepatocyte growth factor (hepapoietin A; scatter factor)	1534	2.0107243061065674	0.40116826	Yes	
+row_20	VWF	VWF	von Willebrand factor	1837	1.6683598756790161	0.38916934	No	
+row_21	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	1940	1.558397650718689	0.3919612	No	
+row_22	SELP	SELP	selectin P (granule membrane protein 140kDa, antigen CD62)	2027	1.4609564542770386	0.39532647	No	
+row_23	PROS1	PROS1	protein S (alpha)	2083	1.422296404838562	0.40083563	No	
+row_24	STXBP3	STXBP3	syntaxin binding protein 3	2384	1.1572669744491577	0.3854761	No	
+row_25	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	2509	1.0459669828414917	0.38303253	No	
+row_26	TLN1	TLN1	talin 1	2636	0.9600453972816467	0.37984234	No	
+row_27	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	2770	0.860894501209259	0.37542593	No	
+row_28	ACTN4	ACTN4	actinin, alpha 4	2795	0.8466705083847046	0.3793849	No	
+row_29	VCL	VCL	vinculin	3059	0.699763298034668	0.36375424	No	
+row_30	PSAP	PSAP	prosaposin (variant Gaucher disease and variant metachromatic leukodystrophy)	3093	0.6838579177856445	0.36589354	No	
+row_31	BRPF3	BRPF3	bromodomain and PHD finger containing, 3	3269	0.5927017331123352	0.35636717	No	
+row_32	FN1	FN1	fibronectin 1	3283	0.5844084024429321	0.359377	No	
+row_33	PPIA	PPIA	peptidylprolyl isomerase A (cyclophilin A)	3355	0.5517881512641907	0.35765374	No	
+row_34	CALU	CALU	calumenin	3502	0.4894927740097046	0.3496717	No	
+row_35	TIMP1	TIMP1	TIMP metallopeptidase inhibitor 1	3550	0.4694266617298126	0.3492475	No	
+row_36	ACTN1	ACTN1	actinin, alpha 1	4266	0.21372056007385254	0.2951363	No	
+row_37	CD63	CD63	CD63 molecule	4535	0.13463668525218964	0.27522922	No	
+row_38	PFN1	PFN1	profilin 1	4683	0.09913177788257599	0.26448396	No	
+row_39	CFL1	CFL1	cofilin 1 (non-muscle)	4716	0.08972721546888351	0.26261365	No	
+row_40	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	4795	0.06617257744073868	0.25700545	No	
+row_41	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	4912	0.03931080549955368	0.24825849	No	
+row_42	WDR1	WDR1	WD repeat domain 1	4939	0.03233068808913231	0.24645977	No	
+row_43	SERPING1	SERPING1	serpin peptidase inhibitor, clade G (C1 inhibitor), member 1, (angioedema, hereditary)	5088	-0.010079894214868546	0.23502414	No	
+row_44	CAP1	CAP1	CAP, adenylate cyclase-associated protein 1 (yeast)	5590	-0.12407508492469788	0.19693181	No	
+row_45	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	5967	-0.20598283410072327	0.16912001	No	
+row_46	LAMP2	LAMP2	lysosomal-associated membrane protein 2	6055	-0.2235948145389557	0.16389516	No	
+row_47	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	0.15842181	No	
+row_48	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.13683912	No	
+row_49	ABCC4	ABCC4	ATP-binding cassette, sub-family C (CFTR/MRP), member 4	6725	-0.3739003539085388	0.118422545	No	
+row_50	TGFB2	TGFB2	transforming growth factor, beta 2	7236	-0.4911147356033325	0.08215564	No	
+row_51	ACTN2	ACTN2	actinin, alpha 2	7366	-0.5260145664215088	0.07574636	No	
+row_52	TMSB4X	TMSB4X	thymosin, beta 4, X-linked	7921	-0.6658092141151428	0.037260856	No	
+row_53	CD9	CD9	CD9 molecule	8228	-0.7505820989608765	0.018637152	No	
+row_54	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	0.011348641	No	
+row_55	HABP4	HABP4	hyaluronan binding protein 4	9193	-1.1012698411941528	-0.043108784	No	
+row_56	LEFTY2	LEFTY2	left-right determination factor 2	9703	-1.338858962059021	-0.07346592	No	
+row_57	ITGA2B	ITGA2B	integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41)	10032	-1.5023506879806519	-0.088628046	No	
+row_58	HSPA5	HSPA5	heat shock 70kDa protein 5 (glucose-regulated protein, 78kDa)	10154	-1.5722922086715698	-0.0872176	No	
+row_59	CLU	CLU	clusterin	10221	-1.6158547401428223	-0.08123197	No	
+row_60	EGF	EGF	epidermal growth factor (beta-urogastrone)	11049	-2.434933662414551	-0.12876883	No	
+row_61	SERPINF2	SERPINF2	serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 2	11158	-2.5986623764038086	-0.119286925	No	
+row_62	HRG	HRG	histidine-rich glycoprotein	11327	-2.8419668674468994	-0.11279539	No	
+row_63	KNG1	KNG1	kininogen 1	11424	-3.0258750915527344	-0.09944165	No	
+row_64	APOA1	APOA1	apolipoprotein A-I	11482	-3.083317279815674	-0.08266101	No	
+row_65	PLG	PLG	plasminogen	11483	-3.084174394607544	-0.061443515	No	
+row_66	FGB	FGB	fibrinogen beta chain	11546	-3.222031354904175	-0.044097282	No	
+row_67	ALB	ALB	albumin	11573	-3.2640187740325928	-0.023663692	No	
+row_68	FGA	FGA	fibrinogen alpha chain	11606	-3.2897675037384033	-0.003519381	No	
+row_69	FGG	FGG	fibrinogen gamma chain	11647	-3.396440029144287	0.01673689	No	
+row_70	A2M	A2M	alpha-2-macroglobulin	12828	-12.098617553710938	0.008240171	No	

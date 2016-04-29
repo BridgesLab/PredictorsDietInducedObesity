@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HMGCS1	HMGCS1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1 (soluble)	2425	1.1235344409942627	-0.125985	No	
+row_1	PMVK	PMVK	phosphomevalonate kinase	3544	0.47291630506515503	-0.18654501	No	
+row_2	MVK	MVK	mevalonate kinase (mevalonic aciduria)	3966	0.31178852915763855	-0.2020011	No	
+row_3	LBR	LBR	lamin B receptor	4400	0.17075993120670319	-0.22613744	No	
+row_4	GGPS1	GGPS1	geranylgeranyl diphosphate synthase 1	4964	0.024600403383374214	-0.2683713	No	
+row_5	IDI1	IDI1	isopentenyl-diphosphate delta isomerase 1	6153	-0.2451840341091156	-0.34686726	No	
+row_6	LSS	LSS	lanosterol synthase (2,3-oxidosqualene-lanosterol cyclase)	8332	-0.7858405709266663	-0.4722906	Yes	
+row_7	MVD	MVD	mevalonate (diphospho) decarboxylase	8656	-0.8911342620849609	-0.4483176	Yes	
+row_8	HSD17B7	HSD17B7	hydroxysteroid (17-beta) dehydrogenase 7	8842	-0.9620053172111511	-0.40976572	Yes	
+row_9	EBP	EBP	emopamil binding protein (sterol isomerase)	8892	-0.9794741272926331	-0.35972497	Yes	
+row_10	DHCR7	DHCR7	7-dehydrocholesterol reductase	8955	-1.004776954650879	-0.30929995	Yes	
+row_11	NSDHL	NSDHL	NAD(P) dependent steroid dehydrogenase-like	9143	-1.0826295614242554	-0.2642731	Yes	
+row_12	HMGCR	HMGCR	3-hydroxy-3-methylglutaryl-Coenzyme A reductase	9146	-1.084549903869629	-0.20481852	Yes	
+row_13	FDFT1	FDFT1	farnesyl-diphosphate farnesyltransferase 1	9662	-1.3195582628250122	-0.17216243	Yes	
+row_14	SQLE	SQLE	squalene epoxidase	10096	-1.5356268882751465	-0.12128248	Yes	
+row_15	FDPS	FDPS	farnesyl diphosphate synthase (farnesyl pyrophosphate synthetase, dimethylallyltranstransferase, geranyltranstransferase)	10545	-1.861560344696045	-0.053649716	Yes	
+row_16	TM7SF2	TM7SF2	transmembrane 7 superfamily member 2	10565	-1.8825383186340332	0.04834809	Yes	
+row_17	DHCR24	DHCR24	24-dehydrocholesterol reductase	11062	-2.4557926654815674	0.14492524	Yes	

@@ -1,0 +1,106 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RLN3	RLN3	relaxin 3	42	7.685512542724609	0.021398414	Yes	
+row_1	ADRB3	ADRB3	adrenergic, beta-3-, receptor	59	7.080228805541992	0.042880252	Yes	
+row_2	MC2R	MC2R	melanocortin 2 receptor (adrenocorticotropic hormone)	70	6.919093608856201	0.064312465	Yes	
+row_3	PTGIR	PTGIR	prostaglandin I2 (prostacyclin) receptor (IP)	95	6.500328540802002	0.08330917	Yes	
+row_4	ADORA2A	ADORA2A	adenosine A2a receptor	110	6.284002780914307	0.102390856	Yes	
+row_5	TSHR	TSHR	thyroid stimulating hormone receptor	117	6.193557262420654	0.12180573	Yes	
+row_6	SCTR	SCTR	secretin receptor	138	5.980617046356201	0.13944583	Yes	
+row_7	DRD1	DRD1	dopamine receptor D1	156	5.8892927169799805	0.15702659	Yes	
+row_8	TSHB	TSHB	thyroid stimulating hormone, beta	162	5.8335442543029785	0.17536369	Yes	
+row_9	GNB3	GNB3	guanine nucleotide binding protein (G protein), beta polypeptide 3	168	5.754287242889404	0.19344635	Yes	
+row_10	GNG13	GNG13	guanine nucleotide binding protein (G protein), gamma 13	173	5.732567310333252	0.21153724	Yes	
+row_11	ADCYAP1R1	ADCYAP1R1	adenylate cyclase activating polypeptide 1 (pituitary) receptor type I	278	5.026950359344482	0.21956874	Yes	
+row_12	ADRB2	ADRB2	adrenergic, beta-2-, receptor, surface	292	4.960859298706055	0.23448081	Yes	
+row_13	CRHR2	CRHR2	corticotropin releasing hormone receptor 2	314	4.831327438354492	0.24835353	Yes	
+row_14	TAAR2	TAAR2	trace amine associated receptor 2	323	4.790124416351318	0.2631072	Yes	
+row_15	PDE2A	PDE2A	phosphodiesterase 2A, cGMP-stimulated	351	4.662971019744873	0.27597183	Yes	
+row_16	PTGER2	PTGER2	prostaglandin E receptor 2 (subtype EP2), 53kDa	365	4.595768451690674	0.2897119	Yes	
+row_17	RAMP2	RAMP2	receptor (calcitonin) activity modifying protein 2	385	4.523842811584473	0.3027534	Yes	
+row_18	GNG3	GNG3	guanine nucleotide binding protein (G protein), gamma 3	404	4.46968412399292	0.31569898	Yes	
+row_19	GNG11	GNG11	guanine nucleotide binding protein (G protein), gamma 11	412	4.4243974685668945	0.32935658	Yes	
+row_20	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	446	4.294555187225342	0.34057084	Yes	
+row_21	GNGT2	GNGT2	guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2	462	4.233823776245117	0.3529931	Yes	
+row_22	GNB4	GNB4	guanine nucleotide binding protein (G protein), beta polypeptide 4	467	4.221227169036865	0.3662323	Yes	
+row_23	ADCY4	ADCY4	adenylate cyclase 4	485	4.150942802429199	0.3782326	Yes	
+row_24	ADCY5	ADCY5	adenylate cyclase 5	524	4.0463151931762695	0.38826028	Yes	
+row_25	PDE3B	PDE3B	phosphodiesterase 3B, cGMP-inhibited	559	3.9353280067443848	0.3982434	Yes	
+row_26	GIPR	GIPR	gastric inhibitory polypeptide receptor	742	3.4473655223846436	0.3951246	Yes	
+row_27	GNGT1	GNGT1	guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1	766	3.4006450176239014	0.40424865	Yes	
+row_28	HTR7	HTR7	5-hydroxytryptamine (serotonin) receptor 7 (adenylate cyclase-coupled)	771	3.3909993171691895	0.41482267	Yes	
+row_29	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	897	3.0584075450897217	0.41489795	Yes	
+row_30	ADRB1	ADRB1	adrenergic, beta-1-, receptor	901	3.054253578186035	0.42446887	Yes	
+row_31	PTHLH	PTHLH	parathyroid hormone-like hormone	917	3.016104221343994	0.43298203	Yes	
+row_32	ADM	ADM	adrenomedullin	1038	2.797362804412842	0.43260902	Yes	
+row_33	PDE3A	PDE3A	phosphodiesterase 3A, cGMP-inhibited	1062	2.75628924369812	0.43966457	Yes	
+row_34	HRH2	HRH2	histamine receptor H2	1111	2.676405668258667	0.44451514	Yes	
+row_35	ADCY3	ADCY3	adenylate cyclase 3	1162	2.560685396194458	0.44883832	Yes	
+row_36	GNG2	GNG2	guanine nucleotide binding protein (G protein), gamma 2	1163	2.5575356483459473	0.4570485	Yes	
+row_37	HTR4	HTR4	5-hydroxytryptamine (serotonin) receptor 4	1290	2.3757123947143555	0.45485428	No	
+row_38	NPSR1	NPSR1	neuropeptide S receptor 1	1537	2.0092380046844482	0.4421305	No	
+row_39	CALCA	CALCA	calcitonin/calcitonin-related polypeptide, alpha	1609	1.9276597499847412	0.44278476	No	
+row_40	CALCRL	CALCRL	calcitonin receptor-like	1807	1.7030174732208252	0.43289715	No	
+row_41	GHRH	GHRH	growth hormone releasing hormone	1972	1.5126479864120483	0.4249705	No	
+row_42	GNB5	GNB5	guanine nucleotide binding protein (G protein), beta 5	2045	1.4519929885864258	0.42401984	No	
+row_43	DRD5	DRD5	dopamine receptor D5	2171	1.3338392972946167	0.41855893	No	
+row_44	PTGDR	PTGDR	prostaglandin D2 receptor (DP)	2194	1.3227009773254395	0.42109033	No	
+row_45	GCG	GCG	glucagon	2418	1.1308261156082153	0.40733936	No	
+row_46	PDE4B	PDE4B	phosphodiesterase 4B, cAMP-specific (phosphodiesterase E4 dunce homolog, Drosophila)	2557	1.008563756942749	0.399821	No	
+row_47	VIPR2	VIPR2	vasoactive intestinal peptide receptor 2	2734	0.8823190331459045	0.38893557	No	
+row_48	GNG7	GNG7	guanine nucleotide binding protein (G protein), gamma 7	2752	0.8704831600189209	0.39040497	No	
+row_49	PTGER4	PTGER4	prostaglandin E receptor 4 (subtype EP4)	2758	0.8675228357315063	0.39280018	No	
+row_50	ADCY6	ADCY6	adenylate cyclase 6	2772	0.8604217171669006	0.39454904	No	
+row_51	MC1R	MC1R	melanocortin 1 receptor (alpha melanocyte stimulating hormone receptor)	2838	0.8215909600257874	0.39212027	No	
+row_52	PDE11A	PDE11A	phosphodiesterase 11A	2890	0.7939107418060303	0.3906938	No	
+row_53	PDE4D	PDE4D	phosphodiesterase 4D, cAMP-specific (phosphodiesterase E3 dunce homolog, Drosophila)	3692	0.40851783752441406	0.32957345	No	
+row_54	GNG12	GNG12	guanine nucleotide binding protein (G protein), gamma 12	3924	0.32917383313179016	0.31262547	No	
+row_55	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	3938	0.32431790232658386	0.31265336	No	
+row_56	GHRHR	GHRHR	growth hormone releasing hormone receptor	4130	0.2608932852745056	0.2986039	No	
+row_57	GLP2R	GLP2R	glucagon-like peptide 2 receptor	4207	0.23429787158966064	0.2934324	No	
+row_58	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	4796	0.06615310162305832	0.24781469	No	
+row_59	IAPP	IAPP	islet amyloid polypeptide	4816	0.061409685760736465	0.24653092	No	
+row_60	ADCY9	ADCY9	adenylate cyclase 9	4967	0.02304287999868393	0.23491354	No	
+row_61	GNB2	GNB2	guanine nucleotide binding protein (G protein), beta polypeptide 2	5003	0.012233260087668896	0.23222484	No	
+row_62	GNG10	GNG10	guanine nucleotide binding protein (G protein), gamma 10	5617	-0.13109557330608368	0.18486704	No	
+row_63	PDE7A	PDE7A	phosphodiesterase 7A	5746	-0.15777139365673065	0.1753969	No	
+row_64	PDE7B	PDE7B	phosphodiesterase 7B	5901	-0.1916511207818985	0.16400902	No	
+row_65	GNAI3	GNAI3	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 3	6311	-0.27644699811935425	0.13301806	No	
+row_66	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.116548575	No	
+row_67	GPBAR1	GPBAR1	G protein-coupled bile acid receptor 1	6689	-0.365938276052475	0.10595402	No	
+row_68	GNAS	GNAS	GNAS complex locus	7387	-0.5292483568191528	0.05332721	No	
+row_69	MC5R	MC5R	melanocortin 5 receptor	7400	-0.531760573387146	0.05409896	No	
+row_70	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	8094	-0.7090162634849548	0.0023610108	No	
+row_71	SCT	SCT	secretin	8441	-0.8195071816444397	-0.021976255	No	
+row_72	ADCY7	ADCY7	adenylate cyclase 7	9067	-1.0541902780532837	-0.06730605	No	
+row_73	GNG5	GNG5	guanine nucleotide binding protein (G protein), gamma 5	9119	-1.0733516216278076	-0.06783544	No	
+row_74	PDE4C	PDE4C	phosphodiesterase 4C, cAMP-specific (phosphodiesterase E1 dunce homolog, Drosophila)	9385	-1.1823331117630005	-0.08469463	No	
+row_75	ADCY8	ADCY8	adenylate cyclase 8 (brain)	9894	-1.4257359504699707	-0.11971244	No	
+row_76	ADORA2B	ADORA2B	adenosine A2b receptor	10015	-1.4934943914413452	-0.12427112	No	
+row_77	POMC	POMC	proopiomelanocortin (adrenocorticotropin/ beta-lipotropin/ alpha-melanocyte stimulating hormone/ beta-melanocyte stimulating hormone/ beta-endorphin)	10022	-1.4966851472854614	-0.11993412	No	
+row_78	GNAZ	GNAZ	guanine nucleotide binding protein (G protein), alpha z polypeptide	10173	-1.588561773300171	-0.12652588	No	
+row_79	GNG4	GNG4	guanine nucleotide binding protein (G protein), gamma 4	10515	-1.8400799036026	-0.14719719	No	
+row_80	VIP	VIP	vasoactive intestinal peptide	10519	-1.8461103439331055	-0.14150465	No	
+row_81	RXFP1	RXFP1	relaxin/insulin-like family peptide receptor 1	10842	-2.1705853939056396	-0.15963407	No	
+row_82	NPS	NPS	-	10934	-2.2704455852508545	-0.15943825	No	
+row_83	RXFP2	RXFP2	relaxin/insulin-like family peptide receptor 2	11076	-2.4754607677459717	-0.1624814	No	
+row_84	ADCY2	ADCY2	adenylate cyclase 2 (brain)	11099	-2.508901357650757	-0.15614207	No	
+row_85	PDE8A	PDE8A	phosphodiesterase 8A	11119	-2.5462095737457275	-0.14944914	No	
+row_86	RAMP3	RAMP3	receptor (calcitonin) activity modifying protein 3	11172	-2.6198368072509766	-0.14509197	No	
+row_87	PDE10A	PDE10A	phosphodiesterase 10A	11217	-2.6627368927001953	-0.13997352	No	
+row_88	PDE8B	PDE8B	phosphodiesterase 8B	11230	-2.6880955696105957	-0.13227952	No	
+row_89	GCGR	GCGR	glucagon receptor	11319	-2.824509382247925	-0.13007121	No	
+row_90	VIPR1	VIPR1	vasoactive intestinal peptide receptor 1	11338	-2.8661961555480957	-0.122273125	No	
+row_91	RAMP1	RAMP1	receptor (calcitonin) activity modifying protein 1	11386	-2.9440743923187256	-0.116485365	No	
+row_92	HTR6	HTR6	5-hydroxytryptamine (serotonin) receptor 6	11406	-2.9845330715179443	-0.10838533	No	
+row_93	GNG8	GNG8	guanine nucleotide binding protein (G protein), gamma 8	11454	-3.052243947982788	-0.10225033	No	
+row_94	TAAR1	TAAR1	trace amine associated receptor 1	11705	-3.547405481338501	-0.110348046	No	
+row_95	LHB	LHB	luteinizing hormone beta polypeptide	11773	-3.7292842864990234	-0.10359845	No	
+row_96	MC4R	MC4R	melanocortin 4 receptor	11816	-3.8987338542938232	-0.094356336	No	
+row_97	LHCGR	LHCGR	luteinizing hormone/choriogonadotropin receptor	12040	-4.789556980133057	-0.09636206	No	
+row_98	CALCB	CALCB	calcitonin-related polypeptide, beta	12042	-4.8010945320129395	-0.08102755	No	
+row_99	AVPR2	AVPR2	arginine vasopressin receptor 2 (nephrogenic diabetes insipidus)	12116	-5.158139705657959	-0.070158705	No	
+row_100	ADM2	ADM2	adrenomedullin 2	12165	-5.463561534881592	-0.05636084	No	
+row_101	GLP1R	GLP1R	glucagon-like peptide 1 receptor	12244	-6.0105462074279785	-0.043145318	No	
+row_102	INSL3	INSL3	insulin-like 3 (Leydig cell)	12642	-9.711732864379883	-0.042911865	No	
+row_103	GIP	GIP	gastric inhibitory polypeptide	12678	-10.201593399047852	-0.012890744	No	
+row_104	FSHR	FSHR	follicle stimulating hormone receptor	12679	-10.2068510055542	0.019875236	No	

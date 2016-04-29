@@ -1,0 +1,62 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ETFA	ETFA	electron-transfer-flavoprotein, alpha polypeptide (glutaric aciduria II)	1830	1.678248643875122	-0.08041964	Yes	
+row_1	NDUFAB1	NDUFAB1	NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1, 8kDa	2050	1.4454530477523804	-0.04426575	Yes	
+row_2	NDUFB3	NDUFB3	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 3, 12kDa	2442	1.1064884662628174	-0.033939514	Yes	
+row_3	NDUFS5	NDUFS5	NADH dehydrogenase (ubiquinone) Fe-S protein 5, 15kDa (NADH-coenzyme Q reductase)	2546	1.0163229703903198	-0.004558967	Yes	
+row_4	ETFB	ETFB	electron-transfer-flavoprotein, beta polypeptide	2580	0.9957575798034668	0.029502483	Yes	
+row_5	NDUFC2	NDUFC2	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa	2724	0.8911494016647339	0.05117201	Yes	
+row_6	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	2883	0.7973940372467041	0.068228	Yes	
+row_7	NDUFA3	NDUFA3	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 3, 9kDa	2986	0.7376244068145752	0.08743547	Yes	
+row_8	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	3040	0.7106070518493652	0.10945534	Yes	
+row_9	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	3045	0.709170937538147	0.1352285	Yes	
+row_10	COX8A	COX8A	cytochrome c oxidase subunit 8A (ubiquitous)	3063	0.6959266662597656	0.15950476	Yes	
+row_11	NDUFB8	NDUFB8	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 8, 19kDa	3103	0.6796494722366333	0.18147343	Yes	
+row_12	NDUFA4	NDUFA4	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4, 9kDa	3194	0.627843976020813	0.19757521	Yes	
+row_13	NDUFA5	NDUFA5	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 5, 13kDa	3205	0.6223658919334412	0.21968956	Yes	
+row_14	NDUFB4	NDUFB4	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 4, 15kDa	3213	0.6184486746788025	0.24189286	Yes	
+row_15	NDUFS2	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2, 49kDa (NADH-coenzyme Q reductase)	3220	0.614263653755188	0.2640199	Yes	
+row_16	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	3371	0.544820249080658	0.27240744	Yes	
+row_17	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	3419	0.5276404619216919	0.28816372	Yes	
+row_18	NDUFB9	NDUFB9	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 9, 22kDa	3525	0.47965767979621887	0.29764992	Yes	
+row_19	NDUFS7	NDUFS7	NADH dehydrogenase (ubiquinone) Fe-S protein 7, 20kDa (NADH-coenzyme Q reductase)	3528	0.4792640209197998	0.3151223	Yes	
+row_20	NDUFS3	NDUFS3	NADH dehydrogenase (ubiquinone) Fe-S protein 3, 30kDa (NADH-coenzyme Q reductase)	3564	0.465676486492157	0.32953158	Yes	
+row_21	NDUFS4	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	3567	0.4649527668952942	0.34647757	Yes	
+row_22	UQCRFS1	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1	3575	0.4622868001461029	0.36293712	Yes	
+row_23	COX6B1	COX6B1	cytochrome c oxidase subunit Vib polypeptide 1 (ubiquitous)	3631	0.4378340244293213	0.37476882	Yes	
+row_24	NDUFV3	NDUFV3	NADH dehydrogenase (ubiquinone) flavoprotein 3, 10kDa	3670	0.4163958430290222	0.3871325	Yes	
+row_25	NDUFV1	NDUFV1	NADH dehydrogenase (ubiquinone) flavoprotein 1, 51kDa	3906	0.33348357677459717	0.38114446	Yes	
+row_26	NDUFA2	NDUFA2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2, 8kDa	3945	0.3190816640853882	0.38992885	Yes	
+row_27	CYC1	CYC1	cytochrome c-1	3953	0.31630992889404297	0.40101925	Yes	
+row_28	UQCRC2	UQCRC2	ubiquinol-cytochrome c reductase core protein II	4008	0.3008435368537903	0.40789002	Yes	
+row_29	COX7B	COX7B	cytochrome c oxidase subunit VIIb	4087	0.2758913040161133	0.41197878	Yes	
+row_30	NDUFB10	NDUFB10	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 10, 22kDa	4144	0.2569209933280945	0.4170787	Yes	
+row_31	NDUFA9	NDUFA9	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 9, 39kDa	4175	0.2452329397201538	0.42376828	Yes	
+row_32	COX5B	COX5B	cytochrome c oxidase subunit Vb	4332	0.1919936239719391	0.41871253	Yes	
+row_33	NDUFA10	NDUFA10	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 10, 42kDa	4407	0.1674855500459671	0.41912475	Yes	
+row_34	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	4412	0.16687828302383423	0.42495197	Yes	
+row_35	NDUFB6	NDUFB6	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6, 17kDa	4470	0.15016771852970123	0.4260477	Yes	
+row_36	COX5A	COX5A	cytochrome c oxidase subunit Va	4590	0.11913580447435379	0.42118618	No	
+row_37	ETFDH	ETFDH	electron-transferring-flavoprotein dehydrogenase	4649	0.10544561594724655	0.42055935	No	
+row_38	COX6A1	COX6A1	cytochrome c oxidase subunit VIa polypeptide 1	4711	0.090632364153862	0.41915467	No	
+row_39	NDUFV2	NDUFV2	NADH dehydrogenase (ubiquinone) flavoprotein 2, 24kDa	4718	0.08951498568058014	0.42198104	No	
+row_40	CYCS	CYCS	cytochrome c, somatic	4919	0.03802182152867317	0.40784433	No	
+row_41	COX6C	COX6C	cytochrome c oxidase subunit VIc	5034	0.003464712994173169	0.3991167	No	
+row_42	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	5243	-0.04622587934136391	0.38466033	No	
+row_43	NDUFC1	NDUFC1	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 1, 6kDa	5256	-0.04921947792172432	0.38553855	No	
+row_44	NDUFA8	NDUFA8	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 8, 19kDa	5425	-0.08831709623336792	0.37573737	No	
+row_45	NDUFA1	NDUFA1	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 1, 7.5kDa	5433	-0.08997288346290588	0.3785029	No	
+row_46	COX7C	COX7C	cytochrome c oxidase subunit VIIc	5466	-0.0964880883693695	0.3795662	No	
+row_47	NDUFA7	NDUFA7	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 7, 14.5kDa	5475	-0.09948785603046417	0.38260403	No	
+row_48	NDUFA12	NDUFA12	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 12	5602	-0.1280999630689621	0.3775285	No	
+row_49	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	5697	-0.14720028638839722	0.37564108	No	
+row_50	NDUFA13	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	5738	-0.15627627074718475	0.378282	No	
+row_51	NDUFS6	NDUFS6	NADH dehydrogenase (ubiquinone) Fe-S protein 6, 13kDa (NADH-coenzyme Q reductase)	5885	-0.1883193850517273	0.37386787	No	
+row_52	COX4I1	COX4I1	cytochrome c oxidase subunit IV isoform 1	5927	-0.1971665322780609	0.37793508	No	
+row_53	NDUFB7	NDUFB7	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 7, 18kDa	6180	-0.24968060851097107	0.3675442	No	
+row_54	UQCRQ	UQCRQ	ubiquinol-cytochrome c reductase, complex III subunit VII, 9.5kDa	6484	-0.3183532655239105	0.3557177	No	
+row_55	NDUFA6	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa	6784	-0.3870609700679779	0.34672898	No	
+row_56	NDUFB5	NDUFB5	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 5, 16kDa	7055	-0.4485622048377991	0.34225497	No	
+row_57	NDUFA11	NDUFA11	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 11, 14.7kDa	7171	-0.4771251678466797	0.35087126	No	
+row_58	NDUFS8	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)	7998	-0.6854196190834045	0.31192124	No	
+row_59	NDUFB2	NDUFB2	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 2, 8kDa	8750	-0.926555871963501	0.28766608	No	
+row_60	COX7A2L	COX7A2L	cytochrome c oxidase subunit VIIa polypeptide 2 like	8965	-1.0128225088119507	0.30829585	No	

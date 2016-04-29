@@ -1,0 +1,75 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PAM	PAM	peptidylglycine alpha-amidating monooxygenase	1461	2.1079952716827393	-0.10059506	No	
+row_1	NEK6	NEK6	NIMA (never in mitosis gene a)-related kinase 6	1497	2.04868483543396	-0.09067816	No	
+row_2	TTN	TTN	titin	2053	1.4401241540908813	-0.12494778	No	
+row_3	CDKN2B	CDKN2B	cyclin-dependent kinase inhibitor 2B (p15, inhibits CDK4)	2104	1.4005683660507202	-0.12019542	No	
+row_4	DCTN3	DCTN3	dynactin 3 (p22)	2275	1.245913028717041	-0.12572765	No	
+row_5	CDC25B	CDC25B	cell division cycle 25B	2295	1.227555751800537	-0.11963222	No	
+row_6	ANLN	ANLN	anillin, actin binding protein	2350	1.1868563890457153	-0.116509266	No	
+row_7	SMC1A	SMC1A	structural maintenance of chromosomes 1A	3066	0.6952813863754272	-0.16781451	No	
+row_8	TRIAP1	TRIAP1	TP53 regulated inhibitor of apoptosis 1	3390	0.539038896560669	-0.18960388	No	
+row_9	PCBP4	PCBP4	poly(rC) binding protein 4	3496	0.49387720227241516	-0.19472137	No	
+row_10	CDC16	CDC16	CDC16 cell division cycle 16 homolog (S. cerevisiae)	3725	0.39346978068351746	-0.21002208	No	
+row_11	ANAPC5	ANAPC5	anaphase promoting complex subunit 5	4000	0.3035910129547119	-0.22945395	No	
+row_12	PIN1	PIN1	protein (peptidylprolyl cis/trans isomerase) NIMA-interacting 1	4107	0.2686607837677002	-0.23603857	No	
+row_13	NUMA1	NUMA1	nuclear mitotic apparatus protein 1	4405	0.16881698369979858	-0.2580902	No	
+row_14	ANAPC4	ANAPC4	anaphase promoting complex subunit 4	4487	0.14733533561229706	-0.2634794	No	
+row_15	CDC23	CDC23	CDC23 (cell division cycle 23, yeast, homolog)	4501	0.14257481694221497	-0.26361066	No	
+row_16	PRMT5	PRMT5	protein arginine methyltransferase 5	4639	0.107552669942379	-0.27359954	No	
+row_17	PKMYT1	PKMYT1	protein kinase, membrane associated tyrosine/threonine 1	4715	0.08985959738492966	-0.27887678	No	
+row_18	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	4795	0.06617257744073868	-0.28461117	No	
+row_19	PML	PML	promyelocytic leukemia	4877	0.04629367217421532	-0.2906237	No	
+row_20	ZWINT	ZWINT	ZW10 interactor	4921	0.03788639232516289	-0.29373342	No	
+row_21	NBN	NBN	nibrin	5119	-0.01631087437272072	-0.30895042	No	
+row_22	AKAP8	AKAP8	A kinase (PRKA) anchor protein 8	5128	-0.018866289407014847	-0.30945605	No	
+row_23	RAD17	RAD17	RAD17 homolog (S. pombe)	5177	-0.029494309797883034	-0.31300634	No	
+row_24	CDC27	CDC27	cell division cycle 27	5309	-0.05974048376083374	-0.3228236	No	
+row_25	CCNA2	CCNA2	cyclin A2	5352	-0.06791079044342041	-0.32567036	No	
+row_26	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	-0.33569223	No	
+row_27	ZW10	ZW10	ZW10, kinetochore associated, homolog (Drosophila)	5729	-0.15452833473682404	-0.35324448	No	
+row_28	SUGT1	SUGT1	SGT1, suppressor of G2 allele of SKP1 (S. cerevisiae)	6062	-0.224201500415802	-0.37767586	No	
+row_29	ANAPC11	ANAPC11	APC11 anaphase promoting complex subunit 11 homolog (yeast)	6308	-0.27605971693992615	-0.3950227	No	
+row_30	CD28	CD28	CD28 molecule	6346	-0.28763648867607117	-0.3961252	No	
+row_31	SMC3	SMC3	structural maintenance of chromosomes 3	6349	-0.28881406784057617	-0.394499	No	
+row_32	DCTN2	DCTN2	dynactin 2 (p50)	6394	-0.2968442440032959	-0.396089	No	
+row_33	TARDBP	TARDBP	TAR DNA binding protein	6682	-0.36513811349868774	-0.41615197	No	
+row_34	PPP5C	PPP5C	protein phosphatase 5, catalytic subunit	6720	-0.3732275366783142	-0.41672647	No	
+row_35	NOLC1	NOLC1	nucleolar and coiled-body phosphoprotein 1	6855	-0.40399521589279175	-0.42465332	No	
+row_36	RINT1	RINT1	RAD50 interactor 1	7408	-0.5335332751274109	-0.46428242	No	
+row_37	CHFR	CHFR	checkpoint with forkhead and ring finger domains	8007	-0.6886076927185059	-0.50653154	No	
+row_38	SSSCA1	SSSCA1	Sjogren's syndrome/scleroderma autoantigen 1	8313	-0.7799879312515259	-0.5254349	No	
+row_39	ANAPC10	ANAPC10	anaphase promoting complex subunit 10	8523	-0.8453293442726135	-0.5364708	No	
+row_40	RAN	RAN	RAN, member RAS oncogene family	8555	-0.8551557064056396	-0.53360575	No	
+row_41	MAD2L1	MAD2L1	MAD2 mitotic arrest deficient-like 1 (yeast)	8775	-0.9391726851463318	-0.5448402	No	
+row_42	NCAPH	NCAPH	non-SMC condensin I complex, subunit H	9038	-1.0430405139923096	-0.5587774	No	
+row_43	UBE2C	UBE2C	ubiquitin-conjugating enzyme E2C	9092	-1.0645991563796997	-0.55633086	No	
+row_44	TGFA	TGFA	transforming growth factor, alpha	9523	-1.2451547384262085	-0.58208394	No	
+row_45	BUB1B	BUB1B	BUB1 budding uninhibited by benzimidazoles 1 homolog beta (yeast)	10079	-1.524889349937439	-0.61583066	No	
+row_46	SMC4	SMC4	structural maintenance of chromosomes 4	10327	-1.6974539756774902	-0.6245644	Yes	
+row_47	KIF11	KIF11	kinesin family member 11	10345	-1.7094770669937134	-0.61534053	Yes	
+row_48	NUSAP1	NUSAP1	nucleolar and spindle associated protein 1	10480	-1.8027888536453247	-0.61463827	Yes	
+row_49	DDX11	DDX11	DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 11 (CHL1-like helicase homolog, S. cerevisiae)	10507	-1.8278782367706299	-0.6053837	Yes	
+row_50	BIRC5	BIRC5	baculoviral IAP repeat-containing 5 (survivin)	10568	-1.8844342231750488	-0.59842396	Yes	
+row_51	MAD2L2	MAD2L2	MAD2 mitotic arrest deficient-like 2 (yeast)	10596	-1.9086369276046753	-0.58874893	Yes	
+row_52	EREG	EREG	epiregulin	11038	-2.418100118637085	-0.60812145	Yes	
+row_53	EGF	EGF	epidermal growth factor (beta-urogastrone)	11049	-2.434933662414551	-0.5938779	Yes	
+row_54	KIF22	KIF22	kinesin family member 22	11142	-2.577209234237671	-0.5851326	Yes	
+row_55	RCC1	RCC1	regulator of chromosome condensation 1	11192	-2.6424777507781982	-0.57264113	Yes	
+row_56	TPX2	TPX2	TPX2, microtubule-associated, homolog (Xenopus laevis)	11385	-2.941720724105835	-0.56942254	Yes	
+row_57	NPM2	NPM2	nucleophosmin/nucleoplasmin, 2	11409	-2.993929147720337	-0.5527414	Yes	
+row_58	CIT	CIT	citron (rho-interacting, serine/threonine kinase 21)	11560	-3.2399227619171143	-0.54441756	Yes	
+row_59	BRSK1	BRSK1	BR serine/threonine kinase 1	11798	-3.821481704711914	-0.5392707	Yes	
+row_60	CENPE	CENPE	centromere protein E, 312kDa	11800	-3.8228132724761963	-0.5157656	Yes	
+row_61	ESPL1	ESPL1	extra spindle poles like 1 (S. cerevisiae)	12017	-4.666219234466553	-0.5037747	Yes	
+row_62	CDC25C	CDC25C	cell division cycle 25C	12028	-4.714576721191406	-0.4754681	Yes	
+row_63	NEK2	NEK2	NIMA (never in mitosis gene a)-related kinase 2	12052	-4.877878665924072	-0.44716492	Yes	
+row_64	KNTC1	KNTC1	kinetochore associated 1	12065	-4.918972969055176	-0.4177529	Yes	
+row_65	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.389258	Yes	
+row_66	CDCA5	CDCA5	cell division cycle associated 5	12185	-5.607900619506836	-0.36096105	Yes	
+row_67	AURKA	AURKA	aurora kinase A	12195	-5.706864356994629	-0.3264553	Yes	
+row_68	KIF15	KIF15	kinesin family member 15	12231	-5.889318943023682	-0.29284558	Yes	
+row_69	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	-0.25734076	Yes	
+row_70	TTK	TTK	TTK protein kinase	12302	-6.468929290771484	-0.21968894	Yes	
+row_71	KIF2C	KIF2C	kinesin family member 2C	12380	-7.086185932159424	-0.18196146	Yes	
+row_72	CETN1	CETN1	centrin, EF-hand protein, 1	12713	-10.584945678710938	-0.14247759	Yes	
+row_73	GML	GML	GPI anchored molecule like protein	12908	-25.868709564208984	0.0020216985	Yes	

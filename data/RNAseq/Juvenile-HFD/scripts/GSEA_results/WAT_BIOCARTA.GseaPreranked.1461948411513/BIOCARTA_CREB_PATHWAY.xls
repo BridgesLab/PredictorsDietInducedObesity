@@ -1,0 +1,26 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.1990307	Yes	
+row_1	CAMK2A	CAMK2A	calcium/calmodulin-dependent protein kinase (CaM kinase) II alpha	426	4.3841471672058105	0.33632562	Yes	
+row_2	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.40040588	Yes	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.4964522	Yes	
+row_4	CAMK2D	CAMK2D	calcium/calmodulin-dependent protein kinase (CaM kinase) II delta	2035	1.4578473567962646	0.4714469	No	
+row_5	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.485912	No	
+row_6	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.48433334	No	
+row_7	RPS6KA5	RPS6KA5	ribosomal protein S6 kinase, 90kDa, polypeptide 5	3376	0.5431713461875916	0.45944408	No	
+row_8	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.47203898	No	
+row_9	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.45986545	No	
+row_10	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.4727929	No	
+row_11	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.48093498	No	
+row_12	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.47123417	No	
+row_13	MAPK14	MAPK14	mitogen-activated protein kinase 14	4260	0.21614307165145874	0.4669389	No	
+row_14	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.4589235	No	
+row_15	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.46385074	No	
+row_16	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.4196537	No	
+row_17	CAMK2G	CAMK2G	calcium/calmodulin-dependent protein kinase (CaM kinase) II gamma	6258	-0.26650428771972656	0.333672	No	
+row_18	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.32412118	No	
+row_19	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.33143672	No	
+row_20	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.31375903	No	
+row_21	GNAS	GNAS	GNAS complex locus	7387	-0.5292483568191528	0.30626118	No	
+row_22	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.2600518	No	
+row_23	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	9420	-1.1979033946990967	0.22072235	No	
+row_24	CAMK2B	CAMK2B	calcium/calmodulin-dependent protein kinase (CaM kinase) II beta	9896	-1.4262335300445557	0.23532148	No	

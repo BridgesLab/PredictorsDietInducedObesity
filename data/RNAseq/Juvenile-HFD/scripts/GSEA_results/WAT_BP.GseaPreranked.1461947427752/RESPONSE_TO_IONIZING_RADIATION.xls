@@ -1,0 +1,10 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BRCC3	BRCC3	BRCA1/BRCA2-containing complex, subunit 3	4569	0.12328096479177475	-0.34482285	No	
+row_1	PML	PML	promyelocytic leukemia	4877	0.04629367217421532	-0.36532497	No	
+row_2	ATM	ATM	ataxia telangiectasia mutated (includes complementation groups A, C and D)	5490	-0.10220697522163391	-0.40549943	No	
+row_3	NHEJ1	NHEJ1	nonhomologous end-joining factor 1	5680	-0.14509329199790955	-0.40993977	No	
+row_4	LIG4	LIG4	ligase IV, DNA, ATP-dependent	6959	-0.42765042185783386	-0.47880158	No	
+row_5	XRCC4	XRCC4	X-ray repair complementing defective repair in Chinese hamster cells 4	7339	-0.5190368294715881	-0.47170097	No	
+row_6	TOPBP1	TOPBP1	topoisomerase (DNA) II binding protein 1	8008	-0.688626229763031	-0.4750581	No	
+row_7	BRSK1	BRSK1	BR serine/threonine kinase 1	11798	-3.821481704711914	-0.5000308	Yes	
+row_8	XRRA1	XRRA1	X-ray radiation resistance associated 1	12518	-8.377219200134277	0.032183208	Yes	

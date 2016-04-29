@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CS	CS	citrate synthase	1659	1.8877620697021484	0.011807414	Yes	
+row_1	IDH3A	IDH3A	isocitrate dehydrogenase 3 (NAD+) alpha	1688	1.852325439453125	0.14724994	Yes	
+row_2	DLD	DLD	dihydrolipoamide dehydrogenase	2227	1.2844957113265991	0.20102525	Yes	
+row_3	IDH3G	IDH3G	isocitrate dehydrogenase 3 (NAD+) gamma	2273	1.2470417022705078	0.29018486	Yes	
+row_4	ACO2	ACO2	aconitase 2, mitochondrial	2885	0.796634316444397	0.3020652	Yes	
+row_5	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	3040	0.7106070518493652	0.3429343	Yes	
+row_6	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	3045	0.709170937538147	0.3953093	Yes	
+row_7	MDH2	MDH2	malate dehydrogenase 2, NAD (mitochondrial)	3201	0.6235964894294739	0.42963693	Yes	
+row_8	IDH3B	IDH3B	isocitrate dehydrogenase 3 (NAD+) beta	3268	0.593414306640625	0.46861243	Yes	
+row_9	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	3419	0.5276404619216919	0.4961985	Yes	
+row_10	DLST	DLST	dihydrolipoamide S-succinyltransferase (E2 component of 2-oxo-glutarate complex)	3435	0.5187169313430786	0.533573	Yes	
+row_11	IDH2	IDH2	isocitrate dehydrogenase 2 (NADP+), mitochondrial	3698	0.40451017022132874	0.5433409	Yes	
+row_12	OGDH	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)	4027	0.29667699337005615	0.5399883	Yes	
+row_13	SUCLG2	SUCLG2	succinate-CoA ligase, GDP-forming, beta subunit	4077	0.27904823422431946	0.5569255	Yes	
+row_14	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	4412	0.16687828302383423	0.54346555	No	
+row_15	SUCLA2	SUCLA2	succinate-CoA ligase, ADP-forming, beta subunit	4784	0.07041479647159576	0.5199749	No	
+row_16	SUCLG1	SUCLG1	succinate-CoA ligase, GDP-forming, alpha subunit	7693	-0.6113077402114868	0.34025955	No	
+row_17	NNT	NNT	nicotinamide nucleotide transhydrogenase	8626	-0.8804277181625366	0.333514	No	

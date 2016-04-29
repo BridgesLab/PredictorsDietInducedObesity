@@ -1,0 +1,75 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL3	CCL3	chemokine (C-C motif) ligand 3	8	10.619974136352539	0.059545163	Yes	
+row_1	OSM	OSM	oncostatin M	28	8.360574722290039	0.105434455	Yes	
+row_2	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	44	7.617632865905762	0.14742565	Yes	
+row_3	CCL11	CCL11	chemokine (C-C motif) ligand 11	72	6.843034267425537	0.18409532	Yes	
+row_4	CSF2	CSF2	colony stimulating factor 2 (granulocyte-macrophage)	192	5.62690544128418	0.20672163	Yes	
+row_5	FGF10	FGF10	fibroblast growth factor 10	208	5.491081714630127	0.2366649	Yes	
+row_6	CCL24	CCL24	chemokine (C-C motif) ligand 24	317	4.8135247230529785	0.2555383	Yes	
+row_7	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	325	4.789604663848877	0.28212944	Yes	
+row_8	CXCL13	CXCL13	chemokine (C-X-C motif) ligand 13 (B-cell chemoattractant)	371	4.580407619476318	0.30458066	Yes	
+row_9	PF4	PF4	platelet factor 4 (chemokine (C-X-C motif) ligand 4)	419	4.396982669830322	0.3258372	Yes	
+row_10	CCL4	CCL4	chemokine (C-C motif) ligand 4	432	4.356210231781006	0.34958413	Yes	
+row_11	CCL2	CCL2	chemokine (C-C motif) ligand 2	630	3.718816041946411	0.35533538	Yes	
+row_12	CCL7	CCL7	chemokine (C-C motif) ligand 7	767	3.398691177368164	0.36401597	Yes	
+row_13	FIGF	FIGF	c-fos induced growth factor (vascular endothelial growth factor D)	820	3.2682435512542725	0.3784889	Yes	
+row_14	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.3779099	Yes	
+row_15	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.384015	Yes	
+row_16	IL2	IL2	interleukin 2	1167	2.549928665161133	0.3968287	Yes	
+row_17	XCL1	XCL1	chemokine (C motif) ligand 1	1174	2.543081521987915	0.41076994	Yes	
+row_18	IFNG	IFNG	interferon, gamma	1283	2.3843295574188232	0.41588083	Yes	
+row_19	CCL5	CCL5	chemokine (C-C motif) ligand 5	1356	2.2674052715301514	0.42312843	Yes	
+row_20	CXCL2	CXCL2	chemokine (C-X-C motif) ligand 2	1677	1.8610798120498657	0.40879092	Yes	
+row_21	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	1705	1.835951805114746	0.41709307	Yes	
+row_22	TNFRSF11B	TNFRSF11B	tumor necrosis factor receptor superfamily, member 11b (osteoprotegerin)	1759	1.7588881254196167	0.42293704	Yes	
+row_23	CXCL12	CXCL12	chemokine (C-X-C motif) ligand 12 (stromal cell-derived factor 1)	1775	1.7360824346542358	0.43160644	Yes	
+row_24	IL25	IL25	interleukin 25	1800	1.7096071243286133	0.43942606	Yes	
+row_25	CCL8	CCL8	chemokine (C-C motif) ligand 8	1868	1.6410257816314697	0.44351372	Yes	
+row_26	CSF1	CSF1	colony stimulating factor 1 (macrophage)	1932	1.568454384803772	0.4475012	Yes	
+row_27	CXCL16	CXCL16	chemokine (C-X-C motif) ligand 16	1977	1.508003830909729	0.45262358	Yes	
+row_28	CCL19	CCL19	chemokine (C-C motif) ligand 19	2324	1.2056140899658203	0.43255094	No	
+row_29	BMP4	BMP4	bone morphogenetic protein 4	2502	1.051558256149292	0.42474598	No	
+row_30	CCL22	CCL22	chemokine (C-C motif) ligand 22	2746	0.8748344779014587	0.410808	No	
+row_31	IL7	IL7	interleukin 7	2937	0.7677170038223267	0.40038413	No	
+row_32	CNTF	CNTF	ciliary neurotrophic factor	3006	0.7249372601509094	0.39920393	No	
+row_33	SDCBP	SDCBP	syndecan binding protein (syntenin)	3917	0.33096688985824585	0.33032247	No	
+row_34	SPRED1	SPRED1	sprouty-related, EVH1 domain containing 1	4023	0.2976662814617157	0.32384467	No	
+row_35	GLMN	GLMN	glomulin, FKBP associated protein	4246	0.21971464157104492	0.30782798	No	
+row_36	INHBB	INHBB	inhibin, beta B (activin AB beta polypeptide)	4685	0.09844513982534409	0.27432927	No	
+row_37	TRIP6	TRIP6	thyroid hormone receptor interactor 6	4710	0.09122946113348007	0.27298	No	
+row_38	IL27	IL27	interleukin 27	4732	0.08579570055007935	0.27183324	No	
+row_39	CXCL10	CXCL10	chemokine (C-X-C motif) ligand 10	4982	0.01665564253926277	0.25256675	No	
+row_40	CCL28	CCL28	chemokine (C-C motif) ligand 28	5198	-0.035608477890491486	0.23605129	No	
+row_41	BRE	BRE	brain and reproductive organ-expressed (TNFRSF1A modulator)	5722	-0.15309417247772217	0.19625306	No	
+row_42	SPRED2	SPRED2	sprouty-related, EVH1 domain containing 2	5908	-0.19292715191841125	0.18296151	No	
+row_43	IL21	IL21	interleukin 21	5932	-0.19806931912899017	0.18229532	No	
+row_44	YARS	YARS	tyrosyl-tRNA synthetase	6219	-0.25874394178390503	0.16152345	No	
+row_45	CXCL14	CXCL14	chemokine (C-X-C motif) ligand 14	6364	-0.2918287217617035	0.15198016	No	
+row_46	ERBB2IP	ERBB2IP	erbb2 interacting protein	6478	-0.3160064220428467	0.14498423	No	
+row_47	IL17F	IL17F	interleukin 17F	6928	-0.4187280833721161	0.11244478	No	
+row_48	TGFB2	TGFB2	transforming growth factor, beta 2	7236	-0.4911147356033325	0.09135656	No	
+row_49	CDK5	CDK5	cyclin-dependent kinase 5	7877	-0.6545014381408691	0.045301776	No	
+row_50	CCL1	CCL1	chemokine (C-C motif) ligand 1	8106	-0.7126410007476807	0.03161121	No	
+row_51	CTF1	CTF1	cardiotrophin 1	8304	-0.7760283350944519	0.020690154	No	
+row_52	INHBA	INHBA	inhibin, beta A (activin A, activin AB alpha polypeptide)	8349	-0.7916781902313232	0.021754192	No	
+row_53	CXCL1	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	8459	-0.8250575065612793	0.0179533	No	
+row_54	CX3CL1	CX3CL1	chemokine (C-X3-C motif) ligand 1	8859	-0.9686349034309387	-0.007582948	No	
+row_55	CCL25	CCL25	chemokine (C-C motif) ligand 25	9112	-1.0717092752456665	-0.021105327	No	
+row_56	ERBB2	ERBB2	v-erb-b2 erythroblastic leukemia viral oncogene homolog 2, neuro/glioblastoma derived oncogene homolog (avian)	9716	-1.3429230451583862	-0.060382962	No	
+row_57	MIF	MIF	macrophage migration inhibitory factor (glycosylation-inhibiting factor)	9803	-1.3779851198196411	-0.059262905	No	
+row_58	IL17C	IL17C	interleukin 17C	10732	-2.0494930744171143	-0.11980768	No	
+row_59	GDF15	GDF15	growth differentiation factor 15	10789	-2.1104512214660645	-0.11220522	No	
+row_60	CSF3	CSF3	colony stimulating factor 3 (granulocyte)	10837	-2.165930986404419	-0.103588656	No	
+row_61	CKLF	CKLF	chemokine-like factor	10867	-2.1972787380218506	-0.093394905	No	
+row_62	INHA	INHA	inhibin, alpha	11152	-2.5899484157562256	-0.10080388	No	
+row_63	MUC4	MUC4	mucin 4, cell surface associated	11350	-2.8839833736419678	-0.09978237	No	
+row_64	SCG2	SCG2	secretogranin II (chromogranin C)	11362	-2.90871524810791	-0.08415841	No	
+row_65	IL1RN	IL1RN	interleukin 1 receptor antagonist	11402	-2.975566864013672	-0.07033284	No	
+row_66	CXCL11	CXCL11	chemokine (C-X-C motif) ligand 11	11476	-3.0773634910583496	-0.05857419	No	
+row_67	IL5	IL5	interleukin 5 (colony-stimulating factor, eosinophil)	11583	-3.273010730743408	-0.048272997	No	
+row_68	IL20	IL20	interleukin 20	11634	-3.3663864135742188	-0.03308854	No	
+row_69	CCL17	CCL17	chemokine (C-C motif) ligand 17	11819	-3.920527935028076	-0.025183707	No	
+row_70	IL17B	IL17B	interleukin 17B	11842	-3.9914467334747314	-0.004280863	No	
+row_71	CXCL5	CXCL5	chemokine (C-X-C motif) ligand 5	12086	-5.010012149810791	0.005208905	No	
+row_72	IL19	IL19	interleukin 19	12087	-5.010367393493652	0.033595018	No	
+row_73	CD40LG	CD40LG	CD40 ligand (TNF superfamily, member 5, hyper-IgM syndrome)	12192	-5.680918216705322	0.057693653	No	

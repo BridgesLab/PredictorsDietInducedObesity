@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CCL11	CCL11	chemokine (C-C motif) ligand 11	72	6.843034267425537	0.1949222	Yes	
+row_1	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.2696907	Yes	
+row_2	GNGT1	GNGT1	guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1	766	3.4006450176239014	0.3548466	Yes	
+row_3	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.42548877	Yes	
+row_4	ROCK2	ROCK2	Rho-associated, coiled-coil containing protein kinase 2	1036	2.799757719039917	0.502177	Yes	
+row_5	CCR3	CCR3	chemokine (C-C motif) receptor 3	1315	2.33581280708313	0.54908663	Yes	
+row_6	PLCB1	PLCB1	phospholipase C, beta 1 (phosphoinositide-specific)	1408	2.1947224140167236	0.60626644	Yes	
+row_7	NOX1	NOX1	NADPH oxidase 1	2088	1.4179115295410156	0.595228	Yes	
+row_8	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.62969255	Yes	
+row_9	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.6455178	Yes	
+row_10	GNAQ	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide	2861	0.8089718818664551	0.6325906	No	
+row_11	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.62045664	No	
+row_12	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.6297265	No	
+row_13	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.60568994	No	
+row_14	LIMK1	LIMK1	LIM domain kinase 1	3820	0.3641086220741272	0.6141898	No	
+row_15	CFL1	CFL1	cofilin 1 (non-muscle)	4716	0.08972721546888351	0.5475088	No	
+row_16	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	4796	0.06615310162305832	0.5433292	No	
+row_17	PPP1R12B	PPP1R12B	protein phosphatase 1, regulatory (inhibitor) subunit 12B	5272	-0.051547009497880936	0.50805485	No	
+row_18	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.50499904	No	
+row_19	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.41703472	No	
+row_20	GNAS	GNAS	GNAS complex locus	7387	-0.5292483568191528	0.37213722	No	
+row_21	PIK3C2G	PIK3C2G	phosphoinositide-3-kinase, class 2, gamma polypeptide	10644	-1.957452416419983	0.17734076	No	

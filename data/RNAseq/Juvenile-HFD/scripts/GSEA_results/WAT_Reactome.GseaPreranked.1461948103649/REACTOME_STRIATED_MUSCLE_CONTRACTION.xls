@@ -1,0 +1,28 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MYL1	MYL1	myosin, light chain 1, alkali; skeletal, fast	90	6.579993724822998	0.07942666	Yes	
+row_1	TNNC2	TNNC2	troponin C type 2 (fast)	91	6.574105262756348	0.16574842	Yes	
+row_2	TNNI2	TNNI2	troponin I type 2 (skeletal, fast)	231	5.331854820251465	0.22499019	Yes	
+row_3	VIM	VIM	vimentin	309	4.8616814613342285	0.28286156	Yes	
+row_4	MYBPC2	MYBPC2	myosin binding protein C, fast type	353	4.656154632568359	0.34066826	Yes	
+row_5	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	401	4.485644340515137	0.39592618	Yes	
+row_6	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.43332478	Yes	
+row_7	TCAP	TCAP	titin-cap (telethonin)	640	3.6933796405792236	0.47709522	Yes	
+row_8	NEB	NEB	nebulin	831	3.2423746585845947	0.5049499	Yes	
+row_9	MYH8	MYH8	myosin, heavy chain 8, skeletal muscle, perinatal	1858	1.6530399322509766	0.44716966	No	
+row_10	TPM4	TPM4	tropomyosin 4	1969	1.5158218145370483	0.45855144	No	
+row_11	MYBPC1	MYBPC1	myosin binding protein C, slow type	2568	1.003463864326477	0.42539963	No	
+row_12	MYL4	MYL4	myosin, light chain 4, alkali; atrial, embryonic	2982	0.7406972646713257	0.40312976	No	
+row_13	DES	DES	desmin	3091	0.6845545768737793	0.40375143	No	
+row_14	TNNC1	TNNC1	troponin C type 1 (slow)	3107	0.6778305172920227	0.41148967	No	
+row_15	TNNI1	TNNI1	troponin I type 1 (skeletal, slow)	3164	0.6413509845733643	0.41557258	No	
+row_16	TPM2	TPM2	tropomyosin 2 (beta)	3785	0.37337782979011536	0.37244302	No	
+row_17	TPM3	TPM3	tropomyosin 3	3790	0.3719484210014343	0.37701702	No	
+row_18	TNNT1	TNNT1	troponin T type 1 (skeletal, slow)	4057	0.28433138132095337	0.3601431	No	
+row_19	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	4564	0.12503086030483246	0.3225843	No	
+row_20	ACTN2	ACTN2	actinin, alpha 2	7366	-0.5260145664215088	0.112493984	No	
+row_21	TMOD1	TMOD1	tropomodulin 1	8901	-0.9828869104385376	0.0065588234	No	
+row_22	TPM1	TPM1	tropomyosin 1 (alpha)	9053	-1.0482808351516724	0.008625178	No	
+row_23	TNNT2	TNNT2	troponin T type 2 (cardiac)	9905	-1.4304900169372559	-0.038519777	No	
+row_24	TNNI3	TNNI3	troponin I type 3 (cardiac)	11167	-2.6064982414245605	-0.10198632	No	
+row_25	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	12330	-6.7235260009765625	-0.10372427	No	
+row_26	MYH3	MYH3	myosin, heavy chain 3, skeletal muscle, embryonic	12786	-11.457197189331055	0.011465815	No	

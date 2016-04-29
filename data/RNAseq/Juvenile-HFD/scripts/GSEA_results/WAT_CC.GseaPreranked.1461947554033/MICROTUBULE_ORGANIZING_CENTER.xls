@@ -1,0 +1,56 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NIN	NIN	ninein (GSK3B interacting protein)	1188	2.516292095184326	-0.07237056	No	
+row_1	PKD2	PKD2	polycystic kidney disease 2 (autosomal dominant)	1806	1.7044423818588257	-0.106818154	No	
+row_2	APC	APC	adenomatosis polyposis coli	3325	0.5659037828445435	-0.22020763	No	
+row_3	CDC16	CDC16	CDC16 cell division cycle 16 homolog (S. cerevisiae)	3725	0.39346978068351746	-0.24807955	No	
+row_4	NDE1	NDE1	nudE nuclear distribution gene E homolog 1 (A. nidulans)	4217	0.2312583029270172	-0.28437495	No	
+row_5	MAP3K11	MAP3K11	mitogen-activated protein kinase kinase kinase 11	4861	0.04998314753174782	-0.33390272	No	
+row_6	CEP250	CEP250	centrosomal protein 250kDa	5109	-0.014172712340950966	-0.35296783	No	
+row_7	CDC27	CDC27	cell division cycle 27	5309	-0.05974048376083374	-0.3679465	No	
+row_8	KPTN	KPTN	kaptin (actin binding protein)	5326	-0.062320493161678314	-0.36869675	No	
+row_9	DCTN4	DCTN4	dynactin 4 (p62)	5343	-0.06708453595638275	-0.36940935	No	
+row_10	RABGAP1	RABGAP1	RAB GTPase activating protein 1	5504	-0.10483456403017044	-0.38100407	No	
+row_11	ALS2	ALS2	amyotrophic lateral sclerosis 2 (juvenile)	5521	-0.10781759023666382	-0.38139513	No	
+row_12	LCK	LCK	lymphocyte-specific protein tyrosine kinase	5685	-0.1461292952299118	-0.39289674	No	
+row_13	CETN3	CETN3	centrin, EF-hand protein, 3 (CDC31 homolog, yeast)	6029	-0.21937476098537445	-0.41779527	No	
+row_14	TUBGCP5	TUBGCP5	tubulin, gamma complex associated protein 5	6300	-0.27368631958961487	-0.43659732	No	
+row_15	DCTN2	DCTN2	dynactin 2 (p50)	6394	-0.2968442440032959	-0.44147432	No	
+row_16	BBS4	BBS4	Bardet-Biedl syndrome 4	6569	-0.33963802456855774	-0.45230228	No	
+row_17	TUBGCP3	TUBGCP3	tubulin, gamma complex associated protein 3	6617	-0.3509044945240021	-0.45318106	No	
+row_18	UXT	UXT	ubiquitously-expressed transcript	6815	-0.3944959044456482	-0.46536162	No	
+row_19	MARK4	MARK4	MAP/microtubule affinity-regulating kinase 4	6841	-0.4015306532382965	-0.46413267	No	
+row_20	PCM1	PCM1	pericentriolar material 1	7372	-0.5267363786697388	-0.50112325	No	
+row_21	TUBG1	TUBG1	tubulin, gamma 1	7459	-0.5476107001304626	-0.50347704	No	
+row_22	NUDT21	NUDT21	nudix (nucleoside diphosphate linked moiety X)-type motif 21	7522	-0.5650062561035156	-0.50383013	No	
+row_23	NPM1	NPM1	nucleophosmin (nucleolar phosphoprotein B23, numatrin)	7835	-0.642658531665802	-0.5229801	No	
+row_24	CKAP5	CKAP5	cytoskeleton associated protein 5	7881	-0.6549561619758606	-0.5213032	No	
+row_25	PCGF5	PCGF5	polycomb group ring finger 5	7935	-0.667499840259552	-0.5201484	No	
+row_26	AKAP9	AKAP9	A kinase (PRKA) anchor protein (yotiao) 9	7973	-0.6775147318840027	-0.51767224	No	
+row_27	SAC3D1	SAC3D1	SAC3 domain containing 1	8276	-0.7660059928894043	-0.535072	No	
+row_28	PPP4R2	PPP4R2	protein phosphatase 4, regulatory subunit 2	8382	-0.8011322617530823	-0.53689945	No	
+row_29	CNTROB	CNTROB	centrobin, centrosomal BRCA2 interacting protein	8897	-0.9815424680709839	-0.5690573	No	
+row_30	CLASP1	CLASP1	cytoplasmic linker associated protein 1	8933	-0.9937254786491394	-0.5639295	No	
+row_31	TUBGCP6	TUBGCP6	tubulin, gamma complex associated protein 6	9166	-1.091439127922058	-0.5733253	No	
+row_32	TUBD1	TUBD1	tubulin, delta 1	9422	-1.1997597217559814	-0.5836516	No	
+row_33	CROCC	CROCC	ciliary rootlet coiled-coil, rootletin	10083	-1.5267704725265503	-0.6228404	Yes	
+row_34	ABCA2	ABCA2	ATP-binding cassette, sub-family A (ABC1), member 2	10133	-1.5620498657226562	-0.61431277	Yes	
+row_35	TUBE1	TUBE1	tubulin, epsilon 1	10380	-1.7291443347930908	-0.619761	Yes	
+row_36	CEP57	CEP57	centrosomal protein 57kDa	10464	-1.790210247039795	-0.6120719	Yes	
+row_37	BIRC5	BIRC5	baculoviral IAP repeat-containing 5 (survivin)	10568	-1.8844342231750488	-0.60519165	Yes	
+row_38	PKHD1	PKHD1	polycystic kidney and hepatic disease 1 (autosomal recessive)	10924	-2.2629072666168213	-0.6148887	Yes	
+row_39	BRCA2	BRCA2	breast cancer 2, early onset	11103	-2.5121676921844482	-0.6088757	Yes	
+row_40	CDK5RAP2	CDK5RAP2	CDK5 regulatory subunit associated protein 2	11163	-2.6033477783203125	-0.5929037	Yes	
+row_41	KATNB1	KATNB1	katanin p80 (WD repeat containing) subunit B 1	11190	-2.6414291858673096	-0.5740689	Yes	
+row_42	CEP63	CEP63	centrosomal protein 63kDa	11241	-2.7026331424713135	-0.55661434	Yes	
+row_43	CEP290	CEP290	centrosomal protein 290kDa	11488	-3.089071273803711	-0.5513263	Yes	
+row_44	ALMS1	ALMS1	Alstrom syndrome 1	11724	-3.59305739402771	-0.5412054	Yes	
+row_45	TOP2A	TOP2A	topoisomerase (DNA) II alpha 170kDa	11760	-3.699307918548584	-0.5147177	Yes	
+row_46	SASS6	SASS6	spindle assembly 6 homolog (C. elegans)	11985	-4.514551162719727	-0.4964678	Yes	
+row_47	ESPL1	ESPL1	extra spindle poles like 1 (S. cerevisiae)	12017	-4.666219234466553	-0.46203607	Yes	
+row_48	NEK2	NEK2	NIMA (never in mitosis gene a)-related kinase 2	12052	-4.877878665924072	-0.42616624	Yes	
+row_49	PLK1	PLK1	polo-like kinase 1 (Drosophila)	12103	-5.085412979125977	-0.38990024	Yes	
+row_50	KIF15	KIF15	kinesin family member 15	12231	-5.889318943023682	-0.35326585	Yes	
+row_51	BUB1	BUB1	BUB1 budding uninhibited by benzimidazoles 1 homolog (yeast)	12272	-6.259537696838379	-0.30695403	Yes	
+row_52	AURKC	AURKC	aurora kinase C	12594	-9.179582595825195	-0.259406	Yes	
+row_53	CETN1	CETN1	centrin, EF-hand protein, 1	12713	-10.584945678710938	-0.18500212	Yes	
+row_54	CTAG2	CTAG2	cancer/testis antigen 2	12905	-25.59715461730957	0.0022515226	Yes	

@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.20055106	Yes	
+row_1	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.21132533	Yes	
+row_2	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.31312567	Yes	
+row_3	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.37175906	Yes	
+row_4	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	2820	0.83323734998703	0.45362318	Yes	
+row_5	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.4807593	Yes	
+row_6	ILK	ILK	integrin-linked kinase	3752	0.3838249742984772	0.48002154	Yes	
+row_7	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5142164	Yes	
+row_8	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.48014164	No	
+row_9	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.4950413	No	
+row_10	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.5092614	No	
+row_11	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.5122696	No	
+row_12	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.4786529	No	
+row_13	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.40642074	No	
+row_14	BCAR1	BCAR1	breast cancer anti-estrogen resistance 1	7351	-0.5213844180107117	0.37855792	No	
+row_15	PDK2	PDK2	pyruvate dehydrogenase kinase, isozyme 2	7412	-0.535615861415863	0.42743257	No	

@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.12969902	Yes	
+row_1	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.22055459	Yes	
+row_2	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.32137537	Yes	
+row_3	CDK5R1	CDK5R1	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	1941	1.5580180883407593	0.33322653	Yes	
+row_4	WASF1	WASF1	WAS protein family, member 1	2283	1.2351975440979004	0.36226282	Yes	
+row_5	VAV1	VAV1	vav 1 oncogene	2297	1.2255312204360962	0.41626793	Yes	
+row_6	PLD1	PLD1	phospholipase D1, phosphatidylcholine-specific	2641	0.9558916091918945	0.4326118	Yes	
+row_7	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	2768	0.8617117404937744	0.46153414	Yes	
+row_8	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.49694112	Yes	
+row_9	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.46952724	No	
+row_10	LIMK1	LIMK1	LIM domain kinase 1	3820	0.3641086220741272	0.45744824	No	
+row_11	RALBP1	RALBP1	ralA binding protein 1	4588	0.12003476917743683	0.40343428	No	
+row_12	CFL1	CFL1	cofilin 1 (non-muscle)	4716	0.08972721546888351	0.39762616	No	
+row_13	PPP1R12B	PPP1R12B	protein phosphatase 1, regulatory (inhibitor) subunit 12B	5272	-0.051547009497880936	0.35695675	No	
+row_14	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	5419	-0.08697907626628876	0.3495538	No	
+row_15	TRIO	TRIO	triple functional domain (PTPRF interacting)	6391	-0.29583829641342163	0.28763208	No	
+row_16	ARFIP2	ARFIP2	ADP-ribosylation factor interacting protein 2 (arfaptin 2)	6762	-0.3815796375274658	0.276105	No	
+row_17	MYLK	MYLK	myosin, light chain kinase	7465	-0.5491385459899902	0.24638683	No	
+row_18	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.24956653	No	
+row_19	CDK5	CDK5	cyclin-dependent kinase 5	7877	-0.6545014381408691	0.27244034	No	
+row_20	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	8494	-0.8370139598846436	0.26230487	No	
+row_21	NCF2	NCF2	neutrophil cytosolic factor 2 (65kDa, chronic granulomatous disease, autosomal 2)	8528	-0.8466670513153076	0.2977545	No	
+row_22	CHN1	CHN1	chimerin (chimaerin) 1	8852	-0.9668712019920349	0.31614015	No	

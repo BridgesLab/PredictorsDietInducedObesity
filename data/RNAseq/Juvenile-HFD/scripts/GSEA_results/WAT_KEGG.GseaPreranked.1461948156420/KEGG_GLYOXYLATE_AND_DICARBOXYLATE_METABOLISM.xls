@@ -1,0 +1,17 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CS	CS	citrate synthase	1659	1.8877620697021484	-0.054254353	No	
+row_1	ACO2	ACO2	aconitase 2, mitochondrial	2885	0.796634316444397	-0.11777997	No	
+row_2	MDH2	MDH2	malate dehydrogenase 2, NAD (mitochondrial)	3201	0.6235964894294739	-0.11766453	No	
+row_3	MDH1	MDH1	malate dehydrogenase 1, NAD (soluble)	4755	0.0795341208577156	-0.23475055	No	
+row_4	ACO1	ACO1	aconitase 1, soluble	4900	0.041840098798274994	-0.24425323	No	
+row_5	HYI	HYI	hydroxypyruvate isomerase homolog (E. coli)	4987	0.014916029758751392	-0.25032413	No	
+row_6	MTHFD2L	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2-like	7096	-0.45880818367004395	-0.39547026	No	
+row_7	GRHPR	GRHPR	glyoxylate reductase/hydroxypyruvate reductase	8697	-0.9069461226463318	-0.48368925	No	
+row_8	MTHFD1	MTHFD1	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1, methenyltetrahydrofolate cyclohydrolase, formyltetrahydrofolate synthetase	9567	-1.2650456428527832	-0.50125694	Yes	
+row_9	MTHFD2	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase	10104	-1.5391852855682373	-0.48227897	Yes	
+row_10	HAO1	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	10428	-1.7625646591186523	-0.43803814	Yes	
+row_11	GLYCTK	GLYCTK	-	10439	-1.7719022035598755	-0.36920264	Yes	
+row_12	AFMID	AFMID	arylformamidase	11139	-2.573106527328491	-0.3222239	Yes	
+row_13	MTHFD1L	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like	11221	-2.6737966537475586	-0.22345304	Yes	
+row_14	PGP	PGP	phosphoglycolate phosphatase	11285	-2.7697393894195557	-0.119519755	Yes	
+row_15	HAO2	HAO2	hydroxyacid oxidase 2 (long chain)	12280	-6.289483070373535	0.050623063	Yes	

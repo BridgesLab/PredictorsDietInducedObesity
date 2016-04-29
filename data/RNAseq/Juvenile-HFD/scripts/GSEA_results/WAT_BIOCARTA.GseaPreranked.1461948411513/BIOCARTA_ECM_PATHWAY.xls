@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GSN	GSN	gelsolin (amyloidosis, Finnish type)	234	5.3113298416137695	0.17529215	Yes	
+row_1	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	578	3.886622190475464	0.29026106	Yes	
+row_2	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.35733083	Yes	
+row_3	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.4368411	Yes	
+row_4	ITGA1	ITGA1	integrin, alpha 1	1861	1.6487354040145874	0.44499093	Yes	
+row_5	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.47144866	Yes	
+row_6	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.49549824	Yes	
+row_7	FYN	FYN	FYN oncogene related to SRC, FGR, YES	2505	1.0475741624832153	0.52458483	Yes	
+row_8	TLN1	TLN1	talin 1	2636	0.9600453972816467	0.5494772	Yes	
+row_9	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.56751025	Yes	
+row_10	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	2820	0.83323734998703	0.596459	Yes	
+row_11	PTK2	PTK2	PTK2 protein tyrosine kinase 2	3246	0.600812554359436	0.58542275	Yes	
+row_12	ROCK1	ROCK1	Rho-associated, coiled-coil containing protein kinase 1	3252	0.5981104969978333	0.60681605	Yes	
+row_13	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.62053174	Yes	
+row_14	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.5991371	No	
+row_15	ARHGAP5	ARHGAP5	Rho GTPase activating protein 5	3828	0.36109548807144165	0.6094985	No	
+row_16	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.555655	No	
+row_17	PFN1	PFN1	profilin 1	4683	0.09913177788257599	0.55144274	No	
+row_18	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.50323164	No	
+row_19	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.41774458	No	
+row_20	MYLK	MYLK	myosin, light chain kinase	7465	-0.5491385459899902	0.3712919	No	
+row_21	PXN	PXN	paxillin	7542	-0.5692581534385681	0.38613576	No	
+row_22	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	8576	-0.8617983460426331	0.33751547	No	

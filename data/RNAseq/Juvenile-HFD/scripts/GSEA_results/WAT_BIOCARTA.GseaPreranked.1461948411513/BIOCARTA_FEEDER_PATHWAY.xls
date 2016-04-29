@@ -1,0 +1,10 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PYGM	PYGM	phosphorylase, glycogen; muscle (McArdle syndrome, glycogen storage disease type V)	996	2.8760132789611816	0.09130757	No	
+row_1	PYGL	PYGL	phosphorylase, glycogen; liver (Hers disease, glycogen storage disease type VI)	2900	0.7893278002738953	-0.009707893	No	
+row_2	PGM1	PGM1	phosphoglucomutase 1	3260	0.5957304239273071	-0.002607362	No	
+row_3	TPI1	TPI1	triosephosphate isomerase 1	6677	-0.36399412155151367	-0.24557273	No	
+row_4	LCT	LCT	lactase	9888	-1.4220863580703735	-0.4106606	Yes	
+row_5	KHK	KHK	ketohexokinase (fructokinase)	10618	-1.9336553812026978	-0.35386252	Yes	
+row_6	MPI	MPI	mannose phosphate isomerase	10624	-1.9361974000930786	-0.24090451	Yes	
+row_7	TREH	TREH	trehalase (brush-border membrane glycoprotein)	11378	-2.934267044067383	-0.12738745	Yes	
+row_8	HK1	HK1	hexokinase 1	11911	-4.231090068817139	0.079142846	Yes	

@@ -1,0 +1,15 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TSHB	TSHB	thyroid stimulating hormone, beta	162	5.8335442543029785	0.1766858	No	
+row_1	AANAT	AANAT	arylalkylamine N-acetyltransferase	3401	0.5360555052757263	-0.056525897	No	
+row_2	DIO3	DIO3	deiodinase, iodothyronine, type III	4370	0.18049271404743195	-0.12558803	No	
+row_3	DIO2	DIO2	deiodinase, iodothyronine, type II	9183	-1.0978648662567139	-0.46239343	Yes	
+row_4	SLC5A5	SLC5A5	solute carrier family 5 (sodium iodide symporter), member 5	9411	-1.1953749656677246	-0.4411872	Yes	
+row_5	DIO1	DIO1	deiodinase, iodothyronine, type I	10016	-1.4938571453094482	-0.43947634	Yes	
+row_6	TPO	TPO	thyroid peroxidase	10017	-1.4945436716079712	-0.39099762	Yes	
+row_7	DBH	DBH	dopamine beta-hydroxylase (dopamine beta-monooxygenase)	10425	-1.7617051601409912	-0.36535203	Yes	
+row_8	IYD	IYD	iodotyrosine deiodinase	10607	-1.9196008443832397	-0.31709388	Yes	
+row_9	DDC	DDC	dopa decarboxylase (aromatic L-amino acid decarboxylase)	10843	-2.1710727214813232	-0.26485792	Yes	
+row_10	TPH1	TPH1	tryptophan hydroxylase 1 (tryptophan 5-monooxygenase)	11107	-2.523453712463379	-0.20335874	Yes	
+row_11	TH	TH	tyrosine hydroxylase	11628	-3.3477184772491455	-0.13501288	Yes	
+row_12	PNMT	PNMT	phenylethanolamine N-methyltransferase	11638	-3.3690011501312256	-0.026428632	Yes	
+row_13	TPH2	TPH2	tryptophan hydroxylase 2	11818	-3.9045703411102295	0.08637107	Yes	

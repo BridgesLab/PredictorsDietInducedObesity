@@ -1,0 +1,32 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MGAT4A	MGAT4A	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme A	819	3.2685036659240723	-0.0024915691	No	
+row_1	MAN1C1	MAN1C1	mannosidase, alpha, class 1C, member 1	1590	1.9462100267410278	-0.025854545	No	
+row_2	B4GALT6	B4GALT6	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 6	1610	1.9274623394012451	0.008631732	No	
+row_3	MGAT1	MGAT1	mannosyl (alpha-1,3-)-glycoprotein beta-1,2-N-acetylglucosaminyltransferase	2480	1.0701299905776978	-0.038747407	No	
+row_4	MGAT4B	MGAT4B	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme B	2588	0.9894879460334778	-0.02857955	No	
+row_5	MAN2A1	MAN2A1	mannosidase, alpha, class 2A, member 1	3149	0.649465799331665	-0.059860528	No	
+row_6	FUT8	FUT8	fucosyltransferase 8 (alpha (1,6) fucosyltransferase)	3873	0.347503662109375	-0.10940665	No	
+row_7	SEC24B	SEC24B	SEC24 related gene family, member B (S. cerevisiae)	5415	-0.08565166592597961	-0.22722907	No	
+row_8	B4GALT1	B4GALT1	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1	5422	-0.08796633780002594	-0.22605294	No	
+row_9	PREB	PREB	prolactin regulatory element binding	5874	-0.18580187857151031	-0.25753704	No	
+row_10	MANEA	MANEA	mannosidase, endo-alpha	5990	-0.21126678586006165	-0.26250762	No	
+row_11	B4GALT5	B4GALT5	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 5	6548	-0.33442187309265137	-0.29943356	No	
+row_12	MGAT5	MGAT5	mannosyl (alpha-1,6-)-glycoprotein beta-1,6-N-acetyl-glucosaminyltransferase	7195	-0.4843754470348358	-0.34045905	No	
+row_13	SEC24D	SEC24D	SEC24 related gene family, member D (S. cerevisiae)	7237	-0.4912682771682739	-0.3344713	No	
+row_14	MCFD2	MCFD2	multiple coagulation factor deficiency 2	7446	-0.5453895926475525	-0.34041554	No	
+row_15	SEC24C	SEC24C	SEC24 related gene family, member C (S. cerevisiae)	7622	-0.5917377471923828	-0.34293777	No	
+row_16	B4GALT3	B4GALT3	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 3	8137	-0.7247883081436157	-0.36924875	No	
+row_17	LMAN1	LMAN1	lectin, mannose-binding, 1	8480	-0.831944465637207	-0.38023144	Yes	
+row_18	MGAT2	MGAT2	mannosyl (alpha-1,6-)-glycoprotein beta-1,2-N-acetylglucosaminyltransferase	8522	-0.8453221321105957	-0.36763844	Yes	
+row_19	B4GALT2	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2	8623	-0.8800719380378723	-0.35896936	Yes	
+row_20	SEC31A	SEC31A	SEC31 homolog A (S. cerevisiae)	8671	-0.8974342942237854	-0.34586912	Yes	
+row_21	MAN1A2	MAN1A2	mannosidase, alpha, class 1A, member 2	8693	-0.9062221050262451	-0.33059007	Yes	
+row_22	SAR1B	SAR1B	SAR1 gene homolog B (S. cerevisiae)	9030	-1.0410503149032593	-0.33720672	Yes	
+row_23	SEC23A	SEC23A	Sec23 homolog A (S. cerevisiae)	9301	-1.1439272165298462	-0.33678937	Yes	
+row_24	ST8SIA6	ST8SIA6	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 6	9315	-1.150307297706604	-0.31633672	Yes	
+row_25	B4GALT4	B4GALT4	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 4	9325	-1.154163122177124	-0.29550213	Yes	
+row_26	ST6GAL1	ST6GAL1	ST6 beta-galactosamide alpha-2,6-sialyltranferase 1	10209	-1.6076773405075073	-0.33393773	Yes	
+row_27	MGAT3	MGAT3	mannosyl (beta-1,4-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase	10658	-1.9731179475784302	-0.33184522	Yes	
+row_28	ST8SIA2	ST8SIA2	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 2	12270	-6.214022159576416	-0.3407616	Yes	
+row_29	ST8SIA3	ST8SIA3	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 3	12651	-9.851574897766113	-0.1864191	Yes	
+row_30	MGAT4C	MGAT4C	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme C (putative)	12761	-11.163862228393555	0.013406637	Yes	

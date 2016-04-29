@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.27697474	Yes	
+row_1	IRS1	IRS1	insulin receptor substrate 1	900	3.054851531982422	0.37027755	Yes	
+row_2	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.4985333	Yes	
+row_3	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.45077515	No	
+row_4	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.46042353	No	
+row_5	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.4464383	No	
+row_6	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.43048754	No	
+row_7	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.44835573	No	
+row_8	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.46118864	No	
+row_9	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.4236324	No	
+row_10	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.43063477	No	
+row_11	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.4264458	No	
+row_12	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	5023	0.005194633733481169	0.3925504	No	
+row_13	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.3715107	No	
+row_14	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.35351154	No	
+row_15	YWHAH	YWHAH	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	5759	-0.16095679998397827	0.3538618	No	
+row_16	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.31009346	No	
+row_17	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.32205227	No	
+row_18	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.31032	No	
+row_19	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.24804525	No	
+row_20	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	0.257956	No	
+row_21	RPS6KA1	RPS6KA1	ribosomal protein S6 kinase, 90kDa, polypeptide 1	9420	-1.1979033946990967	0.2721291	No	

@@ -1,0 +1,52 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CD36	CD36	CD36 molecule (thrombospondin receptor)	111	6.253612995147705	0.062325515	Yes	
+row_1	LPL	LPL	lipoprotein lipase	123	6.130192279815674	0.13101251	Yes	
+row_2	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.19488469	Yes	
+row_3	NR1H3	NR1H3	nuclear receptor subfamily 1, group H, member 3	664	3.6284215450286865	0.19684952	Yes	
+row_4	NR2F1	NR2F1	nuclear receptor subfamily 2, group F, member 1	815	3.275247573852539	0.22236152	Yes	
+row_5	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.24403648	Yes	
+row_6	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.2707603	Yes	
+row_7	ME1	ME1	malic enzyme 1, NADP(+)-dependent, cytosolic	1094	2.705095052719116	0.29678988	Yes	
+row_8	DUSP1	DUSP1	dual specificity phosphatase 1	1110	2.6785497665405273	0.32601106	Yes	
+row_9	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.35287774	Yes	
+row_10	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.37799492	Yes	
+row_11	CITED2	CITED2	Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 2	1988	1.497367024421692	0.33312136	Yes	
+row_12	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.3436939	Yes	
+row_13	RXRA	RXRA	retinoid X receptor, alpha	2093	1.4129356145858765	0.35739377	Yes	
+row_14	MYC	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	2135	1.3669613599777222	0.3697183	Yes	
+row_15	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.36913657	Yes	
+row_16	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.37712708	Yes	
+row_17	NCOA1	NCOA1	nuclear receptor coactivator 1	2431	1.118147373199463	0.38647386	Yes	
+row_18	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.39287487	Yes	
+row_19	NCOR1	NCOR1	nuclear receptor co-repressor 1	2798	0.8455714583396912	0.379648	No	
+row_20	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.389067	No	
+row_21	NRIP1	NRIP1	nuclear receptor interacting protein 1	3002	0.7261396646499634	0.38178116	No	
+row_22	ACOX1	ACOX1	acyl-Coenzyme A oxidase 1, palmitoyl	3127	0.6642609238624573	0.3796922	No	
+row_23	RB1	RB1	retinoblastoma 1 (including osteosarcoma)	3347	0.5545215010643005	0.36898485	No	
+row_24	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.3707017	No	
+row_25	HSD17B4	HSD17B4	hydroxysteroid (17-beta) dehydrogenase 4	3586	0.4580381214618683	0.36184925	No	
+row_26	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	3699	0.404386043548584	0.35774362	No	
+row_27	SP1	SP1	Sp1 transcription factor	3757	0.38267093896865845	0.35766056	No	
+row_28	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.3598817	No	
+row_29	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.3636321	No	
+row_30	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.36305478	No	
+row_31	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.29837862	No	
+row_32	MRPL11	MRPL11	mitochondrial ribosomal protein L11	4889	0.043971285223960876	0.28420806	No	
+row_33	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	4912	0.03931080549955368	0.28294647	No	
+row_34	SRA1	SRA1	steroid receptor RNA activator 1	4952	0.028075339272618294	0.28023794	No	
+row_35	CREBBP	CREBBP	CREB binding protein (Rubinstein-Taybi syndrome)	5270	-0.051160458475351334	0.25621414	No	
+row_36	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	5430	-0.08919770270586014	0.24488512	No	
+row_37	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.124835536	No	
+row_38	EP300	EP300	E1A binding protein p300	7158	-0.47479525208473206	0.121373415	No	
+row_39	NCOR2	NCOR2	nuclear receptor co-repressor 2	8329	-0.7846280336380005	0.039463915	No	
+row_40	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.04661003	No	
+row_41	DUT	DUT	dUTP pyrophosphatase	8784	-0.9402692317962646	0.023979316	No	
+row_42	PPARA	PPARA	peroxisome proliferative activated receptor, alpha	9206	-1.1071735620498657	0.0038628816	No	
+row_43	HSP90AA1	HSP90AA1	heat shock protein 90kDa alpha (cytosolic), class A member 1	9673	-1.323603868484497	-0.017291075	No	
+row_44	HSPA1A	HSPA1A	heat shock 70kDa protein 1A	10453	-1.7822623252868652	-0.057535715	No	
+row_45	FABP1	FABP1	fatty acid binding protein 1, liver	10939	-2.2793803215026855	-0.069322065	No	
+row_46	APOA1	APOA1	apolipoprotein A-I	11482	-3.083317279815674	-0.076412655	No	
+row_47	APOA2	APOA2	apolipoprotein A-II	11490	-3.0943636894226074	-0.041853573	No	
+row_48	NR0B2	NR0B2	nuclear receptor subfamily 0, group B, member 2	11735	-3.6205310821533203	-0.019720567	No	
+row_49	PTGS2	PTGS2	prostaglandin-endoperoxide synthase 2 (prostaglandin G/H synthase and cyclooxygenase)	12011	-4.645547866821289	0.011634123	No	
+row_50	CPT1B	CPT1B	carnitine palmitoyltransferase 1B (muscle)	12139	-5.282769203186035	0.061704557	No	

@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	1057	2.767228603363037	0.035679407	Yes	
+row_1	ETV3	ETV3	ets variant gene 3	1119	2.6511406898498535	0.14353687	Yes	
+row_2	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1373	2.2552542686462402	0.219719	Yes	
+row_3	CSF1R	CSF1R	colony stimulating factor 1 receptor, formerly McDonough feline sarcoma viral (v-fms) oncogene homolog	1499	2.045534133911133	0.29690483	Yes	
+row_4	CSF1	CSF1	colony stimulating factor 1 (macrophage)	1932	1.568454384803772	0.3300645	Yes	
+row_5	E2F1	E2F1	E2F transcription factor 1	2017	1.4653208255767822	0.38578588	Yes	
+row_6	ETS2	ETS2	v-ets erythroblastosis virus E26 oncogene homolog 2 (avian)	2049	1.446844458580017	0.44482577	Yes	
+row_7	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.5046835	Yes	
+row_8	HDAC5	HDAC5	histone deacetylase 5	4187	0.23937202990055084	0.3504139	No	
+row_9	HDAC2	HDAC2	histone deacetylase 2	4934	0.03295467793941498	0.29405993	No	
+row_10	E2F4	E2F4	E2F transcription factor 4, p107/p130-binding	6313	-0.27726972103118896	0.19915299	No	
+row_11	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.19137564	No	
+row_12	SIN3A	SIN3A	SIN3 homolog A, transcription regulator (yeast)	6879	-0.4094043970108032	0.18770337	No	
+row_13	RBL1	RBL1	retinoblastoma-like 1 (p107)	7402	-0.5320842862129211	0.1698863	No	
+row_14	RBL2	RBL2	retinoblastoma-like 2 (p130)	7539	-0.5687962770462036	0.18351132	No	
+row_15	NCOR2	NCOR2	nuclear receptor co-repressor 2	8329	-0.7846280336380005	0.15574802	No	
+row_16	SIN3B	SIN3B	SIN3 homolog B, transcription regulator (yeast)	10473	-1.7977643013000488	0.06618416	No	
+row_17	DDX20	DDX20	DEAD (Asp-Glu-Ala-Asp) box polypeptide 20	11371	-2.926253318786621	0.121003285	No	

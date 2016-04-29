@@ -1,0 +1,103 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NNAT	NNAT	neuronatin	98	6.469528675079346	0.022825798	Yes	
+row_1	ATP1A3	ATP1A3	ATPase, Na+/K+ transporting, alpha 3 polypeptide	248	5.200841426849365	0.035703737	Yes	
+row_2	FRY	FRY	furry homolog (Drosophila)	331	4.765921115875244	0.05175473	Yes	
+row_3	KCNA5	KCNA5	potassium voltage-gated channel, shaker-related subfamily, member 5	346	4.684825897216797	0.07272272	Yes	
+row_4	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	401	4.485644340515137	0.08963588	Yes	
+row_5	HOXC6	HOXC6	homeobox C6	444	4.308157920837402	0.106648415	Yes	
+row_6	ARX	ARX	aristaless related homeobox	487	4.148630142211914	0.1229098	Yes	
+row_7	HOXC4	HOXC4	homeobox C4	502	4.1136956214904785	0.14118858	Yes	
+row_8	TXNIP	TXNIP	thioredoxin interacting protein	517	4.065303802490234	0.15923949	Yes	
+row_9	LRRN3	LRRN3	leucine rich repeat neuronal 3	540	3.9946930408477783	0.17633453	Yes	
+row_10	BTK	BTK	Bruton agammaglobulinemia tyrosine kinase	605	3.8090028762817383	0.18928242	Yes	
+row_11	DCHS2	DCHS2	dachsous 2 (Drosophila)	676	3.6051132678985596	0.20080273	Yes	
+row_12	NPR2	NPR2	natriuretic peptide receptor B/guanylate cyclase B (atrionatriuretic peptide receptor B)	700	3.5440104007720947	0.21569777	Yes	
+row_13	MYOM3	MYOM3	myomesin family, member 3	707	3.5310277938842773	0.23185639	Yes	
+row_14	LOXL1	LOXL1	lysyl oxidase-like 1	732	3.462184190750122	0.24628821	Yes	
+row_15	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	805	3.2951436042785645	0.25619316	Yes	
+row_16	ANGPTL2	ANGPTL2	angiopoietin-like 2	807	3.2935848236083984	0.27162337	Yes	
+row_17	NR2F1	NR2F1	nuclear receptor subfamily 2, group F, member 1	815	3.275247573852539	0.2864997	Yes	
+row_18	MEF2C	MEF2C	MADS box transcription enhancer factor 2, polypeptide C (myocyte enhancer factor 2C)	898	3.056178569793701	0.29450023	Yes	
+row_19	MYCT1	MYCT1	myc target 1	909	3.029679536819458	0.3079865	Yes	
+row_20	BDNF	BDNF	brain-derived neurotrophic factor	969	2.932978630065918	0.31719917	Yes	
+row_21	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.3255086	Yes	
+row_22	SEMA3A	SEMA3A	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A	1053	2.775796413421631	0.33709812	Yes	
+row_23	CDKN2C	CDKN2C	cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)	1217	2.4858059883117676	0.3361011	Yes	
+row_24	GAB2	GAB2	GRB2-associated binding protein 2	1233	2.46030855178833	0.34651685	Yes	
+row_25	TANK	TANK	TRAF family member-associated NFKB activator	1650	1.8964526653289795	0.32303005	Yes	
+row_26	KCTD15	KCTD15	potassium channel tetramerisation domain containing 15	1710	1.8268048763275146	0.3270342	Yes	
+row_27	PRG4	PRG4	proteoglycan 4	1764	1.750295877456665	0.33114564	Yes	
+row_28	LMO3	LMO3	LIM domain only 3 (rhombotin-like 2)	1818	1.6911369562149048	0.33497855	Yes	
+row_29	GPD1	GPD1	glycerol-3-phosphate dehydrogenase 1 (soluble)	1929	1.5727238655090332	0.3338122	Yes	
+row_30	FGF17	FGF17	fibroblast growth factor 17	1933	1.5683836936950684	0.3409633	Yes	
+row_31	LRRC8A	LRRC8A	leucine rich repeat containing 8 family, member A	1990	1.4944761991500854	0.34363642	Yes	
+row_32	LZTS2	LZTS2	leucine zipper, putative tumor suppressor 2	2041	1.455490231513977	0.34659353	Yes	
+row_33	HOXA3	HOXA3	homeobox A3	2178	1.3327629566192627	0.3422713	No	
+row_34	AP4M1	AP4M1	adaptor-related protein complex 4, mu 1 subunit	2385	1.157043695449829	0.33166698	No	
+row_35	ATF7	ATF7	activating transcription factor 7	2390	1.155558466911316	0.3367963	No	
+row_36	MBNL2	MBNL2	muscleblind-like 2 (Drosophila)	2475	1.0790985822677612	0.33533174	No	
+row_37	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	2883	0.7973940372467041	0.30737123	No	
+row_38	TMOD3	TMOD3	tropomodulin 3 (ubiquitous)	2985	0.7388126254081726	0.30297965	No	
+row_39	ST13	ST13	suppression of tumorigenicity 13 (colon carcinoma) (Hsp70 interacting protein)	3036	0.712709367275238	0.3024393	No	
+row_40	KIF13A	KIF13A	kinesin family member 13A	3084	0.687872052192688	0.30201578	No	
+row_41	LMOD1	LMOD1	leiomodin 1 (smooth muscle)	3153	0.6479853987693787	0.29976803	No	
+row_42	TRIM63	TRIM63	tripartite motif-containing 63	3619	0.44106754660606384	0.26561013	No	
+row_43	RAB10	RAB10	RAB10, member RAS oncogene family	3961	0.3130623996257782	0.2405121	No	
+row_44	EGR1	EGR1	early growth response 1	4051	0.28658488392829895	0.23492627	No	
+row_45	NSD1	NSD1	nuclear receptor binding SET domain protein 1	4126	0.2615637183189392	0.23039149	No	
+row_46	XPNPEP3	XPNPEP3	X-prolyl aminopeptidase (aminopeptidase P) 3, putative	4131	0.2605225741863251	0.23130648	No	
+row_47	PRKAG1	PRKAG1	protein kinase, AMP-activated, gamma 1 non-catalytic subunit	4263	0.2155907154083252	0.22211355	No	
+row_48	UBE3A	UBE3A	ubiquitin protein ligase E3A (human papilloma virus E6-associated protein, Angelman syndrome)	4468	0.15045511722564697	0.20692547	No	
+row_49	TIAL1	TIAL1	TIA1 cytotoxic granule-associated RNA binding protein-like 1	4486	0.14750850200653076	0.20629531	No	
+row_50	ATP5G3	ATP5G3	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C3 (subunit 9)	4556	0.12705105543136597	0.20151678	No	
+row_51	SALL2	SALL2	sal-like 2 (Drosophila)	4670	0.10136881470680237	0.19318867	No	
+row_52	ADNP	ADNP	activity-dependent neuroprotector	4798	0.06574225425720215	0.18360186	No	
+row_53	RAB11A	RAB11A	RAB11A, member RAS oncogene family	4907	0.040744297206401825	0.1753779	No	
+row_54	LUC7L	LUC7L	LUC7-like (S. cerevisiae)	5026	0.004217229783535004	0.16620271	No	
+row_55	PRRX1	PRRX1	paired related homeobox 1	5280	-0.05333827808499336	0.14673907	No	
+row_56	TCF12	TCF12	transcription factor 12 (HTF4, helix-loop-helix transcription factors 4)	5311	-0.05983089283108711	0.14468306	No	
+row_57	SF3B1	SF3B1	splicing factor 3b, subunit 1, 155kDa	5519	-0.10752169787883759	0.12905905	No	
+row_58	OPA3	OPA3	optic atrophy 3 (autosomal recessive, with chorea and spastic paraplegia)	5598	-0.12614643573760986	0.123574935	No	
+row_59	CTGF	CTGF	connective tissue growth factor	5733	-0.15522697567939758	0.11386401	No	
+row_60	SORL1	SORL1	sortilin-related receptor, L(DLR class) A repeats-containing	5773	-0.1646064966917038	0.111600034	No	
+row_61	CHD6	CHD6	chromodomain helicase DNA binding protein 6	5989	-0.21123358607292175	0.09584096	No	
+row_62	MCM7	MCM7	MCM7 minichromosome maintenance deficient 7 (S. cerevisiae)	6051	-0.22290466725826263	0.09213716	No	
+row_63	CSNK1G1	CSNK1G1	casein kinase 1, gamma 1	6430	-0.30391573905944824	0.064112864	No	
+row_64	LHX6	LHX6	LIM homeobox 6	6657	-0.3591264486312866	0.048192997	No	
+row_65	JPH1	JPH1	junctophilin 1	7000	-0.4394710063934326	0.023612242	No	
+row_66	PAX3	PAX3	paired box gene 3 (Waardenburg syndrome 1)	7148	-0.4725922644138336	0.014382643	No	
+row_67	MAPK6	MAPK6	mitogen-activated protein kinase 6	7255	-0.4952280819416046	0.008454515	No	
+row_68	IKZF2	IKZF2	IKAROS family zinc finger 2 (Helios)	7452	-0.5468248724937439	-0.0042438353	No	
+row_69	SNX16	SNX16	sorting nexin 16	7477	-0.5521483421325684	-0.0035141734	No	
+row_70	METAP1	METAP1	methionyl aminopeptidase 1	7692	-0.6110183596611023	-0.017312896	No	
+row_71	CSRP3	CSRP3	cysteine and glycine-rich protein 3 (cardiac LIM protein)	7932	-0.6670754551887512	-0.032795772	No	
+row_72	EEF1B2	EEF1B2	eukaryotic translation elongation factor 1 beta 2	8144	-0.7257142663002014	-0.045820665	No	
+row_73	ADK	ADK	adenosine kinase	8197	-0.7425541281700134	-0.046376336	No	
+row_74	TMEM115	TMEM115	transmembrane protein 115	8270	-0.7648012042045593	-0.048385736	No	
+row_75	PRDM1	PRDM1	PR domain containing 1, with ZNF domain	8458	-0.8250284194946289	-0.059072822	No	
+row_76	RRAGD	RRAGD	Ras-related GTP binding D	8481	-0.8320125341415405	-0.056869548	No	
+row_77	RTKN	RTKN	rhotekin	8781	-0.9401506781578064	-0.075742066	No	
+row_78	CAMKV	CAMKV	CaM kinase-like vesicle-associated	8939	-0.997366189956665	-0.08327997	No	
+row_79	DCX	DCX	doublecortex; lissencephaly, X-linked (doublecortin)	9020	-1.035149097442627	-0.084639795	No	
+row_80	SCNN1A	SCNN1A	sodium channel, nonvoltage-gated 1 alpha	9332	-1.1557844877243042	-0.10343208	No	
+row_81	ROS1	ROS1	v-ros UR2 sarcoma virus oncogene homolog 1 (avian)	9394	-1.1853842735290527	-0.10260396	No	
+row_82	GNB1L	GNB1L	guanine nucleotide binding protein (G protein), beta polypeptide 1-like	9678	-1.3271937370300293	-0.11840727	No	
+row_83	LSAMP	LSAMP	limbic system-associated membrane protein	9751	-1.358237624168396	-0.11762242	No	
+row_84	RIMS2	RIMS2	regulating synaptic membrane exocytosis 2	10654	-1.9669933319091797	-0.17864819	No	
+row_85	RBM24	RBM24	RNA binding motif protein 24	10862	-2.192605495452881	-0.18445441	No	
+row_86	ONECUT2	ONECUT2	one cut domain, family member 2	10878	-2.2106380462646484	-0.17521428	No	
+row_87	CUZD1	CUZD1	CUB and zona pellucida-like domains 1	10992	-2.357795238494873	-0.17291781	No	
+row_88	SLC7A2	SLC7A2	solute carrier family 7 (cationic amino acid transporter, y+ system), member 2	11104	-2.515207290649414	-0.1697243	No	
+row_89	CDKL5	CDKL5	cyclin-dependent kinase-like 5	11105	-2.516974925994873	-0.1578729	No	
+row_90	MEA1	MEA1	male-enhanced antigen 1	11278	-2.750537157058716	-0.15832469	No	
+row_91	TRIM54	TRIM54	tripartite motif-containing 54	11512	-3.1533610820770264	-0.16163312	No	
+row_92	OTX1	OTX1	orthodenticle homolog 1 (Drosophila)	11555	-3.2352051734924316	-0.14967267	No	
+row_93	ELAVL4	ELAVL4	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 4 (Hu antigen D)	11875	-4.094412326812744	-0.15525156	No	
+row_94	BARHL2	BARHL2	BarH-like 2 (Drosophila)	11940	-4.332526683807373	-0.1398386	No	
+row_95	PRDM14	PRDM14	PR domain containing 14	12002	-4.593776226043701	-0.12296177	No	
+row_96	NRG1	NRG1	neuregulin 1	12056	-4.898921966552734	-0.10402473	No	
+row_97	WIF1	WIF1	WNT inhibitory factor 1	12151	-5.376035690307617	-0.08603605	No	
+row_98	SMPX	SMPX	small muscle protein, X-linked	12396	-7.249675750732422	-0.07091378	No	
+row_99	TSSK3	TSSK3	testis-specific serine kinase 3	12439	-7.580174922943115	-0.038494647	No	
+row_100	CHST9	CHST9	carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 9	12468	-7.837412357330322	-0.0037733617	No	
+row_101	SLC6A11	SLC6A11	solute carrier family 6 (neurotransmitter transporter, GABA), member 11	12535	-8.496842384338379	0.031091798	No	

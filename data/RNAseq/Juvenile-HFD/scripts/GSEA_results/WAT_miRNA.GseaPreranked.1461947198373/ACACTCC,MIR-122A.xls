@@ -1,0 +1,62 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NTRK2	NTRK2	neurotrophic tyrosine kinase, receptor, type 2	164	5.789975166320801	0.07234449	Yes	
+row_1	NEGR1	NEGR1	neuronal growth regulator 1	175	5.7299652099609375	0.15576923	Yes	
+row_2	MSN	MSN	moesin	465	4.231584548950195	0.19550377	Yes	
+row_3	CLIC5	CLIC5	chloride intracellular channel 5	558	3.9450488090515137	0.24632984	Yes	
+row_4	LAMC1	LAMC1	laminin, gamma 1 (formerly LAMB2)	727	3.4727954864501953	0.2843128	Yes	
+row_5	BCAT2	BCAT2	branched chain aminotransferase 2, mitochondrial	814	3.2796037197113037	0.32582626	Yes	
+row_6	GYS1	GYS1	glycogen synthase 1 (muscle)	1020	2.8236374855041504	0.3513959	Yes	
+row_7	CLIC4	CLIC4	chloride intracellular channel 4	1228	2.4719581604003906	0.37164226	Yes	
+row_8	MEIS2	MEIS2	Meis1, myeloid ecotropic viral integration site 1 homolog 2 (mouse)	1583	1.9555734395980835	0.372882	Yes	
+row_9	CS	CS	citrate synthase	1659	1.8877620697021484	0.39479688	Yes	
+row_10	P4HA1	P4HA1	procollagen-proline, 2-oxoglutarate 4-dioxygenase (proline 4-hydroxylase), alpha polypeptide I	1803	1.7065919637680054	0.4087675	Yes	
+row_11	SORCS1	SORCS1	sortilin-related VPS10 domain containing receptor 1	2210	1.3035967350006104	0.39638734	No	
+row_12	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	2509	1.0459669828414917	0.38861033	No	
+row_13	ZDHHC7	ZDHHC7	zinc finger, DHHC-type containing 7	2611	0.9753058552742004	0.3950971	No	
+row_14	NPEPPS	NPEPPS	aminopeptidase puromycin sensitive	2991	0.7341896891593933	0.3764468	No	
+row_15	TNPO3	TNPO3	transportin 3	3366	0.5453826189041138	0.35541037	No	
+row_16	GALC	GALC	galactosylceramidase	3497	0.49362364411354065	0.35256627	No	
+row_17	CCNG1	CCNG1	cyclin G1	3560	0.46670886874198914	0.35460863	No	
+row_18	MASP1	MASP1	mannan-binding lectin serine peptidase 1 (C4/C2 activating component of Ra-reactive factor)	3728	0.3908873200416565	0.34738082	No	
+row_19	CD320	CD320	CD320 molecule	3834	0.35978183150291443	0.3445118	No	
+row_20	H1F0	H1F0	H1 histone family, member 0	3892	0.3383907973766327	0.34505692	No	
+row_21	SLC4A3	SLC4A3	solute carrier family 4, anion exchanger, member 3	3960	0.31335851550102234	0.34445742	No	
+row_22	MAF1	MAF1	MAF1 homolog (S. cerevisiae)	3999	0.3039439916610718	0.34597218	No	
+row_23	G3BP2	G3BP2	-	4005	0.30157414078712463	0.3500154	No	
+row_24	TBC1D10B	TBC1D10B	TBC1 domain family, member 10B	4084	0.2768309712409973	0.3480247	No	
+row_25	BRPF1	BRPF1	bromodomain and PHD finger containing, 1	4097	0.2723464369773865	0.3510947	No	
+row_26	HAND2	HAND2	heart and neural crest derivatives expressed 2	4239	0.2213362604379654	0.3433949	No	
+row_27	BACH2	BACH2	BTB and CNC homology 1, basic leucine zipper transcription factor 2	4240	0.22076770663261414	0.3466391	No	
+row_28	RAD21	RAD21	RAD21 homolog (S. pombe)	4507	0.14085592329502106	0.32804716	No	
+row_29	DLG4	DLG4	discs, large homolog 4 (Drosophila)	4621	0.11184199154376984	0.32091329	No	
+row_30	STK24	STK24	serine/threonine kinase 24 (STE20 homolog, yeast)	4777	0.07397639006376266	0.3099606	No	
+row_31	TNRC6A	TNRC6A	trinucleotide repeat containing 6A	4778	0.07364725321531296	0.31104285	No	
+row_32	IQGAP1	IQGAP1	IQ motif containing GTPase activating protein 1	4802	0.06492964923381805	0.31021044	No	
+row_33	CDC42BPB	CDC42BPB	CDC42 binding protein kinase beta (DMPK-like)	4826	0.057713720947504044	0.309272	No	
+row_34	ANKRD13C	ANKRD13C	ankyrin repeat domain 13C	4943	0.03105473890900612	0.30071792	No	
+row_35	SLC9A6	SLC9A6	solute carrier family 9 (sodium/hydrogen exchanger), member 6	5351	-0.0675627812743187	0.27009666	No	
+row_36	SMARCD1	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1	5999	-0.21398338675498962	0.22298479	No	
+row_37	GNPDA2	GNPDA2	glucosamine-6-phosphate deaminase 2	6071	-0.22618359327316284	0.22079356	No	
+row_38	DICER1	DICER1	Dicer1, Dcr-1 homolog (Drosophila)	6324	-0.28033506870269775	0.20533873	No	
+row_39	CCDC97	CCDC97	coiled-coil domain containing 97	6426	-0.303437739610672	0.20195246	No	
+row_40	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.20439833	No	
+row_41	PAPOLA	PAPOLA	poly(A) polymerase alpha	6460	-0.3107569217681885	0.2085765	No	
+row_42	NFAT5	NFAT5	nuclear factor of activated T-cells 5, tonicity-responsive	6531	-0.32950741052627563	0.20798129	No	
+row_43	MIPOL1	MIPOL1	mirror-image polydactyly 1	6623	-0.35230109095573425	0.20608981	No	
+row_44	CPEB1	CPEB1	cytoplasmic polyadenylation element binding protein 1	6978	-0.4332040548324585	0.18495844	No	
+row_45	MECP2	MECP2	methyl CpG binding protein 2 (Rett syndrome)	6989	-0.43636223673820496	0.190594	No	
+row_46	LRP10	LRP10	low density lipoprotein receptor-related protein 10	7323	-0.5161146521568298	0.17231219	No	
+row_47	VAV3	VAV3	vav 3 oncogene	7444	-0.5447600483894348	0.1709963	No	
+row_48	MARK1	MARK1	MAP/microtubule affinity-regulating kinase 1	8088	-0.7076151371002197	0.13144903	No	
+row_49	FKBP5	FKBP5	FK506 binding protein 5	8193	-0.7417774796485901	0.13427112	No	
+row_50	CCDC6	CCDC6	coiled-coil domain containing 6	8679	-0.9005680084228516	0.10983208	No	
+row_51	BRWD1	BRWD1	bromodomain and WD repeat domain containing 1	8894	-0.9811489582061768	0.107627355	No	
+row_52	SERP1	SERP1	-	8904	-0.9835972189903259	0.12138218	No	
+row_53	SLC25A34	SLC25A34	solute carrier family 25, member 34	9251	-1.1234049797058105	0.11101467	No	
+row_54	PAK3	PAK3	p21 (CDKN1A)-activated kinase 3	9469	-1.218682050704956	0.11206746	No	
+row_55	SLCO5A1	SLCO5A1	solute carrier organic anion transporter family, member 5A1	9900	-1.4285815954208374	0.09965973	No	
+row_56	DLG2	DLG2	discs, large homolog 2, chapsyn-110 (Drosophila)	9945	-1.4488831758499146	0.117533244	No	
+row_57	DAND5	DAND5	DAN domain family, member 5	10278	-1.653761386871338	0.116046764	No	
+row_58	SLC39A8	SLC39A8	solute carrier family 39 (zinc transporter), member 8	10667	-1.9839383363723755	0.115062356	No	
+row_59	GIT1	GIT1	G protein-coupled receptor kinase interactor 1	10678	-1.9908658266067505	0.14354125	No	
+row_60	OCLN	OCLN	occludin	10824	-2.151611089706421	0.16389604	No	

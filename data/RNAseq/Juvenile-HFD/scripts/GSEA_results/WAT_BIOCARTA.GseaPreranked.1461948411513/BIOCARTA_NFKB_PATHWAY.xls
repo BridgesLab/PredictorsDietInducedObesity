@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TLR4	TLR4	toll-like receptor 4	350	4.672327041625977	0.20521809	Yes	
+row_1	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.273059	Yes	
+row_2	TNFAIP3	TNFAIP3	tumor necrosis factor, alpha-induced protein 3	1568	1.9728318452835083	0.33847404	Yes	
+row_3	IL1A	IL1A	interleukin 1, alpha	1823	1.686923623085022	0.40268302	Yes	
+row_4	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	2003	1.4810236692428589	0.4624621	Yes	
+row_5	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.49803865	Yes	
+row_6	IL1R1	IL1R1	interleukin 1 receptor, type I	2733	0.8824132084846497	0.5100091	Yes	
+row_7	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	3118	0.6703222393989563	0.51360214	Yes	
+row_8	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.5104758	Yes	
+row_9	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.5288076	Yes	
+row_10	TRAF6	TRAF6	TNF receptor-associated factor 6	3975	0.3088788688182831	0.5110211	No	
+row_11	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4095	0.2736040949821472	0.51541	No	
+row_12	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.47337782	No	
+row_13	FADD	FADD	Fas (TNFRSF6)-associated via death domain	4768	0.07654271274805069	0.47191775	No	
+row_14	TRADD	TRADD	TNFRSF1A-associated via death domain	4813	0.06214272603392601	0.47160026	No	
+row_15	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	5888	-0.18900857865810394	0.39782637	No	
+row_16	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	5926	-0.19703328609466553	0.40475813	No	
+row_17	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.3785419	No	
+row_18	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.38712886	No	
+row_19	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	7748	-0.6243744492530823	0.32741344	No	
+row_20	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.35557288	No	
+row_21	MYD88	MYD88	myeloid differentiation primary response gene (88)	8557	-0.8557984232902527	0.33896065	No	

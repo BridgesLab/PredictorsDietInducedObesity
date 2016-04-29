@@ -1,0 +1,37 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AOX1	AOX1	aldehyde oxidase 1	719	3.503457546234131	-0.003929222	No	
+row_1	CAT	CAT	catalase	1411	2.1885175704956055	-0.025133967	No	
+row_2	INMT	INMT	indolethylamine N-methyltransferase	1735	1.7911514043807983	-0.023685893	No	
+row_3	MAOA	MAOA	monoamine oxidase A	1863	1.6476343870162964	-0.009165269	No	
+row_4	CYP1B1	CYP1B1	cytochrome P450, family 1, subfamily B, polypeptide 1	1875	1.6306904554367065	0.0140977185	No	
+row_5	HADH	HADH	hydroxyacyl-Coenzyme A dehydrogenase	2057	1.436072587966919	0.021303248	No	
+row_6	ECHS1	ECHS1	enoyl Coenzyme A hydratase, short chain, 1, mitochondrial	2162	1.3396546840667725	0.03305234	No	
+row_7	MAOB	MAOB	monoamine oxidase B	2408	1.1385715007781982	0.030896595	No	
+row_8	ACAT1	ACAT1	acetyl-Coenzyme A acetyltransferase 1 (acetoacetyl Coenzyme A thiolase)	2788	0.8510923385620117	0.01410101	No	
+row_9	AANAT	AANAT	arylalkylamine N-acetyltransferase	3401	0.5360555052757263	-0.02541697	No	
+row_10	EHHADH	EHHADH	enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase	3699	0.404386043548584	-0.04246167	No	
+row_11	CYP1A1	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	4010	0.30044814944267273	-0.062051307	No	
+row_12	OGDH	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)	4027	0.29667699337005615	-0.058904253	No	
+row_13	ALDH2	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	4335	0.19087648391723633	-0.079881735	No	
+row_14	HADHA	HADHA	hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacyl-Coenzyme A thiolase/enoyl-Coenzyme A hydratase (trifunctional protein), alpha subunit	6655	-0.35831084847450256	-0.25436416	No	
+row_15	ALDH9A1	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	7137	-0.4696832001209259	-0.28470787	No	
+row_16	WARS2	WARS2	tryptophanyl tRNA synthetase 2 (mitochondrial)	7245	-0.4928598403930664	-0.28571433	No	
+row_17	ACAT2	ACAT2	acetyl-Coenzyme A acetyltransferase 2 (acetoacetyl Coenzyme A thiolase)	8882	-0.9759841561317444	-0.39811236	No	
+row_18	OGDHL	OGDHL	oxoglutarate dehydrogenase-like	9387	-1.1828176975250244	-0.4196928	Yes	
+row_19	ALDH3A2	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	9517	-1.2431610822677612	-0.41130888	Yes	
+row_20	ALDH7A1	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	9721	-1.3449245691299438	-0.40715688	Yes	
+row_21	GCDH	GCDH	glutaryl-Coenzyme A dehydrogenase	9769	-1.3660285472869873	-0.3905988	Yes	
+row_22	KMO	KMO	kynurenine 3-monooxygenase (kynurenine 3-hydroxylase)	9909	-1.4316074848175049	-0.38020325	Yes	
+row_23	WARS	WARS	tryptophanyl-tRNA synthetase	10114	-1.5487606525421143	-0.3731143	Yes	
+row_24	DDC	DDC	dopa decarboxylase (aromatic L-amino acid decarboxylase)	10843	-2.1710727214813232	-0.39744544	Yes	
+row_25	TDO2	TDO2	tryptophan 2,3-dioxygenase	10961	-2.3134143352508545	-0.37230355	Yes	
+row_26	KYNU	KYNU	kynureninase (L-kynurenine hydrolase)	11031	-2.4069371223449707	-0.34205738	Yes	
+row_27	TPH1	TPH1	tryptophan hydroxylase 1 (tryptophan 5-monooxygenase)	11107	-2.523453712463379	-0.31055322	Yes	
+row_28	AFMID	AFMID	arylformamidase	11139	-2.573106527328491	-0.27490366	Yes	
+row_29	HAAO	HAAO	3-hydroxyanthranilate 3,4-dioxygenase	11270	-2.739673614501953	-0.24446577	Yes	
+row_30	ACMSD	ACMSD	aminocarboxymuconate semialdehyde decarboxylase	11748	-3.6687660217285156	-0.22718915	Yes	
+row_31	AADAT	AADAT	aminoadipate aminotransferase	11749	-3.679931402206421	-0.1727678	Yes	
+row_32	TPH2	TPH2	tryptophan hydroxylase 2	11818	-3.9045703411102295	-0.12029607	Yes	
+row_33	ALDH1B1	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	11908	-4.225022315979004	-0.06471331	Yes	
+row_34	CYP1A2	CYP1A2	cytochrome P450, family 1, subfamily A, polypeptide 2	11913	-4.251522064208984	-0.0021489838	Yes	
+row_35	IL4I1	IL4I1	interleukin 4 induced 1	12171	-5.492373466491699	0.059151977	Yes	

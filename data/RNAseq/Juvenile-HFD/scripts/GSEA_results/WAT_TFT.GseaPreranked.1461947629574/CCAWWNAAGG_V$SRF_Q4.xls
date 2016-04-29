@@ -1,0 +1,81 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ACTA1	ACTA1	actin, alpha 1, skeletal muscle	40	7.733504295349121	0.05418567	Yes	
+row_1	KCNK3	KCNK3	potassium channel, subfamily K, member 3	63	7.063706398010254	0.10480906	Yes	
+row_2	THBS1	THBS1	thrombospondin 1	109	6.297066688537598	0.14796326	Yes	
+row_3	CKM	CKM	creatine kinase, muscle	145	5.938887596130371	0.18924162	Yes	
+row_4	PODN	PODN	podocan	155	5.89404821395874	0.23221034	Yes	
+row_5	SDPR	SDPR	serum deprivation response (phosphatidylserine binding protein)	182	5.6819748878479	0.27228534	Yes	
+row_6	TRDN	TRDN	triadin	224	5.356482982635498	0.30878195	Yes	
+row_7	HOXC5	HOXC5	homeobox C5	249	5.194108963012695	0.34539798	Yes	
+row_8	NPPA	NPPA	natriuretic peptide precursor A	511	4.080921649932861	0.35533002	Yes	
+row_9	SCN3B	SCN3B	sodium channel, voltage-gated, type III, beta	788	3.3336117267608643	0.35855842	Yes	
+row_10	LSP1	LSP1	lymphocyte-specific protein 1	824	3.2553861141204834	0.3799548	Yes	
+row_11	FGFRL1	FGFRL1	fibroblast growth factor receptor-like 1	834	3.238593339920044	0.40324932	Yes	
+row_12	ACTC1	ACTC1	actin, alpha, cardiac muscle 1	1045	2.7821543216705322	0.40752617	Yes	
+row_13	KLF6	KLF6	Kruppel-like factor 6	1101	2.6918251514434814	0.4231913	Yes	
+row_14	TCF4	TCF4	transcription factor 4	1129	2.635873317718506	0.44062006	Yes	
+row_15	FOSB	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	1264	2.4115493297576904	0.44806322	Yes	
+row_16	MBNL1	MBNL1	muscleblind-like (Drosophila)	1343	2.2864460945129395	0.45893574	Yes	
+row_17	ZAK	ZAK	-	1344	2.2851362228393555	0.47586626	Yes	
+row_18	RASSF2	RASSF2	Ras association (RalGDS/AF-6) domain family 2	1571	1.9711871147155762	0.47289002	Yes	
+row_19	MRGPRF	MRGPRF	MAS-related GPR, member F	1586	1.9503451585769653	0.486251	Yes	
+row_20	RARB	RARB	retinoic acid receptor, beta	1608	1.927855372428894	0.4989008	Yes	
+row_21	SP7	SP7	Sp7 transcription factor	1626	1.9088200330734253	0.5117208	Yes	
+row_22	KCTD15	KCTD15	potassium channel tetramerisation domain containing 15	1710	1.8268048763275146	0.5187989	Yes	
+row_23	TMEM47	TMEM47	transmembrane protein 47	1791	1.7205488681793213	0.5253231	Yes	
+row_24	CALD1	CALD1	caldesmon 1	1799	1.7110272645950317	0.5374555	Yes	
+row_25	INSM1	INSM1	insulinoma-associated 1	2226	1.2845364809036255	0.51383376	No	
+row_26	CORO1C	CORO1C	coronin, actin binding protein, 1C	2282	1.2357021570205688	0.51871055	No	
+row_27	PDLIM5	PDLIM5	PDZ and LIM domain 5	2374	1.1717021465301514	0.52031267	No	
+row_28	PICALM	PICALM	phosphatidylinositol binding clathrin assembly protein	2519	1.0318663120269775	0.5167559	No	
+row_29	NPAS2	NPAS2	neuronal PAS domain protein 2	2583	0.9939615726470947	0.5192193	No	
+row_30	CSRP1	CSRP1	cysteine and glycine-rich protein 1	2659	0.9363682270050049	0.5203225	No	
+row_31	SCOC	SCOC	short coiled-coil protein	2711	0.8995392918586731	0.52301985	No	
+row_32	TNNC1	TNNC1	troponin C type 1 (slow)	3107	0.6778305172920227	0.49731454	No	
+row_33	PCDH7	PCDH7	BH-protocadherin (brain-heart)	3184	0.6313925981521606	0.4960804	No	
+row_34	CFL2	CFL2	cofilin 2 (muscle)	3229	0.6093189120292664	0.49717203	No	
+row_35	DIXDC1	DIXDC1	DIX domain containing 1	3235	0.6075373888015747	0.5012843	No	
+row_36	MRVI1	MRVI1	murine retrovirus integration site 1 homolog	3327	0.5650486350059509	0.49839178	No	
+row_37	MYL7	MYL7	myosin, light chain 7, regulatory	3413	0.5297063589096069	0.49570414	No	
+row_38	PTCH1	PTCH1	patched homolog 1 (Drosophila)	3420	0.5269313454627991	0.49914142	No	
+row_39	FLNA	FLNA	filamin A, alpha (actin binding protein 280)	3434	0.5187403559684753	0.50197345	No	
+row_40	MAPKAPK2	MAPKAPK2	mitogen-activated protein kinase-activated protein kinase 2	3509	0.48497509956359863	0.49981013	No	
+row_41	ACTB	ACTB	actin, beta	3714	0.3973616361618042	0.48688486	No	
+row_42	TAGLN	TAGLN	transgelin	3741	0.3866921663284302	0.48772728	No	
+row_43	TPM2	TPM2	tropomyosin 2 (beta)	3785	0.37337782979011536	0.48714864	No	
+row_44	ANP32E	ANP32E	acidic (leucine-rich) nuclear phosphoprotein 32 family, member E	3937	0.32443293929100037	0.47780594	No	
+row_45	EGR1	EGR1	early growth response 1	4051	0.28658488392829895	0.4711389	No	
+row_46	VIT	VIT	vitrin	4059	0.2842264473438263	0.47270018	No	
+row_47	PLCB3	PLCB3	phospholipase C, beta 3 (phosphatidylinositol-specific)	4466	0.1508135050535202	0.44223452	No	
+row_48	PPP1R12A	PPP1R12A	protein phosphatase 1, regulatory (inhibitor) subunit 12A	4643	0.10670409351587296	0.4293339	No	
+row_49	PFN1	PFN1	profilin 1	4683	0.09913177788257599	0.42703453	No	
+row_50	SRF	SRF	serum response factor (c-fos serum response element-binding transcription factor)	4986	0.015015683136880398	0.40365297	No	
+row_51	SVIL	SVIL	supervillin	5108	-0.014160744845867157	0.39434522	No	
+row_52	DUSP2	DUSP2	dual specificity phosphatase 2	5324	-0.06163560226559639	0.37807685	No	
+row_53	U2AF1L4	U2AF1L4	U2 small nuclear RNA auxiliary factor 1-like 4	5870	-0.18522801995277405	0.33705327	No	
+row_54	H3F3A	H3F3A	H3 histone, family 3A	5975	-0.2077816128730774	0.33050248	No	
+row_55	RUNDC1	RUNDC1	RUN domain containing 1	6195	-0.2528626322746277	0.31533974	No	
+row_56	PSENEN	PSENEN	presenilin enhancer 2 homolog (C. elegans)	6305	-0.27515971660614014	0.3088992	No	
+row_57	ATRX	ATRX	alpha thalassemia/mental retardation syndrome X-linked (RAD54 homolog, S. cerevisiae)	6449	-0.3082328736782074	0.3000588	No	
+row_58	ERBB2IP	ERBB2IP	erbb2 interacting protein	6478	-0.3160064220428467	0.30022195	No	
+row_59	EPHB1	EPHB1	EPH receptor B1	6551	-0.3352411389350891	0.2971048	No	
+row_60	PHF12	PHF12	PHD finger protein 12	6640	-0.3563911020755768	0.29289973	No	
+row_61	TFE3	TFE3	transcription factor binding to IGHM enhancer 3	6685	-0.3653703033924103	0.29218397	No	
+row_62	MYLK	MYLK	myosin, light chain kinase	7465	-0.5491385459899902	0.23565352	No	
+row_63	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.22502494	No	
+row_64	DAPK3	DAPK3	death-associated protein kinase 3	8133	-0.7232182025909424	0.19366601	No	
+row_65	PRDM1	PRDM1	PR domain containing 1, with ZNF domain	8458	-0.8250284194946289	0.17457442	No	
+row_66	MYH11	MYH11	myosin, heavy chain 11, smooth muscle	8902	-0.9831362366676331	0.14739716	No	
+row_67	EGR2	EGR2	early growth response 2 (Krox-20 homolog, Drosophila)	9089	-1.063614010810852	0.14080836	No	
+row_68	UBE2C	UBE2C	ubiquitin-conjugating enzyme E2C	9092	-1.0645991563796997	0.14854036	No	
+row_69	DUSP5	DUSP5	dual specificity phosphatase 5	9121	-1.073502779006958	0.15431577	No	
+row_70	NPM3	NPM3	nucleophosmin/nucleoplasmin, 3	9241	-1.1199572086334229	0.1533564	No	
+row_71	RAB30	RAB30	RAB30, member RAS oncogene family	9294	-1.1404967308044434	0.15776119	No	
+row_72	HOXD10	HOXD10	homeobox D10	9496	-1.2313668727874756	0.15124841	No	
+row_73	SUSD1	SUSD1	sushi domain containing 1	9562	-1.263543963432312	0.15555358	No	
+row_74	NKX6-1	NKX6-1	NK6 transcription factor related, locus 1 (Drosophila)	9623	-1.290642261505127	0.16044846	No	
+row_75	AARSD1	AARSD1	alanyl-tRNA synthetase domain containing 1	9805	-1.3786908388137817	0.15658301	No	
+row_76	ACTG2	ACTG2	actin, gamma 2, smooth muscle, enteric	9865	-1.4070937633514404	0.16241847	No	
+row_77	SYT9	SYT9	synaptotagmin IX	11102	-2.511561632156372	0.08487721	No	
+row_78	HOXD13	HOXD13	homeobox D13	11577	-3.2680845260620117	0.07221753	No	
+row_79	PLN	PLN	phospholamban	11974	-4.490065097808838	0.07467916	No	

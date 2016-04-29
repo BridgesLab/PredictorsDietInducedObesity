@@ -1,0 +1,19 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DUSP1	DUSP1	dual specificity phosphatase 1	1110	2.6785497665405273	0.101310164	Yes	
+row_1	TRAF1	TRAF1	TNF receptor-associated factor 1	1318	2.3330838680267334	0.24837849	Yes	
+row_2	TNFAIP3	TNFAIP3	tumor necrosis factor, alpha-induced protein 3	1568	1.9728318452835083	0.36701193	Yes	
+row_3	TANK	TANK	TRAF family member-associated NFKB activator	1650	1.8964526653289795	0.4933122	Yes	
+row_4	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.5259404	Yes	
+row_5	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	3118	0.6703222393989563	0.5110975	Yes	
+row_6	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.5180264	Yes	
+row_7	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.5458748	Yes	
+row_8	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4095	0.2736040949821472	0.5225763	No	
+row_9	LTA	LTA	lymphotoxin alpha (TNF superfamily, member 1)	4427	0.1645725518465042	0.5084555	No	
+row_10	TRAF2	TRAF2	TNF receptor-associated factor 2	4591	0.11890102177858353	0.50414824	No	
+row_11	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.502423	No	
+row_12	IKBKAP	IKBKAP	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase complex-associated protein	5480	-0.10055655241012573	0.4490668	No	
+row_13	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	5926	-0.19703328609466553	0.42838964	No	
+row_14	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.40848747	No	
+row_15	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.42395696	No	
+row_16	TRAF3	TRAF3	TNF receptor-associated factor 3	6580	-0.3421044945716858	0.44756204	No	
+row_17	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.39808002	No	

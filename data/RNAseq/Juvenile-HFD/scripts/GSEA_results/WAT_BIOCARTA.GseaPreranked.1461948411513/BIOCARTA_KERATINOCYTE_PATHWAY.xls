@@ -1,0 +1,45 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP), alpha	476	4.187028408050537	0.042823732	Yes	
+row_1	HOXA7	HOXA7	homeobox A7	577	3.8885905742645264	0.109130874	Yes	
+row_2	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.13497236	Yes	
+row_3	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.19000188	Yes	
+row_4	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	1057	2.767228603363037	0.23642476	Yes	
+row_5	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.27921596	Yes	
+row_6	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	1373	2.2552542686462402	0.30456173	Yes	
+row_7	PRKCE	PRKCE	protein kinase C, epsilon	1592	1.9417451620101929	0.32463437	Yes	
+row_8	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	2003	1.4810236692428589	0.32103774	Yes	
+row_9	ETS2	ETS2	v-ets erythroblastosis virus E26 oncogene homolog 2 (avian)	2049	1.446844458580017	0.3451044	Yes	
+row_10	JUN	JUN	jun oncogene	2062	1.4314647912979126	0.3714381	Yes	
+row_11	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	2320	1.2076486349105835	0.3745033	Yes	
+row_12	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.39140055	Yes	
+row_13	BCL2	BCL2	B-cell CLL/lymphoma 2	2767	0.8617379069328308	0.37841338	Yes	
+row_14	FAS	FAS	Fas (TNF receptor superfamily, member 6)	3022	0.7178462743759155	0.37238225	Yes	
+row_15	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	3099	0.681157648563385	0.37946042	Yes	
+row_16	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	3118	0.6703222393989563	0.39083147	Yes	
+row_17	PRKCH	PRKCH	protein kinase C, eta	3244	0.6017334461212158	0.39259577	Yes	
+row_18	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.3959613	Yes	
+row_19	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	3479	0.49780789017677307	0.39466017	Yes	
+row_20	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.39852017	Yes	
+row_21	MAP3K5	MAP3K5	mitogen-activated protein kinase kinase kinase 5	3605	0.4482995867729187	0.40255952	Yes	
+row_22	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	3651	0.42887359857559204	0.4072373	Yes	
+row_23	SP1	SP1	Sp1 transcription factor	3757	0.38267093896865845	0.40638065	Yes	
+row_24	MAPK1	MAPK1	mitogen-activated protein kinase 1	3791	0.3716587424278259	0.41089958	Yes	
+row_25	TNFRSF1B	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B	4095	0.2736040949821472	0.39260605	No	
+row_26	MAPK14	MAPK14	mitogen-activated protein kinase 14	4260	0.21614307165145874	0.38400078	No	
+row_27	TRAF2	TRAF2	TNF receptor-associated factor 2	4591	0.11890102177858353	0.3606662	No	
+row_28	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.35415274	No	
+row_29	MAP2K3	MAP2K3	mitogen-activated protein kinase kinase 3	5248	-0.047210559248924255	0.31254166	No	
+row_30	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.3069506	No	
+row_31	MAPK8	MAPK8	mitogen-activated protein kinase 8	6074	-0.22654365003108978	0.2541714	No	
+row_32	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.22978692	No	
+row_33	DAXX	DAXX	death-associated protein 6	6543	-0.33370962738990784	0.23024736	No	
+row_34	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	6575	-0.3409006595611572	0.23433559	No	
+row_35	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.2386594	No	
+row_36	MAP2K7	MAP2K7	mitogen-activated protein kinase kinase 7	6668	-0.3615269958972931	0.24081329	No	
+row_37	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	7082	-0.4550958275794983	0.21744345	No	
+row_38	MAP3K1	MAP3K1	mitogen-activated protein kinase kinase kinase 1	7792	-0.6332959532737732	0.174506	No	
+row_39	MAP2K6	MAP2K6	mitogen-activated protein kinase kinase 6	9227	-1.1136590242385864	0.08447702	No	
+row_40	MAPK13	MAPK13	mitogen-activated protein kinase 13	10074	-1.5229854583740234	0.047857556	No	
+row_41	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	0.07318525	No	
+row_42	EGF	EGF	epidermal growth factor (beta-urogastrone)	11049	-2.434933662414551	0.04850517	No	
+row_43	PRKCQ	PRKCQ	protein kinase C, theta	12111	-5.126542091369629	0.06384296	No	

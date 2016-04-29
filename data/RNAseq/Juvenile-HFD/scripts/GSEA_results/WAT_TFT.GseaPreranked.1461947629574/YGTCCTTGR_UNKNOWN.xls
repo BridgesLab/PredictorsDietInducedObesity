@@ -1,0 +1,81 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MCAM	MCAM	melanoma cell adhesion molecule	269	5.079347610473633	0.011225785	No	
+row_1	CHST8	CHST8	carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 8	522	4.054223537445068	0.017285133	No	
+row_2	SNTA1	SNTA1	syntrophin, alpha 1 (dystrophin-associated protein A1, 59kDa, acidic component)	600	3.826059341430664	0.035513613	No	
+row_3	SEMA6D	SEMA6D	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D	644	3.687997817993164	0.055513073	No	
+row_4	CXXC4	CXXC4	CXXC finger 4	718	3.514388084411621	0.07207989	No	
+row_5	YWHAG	YWHAG	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide	854	3.189272880554199	0.08176575	No	
+row_6	THRA	THRA	thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian)	1091	2.7062931060791016	0.08053756	No	
+row_7	SYT7	SYT7	synaptotagmin VII	1263	2.41249680519104	0.082506076	No	
+row_8	RGL1	RGL1	ral guanine nucleotide dissociation stimulator-like 1	1341	2.288961887359619	0.09100496	No	
+row_9	PANK3	PANK3	pantothenate kinase 3	1422	2.167782783508301	0.09850344	No	
+row_10	PAM	PAM	peptidylglycine alpha-amidating monooxygenase	1461	2.1079952716827393	0.108890675	No	
+row_11	PRKCE	PRKCE	protein kinase C, epsilon	1592	1.9417451620101929	0.11106883	No	
+row_12	GABRA3	GABRA3	gamma-aminobutyric acid (GABA) A receptor, alpha 3	1616	1.9180004596710205	0.121420294	No	
+row_13	DRD3	DRD3	dopamine receptor D3	1627	1.9073566198349	0.13271566	No	
+row_14	CS	CS	citrate synthase	1659	1.8877620697021484	0.1422534	No	
+row_15	GAS6	GAS6	growth arrest-specific 6	1671	1.8753235340118408	0.1532682	No	
+row_16	CRAT	CRAT	carnitine acetyltransferase	1869	1.6387308835983276	0.14831634	No	
+row_17	CITED2	CITED2	Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 2	1988	1.497367024421692	0.14861514	No	
+row_18	SEPT4	SEPT4	septin 4	2180	1.3323876857757568	0.14219092	No	
+row_19	STIM1	STIM1	stromal interaction molecule 1	2305	1.2211295366287231	0.14027444	No	
+row_20	OTX2	OTX2	orthodenticle homolog 2 (Drosophila)	2397	1.1469573974609375	0.14045554	No	
+row_21	HMGCS1	HMGCS1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1 (soluble)	2425	1.1235344409942627	0.14546698	No	
+row_22	ALDOA	ALDOA	aldolase A, fructose-bisphosphate	2509	1.0459669828414917	0.14563116	No	
+row_23	TNKS1BP1	TNKS1BP1	tankyrase 1 binding protein 1, 182kDa	2642	0.950264573097229	0.14137782	No	
+row_24	ATP5B	ATP5B	ATP synthase, H+ transporting, mitochondrial F1 complex, beta polypeptide	2715	0.8979374170303345	0.14146069	No	
+row_25	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.13458222	No	
+row_26	CTRL	CTRL	chymotrypsin-like	3013	0.7213379740715027	0.1281019	No	
+row_27	PPP2R4	PPP2R4	protein phosphatase 2A, regulatory subunit B' (PR 53)	3117	0.6706439256668091	0.12433452	No	
+row_28	DIRC2	DIRC2	disrupted in renal carcinoma 2	3529	0.4791429936885834	0.09539543	No	
+row_29	SLC38A2	SLC38A2	solute carrier family 38, member 2	3686	0.4100200831890106	0.08585544	No	
+row_30	ESM1	ESM1	endothelial cell-specific molecule 1	3856	0.35177645087242126	0.074935496	No	
+row_31	SOCS5	SOCS5	suppressor of cytokine signaling 5	3876	0.3460932672023773	0.07564819	No	
+row_32	MLLT6	MLLT6	myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 6	4085	0.2763907015323639	0.061217226	No	
+row_33	PRKAG1	PRKAG1	protein kinase, AMP-activated, gamma 1 non-catalytic subunit	4263	0.2155907154083252	0.04881292	No	
+row_34	VAMP2	VAMP2	vesicle-associated membrane protein 2 (synaptobrevin 2)	4300	0.20226220786571503	0.047292743	No	
+row_35	ARPC5	ARPC5	actin related protein 2/3 complex, subunit 5, 16kDa	4395	0.17366966605186462	0.041079715	No	
+row_36	HDAC3	HDAC3	histone deacetylase 3	4841	0.05441005900502205	0.0068072425	No	
+row_37	CYCS	CYCS	cytochrome c, somatic	4919	0.03802182152867317	0.001058028	No	
+row_38	CBX4	CBX4	chromobox homolog 4 (Pc class homolog, Drosophila)	5330	-0.06297007948160172	-0.030437585	No	
+row_39	ATN1	ATN1	atrophin 1	5546	-0.11255907267332077	-0.046450112	No	
+row_40	NDUFA12	NDUFA12	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 12	5602	-0.1280999630689621	-0.04991775	No	
+row_41	CHD6	CHD6	chromodomain helicase DNA binding protein 6	5989	-0.21123358607292175	-0.0786079	No	
+row_42	SYNPO2L	SYNPO2L	synaptopodin 2-like	6000	-0.21427814662456512	-0.07802946	No	
+row_43	ALKBH6	ALKBH6	alkB, alkylation repair homolog 6 (E. coli)	6445	-0.3080534040927887	-0.11061861	No	
+row_44	HIST1H1A	HIST1H1A	histone cluster 1, H1a	6564	-0.3380175530910492	-0.117658325	No	
+row_45	MT3	MT3	metallothionein 3 (growth inhibitory factor (neurotrophic))	6670	-0.36187657713890076	-0.12353573	No	
+row_46	PPTC7	PPTC7	PTC7 protein phosphatase homolog (S. cerevisiae)	6889	-0.4113256633281708	-0.13789049	No	
+row_47	KRT10	KRT10	keratin 10 (epidermolytic hyperkeratosis; keratosis palmaris et plantaris)	7129	-0.46833890676498413	-0.15351796	No	
+row_48	HOXD11	HOXD11	homeobox D11	7180	-0.48069682717323303	-0.15436475	No	
+row_49	IGSF3	IGSF3	immunoglobulin superfamily, member 3	7268	-0.49998924136161804	-0.1579677	No	
+row_50	H2AFZ	H2AFZ	H2A histone family, member Z	7927	-0.6662665009498596	-0.20493664	No	
+row_51	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	7946	-0.6703842282295227	-0.20209344	No	
+row_52	LDHB	LDHB	lactate dehydrogenase B	7954	-0.6736766695976257	-0.1983737	No	
+row_53	ARMCX6	ARMCX6	armadillo repeat containing, X-linked 6	8167	-0.732848584651947	-0.21022652	No	
+row_54	SCN2B	SCN2B	sodium channel, voltage-gated, type II, beta	8263	-0.762229323387146	-0.21279185	No	
+row_55	FHL2	FHL2	four and a half LIM domains 2	8443	-0.8198469877243042	-0.22152689	No	
+row_56	HSPBAP1	HSPBAP1	HSPB (heat shock 27kDa) associated protein 1	8736	-0.9212469458580017	-0.23841043	No	
+row_57	ADAM11	ADAM11	ADAM metallopeptidase domain 11	8880	-0.9757001399993896	-0.24335848	No	
+row_58	BAZ2A	BAZ2A	bromodomain adjacent to zinc finger domain, 2A	9018	-1.0339605808258057	-0.24747099	No	
+row_59	ERRFI1	ERRFI1	ERBB receptor feedback inhibitor 1	9309	-1.146240472793579	-0.2627748	No	
+row_60	AAK1	AAK1	AP2 associated kinase 1	9360	-1.1722379922866821	-0.25924423	No	
+row_61	TRIM2	TRIM2	tripartite motif-containing 2	9370	-1.1757460832595825	-0.25250205	No	
+row_62	SYT13	SYT13	synaptotagmin XIII	9738	-1.3539314270019531	-0.27248108	No	
+row_63	ID2	ID2	inhibitor of DNA binding 2, dominant negative helix-loop-helix protein	10152	-1.5696572065353394	-0.29467297	No	
+row_64	EMX2	EMX2	empty spiracles homolog 2 (Drosophila)	10822	-2.150484085083008	-0.33310273	Yes	
+row_65	NPTX2	NPTX2	neuronal pentraxin II	10844	-2.1722617149353027	-0.32098627	Yes	
+row_66	KCNAB3	KCNAB3	potassium voltage-gated channel, shaker-related subfamily, beta member 3	10857	-2.1854403018951416	-0.30808625	Yes	
+row_67	HRH3	HRH3	histamine receptor H3	11085	-2.486786127090454	-0.31000376	Yes	
+row_68	KCNJ16	KCNJ16	potassium inwardly-rectifying channel, subfamily J, member 16	11109	-2.525714874267578	-0.29580557	Yes	
+row_69	ST8SIA5	ST8SIA5	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 5	11420	-3.0116870403289795	-0.3008572	Yes	
+row_70	CLCNKA	CLCNKA	chloride channel Ka	11474	-3.072040319442749	-0.28553453	Yes	
+row_71	SARM1	SARM1	sterile alpha and TIR motif containing 1	11503	-3.1217074394226074	-0.26795274	Yes	
+row_72	ZIC3	ZIC3	Zic family member 3 heterotaxy 1 (odd-paired homolog, Drosophila)	11934	-4.310344219207764	-0.27411896	Yes	
+row_73	ANKRD42	ANKRD42	ankyrin repeat domain 42	12126	-5.2114667892456055	-0.2559892	Yes	
+row_74	AFP	AFP	alpha-fetoprotein	12177	-5.565929412841797	-0.22464725	Yes	
+row_75	VGF	VGF	VGF nerve growth factor inducible	12358	-6.888153553009033	-0.19504863	Yes	
+row_76	PHYHIPL	PHYHIPL	phytanoyl-CoA 2-hydroxylase interacting protein-like	12360	-6.897974491119385	-0.1514633	Yes	
+row_77	ELAVL2	ELAVL2	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 2 (Hu antigen B)	12451	-7.712376594543457	-0.1096463	Yes	
+row_78	SNCB	SNCB	synuclein, beta	12700	-10.425049781799316	-0.062949434	Yes	
+row_79	CNBD1	CNBD1	cyclic nucleotide binding domain containing 1	12852	-12.808341979980469	0.0063790036	Yes	

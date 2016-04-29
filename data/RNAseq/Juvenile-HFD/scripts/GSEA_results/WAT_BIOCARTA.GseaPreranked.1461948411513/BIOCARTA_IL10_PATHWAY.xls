@@ -1,0 +1,18 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL10	IL10	interleukin 10	21	9.050509452819824	0.24839045	Yes	
+row_1	IL6	IL6	interleukin 6 (interferon, beta 2)	1008	2.8525662422180176	0.25086367	Yes	
+row_2	IL10RA	IL10RA	interleukin 10 receptor, alpha	1090	2.7083241939544678	0.31940952	Yes	
+row_3	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	1145	2.6009912490844727	0.3870805	Yes	
+row_4	HMOX1	HMOX1	heme oxygenase (decycling) 1	1660	1.8871469497680664	0.3994226	Yes	
+row_5	IL1A	IL1A	interleukin 1, alpha	1823	1.686923623085022	0.43348244	Yes	
+row_6	BLVRA	BLVRA	biliverdin reductase A	1888	1.6203281879425049	0.47328892	Yes	
+row_7	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	2382	1.1586858034133911	0.46713325	Yes	
+row_8	STAT5B	STAT5B	signal transducer and activator of transcription 5B	2503	1.050046682357788	0.48685095	Yes	
+row_9	STAT6	STAT6	signal transducer and activator of transcription 6, interleukin-4 induced	3288	0.5827511548995972	0.44225866	No	
+row_10	IL10RB	IL10RB	interleukin 10 receptor, beta	3361	0.5479657649993896	0.45182234	No	
+row_11	STAT5A	STAT5A	signal transducer and activator of transcription 5A	3404	0.5344967246055603	0.4633363	No	
+row_12	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	3470	0.5037632584571838	0.47222078	No	
+row_13	JAK1	JAK1	Janus kinase 1 (a protein tyrosine kinase)	3822	0.363411009311676	0.45508844	No	
+row_14	BLVRB	BLVRB	biliverdin reductase B (flavin reductase (NADPH))	4886	0.04411981254816055	0.37401897	No	
+row_15	STAT2	STAT2	signal transducer and activator of transcription 2, 113kDa	7435	-0.5414058566093445	0.19173089	No	
+row_16	STAT4	STAT4	signal transducer and activator of transcription 4	12531	-8.466273307800293	0.031196818	No	

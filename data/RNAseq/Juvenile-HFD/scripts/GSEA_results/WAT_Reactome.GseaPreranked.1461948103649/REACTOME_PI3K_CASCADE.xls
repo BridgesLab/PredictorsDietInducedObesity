@@ -1,0 +1,61 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FGF10	FGF10	fibroblast growth factor 10	208	5.491081714630127	0.043590326	Yes	
+row_1	KLB	KLB	klotho beta	210	5.476083278656006	0.10309513	Yes	
+row_2	EIF4EBP1	EIF4EBP1	eukaryotic translation initiation factor 4E binding protein 1	352	4.656890392303467	0.14281294	Yes	
+row_3	PDE3B	PDE3B	phosphodiesterase 3B, cGMP-inhibited	559	3.9353280067443848	0.16963123	Yes	
+row_4	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	653	3.6605374813079834	0.20223638	Yes	
+row_5	PRKAG3	PRKAG3	protein kinase, AMP-activated, gamma 3 non-catalytic subunit	784	3.3582425117492676	0.22867861	Yes	
+row_6	FGF23	FGF23	fibroblast growth factor 23	856	3.1803576946258545	0.25776792	Yes	
+row_7	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.29056603	Yes	
+row_8	FGF2	FGF2	fibroblast growth factor 2 (basic)	882	3.118696451187134	0.3239553	Yes	
+row_9	IRS1	IRS1	insulin receptor substrate 1	900	3.054851531982422	0.3558732	Yes	
+row_10	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	1009	2.849985122680664	0.37849408	Yes	
+row_11	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.40808925	Yes	
+row_12	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.43801317	Yes	
+row_13	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.46456254	Yes	
+row_14	IRS2	IRS2	insulin receptor substrate 2	1596	1.938812017440796	0.44519174	Yes	
+row_15	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	1638	1.9070321321487427	0.46275672	Yes	
+row_16	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1639	1.9070321321487427	0.48350617	Yes	
+row_17	EEF2K	EEF2K	eukaryotic elongation factor-2 kinase	1753	1.763492226600647	0.49391714	Yes	
+row_18	PRKAA1	PRKAA1	protein kinase, AMP-activated, alpha 1 catalytic subunit	1845	1.6614176034927368	0.5049262	Yes	
+row_19	FGF17	FGF17	fibroblast growth factor 17	1933	1.5683836936950684	0.5152337	Yes	
+row_20	FGF1	FGF1	fibroblast growth factor 1 (acidic)	2179	1.3324229717254639	0.510702	Yes	
+row_21	TLR9	TLR9	toll-like receptor 9	2281	1.2357103824615479	0.51630247	Yes	
+row_22	PRKAB2	PRKAB2	protein kinase, AMP-activated, beta 2 non-catalytic subunit	2448	1.0985370874404907	0.5153619	Yes	
+row_23	INSR	INSR	insulin receptor	2614	0.9725548624992371	0.5131282	Yes	
+row_24	RPS6KB1	RPS6KB1	ribosomal protein S6 kinase, 70kDa, polypeptide 1	2768	0.8617117404937744	0.5106206	Yes	
+row_25	FGF18	FGF18	fibroblast growth factor 18	2789	0.8506987690925598	0.51832324	Yes	
+row_26	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.5266519	Yes	
+row_27	PRKAA2	PRKAA2	protein kinase, AMP-activated, alpha 2 catalytic subunit	3004	0.7249605059623718	0.5188505	No	
+row_28	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	3212	0.6187931895256042	0.5095056	No	
+row_29	PPM1A	PPM1A	protein phosphatase 1A (formerly 2C), magnesium-dependent, alpha isoform	3504	0.48811763525009155	0.49221462	No	
+row_30	PRKAG1	PRKAG1	protein kinase, AMP-activated, gamma 1 non-catalytic subunit	4263	0.2155907154083252	0.43568656	No	
+row_31	GRB2	GRB2	growth factor receptor-bound protein 2	4449	0.15608730912208557	0.42301595	No	
+row_32	STK11	STK11	serine/threonine kinase 11	4517	0.1392497718334198	0.41932717	No	
+row_33	FGF20	FGF20	fibroblast growth factor 20	4906	0.040922436863183975	0.3896365	No	
+row_34	EIF4G1	EIF4G1	eukaryotic translation initiation factor 4 gamma, 1	5087	-0.009452421218156815	0.37575877	No	
+row_35	TSC2	TSC2	tuberous sclerosis 2	5294	-0.05614300072193146	0.36036962	No	
+row_36	RHEB	RHEB	Ras homolog enriched in brain	5420	-0.08753576874732971	0.3516133	No	
+row_37	PIK3C3	PIK3C3	phosphoinositide-3-kinase, class 3	5880	-0.1871822476387024	0.31799948	No	
+row_38	PIK3R4	PIK3R4	phosphoinositide-3-kinase, regulatory subunit 4, p150	6073	-0.22649484872817993	0.30555123	No	
+row_39	CAB39	CAB39	calcium binding protein 39	6106	-0.23449449241161346	0.3056172	No	
+row_40	PRKAG2	PRKAG2	protein kinase, AMP-activated, gamma 2 non-catalytic subunit	6261	-0.26684489846229553	0.29655945	No	
+row_41	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.29532054	No	
+row_42	CAB39L	CAB39L	calcium binding protein 39-like	6417	-0.302776038646698	0.2909256	No	
+row_43	DOK1	DOK1	docking protein 1, 62kDa (downstream of tyrosine kinase 1)	6785	-0.3875720202922821	0.2666377	No	
+row_44	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.2669618	No	
+row_45	FRS2	FRS2	fibroblast growth factor receptor substrate 2	6862	-0.40513482689857483	0.2695835	No	
+row_46	KL	KL	klotho	7254	-0.4949262738227844	0.2445996	No	
+row_47	RPS6	RPS6	ribosomal protein S6	7374	-0.5268065333366394	0.2410888	No	
+row_48	EIF4B	EIF4B	eukaryotic translation initiation factor 4B	7577	-0.5793384313583374	0.23170295	No	
+row_49	FGFR3	FGFR3	fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)	7657	-0.6021212339401245	0.23211841	No	
+row_50	PRKAB1	PRKAB1	protein kinase, AMP-activated, beta 1 non-catalytic subunit	8040	-0.6949774026870728	0.2100102	No	
+row_51	GAB1	GAB1	GRB2-associated binding protein 1	8172	-0.7347733974456787	0.20783015	No	
+row_52	TSC1	TSC1	tuberous sclerosis 1	8298	-0.7743914127349854	0.20654716	No	
+row_53	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	8692	-0.905367910861969	0.18587373	No	
+row_54	FGF5	FGF5	fibroblast growth factor 5	9272	-1.131861686706543	0.15321808	No	
+row_55	EIF4E	EIF4E	eukaryotic translation initiation factor 4E	10146	-1.5672394037246704	0.10246459	No	
+row_56	FGFR4	FGFR4	fibroblast growth factor receptor 4	10504	-1.8241814374923706	0.09458442	No	
+row_57	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	0.09708686	No	
+row_58	FGF22	FGF22	fibroblast growth factor 22	11588	-3.273010730743408	0.06885417	No	
+row_59	FGF6	FGF6	fibroblast growth factor 6	11594	-3.273010730743408	0.10407778	No	

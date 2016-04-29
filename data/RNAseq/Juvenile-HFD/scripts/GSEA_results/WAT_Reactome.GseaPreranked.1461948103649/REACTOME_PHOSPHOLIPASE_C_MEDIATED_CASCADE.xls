@@ -1,0 +1,51 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PRKAR2B	PRKAR2B	protein kinase, cAMP-dependent, regulatory, type II, beta	158	5.863120079040527	0.04993918	Yes	
+row_1	FGF10	FGF10	fibroblast growth factor 10	208	5.491081714630127	0.104390875	Yes	
+row_2	KLB	KLB	klotho beta	210	5.476083278656006	0.16240871	Yes	
+row_3	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	446	4.294555187225342	0.18973114	Yes	
+row_4	ADCY4	ADCY4	adenylate cyclase 4	485	4.150942802429199	0.23081908	Yes	
+row_5	ADCY5	ADCY5	adenylate cyclase 5	524	4.0463151931762695	0.27079704	Yes	
+row_6	FGFR1	FGFR1	fibroblast growth factor receptor 1 (fms-related tyrosine kinase 2, Pfeiffer syndrome)	653	3.6605374813079834	0.29969743	Yes	
+row_7	FGF23	FGF23	fibroblast growth factor 23	856	3.1803576946258545	0.31776053	Yes	
+row_8	FGF2	FGF2	fibroblast growth factor 2 (basic)	882	3.118696451187134	0.34890637	Yes	
+row_9	PRKCA	PRKCA	protein kinase C, alpha	966	2.937005043029785	0.37362328	Yes	
+row_10	PRKCG	PRKCG	protein kinase C, gamma	975	2.9217844009399414	0.40399945	Yes	
+row_11	FGF7	FGF7	fibroblast growth factor 7 (keratinocyte growth factor)	1009	2.849985122680664	0.43167365	Yes	
+row_12	ADCY3	ADCY3	adenylate cyclase 3	1162	2.560685396194458	0.44704315	Yes	
+row_13	PRKCE	PRKCE	protein kinase C, epsilon	1592	1.9417451620101929	0.43434846	Yes	
+row_14	FGF4	FGF4	fibroblast growth factor 4 (heparin secretory transforming protein 1, Kaposi sarcoma oncogene)	1638	1.9070321321487427	0.45108762	Yes	
+row_15	FGF8	FGF8	fibroblast growth factor 8 (androgen-induced)	1639	1.9070321321487427	0.47131923	Yes	
+row_16	FGF17	FGF17	fibroblast growth factor 17	1933	1.5683836936950684	0.4652185	No	
+row_17	FGF1	FGF1	fibroblast growth factor 1 (acidic)	2179	1.3324229717254639	0.46033975	No	
+row_18	ADCY6	ADCY6	adenylate cyclase 6	2772	0.8604217171669006	0.423523	No	
+row_19	FGF18	FGF18	fibroblast growth factor 18	2789	0.8506987690925598	0.43130627	No	
+row_20	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	2870	0.8059123754501343	0.43364736	No	
+row_21	FGF9	FGF9	fibroblast growth factor 9 (glia-activating factor)	3212	0.6187931895256042	0.41374725	No	
+row_22	PRKAR1B	PRKAR1B	protein kinase, cAMP-dependent, regulatory, type I, beta	3784	0.3736932575702667	0.37339664	No	
+row_23	PRKAR1A	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)	3851	0.35278695821762085	0.3720171	No	
+row_24	PLCG1	PLCG1	phospholipase C, gamma 1	3890	0.33916980028152466	0.37266615	No	
+row_25	ADRBK1	ADRBK1	adrenergic, beta, receptor kinase 1	3946	0.318541944026947	0.37177703	No	
+row_26	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.362538	No	
+row_27	FGF20	FGF20	fibroblast growth factor 20	4906	0.040922436863183975	0.30072922	No	
+row_28	ADCY9	ADCY9	adenylate cyclase 9	4967	0.02304287999868393	0.2963171	No	
+row_29	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	6148	-0.2439718097448349	0.20732604	No	
+row_30	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	6454	-0.3091621696949005	0.186935	No	
+row_31	ADCY1	ADCY1	adenylate cyclase 1 (brain)	6537	-0.3325468599796295	0.18409897	No	
+row_32	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	7043	-0.4466542899608612	0.14964464	No	
+row_33	KL	KL	klotho	7254	-0.4949262738227844	0.13859726	No	
+row_34	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	7321	-0.5153549313545227	0.1389424	No	
+row_35	FGFR3	FGFR3	fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)	7657	-0.6021212339401245	0.11933105	No	
+row_36	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	8094	-0.7090162634849548	0.093015164	No	
+row_37	PRKAR2A	PRKAR2A	protein kinase, cAMP-dependent, regulatory, type II, alpha	8354	-0.7941564321517944	0.081339434	No	
+row_38	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8394	-0.8050004839897156	0.08685286	No	
+row_39	FGFR2	FGFR2	ffer syndrome, Jackson-Weiss syndrome)	8692	-0.905367910861969	0.0734078	No	
+row_40	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	8907	-0.9845682382583618	0.06724457	No	
+row_41	ADCY7	ADCY7	adenylate cyclase 7	9067	-1.0541902780532837	0.06608848	No	
+row_42	FGF5	FGF5	fibroblast growth factor 5	9272	-1.131861686706543	0.062263973	No	
+row_43	ADCY8	ADCY8	adenylate cyclase 8 (brain)	9894	-1.4257359504699707	0.029193947	No	
+row_44	PRKCD	PRKCD	protein kinase C, delta	10132	-1.5619250535964966	0.02737084	No	
+row_45	FGFR4	FGFR4	fibroblast growth factor receptor 4	10504	-1.8241814374923706	0.017930306	No	
+row_46	ADCY2	ADCY2	adenylate cyclase 2 (brain)	11099	-2.508901357650757	-0.0015530209	No	
+row_47	FGF22	FGF22	fibroblast growth factor 22	11588	-3.273010730743408	-0.0047033345	No	
+row_48	FGF6	FGF6	fibroblast growth factor 6	11594	-3.273010730743408	0.0296318	No	
+row_49	CAMK4	CAMK4	calcium/calmodulin-dependent protein kinase IV	12373	-7.002352714538574	0.043539062	No	

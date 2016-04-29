@@ -1,0 +1,11 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BCAT2	BCAT2	branched chain aminotransferase 2, mitochondrial	814	3.2796037197113037	0.070716135	No	
+row_1	PDHA1	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	2304	1.2223305702209473	0.005342015	No	
+row_2	PDHB	PDHB	pyruvate dehydrogenase (lipoamide) beta	2495	1.0576958656311035	0.033759378	No	
+row_3	IARS2	IARS2	isoleucine-tRNA synthetase 2, mitochondrial	3188	0.6304228901863098	0.005919262	No	
+row_4	BCAT1	BCAT1	branched chain aminotransferase 1, cytosolic	5457	-0.09465037286281586	-0.16569616	No	
+row_5	LARS	LARS	leucyl-tRNA synthetase	5467	-0.0965275913476944	-0.16245748	No	
+row_6	LARS2	LARS2	leucyl-tRNA synthetase 2, mitochondrial	7442	-0.5439225435256958	-0.29301146	No	
+row_7	IARS	IARS	isoleucine-tRNA synthetase	8392	-0.8041644096374512	-0.33365285	No	
+row_8	VARS	VARS	valyl-tRNA synthetase	10521	-1.84752357006073	-0.4229797	Yes	
+row_9	PDHA2	PDHA2	pyruvate dehydrogenase (lipoamide) alpha 2	12885	-14.953675270080566	0.0037911318	Yes	

@@ -1,0 +1,84 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MYH4	MYH4	myosin, heavy chain 4, skeletal muscle	0	30.0	0.17430872	Yes	
+row_1	CDH13	CDH13	cadherin 13, H-cadherin (heart)	436	4.342645168304443	0.16569388	Yes	
+row_2	ERG	ERG	v-ets erythroblastosis virus E26 oncogene homolog (avian)	561	3.9301376342773438	0.17888081	Yes	
+row_3	HOXA7	HOXA7	homeobox A7	577	3.8885905742645264	0.20030752	Yes	
+row_4	IGSF21	IGSF21	immunoglobin superfamily, member 21	795	3.318134069442749	0.20270231	Yes	
+row_5	ACACA	ACACA	acetyl-Coenzyme A carboxylase alpha	843	3.219956398010254	0.21775417	Yes	
+row_6	ELF4	ELF4	E74-like factor 4 (ets domain transcription factor)	924	3.0098321437835693	0.22901747	Yes	
+row_7	CREB5	CREB5	cAMP responsive element binding protein 5	962	2.9547927379608154	0.24330674	Yes	
+row_8	BDNF	BDNF	brain-derived neurotrophic factor	969	2.932978630065918	0.25988135	Yes	
+row_9	TMEM178	TMEM178	transmembrane protein 178	997	2.8719518184661865	0.27446738	Yes	
+row_10	SULF1	SULF1	sulfatase 1	1004	2.86187744140625	0.29062888	Yes	
+row_11	DLL4	DLL4	delta-like 4 (Drosophila)	1063	2.744927167892456	0.30206478	Yes	
+row_12	BNC2	BNC2	basonuclin 2	1089	2.7084124088287354	0.31585622	Yes	
+row_13	ABLIM1	ABLIM1	actin binding LIM protein 1	1156	2.5765905380249023	0.32569158	Yes	
+row_14	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	1273	2.394650936126709	0.33057934	Yes	
+row_15	RBMS1	RBMS1	RNA binding motif, single stranded interacting protein 1	1427	2.1624321937561035	0.33123896	Yes	
+row_16	SSPN	SSPN	sarcospan (Kras oncogene-associated gene)	1466	2.097142457962036	0.3404672	Yes	
+row_17	SHOX2	SHOX2	short stature homeobox 2	1657	1.8880888223648071	0.3366539	No	
+row_18	LMO3	LMO3	LIM domain only 3 (rhombotin-like 2)	1818	1.6911369562149048	0.33403045	No	
+row_19	HAS2	HAS2	hyaluronan synthase 2	1998	1.4868049621582031	0.32874143	No	
+row_20	ACADSB	ACADSB	acyl-Coenzyme A dehydrogenase, short/branched chain	2004	1.480790376663208	0.3369562	No	
+row_21	DCT	DCT	dopachrome tautomerase (dopachrome delta-isomerase, tyrosine-related protein 2)	2070	1.4294887781143188	0.34020436	No	
+row_22	NFIX	NFIX	nuclear factor I/X (CCAAT-binding transcription factor)	2417	1.1308364868164062	0.31985298	No	
+row_23	CHRND	CHRND	cholinergic receptor, nicotinic, delta	2566	1.0044641494750977	0.3141735	No	
+row_24	ZFP36L1	ZFP36L1	zinc finger protein 36, C3H type-like 1	2854	0.8126978278160095	0.29656434	No	
+row_25	POLG2	POLG2	polymerase (DNA directed), gamma 2, accessory subunit	2860	0.8096150159835815	0.3008794	No	
+row_26	MN1	MN1	meningioma (disrupted in balanced translocation) 1	2894	0.7922987937927246	0.3029152	No	
+row_27	APIP	APIP	APAF1 interacting protein	2904	0.7869098782539368	0.30678707	No	
+row_28	MTUS1	MTUS1	mitochondrial tumor suppressor 1	3061	0.697525680065155	0.29870173	No	
+row_29	COX8A	COX8A	cytochrome c oxidase subunit 8A (ubiquitous)	3063	0.6959266662597656	0.30266744	No	
+row_30	SLC24A4	SLC24A4	solute carrier family 24 (sodium/potassium/calcium exchanger), member 4	3211	0.618955671787262	0.29482585	No	
+row_31	OTP	OTP	orthopedia homolog (Drosophila)	3378	0.5425347685813904	0.28506187	No	
+row_32	HIVEP1	HIVEP1	human immunodeficiency virus type I enhancer binding protein 1	3460	0.5073917508125305	0.28170744	No	
+row_33	PDHX	PDHX	pyruvate dehydrogenase complex, component X	3641	0.43388137221336365	0.2702228	No	
+row_34	EYA1	EYA1	eyes absent homolog 1 (Drosophila)	4304	0.20090174674987793	0.21988061	No	
+row_35	PACSIN3	PACSIN3	protein kinase C and casein kinase substrate in neurons 3	4326	0.19382056593894958	0.21937278	No	
+row_36	DDX17	DDX17	DEAD (Asp-Glu-Ala-Asp) box polypeptide 17	4584	0.12040527909994125	0.20007548	No	
+row_37	NOTCH2	NOTCH2	Notch homolog 2 (Drosophila)	4820	0.05976497009396553	0.18213764	No	
+row_38	NPAS3	NPAS3	neuronal PAS domain protein 3	5039	0.002065137028694153	0.1651873	No	
+row_39	ACVR2A	ACVR2A	activin A receptor, type IIA	5371	-0.0736079141497612	0.13986024	No	
+row_40	COMMD10	COMMD10	COMM domain containing 10	5512	-0.1058550477027893	0.12958205	No	
+row_41	RPA3	RPA3	replication protein A3, 14kDa	5517	-0.10677117854356766	0.12989117	No	
+row_42	MAGI1	MAGI1	membrane associated guanylate kinase, WW and PDZ domain containing 1	5674	-0.14450974762439728	0.118592635	No	
+row_43	LRP5	LRP5	low density lipoprotein receptor-related protein 5	5691	-0.1467994600534439	0.11820064	No	
+row_44	LHX6	LHX6	LIM homeobox 6	6657	-0.3591264486312866	0.045201674	No	
+row_45	NOB1	NOB1	NIN1/RPN12 binding protein 1 homolog (S. cerevisiae)	6819	-0.39564192295074463	0.034973238	No	
+row_46	PHF8	PHF8	PHD finger protein 8	6927	-0.4184390604496002	0.029078936	No	
+row_47	SERPINF1	SERPINF1	serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 1	7187	-0.4821573495864868	0.011727906	No	
+row_48	PCGF1	PCGF1	polycomb group ring finger 1	7382	-0.5282135605812073	-2.979467E-4	No	
+row_49	COL9A2	COL9A2	collagen, type IX, alpha 2	7759	-0.6269387006759644	-0.025911398	No	
+row_50	TAF10	TAF10	TAF10 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 30kDa	7763	-0.627781331539154	-0.022497233	No	
+row_51	EDC4	EDC4	enhancer of mRNA decapping 4	7802	-0.6348723769187927	-0.021765178	No	
+row_52	IKZF5	IKZF5	IKAROS family zinc finger 5 (Pegasus)	7987	-0.6827191710472107	-0.032115217	No	
+row_53	ZDHHC21	ZDHHC21	zinc finger, DHHC-type containing 21	8277	-0.7660314440727234	-0.050151125	No	
+row_54	WSB2	WSB2	WD repeat and SOCS box-containing 2	8363	-0.7964985966682434	-0.052136995	No	
+row_55	ASXL1	ASXL1	additional sex combs like 1 (Drosophila)	8385	-0.8028526306152344	-0.049106173	No	
+row_56	ERF	ERF	Ets2 repressor factor	8786	-0.9415677189826965	-0.074758954	No	
+row_57	SESN3	SESN3	sestrin 3	8935	-0.9946951270103455	-0.0804952	No	
+row_58	DCX	DCX	doublecortex; lissencephaly, X-linked (doublecortin)	9020	-1.035149097442627	-0.08101663	No	
+row_59	RCN1	RCN1	reticulocalbin 1, EF-hand calcium binding domain	9131	-1.077897310256958	-0.08331271	No	
+row_60	HOXB3	HOXB3	homeobox B3	9354	-1.1689778566360474	-0.09379419	No	
+row_61	OGDHL	OGDHL	oxoglutarate dehydrogenase-like	9387	-1.1828176975250244	-0.08941156	No	
+row_62	IPO4	IPO4	importin 4	9402	-1.1904428005218506	-0.08358406	No	
+row_63	ASCL4	ASCL4	achaete-scute complex-like 4 (Drosophila)	9418	-1.1967359781265259	-0.077797815	No	
+row_64	MPPED2	MPPED2	metallophosphoesterase domain containing 2	9838	-1.3938690423965454	-0.102300964	No	
+row_65	ROBO3	ROBO3	roundabout, axon guidance receptor, homolog 3 (Drosophila)	10021	-1.4959886074066162	-0.107770056	No	
+row_66	HOXB8	HOXB8	homeobox B8	10090	-1.5324329137802124	-0.10415718	No	
+row_67	CORO2A	CORO2A	coronin, actin binding protein, 2A	10398	-1.738671064376831	-0.117942326	No	
+row_68	BMPR1B	BMPR1B	bone morphogenetic protein receptor, type IB	10549	-1.8654115200042725	-0.11877508	No	
+row_69	BARHL1	BARHL1	BarH-like 1 (Drosophila)	10882	-2.2120883464813232	-0.13175476	No	
+row_70	CREM	CREM	cAMP responsive element modulator	11063	-2.456967353820801	-0.13148466	No	
+row_71	KCNJ16	KCNJ16	potassium inwardly-rectifying channel, subfamily J, member 16	11109	-2.525714874267578	-0.120310925	No	
+row_72	SLC26A9	SLC26A9	solute carrier family 26, member 9	11282	-2.7584125995635986	-0.11766688	No	
+row_73	ELF5	ELF5	E74-like factor 5 (ets domain transcription factor)	11344	-2.8786702156066895	-0.10568731	No	
+row_74	TNMD	TNMD	tenomodulin	11452	-3.051652193069458	-0.09628188	No	
+row_75	SOX14	SOX14	SRY (sex determining region Y)-box 14	11593	-3.273010730743408	-0.08815798	No	
+row_76	PHOX2B	PHOX2B	paired-like homeobox 2b	11618	-3.3210484981536865	-0.07072914	No	
+row_77	TRPM1	TRPM1	transient receptor potential cation channel, subfamily M, member 1	11856	-4.009519577026367	-0.06587338	No	
+row_78	ELAVL4	ELAVL4	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 4 (Hu antigen D)	11875	-4.094412326812744	-0.043484207	No	
+row_79	PNOC	PNOC	prepronociceptin	11880	-4.113417625427246	-0.019895293	No	
+row_80	CNTNAP4	CNTNAP4	contactin associated protein-like 4	12007	-4.613211154937744	-0.0028951173	No	
+row_81	EPHA7	EPHA7	EPH receptor A7	12117	-5.173051357269287	0.018680645	No	
+row_82	ELAVL2	ELAVL2	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 2 (Hu antigen B)	12451	-7.712376594543457	0.03758143	No	

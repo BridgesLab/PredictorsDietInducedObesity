@@ -1,0 +1,47 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KLF14	KLF14	Kruppel-like factor 14	17	9.234391212463379	0.08295842	Yes	
+row_1	ADPRHL1	ADPRHL1	ADP-ribosylhydrolase like 1	56	7.158107280731201	0.14533842	Yes	
+row_2	ISL1	ISL1	ISL1 transcription factor, LIM/homeodomain, (islet-1)	75	6.79944372177124	0.20599678	Yes	
+row_3	TSHB	TSHB	thyroid stimulating hormone, beta	162	5.8335442543029785	0.25256407	Yes	
+row_4	SIX1	SIX1	sine oculis homeobox homolog 1 (Drosophila)	236	5.299854755401611	0.29526928	Yes	
+row_5	NRP1	NRP1	neuropilin 1	731	3.4623281955718994	0.28854087	Yes	
+row_6	MYCT1	MYCT1	myc target 1	909	3.029679536819458	0.3024585	Yes	
+row_7	CREB5	CREB5	cAMP responsive element binding protein 5	962	2.9547927379608154	0.32539088	Yes	
+row_8	ACTC1	ACTC1	actin, alpha, cardiac muscle 1	1045	2.7821543216705322	0.3444201	Yes	
+row_9	ADAMTS3	ADAMTS3	ADAM metallopeptidase with thrombospondin type 1 motif, 3	1251	2.4354381561279297	0.350742	Yes	
+row_10	LMO2	LMO2	LIM domain only 2 (rhombotin-like 1)	1331	2.308717727661133	0.3656832	Yes	
+row_11	FHL3	FHL3	four and a half LIM domains 3	1365	2.2581214904785156	0.38373154	Yes	
+row_12	ZFPM2	ZFPM2	zinc finger protein, multitype 2	1387	2.2325494289398193	0.40247753	Yes	
+row_13	HOXA1	HOXA1	homeobox A1	1603	1.9333473443984985	0.40344128	Yes	
+row_14	TMEM47	TMEM47	transmembrane protein 47	1791	1.7205488681793213	0.4046353	Yes	
+row_15	HOXA3	HOXA3	homeobox A3	2178	1.3327629566192627	0.3868507	No	
+row_16	SORCS1	SORCS1	sortilin-related VPS10 domain containing receptor 1	2210	1.3035967350006104	0.3963428	No	
+row_17	MBNL2	MBNL2	muscleblind-like 2 (Drosophila)	2475	1.0790985822677612	0.38570857	No	
+row_18	RBM39	RBM39	RNA binding motif protein 39	2872	0.8052809834480286	0.36233407	No	
+row_19	IL7	IL7	interleukin 7	2937	0.7677170038223267	0.36437514	No	
+row_20	HS3ST5	HS3ST5	heparan sulfate (glucosamine) 3-O-sulfotransferase 5	3257	0.5961606502532959	0.34506622	No	
+row_21	MSX2	MSX2	msh homeobox homolog 2 (Drosophila)	3487	0.49573829770088196	0.33182347	No	
+row_22	MTMR10	MTMR10	myotubularin related protein 10	3926	0.3271876275539398	0.30082706	No	
+row_23	SPINK4	SPINK4	serine peptidase inhibitor, Kazal type 4	4250	0.21839825809001923	0.27776015	No	
+row_24	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	4564	0.12503086030483246	0.25461695	No	
+row_25	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	4706	0.0922367200255394	0.24451919	No	
+row_26	RSPO2	RSPO2	R-spondin 2 homolog (Xenopus laevis)	4925	0.03636619448661804	0.22793745	No	
+row_27	PPARGC1A	PPARGC1A	peroxisome proliferative activated receptor, gamma, coactivator 1, alpha	5430	-0.08919770270586014	0.18964839	No	
+row_28	VAMP1	VAMP1	vesicle-associated membrane protein 1 (synaptobrevin 1)	5840	-0.17840352654457092	0.1595441	No	
+row_29	NCDN	NCDN	neurochondrin	6596	-0.3472099304199219	0.10413582	No	
+row_30	RAI1	RAI1	retinoic acid induced 1	6692	-0.3665506839752197	0.10011051	No	
+row_31	HTR3B	HTR3B	5-hydroxytryptamine (serotonin) receptor 3B	7994	-0.6846834421157837	0.0054204636	No	
+row_32	PLAG1	PLAG1	pleiomorphic adenoma gene 1	8075	-0.702643096446991	0.0056262705	No	
+row_33	SRPK2	SRPK2	SFRS protein kinase 2	8095	-0.7090294361114502	0.01062308	No	
+row_34	TSC1	TSC1	tuberous sclerosis 1	8298	-0.7743914127349854	0.0020182603	No	
+row_35	RUNX1T1	RUNX1T1	runt-related transcription factor 1; translocated to, 1 (cyclin D-related)	8680	-0.9005721807479858	-0.019322786	No	
+row_36	ESRRG	ESRRG	estrogen-related receptor gamma	9383	-1.1810345649719238	-0.06300916	No	
+row_37	ZFPM1	ZFPM1	zinc finger protein, multitype 1	10248	-1.634401798248291	-0.115126744	No	
+row_38	CHCHD7	CHCHD7	coiled-coil-helix-coiled-coil-helix domain containing 7	10339	-1.7061703205108643	-0.10653813	No	
+row_39	SCUBE3	SCUBE3	signal peptide, CUB domain, EGF-like 3	10511	-1.8338983058929443	-0.10306825	No	
+row_40	CACNA1D	CACNA1D	calcium channel, voltage-dependent, L type, alpha 1D subunit	10559	-1.8753883838653564	-0.089599095	No	
+row_41	FABP2	FABP2	fatty acid binding protein 2, intestinal	10581	-1.8909672498703003	-0.07397054	No	
+row_42	KCNJ13	KCNJ13	potassium inwardly-rectifying channel, subfamily J, member 13	10595	-1.908602237701416	-0.057560354	No	
+row_43	TDRD5	TDRD5	tudor domain containing 5	12219	-5.819672584533691	-0.13036862	No	
+row_44	CTNNA3	CTNNA3	catenin (cadherin-associated protein), alpha 3	12595	-9.201285362243652	-0.07548796	No	
+row_45	PLAC1	PLAC1	placenta-specific 1	12759	-11.144705772399902	0.013577403	No	

@@ -1,0 +1,14 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SOD3	SOD3	superoxide dismutase 3, extracellular	220	5.374821662902832	0.2216281	Yes	
+row_1	GHR	GHR	growth hormone receptor	345	4.686674118041992	0.4201302	Yes	
+row_2	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.49161696	Yes	
+row_3	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.5912244	Yes	
+row_4	CAT	CAT	catalase	1411	2.1885175704956055	0.6713739	Yes	
+row_5	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	1432	2.1561176776885986	0.7655623	Yes	
+row_6	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.69717133	No	
+row_7	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.577601	No	
+row_8	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	4581	0.12074205279350281	0.57205063	No	
+row_9	SOD2	SOD2	superoxide dismutase 2, mitochondrial	5714	-0.15190961956977844	0.49119318	No	
+row_10	SOD1	SOD1	superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult))	5967	-0.20598283410072327	0.4808376	No	
+row_11	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.4469695	No	
+row_12	IGF1R	IGF1R	insulin-like growth factor 1 receptor	8839	-0.9607782959938049	0.31690142	No	

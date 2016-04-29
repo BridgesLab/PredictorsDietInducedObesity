@@ -1,0 +1,23 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.08991167	Yes	
+row_1	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	1190	2.515192985534668	0.2300576	Yes	
+row_2	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.23698899	Yes	
+row_3	ELK1	ELK1	ELK1, member of ETS oncogene family	2211	1.301913857460022	0.31137043	Yes	
+row_4	MAPK3	MAPK3	mitogen-activated protein kinase 3	2387	1.155957579612732	0.3677801	Yes	
+row_5	PLD1	PLD1	phospholipase D1, phosphatidylcholine-specific	2641	0.9558916091918945	0.4060408	Yes	
+row_6	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	2687	0.914352297782898	0.45789516	Yes	
+row_7	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.5002251	Yes	
+row_8	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	3339	0.5595468878746033	0.49250454	Yes	
+row_9	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	3452	0.510755181312561	0.5147435	Yes	
+row_10	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	3546	0.47146815061569214	0.53607607	Yes	
+row_11	BCL2L1	BCL2L1	BCL2-like 1	3973	0.3092285990715027	0.5218015	No	
+row_12	RALA	RALA	v-ral simian leukemia viral oncogene homolog A (ras related)	4368	0.18159480392932892	0.50228024	No	
+row_13	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.50655466	No	
+row_14	RALBP1	RALBP1	ralA binding protein 1	4588	0.12003476917743683	0.5023582	No	
+row_15	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	4699	0.09381861984729767	0.49951783	No	
+row_16	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	5337	-0.06486169993877411	0.4541133	No	
+row_17	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.43768862	No	
+row_18	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.44086987	No	
+row_19	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.40385377	No	
+row_20	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	6606	-0.3491964340209961	0.41422382	No	
+row_21	RALGDS	RALGDS	ral guanine nucleotide dissociation stimulator	9538	-1.2515519857406616	0.26299083	No	

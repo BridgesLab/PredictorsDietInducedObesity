@@ -1,0 +1,30 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	874	3.135751247406006	0.03509486	Yes	
+row_1	IRS1	IRS1	insulin receptor substrate 1	900	3.054851531982422	0.13332053	Yes	
+row_2	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	1024	2.819960832595825	0.21625121	Yes	
+row_3	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	1033	2.8073432445526123	0.30767876	Yes	
+row_4	TRIB3	TRIB3	tribbles homolog 3 (Drosophila)	1074	2.7256267070770264	0.39394754	Yes	
+row_5	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	1521	2.022127151489258	0.42569166	Yes	
+row_6	IRS2	IRS2	insulin receptor substrate 2	1596	1.938812017440796	0.48352784	Yes	
+row_7	RHOA	RHOA	ras homolog gene family, member A	2153	1.3454402685165405	0.4845615	Yes	
+row_8	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	2468	1.0807881355285645	0.49566874	Yes	
+row_9	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2801	0.8439916968345642	0.49761713	Yes	
+row_10	RPS6KB2	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2	3247	0.5995216369628906	0.48279423	No	
+row_11	CREB1	CREB1	cAMP responsive element binding protein 1	4103	0.27034470438957214	0.42541006	No	
+row_12	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	4156	0.25245970487594604	0.4296586	No	
+row_13	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	4439	0.16019266843795776	0.4130607	No	
+row_14	CDKN1B	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	4463	0.15238550305366516	0.41627502	No	
+row_15	TSC2	TSC2	tuberous sclerosis 2	5294	-0.05614300072193146	0.35380465	No	
+row_16	BAD	BAD	BCL2-antagonist of cell death	5660	-0.1406312733888626	0.33013427	No	
+row_17	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	5743	-0.15748493373394012	0.32894427	No	
+row_18	AKT1S1	AKT1S1	AKT1 substrate 1 (proline-rich)	5795	-0.1695411056280136	0.33055156	No	
+row_19	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	6317	-0.2787519097328186	0.2993225	No	
+row_20	RICTOR	RICTOR	-	6436	-0.3057534098625183	0.30020452	No	
+row_21	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	6466	-0.312221497297287	0.30819464	No	
+row_22	GSK3A	GSK3A	glycogen synthase kinase 3 alpha	6658	-0.3594367802143097	0.30518058	No	
+row_23	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	6838	-0.4009888172149658	0.3044587	No	
+row_24	NTRK1	NTRK1	neurotrophic tyrosine kinase, receptor, type 1	7430	-0.5385637283325195	0.27632454	No	
+row_25	NR4A1	NR4A1	nuclear receptor subfamily 4, group A, member 1	7660	-0.6023550629615784	0.27833092	No	
+row_26	MAPKAP1	MAPKAP1	mitogen-activated protein kinase associated protein 1	8727	-0.9182534217834473	0.22584146	No	
+row_27	MDM2	MDM2	Mdm2, transformed 3T3 cell double minute 2, p53 binding protein (mouse)	8845	-0.9631680846214294	0.24835636	No	
+row_28	THEM4	THEM4	thioesterase superfamily member 4	10765	-2.085991859436035	0.16806151	No	
