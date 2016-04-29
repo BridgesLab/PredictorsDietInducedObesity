@@ -14,7 +14,7 @@ class Read:
          for line in self.lines:
             values = [ v.strip() for v in line.split(token) ]
             if len(values) != len(self.keys):
-               print "Missing values:",line
+               print ("Missing values:",line)
                return
             for i,v in enumerate(values):
                try:
@@ -40,7 +40,7 @@ class Read:
 
 if __name__ == '__main__':
    data = Read("customer.txt", "\t")
-   print data.keys
-   print data['COMPANY']
-   print data['FIRSTNAME']
-   print data['AGE']
+   print (data.keys)
+   print (data['COMPANY'])
+   print (data['FIRSTNAME'])
+   print (data['AGE'])
