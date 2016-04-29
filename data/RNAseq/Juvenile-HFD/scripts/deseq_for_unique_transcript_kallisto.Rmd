@@ -25,7 +25,7 @@ sample.table <- read.csv(sample.table_file)
 sample.table$Barcode <- paste(sample.table$Barcode, "counts.txt", sep="-")
 rownames(sample.table) <- as.character(lapply(strsplit(sample.table$Barcode, "-"), "[[",1))
 
-wat_outliers <- c("IonXpress_RNA_036", "IonXpress_RNA_040")
+wat_outliers <- c("IonXpress_RNA_040")
 poss_outliers <- c("IonXpress_RNA_026", "IonXpress_RNA_027", "IonXpress_RNA_042", "IonXpress_RNA_030", "IonXpress_RNA_041", "IonXpress_RNA_040")
 
 annotation_file <- 'ENSEMBL Annotation - Transcripts.csv'
@@ -68,6 +68,8 @@ c$Mark <- ifelse(rownames(c)%in%poss_outliers, "*", "")
 kable(c, caption="Total counts and max count for each eWAT samples")
 
 ```
+ 
+  Those with asterisks are those 6 samples that are different from the rest according to PCA.
 
 ```{r wat_counts_stats, echo=FALSE}
 library(stargazer)
@@ -88,11 +90,11 @@ wat.counts.noOutliers <- wat.counts[, !colnames(wat.counts)%in%wat_outliers]
 library(DESeq2)
 #subsettted the sample tables and counts tables
 sample.table.wat <- subset(sample.table, Tissue=="eWAT")
-#sample.table.wat <- sample.table.wat[!rownames(sample.table.wat)%in%wat_outliers,]
+sample.table.wat <- sample.table.wat[!rownames(sample.table.wat)%in%wat_outliers,]
 sample.table.quad <- subset(sample.table, Tissue=="Quadriceps")
 
 dds.wat.feeding <- DESeqDataSetFromMatrix(colData = sample.table.wat,
-                                       countData = wat.counts,  
+                                       countData = wat.counts.noOutliers,  
                                        design= ~ Feeding+Diet+Feeding:Diet)
 
 dds.wat.feeding <- DESeq(dds.wat.feeding, parallel=T)
